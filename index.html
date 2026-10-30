@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Magic Home Tour – USS Practice Game</title>
+  <meta name="description" content="A free 3D practice game for the Kerala USS scholarship exam (Classes 5–7), in Malayalam and English medium.">
+  <meta name="theme-color" content="#ff8a3d">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">{ "imports": { "three": "./js/lib/three.module.min.js" } }</script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <canvas id="fx"></canvas>
+
+  <!-- Loading screen -->
+  <div id="loading" class="screen">
+    <div class="loader-house">🏡</div>
+    <p data-i18n="loading">Getting the house ready…</p>
+  </div>
+
+  <!-- Start screen -->
+  <div id="start" class="screen hidden">
+    <div class="start-card">
+      <div class="start-emoji">🏡✨</div>
+      <h1 data-i18n="title">Magic Home Tour</h1>
+      <p class="subtitle" data-i18n="subtitle"></p>
+      <p class="label" data-i18n="chooseMedium"></p>
+      <div class="medium-row">
+        <button class="medium-btn" data-lang="ml">മലയാളം</button>
+        <button class="medium-btn" data-lang="en">English</button>
+      </div>
+      <button id="play-btn" class="big-btn" data-i18n="play">Let's play!</button>
+      <p class="start-stats" id="start-stats"></p>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <div id="hud" class="hidden">
+    <div class="hud-pill" title="coins">🪙 <span id="hud-coins">0</span></div>
+    <div class="hud-pill hud-level">⭐ <span data-i18n="level">Level</span> <span id="hud-level">1</span>
+      <div class="xp-bar"><div id="hud-xp"></div></div>
+    </div>
+    <div class="hud-pill">🚪 <span id="hud-rooms">0/0</span></div>
+    <div class="hud-spacer"></div>
+    <button class="hud-btn" id="lang-btn">English</button>
+    <button class="hud-btn icon" id="sound-btn" aria-label="sound">🔊</button>
+    <button class="hud-btn icon" id="settings-btn" aria-label="settings">⚙️</button>
+  </div>
+
+  <div id="tip" class="hidden"></div>
+  <div id="toasts"></div>
+
+  <!-- Door prompt -->
+  <div id="prompt" class="hidden">
+    <div class="prompt-emoji" id="prompt-emoji">🔒</div>
+    <p id="prompt-text"></p>
+    <div class="btn-row">
+      <button class="big-btn" id="prompt-go" data-i18n="startQuiz"></button>
+      <button class="soft-btn" id="prompt-no" data-i18n="notNow"></button>
+    </div>
+  </div>
+
+  <!-- Quiz panel -->
+  <div id="quiz" class="overlay hidden">
+    <div class="quiz-card">
+      <div class="quiz-top">
+        <span id="quiz-room"></span>
+        <span id="quiz-count"></span>
+        <button class="soft-btn small" id="quiz-lang">English</button>
+        <button class="close-x" id="quiz-close" aria-label="close">✕</button>
+      </div>
+      <div class="dots" id="quiz-dots"></div>
+      <div id="quiz-body">
+        <p class="q-text" id="q-text"></p>
+        <div class="options" id="q-options"></div>
+        <div class="feedback hidden" id="q-feedback"></div>
+        <p class="q-source" id="q-source"></p>
+        <button class="big-btn hidden" id="q-next"></button>
+      </div>
+      <div id="quiz-result" class="hidden">
+        <div class="result-emoji" id="r-emoji">🎉</div>
+        <h2 id="r-title"></h2>
+        <div class="stars" id="r-stars"></div>
+        <p id="r-text"></p>
+        <div class="btn-row">
+          <button class="big-btn" id="r-main"></button>
+          <button class="soft-btn" id="r-later" data-i18n="later"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings -->
+  <div id="settings" class="overlay hidden">
+    <div class="modal-card">
+      <h2 data-i18n="settings">Settings</h2>
+      <label class="row"><input type="checkbox" id="set-low"> <span data-i18n="lowGraphics"></span></label>
+      <label class="row"><input type="checkbox" id="set-sound"> <span data-i18n="sound"></span></label>
+      <div class="row"><span data-i18n="medium"></span>
+        <button class="soft-btn small" data-lang="ml">മലയാളം</button>
+        <button class="soft-btn small" data-lang="en">English</button>
+      </div>
+      <div class="btn-row">
+        <button class="soft-btn" id="credits-btn" data-i18n="credits"></button>
+        <button class="soft-btn danger" id="reset-btn" data-i18n="resetProgress"></button>
+      </div>
+      <p class="small-note" data-i18n="privacy"></p>
+      <button class="big-btn" data-close="settings" data-i18n="close"></button>
+    </div>
+  </div>
+
+  <!-- Credits -->
+  <div id="credits" class="overlay hidden">
+    <div class="modal-card">
+      <h2 data-i18n="credits">Credits</h2>
+      <h3 data-i18n="creditsQuestions"></h3>
+      <ul id="credits-list"></ul>
+      <p class="small-note" data-i18n="unreviewedNote"></p>
+      <p class="small-note" data-i18n="creditsMade"></p>
+      <button class="big-btn" data-close="credits" data-i18n="close"></button>
+    </div>
+  </div>
+
+  <!-- Touch controls -->
+  <div id="joy-zone"></div>
+  <div id="joystick" class="hidden"><div id="joy-knob"></div></div>
+  <div id="cam-btns" class="hidden">
+    <button class="hud-btn icon" id="cam-left" aria-label="turn left">⟲</button>
+    <button class="hud-btn icon" id="cam-right" aria-label="turn right">⟳</button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

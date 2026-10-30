@@ -1,0 +1,101 @@
+// Keyboard (arrows / WASD, Q/E to turn), on-screen joystick for phones, and drag-to-turn camera.
+const keys = new Set();
+const joy = { active: false, id: null, ox: 0, oy: 0, x: 0, y: 0 };
+const drag = { id: null, lastX: 0 };
+let yawDelta = 0;
+let turnButtons = 0;
+let enabled = true;
+
+const joyEl = document.getElementById('joystick');
+const knob = document.getElementById('joy-knob');
+const zone = document.getElementById('joy-zone');
+const canvas = document.getElementById('game');
+const RADIUS = 50;
+
+export function initControls({ onAction }) {
+  addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT') return;
+    keys.add(e.code);
+    if (['Enter', 'Space', 'KeyF'].includes(e.code)) onAction?.(e);
+    if (e.code.startsWith('Arrow') || e.code === 'Space') e.preventDefault();
+  });
+  addEventListener('keyup', (e) => keys.delete(e.code));
+  addEventListener('blur', () => keys.clear());
+
+  // switch to touch mode the first time the screen is touched
+  const becomeTouch = () => document.body.classList.add('touch');
+  if (matchMedia('(pointer: coarse)').matches) becomeTouch();
+  addEventListener('touchstart', becomeTouch, { once: true, passive: true });
+
+  zone.addEventListener('pointerdown', (e) => {
+    if (joy.active) return;
+    joy.active = true; joy.id = e.pointerId; joy.ox = e.clientX; joy.oy = e.clientY; joy.x = joy.y = 0;
+    joyEl.style.left = `${e.clientX}px`; joyEl.style.top = `${e.clientY}px`;
+    joyEl.classList.remove('hidden');
+    knob.style.transform = 'translate(0px, 0px)';
+    try { zone.setPointerCapture(e.pointerId); } catch (err) { /* not needed for mouse */ }
+  });
+  zone.addEventListener('pointermove', (e) => {
+    if (!joy.active || e.pointerId !== joy.id) return;
+    let dx = e.clientX - joy.ox, dy = e.clientY - joy.oy;
+    const len = Math.hypot(dx, dy);
+    if (len > RADIUS) { dx = (dx / len) * RADIUS; dy = (dy / len) * RADIUS; }
+    knob.style.transform = `translate(${dx}px, ${dy}px)`;
+    joy.x = dx / RADIUS; joy.y = -dy / RADIUS;
+  });
+  const endJoy = (e) => {
+    if (e.pointerId !== joy.id) return;
+    joy.active = false; joy.id = null; joy.x = joy.y = 0;
+    joyEl.classList.add('hidden');
+  };
+  zone.addEventListener('pointerup', endJoy);
+  zone.addEventListener('pointercancel', endJoy);
+
+  // drag on the 3D view (right side on phones, anywhere with a mouse) turns the camera
+  canvas.addEventListener('pointerdown', (e) => { drag.id = e.pointerId; drag.lastX = e.clientX; try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } });
+  canvas.addEventListener('pointermove', (e) => {
+    if (e.pointerId !== drag.id) return;
+    yawDelta -= (e.clientX - drag.lastX) * 0.008;
+    drag.lastX = e.clientX;
+  });
+  const endDrag = (e) => { if (e.pointerId === drag.id) drag.id = null; };
+  canvas.addEventListener('pointerup', endDrag);
+  canvas.addEventListener('pointercancel', endDrag);
+
+  const hold = (id, dir) => {
+    const el = document.getElementById(id);
+    el.addEventListener('pointerdown', (e) => { e.stopPropagation(); turnButtons = dir; });
+    for (const ev of ['pointerup', 'pointerleave', 'pointercancel']) el.addEventListener(ev, () => { turnButtons = 0; });
+  };
+  hold('cam-left', 1);
+  hold('cam-right', -1);
+}
+
+export function setControlsEnabled(on) {
+  enabled = on;
+  if (!on) { keys.clear(); joy.active = false; joy.x = joy.y = 0; joyEl.classList.add('hidden'); turnButtons = 0; }
+}
+
+// x = right, y = forward (both -1 … 1)
+export function getMove() {
+  if (!enabled) return { x: 0, y: 0 };
+  let x = 0, y = 0;
+  if (keys.has('KeyW') || keys.has('ArrowUp')) y += 1;
+  if (keys.has('KeyS') || keys.has('ArrowDown')) y -= 1;
+  if (keys.has('KeyD') || keys.has('ArrowRight')) x += 1;
+  if (keys.has('KeyA') || keys.has('ArrowLeft')) x -= 1;
+  if (joy.active) { x += joy.x; y += joy.y; }
+  const len = Math.hypot(x, y);
+  if (len > 1) { x /= len; y /= len; }
+  return { x, y };
+}
+
+export function takeYaw(dt) {
+  let d = yawDelta;
+  yawDelta = 0;
+  if (!enabled) return 0;
+  if (keys.has('KeyQ')) d += dt * 2;
+  if (keys.has('KeyE')) d -= dt * 2;
+  d += turnButtons * dt * 2;
+  return d;
+}

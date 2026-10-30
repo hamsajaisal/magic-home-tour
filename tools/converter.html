@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question Converter – Magic Home Tour</title>
+<style>
+  @font-face { font-family: "Baloo Chettan 2"; font-weight: 500; src: url(../assets/fonts/baloo-chettan-2-malayalam-500.woff2) format("woff2"); unicode-range: U+0D00-0DFF, U+200C-200D; }
+  @font-face { font-family: "Baloo Chettan 2"; font-weight: 500; src: url(../assets/fonts/baloo-chettan-2-latin-500.woff2) format("woff2"); unicode-range: U+0000-00FF, U+2000-206F; }
+  :root { --o: #ff8a3d; --ink: #3a2a1a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Baloo Chettan 2", "Nirmala UI", system-ui, sans-serif; color: var(--ink); background: #fff8ee; line-height: 1.45; }
+  header { background: var(--o); color: #fff; padding: 14px 20px; }
+  header h1 { margin: 0; font-size: 1.6rem; }
+  header p { margin: 2px 0 0; }
+  main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 14px; }
+  .tabs button { font: inherit; font-weight: 700; padding: 8px 16px; border-radius: 12px; border: 2px solid #eadbc4; background: #fff; cursor: pointer; }
+  .tabs button.on { border-color: var(--o); background: #ffe9d6; }
+  section { background: #fff; border-radius: 16px; padding: 14px 16px; margin-bottom: 14px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+  h2 { margin: 0 0 8px; font-size: 1.2rem; color: #c4561a; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+  textarea, input, select { font: inherit; width: 100%; border: 2px solid #eadbc4; border-radius: 10px; padding: 8px; background: #fffdf9; }
+  textarea { min-height: 220px; }
+  label { font-weight: 700; display: block; margin: 6px 0 2px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+  .btn { font: inherit; font-weight: 800; font-size: 1.05rem; color: #fff; background: var(--o); border: none; border-radius: 12px; padding: 10px 20px; cursor: pointer; box-shadow: 0 3px 0 #d0631f; }
+  .btn.soft { background: #fff; color: var(--ink); border: 2px solid #eadbc4; box-shadow: none; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .help { background: #eef6ff; border-radius: 12px; padding: 10px 14px; }
+  .help ol { margin: 4px 0; padding-left: 22px; }
+  .warn { background: #fff1d6; border-radius: 10px; padding: 8px 12px; margin: 8px 0; }
+  .card { border: 3px solid #cdeccf; border-radius: 14px; padding: 10px 12px; margin: 10px 0; background: #fbfffb; }
+  .card.review { border-color: #ffb3a8; background: #fff8f6; }
+  .card .top { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-weight: 800; }
+  .notes { color: #c0392b; font-weight: 700; margin: 4px 0; }
+  .lang { border-top: 1px dashed #ddd; margin-top: 8px; padding-top: 6px; }
+  .opts { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .card textarea { min-height: 50px; }
+  .card input, .card textarea, .card select { padding: 5px 8px; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { border: 1px solid #eadbc4; padding: 6px 10px; text-align: left; }
+  .ok { color: #1e8e4e; font-weight: 800; }
+  .bad { color: #c0392b; font-weight: 800; }
+  .hidden { display: none; }
+  small { opacity: .75; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>🏡 Question Converter</h1>
+  <p>Turn a question paper into question files for Magic Home Tour, and check your question files for mistakes.</p>
+</header>
+<main>
+  <div class="tabs">
+    <button class="on" data-tab="convert">1. Convert a paper</button>
+    <button data-tab="check">2. Check my question files</button>
+  </div>
+
+  <div id="tab-convert">
+    <section class="help">
+      <b>How to use (step by step)</b>
+      <ol>
+        <li>Paste the <b>English</b> paper text in the left box and/or the <b>Malayalam</b> paper text in the right box. (Or click "Open PDF / text file".) If you have both versions of the same paper, paste both – questions with the same number are joined together.</li>
+        <li>Fill in the details below (subject, class, source).</li>
+        <li>Click <b>Convert</b>. Check every <span class="bad">red</span> card – fix the words in the boxes, then tick "I checked this".</li>
+        <li>Click <b>Download file</b>. Put the file in the game's <code>data/questions</code> folder (see README).</li>
+      </ol>
+      <small>Works best when questions look like "1. Question … (A) … (B) … (C) … (D) …" with "Answer: B" under each question, or an "Answer key" list at the end. Scanned PDFs (photos of pages) cannot be read – type those questions instead.</small>
+    </section>
+
+    <section>
+      <div class="two">
+        <div>
+          <label>English paper text</label>
+          <textarea id="en-text" placeholder="1. What is 5 + 7?&#10;(A) 10 (B) 12 (C) 13 (D) 14&#10;Answer: B"></textarea>
+          <div class="row"><input type="file" id="en-file" accept=".pdf,.txt" style="width:auto"> <small>Open PDF / text file</small></div>
+        </div>
+        <div>
+          <label>Malayalam paper text (മലയാളം)</label>
+          <textarea id="ml-text" placeholder="1. 5 + 7 എത്ര?&#10;(A) 10 (B) 12 (C) 13 (D) 14&#10;ഉത്തരം: B"></textarea>
+          <div class="row"><input type="file" id="ml-file" accept=".pdf,.txt" style="width:auto"> <small>Open PDF / text file</small></div>
+        </div>
+      </div>
+      <div id="file-warn" class="warn hidden"></div>
+    </section>
+
+    <section>
+      <h2>Details</h2>
+      <div class="grid">
+        <div><label>Subject</label>
+          <select id="subject">
+            <option value="maths">Maths</option><option value="science">Science</option>
+            <option value="malayalam">Malayalam</option><option value="english">English</option>
+            <option value="social">Social Science</option><option value="gk">General Knowledge</option>
+          </select></div>
+        <div><label>Class</label><select id="cls"><option>5</option><option>6</option><option selected>7</option></select></div>
+        <div><label>Difficulty</label><select id="difficulty"><option>easy</option><option selected>medium</option><option>hard</option></select></div>
+        <div><label>Year (if known)</label><input id="year" type="number" placeholder="2024"></div>
+      </div>
+      <label>Source / credit (shown to children, e.g. "USS 2023 question paper, Kerala Pareeksha Bhavan")</label>
+      <input id="source" placeholder="Where did these questions come from?">
+      <label>Add to an existing question file? (optional – new questions are added at the end, with new id numbers)</label>
+      <input type="file" id="existing" accept=".json" style="width:auto">
+      <div class="row" style="margin-top:12px"><button class="btn" id="convert">Convert ➜</button><span id="summary"></span></div>
+    </section>
+
+    <section id="results" class="hidden">
+      <h2>Questions found</h2>
+      <div class="row">
+        <button class="btn" id="download">⬇ Download file</button>
+        <button class="btn soft" id="copy">Copy text</button>
+        <span id="save-note"></span>
+      </div>
+      <div id="cards"></div>
+    </section>
+  </div>
+
+  <div id="tab-check" class="hidden">
+    <section>
+      <h2>Check the question files the game uses</h2>
+      <p>This reads every file listed in <code>data/questions/index.json</code> and tells you about any mistakes.</p>
+      <button class="btn" id="run-check">Check now</button>
+      <div id="check-out"></div>
+    </section>
+  </div>
+</main>
+
+<script type="module">
+import { parsePaper, buildQuestions, looksGarbled } from './parse-paper.js';
+import { validateQuestion, languagesOf, LETTERS } from '../js/question-format.js';
+
+const $ = (id) => document.getElementById(id);
+const PREFIX = { maths: 'MATHS', science: 'SCI', malayalam: 'MAL', english: 'ENG', social: 'SOC', gk: 'GK' };
+let questions = [];
+let existing = null;   // { name, list }
+
+// ---------- tabs ----------
+document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+  document.querySelectorAll('[data-tab]').forEach((x) => x.classList.toggle('on', x === b));
+  $('tab-convert').classList.toggle('hidden', b.dataset.tab !== 'convert');
+  $('tab-check').classList.toggle('hidden', b.dataset.tab !== 'check');
+}));
+
+// ---------- reading files ----------
+if (window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+async function pdfToText(file) {
+  if (!window.pdfjsLib) throw new Error('The PDF reader needs an internet connection. You can copy the text from the PDF and paste it instead.');
+  const pdf = await pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+  let out = '';
+  for (let p = 1; p <= pdf.numPages; p++) {
+    const page = await pdf.getPage(p);
+    const content = await page.getTextContent();
+    let lastY = null, lastEnd = null, line = '';
+    for (const it of content.items) {
+      const x = it.transform[4], y = Math.round(it.transform[5]);
+      if (lastY !== null && Math.abs(y - lastY) > 3) { out += line.trim() + '\n'; line = ''; lastEnd = null; }
+      if (lastEnd !== null && x - lastEnd > 1.5 && !line.endsWith(' ')) line += ' ';
+      line += it.str;
+      lastY = y; lastEnd = x + (it.width || 0);
+    }
+    out += line.trim() + '\n\n';
+  }
+  return out;
+}
+
+for (const lang of ['en', 'ml']) {
+  $(`${lang}-file`).addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const warn = $('file-warn');
+    warn.classList.add('hidden');
+    try {
+      const text = file.name.toLowerCase().endsWith('.pdf') ? await pdfToText(file) : await file.text();
+      $(`${lang}-text`).value = text;
+      const msgs = [];
+      if (text.replace(/\s/g, '').length < 30) msgs.push('Almost no text was found. This PDF is probably scanned pictures, so the text cannot be read. Please type the questions instead.');
+      if (looksGarbled(text)) msgs.push('The text looks garbled. The PDF probably uses an old Malayalam font (not Unicode). Those questions will need to be typed again.');
+      if (msgs.length) { warn.textContent = msgs.join(' '); warn.classList.remove('hidden'); }
+    } catch (err) {
+      warn.textContent = 'Could not read this file: ' + err.message;
+      warn.classList.remove('hidden');
+    }
+  });
+}
+
+$('existing').addEventListener('change', async (e) => {
+  const file = e.target.files[0];
+  existing = null;
+  if (!file) return;
+  try {
+    const list = JSON.parse(await file.text());
+    if (!Array.isArray(list)) throw new Error('not a list of questions');
+    existing = { name: file.name, list };
+  } catch (err) {
+    alert('This file could not be read (' + err.message + '). Maybe a comma or quote is missing.');
+    e.target.value = '';
+  }
+});
+
+// ---------- convert ----------
+// ids already used by the game's question files, so new ids never repeat them
+async function gameIds() {
+  try {
+    const index = await (await fetch('../data/questions/index.json', { cache: 'no-store' })).json();
+    const lists = await Promise.all((index.files || []).map((f) =>
+      fetch(`../data/questions/${f}`, { cache: 'no-store' }).then((r) => r.json()).catch(() => [])));
+    return lists.flat().map((q) => q?.id);
+  } catch (e) { return []; }
+}
+
+$('convert').addEventListener('click', async () => {
+  const enText = $('en-text').value.trim(), mlText = $('ml-text').value.trim();
+  if (!enText && !mlText) { alert('Please paste some question text first.'); return; }
+  if (!$('source').value.trim()) { alert('Please write where the questions came from (the "Source / credit" box).'); return; }
+  const subject = $('subject').value;
+  const prefix = PREFIX[subject];
+  let startAt = 1;
+  const pool = [...(existing ? existing.list.map((q) => q?.id) : []), ...(await gameIds())];
+  for (const id of pool) {
+    const m = String(id || '').match(new RegExp(`^${prefix}-(\\d+)$`));
+    if (m) startAt = Math.max(startAt, Number(m[1]) + 1);
+  }
+  questions = buildQuestions({
+    en: enText ? parsePaper(enText) : null,
+    ml: mlText ? parsePaper(mlText) : null,
+    subject, prefix, startAt,
+    cls: Number($('cls').value),
+    difficulty: $('difficulty').value,
+    source: $('source').value.trim(),
+    year: $('year').value ? Number($('year').value) : null,
+  });
+  if (!questions.length) {
+    $('summary').innerHTML = '<span class="bad">No questions found. Each question should start on a new line with its number, like "1." or "1)".</span>';
+    $('results').classList.add('hidden');
+    return;
+  }
+  renderCards();
+  $('results').classList.remove('hidden');
+  $('results').scrollIntoView({ behavior: 'smooth' });
+});
+
+function updateSummary() {
+  const need = questions.filter((q) => q.needsReview).length;
+  $('summary').innerHTML = `Found <b>${questions.length}</b> questions. ` +
+    (need ? `<span class="bad">${need} need checking (red).</span>` : '<span class="ok">All look fine!</span>');
+}
+
+function renderCards() {
+  const box = $('cards');
+  box.innerHTML = '';
+  questions.forEach((q) => box.appendChild(card(q)));
+  updateSummary();
+}
+
+function field(tag, value, onInput, attrs = {}) {
+  const el = document.createElement(tag);
+  el.value = value ?? '';
+  Object.assign(el, attrs);
+  el.addEventListener('input', () => onInput(el.value));
+  return el;
+}
+
+function card(q) {
+  const div = document.createElement('div');
+  div.className = 'card' + (q.needsReview ? ' review' : '');
+  const top = document.createElement('div');
+  top.className = 'top';
+  top.append(q.id + ' · Answer:');
+  const ans = document.createElement('select');
+  ans.style.width = 'auto';
+  ['', ...LETTERS].forEach((L) => ans.add(new Option(L || '?', L)));
+  ans.value = q.answer || '';
+  ans.addEventListener('change', () => { q.answer = ans.value; });
+  top.append(ans);
+  const chk = document.createElement('label');
+  chk.style.cssText = 'display:flex;gap:6px;align-items:center;margin:0;font-weight:700';
+  const box = document.createElement('input');
+  box.type = 'checkbox'; box.style.width = 'auto'; box.checked = !q.needsReview;
+  box.addEventListener('change', () => {
+    q.needsReview = !box.checked;
+    div.classList.toggle('review', q.needsReview);
+    updateSummary();
+  });
+  chk.append(box, 'I checked this');
+  top.append(chk);
+  div.append(top);
+  if (q.reviewNotes?.length) {
+    const n = document.createElement('div');
+    n.className = 'notes';
+    n.textContent = '⚠ ' + q.reviewNotes.join(' · ');
+    div.append(n);
+  }
+  for (const lang of ['en', 'ml']) {
+    const part = q[lang];
+    if (!part) continue;
+    const l = document.createElement('div');
+    l.className = 'lang';
+    l.append(Object.assign(document.createElement('b'), { textContent: lang === 'en' ? 'English' : 'Malayalam' }));
+    l.append(field('textarea', part.question, (v) => { part.question = v; }));
+    const opts = document.createElement('div');
+    opts.className = 'opts';
+    part.options.forEach((o, i) => opts.append(field('input', o, (v) => { part.options[i] = v; }, { placeholder: `Option ${LETTERS[i]}` })));
+    l.append(opts);
+    l.append(field('input', part.hint, (v) => { part.hint = v; }, { placeholder: 'Hint (optional) – a small clue for the child' }));
+    l.append(field('input', part.explanation, (v) => { part.explanation = v; }, { placeholder: 'Explanation – why the answer is right (recommended)' }));
+    div.append(l);
+  }
+  return div;
+}
+
+function finalList() {
+  const fresh = questions.map((q) => {
+    const out = { ...q };
+    if (!out.needsReview) delete out.reviewNotes;
+    return out;
+  });
+  return existing ? [...existing.list, ...fresh] : fresh;
+}
+
+$('download').addEventListener('click', () => {
+  const name = existing ? existing.name : `${$('subject').value}-new.json`;
+  const blob = new Blob([JSON.stringify(finalList(), null, 2) + '\n'], { type: 'application/json' });
+  const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: name });
+  a.click();
+  URL.revokeObjectURL(a.href);
+  $('save-note').textContent = `Saved as "${name}" in your Downloads folder.`;
+});
+
+$('copy').addEventListener('click', async () => {
+  await navigator.clipboard.writeText(JSON.stringify(finalList(), null, 2));
+  $('save-note').textContent = 'Copied!';
+});
+
+// ---------- checker ----------
+$('run-check').addEventListener('click', async () => {
+  const out = $('check-out');
+  out.innerHTML = '<p>Checking…</p>';
+  const problems = [], stats = {};
+  let index;
+  try {
+    index = await (await fetch('../data/questions/index.json', { cache: 'no-store' })).json();
+  } catch (e) {
+    out.innerHTML = '<p class="bad">Could not read data/questions/index.json – is a comma or quote missing?</p>';
+    return;
+  }
+  const ids = new Set();
+  for (const file of index.files || []) {
+    let list;
+    try {
+      const res = await fetch(`../data/questions/${file}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error('file not found');
+      list = JSON.parse(await res.text());
+    } catch (e) {
+      problems.push(`<b>${file}</b>: cannot be read (${e.message}). Check for a missing comma, quote or bracket.`);
+      continue;
+    }
+    list.forEach((q, i) => {
+      const p = validateQuestion(q);
+      if (q?.id && ids.has(q.id)) p.push(`id "${q.id}" is used twice`);
+      if (q?.id) ids.add(q.id);
+      if (p.length) { problems.push(`<b>${file}</b> question #${i + 1} (${q?.id || 'no id'}): ${p.join(', ')}`); return; }
+      const s = stats[q.subject] ||= { total: 0, en: 0, ml: 0, unreviewed: 0, needsReview: 0 };
+      s.total++;
+      for (const l of languagesOf(q)) s[l]++;
+      if (!q.reviewed) s.unreviewed++;
+      if (q.needsReview) s.needsReview++;
+    });
+  }
+  const rows = Object.entries(stats).map(([sub, s]) =>
+    `<tr><td>${sub}</td><td>${s.total}</td><td>${s.en}</td><td>${s.ml}</td><td>${s.unreviewed}</td><td>${s.needsReview}</td></tr>`).join('');
+  out.innerHTML = `
+    <table><tr><th>Subject</th><th>Questions</th><th>English</th><th>Malayalam</th><th>Not yet reviewed</th><th>Needs review (hidden in game)</th></tr>${rows}</table>
+    ${problems.length ? `<h3 class="bad">${problems.length} problem(s) – these questions are skipped by the game:</h3><ul>${problems.map((p) => `<li>${p}</li>`).join('')}</ul>`
+      : '<p class="ok">✅ No problems found!</p>'}`;
+});
+</script>
+</body>
+</html>

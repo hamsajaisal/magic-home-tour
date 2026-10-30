@@ -1,0 +1,98 @@
+// Loads the question files listed in data/questions/index.json and picks questions for each quiz.
+import { SETTINGS } from '../settings.js';
+import { validateQuestion, languagesOf, LETTERS } from './question-format.js';
+
+export const bank = { all: [], problems: [] };
+
+export async function loadQuestions() {
+  const index = await (await fetch('data/questions/index.json')).json();
+  const seenIds = new Set();
+  for (const file of index.files || []) {
+    let list;
+    try {
+      const res = await fetch(`data/questions/${file}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      list = await res.json();
+    } catch (e) {
+      bank.problems.push(`${file}: could not be read (${e.message}). Check for a missing comma or quote.`);
+      continue;
+    }
+    if (!Array.isArray(list)) list = list.questions || [];
+    list.forEach((q, i) => {
+      const problems = validateQuestion(q);
+      if (q && seenIds.has(q.id)) problems.push(`id "${q.id}" is used twice`);
+      if (problems.length) {
+        bank.problems.push(`${file} #${i + 1} (${q?.id ?? 'no id'}): ${problems.join(', ')}`);
+        return;
+      }
+      seenIds.add(q.id);
+      q.answer = String(q.answer).toUpperCase();
+      q._file = file;
+      bank.all.push(q);
+    });
+  }
+  if (bank.problems.length) console.warn('Question problems (these were skipped):\n' + bank.problems.join('\n'));
+  return bank;
+}
+
+export function available(subject, lang) {
+  return bank.all.filter((q) =>
+    (subject === 'mix' || q.subject === subject) &&
+    languagesOf(q).includes(lang) &&
+    (SETTINGS.SHOW_UNREVIEWED || q.reviewed) &&
+    (SETTINGS.SHOW_NEEDS_REVIEW || !q.needsReview));
+}
+
+// Options like "All of these" must stay in place, so we don't shuffle those questions.
+const NO_SHUFFLE = /all of|none of|both|above|ഇവയെല്ലാം|ഇവയൊന്നുമല്ല|രണ്ടും|എല്ലാം|മുകളിൽ/i;
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// Build one quiz: questions seen least often come first, with a little randomness.
+export function makeQuiz(subject, lang, count, save) {
+  const pool = available(subject, lang)
+    .map((q) => ({ q, score: (save.seen[q.id] || 0) + Math.random() * 0.9 }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, count)
+    .map((x) => x.q);
+  return shuffle(pool).map((q) => toQuizItem(q, lang));
+}
+
+// `order` keeps the same A/B/C/D order when the child switches language mid-question.
+export function toQuizItem(q, lang, order = null) {
+  if (!q[lang]) return null;
+  const part = q[lang];
+  const correctIndex = LETTERS.indexOf(q.answer);
+  if (!order) {
+    order = [0, 1, 2, 3];
+    const canShuffle = SETTINGS.SHUFFLE_OPTIONS && !q.noShuffle && !part.options.some((o) => NO_SHUFFLE.test(String(o)));
+    if (canShuffle) shuffle(order);
+  }
+  const options = order.map((i) => ({ text: String(part.options[i]), correct: i === correctIndex }));
+  return {
+    raw: q,
+    order,
+    id: q.id,
+    question: part.question,
+    options,
+    hint: part.hint || '',
+    explanation: part.explanation || '',
+    source: [q.source, q.year].filter(Boolean).join(', '),
+    reviewed: !!q.reviewed,
+  };
+}
+
+export function sources() {
+  const set = new Map();
+  for (const q of bank.all) {
+    const s = q.source || 'Unknown source';
+    set.set(s, (set.get(s) || 0) + 1);
+  }
+  return [...set.entries()];
+}

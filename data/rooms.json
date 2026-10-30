@@ -1,0 +1,27 @@
+{
+  "_help": "Each room in the house. 'subject' must match the 'subject' written in the question files. x1/x2/z1/z2 are the room corners on the house map (house goes from x -10 to 10 and z -8 to 8). 'door' is the wall that has the door: north, south, east or west.",
+  "rooms": [
+    {
+      "id": "maths",
+      "subject": "maths",
+      "emoji": "🔢",
+      "name": { "en": "Maths Workshop", "ml": "ഗണിത പണിപ്പുര" },
+      "x1": -10, "x2": -4, "z1": 1, "z2": 8,
+      "door": "east",
+      "color": "#ffb347",
+      "floor": "#ffe2b8",
+      "props": "workshop"
+    },
+    {
+      "id": "science",
+      "subject": "science",
+      "emoji": "🔬",
+      "name": { "en": "Science Lab", "ml": "ശാസ്ത്ര ലാബ്" },
+      "x1": 4, "x2": 10, "z1": 1, "z2": 8,
+      "door": "west",
+      "color": "#5fd3a6",
+      "floor": "#d4f7e8",
+      "props": "lab"
+    }
+  ]
+}

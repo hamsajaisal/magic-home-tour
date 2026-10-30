@@ -1,0 +1,278 @@
+[
+  {
+    "id": "SCI-0001",
+    "subject": "science",
+    "class": 6,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which gas do plants take in from the air to make food (photosynthesis)?",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "hint": "It is the gas we breathe out.",
+      "explanation": "Plants use carbon dioxide, water and sunlight to make food, and give out oxygen."
+    },
+    "ml": {
+      "question": "പ്രകാശസംശ്ലേഷണത്തിനായി സസ്യങ്ങൾ വായുവിൽ നിന്ന് സ്വീകരിക്കുന്ന വാതകം ഏത്?",
+      "options": ["ഓക്സിജൻ", "കാർബൺ ഡൈ ഓക്സൈഡ്", "നൈട്രജൻ", "ഹൈഡ്രജൻ"],
+      "hint": "നമ്മൾ പുറത്തേക്കു വിടുന്ന വാതകമാണിത്.",
+      "explanation": "കാർബൺ ഡൈ ഓക്സൈഡ്, ജലം, സൂര്യപ്രകാശം എന്നിവ ഉപയോഗിച്ച് സസ്യങ്ങൾ ആഹാരം നിർമിക്കുന്നു; ഓക്സിജൻ പുറത്തുവിടുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0002",
+    "subject": "science",
+    "class": 6,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which is the largest organ of the human body?",
+      "options": ["Heart", "Liver", "Skin", "Lungs"],
+      "hint": "It covers your whole body.",
+      "explanation": "The skin covers the entire body and is the largest organ."
+    },
+    "ml": {
+      "question": "മനുഷ്യശരീരത്തിലെ ഏറ്റവും വലിയ അവയവം ഏത്?",
+      "options": ["ഹൃദയം", "കരൾ", "ത്വക്ക്", "ശ്വാസകോശം"],
+      "hint": "ഇത് ശരീരം മുഴുവൻ പൊതിഞ്ഞിരിക്കുന്നു.",
+      "explanation": "ശരീരം മുഴുവൻ പൊതിഞ്ഞിരിക്കുന്ന ത്വക്കാണ് ഏറ്റവും വലിയ അവയവം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0003",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "At what temperature does water boil (at normal air pressure)?",
+      "options": ["0 °C", "50 °C", "100 °C", "200 °C"],
+      "hint": "Water freezes at 0 °C. Boiling is much hotter.",
+      "explanation": "Pure water boils at 100 °C at normal air pressure."
+    },
+    "ml": {
+      "question": "സാധാരണ അന്തരീക്ഷമർദത്തിൽ ജലം തിളയ്ക്കുന്ന താപനില എത്ര?",
+      "options": ["0 °C", "50 °C", "100 °C", "200 °C"],
+      "hint": "ജലം 0 °C ൽ ഐസാകുന്നു. തിളയ്ക്കാൻ അതിലും വളരെ കൂടുതൽ ചൂട് വേണം.",
+      "explanation": "സാധാരണ അന്തരീക്ഷമർദത്തിൽ ശുദ്ധജലം 100 °C ൽ തിളയ്ക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0004",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which vitamin does our body make with the help of sunlight?",
+      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+      "hint": "It is sometimes called the 'sunshine vitamin'.",
+      "explanation": "Our skin makes Vitamin D when it gets sunlight. It keeps our bones strong."
+    },
+    "ml": {
+      "question": "സൂര്യപ്രകാശത്തിന്റെ സഹായത്താൽ നമ്മുടെ ശരീരം നിർമിക്കുന്ന ജീവകം ഏത്?",
+      "options": ["ജീവകം A", "ജീവകം C", "ജീവകം D", "ജീവകം K"],
+      "hint": "ഇതിനെ 'സൂര്യപ്രകാശ ജീവകം' എന്നും വിളിക്കാറുണ്ട്.",
+      "explanation": "സൂര്യപ്രകാശം ഏൽക്കുമ്പോൾ ത്വക്കിൽ ജീവകം D ഉണ്ടാകുന്നു. ഇത് എല്ലുകളെ ബലമുള്ളതാക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0005",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which of these is NOT a mammal?",
+      "options": ["Cow", "Bat", "Hen", "Whale"],
+      "hint": "Mammals feed milk to their babies.",
+      "explanation": "The hen is a bird; it lays eggs and does not feed milk. Cow, bat and whale are mammals."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ സസ്തനി അല്ലാത്തത് ഏത്?",
+      "options": ["പശു", "വവ്വാൽ", "കോഴി", "തിമിംഗലം"],
+      "hint": "സസ്തനികൾ കുഞ്ഞുങ്ങൾക്ക് പാൽ കൊടുക്കുന്നു.",
+      "explanation": "കോഴി ഒരു പക്ഷിയാണ്; മുട്ടയിടുന്നു, പാൽ കൊടുക്കുന്നില്ല. പശു, വവ്വാൽ, തിമിംഗലം എന്നിവ സസ്തനികളാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0006",
+    "subject": "science",
+    "class": 6,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Mercury", "Venus", "Earth", "Mars"],
+      "hint": "It is also the smallest planet.",
+      "explanation": "Mercury is the planet nearest to the Sun."
+    },
+    "ml": {
+      "question": "സൂര്യനോട് ഏറ്റവും അടുത്തുള്ള ഗ്രഹം ഏത്?",
+      "options": ["ബുധൻ", "ശുക്രൻ", "ഭൂമി", "ചൊവ്വ"],
+      "hint": "ഏറ്റവും ചെറിയ ഗ്രഹവും ഇതുതന്നെ.",
+      "explanation": "സൂര്യനോട് ഏറ്റവും അടുത്ത ഗ്രഹം ബുധനാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0007",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which of these will a magnet pull towards it?",
+      "options": ["Plastic spoon", "Iron nail", "Wooden stick", "Paper"],
+      "hint": "Magnets attract some metals.",
+      "explanation": "Magnets attract iron. Plastic, wood and paper are not attracted."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ കാന്തം ആകർഷിക്കുന്നത് ഏത്?",
+      "options": ["പ്ലാസ്റ്റിക് സ്പൂൺ", "ഇരുമ്പാണി", "മരക്കഷണം", "കടലാസ്"],
+      "hint": "കാന്തം ചില ലോഹങ്ങളെ ആകർഷിക്കുന്നു.",
+      "explanation": "കാന്തം ഇരുമ്പിനെ ആകർഷിക്കുന്നു. പ്ലാസ്റ്റിക്, മരം, കടലാസ് എന്നിവയെ ആകർഷിക്കുന്നില്ല."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0008",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which part of a plant absorbs water from the soil?",
+      "options": ["Root", "Leaf", "Flower", "Fruit"],
+      "hint": "This part is hidden under the ground.",
+      "explanation": "Roots absorb water and minerals from the soil."
+    },
+    "ml": {
+      "question": "മണ്ണിൽ നിന്ന് ജലം വലിച്ചെടുക്കുന്ന സസ്യഭാഗം ഏത്?",
+      "options": ["വേര്", "ഇല", "പൂവ്", "കായ്"],
+      "hint": "ഈ ഭാഗം മണ്ണിനടിയിലാണ്.",
+      "explanation": "വേരുകൾ മണ്ണിൽ നിന്ന് ജലവും ധാതുക്കളും വലിച്ചെടുക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0009",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which of these energy sources will run out one day (non-renewable)?",
+      "options": ["Sunlight", "Wind", "Coal", "Flowing water"],
+      "hint": "It is dug out from deep under the ground.",
+      "explanation": "Coal took millions of years to form and cannot be replaced quickly. Sun, wind and water keep coming back."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ എന്നെങ്കിലും തീർന്നുപോകുന്ന (പുനഃസ്ഥാപിക്കാനാവാത്ത) ഊർജസ്രോതസ്സ് ഏത്?",
+      "options": ["സൂര്യപ്രകാശം", "കാറ്റ്", "കൽക്കരി", "ഒഴുകുന്ന ജലം"],
+      "hint": "ഇത് ഭൂമിക്കടിയിൽ നിന്ന് കുഴിച്ചെടുക്കുന്നതാണ്.",
+      "explanation": "കൽക്കരി രൂപപ്പെടാൻ ദശലക്ഷക്കണക്കിന് വർഷങ്ങൾ വേണം; പെട്ടെന്ന് വീണ്ടും ഉണ്ടാവില്ല. സൂര്യപ്രകാശവും കാറ്റും ജലവും വീണ്ടും വീണ്ടും ലഭിക്കും."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0010",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "How many chambers does the human heart have?",
+      "options": ["2", "3", "4", "5"],
+      "hint": "Two on top, two at the bottom.",
+      "explanation": "The human heart has 4 chambers: 2 atria (upper) and 2 ventricles (lower)."
+    },
+    "ml": {
+      "question": "മനുഷ്യഹൃദയത്തിന് എത്ര അറകളുണ്ട്?",
+      "options": ["2", "3", "4", "5"],
+      "hint": "മുകളിൽ രണ്ട്, താഴെ രണ്ട്.",
+      "explanation": "മനുഷ്യഹൃദയത്തിന് 4 അറകളുണ്ട്: മുകളിൽ 2 ഏട്രിയങ്ങളും താഴെ 2 വെൻട്രിക്കിളുകളും."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0011",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which of these dissolves in water?",
+      "options": ["Sand", "Salt", "Sawdust", "Oil"],
+      "hint": "We add it to rice gruel (kanji) and it disappears!",
+      "explanation": "Salt dissolves in water. Sand and sawdust settle or float, and oil floats on top."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ ജലത്തിൽ ലയിക്കുന്നത് ഏത്?",
+      "options": ["മണൽ", "ഉപ്പ്", "അറക്കപ്പൊടി", "എണ്ണ"],
+      "hint": "കഞ്ഞിയിൽ ഇട്ടാൽ ഇത് കാണാതാകും!",
+      "explanation": "ഉപ്പ് ജലത്തിൽ ലയിക്കുന്നു. മണലും അറക്കപ്പൊടിയും ലയിക്കുന്നില്ല; എണ്ണ മുകളിൽ പൊങ്ങിക്കിടക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0012",
+    "subject": "science",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "What is the young one of a frog called?",
+      "options": ["Caterpillar", "Tadpole", "Calf", "Chick"],
+      "hint": "It lives in water and has a tail.",
+      "explanation": "A baby frog is a tadpole. It lives in water, breathes with gills and later grows legs."
+    },
+    "ml": {
+      "question": "തവളയുടെ കുഞ്ഞിനെ എന്താണ് വിളിക്കുന്നത്?",
+      "options": ["ശലഭപ്പുഴു", "വാൽമാക്രി", "കിടാവ്", "കോഴിക്കുഞ്ഞ്"],
+      "hint": "ഇത് വെള്ളത്തിൽ ജീവിക്കുന്നു, ഇതിന് വാലുണ്ട്.",
+      "explanation": "തവളയുടെ കുഞ്ഞാണ് വാൽമാക്രി. ഇത് വെള്ളത്തിൽ ജീവിക്കുന്നു, ചെകിളകൊണ്ട് ശ്വസിക്കുന്നു, പിന്നീട് കാലുകൾ വളരുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "MATHS-0001",
+    "subject": "maths",
+    "class": 6,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "What is 3/4 of 24?",
+      "options": ["16", "18", "20", "12"],
+      "hint": "First find 1/4 of 24, then multiply by 3.",
+      "explanation": "24 ÷ 4 = 6, and 6 × 3 = 18."
+    },
+    "ml": {
+      "question": "24 ന്റെ 3/4 എത്ര?",
+      "options": ["16", "18", "20", "12"],
+      "hint": "ആദ്യം 24 ന്റെ 1/4 കണ്ടുപിടിക്കൂ, എന്നിട്ട് 3 കൊണ്ട് ഗുണിക്കൂ.",
+      "explanation": "24 ÷ 4 = 6, 6 × 3 = 18."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0002",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "What is the perimeter of a square with side 7 cm?",
+      "options": ["14 cm", "21 cm", "28 cm", "49 cm"],
+      "hint": "A square has 4 equal sides.",
+      "explanation": "Perimeter = 4 × side = 4 × 7 = 28 cm."
+    },
+    "ml": {
+      "question": "7 സെന്റിമീറ്റർ വശമുള്ള ഒരു സമചതുരത്തിന്റെ ചുറ്റളവ് എത്ര?",
+      "options": ["14 സെ.മീ.", "21 സെ.മീ.", "28 സെ.മീ.", "49 സെ.മീ."],
+      "hint": "സമചതുരത്തിന് തുല്യമായ 4 വശങ്ങളുണ്ട്.",
+      "explanation": "ചുറ്റളവ് = 4 × വശം = 4 × 7 = 28 സെ.മീ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0003",
+    "subject": "maths",
+    "class": 6,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "What is the LCM (Least Common Multiple) of 4 and 6?",
+      "options": ["2", "12", "24", "10"],
+      "hint": "Write the multiples of 4 and 6. Which number comes first in both lists?",
+      "explanation": "Multiples of 4: 4, 8, 12 … Multiples of 6: 6, 12 … The smallest common one is 12."
+    },
+    "ml": {
+      "question": "4, 6 എന്നിവയുടെ ല.സാ.ഗു. (ലഘുതമ സാധാരണ ഗുണിതം) എത്ര?",
+      "options": ["2", "12", "24", "10"],
+      "hint": "4 ന്റെയും 6 ന്റെയും ഗുണിതങ്ങൾ എഴുതി നോക്കൂ. രണ്ടിലും ആദ്യം വരുന്ന സംഖ്യ ഏത്?",
+      "explanation": "4 ന്റെ ഗുണിതങ്ങൾ: 4, 8, 12 … 6 ന്റെ ഗുണിതങ്ങൾ: 6, 12 … ഏറ്റവും ചെറിയ പൊതു ഗുണിതം 12."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0004",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "0.5 + 0.25 = ?",
+      "options": ["0.30", "0.75", "0.525", "7.5"],
+      "hint": "Write 0.5 as 0.50 and add the hundredths.",
+      "explanation": "0.50 + 0.25 = 0.75."
+    },
+    "ml": {
+      "question": "0.5 + 0.25 = ?",
+      "options": ["0.30", "0.75", "0.525", "7.5"],
+      "hint": "0.5 നെ 0.50 എന്നെഴുതി കൂട്ടി നോക്കൂ.",
+      "explanation": "0.50 + 0.25 = 0.75."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0005",
+    "subject": "maths",
+    "class": 6,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "What is the sum of the three angles of a triangle?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "hint": "Tear off the three corners of a paper triangle and put them together — they make a straight line.",
+      "explanation": "The angles of any triangle always add up to 180°."
+    },
+    "ml": {
+      "question": "ഒരു ത്രികോണത്തിലെ മൂന്നു കോണുകളുടെയും തുക എത്ര?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "hint": "ഒരു കടലാസ് ത്രികോണത്തിന്റെ മൂന്നു മൂലകളും കീറി ചേർത്തുവച്ചാൽ ഒരു നേർരേഖ കിട്ടും.",
+      "explanation": "ഏതു ത്രികോണത്തിലെയും കോണുകളുടെ തുക എപ്പോഴും 180° ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0006",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "A rectangle is 8 m long and 5 m wide. What is its area?",
+      "options": ["13 sq. m", "26 sq. m", "40 sq. m", "45 sq. m"],
+      "hint": "Area of a rectangle = length × width.",
+      "explanation": "8 × 5 = 40 square metres."
+    },
+    "ml": {
+      "question": "8 മീറ്റർ നീളവും 5 മീറ്റർ വീതിയുമുള്ള ഒരു ചതുരത്തിന്റെ പരപ്പളവ് എത്ര?",
+      "options": ["13 ച.മീ.", "26 ച.മീ.", "40 ച.മീ.", "45 ച.മീ."],
+      "hint": "ചതുരത്തിന്റെ പരപ്പളവ് = നീളം × വീതി.",
+      "explanation": "8 × 5 = 40 ചതുരശ്ര മീറ്റർ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0007",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "What is 25% of 200?",
+      "options": ["25", "50", "75", "100"],
+      "hint": "25% is the same as one quarter (1/4).",
+      "explanation": "25% = 1/4, and 200 ÷ 4 = 50."
+    },
+    "ml": {
+      "question": "200 ന്റെ 25% എത്ര?",
+      "options": ["25", "50", "75", "100"],
+      "hint": "25% എന്നാൽ നാലിലൊന്ന് (1/4).",
+      "explanation": "25% = 1/4, 200 ÷ 4 = 50."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0008",
+    "subject": "maths",
+    "class": 6,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "hint": "A prime number has exactly two factors: 1 and itself.",
+      "explanation": "2 has exactly two factors (1 and 2), so it is the smallest prime. 1 has only one factor, so it is not prime."
+    },
+    "ml": {
+      "question": "ഏറ്റവും ചെറിയ അഭാജ്യസംഖ്യ ഏത്?",
+      "options": ["0", "1", "2", "3"],
+      "hint": "അഭാജ്യസംഖ്യയ്ക്ക് കൃത്യം രണ്ടു ഘടകങ്ങളേ ഉള്ളൂ: 1 ഉം ആ സംഖ്യ തന്നെയും.",
+      "explanation": "2 ന് കൃത്യം രണ്ടു ഘടകങ്ങളുണ്ട് (1, 2). അതിനാൽ ഏറ്റവും ചെറിയ അഭാജ്യസംഖ്യ 2. 1 ന് ഒരു ഘടകം മാത്രമേയുള്ളൂ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0009",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Ammu has ₹50. She buys 3 pens costing ₹12 each. How much money is left?",
+      "options": ["₹14", "₹24", "₹36", "₹38"],
+      "hint": "First find the cost of 3 pens.",
+      "explanation": "3 × 12 = 36. Then 50 − 36 = 14. Ammu has ₹14 left."
+    },
+    "ml": {
+      "question": "അമ്മുവിന്റെ കൈയിൽ 50 രൂപയുണ്ട്. 12 രൂപ വീതം വിലയുള്ള 3 പേന അവൾ വാങ്ങി. ബാക്കി എത്ര രൂപ?",
+      "options": ["14 രൂപ", "24 രൂപ", "36 രൂപ", "38 രൂപ"],
+      "hint": "ആദ്യം 3 പേനയുടെ വില കണ്ടുപിടിക്കൂ.",
+      "explanation": "3 × 12 = 36. 50 − 36 = 14. ബാക്കി 14 രൂപ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0010",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Find the next number: 2, 4, 8, 16, …",
+      "options": ["18", "24", "32", "20"],
+      "hint": "How do you get each number from the one before it?",
+      "explanation": "Each number is double the one before: 16 × 2 = 32."
+    },
+    "ml": {
+      "question": "അടുത്ത സംഖ്യ ഏത്? 2, 4, 8, 16, …",
+      "options": ["18", "24", "32", "20"],
+      "hint": "ഓരോ സംഖ്യയും തൊട്ടുമുമ്പത്തേതിൽ നിന്ന് എങ്ങനെ കിട്ടുന്നു?",
+      "explanation": "ഓരോ സംഖ്യയും തൊട്ടുമുമ്പത്തേതിന്റെ ഇരട്ടിയാണ്: 16 × 2 = 32."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0011",
+    "subject": "maths",
+    "class": 5,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "1 kilometre = how many metres?",
+      "options": ["10", "100", "1000", "10000"],
+      "hint": "'Kilo' means thousand.",
+      "explanation": "1 km = 1000 m."
+    },
+    "ml": {
+      "question": "1 കിലോമീറ്റർ എത്ര മീറ്ററാണ്?",
+      "options": ["10", "100", "1000", "10000"],
+      "hint": "'കിലോ' എന്നാൽ ആയിരം.",
+      "explanation": "1 കി.മീ. = 1000 മീ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MATHS-0012",
+    "subject": "maths",
+    "class": 6,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "A train leaves at 9:45 am and reaches after 2 hours 30 minutes. When does it reach?",
+      "options": ["11:15 am", "12:15 pm", "12:45 pm", "11:45 am"],
+      "hint": "Add 2 hours first, then add 30 minutes.",
+      "explanation": "9:45 + 2 hours = 11:45. 11:45 + 30 minutes = 12:15 pm."
+    },
+    "ml": {
+      "question": "ഒരു തീവണ്ടി രാവിലെ 9:45 ന് പുറപ്പെട്ട് 2 മണിക്കൂർ 30 മിനിറ്റ് കഴിഞ്ഞ് എത്തിച്ചേരുന്നു. എത്ര മണിക്ക് എത്തും?",
+      "options": ["രാവിലെ 11:15", "ഉച്ചയ്ക്ക് 12:15", "ഉച്ചയ്ക്ക് 12:45", "രാവിലെ 11:45"],
+      "hint": "ആദ്യം 2 മണിക്കൂർ കൂട്ടൂ, പിന്നെ 30 മിനിറ്റ്.",
+      "explanation": "9:45 + 2 മണിക്കൂർ = 11:45. 11:45 + 30 മിനിറ്റ് = ഉച്ചയ്ക്ക് 12:15."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  }
+]
