@@ -13,8 +13,9 @@ export function createPlayer(look = {}) {
   const body = new THREE.Group();          // everything that bobs while walking
   root.add(body);
 
+  const shirtMat = new THREE.MeshLambertMaterial({ color: c.shirt, flatShading: true });
   const part = (geo, color, x, y, z, parent = body) => {
-    const m = new THREE.Mesh(geo, mat(color));
+    const m = new THREE.Mesh(geo, color === c.shirt ? shirtMat : mat(color));
     m.position.set(x, y, z);
     parent.add(m);
     return m;
@@ -85,5 +86,38 @@ export function createPlayer(look = {}) {
     if (k >= 1) jumpT = -1;
   }
 
-  return { root, animate, cheer, updateCheer };
+  // ---- costumes from the shop ----
+  const SHIRTS = { shirtGreen: '#2bb673', shirtRed: '#e53935', shirtPurple: '#8e24aa' };
+  const extras = new THREE.Group();
+  head.add(extras);
+  const HATS = {
+    cap() {
+      part(new THREE.SphereGeometry(0.3, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), '#e53935', 0, 0.06, 0, extras);
+      part(new THREE.BoxGeometry(0.34, 0.03, 0.22), '#e53935', 0, 0.07, 0.3, extras);
+    },
+    partyHat() {
+      const cone = part(new THREE.ConeGeometry(0.15, 0.4, 10), '#ff5d8f', 0.05, 0.42, 0, extras);
+      cone.rotation.z = -0.2;
+      part(new THREE.SphereGeometry(0.06, 6, 4), '#ffd23d', 0.1, 0.64, 0, extras);
+    },
+    crown() {
+      part(new THREE.CylinderGeometry(0.22, 0.22, 0.14, 12, 1, true), '#ffc61a', 0, 0.3, 0, extras);
+      for (let i = 0; i < 6; i++) {
+        const a = (i / 6) * Math.PI * 2;
+        part(new THREE.ConeGeometry(0.05, 0.14, 4), '#ffc61a', Math.cos(a) * 0.2, 0.43, Math.sin(a) * 0.2, extras);
+      }
+      part(new THREE.SphereGeometry(0.04, 6, 4), '#e53935', 0, 0.3, 0.22, extras);
+    },
+  };
+  function setCostume(costume = {}) {
+    while (extras.children.length) extras.remove(extras.children[0]);
+    shirtMat.color.set(SHIRTS[costume.shirt] || c.shirt);
+    HATS[costume.hat]?.();
+    if (costume.glasses === 'sunglasses') {
+      for (const s of [-1, 1]) part(new THREE.BoxGeometry(0.13, 0.08, 0.03), '#111111', s * 0.1, 0.04, 0.27, extras);
+      part(new THREE.BoxGeometry(0.08, 0.02, 0.02), '#111111', 0, 0.06, 0.27, extras);
+    }
+  }
+
+  return { root, animate, cheer, updateCheer, setCostume };
 }

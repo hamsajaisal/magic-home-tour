@@ -1,0 +1,26 @@
+{
+  "_help": "Things children can buy with coins. You can change 'price' and the names. 'id' must stay the same (the game uses it to draw the item). 'type' is decor, pet or costume.",
+  "items": [
+    { "id": "flowerpots", "type": "decor", "emoji": "🪴", "price": 60, "name": { "en": "Flower pots", "ml": "പൂച്ചട്ടികൾ" } },
+    { "id": "football", "type": "decor", "emoji": "⚽", "price": 50, "name": { "en": "Football", "ml": "ഫുട്ബോൾ" } },
+    { "id": "starLantern", "type": "decor", "emoji": "⭐", "price": 80, "name": { "en": "Star lanterns", "ml": "നക്ഷത്രവിളക്കുകൾ" } },
+    { "id": "fairyLights", "type": "decor", "emoji": "✨", "price": 100, "name": { "en": "Fairy lights", "ml": "മിന്നും ലൈറ്റുകൾ" } },
+    { "id": "pookalam", "type": "decor", "emoji": "🌼", "price": 120, "name": { "en": "Pookalam", "ml": "പൂക്കളം" } },
+    { "id": "aquarium", "type": "decor", "emoji": "🐠", "price": 150, "name": { "en": "Aquarium", "ml": "അക്വേറിയം" } },
+    { "id": "swing", "type": "decor", "emoji": "🪑", "price": 200, "name": { "en": "Swing (Oonjal)", "ml": "ഊഞ്ഞാൽ" } },
+    { "id": "slide", "type": "decor", "emoji": "🛝", "price": 250, "name": { "en": "Slide", "ml": "സ്ലൈഡ്" } },
+
+    { "id": "hen", "type": "pet", "emoji": "🐔", "price": 150, "name": { "en": "Hen and chicks", "ml": "കോഴിയും കുഞ്ഞുങ്ങളും" } },
+    { "id": "cat", "type": "pet", "emoji": "🐱", "price": 200, "name": { "en": "Cat", "ml": "പൂച്ച" } },
+    { "id": "puppy", "type": "pet", "emoji": "🐶", "price": 250, "name": { "en": "Puppy", "ml": "നായക്കുട്ടി" } },
+    { "id": "parrot", "type": "pet", "emoji": "🦜", "price": 300, "name": { "en": "Parrot", "ml": "തത്ത" } },
+
+    { "id": "shirtGreen", "type": "costume", "slot": "shirt", "emoji": "💚", "price": 40, "name": { "en": "Green shirt", "ml": "പച്ച ഷർട്ട്" } },
+    { "id": "shirtRed", "type": "costume", "slot": "shirt", "emoji": "❤️", "price": 40, "name": { "en": "Red shirt", "ml": "ചുവന്ന ഷർട്ട്" } },
+    { "id": "shirtPurple", "type": "costume", "slot": "shirt", "emoji": "💜", "price": 40, "name": { "en": "Purple shirt", "ml": "വയലറ്റ് ഷർട്ട്" } },
+    { "id": "cap", "type": "costume", "slot": "hat", "emoji": "🧢", "price": 60, "name": { "en": "Cap", "ml": "തൊപ്പി" } },
+    { "id": "partyHat", "type": "costume", "slot": "hat", "emoji": "🥳", "price": 70, "name": { "en": "Party hat", "ml": "പാർട്ടി തൊപ്പി" } },
+    { "id": "sunglasses", "type": "costume", "slot": "glasses", "emoji": "🕶️", "price": 80, "name": { "en": "Sunglasses", "ml": "കൂളിങ് ഗ്ലാസ്" } },
+    { "id": "crown", "type": "costume", "slot": "hat", "emoji": "👑", "price": 400, "name": { "en": "Golden crown", "ml": "സ്വർണ്ണക്കിരീടം" } }
+  ]
+}

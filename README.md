@@ -1,5 +1,7 @@
 # 🏡 Magic Home Tour – USS Practice Game
 
+**Play it:** <https://hamsajaisal.github.io/magic-home-tour/>
+
 A free browser game for Kerala UP school students (Classes 5–7) preparing for the
 **USS (Upper Primary Scholarship) exam**. The child walks around a colourful 3D Kerala
 house. Every room door is locked, and answering questions opens it.
@@ -48,6 +50,14 @@ CORRECT_TO_UNLOCK: 4,       // how many must be right to open the door
 ```
 
 To use 10 questions with 7 needed to pass, change them to `10` and `7`.
+
+Other things you can change in `settings.js`:
+- **Surprises:** `BONUS_QUESTIONS` / `BONUS_CORRECT` set the quick quiz at a gift box. One surprise per room per day is free, and after that the child answers these questions for a new one. `SURPRISE_SECONDS` sets how long chocolate rain and balloons last.
+- **Daily bonus:** `DAILY_BONUS` is the coins for playing today. It is multiplied by the streak, up to 7 days.
+
+### Shop, badges and stickers
+- **Prices and names** of shop items are in `data/shop.json`. Change `price` or `name`, but keep `id` the same.
+- **Badges and stickers** are in `data/badges.json`. You can change the number a badge needs (`n`) and its name.
 Save the file and reload the game page.
 Only change the number or word **after the colon**, and keep the comma at the end.
 
@@ -163,7 +173,9 @@ js/                 the game code (you don't need to touch this)
 data/
   questions/        ← the questions (add more here)
   lang/             ← all on-screen words in English (en.json) and Malayalam (ml.json)
-  rooms.json        the rooms: name, subject, colour, place in the house
+  rooms.json        the rooms: name, subject, colour, place in the house, gift box spot
+  shop.json         ← shop items and prices
+  badges.json       ← badges and stickers
 assets/fonts/       the Baloo Chettan 2 font (shows Malayalam nicely)
 tools/
   converter.html    question converter + file checker

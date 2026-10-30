@@ -15,6 +15,15 @@ export const SETTINGS = {
   XP_PER_CORRECT: 10,         // experience points per right answer
   XP_PER_LEVEL: 100,          // XP needed to go up one level
 
+  // ---- Surprises inside open rooms ----
+  BONUS_QUESTIONS: 3,         // questions to answer for a new surprise (one surprise per room per day is free)
+  BONUS_CORRECT: 2,           // how many must be right
+  SURPRISE_SECONDS: 15,       // how long chocolate rain / balloon games last
+  KITTEN_SECONDS: 40,         // time to find the hidden kitten
+
+  // ---- Daily bonus ----
+  DAILY_BONUS: 10,            // coins for playing today; multiplied by the streak (max 7 days)
+
   // ---- Language ----
   DEFAULT_LANGUAGE: "ml",     // "ml" = Malayalam medium, "en" = English medium
 

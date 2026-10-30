@@ -145,3 +145,29 @@ body.touch #cam-btns.playing { display: flex !important; }
 #cam-btns { position: fixed; right: 12px; bottom: 18px; display: flex; gap: 10px; z-index: 12; }
 body.touch #tip { bottom: auto; top: 104px; }
 @media (max-width: 520px) { #toasts { top: 104px; } }
+
+/* ---------- Phase 2: banner, shop, album, daily ---------- */
+#banner { position: fixed; left: 0; right: 0; margin: 0 auto; width: fit-content; max-width: 94vw; top: 60px; z-index: 22; background: linear-gradient(90deg, #ff5d8f, #ff8a3d); color: #fff; font-weight: 800; font-size: 1.15rem; padding: 8px 18px; border-radius: 18px; box-shadow: var(--shadow); text-align: center; pointer-events: none; }
+@media (max-width: 520px) { #banner { top: 104px; font-size: 1rem; } }
+.hud-pill.bump { animation: bump .45s; }
+@keyframes bump { 40% { transform: scale(1.25); background: #fff3b0; } }
+.modal-card.wide { width: min(100%, 720px); }
+.modal-card.center { text-align: center; max-width: 420px; }
+.panel-top { display: flex; align-items: center; gap: 10px; }
+.panel-top h2 { flex: 1; margin: 0; }
+.tab-row { display: flex; gap: 8px; margin: 10px 0; flex-wrap: wrap; }
+.item-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+@media (max-width: 520px) { .item-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; } .item-card button { font-size: .85rem; padding: 4px 6px; } }
+.item-card { min-width: 0; background: #fff; border: 3px solid #eadbc4; border-radius: 18px; padding: 10px 8px; text-align: center; display: flex; flex-direction: column; gap: 6px; align-items: center; }
+.item-card.owned { border-color: var(--green); background: #f3fff8; }
+.item-card.locked { opacity: .55; }
+.item-emoji { font-size: 2.6rem; line-height: 1.1; }
+.item-name { font-weight: 800; font-size: 1rem; line-height: 1.25; }
+.item-sub { font-size: .85rem; opacity: .75; }
+.item-card button { width: 100%; white-space: normal; }
+.item-card button.buy { background: var(--orange); color: #fff; border-color: var(--orange-dark); }
+.item-card button:disabled { opacity: .7; cursor: default; }
+.daily-streak { font-size: 1.4rem; font-weight: 800; color: var(--orange-dark); margin: 4px 0; }
+.daily-days { display: flex; gap: 6px; justify-content: center; margin: 8px 0; }
+.daily-days .day { width: 38px; height: 38px; border-radius: 50%; background: #f2e6d4; display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.daily-days .day.on { background: #ffe0b8; box-shadow: 0 0 0 3px #ffb347; }

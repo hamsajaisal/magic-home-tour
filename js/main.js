@@ -1,4 +1,4 @@
-// Starts the game: loads data, builds the 3D house, runs the walking loop and door quizzes.
+// Starts the game: loads data, builds the 3D house, runs the walking loop, door quizzes and surprises.
 import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
 import { save, persist, resetAll, roomState } from './storage.js';
@@ -6,23 +6,33 @@ import { loadLanguages, setLang, lang, t, pick, onLangChange, applyToPage } from
 import { loadQuestions, makeQuiz, available, toQuizItem, sources } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
+import { collide } from './world/physics.js';
+import { createSurprises } from './world/surprises.js';
+import { createDecor } from './world/decor.js';
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
+import { initPanels, openShop, openAlbum, openDaily } from './ui/panels.js';
+import {
+  loadCatalog, addCoins, bumpStat, checkBadges, giveSticker, dailyCheck, level,
+  freeSurpriseReady, useFreeSurprise, claimDaily,
+} from './rewards.js';
 import { play, unlockAudio } from './audio.js';
 import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
 let rooms = [];
-let W, player, renderer, scene, camera, sun;
+let W, player, renderer, scene, camera, sun, surprises, decor;
 const pos = new THREE.Vector3(START.x, 0, START.z);
 const vel = new THREE.Vector2();
 let facing = Math.PI;      // facing the house
 let yaw = 0;               // camera angle around the child
 let playing = false;
-let promptDoor = null;
-let dismissedDoor = null;
+let prompt = null;         // { kind: 'door' | 'gift', door?, gift?, pos: [x, z] }
+let dismissed = null;
 let pendingUnlock = null;
+let pendingSurprise = null;
 let walked = 0;
+const me = { x: 0, y: 0, z: 0, facing: 0, speed: 0 };   // the child, as seen by pets and surprises
 
 // ---------- start up ----------
 boot().catch((e) => {
@@ -39,6 +49,7 @@ async function boot() {
     document.fonts.load('700 40px "Baloo Chettan 2"', 'മലയാളം Aa').catch(() => {}),
   ]);
   rooms = roomData.rooms;
+  await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
   refreshAll();
@@ -81,7 +92,21 @@ function setup3D() {
 
   W = buildWorld(scene, rooms, { low });
   player = createPlayer();
+  player.setCostume(save.costume);
   scene.add(player.root);
+
+  surprises = createSurprises({
+    scene, W, rooms, low,
+    setBanner,
+    stat: bumpStat,
+    onEnd(room, coins, message) {
+      addCoins(coins);
+      toast(message);
+      if (coins > 0) { confetti(70); player.cheer(); play('unlock'); }
+    },
+  });
+  decor = createDecor({ scene, W, play });
+  decor.apply(save.owned);
 
   for (const d of W.doors) {
     if (roomState(d.room.id).unlocked) openDoor(d, true);
@@ -112,92 +137,174 @@ function quizSize(room) {
   return { n, k };
 }
 
-function startQuiz(door) {
-  const room = door.room;
-  const items = makeQuiz(room.subject, lang(), SETTINGS.QUESTIONS_PER_QUIZ, save);
+// One quiz runner for doors (unlock the room) and gift boxes (open a new surprise).
+function runQuiz({ room, count, needed, door, onPassed }) {
+  const items = makeQuiz(room.subject, lang(), count, save);
   if (!items.length) { toast(t('noQuestions')); return; }
+  needed = Math.min(needed, items.length);
+  const askedAt = prompt;
   hidePrompt();
   setTip('');
   setControlsEnabled(false);
   items.forEach((it) => { save.seen[it.id] = (save.seen[it.id] || 0) + 1; });
   persist();
-  const needed = quizSize(room).k;
+  let passedNow = false;
   openQuiz({
     title: () => `${room.emoji} ${pick(room.name)}`,
+    passTitle: door ? null : 'bonusPass',
+    passButton: door ? null : 'bonusGo',
     items,
     onAnswer(item, firstTry) {
       const levelBefore = level();
       if (firstTry) {
-        save.coins += SETTINGS.COINS_PER_CORRECT;
         save.xp += SETTINGS.XP_PER_CORRECT;
         if (save.wrong[item.id]) save.wrong[item.id] = Math.max(0, save.wrong[item.id] - 1);
         if (!save.wrong[item.id]) delete save.wrong[item.id];
+        addCoins(SETTINGS.COINS_PER_CORRECT);
         play('coin');
+        bumpStat('correct');
       } else {
         save.wrong[item.id] = (save.wrong[item.id] || 0) + 1;
+        persist();
       }
-      persist();
       refreshHUD();
       if (level() > levelBefore) toast(t('levelUp', { l: level() }));
     },
     onFinish(score, total) {
-      const passed = score >= needed;
-      const stars = score === total ? 3 : passed ? 2 : score >= Math.ceil(total / 2) ? 1 : 0;
-      const rs = roomState(room.id);
-      if (passed) {
-        const firstUnlock = !rs.unlocked;
+      passedNow = score >= needed;
+      const stars = score === total ? 3 : passedNow ? 2 : score >= Math.ceil(total / 2) ? 1 : 0;
+      if (score === total) bumpStat('perfectQuizzes');
+      if (door && passedNow) {
+        const rs = roomState(room.id);
         rs.unlocked = true;
         rs.stars = Math.max(rs.stars, stars);
         rs.best = Math.max(rs.best, score);
         save.coins += SETTINGS.COINS_FOR_UNLOCK;
-        pendingUnlock = { door, firstUnlock };
+        pendingUnlock = door;
       }
       persist();
       refreshAll();
-      return { passed, stars, needed };
+      return { passed: passedNow, stars, needed };
     },
-    onRetry() { startQuiz(door); },
+    onRetry() { runQuiz({ room, count, needed, door, onPassed }); },
     onClose() {
       setControlsEnabled(true);
-      dismissedDoor = door;
+      dismissed = askedAt;
       if (pendingUnlock) {
-        const { door: d } = pendingUnlock;
+        const d = pendingUnlock;
         pendingUnlock = null;
         openDoor(d);
         confetti(160);
         player.cheer();
         toast(t('coinsEarned', { c: SETTINGS.COINS_FOR_UNLOCK }));
+        checkBadges();
         if (W.doors.every((x) => roomState(x.room.id).unlocked)) setTimeout(() => toast(t('allOpen')), 1600);
       }
+      if (passedNow && onPassed) onPassed();
     },
   });
 }
 
-function showPrompt(door) {
-  promptDoor = door;
-  const { n, k } = quizSize(door.room);
-  $('prompt-emoji').textContent = `${door.room.emoji}🔒`;
-  $('prompt-text').textContent = n
-    ? t('lockedPrompt', { room: pick(door.room.name), n, k })
-    : t('noQuestions');
-  $('prompt-go').classList.toggle('hidden', !n);
+function startDoorQuiz(door) {
+  runQuiz({ room: door.room, count: SETTINGS.QUESTIONS_PER_QUIZ, needed: quizSize(door.room).k, door });
+}
+
+// ---------- surprises ----------
+function startSurprise(room, forced) {
+  hidePrompt();
+  setTip('');
+  surprises.start(room, me, () => {
+    const r = giveSticker();
+    return { isNew: r.isNew, sticker: { ...r.sticker, label: pick(r.sticker.name) } };
+  }, forced);
+}
+
+function openGift(gift) {
+  if (freeSurpriseReady(gift.room.id)) {
+    useFreeSurprise(gift.room.id);
+    startSurprise(gift.room);
+  } else {
+    pendingSurprise = gift.room;
+    runQuiz({
+      room: gift.room, count: SETTINGS.BONUS_QUESTIONS, needed: SETTINGS.BONUS_CORRECT,
+      onPassed: () => { const r = pendingSurprise; pendingSurprise = null; startSurprise(r); },
+    });
+  }
+}
+
+function setBanner(text) {
+  const b = $('banner');
+  b.textContent = text || '';
+  b.classList.toggle('hidden', !text);
+}
+
+// ---------- prompts at doors and gift boxes ----------
+function showPrompt(target) {
+  prompt = target;
+  if (target.kind === 'door') {
+    const room = target.door.room;
+    const { n, k } = quizSize(room);
+    $('prompt-emoji').textContent = `${room.emoji}🔒`;
+    $('prompt-text').textContent = n ? t('lockedPrompt', { room: pick(room.name), n, k }) : t('noQuestions');
+    $('prompt-go').textContent = t('startQuiz');
+    $('prompt-go').classList.toggle('hidden', !n);
+  } else {
+    const free = freeSurpriseReady(target.gift.room.id);
+    $('prompt-emoji').textContent = free ? '🎁' : '🎁❓';
+    $('prompt-text').textContent = free ? t('giftFree') : t('giftQuiz', { n: SETTINGS.BONUS_QUESTIONS, k: SETTINGS.BONUS_CORRECT });
+    $('prompt-go').textContent = free ? t('giftOpen') : t('giftStart');
+    $('prompt-go').classList.remove('hidden');
+  }
   $('prompt').classList.remove('hidden');
 }
 
 function hidePrompt() {
-  promptDoor = null;
+  prompt = null;
   $('prompt').classList.add('hidden');
 }
 
-// ---------- HUD and signs ----------
-const level = () => Math.floor(save.xp / SETTINGS.XP_PER_LEVEL) + 1;
+function act() {
+  if (!prompt || isQuizOpen()) return;
+  unlockAudio();
+  play('click');
+  if (prompt.kind === 'door') startDoorQuiz(prompt.door);
+  else openGift(prompt.gift);
+}
 
+function checkPrompts() {
+  if (!playing || isQuizOpen() || anyPanelOpen()) return;
+  const targets = [];
+  for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', door: d, pos: d.front, r: 1.5 });
+  if (!surprises.active()) {
+    for (const g of surprises.gifts) if (g.group.visible) targets.push({ kind: 'gift', gift: g, pos: g.pos, r: 1.3 });
+  }
+  let near = null, best = Infinity;
+  for (const tg of targets) {
+    const dist = Math.hypot(pos.x - tg.pos[0], pos.z - tg.pos[1]);
+    if (dist < tg.r && dist < best) { best = dist; near = tg; }
+  }
+  const same = (a, b) => a && b && (a.door || a.gift) === (b.door || b.gift);
+  if (dismissed && !same(near, dismissed) && Math.hypot(pos.x - dismissed.pos[0], pos.z - dismissed.pos[1]) > 2.5) dismissed = null;
+  if (near && !same(near, dismissed)) {
+    if (!same(prompt, near)) { showPrompt(near); play('click'); setTip(''); }
+  } else if (prompt) {
+    hidePrompt();
+  }
+  if (!prompt && walked > 3 && walked < 4 && !rooms.some((r) => roomState(r.id).unlocked)) setTip(t('goToDoor'));
+}
+
+const PANELS = ['shop', 'album', 'daily', 'settings', 'credits'];
+const anyPanelOpen = () => PANELS.some((id) => !$(id).classList.contains('hidden'));
+
+// ---------- HUD and signs ----------
 function refreshHUD() {
   $('hud-coins').textContent = save.coins;
   $('hud-level').textContent = level();
   $('hud-xp').style.width = `${((save.xp % SETTINGS.XP_PER_LEVEL) / SETTINGS.XP_PER_LEVEL) * 100}%`;
   const open = rooms.filter((r) => roomState(r.id).unlocked).length;
   $('hud-rooms').textContent = `${open}/${rooms.length}`;
+  $('hud-streak').textContent = t('streakDays', { n: save.streak.count });
+  $('hud-streak').classList.toggle('hidden', !save.streak.count);
   $('lang-btn').textContent = t('switchTo');
   $('quiz-lang').textContent = t('switchTo');
   $('sound-btn').textContent = save.settings.sound ? '🔊' : '🔇';
@@ -241,6 +348,30 @@ function controlsTip() {
   return document.body.classList.contains('touch') ? t('controlsTouch') : t('controlsDesktop');
 }
 
+// ---------- shop ----------
+function buy(item) {
+  if (save.coins < item.price || save.owned.includes(item.id)) return;
+  save.coins -= item.price;
+  save.owned.push(item.id);
+  if (item.type === 'costume') save.costume[item.slot] = item.id;
+  persist();
+  play('chest');
+  confetti(60, [item.emoji]);
+  toast(t('bought', { item: `${item.emoji} ${pick(item.name)}` }));
+  decor.apply([item.id]);
+  player.setCostume(save.costume);
+  bumpStat('bought');
+  refreshHUD();
+}
+
+function wear(item, on) {
+  if (on) save.costume[item.slot] = item.id;
+  else delete save.costume[item.slot];
+  persist();
+  play('click');
+  player.setCostume(save.costume);
+}
+
 // ---------- buttons and menus ----------
 function changeLang(l) {
   save.lang = l;
@@ -248,14 +379,29 @@ function changeLang(l) {
   setLang(l);
 }
 
+function startPlaying() {
+  playing = true;
+  setTip(controlsTip());
+  setTimeout(() => { if ($('tip').textContent === controlsTip()) setTip(''); }, 12000);
+  const daily = dailyCheck();
+  refreshHUD();
+  if (daily) {
+    openDaily(daily, () => {
+      claimDaily();
+      play('unlock');
+      confetti(100, ['🪙', '🔥', '⭐']);
+      setControlsEnabled(true);
+    });
+  }
+}
+
 function setupUI() {
-  initControls({
-    onAction() { if (promptDoor && !isQuizOpen()) startQuiz(promptDoor); },
-  });
+  initControls({ onAction: act });
+  initPanels({ onBuy: buy, onWear: wear, onOpen: () => { hidePrompt(); setTip(''); setControlsEnabled(false); } });
   onLangChange(() => {
     refreshAll();
     retranslateQuiz((it) => toQuizItem(it.raw, lang(), it.order));
-    if (promptDoor) showPrompt(promptDoor);
+    if (prompt) showPrompt(prompt);
     if (playing && !$('tip').classList.contains('hidden')) setTip(walked < 3 ? controlsTip() : t('goToDoor'));
   });
   document.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { play('click'); changeLang(b.dataset.lang); }));
@@ -268,12 +414,12 @@ function setupUI() {
     $('start').classList.add('hidden');
     $('hud').classList.remove('hidden');
     $('cam-btns').classList.add('playing');
-    playing = true;
-    setTip(controlsTip());
-    setTimeout(() => { if ($('tip').textContent === controlsTip()) setTip(''); }, 12000);
+    startPlaying();
   });
-  $('prompt-go').addEventListener('click', () => { unlockAudio(); play('click'); if (promptDoor) startQuiz(promptDoor); });
-  $('prompt-no').addEventListener('click', () => { play('click'); dismissedDoor = promptDoor; hidePrompt(); });
+  $('prompt-go').addEventListener('click', act);
+  $('prompt-no').addEventListener('click', () => { play('click'); dismissed = prompt; hidePrompt(); });
+  $('shop-btn').addEventListener('click', () => { play('click'); openShop(); });
+  $('album-btn').addEventListener('click', () => { play('click'); openAlbum(); });
   $('sound-btn').addEventListener('click', () => {
     save.settings.sound = !save.settings.sound; persist(); refreshHUD(); unlockAudio(); play('click');
   });
@@ -281,6 +427,7 @@ function setupUI() {
     play('click');
     $('set-low').checked = isLowGraphics();
     $('set-sound').checked = save.settings.sound;
+    hidePrompt();
     setControlsEnabled(false);
     $('settings').classList.remove('hidden');
   });
@@ -303,36 +450,12 @@ function setupUI() {
   document.querySelectorAll('[data-close]').forEach((b) => b.addEventListener('click', () => {
     play('click');
     $(b.dataset.close).classList.add('hidden');
-    setControlsEnabled(!isQuizOpen());
+    setControlsEnabled(!isQuizOpen() && !anyPanelOpen());
   }));
   applyToPage();
 }
 
 // ---------- walking ----------
-function collide(p) {
-  const R = PLAYER_RADIUS;
-  for (let pass = 0; pass < 2; pass++) {
-    for (const c of W.colliders) {
-      if (!c.on) continue;
-      const cx = Math.max(c.minX, Math.min(p.x, c.maxX));
-      const cz = Math.max(c.minZ, Math.min(p.z, c.maxZ));
-      const dx = p.x - cx, dz = p.z - cz;
-      const d2 = dx * dx + dz * dz;
-      if (d2 >= R * R) continue;
-      if (d2 > 1e-9) {
-        const d = Math.sqrt(d2);
-        p.x = cx + (dx / d) * R;
-        p.z = cz + (dz / d) * R;
-      } else {
-        const l = p.x - c.minX, r = c.maxX - p.x, b = p.z - c.minZ, f = c.maxZ - p.z;
-        const m = Math.min(l, r, b, f);
-        if (m === l) p.x = c.minX - R; else if (m === r) p.x = c.maxX + R;
-        else if (m === b) p.z = c.minZ - R; else p.z = c.maxZ + R;
-      }
-    }
-  }
-}
-
 function updatePlayer(dt) {
   yaw += takeYaw(dt);
   const mv = playing ? getMove() : { x: 0, y: 0 };
@@ -346,7 +469,7 @@ function updatePlayer(dt) {
   const before = pos.clone();
   pos.x += vel.x * dt;
   pos.z += vel.y * dt;
-  collide(pos);
+  collide(pos, W.colliders, PLAYER_RADIUS);
   walked += before.distanceTo(pos);
   const speed = Math.hypot(vel.x, vel.y);
   if (speed > 0.3) {
@@ -360,26 +483,17 @@ function updatePlayer(dt) {
   player.root.rotation.y = facing;
   player.animate(dt, Math.min(1, speed / SETTINGS.WALK_SPEED));
   player.updateCheer(dt);
+  Object.assign(me, { x: pos.x, y: pos.y, z: pos.z, facing, speed });
 }
 
-function checkDoors() {
-  if (!playing || isQuizOpen()) return;
-  let near = null, best = 1.5;
-  for (const d of W.doors) {
-    if (!d.collider.on) continue;
-    const dist = Math.hypot(pos.x - d.front[0], pos.z - d.front[1]);
-    if (dist < best) { best = dist; near = d; }
+function updateGifts() {
+  const busyRoom = surprises.activeRoom();
+  for (const g of surprises.gifts) {
+    g.group.visible = roomState(g.room.id).unlocked && busyRoom !== g.room;
+    const free = freeSurpriseReady(g.room.id);
+    g.free.visible = free;
+    g.quiz.visible = !free;
   }
-  if (dismissedDoor && (!near || near !== dismissedDoor)) {
-    const dd = dismissedDoor;
-    if (Math.hypot(pos.x - dd.front[0], pos.z - dd.front[1]) > 2.5) dismissedDoor = null;
-  }
-  if (near && near !== dismissedDoor) {
-    if (promptDoor !== near) { showPrompt(near); play('click'); setTip(''); }
-  } else if (promptDoor) {
-    hidePrompt();
-  }
-  if (playing && !promptDoor && walked > 3 && walked < 4 && !rooms.some((r) => roomState(r.id).unlocked)) setTip(t('goToDoor'));
 }
 
 // ---------- camera ----------
@@ -434,15 +548,13 @@ function updateCamera(dt) {
 const clock = new THREE.Clock();
 let slowFrames = 0;
 
+let simTime = 0;
+
 function loop() {
   requestAnimationFrame(loop);
   const dt = Math.min(0.05, clock.getDelta());
-  const time = clock.elapsedTime;
-  updatePlayer(dt);
-  checkDoors();
-  W.update(dt, time, pos);
-  updateCamera(dt);
-  renderer.render(scene, camera);
+  simTime += dt;
+  frame(dt, simTime);
 
   // if the phone struggles, quietly lower the quality
   if (dt > 0.045) slowFrames++; else slowFrames = Math.max(0, slowFrames - 1);
@@ -453,5 +565,26 @@ function loop() {
   }
 }
 
+function frame(dt, time, draw = true) {
+  updatePlayer(dt);
+  updateGifts();
+  checkPrompts();
+  W.update(dt, time, pos);
+  surprises.update(dt, time, me);
+  decor.update(dt, time, me);
+  updateCamera(dt);
+  if (draw) renderer.render(scene, camera);
+}
+
 // handy for testing in the browser console
-window.__game = { save, get doors() { return W.doors; }, pos, startQuiz, snap() { snapCamera = true; } };
+window.__game = {
+  save, pos, me, startDoorQuiz, startSurprise, addCoins,
+  get doors() { return W.doors; },
+  get surprises() { return surprises; },
+  snap() { snapCamera = true; },
+  // run the game forward quickly (for tests); onStep(t) can move the child
+  fastForward(seconds, onStep) {
+    for (let s = 0; s < seconds; s += 1 / 30) { onStep?.(s); simTime += 1 / 30; frame(1 / 30, simTime, false); }
+    renderer.render(scene, camera);
+  },
+};

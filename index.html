@@ -43,13 +43,17 @@
       <div class="xp-bar"><div id="hud-xp"></div></div>
     </div>
     <div class="hud-pill">🚪 <span id="hud-rooms">0/0</span></div>
+    <div class="hud-pill" id="hud-streak">🔥 0</div>
     <div class="hud-spacer"></div>
+    <button class="hud-btn icon" id="shop-btn" aria-label="shop">🛍️</button>
+    <button class="hud-btn icon" id="album-btn" aria-label="album">📒</button>
     <button class="hud-btn" id="lang-btn">English</button>
     <button class="hud-btn icon" id="sound-btn" aria-label="sound">🔊</button>
     <button class="hud-btn icon" id="settings-btn" aria-label="settings">⚙️</button>
   </div>
 
   <div id="tip" class="hidden"></div>
+  <div id="banner" class="hidden"></div>
   <div id="toasts"></div>
 
   <!-- Door prompt -->
@@ -89,6 +93,44 @@
           <button class="soft-btn" id="r-later" data-i18n="later"></button>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Shop -->
+  <div id="shop" class="overlay hidden">
+    <div class="modal-card wide">
+      <div class="panel-top"><h2 data-i18n="shop">Shop</h2><span class="hud-pill" id="shop-coins"></span><button class="close-x" data-close="shop" aria-label="close">✕</button></div>
+      <div class="tab-row">
+        <button class="soft-btn small" data-tab="decor" data-i18n="tabDecor"></button>
+        <button class="soft-btn small" data-tab="pet" data-i18n="tabPet"></button>
+        <button class="soft-btn small" data-tab="costume" data-i18n="tabCostume"></button>
+      </div>
+      <div class="item-grid" id="shop-list"></div>
+    </div>
+  </div>
+
+  <!-- Album -->
+  <div id="album" class="overlay hidden">
+    <div class="modal-card wide">
+      <div class="panel-top"><h2 data-i18n="album">Album</h2><button class="close-x" data-close="album" aria-label="close">✕</button></div>
+      <div class="tab-row">
+        <button class="soft-btn small" data-tab="badges" data-i18n="badges"></button>
+        <button class="soft-btn small" data-tab="stickers" data-i18n="stickers"></button>
+      </div>
+      <p class="small-note" id="album-hint"></p>
+      <div class="item-grid" id="album-list"></div>
+    </div>
+  </div>
+
+  <!-- Daily bonus -->
+  <div id="daily" class="overlay hidden">
+    <div class="modal-card center">
+      <div class="result-emoji">🎁</div>
+      <h2 data-i18n="dailyTitle">Daily bonus!</h2>
+      <p class="daily-streak" id="daily-streak"></p>
+      <div class="daily-days" id="daily-days"></div>
+      <p class="small-note" data-i18n="dailyText"></p>
+      <button class="big-btn" id="daily-collect"></button>
     </div>
   </div>
 

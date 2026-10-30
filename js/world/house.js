@@ -288,6 +288,7 @@ export function buildWorld(scene, rooms, { low }) {
   W.titleSign = new THREE.Mesh(new THREE.PlaneGeometry(3.6, 0.9), new THREE.MeshBasicMaterial({ transparent: true }));
   W.titleSign.position.set(0, PLINTH + 2.1, 11.05);
   root.add(W.titleSign);
+  W.roofMeshes.push(W.titleSign);   // hidden with the roof when the child walks in
 
   // ---------- garden ----------
   const trees = [[-14, 20], [14, 22], [-16, 6], [16, 4], [-15, -8], [15, -10], [-8, 24], [9, 25], [-17, -12], [17, 15], [-11, -12], [11, 18]];

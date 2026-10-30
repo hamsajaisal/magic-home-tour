@@ -166,9 +166,9 @@ function showResult() {
   const scoreText = t('resultScore', { s: S.score, n: S.items.length });
   if (res.passed) {
     el.rEmoji.textContent = '🎉';
-    el.rTitle.textContent = t('resultPass');
+    el.rTitle.textContent = t(S.passTitle || 'resultPass');
     el.rText.textContent = scoreText;
-    el.rMain.textContent = t('walkIn');
+    el.rMain.textContent = t(S.passButton || 'walkIn');
     el.rLater.classList.add('hidden');
     play('unlock');
   } else {
