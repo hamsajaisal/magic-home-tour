@@ -12,6 +12,17 @@ house. Every room door is locked, and answering questions opens it.
 
 ---
 
+## 🏡 What's in the house
+
+- **6 locked rooms**, one for each USS subject: Maths Workshop, Science Lab, Malayalam Reading Room, English Corner, Social Science Room and Knowledge Room (GK). Answer questions at a door to open it.
+- **A gift box 🎁 in every open room.** Each room gives one free surprise a day, and after that the child answers a few questions for a new one. Surprises: chocolate rain, sweets rain, coin rain, a hidden kitten, balloons and a treasure chest.
+- **🌟 Secret room of the day:** one room each day gives double coins for its surprise.
+- **📚 Revision Cupboard** (back of the hall): questions the child got wrong are "locked" in here to practise again. They leave the cupboard once answered correctly.
+- **🪣 Wishing Well** (in the garden): a mixed quiz from all subjects, with bonus coins.
+- **🛍️ Shop, 📒 album, 🔥 daily bonus:** decorations, pets, costumes, badges and stickers.
+
+To add a new room, add it to `data/rooms.json` (a programmer can help with the position), and give its `subject` some questions.
+
 ## ▶️ How to play on your computer
 
 1. Make sure **Node.js** is installed. If it isn't, download it from <https://nodejs.org> and click the big **LTS** button.

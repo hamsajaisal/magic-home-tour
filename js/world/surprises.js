@@ -140,9 +140,9 @@ export function createSurprises({ scene, W, rooms, low, setBanner, onEnd, stat }
     group.position.set(x, PLINTH, z);
     group.visible = false;
     scene.add(group);
-    const free = sprite('🎁', 0.8), quiz = sprite('❓', 0.8);
-    for (const s of [free, quiz]) { s.position.set(0, 1.4, 0); group.add(s); }
-    return { room, pos: [x, z], group, free, quiz };
+    const free = sprite('🎁', 0.8), quiz = sprite('❓', 0.8), star = sprite('🌟', 1.0);
+    for (const s of [free, quiz, star]) { s.position.set(0, 1.4, 0); group.add(s); }
+    return { room, pos: [x, z], group, free, quiz, star };
   });
 
   let S = null;        // the surprise happening now
@@ -237,7 +237,7 @@ export function createSurprises({ scene, W, rooms, low, setBanner, onEnd, stat }
       if (!g.group.visible) continue;
       g.group.rotation.y += dt * 0.8;
       g.group.position.y = PLINTH + Math.abs(Math.sin(time * 3)) * 0.08;
-      g.free.position.y = g.quiz.position.y = 1.4 + Math.sin(time * 2.5) * 0.12;
+      g.free.position.y = g.quiz.position.y = g.star.position.y = 1.4 + Math.sin(time * 2.5) * 0.12;
     }
     if (!S) return;
     S.time += dt;

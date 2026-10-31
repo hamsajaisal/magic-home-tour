@@ -34,7 +34,7 @@ export function isInsideHouse(x, z) {
 }
 
 export function buildWorld(scene, rooms, { low }) {
-  const W = { colliders: [], fadeables: [], roofMats: [], doors: [], updaters: [], root: new THREE.Group() };
+  const W = { colliders: [], fadeables: [], roofMats: [], doors: [], updaters: [], boards: [], root: new THREE.Group() };
   const root = W.root;
   scene.add(root);
   let statics = new THREE.Group();
@@ -222,6 +222,14 @@ export function buildWorld(scene, rooms, { low }) {
     });
   }
 
+  // boards hung on room walls turn see-through together with their wall
+  for (const m of W.boards) {
+    m.material = m.material.clone();
+    const p = m.position.clone();
+    const wall = W.fadeables.find((w) => new THREE.Box3().setFromObject(w).expandByScalar(0.2).containsPoint(p));
+    if (wall) W.windows.push({ mesh: m, wall });
+  }
+
   // ---------- central courtyard (nadumuttam) with tulsi thara ----------
   box(4, 0.04, 4, '#9aa0a6', 0, PLINTH, -3);
   box(4.3, 0.12, 0.15, '#7d6b5a', 0, PLINTH, -5.07); box(4.3, 0.12, 0.15, '#7d6b5a', 0, PLINTH, -0.93);
@@ -234,16 +242,17 @@ export function buildWorld(scene, rooms, { low }) {
     ball(0.18, '#3e9b3a', Math.cos(a) * 0.18, PLINTH + 1.25 + (i % 2) * 0.12, -3 + Math.sin(a) * 0.18);
   }
   ball(0.2, '#4caf50', 0, PLINTH + 1.5, -3);
-  // nilavilakku (brass lamp)
+  // nilavilakku (brass lamp) in the back hall
   const brass = '#d9a520';
-  cyl(0.3, 0.35, 0.08, brass, -3, PLINTH, 0.2, { collide: true });
-  cyl(0.05, 0.07, 1.0, brass, -3, PLINTH + 0.08, 0.2);
-  cyl(0.28, 0.08, 0.12, brass, -3, PLINTH + 1.05, 0.2);
+  const LX = -2.8, LZ = -7.0;
+  cyl(0.3, 0.35, 0.08, brass, LX, PLINTH, LZ, { collide: true });
+  cyl(0.05, 0.07, 1.0, brass, LX, PLINTH + 0.08, LZ);
+  cyl(0.28, 0.08, 0.12, brass, LX, PLINTH + 1.05, LZ);
   const flameMat = new THREE.MeshBasicMaterial({ color: '#ffb300' });
   for (let i = 0; i < 5; i++) {
     const a = (i / 5) * Math.PI * 2;
     const f = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.14, 5), flameMat);
-    f.position.set(-3 + Math.cos(a) * 0.22, PLINTH + 1.25, 0.2 + Math.sin(a) * 0.22);
+    f.position.set(LX + Math.cos(a) * 0.22, PLINTH + 1.25, LZ + Math.sin(a) * 0.22);
     root.add(f);
     W.updaters.push((dt, time) => { f.scale.y = 0.85 + Math.sin(time * 12 + i * 1.7) * 0.15; });
   }

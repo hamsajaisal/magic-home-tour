@@ -43,6 +43,17 @@ export function available(subject, lang) {
     (SETTINGS.SHOW_NEEDS_REVIEW || !q.needsReview));
 }
 
+// Questions the child got wrong before, hardest first (for the revision cupboard).
+export function wrongQuestions(save, lang) {
+  return bank.all
+    .filter((q) => save.wrong[q.id] > 0 && q[lang])
+    .sort((a, b) => save.wrong[b.id] - save.wrong[a.id]);
+}
+
+export function makeRevisionQuiz(save, lang, count) {
+  return wrongQuestions(save, lang).slice(0, count).map((q) => toQuizItem(q, lang));
+}
+
 // Options like "All of these" must stay in place, so we don't shuffle those questions.
 const NO_SHUFFLE = /all of|none of|both|above|ഇവയെല്ലാം|ഇവയൊന്നുമല്ല|രണ്ടും|എല്ലാം|മുകളിൽ/i;
 

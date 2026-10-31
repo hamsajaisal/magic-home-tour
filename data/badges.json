@@ -1,35 +1,283 @@
 {
-  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers. n = \"all\" means every room. Stickers come from treasure chests.",
+  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, wells, revisions, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers. n = \"all\" means every room. Stickers come from treasure chests.",
   "badges": [
-    { "id": "firstDoor", "emoji": "🚪", "rule": "roomsOpened", "n": 1, "name": { "en": "First door!", "ml": "ആദ്യത്തെ വാതിൽ!" } },
-    { "id": "allRooms", "emoji": "🏠", "rule": "roomsOpened", "n": "all", "name": { "en": "Opened every room", "ml": "എല്ലാ മുറികളും തുറന്നു" } },
-    { "id": "correct10", "emoji": "✅", "rule": "correct", "n": 10, "name": { "en": "10 right answers", "ml": "10 ശരിയുത്തരങ്ങൾ" } },
-    { "id": "correct50", "emoji": "🧠", "rule": "correct", "n": 50, "name": { "en": "50 right answers", "ml": "50 ശരിയുത്തരങ്ങൾ" } },
-    { "id": "correct200", "emoji": "🎓", "rule": "correct", "n": 200, "name": { "en": "200 right answers", "ml": "200 ശരിയുത്തരങ്ങൾ" } },
-    { "id": "perfect1", "emoji": "⭐", "rule": "perfectQuizzes", "n": 1, "name": { "en": "Full marks!", "ml": "മുഴുവൻ മാർക്ക്!" } },
-    { "id": "perfect5", "emoji": "🌟", "rule": "perfectQuizzes", "n": 5, "name": { "en": "Full marks 5 times", "ml": "5 തവണ മുഴുവൻ മാർക്ക്" } },
-    { "id": "streak3", "emoji": "🔥", "rule": "streak", "n": 3, "name": { "en": "3 days in a row", "ml": "തുടർച്ചയായി 3 ദിവസം" } },
-    { "id": "streak7", "emoji": "🏆", "rule": "streak", "n": 7, "name": { "en": "7 days in a row", "ml": "തുടർച്ചയായി 7 ദിവസം" } },
-    { "id": "treats50", "emoji": "🍫", "rule": "treats", "n": 50, "name": { "en": "Caught 50 treats", "ml": "50 മധുരം പിടിച്ചു" } },
-    { "id": "kitten1", "emoji": "🐱", "rule": "kittens", "n": 1, "name": { "en": "Kitten finder", "ml": "പൂച്ചക്കുട്ടിയെ കണ്ടെത്തി" } },
-    { "id": "balloons20", "emoji": "🎈", "rule": "balloons", "n": 20, "name": { "en": "Popped 20 balloons", "ml": "20 ബലൂൺ പൊട്ടിച്ചു" } },
-    { "id": "shopper", "emoji": "🛍️", "rule": "bought", "n": 1, "name": { "en": "First shopping", "ml": "ആദ്യത്തെ ഷോപ്പിങ്" } },
-    { "id": "petLover", "emoji": "🐶", "rule": "pets", "n": 2, "name": { "en": "Pet lover", "ml": "വളർത്തുമൃഗ സ്നേഹി" } },
-    { "id": "level5", "emoji": "🎖️", "rule": "level", "n": 5, "name": { "en": "Reached level 5", "ml": "ലെവൽ 5 എത്തി" } },
-    { "id": "stickers6", "emoji": "📒", "rule": "stickers", "n": 6, "name": { "en": "6 stickers", "ml": "6 സ്റ്റിക്കറുകൾ" } }
+    {
+      "id": "firstDoor",
+      "emoji": "🚪",
+      "rule": "roomsOpened",
+      "n": 1,
+      "name": {
+        "en": "First door!",
+        "ml": "ആദ്യത്തെ വാതിൽ!"
+      }
+    },
+    {
+      "id": "allRooms",
+      "emoji": "🏠",
+      "rule": "roomsOpened",
+      "n": "all",
+      "name": {
+        "en": "Opened every room",
+        "ml": "എല്ലാ മുറികളും തുറന്നു"
+      }
+    },
+    {
+      "id": "correct10",
+      "emoji": "✅",
+      "rule": "correct",
+      "n": 10,
+      "name": {
+        "en": "10 right answers",
+        "ml": "10 ശരിയുത്തരങ്ങൾ"
+      }
+    },
+    {
+      "id": "correct50",
+      "emoji": "🧠",
+      "rule": "correct",
+      "n": 50,
+      "name": {
+        "en": "50 right answers",
+        "ml": "50 ശരിയുത്തരങ്ങൾ"
+      }
+    },
+    {
+      "id": "correct200",
+      "emoji": "🎓",
+      "rule": "correct",
+      "n": 200,
+      "name": {
+        "en": "200 right answers",
+        "ml": "200 ശരിയുത്തരങ്ങൾ"
+      }
+    },
+    {
+      "id": "perfect1",
+      "emoji": "⭐",
+      "rule": "perfectQuizzes",
+      "n": 1,
+      "name": {
+        "en": "Full marks!",
+        "ml": "മുഴുവൻ മാർക്ക്!"
+      }
+    },
+    {
+      "id": "perfect5",
+      "emoji": "🌟",
+      "rule": "perfectQuizzes",
+      "n": 5,
+      "name": {
+        "en": "Full marks 5 times",
+        "ml": "5 തവണ മുഴുവൻ മാർക്ക്"
+      }
+    },
+    {
+      "id": "streak3",
+      "emoji": "🔥",
+      "rule": "streak",
+      "n": 3,
+      "name": {
+        "en": "3 days in a row",
+        "ml": "തുടർച്ചയായി 3 ദിവസം"
+      }
+    },
+    {
+      "id": "streak7",
+      "emoji": "🏆",
+      "rule": "streak",
+      "n": 7,
+      "name": {
+        "en": "7 days in a row",
+        "ml": "തുടർച്ചയായി 7 ദിവസം"
+      }
+    },
+    {
+      "id": "treats50",
+      "emoji": "🍫",
+      "rule": "treats",
+      "n": 50,
+      "name": {
+        "en": "Caught 50 treats",
+        "ml": "50 മധുരം പിടിച്ചു"
+      }
+    },
+    {
+      "id": "kitten1",
+      "emoji": "🐱",
+      "rule": "kittens",
+      "n": 1,
+      "name": {
+        "en": "Kitten finder",
+        "ml": "പൂച്ചക്കുട്ടിയെ കണ്ടെത്തി"
+      }
+    },
+    {
+      "id": "balloons20",
+      "emoji": "🎈",
+      "rule": "balloons",
+      "n": 20,
+      "name": {
+        "en": "Popped 20 balloons",
+        "ml": "20 ബലൂൺ പൊട്ടിച്ചു"
+      }
+    },
+    {
+      "id": "shopper",
+      "emoji": "🛍️",
+      "rule": "bought",
+      "n": 1,
+      "name": {
+        "en": "First shopping",
+        "ml": "ആദ്യത്തെ ഷോപ്പിങ്"
+      }
+    },
+    {
+      "id": "petLover",
+      "emoji": "🐶",
+      "rule": "pets",
+      "n": 2,
+      "name": {
+        "en": "Pet lover",
+        "ml": "വളർത്തുമൃഗ സ്നേഹി"
+      }
+    },
+    {
+      "id": "level5",
+      "emoji": "🎖️",
+      "rule": "level",
+      "n": 5,
+      "name": {
+        "en": "Reached level 5",
+        "ml": "ലെവൽ 5 എത്തി"
+      }
+    },
+    {
+      "id": "stickers6",
+      "emoji": "📒",
+      "rule": "stickers",
+      "n": 6,
+      "name": {
+        "en": "6 stickers",
+        "ml": "6 സ്റ്റിക്കറുകൾ"
+      }
+    },
+    {
+      "id": "reviser",
+      "emoji": "📚",
+      "rule": "revisions",
+      "n": 1,
+      "name": {
+        "en": "Practised tricky questions",
+        "ml": "തെറ്റിയവ വീണ്ടും പഠിച്ചു"
+      }
+    },
+    {
+      "id": "wishingWell",
+      "emoji": "🪣",
+      "rule": "wells",
+      "n": 3,
+      "name": {
+        "en": "Wishing Well friend",
+        "ml": "ആഗ്രഹക്കിണറിന്റെ ചങ്ങാതി"
+      }
+    }
   ],
   "stickers": [
-    { "id": "elephant", "emoji": "🐘", "name": { "en": "Elephant", "ml": "ആന" } },
-    { "id": "coconut", "emoji": "🥥", "name": { "en": "Coconut", "ml": "തേങ്ങ" } },
-    { "id": "boat", "emoji": "🛶", "name": { "en": "Snake boat", "ml": "ചുണ്ടൻ വള്ളം" } },
-    { "id": "kathakali", "emoji": "🎭", "name": { "en": "Kathakali", "ml": "കഥകളി" } },
-    { "id": "peacock", "emoji": "🦚", "name": { "en": "Peacock", "ml": "മയിൽ" } },
-    { "id": "lamp", "emoji": "🪔", "name": { "en": "Lamp", "ml": "വിളക്ക്" } },
-    { "id": "fish", "emoji": "🐟", "name": { "en": "Fish", "ml": "മീൻ" } },
-    { "id": "hibiscus", "emoji": "🌺", "name": { "en": "Hibiscus", "ml": "ചെമ്പരത്തി" } },
-    { "id": "mango", "emoji": "🥭", "name": { "en": "Mango", "ml": "മാങ്ങ" } },
-    { "id": "tiger", "emoji": "🐯", "name": { "en": "Tiger", "ml": "കടുവ" } },
-    { "id": "parrot", "emoji": "🦜", "name": { "en": "Parrot", "ml": "തത്ത" } },
-    { "id": "banana", "emoji": "🍌", "name": { "en": "Banana", "ml": "പഴം" } }
+    {
+      "id": "elephant",
+      "emoji": "🐘",
+      "name": {
+        "en": "Elephant",
+        "ml": "ആന"
+      }
+    },
+    {
+      "id": "coconut",
+      "emoji": "🥥",
+      "name": {
+        "en": "Coconut",
+        "ml": "തേങ്ങ"
+      }
+    },
+    {
+      "id": "boat",
+      "emoji": "🛶",
+      "name": {
+        "en": "Snake boat",
+        "ml": "ചുണ്ടൻ വള്ളം"
+      }
+    },
+    {
+      "id": "kathakali",
+      "emoji": "🎭",
+      "name": {
+        "en": "Kathakali",
+        "ml": "കഥകളി"
+      }
+    },
+    {
+      "id": "peacock",
+      "emoji": "🦚",
+      "name": {
+        "en": "Peacock",
+        "ml": "മയിൽ"
+      }
+    },
+    {
+      "id": "lamp",
+      "emoji": "🪔",
+      "name": {
+        "en": "Lamp",
+        "ml": "വിളക്ക്"
+      }
+    },
+    {
+      "id": "fish",
+      "emoji": "🐟",
+      "name": {
+        "en": "Fish",
+        "ml": "മീൻ"
+      }
+    },
+    {
+      "id": "hibiscus",
+      "emoji": "🌺",
+      "name": {
+        "en": "Hibiscus",
+        "ml": "ചെമ്പരത്തി"
+      }
+    },
+    {
+      "id": "mango",
+      "emoji": "🥭",
+      "name": {
+        "en": "Mango",
+        "ml": "മാങ്ങ"
+      }
+    },
+    {
+      "id": "tiger",
+      "emoji": "🐯",
+      "name": {
+        "en": "Tiger",
+        "ml": "കടുവ"
+      }
+    },
+    {
+      "id": "parrot",
+      "emoji": "🦜",
+      "name": {
+        "en": "Parrot",
+        "ml": "തത്ത"
+      }
+    },
+    {
+      "id": "banana",
+      "emoji": "🍌",
+      "name": {
+        "en": "Banana",
+        "ml": "പഴം"
+      }
+    }
   ]
 }

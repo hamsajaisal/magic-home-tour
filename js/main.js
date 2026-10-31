@@ -1,14 +1,15 @@
 // Starts the game: loads data, builds the 3D house, runs the walking loop, door quizzes and surprises.
 import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
-import { save, persist, resetAll, roomState } from './storage.js';
-import { loadLanguages, setLang, lang, t, pick, onLangChange, applyToPage } from './i18n.js';
-import { loadQuestions, makeQuiz, available, toQuizItem, sources } from './questions.js';
+import { save, persist, resetAll, roomState, today } from './storage.js';
+import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
+import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
 import { collide } from './world/physics.js';
 import { createSurprises } from './world/surprises.js';
 import { createDecor } from './world/decor.js';
+import { createExtras } from './world/extras.js';
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily } from './ui/panels.js';
@@ -22,7 +23,7 @@ import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
 let rooms = [];
-let W, player, renderer, scene, camera, sun, surprises, decor;
+let W, player, renderer, scene, camera, sun, surprises, decor, extras;
 const pos = new THREE.Vector3(START.x, 0, START.z);
 const vel = new THREE.Vector2();
 let facing = Math.PI;      // facing the house
@@ -105,10 +106,15 @@ function setup3D() {
       addCoins(coins);
       toast(message);
       if (coins > 0) { confetti(70); player.cheer(); play('unlock'); }
+      if (coins > 0 && room.id === secretRoomId()) {
+        addCoins(coins);
+        setTimeout(() => { toast(t('secretBonus', { c: coins })); confetti(80, ['🌟', '🪙']); }, 900);
+      }
     },
   });
   decor = createDecor({ scene, W, play });
   decor.apply(save.owned);
+  extras = createExtras({ scene, W });
 
   for (const d of W.doors) {
     if (roomState(d.room.id).unlocked) openDoor(d, true);
@@ -140,8 +146,10 @@ function quizSize(room) {
 }
 
 // One quiz runner for doors (unlock the room) and gift boxes (open a new surprise).
-function runQuiz({ room, count, needed, door, onPassed }) {
-  const items = makeQuiz(room.subject, lang(), count, save);
+function runQuiz(opts) {
+  const { room, count, door, onPassed } = opts;
+  let { needed } = opts;
+  const items = opts.makeItems ? opts.makeItems() : makeQuiz(room.subject, lang(), count, save);
   if (!items.length) { toast(t('noQuestions')); return; }
   needed = Math.min(needed, items.length);
   const askedAt = prompt;
@@ -153,8 +161,8 @@ function runQuiz({ room, count, needed, door, onPassed }) {
   let passedNow = false;
   openQuiz({
     title: () => `${room.emoji} ${pick(room.name)}`,
-    passTitle: door ? null : 'bonusPass',
-    passButton: door ? null : 'bonusGo',
+    passTitle: door ? null : opts.passTitle || 'bonusPass',
+    passButton: door ? null : opts.passButton || 'bonusGo',
     items,
     onAnswer(item, firstTry) {
       const levelBefore = level();
@@ -188,7 +196,7 @@ function runQuiz({ room, count, needed, door, onPassed }) {
       refreshAll();
       return { passed: passedNow, stars, needed };
     },
-    onRetry() { runQuiz({ room, count, needed, door, onPassed }); },
+    onRetry() { runQuiz(opts); },
     onClose() {
       setControlsEnabled(true);
       dismissed = askedAt;
@@ -234,6 +242,41 @@ function openGift(gift) {
   }
 }
 
+// One room each day is the "secret room": its surprise gives double coins.
+function secretRoomId() {
+  let h = 0;
+  for (const ch of today()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return rooms[h % rooms.length].id;
+}
+
+const nameOf = (key) => ({ en: tIn('en', key), ml: tIn('ml', key) });
+const wellRoom = () => ({ id: 'well', subject: 'mix', emoji: '🪣', name: nameOf('wellName') });
+const cupboardRoom = () => ({ id: 'cupboard', subject: 'mix', emoji: '📚', name: nameOf('cupboardName') });
+
+function startWellQuiz() {
+  runQuiz({
+    room: wellRoom(), count: SETTINGS.QUESTIONS_PER_QUIZ, needed: Math.ceil(SETTINGS.QUESTIONS_PER_QUIZ * 0.6),
+    passTitle: 'mixPass', passButton: 'continue',
+    onPassed: () => {
+      addCoins(SETTINGS.COINS_FOR_UNLOCK);
+      toast(t('coinsEarned', { c: SETTINGS.COINS_FOR_UNLOCK }));
+      confetti(90, ['💧', '🪙', '✨']);
+      player.cheer();
+      bumpStat('wells');
+    },
+  });
+}
+
+function startRevision() {
+  const n = Math.min(SETTINGS.QUESTIONS_PER_QUIZ, wrongQuestions(save, lang()).length);
+  runQuiz({
+    room: cupboardRoom(), count: n, needed: Math.ceil(n / 2),
+    makeItems: () => makeRevisionQuiz(save, lang(), SETTINGS.QUESTIONS_PER_QUIZ),
+    passTitle: 'revisionPass', passButton: 'continue',
+    onPassed: () => { confetti(70, ['📚', '⭐']); player.cheer(); bumpStat('revisions'); refreshAll(); },
+  });
+}
+
 function setBanner(text) {
   const b = $('banner');
   b.textContent = text || '';
@@ -249,6 +292,17 @@ function showPrompt(target) {
     $('prompt-emoji').textContent = `${room.emoji}🔒`;
     $('prompt-text').textContent = n ? t('lockedPrompt', { room: pick(room.name), n, k }) : t('noQuestions');
     $('prompt-go').textContent = t('startQuiz');
+    $('prompt-go').classList.toggle('hidden', !n);
+  } else if (target.kind === 'well') {
+    $('prompt-emoji').textContent = '🪣✨';
+    $('prompt-text').textContent = t('wellPrompt', { n: SETTINGS.QUESTIONS_PER_QUIZ });
+    $('prompt-go').textContent = t('wellGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'cupboard') {
+    const n = wrongQuestions(save, lang()).length;
+    $('prompt-emoji').textContent = n ? '📚🔒' : '📚✨';
+    $('prompt-text').textContent = n ? t('cupboardPrompt', { n }) : t('cupboardEmpty');
+    $('prompt-go').textContent = t('cupboardGo');
     $('prompt-go').classList.toggle('hidden', !n);
   } else {
     const free = freeSurpriseReady(target.gift.room.id);
@@ -270,22 +324,26 @@ function act() {
   unlockAudio();
   play('click');
   if (prompt.kind === 'door') startDoorQuiz(prompt.door);
+  else if (prompt.kind === 'well') startWellQuiz();
+  else if (prompt.kind === 'cupboard') startRevision();
   else openGift(prompt.gift);
 }
 
 function checkPrompts() {
   if (!playing || isQuizOpen() || anyPanelOpen()) return;
   const targets = [];
-  for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', door: d, pos: d.front, r: 1.5 });
+  for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', key: `door:${d.room.id}`, door: d, pos: d.front, r: 1.5 });
   if (!surprises.active()) {
-    for (const g of surprises.gifts) if (g.group.visible) targets.push({ kind: 'gift', gift: g, pos: g.pos, r: 1.3 });
+    for (const g of surprises.gifts) if (g.group.visible) targets.push({ kind: 'gift', key: `gift:${g.room.id}`, gift: g, pos: g.pos, r: 1.3 });
+    targets.push({ kind: 'well', key: 'well', pos: extras.well.pos, r: 2.0 });
+    targets.push({ kind: 'cupboard', key: 'cupboard', pos: extras.cupboard.pos, r: 1.3 });
   }
   let near = null, best = Infinity;
   for (const tg of targets) {
     const dist = Math.hypot(pos.x - tg.pos[0], pos.z - tg.pos[1]);
     if (dist < tg.r && dist < best) { best = dist; near = tg; }
   }
-  const same = (a, b) => a && b && (a.door || a.gift) === (b.door || b.gift);
+  const same = (a, b) => a && b && a.key === b.key;
   if (dismissed && !same(near, dismissed) && Math.hypot(pos.x - dismissed.pos[0], pos.z - dismissed.pos[1]) > 2.5) dismissed = null;
   if (near && !same(near, dismissed)) {
     if (!same(prompt, near)) { showPrompt(near); play('click'); setTip(''); }
@@ -323,6 +381,7 @@ function refreshSigns() {
     d.sign.material.map = labelTexture([`${d.room.emoji} ${pick(d.room.name)}`, second], d.room.color, '#3a2a1a');
     d.sign.material.needsUpdate = true;
   }
+  extras.refreshSigns({ cupboard: t('cupboardName'), well: t('wellName') }, wrongQuestions(save, lang()).length);
   W.titleSign.material.map?.dispose();
   W.titleSign.material.map = labelTexture(`🏡 ${t('title')}`, '#ff8a3d', '#ffffff');
   W.titleSign.material.needsUpdate = true;
@@ -388,6 +447,8 @@ function startPlaying() {
   setTimeout(() => { if ($('tip').textContent === controlsTip()) setTip(''); }, 12000);
   const daily = dailyCheck();
   refreshHUD();
+  const secret = rooms.find((r) => r.id === secretRoomId());
+  setTimeout(() => toast(t('secretToday', { room: `${secret.emoji} ${pick(secret.name)}` })), daily ? 4000 : 1500);
   if (daily) {
     openDaily(daily, () => {
       claimDaily();
@@ -497,7 +558,9 @@ function updateGifts() {
   for (const g of surprises.gifts) {
     g.group.visible = roomState(g.room.id).unlocked && busyRoom !== g.room;
     const free = freeSurpriseReady(g.room.id);
-    g.free.visible = free;
+    const secret = g.room.id === secretRoomId();
+    g.star.visible = free && secret;
+    g.free.visible = free && !secret;
     g.quiz.visible = !free;
   }
 }
@@ -577,6 +640,7 @@ function frame(dt, time, draw = true) {
   checkPrompts();
   W.update(dt, time, pos);
   surprises.update(dt, time, me);
+  extras.update(dt, time);
   decor.update(dt, time, me);
   updateCamera(dt);
   if (draw) renderer.render(scene, camera);
