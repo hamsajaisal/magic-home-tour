@@ -2,6 +2,10 @@
   "_help": "List every question file here. To add a new file, put it in this folder and add its name to the list below (inside quotes, separated by commas).",
   "files": [
     "maths.json",
-    "science.json"
+    "science.json",
+    "social.json",
+    "english.json",
+    "malayalam.json",
+    "gk.json"
   ]
 }

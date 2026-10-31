@@ -1,0 +1,742 @@
+[
+  {
+    "id": "ENG-0001",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Vocabulary: synonyms and antonyms",
+      "ml": "പദസമ്പത്ത്: സമാനപദങ്ങളും വിപരീതപദങ്ങളും"
+    },
+    "en": {
+      "question": "Choose the word that means the same as \"happy\".",
+      "options": [
+        "sad",
+        "glad",
+        "angry",
+        "tired"
+      ],
+      "hint": "Think of how you feel on your birthday.",
+      "explanation": "\"Glad\" means happy. Sad, angry and tired are different feelings."
+    },
+    "ml": {
+      "question": "Choose the word that means the same as \"happy\".",
+      "options": [
+        "sad",
+        "glad",
+        "angry",
+        "tired"
+      ],
+      "hint": "പിറന്നാൾ ദിവസം നിനക്ക് എങ്ങനെ തോന്നും എന്ന് ആലോചിക്കൂ.",
+      "explanation": "\"Glad\" എന്നാൽ സന്തോഷം (happy). മറ്റുള്ളവ വേറെ വികാരങ്ങളാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0002",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Vocabulary: synonyms and antonyms",
+      "ml": "പദസമ്പത്ത്: സമാനപദങ്ങളും വിപരീതപദങ്ങളും"
+    },
+    "en": {
+      "question": "Choose the opposite of \"ancient\".",
+      "options": [
+        "old",
+        "modern",
+        "early",
+        "great"
+      ],
+      "hint": "\"Ancient\" means very old.",
+      "explanation": "\"Ancient\" means very old, so its opposite is \"modern\" (new, of today)."
+    },
+    "ml": {
+      "question": "Choose the opposite of \"ancient\".",
+      "options": [
+        "old",
+        "modern",
+        "early",
+        "great"
+      ],
+      "hint": "\"Ancient\" എന്നാൽ വളരെ പഴയത്.",
+      "explanation": "\"Ancient\" (വളരെ പഴയ) എന്നതിന്റെ വിപരീതം \"modern\" (ആധുനികം) ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0003",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Vocabulary: synonyms and antonyms",
+      "ml": "പദസമ്പത്ത്: സമാനപദങ്ങളും വിപരീതപദങ്ങളും"
+    },
+    "en": {
+      "question": "Choose the word that means the same as \"big\".",
+      "options": [
+        "tiny",
+        "large",
+        "thin",
+        "short"
+      ],
+      "hint": "An elephant is this.",
+      "explanation": "\"Large\" means big. \"Tiny\" is its opposite."
+    },
+    "ml": {
+      "question": "Choose the word that means the same as \"big\".",
+      "options": [
+        "tiny",
+        "large",
+        "thin",
+        "short"
+      ],
+      "hint": "ആന ഇങ്ങനെയാണ്.",
+      "explanation": "\"Large\" എന്നാൽ വലുത് (big). \"Tiny\" അതിന്റെ വിപരീതമാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0004",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Vocabulary: synonyms and antonyms",
+      "ml": "പദസമ്പത്ത്: സമാനപദങ്ങളും വിപരീതപദങ്ങളും"
+    },
+    "en": {
+      "question": "Choose the opposite of \"strong\".",
+      "options": [
+        "brave",
+        "weak",
+        "heavy",
+        "tall"
+      ],
+      "hint": "Think of someone who cannot lift a heavy bag.",
+      "explanation": "The opposite of \"strong\" is \"weak\"."
+    },
+    "ml": {
+      "question": "Choose the opposite of \"strong\".",
+      "options": [
+        "brave",
+        "weak",
+        "heavy",
+        "tall"
+      ],
+      "hint": "ഭാരമുള്ള ബാഗ് ഉയർത്താൻ പറ്റാത്ത ഒരാളെ ഓർക്കൂ.",
+      "explanation": "\"Strong\" (ശക്തിയുള്ള) എന്നതിന്റെ വിപരീതം \"weak\" (ദുർബലം) ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0005",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Vocabulary: synonyms and antonyms",
+      "ml": "പദസമ്പത്ത്: സമാനപദങ്ങളും വിപരീതപദങ്ങളും"
+    },
+    "en": {
+      "question": "A person who repairs machines and vehicles is a ___.",
+      "options": [
+        "doctor",
+        "mechanic",
+        "farmer",
+        "tailor"
+      ],
+      "hint": "You take your bicycle or car to this person.",
+      "explanation": "A mechanic repairs machines and vehicles."
+    },
+    "ml": {
+      "question": "A person who repairs machines and vehicles is a ___.",
+      "options": [
+        "doctor",
+        "mechanic",
+        "farmer",
+        "tailor"
+      ],
+      "hint": "സൈക്കിളോ കാറോ കേടായാൽ ഇദ്ദേഹത്തിന്റെ അടുത്താണ് കൊണ്ടുപോകുന്നത്.",
+      "explanation": "യന്ത്രങ്ങളും വാഹനങ്ങളും നന്നാക്കുന്നയാളാണ് mechanic."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0006",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: She is ___ honest girl.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "hint": "Say \"honest\" aloud. Does it start with a vowel sound?",
+      "explanation": "\"Honest\" begins with a vowel sound (the h is silent), so we use \"an\"."
+    },
+    "ml": {
+      "question": "Fill in the blank: She is ___ honest girl.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "some"
+      ],
+      "hint": "\"honest\" ഉറക്കെ പറഞ്ഞുനോക്കൂ. അത് സ്വരശബ്ദത്തിലാണോ തുടങ്ങുന്നത്?",
+      "explanation": "\"Honest\" എന്നതിലെ h ഉച്ചരിക്കുന്നില്ല; സ്വരശബ്ദത്തിൽ തുടങ്ങുന്നതിനാൽ \"an\" ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0007",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: My pencil is ___ the box; I cannot see it.",
+      "options": [
+        "in",
+        "at",
+        "of",
+        "since"
+      ],
+      "hint": "If you cannot see it, it must be inside.",
+      "explanation": "\"In\" is used for something inside a container."
+    },
+    "ml": {
+      "question": "Fill in the blank: My pencil is ___ the box; I cannot see it.",
+      "options": [
+        "in",
+        "at",
+        "of",
+        "since"
+      ],
+      "hint": "കാണാൻ പറ്റുന്നില്ലെങ്കിൽ അത് ഉള്ളിലായിരിക്കും.",
+      "explanation": "ഒരു വസ്തുവിന്റെ ഉള്ളിലുള്ളതിനെ സൂചിപ്പിക്കാൻ \"in\" ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0008",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "What is the past tense of \"go\"?",
+      "options": [
+        "goed",
+        "gone",
+        "went",
+        "going"
+      ],
+      "hint": "Yesterday I ___ to school.",
+      "explanation": "\"Went\" is the past tense of \"go\". \"Gone\" is the past participle (I have gone)."
+    },
+    "ml": {
+      "question": "What is the past tense of \"go\"?",
+      "options": [
+        "goed",
+        "gone",
+        "went",
+        "going"
+      ],
+      "hint": "Yesterday I ___ to school എന്ന് പറഞ്ഞുനോക്കൂ.",
+      "explanation": "\"go\" യുടെ ഭൂതകാലം \"went\" ആണ്. \"gone\" ഉപയോഗിക്കുന്നത് have/has ഒപ്പമാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0009",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Choose the correct form: I have ___ a letter to my grandmother.",
+      "options": [
+        "wrote",
+        "written",
+        "writed",
+        "writing"
+      ],
+      "hint": "After \"have\", use the past participle.",
+      "explanation": "With \"have\", we use the past participle: write – wrote – written."
+    },
+    "ml": {
+      "question": "Choose the correct form: I have ___ a letter to my grandmother.",
+      "options": [
+        "wrote",
+        "written",
+        "writed",
+        "writing"
+      ],
+      "hint": "\"have\" കഴിഞ്ഞാൽ past participle രൂപം വേണം.",
+      "explanation": "\"have\" ഒപ്പം past participle ഉപയോഗിക്കുന്നു: write – wrote – written."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0010",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: Please ___ the light when you leave the room.",
+      "options": [
+        "switch off",
+        "look after",
+        "give up",
+        "run into"
+      ],
+      "hint": "We do this to save electricity.",
+      "explanation": "\"Switch off\" means to stop a light or machine using the switch."
+    },
+    "ml": {
+      "question": "Fill in the blank: Please ___ the light when you leave the room.",
+      "options": [
+        "switch off",
+        "look after",
+        "give up",
+        "run into"
+      ],
+      "hint": "വൈദ്യുതി ലാഭിക്കാൻ നമ്മൾ ഇത് ചെയ്യുന്നു.",
+      "explanation": "\"Switch off\" എന്നാൽ സ്വിച്ച് ഉപയോഗിച്ച് ലൈറ്റോ യന്ത്രമോ ഓഫ് ചെയ്യുക."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0011",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "The phrasal verb \"look after\" means:",
+      "options": [
+        "search for",
+        "take care of",
+        "look behind",
+        "ignore"
+      ],
+      "hint": "A nurse does this for patients.",
+      "explanation": "\"Look after\" means to take care of someone or something."
+    },
+    "ml": {
+      "question": "The phrasal verb \"look after\" means:",
+      "options": [
+        "search for",
+        "take care of",
+        "look behind",
+        "ignore"
+      ],
+      "hint": "ഒരു നഴ്സ് രോഗികൾക്കായി ചെയ്യുന്നത് ഇതാണ്.",
+      "explanation": "\"Look after\" എന്നാൽ ഒരാളെയോ ഒന്നിനെയോ പരിപാലിക്കുക (take care of)."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0012",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "What is the plural of \"child\"?",
+      "options": [
+        "childs",
+        "children",
+        "childrens",
+        "childes"
+      ],
+      "hint": "It is an irregular plural.",
+      "explanation": "\"Child\" becomes \"children\". It does not take -s."
+    },
+    "ml": {
+      "question": "What is the plural of \"child\"?",
+      "options": [
+        "childs",
+        "children",
+        "childrens",
+        "childes"
+      ],
+      "hint": "ഇത് -s ചേർത്ത് ഉണ്ടാക്കുന്ന ബഹുവചനമല്ല.",
+      "explanation": "\"child\" ന്റെ ബഹുവചനം \"children\" ആണ്. -s ചേർക്കില്ല."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0013",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: He ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "hint": "With he/she/it in the simple present, add -s or -es.",
+      "explanation": "In the simple present, \"he\" takes \"goes\"."
+    },
+    "ml": {
+      "question": "Fill in the blank: He ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "hint": "Simple present-ൽ he/she/it ഒപ്പം ക്രിയയിൽ -s/-es ചേർക്കണം.",
+      "explanation": "Simple present-ൽ \"he\" ഒപ്പം \"goes\" ആണ് ശരി."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0014",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: This box is ___ than that one.",
+      "options": [
+        "heavy",
+        "heavier",
+        "heaviest",
+        "more heavy"
+      ],
+      "hint": "We are comparing two things.",
+      "explanation": "To compare two things we use the comparative \"heavier\" (+ than)."
+    },
+    "ml": {
+      "question": "Fill in the blank: This box is ___ than that one.",
+      "options": [
+        "heavy",
+        "heavier",
+        "heaviest",
+        "more heavy"
+      ],
+      "hint": "രണ്ടു വസ്തുക്കളെയാണ് താരതമ്യം ചെയ്യുന്നത്.",
+      "explanation": "രണ്ടെണ്ണത്തെ താരതമ്യം ചെയ്യാൻ \"heavier\" (comparative) ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0015",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Choose the correct question tag: You are a student, ___?",
+      "options": [
+        "isn't it",
+        "aren't you",
+        "don't you",
+        "are you"
+      ],
+      "hint": "The sentence is positive, so the tag is negative, with the same subject.",
+      "explanation": "A positive sentence takes a negative tag with the same subject and verb: \"You are …, aren't you?\""
+    },
+    "ml": {
+      "question": "Choose the correct question tag: You are a student, ___?",
+      "options": [
+        "isn't it",
+        "aren't you",
+        "don't you",
+        "are you"
+      ],
+      "hint": "വാക്യം positive ആയതിനാൽ tag negative ആകണം; subject ഒന്നുതന്നെ.",
+      "explanation": "Positive വാക്യത്തിന് അതേ subject-ഉം ക്രിയയും ചേർന്ന negative tag വരും: \"You are …, aren't you?\""
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0016",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Grammar",
+      "ml": "വ്യാകരണം"
+    },
+    "en": {
+      "question": "Fill in the blank: Look! The children ___ in the garden.",
+      "options": [
+        "play",
+        "are playing",
+        "played",
+        "plays"
+      ],
+      "hint": "\"Look!\" tells us it is happening right now.",
+      "explanation": "For actions happening now, we use the present continuous: \"are playing\"."
+    },
+    "ml": {
+      "question": "Fill in the blank: Look! The children ___ in the garden.",
+      "options": [
+        "play",
+        "are playing",
+        "played",
+        "plays"
+      ],
+      "hint": "\"Look!\" എന്നത് ഇപ്പോൾ നടക്കുന്ന കാര്യമാണെന്ന് സൂചിപ്പിക്കുന്നു.",
+      "explanation": "ഇപ്പോൾ നടന്നുകൊണ്ടിരിക്കുന്ന പ്രവൃത്തിക്ക് present continuous (\"are playing\") ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0017",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Spelling",
+      "ml": "അക്ഷരത്തെറ്റില്ലാതെ"
+    },
+    "en": {
+      "question": "Which spelling is correct?",
+      "options": [
+        "Beautiful",
+        "Beautifull",
+        "Beutiful",
+        "Beautyful"
+      ],
+      "hint": "beau + ti + ful (only one l at the end).",
+      "explanation": "The correct spelling is \"beautiful\". The suffix -ful has only one l."
+    },
+    "ml": {
+      "question": "Which spelling is correct?",
+      "options": [
+        "Beautiful",
+        "Beautifull",
+        "Beutiful",
+        "Beautyful"
+      ],
+      "hint": "beau + ti + ful (അവസാനം ഒരു l മാത്രം).",
+      "explanation": "ശരിയായ സ്പെല്ലിങ് \"beautiful\" ആണ്. -ful എന്നതിൽ ഒരു l മാത്രമേയുള്ളൂ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0018",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "chapter": {
+      "en": "Spelling",
+      "ml": "അക്ഷരത്തെറ്റില്ലാതെ"
+    },
+    "en": {
+      "question": "Which spelling is correct?",
+      "options": [
+        "Necessary",
+        "Neccessary",
+        "Necesary",
+        "Neccesary"
+      ],
+      "hint": "One c, two s.",
+      "explanation": "\"Necessary\" has one c and two s: ne-ce-ss-ary."
+    },
+    "ml": {
+      "question": "Which spelling is correct?",
+      "options": [
+        "Necessary",
+        "Neccessary",
+        "Necesary",
+        "Neccesary"
+      ],
+      "hint": "ഒരു c, രണ്ട് s.",
+      "explanation": "\"Necessary\" എന്നതിൽ ഒരു c-ഉം രണ്ട് s-ഉം ആണ്: ne-ce-ss-ary."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0019",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Figures of speech",
+      "ml": "അലങ്കാരങ്ങൾ (Figures of speech)"
+    },
+    "en": {
+      "question": "\"The stars danced in the sky.\" Which figure of speech is this?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Alliteration"
+      ],
+      "hint": "Can stars really dance? Who dances?",
+      "explanation": "Giving human actions (dancing) to non-living things (stars) is personification."
+    },
+    "ml": {
+      "question": "\"The stars danced in the sky.\" Which figure of speech is this?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Alliteration"
+      ],
+      "hint": "നക്ഷത്രങ്ങൾ ശരിക്കും നൃത്തം ചെയ്യുമോ? ആരാണ് നൃത്തം ചെയ്യുന്നത്?",
+      "explanation": "ജീവനില്ലാത്തവയ്ക്ക് (നക്ഷത്രങ്ങൾ) മനുഷ്യന്റെ പ്രവൃത്തി (നൃത്തം) നൽകുന്നത് personification ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "ENG-0020",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Figures of speech",
+      "ml": "അലങ്കാരങ്ങൾ (Figures of speech)"
+    },
+    "en": {
+      "question": "\"He is as brave as a lion.\" Which figure of speech is this?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Alliteration"
+      ],
+      "hint": "Look for the words \"as … as\".",
+      "explanation": "A comparison using \"as … as\" or \"like\" is a simile."
+    },
+    "ml": {
+      "question": "\"He is as brave as a lion.\" Which figure of speech is this?",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Alliteration"
+      ],
+      "hint": "\"as … as\" എന്ന വാക്കുകൾ ശ്രദ്ധിക്കൂ.",
+      "explanation": "\"as … as\" അല്ലെങ്കിൽ \"like\" ഉപയോഗിച്ചുള്ള താരതമ്യം simile ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  }
+]

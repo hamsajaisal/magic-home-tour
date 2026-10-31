@@ -1,0 +1,557 @@
+[
+  {
+    "id": "MAL-0001",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Synonyms and antonyms",
+      "ml": "പര്യായവും വിപരീതവും"
+    },
+    "en": {
+      "question": "\"സൂര്യൻ\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "ചന്ദ്രൻ",
+        "ആദിത്യൻ",
+        "നക്ഷത്രം",
+        "ആകാശം"
+      ],
+      "hint": "It is another name for the Sun.",
+      "explanation": "\"ആദിത്യൻ\" is another word for the Sun (സൂര്യൻ)."
+    },
+    "ml": {
+      "question": "\"സൂര്യൻ\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "ചന്ദ്രൻ",
+        "ആദിത്യൻ",
+        "നക്ഷത്രം",
+        "ആകാശം"
+      ],
+      "hint": "സൂര്യന്റെ മറ്റൊരു പേരാണ്.",
+      "explanation": "സൂര്യന്റെ പര്യായമാണ് ആദിത്യൻ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0002",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Synonyms and antonyms",
+      "ml": "പര്യായവും വിപരീതവും"
+    },
+    "en": {
+      "question": "\"വെള്ളം\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "ജലം",
+        "അഗ്നി",
+        "വായു",
+        "ഭൂമി"
+      ],
+      "hint": "Agni is fire, vayu is air, bhumi is earth.",
+      "explanation": "\"ജലം\" means water (വെള്ളം)."
+    },
+    "ml": {
+      "question": "\"വെള്ളം\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "ജലം",
+        "അഗ്നി",
+        "വായു",
+        "ഭൂമി"
+      ],
+      "hint": "അഗ്നി തീയും വായു കാറ്റും ഭൂമി മണ്ണുമാണ്.",
+      "explanation": "വെള്ളത്തിന്റെ പര്യായമാണ് ജലം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0003",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Synonyms and antonyms",
+      "ml": "പര്യായവും വിപരീതവും"
+    },
+    "en": {
+      "question": "\"കാട്\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "വനം",
+        "മല",
+        "പുഴ",
+        "വയൽ"
+      ],
+      "hint": "Many trees and wild animals are found there.",
+      "explanation": "\"വനം\" means forest (കാട്)."
+    },
+    "ml": {
+      "question": "\"കാട്\" എന്ന വാക്കിന്റെ പര്യായം ഏത്?",
+      "options": [
+        "വനം",
+        "മല",
+        "പുഴ",
+        "വയൽ"
+      ],
+      "hint": "ധാരാളം മരങ്ങളും വന്യജീവികളും ഉള്ള സ്ഥലം.",
+      "explanation": "കാടിന്റെ പര്യായമാണ് വനം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0004",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Synonyms and antonyms",
+      "ml": "പര്യായവും വിപരീതവും"
+    },
+    "en": {
+      "question": "\"ഉദയം\" എന്ന വാക്കിന്റെ വിപരീതം ഏത്?",
+      "options": [
+        "അസ്തമയം",
+        "പ്രഭാതം",
+        "പകൽ",
+        "ഉച്ച"
+      ],
+      "hint": "Udayam is sunrise. What happens in the evening?",
+      "explanation": "The opposite of \"ഉദയം\" (rising) is \"അസ്തമയം\" (setting)."
+    },
+    "ml": {
+      "question": "\"ഉദയം\" എന്ന വാക്കിന്റെ വിപരീതം ഏത്?",
+      "options": [
+        "അസ്തമയം",
+        "പ്രഭാതം",
+        "പകൽ",
+        "ഉച്ച"
+      ],
+      "hint": "ഉദയം രാവിലെ; വൈകുന്നേരം എന്ത് സംഭവിക്കും?",
+      "explanation": "ഉദയത്തിന്റെ വിപരീതം അസ്തമയം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0005",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Synonyms and antonyms",
+      "ml": "പര്യായവും വിപരീതവും"
+    },
+    "en": {
+      "question": "\"സത്യം\" എന്ന വാക്കിന്റെ വിപരീതം ഏത്?",
+      "options": [
+        "അസത്യം",
+        "നീതി",
+        "ധർമ്മം",
+        "ശരി"
+      ],
+      "hint": "Adding \"അ\" in front often makes the opposite.",
+      "explanation": "The opposite of \"സത്യം\" (truth) is \"അസത്യം\" (untruth)."
+    },
+    "ml": {
+      "question": "\"സത്യം\" എന്ന വാക്കിന്റെ വിപരീതം ഏത്?",
+      "options": [
+        "അസത്യം",
+        "നീതി",
+        "ധർമ്മം",
+        "ശരി"
+      ],
+      "hint": "വാക്കിന് മുന്നിൽ \"അ\" ചേർത്താൽ പലപ്പോഴും വിപരീതം കിട്ടും.",
+      "explanation": "സത്യത്തിന്റെ വിപരീതം അസത്യം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0006",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Idioms and word forms",
+      "ml": "ശൈലികളും പദരൂപങ്ങളും"
+    },
+    "en": {
+      "question": "\"കണ്ണിലുണ്ണി\" എന്ന ശൈലിയുടെ അർഥം എന്ത്?",
+      "options": [
+        "ഏറ്റവും പ്രിയപ്പെട്ടയാൾ",
+        "കണ്ണിലെ രോഗം",
+        "ചെറിയ കുട്ടി",
+        "ദേഷ്യക്കാരൻ"
+      ],
+      "hint": "We protect our eyes very carefully.",
+      "explanation": "\"കണ്ണിലുണ്ണി\" means someone who is very dear to us."
+    },
+    "ml": {
+      "question": "\"കണ്ണിലുണ്ണി\" എന്ന ശൈലിയുടെ അർഥം എന്ത്?",
+      "options": [
+        "ഏറ്റവും പ്രിയപ്പെട്ടയാൾ",
+        "കണ്ണിലെ രോഗം",
+        "ചെറിയ കുട്ടി",
+        "ദേഷ്യക്കാരൻ"
+      ],
+      "hint": "നമ്മൾ കണ്ണിനെ ഏറെ ശ്രദ്ധയോടെ സൂക്ഷിക്കുന്നു.",
+      "explanation": "\"കണ്ണിലുണ്ണി\" എന്നാൽ ഏറ്റവും പ്രിയപ്പെട്ടയാൾ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0007",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Idioms and word forms",
+      "ml": "ശൈലികളും പദരൂപങ്ങളും"
+    },
+    "en": {
+      "question": "\"ആനവായിൽ അമ്പഴങ്ങ\" എന്ന ശൈലിയുടെ അർഥം എന്ത്?",
+      "options": [
+        "ആവശ്യത്തിന് ഒട്ടും തികയാത്തത്",
+        "വലിയ സമ്മാനം",
+        "ആനയുടെ ഇഷ്ടഭക്ഷണം",
+        "വളരെ എളുപ്പമുള്ള കാര്യം"
+      ],
+      "hint": "A tiny hog plum in a huge elephant's mouth!",
+      "explanation": "It means something far too small for the need."
+    },
+    "ml": {
+      "question": "\"ആനവായിൽ അമ്പഴങ്ങ\" എന്ന ശൈലിയുടെ അർഥം എന്ത്?",
+      "options": [
+        "ആവശ്യത്തിന് ഒട്ടും തികയാത്തത്",
+        "വലിയ സമ്മാനം",
+        "ആനയുടെ ഇഷ്ടഭക്ഷണം",
+        "വളരെ എളുപ്പമുള്ള കാര്യം"
+      ],
+      "hint": "വലിയ ആനയുടെ വായിൽ ഒരു ചെറിയ അമ്പഴങ്ങ!",
+      "explanation": "ആവശ്യത്തിന് ഒട്ടും തികയാത്ത ചെറിയ അളവ് എന്നാണ് അർഥം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0008",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Idioms and word forms",
+      "ml": "ശൈലികളും പദരൂപങ്ങളും"
+    },
+    "en": {
+      "question": "\"കവി\" എന്ന വാക്കിന്റെ സ്ത്രീലിംഗം ഏത്?",
+      "options": [
+        "കവയിത്രി",
+        "കവിത",
+        "കവിയമ്മ",
+        "കാവ്യ"
+      ],
+      "hint": "Sugathakumari is called this.",
+      "explanation": "A woman poet is called \"കവയിത്രി\"."
+    },
+    "ml": {
+      "question": "\"കവി\" എന്ന വാക്കിന്റെ സ്ത്രീലിംഗം ഏത്?",
+      "options": [
+        "കവയിത്രി",
+        "കവിത",
+        "കവിയമ്മ",
+        "കാവ്യ"
+      ],
+      "hint": "സുഗതകുമാരിയെ ഇങ്ങനെ വിളിക്കുന്നു.",
+      "explanation": "കവിയുടെ സ്ത്രീലിംഗം കവയിത്രി."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0009",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Idioms and word forms",
+      "ml": "ശൈലികളും പദരൂപങ്ങളും"
+    },
+    "en": {
+      "question": "ശരിയായ എഴുത്ത് ഏത്?",
+      "options": [
+        "ആശംശ",
+        "ആശംസ",
+        "ആസംസ",
+        "ആസംശ"
+      ],
+      "hint": "Think of \"പിറന്നാൾ ആ…\"",
+      "explanation": "The correct spelling is \"ആശംസ\" (wishes)."
+    },
+    "ml": {
+      "question": "ശരിയായ എഴുത്ത് ഏത്?",
+      "options": [
+        "ആശംശ",
+        "ആശംസ",
+        "ആസംസ",
+        "ആസംശ"
+      ],
+      "hint": "\"പിറന്നാൾ ആ…\" എന്ന് ഓർത്തുനോക്കൂ.",
+      "explanation": "ശരിയായ രൂപം \"ആശംസ\"."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0010",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Idioms and word forms",
+      "ml": "ശൈലികളും പദരൂപങ്ങളും"
+    },
+    "en": {
+      "question": "ശരിയായ എഴുത്ത് ഏത്?",
+      "options": [
+        "പ്രകൃതി",
+        "പ്രക്രുതി",
+        "പ്രകൃദി",
+        "പ്രാകൃതി"
+      ],
+      "hint": "It uses the vowel sign \"ൃ\".",
+      "explanation": "The correct spelling is \"പ്രകൃതി\" (nature)."
+    },
+    "ml": {
+      "question": "ശരിയായ എഴുത്ത് ഏത്?",
+      "options": [
+        "പ്രകൃതി",
+        "പ്രക്രുതി",
+        "പ്രകൃദി",
+        "പ്രാകൃതി"
+      ],
+      "hint": "\"ൃ\" ചിഹ്നം ഉപയോഗിക്കുന്ന വാക്കാണ്.",
+      "explanation": "ശരിയായ രൂപം \"പ്രകൃതി\"."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0011",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Malayalam literature",
+      "ml": "മലയാള സാഹിത്യം"
+    },
+    "en": {
+      "question": "\"ബാല്യകാലസഖി\" എന്ന നോവൽ എഴുതിയത് ആര്?",
+      "options": [
+        "വൈക്കം മുഹമ്മദ് ബഷീർ",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "ഒ. വി. വിജയൻ"
+      ],
+      "hint": "He is called \"Beypore Sultan\".",
+      "explanation": "Vaikom Muhammad Basheer wrote \"Balyakalasakhi\"."
+    },
+    "ml": {
+      "question": "\"ബാല്യകാലസഖി\" എന്ന നോവൽ എഴുതിയത് ആര്?",
+      "options": [
+        "വൈക്കം മുഹമ്മദ് ബഷീർ",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "ഒ. വി. വിജയൻ"
+      ],
+      "hint": "ഇദ്ദേഹത്തെ \"ബേപ്പൂർ സുൽത്താൻ\" എന്നു വിളിക്കുന്നു.",
+      "explanation": "\"ബാല്യകാലസഖി\" എഴുതിയത് വൈക്കം മുഹമ്മദ് ബഷീറാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0012",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Malayalam literature",
+      "ml": "മലയാള സാഹിത്യം"
+    },
+    "en": {
+      "question": "\"രണ്ടാമൂഴം\" എന്ന നോവൽ എഴുതിയത് ആര്?",
+      "options": [
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "വൈക്കം മുഹമ്മദ് ബഷീർ",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്"
+      ],
+      "hint": "The story is told by Bhima from the Mahabharata.",
+      "explanation": "M. T. Vasudevan Nair wrote \"Randamoozham\", the Mahabharata story through Bhima's eyes."
+    },
+    "ml": {
+      "question": "\"രണ്ടാമൂഴം\" എന്ന നോവൽ എഴുതിയത് ആര്?",
+      "options": [
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "വൈക്കം മുഹമ്മദ് ബഷീർ",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്"
+      ],
+      "hint": "മഹാഭാരതകഥ ഭീമന്റെ കാഴ്ചപ്പാടിൽ പറയുന്ന നോവലാണ്.",
+      "explanation": "ഭീമന്റെ കാഴ്ചപ്പാടിലുള്ള മഹാഭാരതകഥയായ \"രണ്ടാമൂഴം\" എഴുതിയത് എം. ടി. വാസുദേവൻ നായരാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0013",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Malayalam literature",
+      "ml": "മലയാള സാഹിത്യം"
+    },
+    "en": {
+      "question": "മലയാളത്തിന് ആദ്യമായി ജ്ഞാനപീഠം നേടിക്കൊടുത്ത കവി ആര്?",
+      "options": [
+        "ജി. ശങ്കരക്കുറുപ്പ്",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്",
+        "എം. ടി. വാസുദേവൻ നായർ"
+      ],
+      "hint": "He won it for the poetry collection \"Odakkuzhal\".",
+      "explanation": "G. Sankara Kurup won the first Jnanpith Award (1965) for \"Odakkuzhal\"."
+    },
+    "ml": {
+      "question": "മലയാളത്തിന് ആദ്യമായി ജ്ഞാനപീഠം നേടിക്കൊടുത്ത കവി ആര്?",
+      "options": [
+        "ജി. ശങ്കരക്കുറുപ്പ്",
+        "തകഴി ശിവശങ്കരപ്പിള്ള",
+        "എസ്. കെ. പൊറ്റെക്കാട്ട്",
+        "എം. ടി. വാസുദേവൻ നായർ"
+      ],
+      "hint": "\"ഓടക്കുഴൽ\" എന്ന കവിതാസമാഹാരത്തിനാണ് ഇത് ലഭിച്ചത്.",
+      "explanation": "\"ഓടക്കുഴൽ\" എന്ന കൃതിക്ക് 1965-ൽ ജി. ശങ്കരക്കുറുപ്പിനാണ് ആദ്യ ജ്ഞാനപീഠം ലഭിച്ചത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0014",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Malayalam literature",
+      "ml": "മലയാള സാഹിത്യം"
+    },
+    "en": {
+      "question": "\"മലയാള ഭാഷയുടെ പിതാവ്\" എന്നറിയപ്പെടുന്നത് ആര്?",
+      "options": [
+        "തുഞ്ചത്ത് എഴുത്തച്ഛൻ",
+        "കുഞ്ചൻ നമ്പ്യാർ",
+        "ചെറുശ്ശേരി",
+        "കുമാരനാശാൻ"
+      ],
+      "hint": "He wrote \"Adhyatma Ramayanam Kilippattu\".",
+      "explanation": "Thunchath Ezhuthachan is known as the father of the Malayalam language."
+    },
+    "ml": {
+      "question": "\"മലയാള ഭാഷയുടെ പിതാവ്\" എന്നറിയപ്പെടുന്നത് ആര്?",
+      "options": [
+        "തുഞ്ചത്ത് എഴുത്തച്ഛൻ",
+        "കുഞ്ചൻ നമ്പ്യാർ",
+        "ചെറുശ്ശേരി",
+        "കുമാരനാശാൻ"
+      ],
+      "hint": "\"ആധ്യാത്മരാമായണം കിളിപ്പാട്ട്\" എഴുതിയത് ഇദ്ദേഹമാണ്.",
+      "explanation": "തുഞ്ചത്ത് എഴുത്തച്ഛനെയാണ് മലയാള ഭാഷയുടെ പിതാവ് എന്നു വിളിക്കുന്നത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "MAL-0015",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Malayalam literature",
+      "ml": "മലയാള സാഹിത്യം"
+    },
+    "en": {
+      "question": "ഓട്ടൻതുള്ളൽ എന്ന കലാരൂപത്തിന്റെ ഉപജ്ഞാതാവ് ആര്?",
+      "options": [
+        "ചെറുശ്ശേരി",
+        "കുഞ്ചൻ നമ്പ്യാർ",
+        "പൂന്താനം",
+        "വള്ളത്തോൾ"
+      ],
+      "hint": "He was famous for humour in his verses.",
+      "explanation": "Kunchan Nambiar created Ottan Thullal, full of humour and social criticism."
+    },
+    "ml": {
+      "question": "ഓട്ടൻതുള്ളൽ എന്ന കലാരൂപത്തിന്റെ ഉപജ്ഞാതാവ് ആര്?",
+      "options": [
+        "ചെറുശ്ശേരി",
+        "കുഞ്ചൻ നമ്പ്യാർ",
+        "പൂന്താനം",
+        "വള്ളത്തോൾ"
+      ],
+      "hint": "നർമം നിറഞ്ഞ കവിതകൾക്ക് പ്രശസ്തനാണ് ഇദ്ദേഹം.",
+      "explanation": "നർമവും സാമൂഹികവിമർശനവും നിറഞ്ഞ ഓട്ടൻതുള്ളൽ ആവിഷ്കരിച്ചത് കുഞ്ചൻ നമ്പ്യാരാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  }
+]

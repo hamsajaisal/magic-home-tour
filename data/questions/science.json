@@ -7,13 +7,23 @@
     "answer": "B",
     "en": {
       "question": "Which gas do plants take in from the air to make food (photosynthesis)?",
-      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
       "hint": "It is the gas we breathe out.",
       "explanation": "Plants use carbon dioxide, water and sunlight to make food, and give out oxygen."
     },
     "ml": {
       "question": "പ്രകാശസംശ്ലേഷണത്തിനായി സസ്യങ്ങൾ വായുവിൽ നിന്ന് സ്വീകരിക്കുന്ന വാതകം ഏത്?",
-      "options": ["ഓക്സിജൻ", "കാർബൺ ഡൈ ഓക്സൈഡ്", "നൈട്രജൻ", "ഹൈഡ്രജൻ"],
+      "options": [
+        "ഓക്സിജൻ",
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "നൈട്രജൻ",
+        "ഹൈഡ്രജൻ"
+      ],
       "hint": "നമ്മൾ പുറത്തേക്കു വിടുന്ന വാതകമാണിത്.",
       "explanation": "കാർബൺ ഡൈ ഓക്സൈഡ്, ജലം, സൂര്യപ്രകാശം എന്നിവ ഉപയോഗിച്ച് സസ്യങ്ങൾ ആഹാരം നിർമിക്കുന്നു; ഓക്സിജൻ പുറത്തുവിടുന്നു."
     },
@@ -30,13 +40,23 @@
     "answer": "C",
     "en": {
       "question": "Which is the largest organ of the human body?",
-      "options": ["Heart", "Liver", "Skin", "Lungs"],
+      "options": [
+        "Heart",
+        "Liver",
+        "Skin",
+        "Lungs"
+      ],
       "hint": "It covers your whole body.",
       "explanation": "The skin covers the entire body and is the largest organ."
     },
     "ml": {
       "question": "മനുഷ്യശരീരത്തിലെ ഏറ്റവും വലിയ അവയവം ഏത്?",
-      "options": ["ഹൃദയം", "കരൾ", "ത്വക്ക്", "ശ്വാസകോശം"],
+      "options": [
+        "ഹൃദയം",
+        "കരൾ",
+        "ത്വക്ക്",
+        "ശ്വാസകോശം"
+      ],
       "hint": "ഇത് ശരീരം മുഴുവൻ പൊതിഞ്ഞിരിക്കുന്നു.",
       "explanation": "ശരീരം മുഴുവൻ പൊതിഞ്ഞിരിക്കുന്ന ത്വക്കാണ് ഏറ്റവും വലിയ അവയവം."
     },
@@ -53,13 +73,23 @@
     "answer": "C",
     "en": {
       "question": "At what temperature does water boil (at normal air pressure)?",
-      "options": ["0 °C", "50 °C", "100 °C", "200 °C"],
+      "options": [
+        "0 °C",
+        "50 °C",
+        "100 °C",
+        "200 °C"
+      ],
       "hint": "Water freezes at 0 °C. Boiling is much hotter.",
       "explanation": "Pure water boils at 100 °C at normal air pressure."
     },
     "ml": {
       "question": "സാധാരണ അന്തരീക്ഷമർദത്തിൽ ജലം തിളയ്ക്കുന്ന താപനില എത്ര?",
-      "options": ["0 °C", "50 °C", "100 °C", "200 °C"],
+      "options": [
+        "0 °C",
+        "50 °C",
+        "100 °C",
+        "200 °C"
+      ],
       "hint": "ജലം 0 °C ൽ ഐസാകുന്നു. തിളയ്ക്കാൻ അതിലും വളരെ കൂടുതൽ ചൂട് വേണം.",
       "explanation": "സാധാരണ അന്തരീക്ഷമർദത്തിൽ ശുദ്ധജലം 100 °C ൽ തിളയ്ക്കുന്നു."
     },
@@ -76,13 +106,23 @@
     "answer": "C",
     "en": {
       "question": "Which vitamin does our body make with the help of sunlight?",
-      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
       "hint": "It is sometimes called the 'sunshine vitamin'.",
       "explanation": "Our skin makes Vitamin D when it gets sunlight. It keeps our bones strong."
     },
     "ml": {
       "question": "സൂര്യപ്രകാശത്തിന്റെ സഹായത്താൽ നമ്മുടെ ശരീരം നിർമിക്കുന്ന ജീവകം ഏത്?",
-      "options": ["ജീവകം A", "ജീവകം C", "ജീവകം D", "ജീവകം K"],
+      "options": [
+        "ജീവകം A",
+        "ജീവകം C",
+        "ജീവകം D",
+        "ജീവകം K"
+      ],
       "hint": "ഇതിനെ 'സൂര്യപ്രകാശ ജീവകം' എന്നും വിളിക്കാറുണ്ട്.",
       "explanation": "സൂര്യപ്രകാശം ഏൽക്കുമ്പോൾ ത്വക്കിൽ ജീവകം D ഉണ്ടാകുന്നു. ഇത് എല്ലുകളെ ബലമുള്ളതാക്കുന്നു."
     },
@@ -99,13 +139,23 @@
     "answer": "C",
     "en": {
       "question": "Which of these is NOT a mammal?",
-      "options": ["Cow", "Bat", "Hen", "Whale"],
+      "options": [
+        "Cow",
+        "Bat",
+        "Hen",
+        "Whale"
+      ],
       "hint": "Mammals feed milk to their babies.",
       "explanation": "The hen is a bird; it lays eggs and does not feed milk. Cow, bat and whale are mammals."
     },
     "ml": {
       "question": "താഴെ പറയുന്നവയിൽ സസ്തനി അല്ലാത്തത് ഏത്?",
-      "options": ["പശു", "വവ്വാൽ", "കോഴി", "തിമിംഗലം"],
+      "options": [
+        "പശു",
+        "വവ്വാൽ",
+        "കോഴി",
+        "തിമിംഗലം"
+      ],
       "hint": "സസ്തനികൾ കുഞ്ഞുങ്ങൾക്ക് പാൽ കൊടുക്കുന്നു.",
       "explanation": "കോഴി ഒരു പക്ഷിയാണ്; മുട്ടയിടുന്നു, പാൽ കൊടുക്കുന്നില്ല. പശു, വവ്വാൽ, തിമിംഗലം എന്നിവ സസ്തനികളാണ്."
     },
@@ -122,13 +172,23 @@
     "answer": "A",
     "en": {
       "question": "Which planet is closest to the Sun?",
-      "options": ["Mercury", "Venus", "Earth", "Mars"],
+      "options": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
       "hint": "It is also the smallest planet.",
       "explanation": "Mercury is the planet nearest to the Sun."
     },
     "ml": {
       "question": "സൂര്യനോട് ഏറ്റവും അടുത്തുള്ള ഗ്രഹം ഏത്?",
-      "options": ["ബുധൻ", "ശുക്രൻ", "ഭൂമി", "ചൊവ്വ"],
+      "options": [
+        "ബുധൻ",
+        "ശുക്രൻ",
+        "ഭൂമി",
+        "ചൊവ്വ"
+      ],
       "hint": "ഏറ്റവും ചെറിയ ഗ്രഹവും ഇതുതന്നെ.",
       "explanation": "സൂര്യനോട് ഏറ്റവും അടുത്ത ഗ്രഹം ബുധനാണ്."
     },
@@ -145,13 +205,23 @@
     "answer": "B",
     "en": {
       "question": "Which of these will a magnet pull towards it?",
-      "options": ["Plastic spoon", "Iron nail", "Wooden stick", "Paper"],
+      "options": [
+        "Plastic spoon",
+        "Iron nail",
+        "Wooden stick",
+        "Paper"
+      ],
       "hint": "Magnets attract some metals.",
       "explanation": "Magnets attract iron. Plastic, wood and paper are not attracted."
     },
     "ml": {
       "question": "താഴെ പറയുന്നവയിൽ കാന്തം ആകർഷിക്കുന്നത് ഏത്?",
-      "options": ["പ്ലാസ്റ്റിക് സ്പൂൺ", "ഇരുമ്പാണി", "മരക്കഷണം", "കടലാസ്"],
+      "options": [
+        "പ്ലാസ്റ്റിക് സ്പൂൺ",
+        "ഇരുമ്പാണി",
+        "മരക്കഷണം",
+        "കടലാസ്"
+      ],
       "hint": "കാന്തം ചില ലോഹങ്ങളെ ആകർഷിക്കുന്നു.",
       "explanation": "കാന്തം ഇരുമ്പിനെ ആകർഷിക്കുന്നു. പ്ലാസ്റ്റിക്, മരം, കടലാസ് എന്നിവയെ ആകർഷിക്കുന്നില്ല."
     },
@@ -168,13 +238,23 @@
     "answer": "A",
     "en": {
       "question": "Which part of a plant absorbs water from the soil?",
-      "options": ["Root", "Leaf", "Flower", "Fruit"],
+      "options": [
+        "Root",
+        "Leaf",
+        "Flower",
+        "Fruit"
+      ],
       "hint": "This part is hidden under the ground.",
       "explanation": "Roots absorb water and minerals from the soil."
     },
     "ml": {
       "question": "മണ്ണിൽ നിന്ന് ജലം വലിച്ചെടുക്കുന്ന സസ്യഭാഗം ഏത്?",
-      "options": ["വേര്", "ഇല", "പൂവ്", "കായ്"],
+      "options": [
+        "വേര്",
+        "ഇല",
+        "പൂവ്",
+        "കായ്"
+      ],
       "hint": "ഈ ഭാഗം മണ്ണിനടിയിലാണ്.",
       "explanation": "വേരുകൾ മണ്ണിൽ നിന്ന് ജലവും ധാതുക്കളും വലിച്ചെടുക്കുന്നു."
     },
@@ -191,13 +271,23 @@
     "answer": "C",
     "en": {
       "question": "Which of these energy sources will run out one day (non-renewable)?",
-      "options": ["Sunlight", "Wind", "Coal", "Flowing water"],
+      "options": [
+        "Sunlight",
+        "Wind",
+        "Coal",
+        "Flowing water"
+      ],
       "hint": "It is dug out from deep under the ground.",
       "explanation": "Coal took millions of years to form and cannot be replaced quickly. Sun, wind and water keep coming back."
     },
     "ml": {
       "question": "താഴെ പറയുന്നവയിൽ എന്നെങ്കിലും തീർന്നുപോകുന്ന (പുനഃസ്ഥാപിക്കാനാവാത്ത) ഊർജസ്രോതസ്സ് ഏത്?",
-      "options": ["സൂര്യപ്രകാശം", "കാറ്റ്", "കൽക്കരി", "ഒഴുകുന്ന ജലം"],
+      "options": [
+        "സൂര്യപ്രകാശം",
+        "കാറ്റ്",
+        "കൽക്കരി",
+        "ഒഴുകുന്ന ജലം"
+      ],
       "hint": "ഇത് ഭൂമിക്കടിയിൽ നിന്ന് കുഴിച്ചെടുക്കുന്നതാണ്.",
       "explanation": "കൽക്കരി രൂപപ്പെടാൻ ദശലക്ഷക്കണക്കിന് വർഷങ്ങൾ വേണം; പെട്ടെന്ന് വീണ്ടും ഉണ്ടാവില്ല. സൂര്യപ്രകാശവും കാറ്റും ജലവും വീണ്ടും വീണ്ടും ലഭിക്കും."
     },
@@ -214,13 +304,23 @@
     "answer": "C",
     "en": {
       "question": "How many chambers does the human heart have?",
-      "options": ["2", "3", "4", "5"],
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "hint": "Two on top, two at the bottom.",
       "explanation": "The human heart has 4 chambers: 2 atria (upper) and 2 ventricles (lower)."
     },
     "ml": {
       "question": "മനുഷ്യഹൃദയത്തിന് എത്ര അറകളുണ്ട്?",
-      "options": ["2", "3", "4", "5"],
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "hint": "മുകളിൽ രണ്ട്, താഴെ രണ്ട്.",
       "explanation": "മനുഷ്യഹൃദയത്തിന് 4 അറകളുണ്ട്: മുകളിൽ 2 ഏട്രിയങ്ങളും താഴെ 2 വെൻട്രിക്കിളുകളും."
     },
@@ -237,13 +337,23 @@
     "answer": "B",
     "en": {
       "question": "Which of these dissolves in water?",
-      "options": ["Sand", "Salt", "Sawdust", "Oil"],
+      "options": [
+        "Sand",
+        "Salt",
+        "Sawdust",
+        "Oil"
+      ],
       "hint": "We add it to rice gruel (kanji) and it disappears!",
       "explanation": "Salt dissolves in water. Sand and sawdust settle or float, and oil floats on top."
     },
     "ml": {
       "question": "താഴെ പറയുന്നവയിൽ ജലത്തിൽ ലയിക്കുന്നത് ഏത്?",
-      "options": ["മണൽ", "ഉപ്പ്", "അറക്കപ്പൊടി", "എണ്ണ"],
+      "options": [
+        "മണൽ",
+        "ഉപ്പ്",
+        "അറക്കപ്പൊടി",
+        "എണ്ണ"
+      ],
       "hint": "കഞ്ഞിയിൽ ഇട്ടാൽ ഇത് കാണാതാകും!",
       "explanation": "ഉപ്പ് ജലത്തിൽ ലയിക്കുന്നു. മണലും അറക്കപ്പൊടിയും ലയിക്കുന്നില്ല; എണ്ണ മുകളിൽ പൊങ്ങിക്കിടക്കുന്നു."
     },
@@ -260,17 +370,767 @@
     "answer": "B",
     "en": {
       "question": "What is the young one of a frog called?",
-      "options": ["Caterpillar", "Tadpole", "Calf", "Chick"],
+      "options": [
+        "Caterpillar",
+        "Tadpole",
+        "Calf",
+        "Chick"
+      ],
       "hint": "It lives in water and has a tail.",
       "explanation": "A baby frog is a tadpole. It lives in water, breathes with gills and later grows legs."
     },
     "ml": {
       "question": "തവളയുടെ കുഞ്ഞിനെ എന്താണ് വിളിക്കുന്നത്?",
-      "options": ["ശലഭപ്പുഴു", "വാൽമാക്രി", "കിടാവ്", "കോഴിക്കുഞ്ഞ്"],
+      "options": [
+        "ശലഭപ്പുഴു",
+        "വാൽമാക്രി",
+        "കിടാവ്",
+        "കോഴിക്കുഞ്ഞ്"
+      ],
       "hint": "ഇത് വെള്ളത്തിൽ ജീവിക്കുന്നു, ഇതിന് വാലുണ്ട്.",
       "explanation": "തവളയുടെ കുഞ്ഞാണ് വാൽമാക്രി. ഇത് വെള്ളത്തിൽ ജീവിക്കുന്നു, ചെകിളകൊണ്ട് ശ്വസിക്കുന്നു, പിന്നീട് കാലുകൾ വളരുന്നു."
     },
     "source": "Original USS-style practice question (Magic Home Tour)",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0013",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a hundredfold yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which of these is an organic manure?",
+      "options": [
+        "Urea",
+        "Compost",
+        "Potash",
+        "Ammonium sulphate"
+      ],
+      "hint": "It is made from rotting leaves and kitchen waste.",
+      "explanation": "Compost is made from decaying plant and food waste. The others are chemical fertilisers."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ ജൈവവളം ഏത്?",
+      "options": [
+        "യൂറിയ",
+        "കമ്പോസ്റ്റ്",
+        "പൊട്ടാഷ്",
+        "അമോണിയം സൾഫേറ്റ്"
+      ],
+      "hint": "ചീഞ്ഞ ഇലകളിൽ നിന്നും അടുക്കള മാലിന്യത്തിൽ നിന്നും ഇത് ഉണ്ടാക്കുന്നു.",
+      "explanation": "ചീഞ്ഞളിഞ്ഞ സസ്യഭാഗങ്ങളിൽ നിന്നും ഭക്ഷണാവശിഷ്ടങ്ങളിൽ നിന്നുമാണ് കമ്പോസ്റ്റ് ഉണ്ടാക്കുന്നത്. മറ്റുള്ളവ രാസവളങ്ങളാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0014",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a hundredfold yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Growing a new plant from a stem, root or leaf of a plant is called:",
+      "options": [
+        "Pollination",
+        "Vegetative propagation",
+        "Germination",
+        "Photosynthesis"
+      ],
+      "hint": "No seed is used in this method.",
+      "explanation": "Vegetative propagation produces new plants from parts like stem cuttings (e.g. tapioca), without seeds."
+    },
+    "ml": {
+      "question": "തണ്ട്, വേര്, ഇല തുടങ്ങിയ ഭാഗങ്ങളിൽ നിന്ന് പുതിയ ചെടി ഉണ്ടാക്കുന്ന രീതി ഏത്?",
+      "options": [
+        "പരാഗണം",
+        "കായിക പ്രജനനം",
+        "മുളയ്ക്കൽ",
+        "പ്രകാശസംശ്ലേഷണം"
+      ],
+      "hint": "ഈ രീതിയിൽ വിത്ത് ഉപയോഗിക്കുന്നില്ല.",
+      "explanation": "കപ്പത്തണ്ട് പോലുള്ള ഭാഗങ്ങളിൽ നിന്ന് വിത്തില്ലാതെ പുതിയ ചെടി ഉണ്ടാക്കുന്നതാണ് കായിക പ്രജനനം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0015",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a hundredfold yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which plant adds nitrogen to the soil with the help of bacteria in its roots?",
+      "options": [
+        "Paddy",
+        "Cowpea",
+        "Coconut",
+        "Banana"
+      ],
+      "hint": "It belongs to the pulse (legume) family.",
+      "explanation": "Pulses like cowpea have root nodules with bacteria that add nitrogen to the soil."
+    },
+    "ml": {
+      "question": "വേരുകളിലെ ബാക്ടീരിയകളുടെ സഹായത്തോടെ മണ്ണിലെ നൈട്രജൻ വർധിപ്പിക്കുന്ന സസ്യം ഏത്?",
+      "options": [
+        "നെല്ല്",
+        "പയർ",
+        "തെങ്ങ്",
+        "വാഴ"
+      ],
+      "hint": "ഇത് പയറുവർഗത്തിൽപ്പെട്ട ചെടിയാണ്.",
+      "explanation": "പയർവർഗച്ചെടികളുടെ വേരിലെ മുഴകളിലുള്ള ബാക്ടീരിയകൾ മണ്ണിൽ നൈട്രജൻ ചേർക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0016",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Towards a hundredfold yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which of these insects is a friend of farmers because it eats crop pests?",
+      "options": [
+        "Ladybird beetle",
+        "Locust",
+        "Rice bug",
+        "Mealybug"
+      ],
+      "hint": "It is a small round red beetle with black spots.",
+      "explanation": "The ladybird beetle eats pests like aphids, so it helps farmers. The others damage crops."
+    },
+    "ml": {
+      "question": "വിളകളെ നശിപ്പിക്കുന്ന കീടങ്ങളെ തിന്നുന്നതിനാൽ കർഷകന്റെ മിത്രമായ പ്രാണി ഏത്?",
+      "options": [
+        "ലേഡിബേർഡ് വണ്ട്",
+        "വെട്ടുക്കിളി",
+        "ചാഴി",
+        "മീലിമൂട്ട"
+      ],
+      "hint": "കറുത്ത പുള്ളികളുള്ള, ചുവന്ന, ഉരുണ്ട ചെറിയ വണ്ടാണിത്.",
+      "explanation": "ലേഡിബേർഡ് വണ്ട് ഏഫിഡുകൾ പോലുള്ള കീടങ്ങളെ തിന്നുന്നു. മറ്റുള്ളവ വിളകളെ നശിപ്പിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0017",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "The world of electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Which of these is a good conductor of electricity?",
+      "options": [
+        "Rubber",
+        "Copper",
+        "Plastic",
+        "Wood"
+      ],
+      "hint": "Electric wires are made of it.",
+      "explanation": "Copper is a metal and conducts electricity well. Rubber, plastic and dry wood are insulators."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ വൈദ്യുതിയുടെ നല്ല ചാലകം ഏത്?",
+      "options": [
+        "റബ്ബർ",
+        "ചെമ്പ്",
+        "പ്ലാസ്റ്റിക്",
+        "മരം"
+      ],
+      "hint": "വൈദ്യുതക്കമ്പികൾ ഇതുകൊണ്ടാണ് ഉണ്ടാക്കുന്നത്.",
+      "explanation": "ചെമ്പ് ഒരു ലോഹമാണ്, വൈദ്യുതിയെ നന്നായി കടത്തിവിടുന്നു. റബ്ബർ, പ്ലാസ്റ്റിക്, ഉണങ്ങിയ മരം എന്നിവ ഇൻസുലേറ്ററുകളാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0018",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "The world of electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Which device changes chemical energy into electrical energy?",
+      "options": [
+        "Electric bulb",
+        "Electric cell",
+        "Fan",
+        "Switch"
+      ],
+      "hint": "We put it inside a torch or a TV remote.",
+      "explanation": "An electric cell (battery) produces electricity from chemical reactions inside it."
+    },
+    "ml": {
+      "question": "രാസോർജത്തെ വൈദ്യുതോർജമാക്കി മാറ്റുന്ന ഉപകരണം ഏത്?",
+      "options": [
+        "ബൾബ്",
+        "വൈദ്യുത സെൽ",
+        "ഫാൻ",
+        "സ്വിച്ച്"
+      ],
+      "hint": "ടോർച്ചിലും ടിവി റിമോട്ടിലും നമ്മൾ ഇത് ഇടാറുണ്ട്.",
+      "explanation": "വൈദ്യുത സെല്ലിനുള്ളിലെ രാസപ്രവർത്തനത്തിലൂടെ വൈദ്യുതി ഉണ്ടാകുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0019",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "The world of electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "What is the unit of electric current?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Watt",
+        "Kilogram"
+      ],
+      "hint": "Its short form is A.",
+      "explanation": "Electric current is measured in amperes (A). Volt is the unit of voltage and watt of power."
+    },
+    "ml": {
+      "question": "വൈദ്യുത പ്രവാഹത്തിന്റെ യൂണിറ്റ് ഏത്?",
+      "options": [
+        "വോൾട്ട്",
+        "ആമ്പിയർ",
+        "വാട്ട്",
+        "കിലോഗ്രാം"
+      ],
+      "hint": "ഇതിന്റെ ചുരുക്കെഴുത്ത് A ആണ്.",
+      "explanation": "വൈദ്യുത പ്രവാഹം ആമ്പിയറിലാണ് (A) അളക്കുന്നത്. വോൾട്ടേജ് വോൾട്ടിലും പവർ വാട്ടിലുമാണ് അളക്കുന്നത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0020",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "The world of electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Which device breaks the circuit when too much current flows, to prevent fire?",
+      "options": [
+        "Fuse",
+        "Bulb",
+        "Cell",
+        "Bell"
+      ],
+      "hint": "It contains a thin wire that melts.",
+      "explanation": "A fuse wire melts when the current becomes too high and breaks the circuit, protecting the house."
+    },
+    "ml": {
+      "question": "അമിതമായി വൈദ്യുതി ഒഴുകുമ്പോൾ സർക്യൂട്ട് മുറിച്ച് അപകടം തടയുന്ന ഉപകരണം ഏത്?",
+      "options": [
+        "ഫ്യൂസ്",
+        "ബൾബ്",
+        "സെൽ",
+        "ബെൽ"
+      ],
+      "hint": "ഇതിനുള്ളിൽ ഉരുകിപ്പോകുന്ന ഒരു നേർത്ത കമ്പിയുണ്ട്.",
+      "explanation": "വൈദ്യുതി അമിതമാകുമ്പോൾ ഫ്യൂസ് കമ്പി ഉരുകി സർക്യൂട്ട് മുറിയുന്നു; അങ്ങനെ വീട് സുരക്ഷിതമാകുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0021",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "When light reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "In a plane mirror your right hand looks like your left hand. What is this called?",
+      "options": [
+        "Lateral inversion",
+        "Refraction",
+        "Dispersion",
+        "Shadow"
+      ],
+      "hint": "\"Lateral\" means sideways.",
+      "explanation": "In a plane mirror, left and right are swapped. This is called lateral inversion."
+    },
+    "ml": {
+      "question": "സമതലദർപ്പണത്തിൽ വലതുകൈ ഇടതുകൈ പോലെ തോന്നുന്നു. ഇതിനെ എന്തു വിളിക്കുന്നു?",
+      "options": [
+        "പാർശ്വിക വിപര്യയം",
+        "അപവർത്തനം",
+        "പ്രകീർണനം",
+        "നിഴൽ"
+      ],
+      "hint": "\"പാർശ്വം\" എന്നാൽ വശം.",
+      "explanation": "സമതലദർപ്പണത്തിൽ ഇടതും വലതും പരസ്പരം മാറുന്നു. ഇതാണ് പാർശ്വിക വിപര്യയം."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0022",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "When light reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Which mirror is used as the rear-view mirror in vehicles?",
+      "options": [
+        "Plane mirror",
+        "Concave mirror",
+        "Convex mirror",
+        "Prism"
+      ],
+      "hint": "It shows a wide area behind the vehicle.",
+      "explanation": "A convex mirror gives a wider view of the traffic behind, so it is used as a rear-view mirror."
+    },
+    "ml": {
+      "question": "വാഹനങ്ങളിൽ പിന്നിലെ കാഴ്ച കാണാൻ ഉപയോഗിക്കുന്ന ദർപ്പണം ഏത്?",
+      "options": [
+        "സമതല ദർപ്പണം",
+        "കോൺകേവ് ദർപ്പണം",
+        "കോൺവെക്സ് ദർപ്പണം",
+        "പ്രിസം"
+      ],
+      "hint": "വാഹനത്തിന് പിന്നിലെ വിശാലമായ ഭാഗം ഇതിൽ കാണാം.",
+      "explanation": "കോൺവെക്സ് ദർപ്പണം പിന്നിലെ വിശാലമായ കാഴ്ച നൽകുന്നതിനാൽ റിയർവ്യൂ മിററായി ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0023",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "When light reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Light falls on a mirror at an angle of incidence of 30°. What is the angle of reflection?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "15°"
+      ],
+      "hint": "The two angles are always equal.",
+      "explanation": "The angle of reflection is always equal to the angle of incidence, so it is 30°."
+    },
+    "ml": {
+      "question": "ഒരു ദർപ്പണത്തിൽ 30° പതനകോണിൽ പ്രകാശം പതിക്കുന്നു. പ്രതിഫലനകോൺ എത്ര?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "15°"
+      ],
+      "hint": "ഈ രണ്ടു കോണുകളും എപ്പോഴും തുല്യമാണ്.",
+      "explanation": "പ്രതിഫലനകോൺ എപ്പോഴും പതനകോണിന് തുല്യമാണ്. അതിനാൽ ഉത്തരം 30°."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0024",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "When light reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Which mirror is used in a torch to send out a strong, straight beam of light?",
+      "options": [
+        "Plane mirror",
+        "Concave mirror",
+        "Convex mirror",
+        "Prism"
+      ],
+      "hint": "It is curved inwards like the inside of a spoon.",
+      "explanation": "A concave mirror behind the bulb reflects light forward as a strong beam."
+    },
+    "ml": {
+      "question": "ടോർച്ചിൽ ശക്തമായ പ്രകാശരശ്മി മുന്നോട്ട് അയയ്ക്കാൻ ഉപയോഗിക്കുന്ന ദർപ്പണം ഏത്?",
+      "options": [
+        "സമതല ദർപ്പണം",
+        "കോൺകേവ് ദർപ്പണം",
+        "കോൺവെക്സ് ദർപ്പണം",
+        "പ്രിസം"
+      ],
+      "hint": "സ്പൂണിന്റെ ഉൾവശം പോലെ ഉള്ളിലേക്ക് വളഞ്ഞതാണിത്.",
+      "explanation": "ബൾബിന് പിന്നിലുള്ള കോൺകേവ് ദർപ്പണം പ്രകാശത്തെ ശക്തമായ രശ്മിയായി മുന്നോട്ട് പ്രതിഫലിപ്പിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0025",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Human body: digestion and respiration",
+      "ml": "മനുഷ്യശരീരം: ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Where does the digestion of food begin?",
+      "options": [
+        "Stomach",
+        "Mouth",
+        "Small intestine",
+        "Large intestine"
+      ],
+      "hint": "Chewing and saliva are the first steps.",
+      "explanation": "Digestion starts in the mouth, where teeth break food and saliva begins to digest starch."
+    },
+    "ml": {
+      "question": "ആഹാരത്തിന്റെ ദഹനം ആരംഭിക്കുന്നത് എവിടെയാണ്?",
+      "options": [
+        "ആമാശയം",
+        "വായ",
+        "ചെറുകുടൽ",
+        "വൻകുടൽ"
+      ],
+      "hint": "ചവയ്ക്കലും ഉമിനീരുമാണ് ആദ്യഘട്ടം.",
+      "explanation": "ദഹനം വായിൽ ആരംഭിക്കുന്നു. പല്ലുകൾ ആഹാരം പൊടിക്കുകയും ഉമിനീർ അന്നജത്തിന്റെ ദഹനം തുടങ്ങുകയും ചെയ്യുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0026",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Human body: digestion and respiration",
+      "ml": "മനുഷ്യശരീരം: ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "In which organ does most digestion and absorption of food take place?",
+      "options": [
+        "Stomach",
+        "Mouth",
+        "Small intestine",
+        "Large intestine"
+      ],
+      "hint": "It is a long, coiled tube with tiny finger-like villi.",
+      "explanation": "Most digestion is completed and nutrients are absorbed into the blood in the small intestine."
+    },
+    "ml": {
+      "question": "ആഹാരത്തിന്റെ ദഹനവും ആഗിരണവും ഏറ്റവും കൂടുതൽ നടക്കുന്ന അവയവം ഏത്?",
+      "options": [
+        "ആമാശയം",
+        "വായ",
+        "ചെറുകുടൽ",
+        "വൻകുടൽ"
+      ],
+      "hint": "വിരൽ പോലുള്ള വില്ലികൾ നിറഞ്ഞ, ചുരുണ്ട നീണ്ട കുഴലാണിത്.",
+      "explanation": "ദഹനം പൂർത്തിയാകുന്നതും പോഷകങ്ങൾ രക്തത്തിലേക്ക് ആഗിരണം ചെയ്യപ്പെടുന്നതും ചെറുകുടലിലാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0027",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Human body: digestion and respiration",
+      "ml": "മനുഷ്യശരീരം: ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Which organ produces bile?",
+      "options": [
+        "Stomach",
+        "Liver",
+        "Pancreas",
+        "Kidney"
+      ],
+      "hint": "It is the largest gland in the body.",
+      "explanation": "The liver produces bile, which helps digest fats."
+    },
+    "ml": {
+      "question": "പിത്തരസം ഉൽപ്പാദിപ്പിക്കുന്ന അവയവം ഏത്?",
+      "options": [
+        "ആമാശയം",
+        "കരൾ",
+        "പാൻക്രിയാസ്",
+        "വൃക്ക"
+      ],
+      "hint": "ശരീരത്തിലെ ഏറ്റവും വലിയ ഗ്രന്ഥിയാണിത്.",
+      "explanation": "കരൾ ഉൽപ്പാദിപ്പിക്കുന്ന പിത്തരസം കൊഴുപ്പിന്റെ ദഹനത്തെ സഹായിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0028",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "chapter": {
+      "en": "Human body: digestion and respiration",
+      "ml": "മനുഷ്യശരീരം: ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "In the lungs, oxygen enters the blood through tiny air sacs called:",
+      "options": [
+        "Alveoli",
+        "Villi",
+        "Neurons",
+        "Valves"
+      ],
+      "hint": "There are millions of them in each lung.",
+      "explanation": "Alveoli are tiny air sacs in the lungs where oxygen goes into the blood and carbon dioxide comes out."
+    },
+    "ml": {
+      "question": "ശ്വാസകോശത്തിൽ ഓക്സിജൻ രക്തത്തിലേക്ക് കടക്കുന്ന ചെറിയ വായു അറകൾ ഏവ?",
+      "options": [
+        "ആൽവിയോളൈ",
+        "വില്ലി",
+        "നാഡീകോശങ്ങൾ",
+        "വാൽവുകൾ"
+      ],
+      "hint": "ഓരോ ശ്വാസകോശത്തിലും ഇവ ദശലക്ഷക്കണക്കിനുണ്ട്.",
+      "explanation": "ആൽവിയോളൈ എന്ന വായു അറകളിൽ വെച്ച് ഓക്സിജൻ രക്തത്തിലേക്ക് കടക്കുകയും കാർബൺ ഡൈ ഓക്സൈഡ് പുറത്തേക്ക് വരികയും ചെയ്യുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0029",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "Human body: digestion and respiration",
+      "ml": "മനുഷ്യശരീരം: ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "The enzyme in saliva digests which food substance?",
+      "options": [
+        "Protein",
+        "Starch",
+        "Fat",
+        "Vitamins"
+      ],
+      "hint": "Chew a piece of rice for a long time — it starts to taste sweet!",
+      "explanation": "Saliva contains amylase, which changes starch into sugar. That is why rice tastes sweet after long chewing."
+    },
+    "ml": {
+      "question": "ഉമിനീരിലെ എൻസൈം ഏത് പോഷകഘടകത്തെയാണ് ദഹിപ്പിക്കുന്നത്?",
+      "options": [
+        "പ്രോട്ടീൻ",
+        "അന്നജം",
+        "കൊഴുപ്പ്",
+        "ജീവകങ്ങൾ"
+      ],
+      "hint": "ചോറ് കുറേനേരം ചവച്ചാൽ മധുരം തോന്നും!",
+      "explanation": "ഉമിനീരിലെ അമിലേസ് അന്നജത്തെ പഞ്ചസാരയാക്കുന്നു. അതുകൊണ്ടാണ് ചോറ് ഏറെനേരം ചവച്ചാൽ മധുരിക്കുന്നത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0030",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Heat in everyday life",
+      "ml": "താപം നിത്യജീവിതത്തിൽ"
+    },
+    "en": {
+      "question": "A steel spoon kept in hot tea becomes hot at the other end too. How does the heat travel?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "hint": "Heat passes from particle to particle in a solid.",
+      "explanation": "In solids, heat travels by conduction, from the hot end to the cold end."
+    },
+    "ml": {
+      "question": "ചൂടുചായയിൽ വച്ച സ്റ്റീൽ സ്പൂണിന്റെ മറ്റേ അറ്റവും ചൂടാകുന്നു. ഏത് രീതിയിലാണ് താപം സഞ്ചരിക്കുന്നത്?",
+      "options": [
+        "ചാലനം",
+        "സംവഹനം",
+        "വികിരണം",
+        "ബാഷ്പീകരണം"
+      ],
+      "hint": "ഖരവസ്തുക്കളിൽ കണികയിൽ നിന്ന് കണികയിലേക്ക് താപം കടന്നുപോകുന്നു.",
+      "explanation": "ഖരവസ്തുക്കളിൽ താപം ചാലനത്തിലൂടെ ചൂടുള്ള അറ്റത്തുനിന്ന് തണുത്ത അറ്റത്തേക്ക് സഞ്ചരിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0031",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Heat in everyday life",
+      "ml": "താപം നിത്യജീവിതത്തിൽ"
+    },
+    "en": {
+      "question": "How does heat from the Sun reach the Earth?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "hint": "There is no air in space to carry the heat.",
+      "explanation": "Heat from the Sun travels through empty space by radiation."
+    },
+    "ml": {
+      "question": "സൂര്യനിൽ നിന്നുള്ള താപം ഭൂമിയിൽ എത്തുന്നത് ഏത് രീതിയിലാണ്?",
+      "options": [
+        "ചാലനം",
+        "സംവഹനം",
+        "വികിരണം",
+        "ബാഷ്പീകരണം"
+      ],
+      "hint": "താപം കൊണ്ടുപോകാൻ ബഹിരാകാശത്ത് വായുവില്ല.",
+      "explanation": "ശൂന്യമായ ബഹിരാകാശത്തിലൂടെ സൂര്യതാപം വികിരണം വഴിയാണ് ഭൂമിയിലെത്തുന്നത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SCI-0032",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Heat in everyday life",
+      "ml": "താപം നിത്യജീവിതത്തിൽ"
+    },
+    "en": {
+      "question": "What is the normal body temperature of a healthy person?",
+      "options": [
+        "27 °C",
+        "37 °C",
+        "47 °C",
+        "100 °C"
+      ],
+      "hint": "A clinical thermometer is used to check it.",
+      "explanation": "The normal human body temperature is about 37 °C (98.6 °F)."
+    },
+    "ml": {
+      "question": "ആരോഗ്യമുള്ള ഒരാളുടെ സാധാരണ ശരീര താപനില എത്ര?",
+      "options": [
+        "27 °C",
+        "37 °C",
+        "47 °C",
+        "100 °C"
+      ],
+      "hint": "ക്ലിനിക്കൽ തെർമോമീറ്റർ കൊണ്ടാണ് ഇത് അളക്കുന്നത്.",
+      "explanation": "മനുഷ്യന്റെ സാധാരണ ശരീര താപനില ഏകദേശം 37 °C (98.6 °F) ആണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
     "year": null,
     "reviewed": false,
     "needsReview": false

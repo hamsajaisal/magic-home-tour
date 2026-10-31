@@ -1,0 +1,742 @@
+[
+  {
+    "id": "SOC-0001",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "Who founded the Mughal Empire in India?",
+      "options": [
+        "Akbar",
+        "Babur",
+        "Humayun",
+        "Shah Jahan"
+      ],
+      "hint": "He won the First Battle of Panipat in 1526.",
+      "explanation": "Babur defeated Ibrahim Lodi in the First Battle of Panipat (1526) and founded the Mughal Empire."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയിൽ മുഗൾ സാമ്രാജ്യം സ്ഥാപിച്ചത് ആര്?",
+      "options": [
+        "അക്ബർ",
+        "ബാബർ",
+        "ഹുമയൂൺ",
+        "ഷാജഹാൻ"
+      ],
+      "hint": "1526-ലെ ഒന്നാം പാനിപ്പത്ത് യുദ്ധം ജയിച്ചത് ഇദ്ദേഹമാണ്.",
+      "explanation": "ഒന്നാം പാനിപ്പത്ത് യുദ്ധത്തിൽ (1526) ഇബ്രാഹിം ലോദിയെ തോൽപ്പിച്ച് ബാബർ മുഗൾ സാമ്രാജ്യം സ്ഥാപിച്ചു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0002",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "In which year was the First Battle of Panipat fought?",
+      "options": [
+        "1192",
+        "1526",
+        "1556",
+        "1761"
+      ],
+      "hint": "It is the year the Mughal Empire began.",
+      "explanation": "The First Battle of Panipat was fought in 1526 between Babur and Ibrahim Lodi."
+    },
+    "ml": {
+      "question": "ഒന്നാം പാനിപ്പത്ത് യുദ്ധം നടന്ന വർഷം ഏത്?",
+      "options": [
+        "1192",
+        "1526",
+        "1556",
+        "1761"
+      ],
+      "hint": "മുഗൾ ഭരണം തുടങ്ങിയ വർഷമാണിത്.",
+      "explanation": "ബാബറും ഇബ്രാഹിം ലോദിയും തമ്മിൽ 1526-ലാണ് ഒന്നാം പാനിപ്പത്ത് യുദ്ധം നടന്നത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0003",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "Which Mughal emperor built the Taj Mahal?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "hint": "He built it in memory of his wife Mumtaz Mahal.",
+      "explanation": "Shah Jahan built the Taj Mahal in Agra in memory of his wife Mumtaz Mahal."
+    },
+    "ml": {
+      "question": "താജ്മഹൽ പണികഴിപ്പിച്ച മുഗൾ ചക്രവർത്തി ആര്?",
+      "options": [
+        "അക്ബർ",
+        "ജഹാംഗീർ",
+        "ഷാജഹാൻ",
+        "ഔറംഗസേബ്"
+      ],
+      "hint": "ഭാര്യ മുംതാസ് മഹലിന്റെ ഓർമ്മയ്ക്കായാണ് ഇത് പണിതത്.",
+      "explanation": "ഭാര്യ മുംതാസ് മഹലിന്റെ ഓർമ്മയ്ക്കായി ഷാജഹാൻ ആഗ്രയിൽ താജ്മഹൽ പണികഴിപ്പിച്ചു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0004",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "Which Sultan moved his capital from Delhi to Daulatabad (Devagiri)?",
+      "options": [
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq",
+        "Iltutmish",
+        "Balban"
+      ],
+      "hint": "He belonged to the Tughlaq dynasty.",
+      "explanation": "Muhammad bin Tughlaq shifted his capital from Delhi to Daulatabad, but later had to move it back."
+    },
+    "ml": {
+      "question": "തലസ്ഥാനം ഡൽഹിയിൽ നിന്ന് ദൗലത്താബാദിലേക്ക് (ദേവഗിരി) മാറ്റിയ സുൽത്താൻ ആര്?",
+      "options": [
+        "അലാവുദ്ദീൻ ഖിൽജി",
+        "മുഹമ്മദ് ബിൻ തുഗ്ലക്ക്",
+        "ഇൽത്തുമിഷ്",
+        "ബാൽബൻ"
+      ],
+      "hint": "ഇദ്ദേഹം തുഗ്ലക്ക് വംശത്തിലെ സുൽത്താനാണ്.",
+      "explanation": "മുഹമ്മദ് ബിൻ തുഗ്ലക്ക് തലസ്ഥാനം ദൗലത്താബാദിലേക്ക് മാറ്റി; പിന്നീട് തിരികെ ഡൽഹിയിലേക്ക് മാറ്റേണ്ടിവന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0005",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "What was the name of the new philosophy started by Akbar to bring religions together?",
+      "options": [
+        "Din-i-Ilahi",
+        "Bhakti",
+        "Sufism",
+        "Jainism"
+      ],
+      "hint": "Its name means \"Religion of God\".",
+      "explanation": "Akbar started Din-i-Ilahi, which took good ideas from many religions."
+    },
+    "ml": {
+      "question": "മതങ്ങളെ ഒന്നിപ്പിക്കാൻ അക്ബർ ആരംഭിച്ച ദർശനം ഏത്?",
+      "options": [
+        "ദീൻ-ഇ-ഇലാഹി",
+        "ഭക്തി",
+        "സൂഫിസം",
+        "ജൈനമതം"
+      ],
+      "hint": "ഇതിന്റെ പേരിന്റെ അർഥം \"ദൈവത്തിന്റെ മതം\" എന്നാണ്.",
+      "explanation": "പല മതങ്ങളിലെയും നല്ല ആശയങ്ങൾ ചേർത്ത് അക്ബർ ദീൻ-ഇ-ഇലാഹി ആരംഭിച്ചു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0006",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "The ruins of the Vijayanagara capital are found at which famous place?",
+      "options": [
+        "Hampi",
+        "Agra",
+        "Fatehpur Sikri",
+        "Madurai"
+      ],
+      "hint": "It is in present-day Karnataka, on the banks of the Tungabhadra.",
+      "explanation": "The capital city of the Vijayanagara Empire stood at Hampi in Karnataka; its ruins are a World Heritage Site."
+    },
+    "ml": {
+      "question": "വിജയനഗര സാമ്രാജ്യത്തിന്റെ തലസ്ഥാനത്തിന്റെ അവശിഷ്ടങ്ങൾ കാണുന്ന പ്രശസ്ത സ്ഥലം ഏത്?",
+      "options": [
+        "ഹംപി",
+        "ആഗ്ര",
+        "ഫത്തേപ്പൂർ സിക്രി",
+        "മധുര"
+      ],
+      "hint": "ഇത് ഇന്നത്തെ കർണാടകയിൽ, തുംഗഭദ്ര നദിയുടെ തീരത്താണ്.",
+      "explanation": "വിജയനഗര സാമ്രാജ്യത്തിന്റെ തലസ്ഥാനം കർണാടകയിലെ ഹംപിയിലായിരുന്നു; അതിന്റെ അവശിഷ്ടങ്ങൾ ലോക പൈതൃക സ്ഥാനമാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0007",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "Who is known as the greatest ruler of the Vijayanagara Empire?",
+      "options": [
+        "Krishnadevaraya",
+        "Akbar",
+        "Shivaji",
+        "Balban"
+      ],
+      "hint": "He was a great patron of poets and ruled in the early 1500s.",
+      "explanation": "Krishnadevaraya was the most famous Vijayanagara king, known for his rule and support of literature."
+    },
+    "ml": {
+      "question": "വിജയനഗര സാമ്രാജ്യത്തിലെ ഏറ്റവും പ്രശസ്തനായ രാജാവ് ആര്?",
+      "options": [
+        "കൃഷ്ണദേവരായർ",
+        "അക്ബർ",
+        "ശിവജി",
+        "ബാൽബൻ"
+      ],
+      "hint": "കവികളെ ഏറെ പ്രോത്സാഹിപ്പിച്ച ഇദ്ദേഹം 1500-കളുടെ തുടക്കത്തിൽ ഭരിച്ചു.",
+      "explanation": "ഭരണമികവിനും സാഹിത്യപ്രോത്സാഹനത്തിനും പേരുകേട്ട വിജയനഗര രാജാവാണ് കൃഷ്ണദേവരായർ."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0008",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India",
+      "ml": "മധ്യകാല ഇന്ത്യ"
+    },
+    "en": {
+      "question": "Who was the first woman ruler of the Delhi Sultanate?",
+      "options": [
+        "Mirabai",
+        "Chand Bibi",
+        "Razia Sultan",
+        "Mumtaz Mahal"
+      ],
+      "hint": "She was the daughter of Sultan Iltutmish.",
+      "explanation": "Razia Sultan, daughter of Iltutmish, was the first and only woman to rule the Delhi Sultanate."
+    },
+    "ml": {
+      "question": "ഡൽഹി സുൽത്താനേറ്റ് ഭരിച്ച ആദ്യ വനിത ആര്?",
+      "options": [
+        "മീരാബായി",
+        "ചാന്ദ് ബീബി",
+        "റസിയ സുൽത്താന",
+        "മുംതാസ് മഹൽ"
+      ],
+      "hint": "ഇവർ സുൽത്താൻ ഇൽത്തുമിഷിന്റെ മകളാണ്.",
+      "explanation": "ഇൽത്തുമിഷിന്റെ മകളായ റസിയ സുൽത്താനയാണ് ഡൽഹി സുൽത്താനേറ്റ് ഭരിച്ച ആദ്യത്തെയും ഒരേയൊരു വനിതയും."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0009",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Who founded Sikhism?",
+      "options": [
+        "Kabir",
+        "Guru Nanak",
+        "Tulsidas",
+        "Mirabai"
+      ],
+      "hint": "He was the first of the ten Sikh Gurus.",
+      "explanation": "Guru Nanak founded Sikhism and taught that God is one and all people are equal."
+    },
+    "ml": {
+      "question": "സിഖ് മതം സ്ഥാപിച്ചത് ആര്?",
+      "options": [
+        "കബീർ",
+        "ഗുരു നാനാക്ക്",
+        "തുളസീദാസ്",
+        "മീരാബായി"
+      ],
+      "hint": "പത്ത് സിഖ് ഗുരുക്കന്മാരിൽ ആദ്യത്തെയാളാണ് ഇദ്ദേഹം.",
+      "explanation": "ദൈവം ഒന്നാണെന്നും എല്ലാ മനുഷ്യരും തുല്യരാണെന്നും പഠിപ്പിച്ച ഗുരു നാനാക്കാണ് സിഖ് മതം സ്ഥാപിച്ചത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0010",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Who wrote \"Adhyatma Ramayanam Kilippattu\" in Malayalam?",
+      "options": [
+        "Cherusseri",
+        "Thunchath Ezhuthachan",
+        "Poonthanam",
+        "Kunchan Nambiar"
+      ],
+      "hint": "He is called the father of the Malayalam language.",
+      "explanation": "Thunchath Ezhuthachan, a great poet of the Bhakti movement in Kerala, wrote Adhyatma Ramayanam Kilippattu."
+    },
+    "ml": {
+      "question": "\"ആധ്യാത്മരാമായണം കിളിപ്പാട്ട്\" രചിച്ചത് ആര്?",
+      "options": [
+        "ചെറുശ്ശേരി",
+        "തുഞ്ചത്ത് എഴുത്തച്ഛൻ",
+        "പൂന്താനം",
+        "കുഞ്ചൻ നമ്പ്യാർ"
+      ],
+      "hint": "ഇദ്ദേഹത്തെ മലയാള ഭാഷയുടെ പിതാവ് എന്നു വിളിക്കുന്നു.",
+      "explanation": "കേരളത്തിലെ ഭക്തിപ്രസ്ഥാനത്തിലെ മഹാകവിയായ തുഞ്ചത്ത് എഴുത്തച്ഛനാണ് ആധ്യാത്മരാമായണം കിളിപ്പാട്ട് രചിച്ചത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0011",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Who wrote \"Jnanappana\"?",
+      "options": [
+        "Poonthanam",
+        "Thunchath Ezhuthachan",
+        "Cherusseri",
+        "Kunchan Nambiar"
+      ],
+      "hint": "He was a devotee of Guruvayurappan.",
+      "explanation": "Poonthanam Namboodiri, a Bhakti poet devoted to Guruvayurappan, wrote Jnanappana."
+    },
+    "ml": {
+      "question": "\"ജ്ഞാനപ്പാന\" രചിച്ചത് ആര്?",
+      "options": [
+        "പൂന്താനം",
+        "തുഞ്ചത്ത് എഴുത്തച്ഛൻ",
+        "ചെറുശ്ശേരി",
+        "കുഞ്ചൻ നമ്പ്യാർ"
+      ],
+      "hint": "ഇദ്ദേഹം ഗുരുവായൂരപ്പന്റെ ഭക്തനായിരുന്നു.",
+      "explanation": "ഗുരുവായൂരപ്പഭക്തനായ ഭക്തകവി പൂന്താനം നമ്പൂതിരിയാണ് ജ്ഞാനപ്പാന രചിച്ചത്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0012",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Which Rajput princess became a famous Bhakti poet devoted to Lord Krishna?",
+      "options": [
+        "Mirabai",
+        "Razia Sultan",
+        "Chand Bibi",
+        "Rani Lakshmibai"
+      ],
+      "hint": "Her songs to Krishna are still sung today.",
+      "explanation": "Mirabai left palace life to sing devotional songs to Krishna; she is a well-known Bhakti poet."
+    },
+    "ml": {
+      "question": "കൃഷ്ണഭക്തയായ പ്രശസ്ത ഭക്തകവിയായി മാറിയ രജപുത്ര രാജകുമാരി ആര്?",
+      "options": [
+        "മീരാബായി",
+        "റസിയ സുൽത്താന",
+        "ചാന്ദ് ബീബി",
+        "റാണി ലക്ഷ്മീബായി"
+      ],
+      "hint": "കൃഷ്ണനെക്കുറിച്ചുള്ള ഇവരുടെ പാട്ടുകൾ ഇന്നും പാടുന്നു.",
+      "explanation": "കൊട്ടാരജീവിതം ഉപേക്ഷിച്ച് കൃഷ്ണഭക്തിഗാനങ്ങൾ പാടിയ മീരാബായി പ്രശസ്തയായ ഭക്തകവിയാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0013",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "The dargah (tomb) of which famous Sufi saint is at Ajmer?",
+      "options": [
+        "Khwaja Moinuddin Chishti",
+        "Kabir",
+        "Guru Nanak",
+        "Tulsidas"
+      ],
+      "hint": "He belonged to the Chishti order of Sufis.",
+      "explanation": "The dargah of the Sufi saint Khwaja Moinuddin Chishti in Ajmer is visited by people of all faiths."
+    },
+    "ml": {
+      "question": "അജ്മീറിൽ ദർഗയുള്ള പ്രശസ്ത സൂഫി സന്യാസി ആര്?",
+      "options": [
+        "ഖ്വാജാ മുഈനുദ്ദീൻ ചിശ്തി",
+        "കബീർ",
+        "ഗുരു നാനാക്ക്",
+        "തുളസീദാസ്"
+      ],
+      "hint": "ഇദ്ദേഹം ചിശ്തി സൂഫി പരമ്പരയിൽപ്പെട്ടയാളാണ്.",
+      "explanation": "സൂഫി സന്യാസിയായ ഖ്വാജാ മുഈനുദ്ദീൻ ചിശ്തിയുടെ അജ്മീറിലെ ദർഗ എല്ലാ മതസ്ഥരും സന്ദർശിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0014",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Our Earth – the atmosphere",
+      "ml": "നമ്മുടെ ഭൂമി – അന്തരീക്ഷം"
+    },
+    "en": {
+      "question": "Which layer of the atmosphere is closest to the Earth, where rain, clouds and wind happen?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "hint": "All our weather happens in this lowest layer.",
+      "explanation": "The troposphere is the lowest layer of the atmosphere; clouds, rain and wind form here."
+    },
+    "ml": {
+      "question": "ഭൂമിയോട് ഏറ്റവും അടുത്തുള്ള, മഴയും മേഘവും കാറ്റും ഉണ്ടാകുന്ന അന്തരീക്ഷപാളി ഏത്?",
+      "options": [
+        "ട്രോപോസ്ഫിയർ",
+        "സ്ട്രാറ്റോസ്ഫിയർ",
+        "മീസോസ്ഫിയർ",
+        "തെർമോസ്ഫിയർ"
+      ],
+      "hint": "കാലാവസ്ഥാ മാറ്റങ്ങളെല്ലാം നടക്കുന്നത് ഏറ്റവും താഴെയുള്ള ഈ പാളിയിലാണ്.",
+      "explanation": "അന്തരീക്ഷത്തിലെ ഏറ്റവും താഴത്തെ പാളിയാണ് ട്രോപോസ്ഫിയർ; മേഘം, മഴ, കാറ്റ് എന്നിവ ഇവിടെ ഉണ്ടാകുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0015",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Our Earth – the atmosphere",
+      "ml": "നമ്മുടെ ഭൂമി – അന്തരീക്ഷം"
+    },
+    "en": {
+      "question": "In which layer of the atmosphere is the ozone layer found?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "hint": "It is the layer just above the one where weather happens.",
+      "explanation": "The ozone layer is in the stratosphere. It protects us from the Sun's harmful ultraviolet rays."
+    },
+    "ml": {
+      "question": "ഓസോൺ പാളി കാണപ്പെടുന്ന അന്തരീക്ഷപാളി ഏത്?",
+      "options": [
+        "ട്രോപോസ്ഫിയർ",
+        "സ്ട്രാറ്റോസ്ഫിയർ",
+        "മീസോസ്ഫിയർ",
+        "എക്സോസ്ഫിയർ"
+      ],
+      "hint": "കാലാവസ്ഥ ഉണ്ടാകുന്ന പാളിയുടെ തൊട്ടുമുകളിലാണിത്.",
+      "explanation": "ഓസോൺ പാളി സ്ട്രാറ്റോസ്ഫിയറിലാണ്. സൂര്യനിൽ നിന്നുള്ള ഹാനികരമായ അൾട്രാവയലറ്റ് രശ്മികളിൽ നിന്ന് ഇത് നമ്മെ സംരക്ഷിക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0016",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Our Earth – the atmosphere",
+      "ml": "നമ്മുടെ ഭൂമി – അന്തരീക്ഷം"
+    },
+    "en": {
+      "question": "Which gas is present in the largest amount in the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "hint": "It makes up about 78% of the air.",
+      "explanation": "Nitrogen is about 78% of the air. Oxygen is about 21%."
+    },
+    "ml": {
+      "question": "അന്തരീക്ഷത്തിൽ ഏറ്റവും കൂടുതലുള്ള വാതകം ഏത്?",
+      "options": [
+        "ഓക്സിജൻ",
+        "നൈട്രജൻ",
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "ആർഗൺ"
+      ],
+      "hint": "വായുവിന്റെ ഏകദേശം 78% ഈ വാതകമാണ്.",
+      "explanation": "വായുവിൽ ഏകദേശം 78% നൈട്രജനും 21% ഓക്സിജനുമാണ്."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0017",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Our Earth – the atmosphere",
+      "ml": "നമ്മുടെ ഭൂമി – അന്തരീക്ഷം"
+    },
+    "en": {
+      "question": "Which instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Anemometer",
+        "Rain gauge"
+      ],
+      "hint": "\"Baro\" means weight or pressure.",
+      "explanation": "A barometer measures air pressure. A thermometer measures temperature, an anemometer wind speed and a rain gauge rainfall."
+    },
+    "ml": {
+      "question": "അന്തരീക്ഷമർദം അളക്കുന്ന ഉപകരണം ഏത്?",
+      "options": [
+        "തെർമോമീറ്റർ",
+        "ബാരോമീറ്റർ",
+        "അനിമോമീറ്റർ",
+        "മഴമാപിനി"
+      ],
+      "hint": "\"ബാരോ\" എന്നാൽ ഭാരം/മർദം.",
+      "explanation": "ബാരോമീറ്റർ വായുമർദം അളക്കുന്നു. തെർമോമീറ്റർ താപനിലയും അനിമോമീറ്റർ കാറ്റിന്റെ വേഗവും മഴമാപിനി മഴയും അളക്കുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0018",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "From food production to food security",
+      "ml": "ഭക്ഷ്യോൽപ്പാദനം മുതൽ ഭക്ഷ്യസുരക്ഷ വരെ"
+    },
+    "en": {
+      "question": "Who is known as the father of the Green Revolution in India?",
+      "options": [
+        "M. S. Swaminathan",
+        "Verghese Kurien",
+        "A. P. J. Abdul Kalam",
+        "Vikram Sarabhai"
+      ],
+      "hint": "He was an agricultural scientist who helped India grow much more wheat and rice.",
+      "explanation": "M. S. Swaminathan led the Green Revolution, which greatly increased food grain production in India."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയിലെ ഹരിതവിപ്ലവത്തിന്റെ പിതാവ് എന്നറിയപ്പെടുന്നത് ആര്?",
+      "options": [
+        "എം. എസ്. സ്വാമിനാഥൻ",
+        "വർഗീസ് കുര്യൻ",
+        "എ. പി. ജെ. അബ്ദുൾ കലാം",
+        "വിക്രം സാരാഭായി"
+      ],
+      "hint": "ഗോതമ്പിന്റെയും നെല്ലിന്റെയും ഉൽപ്പാദനം വർധിപ്പിക്കാൻ സഹായിച്ച കൃഷിശാസ്ത്രജ്ഞനാണ് ഇദ്ദേഹം.",
+      "explanation": "എം. എസ്. സ്വാമിനാഥന്റെ നേതൃത്വത്തിലുള്ള ഹരിതവിപ്ലവം ഇന്ത്യയിലെ ഭക്ഷ്യധാന്യ ഉൽപ്പാദനം ഏറെ വർധിപ്പിച്ചു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0019",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "From food production to food security",
+      "ml": "ഭക്ഷ്യോൽപ്പാദനം മുതൽ ഭക്ഷ്യസുരക്ഷ വരെ"
+    },
+    "en": {
+      "question": "The White Revolution (Operation Flood) increased the production of what?",
+      "options": [
+        "Milk",
+        "Fish",
+        "Eggs",
+        "Oilseeds"
+      ],
+      "hint": "Verghese Kurien is called the father of this revolution.",
+      "explanation": "The White Revolution, led by Verghese Kurien, made India one of the largest milk producers in the world."
+    },
+    "ml": {
+      "question": "ധവളവിപ്ലവം (ഓപ്പറേഷൻ ഫ്ലഡ്) ഏതിന്റെ ഉൽപ്പാദനം വർധിപ്പിച്ചു?",
+      "options": [
+        "പാൽ",
+        "മത്സ്യം",
+        "മുട്ട",
+        "എണ്ണക്കുരുക്കൾ"
+      ],
+      "hint": "വർഗീസ് കുര്യനാണ് ഇതിന്റെ പിതാവ്.",
+      "explanation": "വർഗീസ് കുര്യന്റെ നേതൃത്വത്തിലുള്ള ധവളവിപ്ലവം ഇന്ത്യയെ ലോകത്തിലെ ഏറ്റവും വലിയ പാലുൽപ്പാദകരിൽ ഒന്നാക്കി."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "SOC-0020",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "From food production to food security",
+      "ml": "ഭക്ഷ്യോൽപ്പാദനം മുതൽ ഭക്ഷ്യസുരക്ഷ വരെ"
+    },
+    "en": {
+      "question": "Ration shops are part of which system that gives food grains to people at low prices?",
+      "options": [
+        "Public Distribution System",
+        "Postal System",
+        "Banking System",
+        "Railway System"
+      ],
+      "hint": "Its short name is PDS.",
+      "explanation": "Through the Public Distribution System (PDS), the government gives rice, wheat and other items at low prices through ration shops."
+    },
+    "ml": {
+      "question": "കുറഞ്ഞ വിലയ്ക്ക് ഭക്ഷ്യധാന്യങ്ങൾ നൽകുന്ന റേഷൻ കടകൾ ഏത് സംവിധാനത്തിന്റെ ഭാഗമാണ്?",
+      "options": [
+        "പൊതുവിതരണ സമ്പ്രദായം",
+        "തപാൽ സംവിധാനം",
+        "ബാങ്കിങ് സംവിധാനം",
+        "റെയിൽവേ സംവിധാനം"
+      ],
+      "hint": "ഇംഗ്ലീഷിൽ ഇതിന്റെ ചുരുക്കപ്പേര് PDS എന്നാണ്.",
+      "explanation": "പൊതുവിതരണ സമ്പ്രദായത്തിലൂടെ (PDS) സർക്കാർ റേഷൻ കടകൾ വഴി അരി, ഗോതമ്പ് തുടങ്ങിയവ കുറഞ്ഞ വിലയ്ക്ക് നൽകുന്നു."
+    },
+    "source": "Original USS-style practice question (Magic Home Tour), on Class 7 syllabus topics",
+    "year": null,
+    "reviewed": false,
+    "needsReview": false
+  }
+]
