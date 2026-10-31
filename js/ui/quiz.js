@@ -81,6 +81,7 @@ function showQuestion() {
   el.dots.innerHTML = S.items.map((_, i) =>
     `<span class="dot ${i === S.index ? 'now' : S.marks[i] || ''}"></span>`).join('');
   el.text.textContent = item.question;
+  el.text.classList.toggle('long', item.question.length > 260);
   el.options.innerHTML = '';
   item.options.forEach((o, i) => {
     const b = document.createElement('button');

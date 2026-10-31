@@ -94,7 +94,7 @@ export function toQuizItem(q, lang, order = null) {
     options,
     hint: part.hint || '',
     explanation: part.explanation || '',
-    source: [q.source, q.year].filter(Boolean).join(', '),
+    source: [q.source, q.year && !String(q.source).includes(String(q.year)) ? q.year : null].filter(Boolean).join(', '),
     reviewed: !!q.reviewed,
   };
 }

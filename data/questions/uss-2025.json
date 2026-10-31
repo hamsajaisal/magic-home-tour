@@ -1,0 +1,2906 @@
+[
+  {
+    "id": "USS25-SOC-36",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "The study of coins is called:",
+      "options": [
+        "Epigraphy",
+        "Archaeology",
+        "Numismatics",
+        "Astronomy"
+      ],
+      "hint": "Epigraphy is the study of inscriptions.",
+      "explanation": "Numismatics is the study of coins. Epigraphy studies inscriptions and archaeology studies remains from the past."
+    },
+    "ml": {
+      "question": "നാണയങ്ങളെക്കുറിച്ചുള്ള പഠനം ഏത് പേരിൽ അറിയപ്പെടുന്നു?",
+      "options": [
+        "എപ്പിഗ്രാഫി",
+        "ആർക്കിയോളജി",
+        "ന്യൂമിസ്മാറ്റിക്സ്",
+        "അസ്ട്രോണമി"
+      ],
+      "hint": "ലിഖിതങ്ങളെക്കുറിച്ചുള്ള പഠനമാണ് എപ്പിഗ്രാഫി.",
+      "explanation": "നാണയങ്ങളെക്കുറിച്ചുള്ള പഠനമാണ് ന്യൂമിസ്മാറ്റിക്സ്. ലിഖിതങ്ങളെക്കുറിച്ചുള്ളത് എപ്പിഗ്രാഫിയും പഴയകാല അവശിഷ്ടങ്ങളെക്കുറിച്ചുള്ളത് ആർക്കിയോളജിയുമാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q36",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-37",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Find out the correct statement about Grama Sabha from the following:",
+      "options": [
+        "Grama Sabha does not give importance to developmental activities.",
+        "Ward member is the Chairperson of Grama Sabha.",
+        "Grama Sabha ensures equality among citizens.",
+        "The Grama Sabha is convened once a year."
+      ],
+      "hint": "Every adult voter of the ward can take part in it.",
+      "explanation": "In the Grama Sabha every voter of the ward has an equal say, so it ensures equality among citizens. It plans development work and meets regularly, not just once a year."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ നിന്നും ഗ്രാമസഭയെക്കുറിച്ചുള്ള ശരിയായ പ്രസ്താവന കണ്ടെത്തുക.",
+      "options": [
+        "ഗ്രാമസഭ വികസന പ്രവർത്തനങ്ങൾക്ക് പ്രാധാന്യം കൽപിക്കുന്നില്ല.",
+        "ഗ്രാമസഭയുടെ അധ്യക്ഷൻ വാർഡ് മെമ്പറാണ്.",
+        "ഗ്രാമസഭ പൗരസമത്വം ഉറപ്പാക്കുന്നു.",
+        "ഗ്രാമസഭ വർഷത്തിലൊരിക്കൽ വിളിച്ചു ചേർക്കുന്നു."
+      ],
+      "hint": "വാർഡിലെ എല്ലാ വോട്ടർമാർക്കും ഇതിൽ പങ്കെടുക്കാം.",
+      "explanation": "വാർഡിലെ എല്ലാ വോട്ടർമാർക്കും തുല്യ അവകാശമുള്ളതിനാൽ ഗ്രാമസഭ പൗരസമത്വം ഉറപ്പാക്കുന്നു. വികസന പ്രവർത്തനങ്ങൾ ആസൂത്രണം ചെയ്യുന്ന ഗ്രാമസഭ വർഷത്തിൽ ഒരിക്കൽ മാത്രമല്ല, കൃത്യമായ ഇടവേളകളിൽ കൂടുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q37",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-38",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Find out the incorrect statement from the following related to Vijayanagara.",
+      "options": [
+        "Military commanders were known as Amara Nayakas.",
+        "They had trade relations with China and Sri Lanka.",
+        "Major cities were Dhaka, Murshidabad and Agra.",
+        "There were courts at various levels for administration of justice."
+      ],
+      "hint": "Where was the Vijayanagara empire — north or south India?",
+      "explanation": "Vijayanagara was in South India. Dhaka, Murshidabad and Agra are cities of the north and east, so statement C is wrong."
+    },
+    "ml": {
+      "question": "വിജയനഗരവുമായി ബന്ധപ്പെട്ട പ്രസ്താവനകളിൽ നിന്നും തെറ്റായത് കണ്ടെത്തുക.",
+      "options": [
+        "സൈനിക മേധാവികൾ അമരനായകർ എന്നറിയപ്പെട്ടു.",
+        "ചൈന, ശ്രീലങ്ക എന്നീ രാജ്യങ്ങളുമായി വ്യാപാര ബന്ധത്തിലേർപ്പെട്ടിരുന്നു.",
+        "ധാക്ക, മുർഷിദാബാദ്, ആഗ്ര തുടങ്ങിയവ പ്രധാന നഗരങ്ങൾ ആയിരുന്നു.",
+        "നീതി നിർവഹണത്തിനായി കോടതികൾ സ്ഥാപിച്ചിരുന്നു."
+      ],
+      "hint": "വിജയനഗരം ദക്ഷിണേന്ത്യയിലോ ഉത്തരേന്ത്യയിലോ?",
+      "explanation": "വിജയനഗരം ദക്ഷിണേന്ത്യയിലായിരുന്നു. ധാക്ക, മുർഷിദാബാദ്, ആഗ്ര എന്നിവ വടക്കും കിഴക്കുമുള്ള നഗരങ്ങളാണ്. അതിനാൽ C തെറ്റാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q38",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-39",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Find the odd one out.",
+      "options": [
+        "Cotton",
+        "Jute",
+        "Bajra",
+        "Pulses"
+      ],
+      "hint": "Think about the season in which each crop is grown.",
+      "explanation": "According to the official answer key the odd one is Pulses. Cotton, jute and bajra are grown in the rainy (kharif) season."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് കണ്ടെത്തി എഴുതുക.",
+      "options": [
+        "പരുത്തി",
+        "ചണം",
+        "ബജ്റ",
+        "പയറു വർഗ്ഗങ്ങൾ"
+      ],
+      "hint": "ഓരോ വിളയും ഏത് കാലത്താണ് കൃഷി ചെയ്യുന്നതെന്ന് ആലോചിക്കൂ.",
+      "explanation": "ഔദ്യോഗിക ഉത്തരസൂചിക പ്രകാരം ഉത്തരം പയറു വർഗ്ഗങ്ങൾ. പരുത്തി, ചണം, ബജ്റ എന്നിവ മഴക്കാല (ഖാരിഫ്) വിളകളാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q39",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-40",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "In which state are the famous 'Bagh' cave paintings located?",
+      "options": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Gujarat"
+      ],
+      "hint": "Ajanta is in Maharashtra — Bagh is in a neighbouring state.",
+      "explanation": "The Bagh caves with their famous paintings are in Madhya Pradesh."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയിലെ പ്രസിദ്ധമായ 'ബാഗ്' ഗുഹാചിത്രങ്ങൾ ഏത് സംസ്ഥാനത്താണ് കാണപ്പെടുന്നത്?",
+      "options": [
+        "മഹാരാഷ്ട്ര",
+        "കർണ്ണാടകം",
+        "മധ്യപ്രദേശ്",
+        "ഗുജറാത്ത്"
+      ],
+      "hint": "അജന്ത മഹാരാഷ്ട്രയിലാണ് — ബാഗ് അയൽസംസ്ഥാനത്താണ്.",
+      "explanation": "പ്രശസ്തമായ ബാഗ് ഗുഹാചിത്രങ്ങൾ മധ്യപ്രദേശിലാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q40",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-41",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Find out the non-metallic mineral from the following:",
+      "options": [
+        "Bauxite",
+        "Petroleum",
+        "Diamond",
+        "Cinnabar"
+      ],
+      "hint": "Bauxite gives aluminium and cinnabar gives mercury.",
+      "explanation": "Diamond is a non-metallic mineral. Bauxite (aluminium) and cinnabar (mercury) are metallic ores; petroleum is a fuel mineral."
+    },
+    "ml": {
+      "question": "ചുവടെ കൊടുത്തിട്ടുള്ളവയിൽ നിന്നും അലോഹ ധാതു കണ്ടെത്തി എഴുതുക.",
+      "options": [
+        "ബോക്സൈറ്റ്",
+        "പെട്രോളിയം",
+        "വജ്രം",
+        "സിന്നബാർ"
+      ],
+      "hint": "ബോക്സൈറ്റിൽ നിന്ന് അലുമിനിയവും സിന്നബാറിൽ നിന്ന് മെർക്കുറിയും കിട്ടുന്നു.",
+      "explanation": "വജ്രം ഒരു അലോഹ ധാതുവാണ്. ബോക്സൈറ്റും സിന്നബാറും ലോഹ അയിരുകളും പെട്രോളിയം ഇന്ധന ധാതുവുമാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q41",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-42",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Identify the layer of the earth's interior from these features:\n(1) It extends up to about 2900 kilometres\n(2) Relatively thick part\n(3) Molten states of rock particles are seen there\n(4) Lithosphere and Asthenosphere are part of this layer",
+      "options": [
+        "The crust",
+        "The core",
+        "The mantle",
+        "The inner core"
+      ],
+      "hint": "It lies just below the crust.",
+      "explanation": "The mantle lies below the crust and goes down to about 2900 km. Its upper part includes the asthenosphere with partly molten rock."
+    },
+    "ml": {
+      "question": "താഴെ നൽകിയിരിക്കുന്ന സവിശേഷതകൾ ഭൂമിയുടെ ഏത് ഉള്ളറയുമായി ബന്ധപ്പെട്ടതാണെന്ന് തിരിച്ചറിയുക.\n(1) 2900 കിലോമീറ്റർ വരെ വ്യാപിച്ചു കിടക്കുന്നു\n(2) താരതമ്യേന കനം കൂടിയ ഭാഗമാണ്\n(3) ശിലാ പദാർത്ഥങ്ങൾ ഉരുകി അർദ്ധ ഖരാവസ്ഥയിൽ കാണപ്പെടുന്നു\n(4) ശിലാമണ്ഡലം, അസ്തനോസ്ഫിയർ എന്നിവ ഇതിന്റെ ഭാഗങ്ങളാണ്",
+      "options": [
+        "ഭൂവൽക്കം",
+        "കാമ്പ്",
+        "മാന്റിൽ",
+        "അകക്കാമ്പ്"
+      ],
+      "hint": "ഇത് ഭൂവൽക്കത്തിന് തൊട്ടുതാഴെയാണ്.",
+      "explanation": "ഭൂവൽക്കത്തിന് താഴെ ഏകദേശം 2900 കിലോമീറ്റർ വരെയുള്ള ഭാഗമാണ് മാന്റിൽ. ഇതിന്റെ മുകൾഭാഗത്താണ് ഭാഗികമായി ഉരുകിയ ശിലകളുള്ള അസ്തനോസ്ഫിയർ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q42",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-43",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which of the following is an example of non-direct (indirect) tax?",
+      "options": [
+        "Building Tax",
+        "Sales Tax",
+        "Income Tax",
+        "Different kinds of fines"
+      ],
+      "hint": "An indirect tax is paid through the price of things we buy.",
+      "explanation": "Sales tax is included in the price of goods, so the buyer pays it indirectly. Income tax and building tax are direct taxes; fines are not taxes."
+    },
+    "ml": {
+      "question": "താഴെ തന്നിട്ടുള്ളവയിൽ നിന്നും പരോക്ഷ നികുതിയ്ക്ക് ഉദാഹരണം കണ്ടെത്തുക.",
+      "options": [
+        "കെട്ടിട നികുതി",
+        "വില്പന നികുതി",
+        "ആദായ നികുതി",
+        "വിവിധ തരം പിഴകൾ"
+      ],
+      "hint": "നാം വാങ്ങുന്ന സാധനങ്ങളുടെ വിലയിലൂടെ കൊടുക്കുന്ന നികുതിയാണ് പരോക്ഷ നികുതി.",
+      "explanation": "വില്പന നികുതി സാധനത്തിന്റെ വിലയിൽ ഉൾപ്പെടുന്നതിനാൽ വാങ്ങുന്നയാൾ പരോക്ഷമായി നൽകുന്നു. ആദായ നികുതിയും കെട്ടിട നികുതിയും പ്രത്യക്ഷ നികുതികളാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q43",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-44",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which is the most abundant gas in the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "hint": "It makes up about 78% of the air.",
+      "explanation": "Nitrogen is about 78% of the atmosphere; oxygen is about 21%."
+    },
+    "ml": {
+      "question": "അന്തരീക്ഷ വായുവിൽ ഏറ്റവും കൂടുതൽ കാണപ്പെടുന്ന വാതകം ഏത്?",
+      "options": [
+        "ഓക്സിജൻ",
+        "കാർബൺഡയോക്സൈഡ്",
+        "നൈട്രജൻ",
+        "ഹൈഡ്രജൻ"
+      ],
+      "hint": "വായുവിന്റെ ഏകദേശം 78% ഇതാണ്.",
+      "explanation": "അന്തരീക്ഷത്തിൽ ഏകദേശം 78% നൈട്രജനും 21% ഓക്സിജനുമാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q44",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-45",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "Choose the correct pairs from the following:\n(1) Basavanna - Vira Shaiva Movement\n(2) Akka Mahadevi - Krishna Bhajans\n(3) Guru Nanak - Langar\n(4) Sheikh Nizamuddin Auliya - Dohas",
+      "options": [
+        "(1), (2)",
+        "(1), (3)",
+        "(1), (4)",
+        "(2), (3)"
+      ],
+      "hint": "Dohas are linked to Kabir, and Akka Mahadevi was a Vira Shaiva poet.",
+      "explanation": "Basavanna led the Vira Shaiva movement and Guru Nanak started the langar (community kitchen). Akka Mahadevi sang of Shiva, and dohas are Kabir's."
+    },
+    "ml": {
+      "question": "താഴെ തന്നിട്ടുള്ളവയിൽ നിന്നും ശരിയായ ജോഡികൾ കണ്ടെത്തുക.\n(1) ബസവണ്ണ - വീരശൈവ പ്രസ്ഥാനം\n(2) അക്കമഹാദേവി - കൃഷ്ണഭജനുകൾ\n(3) ഗുരുനാനാക്ക് - ലംഗാർ\n(4) ഷെയ്ഖ് നിസാമുദ്ദീൻ ഔലിയ - ദോഹകൾ",
+      "options": [
+        "(1), (2)",
+        "(1), (3)",
+        "(1), (4)",
+        "(2), (3)"
+      ],
+      "hint": "ദോഹകൾ കബീറുമായി ബന്ധപ്പെട്ടതാണ്; അക്കമഹാദേവി വീരശൈവ കവയിത്രിയാണ്.",
+      "explanation": "ബസവണ്ണ വീരശൈവ പ്രസ്ഥാനവും ഗുരുനാനാക്ക് ലംഗാറും (സമൂഹ അടുക്കള) തുടങ്ങി. അക്കമഹാദേവി ശിവനെക്കുറിച്ചാണ് പാടിയത്; ദോഹകൾ കബീറിന്റേതാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q45",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-46",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Find the odd one out.",
+      "options": [
+        "Periyalvar",
+        "Nammalvar",
+        "Sambandhar",
+        "Andal"
+      ],
+      "hint": "Alvars were devotees of Vishnu; Nayanars were devotees of Shiva.",
+      "explanation": "Periyalvar, Nammalvar and Andal were Alvars (Vishnu devotees). Sambandhar was a Nayanar (Shiva devotee)."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ ചേരാത്തത് കണ്ടെത്തുക.",
+      "options": [
+        "പെരിയാൾവാർ",
+        "നമ്മാൾവാർ",
+        "സംബന്ധർ",
+        "ആണ്ടാൾ"
+      ],
+      "hint": "ആഴ്വാർമാർ വിഷ്ണുഭക്തരും നായനാർമാർ ശിവഭക്തരുമായിരുന്നു.",
+      "explanation": "പെരിയാൾവാർ, നമ്മാൾവാർ, ആണ്ടാൾ എന്നിവർ ആഴ്വാർമാരാണ് (വിഷ്ണുഭക്തർ). സംബന്ധർ നായനാരാണ് (ശിവഭക്തൻ)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q46",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-47",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "What is the name of the device installed in a school bus to track its journey, direction, speed, position and time?",
+      "options": [
+        "Google Map",
+        "Geographic information system",
+        "Global positioning system",
+        "Radar"
+      ],
+      "hint": "Its short name is GPS.",
+      "explanation": "A GPS (Global Positioning System) device uses satellites to find position, speed and direction."
+    },
+    "ml": {
+      "question": "നിങ്ങളുടെ സ്കൂൾ ബസ്സിന്റെ സഞ്ചാര ദിശ, സഞ്ചാര വേഗത, സ്ഥാനം, സമയം എന്നിവ കണ്ടെത്താൻ ബസ്സിൽ സ്ഥാപിച്ചിരിക്കുന്ന ഉപകരണം ഏത്?",
+      "options": [
+        "ഗൂഗിൾ മാപ്പ്",
+        "ഭൂവിവരവ്യവസ്ഥ",
+        "ഗ്ലോബൽ പൊസിഷനിംഗ് സിസ്റ്റം",
+        "റഡാർ"
+      ],
+      "hint": "ഇതിന്റെ ചുരുക്കപ്പേര് GPS എന്നാണ്.",
+      "explanation": "ഉപഗ്രഹങ്ങളുടെ സഹായത്തോടെ സ്ഥാനം, വേഗത, ദിശ എന്നിവ കണ്ടെത്തുന്ന ഉപകരണമാണ് GPS (ഗ്ലോബൽ പൊസിഷനിംഗ് സിസ്റ്റം)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q47",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-48",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "What are the criteria for measuring poverty according to the multidimensional poverty index?",
+      "options": [
+        "Standard of living, Economic status, Number of members in a family",
+        "Standard of living, Education, Health",
+        "Economic status, Health, Number of vehicles in a family",
+        "Education, Health, Employment"
+      ],
+      "hint": "It looks at three areas of life, not only money.",
+      "explanation": "The Multidimensional Poverty Index measures poverty using three dimensions: health, education and standard of living."
+    },
+    "ml": {
+      "question": "ബഹുമുഖ ദാരിദ്ര്യ സൂചിക അനുസരിച്ച് ദാരിദ്ര്യം അളക്കാൻ ആധാരമാക്കുന്ന മാനദണ്ഡങ്ങൾ ഏതെല്ലാം?",
+      "options": [
+        "ജീവിത നിലവാരം, സാമ്പത്തിക സ്ഥിതി, കുടുംബത്തിലെ അംഗങ്ങളുടെ എണ്ണം",
+        "ജീവിത നിലവാരം, വിദ്യാഭ്യാസം, ആരോഗ്യം",
+        "സാമ്പത്തിക സ്ഥിതി, ആരോഗ്യം, വാഹനങ്ങളുടെ എണ്ണം",
+        "വിദ്യാഭ്യാസം, ആരോഗ്യം, ഉദ്യോഗം"
+      ],
+      "hint": "പണം മാത്രമല്ല, ജീവിതത്തിലെ മൂന്ന് മേഖലകൾ ഇത് പരിശോധിക്കുന്നു.",
+      "explanation": "ആരോഗ്യം, വിദ്യാഭ്യാസം, ജീവിത നിലവാരം എന്നീ മൂന്ന് മാനദണ്ഡങ്ങൾ ഉപയോഗിച്ചാണ് ബഹുമുഖ ദാരിദ്ര്യ സൂചിക ദാരിദ്ര്യം അളക്കുന്നത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q48",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-49",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "Find out the aims of the mansabdari system implemented by Akbar:\n(1) To carry forward his regime strongly\n(2) To ensure religious harmony\n(3) To allot land to the mansabdars\n(4) To ensure the support of the nobles and the military",
+      "options": [
+        "(1), (3)",
+        "(1), (4)",
+        "(1), (2)",
+        "(3), (4)"
+      ],
+      "hint": "Mansabdari was about running the empire and the army.",
+      "explanation": "Akbar's mansabdari system aimed to run the empire strongly and to keep the support of the nobles and the army."
+    },
+    "ml": {
+      "question": "ചുവടെ നൽകിയിട്ടുള്ള പ്രസ്താവനകളിൽ നിന്നും അക്ബർ നടപ്പിലാക്കിയ മാൻസബ്ദാരി സമ്പ്രദായത്തിന്റെ ലക്ഷ്യങ്ങൾ എന്തെല്ലാം എന്ന് കണ്ടെത്തുക.\n(1) ഭരണം ശക്തമായി മുന്നോട്ടു കൊണ്ടുപോകുക.\n(2) മതസൗഹാർദം ഉറപ്പാക്കുക.\n(3) മാൻസബ്ദാർമാർക്ക് ഭൂമി പതിച്ചു നൽകുക.\n(4) പ്രമുഖരുടെയും സൈനികരുടേയും പിന്തുണ ഉറപ്പാക്കുക.",
+      "options": [
+        "(1), (3)",
+        "(1), (4)",
+        "(1), (2)",
+        "(3), (4)"
+      ],
+      "hint": "മാൻസബ്ദാരി ഭരണവും സൈന്യവുമായി ബന്ധപ്പെട്ടതാണ്.",
+      "explanation": "ഭരണം ശക്തമായി മുന്നോട്ടുകൊണ്ടുപോകാനും പ്രമുഖരുടെയും സൈനികരുടെയും പിന്തുണ ഉറപ്പാക്കാനുമാണ് അക്ബർ മാൻസബ്ദാരി സമ്പ്രദായം നടപ്പിലാക്കിയത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q49",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-50",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Who was the Finance Minister of India in 2025?",
+      "options": [
+        "Rajnath Singh",
+        "Nitin Gadkari",
+        "Nirmala Sitharaman",
+        "K. N. Balagopal"
+      ],
+      "hint": "K. N. Balagopal is Kerala's Finance Minister.",
+      "explanation": "Nirmala Sitharaman was India's (Union) Finance Minister when this exam was held in 2025. K. N. Balagopal is Kerala's Finance Minister."
+    },
+    "ml": {
+      "question": "2025-ൽ കേന്ദ്ര ധനകാര്യ വകുപ്പ് മന്ത്രി ആരായിരുന്നു?",
+      "options": [
+        "രാജ്നാഥ് സിംഗ്",
+        "നിതിൻ ഗഡ്കരി",
+        "നിർമ്മല സീതാരാമൻ",
+        "കെ. എൻ. ബാലഗോപാൽ"
+      ],
+      "hint": "കെ. എൻ. ബാലഗോപാൽ കേരളത്തിന്റെ ധനമന്ത്രിയാണ്.",
+      "explanation": "2025-ൽ ഈ പരീക്ഷ നടന്നപ്പോൾ കേന്ദ്ര ധനമന്ത്രി നിർമ്മല സീതാരാമനായിരുന്നു. കെ. എൻ. ബാലഗോപാൽ കേരളത്തിന്റെ ധനമന്ത്രിയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q50",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-52",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "In which year was our Constitution first amended?",
+      "options": [
+        "1952",
+        "1951",
+        "1976",
+        "1978"
+      ],
+      "hint": "It was just one year after the Constitution came into force (1950).",
+      "explanation": "The First Amendment to the Indian Constitution was made in 1951."
+    },
+    "ml": {
+      "question": "നമ്മുടെ ഭരണഘടന ആദ്യമായി ഭേദഗതി ചെയ്ത വർഷം:",
+      "options": [
+        "1952",
+        "1951",
+        "1976",
+        "1978"
+      ],
+      "hint": "ഭരണഘടന നിലവിൽ വന്നതിന്റെ (1950) തൊട്ടടുത്ത വർഷമാണ്.",
+      "explanation": "ഇന്ത്യൻ ഭരണഘടനയുടെ ഒന്നാം ഭേദഗതി 1951-ലാണ് നടന്നത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q52",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-53",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which of the following is not included in the laws related to children's rights?",
+      "options": [
+        "Child Labour Prohibition Act",
+        "POCSO Act",
+        "Prevention of Corruption Act",
+        "Juvenile Justice Act"
+      ],
+      "hint": "Which law is about government officials taking bribes?",
+      "explanation": "The Prevention of Corruption Act deals with bribery and corruption. The other three protect children."
+    },
+    "ml": {
+      "question": "താഴെ തന്നിട്ടുള്ള നിയമങ്ങളിൽ നിന്നും കുട്ടികളുടെ അവകാശങ്ങളുമായി ബന്ധപ്പെടാത്ത നിയമം കണ്ടെത്തുക.",
+      "options": [
+        "ബാലവേല വിരുദ്ധ നിയമം",
+        "പോക്സോ ആക്ട്",
+        "അഴിമതി നിരോധന നിയമം",
+        "ബാലനീതി നിയമം"
+      ],
+      "hint": "കൈക്കൂലിയുമായി ബന്ധപ്പെട്ട നിയമം ഏത്?",
+      "explanation": "അഴിമതി നിരോധന നിയമം കൈക്കൂലിയും അഴിമതിയും തടയാനുള്ളതാണ്. മറ്റു മൂന്നും കുട്ടികളുടെ സംരക്ഷണത്തിനുള്ളവയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q53",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-54",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Match the books with their authors:\n(a) The Story of My Experiments with Truth\n(b) Long Walk to Freedom\n(c) Playing It My Way\n(d) An Autobiography\n\n(1) Jawaharlal Nehru  (2) Sachin Tendulkar  (3) Nelson Mandela  (4) Mahatma Gandhi",
+      "options": [
+        "(a)-(4), (b)-(3), (c)-(2), (d)-(1)",
+        "(a)-(4), (b)-(3), (c)-(1), (d)-(2)",
+        "(a)-(2), (b)-(1), (c)-(3), (d)-(4)",
+        "(a)-(1), (b)-(2), (c)-(4), (d)-(3)"
+      ],
+      "hint": "\"Playing It My Way\" is a cricketer's story.",
+      "explanation": "Gandhiji wrote \"The Story of My Experiments with Truth\", Mandela \"Long Walk to Freedom\", Sachin \"Playing It My Way\" and Nehru \"An Autobiography\"."
+    },
+    "ml": {
+      "question": "ശരിയായ ജോഡി കണ്ടെത്തി ചേരുംപടി ചേർക്കുക.\n(a) എന്റെ സത്യാന്വേഷണ പരീക്ഷണ കഥ\n(b) ലോങ് വാക്ക് ടു ഫ്രീഡം\n(c) പ്ലെയിങ് ഇറ്റ് മൈ വേ\n(d) ആൻ ഓട്ടോബയോഗ്രഫി\n\n(1) ജവഹർലാൽ നെഹ്റു  (2) സച്ചിൻ ടെണ്ടുൽക്കർ  (3) നെൽസൺ മണ്ടേല  (4) മഹാത്മാ ഗാന്ധി",
+      "options": [
+        "(a)-(4), (b)-(3), (c)-(2), (d)-(1)",
+        "(a)-(4), (b)-(3), (c)-(1), (d)-(2)",
+        "(a)-(2), (b)-(1), (c)-(3), (d)-(4)",
+        "(a)-(1), (b)-(2), (c)-(4), (d)-(3)"
+      ],
+      "hint": "\"പ്ലെയിങ് ഇറ്റ് മൈ വേ\" ഒരു ക്രിക്കറ്റ് താരത്തിന്റെ കഥയാണ്.",
+      "explanation": "ഗാന്ധിജി \"എന്റെ സത്യാന്വേഷണ പരീക്ഷണ കഥ\", മണ്ടേല \"ലോങ് വാക്ക് ടു ഫ്രീഡം\", സച്ചിൻ \"പ്ലെയിങ് ഇറ്റ് മൈ വേ\", നെഹ്റു \"ആൻ ഓട്ടോബയോഗ്രഫി\" എന്നിവ എഴുതി."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q54",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SOC-55",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Who is the founder of the 'Self-Respect Movement'?",
+      "options": [
+        "Basavanna",
+        "Periyar E. V. Ramasamy Naicker",
+        "Pandit K. P. Karuppan",
+        "Dr. A. Ayyappan"
+      ],
+      "hint": "He was a social reformer from Tamil Nadu.",
+      "explanation": "Periyar E. V. Ramasamy started the Self-Respect Movement in Tamil Nadu to fight caste discrimination."
+    },
+    "ml": {
+      "question": "സ്വാഭിമാനപ്രസ്ഥാനം സ്ഥാപിച്ചത് ആര്?",
+      "options": [
+        "ബസവണ്ണ",
+        "പെരിയാർ ഇ. വി. രാമസ്വാമി നായ്ക്കർ",
+        "പണ്ഡിറ്റ് കെ. പി. കറുപ്പൻ",
+        "ഡോ. എ. അയ്യപ്പൻ"
+      ],
+      "hint": "ഇദ്ദേഹം തമിഴ്നാട്ടിലെ സാമൂഹിക പരിഷ്കർത്താവാണ്.",
+      "explanation": "ജാതിവിവേചനത്തിനെതിരെ തമിഴ്നാട്ടിൽ പെരിയാർ ഇ. വി. രാമസ്വാമി നായ്ക്കർ സ്വാഭിമാനപ്രസ്ഥാനം ആരംഭിച്ചു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q55",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-16",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "People apply lime (chunnambu) where a wasp has stung. Which chemical process helps reduce the pain and swelling?",
+      "options": [
+        "Dehydration",
+        "Neutralisation",
+        "Oxidation",
+        "Combustion"
+      ],
+      "hint": "Lime is a base.",
+      "explanation": "Lime is a base and cancels out the effect of the sting — an acid and a base cancelling each other is called neutralisation."
+    },
+    "ml": {
+      "question": "കടന്നൽ കുത്തേറ്റ ശരീര ഭാഗത്ത് ചുണ്ണാമ്പ് പുരട്ടാറുണ്ട്. ഏതു രാസ പ്രക്രിയയാണ് ഈ അവസരത്തിൽ വേദനയും നീർവീക്കവും കുറയ്ക്കാൻ സഹായിക്കുന്നത്?",
+      "options": [
+        "നിർജ്ജലീകരണം",
+        "നിർവീരീകരണം",
+        "ഓക്സീകരണം",
+        "ജ്വലനം"
+      ],
+      "hint": "ചുണ്ണാമ്പ് ഒരു ക്ഷാരമാണ്.",
+      "explanation": "ക്ഷാരമായ ചുണ്ണാമ്പ് കുത്തിന്റെ ഫലം ഇല്ലാതാക്കുന്നു. ആസിഡും ക്ഷാരവും പരസ്പരം ഇല്ലാതാക്കുന്നതിനെ നിർവീരീകരണം എന്നു പറയുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q16",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-17",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which nutrients are needed to make haemoglobin?",
+      "options": [
+        "Iron and protein",
+        "Iron and fat",
+        "Iron and starch",
+        "Calcium and protein"
+      ],
+      "hint": "Haemoglobin is a protein that contains a metal.",
+      "explanation": "Haemoglobin is an iron-containing protein, so the body needs iron and protein to make it."
+    },
+    "ml": {
+      "question": "ഹീമോഗ്ലോബിന്റെ നിർമ്മാണത്തിന് ആവശ്യമായ ഘടകങ്ങൾ ഏതെല്ലാം?",
+      "options": [
+        "ഇരുമ്പും പ്രോട്ടീനും",
+        "ഇരുമ്പും കൊഴുപ്പും",
+        "ഇരുമ്പും അന്നജവും",
+        "കാൽസ്യവും പ്രോട്ടീനും"
+      ],
+      "hint": "ഒരു ലോഹം അടങ്ങിയ പ്രോട്ടീനാണ് ഹീമോഗ്ലോബിൻ.",
+      "explanation": "ഇരുമ്പ് അടങ്ങിയ ഒരു പ്രോട്ടീനാണ് ഹീമോഗ്ലോബിൻ. അതിനാൽ ഇത് നിർമ്മിക്കാൻ ഇരുമ്പും പ്രോട്ടീനും വേണം."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q17",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-18",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which substance is used for chlorination in water purification?",
+      "options": [
+        "Quicklime",
+        "Ammonium chloride",
+        "Sodium chloride",
+        "Bleaching powder"
+      ],
+      "hint": "It is also used to clean wells.",
+      "explanation": "Bleaching powder releases chlorine, which kills germs in water."
+    },
+    "ml": {
+      "question": "ജലശുദ്ധീകരണത്തിൽ ക്ലോറിനേഷൻ നടത്താൻ ഉപയോഗിക്കുന്ന പദാർത്ഥം ഏത്?",
+      "options": [
+        "കുമ്മായം",
+        "അമോണിയം ക്ലോറൈഡ്",
+        "സോഡിയം ക്ലോറൈഡ്",
+        "ബ്ലീച്ചിംഗ് പൗഡർ"
+      ],
+      "hint": "കിണർ വൃത്തിയാക്കാനും ഇത് ഉപയോഗിക്കുന്നു.",
+      "explanation": "ബ്ലീച്ചിംഗ് പൗഡറിൽ നിന്നുള്ള ക്ലോറിൻ വെള്ളത്തിലെ രോഗാണുക്കളെ നശിപ്പിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q18",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-19",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which statement about a solar eclipse is correct?",
+      "options": [
+        "The Moon's shadow falls on the Earth.",
+        "The Earth's shadow falls on the Moon.",
+        "Solar eclipses happen on full-moon days.",
+        "A solar eclipse can be seen from everywhere on Earth."
+      ],
+      "hint": "In a solar eclipse, something comes between the Sun and the Earth.",
+      "explanation": "In a solar eclipse the Moon comes between the Sun and the Earth and its shadow falls on the Earth. It happens on a new-moon day and is seen only from some places."
+    },
+    "ml": {
+      "question": "സൂര്യഗ്രഹണവുമായി ബന്ധപ്പെട്ട പ്രസ്താവന ഏത്?",
+      "options": [
+        "ചന്ദ്രന്റെ നിഴൽ ഭൂമിയിൽ പതിക്കുന്നു.",
+        "ഭൂമിയുടെ നിഴൽ ചന്ദ്രനിൽ പതിക്കുന്നു.",
+        "പൗർണ്ണമി ദിവസങ്ങളിലാണ് സൂര്യഗ്രഹണം ഉണ്ടാകുന്നത്.",
+        "സൂര്യഗ്രഹണം ഭൂമിയിൽ എല്ലായിടത്തു നിന്നും കാണാം."
+      ],
+      "hint": "സൂര്യനും ഭൂമിക്കും ഇടയിൽ എന്താണ് വരുന്നത്?",
+      "explanation": "സൂര്യഗ്രഹണത്തിൽ ചന്ദ്രൻ സൂര്യനും ഭൂമിക്കും ഇടയിൽ വന്ന് ചന്ദ്രന്റെ നിഴൽ ഭൂമിയിൽ വീഴുന്നു. ഇത് അമാവാസി ദിവസമാണ്, ചില സ്ഥലങ്ങളിൽ നിന്നു മാത്രമേ കാണാനാകൂ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q19",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-20",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which statement matches pasteurisation?",
+      "options": [
+        "Milk is heated to 70 °C for 30 seconds and then quickly cooled to 10 °C.",
+        "Milk is heated to 70 °C for 30 seconds and then slowly cooled to 10 °C.",
+        "Milk is heated to 100 °C and then cooled.",
+        "Milk is kept cooled."
+      ],
+      "hint": "The sudden change of temperature is the key.",
+      "explanation": "In pasteurisation milk is heated (about 70 °C for a short time) and then cooled suddenly, which kills most germs without boiling the milk."
+    },
+    "ml": {
+      "question": "പാസ്ചറൈസേഷനുമായി യോജിക്കുന്ന പ്രസ്താവന ഏതാണ്?",
+      "options": [
+        "പാൽ 70° സെൽഷ്യസിൽ 30 സെക്കന്റ് വരെ ചൂടാക്കിയ ശേഷം 10° സെൽഷ്യസിലേയ്ക്ക് പെട്ടെന്ന് തണുപ്പിക്കുന്നു.",
+        "പാൽ 70° സെൽഷ്യസിൽ 30 സെക്കന്റ് വരെ ചൂടാക്കിയ ശേഷം 10° സെൽഷ്യസിലേയ്ക്ക് സാവധാനം തണുപ്പിക്കുന്നു.",
+        "പാൽ 100° സെൽഷ്യസിൽ ചൂടാക്കി തണുപ്പിക്കുന്നു.",
+        "പാൽ തണുപ്പിച്ചു സൂക്ഷിക്കുന്നു."
+      ],
+      "hint": "പെട്ടെന്നുള്ള താപനിലമാറ്റമാണ് പ്രധാനം.",
+      "explanation": "പാസ്ചറൈസേഷനിൽ പാൽ ചൂടാക്കി (ഏകദേശം 70 °C, കുറച്ചുസമയം) പെട്ടെന്ന് തണുപ്പിക്കുന്നു. ഇങ്ങനെ തിളപ്പിക്കാതെ തന്നെ മിക്ക രോഗാണുക്കളും നശിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q20",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-21",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which of these household appliances is likely to produce the poisonous gas carbon monoxide?",
+      "options": [
+        "Refrigerator",
+        "Electric heater",
+        "Firewood stove",
+        "Microwave oven"
+      ],
+      "hint": "Carbon monoxide comes from burning fuel with little air.",
+      "explanation": "A firewood stove burns wood; incomplete burning produces carbon monoxide. The others use electricity."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്ന വീട്ടുപകരണങ്ങളിൽ ഏതാണ് കാർബൺ മോണോക്സൈഡ് എന്ന വിഷവാതകം ഉൽപാദിപ്പിക്കാൻ സാധ്യത ഉള്ളത്?",
+      "options": [
+        "റഫ്രിജറേറ്റർ",
+        "ഇലക്ട്രിക് ഹീറ്റർ",
+        "വിറക് അടുപ്പ്",
+        "മൈക്രോ വേവ് ഓവൻ"
+      ],
+      "hint": "ഇന്ധനം വേണ്ടത്ര വായുവില്ലാതെ കത്തുമ്പോഴാണ് കാർബൺ മോണോക്സൈഡ് ഉണ്ടാകുന്നത്.",
+      "explanation": "വിറക് അടുപ്പിൽ വിറക് അപൂർണ്ണമായി കത്തുമ്പോൾ കാർബൺ മോണോക്സൈഡ് ഉണ്ടാകുന്നു. മറ്റുള്ളവ വൈദ്യുതി ഉപയോഗിക്കുന്നവയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q21",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-22",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which is the best example of eco-friendly electricity generation?",
+      "options": [
+        "Hydroelectric power station",
+        "Thermal power station",
+        "Nuclear power station",
+        "Wind farm"
+      ],
+      "hint": "It uses moving air and burns no fuel.",
+      "explanation": "A wind farm makes electricity from wind, without burning fuel, making smoke or flooding land for dams."
+    },
+    "ml": {
+      "question": "പരിസ്ഥിതി സൗഹൃദ വൈദ്യുത ഉൽപാദനത്തിന് ഏറ്റവും നല്ല ഉദാഹരണമാണ്:",
+      "options": [
+        "ജല വൈദ്യുത നിലയം",
+        "താപ വൈദ്യുത നിലയം",
+        "ആണവ നിലയം",
+        "കാറ്റാടിപ്പാടം"
+      ],
+      "hint": "ഇത് ചലിക്കുന്ന വായു ഉപയോഗിക്കുന്നു, ഇന്ധനം കത്തിക്കുന്നില്ല.",
+      "explanation": "കാറ്റാടിപ്പാടം ഇന്ധനം കത്തിക്കാതെയും പുക ഉണ്ടാക്കാതെയും അണക്കെട്ടിനായി ഭൂമി മുക്കാതെയും കാറ്റിൽ നിന്ന് വൈദ്യുതി ഉണ്ടാക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q22",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-23",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "27 February 2025 is a new-moon day. When is the next full-moon day?",
+      "options": [
+        "March 14",
+        "March 7",
+        "March 29",
+        "March 21"
+      ],
+      "hint": "Full moon comes about 15 days after new moon.",
+      "explanation": "About 15 days after a new moon comes the full moon: 27 February + 15 days ≈ 14 March."
+    },
+    "ml": {
+      "question": "2025 ഫെബ്രുവരി 27 അമാവാസി ദിവസമാണ്. അടുത്ത പൗർണ്ണമി ദിവസം എന്നാണ്?",
+      "options": [
+        "മാർച്ച് 14",
+        "മാർച്ച് 7",
+        "മാർച്ച് 29",
+        "മാർച്ച് 21"
+      ],
+      "hint": "അമാവാസി കഴിഞ്ഞ് ഏകദേശം 15 ദിവസം കഴിഞ്ഞാണ് പൗർണ്ണമി.",
+      "explanation": "അമാവാസി കഴിഞ്ഞ് ഏകദേശം 15 ദിവസത്തിനു ശേഷം പൗർണ്ണമി വരുന്നു: ഫെബ്രുവരി 27 + 15 ദിവസം ≈ മാർച്ച് 14."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q23",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-24",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which of these is NOT an agri-based enterprise?",
+      "options": [
+        "Beekeeping",
+        "Fish farming",
+        "Compost making",
+        "Silkworm rearing"
+      ],
+      "hint": "Three of these rear living creatures for income.",
+      "explanation": "According to the official key, compost making is the odd one. Beekeeping, fish farming and silkworm rearing all rear living creatures as a farm business."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ കാർഷിക സംരംഭത്തിൽ ഉൾപ്പെടാത്തത് ഏത്?",
+      "options": [
+        "തേനീച്ച വളർത്തൽ",
+        "മത്സ്യ കൃഷി",
+        "കംപോസ്റ്റ് നിർമ്മാണം",
+        "പട്ടുനൂൽ പുഴു വളർത്തൽ"
+      ],
+      "hint": "മൂന്നെണ്ണത്തിലും ജീവികളെ വളർത്തി വരുമാനം ഉണ്ടാക്കുന്നു.",
+      "explanation": "ഔദ്യോഗിക ഉത്തരസൂചിക പ്രകാരം ഉത്തരം കംപോസ്റ്റ് നിർമ്മാണം. തേനീച്ച, മത്സ്യം, പട്ടുനൂൽപ്പുഴു എന്നിവയെ വളർത്തുന്നത് കാർഷിക സംരംഭങ്ങളാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q24",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-25",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which gas is present in the same amount in the air we breathe in and the air we breathe out?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Water vapour"
+      ],
+      "hint": "Our body does not use this gas at all.",
+      "explanation": "Our body does not use nitrogen, so its amount stays about the same. Oxygen goes down and carbon dioxide and water vapour go up in exhaled air."
+    },
+    "ml": {
+      "question": "ഉച്ഛ്വാസ വായുവിലും നിശ്വാസ വായുവിലും ഒരേ അളവിൽ കാണപ്പെടുന്ന വാതകം ഏത്?",
+      "options": [
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "ഓക്സിജൻ",
+        "നൈട്രജൻ",
+        "ജലബാഷ്പം"
+      ],
+      "hint": "നമ്മുടെ ശരീരം ഈ വാതകം ഉപയോഗിക്കുന്നില്ല.",
+      "explanation": "ശരീരം നൈട്രജൻ ഉപയോഗിക്കാത്തതിനാൽ അതിന്റെ അളവ് മാറുന്നില്ല. നിശ്വാസ വായുവിൽ ഓക്സിജൻ കുറയുകയും കാർബൺ ഡൈ ഓക്സൈഡും ജലബാഷ്പവും കൂടുകയും ചെയ്യുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q25",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-26",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which energy change takes place in solar panels?",
+      "options": [
+        "Chemical energy becomes electrical energy",
+        "Heat energy becomes electrical energy",
+        "Mechanical energy becomes electrical energy",
+        "Light energy becomes electrical energy"
+      ],
+      "hint": "Solar panels work in sunlight.",
+      "explanation": "Solar cells change light energy from the Sun directly into electrical energy."
+    },
+    "ml": {
+      "question": "സോളാർ പാനലുകളിൽ നടക്കുന്ന ഊർജ്ജമാറ്റം താഴെ പറയുന്നവയിൽ ഏതാണ്?",
+      "options": [
+        "രാസോർജ്ജം വൈദ്യുതോർജ്ജമാകുന്നു",
+        "താപോർജ്ജം വൈദ്യുതോർജ്ജമാകുന്നു",
+        "യാന്ത്രികോർജ്ജം വൈദ്യുതോർജ്ജമാകുന്നു",
+        "പ്രകാശോർജ്ജം വൈദ്യുതോർജ്ജമാകുന്നു"
+      ],
+      "hint": "സോളാർ പാനൽ സൂര്യപ്രകാശത്തിലാണ് പ്രവർത്തിക്കുന്നത്.",
+      "explanation": "സോളാർ സെല്ലുകൾ സൂര്യനിൽ നിന്നുള്ള പ്രകാശോർജ്ജത്തെ നേരിട്ട് വൈദ്യുതോർജ്ജമാക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q26",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-27",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "Two plane mirrors are placed at an angle of 45°. If an object is kept between them, how many images are formed?",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "3"
+      ],
+      "hint": "Number of images = (360 ÷ angle) − 1.",
+      "explanation": "Number of images = 360 ÷ 45 − 1 = 8 − 1 = 7."
+    },
+    "ml": {
+      "question": "രണ്ട് സമതല ദർപ്പണങ്ങൾ 45° കോണളവിൽ ക്രമീകരിച്ചിരിക്കുന്നു. ഇവയ്ക്ക് മധ്യത്തിലായി ഒരു വസ്തു വച്ചാൽ എത്ര പ്രതിബിംബങ്ങൾ രൂപപ്പെടും?",
+      "options": [
+        "7",
+        "5",
+        "4",
+        "3"
+      ],
+      "hint": "പ്രതിബിംബങ്ങളുടെ എണ്ണം = (360 ÷ കോണളവ്) − 1.",
+      "explanation": "പ്രതിബിംബങ്ങളുടെ എണ്ണം = 360 ÷ 45 − 1 = 8 − 1 = 7."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q27",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-28",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Why is there a silver coating between the double walls of a thermos flask?",
+      "options": [
+        "To reduce heat loss by conduction",
+        "To reduce heat loss by convection",
+        "To reduce heat loss by radiation",
+        "To reduce heat loss by conduction and convection"
+      ],
+      "hint": "Shiny surfaces reflect heat rays.",
+      "explanation": "The shiny silver coating reflects heat rays back, reducing heat loss by radiation. The vacuum between the walls stops conduction and convection."
+    },
+    "ml": {
+      "question": "തെർമോ ഫ്ലാസ്കിന്റെ ഇരട്ട ഭിത്തികൾക്കിടയിൽ സിൽവർ ആവരണം ചെയ്യുന്നത് എന്തിനാണ്?",
+      "options": [
+        "ചാലനം വഴിയുള്ള താപ നഷ്ടം കുറയ്ക്കാൻ",
+        "സംവഹനം മൂലമുള്ള താപ നഷ്ടം കുറയ്ക്കാൻ",
+        "വികിരണം മൂലമുള്ള താപ നഷ്ടം കുറയ്ക്കാൻ",
+        "ചാലനവും സംവഹനവും മൂലമുള്ള താപ നഷ്ടം കുറയ്ക്കാൻ"
+      ],
+      "hint": "തിളങ്ങുന്ന പ്രതലങ്ങൾ താപരശ്മികളെ പ്രതിഫലിപ്പിക്കുന്നു.",
+      "explanation": "തിളങ്ങുന്ന സിൽവർ ആവരണം താപരശ്മികളെ തിരികെ പ്രതിഫലിപ്പിച്ച് വികിരണം മൂലമുള്ള താപനഷ്ടം കുറയ്ക്കുന്നു. ഭിത്തികൾക്കിടയിലെ ശൂന്യത ചാലനവും സംവഹനവും തടയുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q28",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-29",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which of these is NOT an example of convection?",
+      "options": [
+        "Water getting heated on a stove",
+        "Formation of wind",
+        "A hot air balloon rising",
+        "Feeling the heat of the Sun"
+      ],
+      "hint": "Sunlight reaches us through empty space.",
+      "explanation": "The Sun's heat reaches us by radiation. Heating water, winds and a hot air balloon rising are all due to convection."
+    },
+    "ml": {
+      "question": "സംവഹനത്തിന്റെ ഉദാഹരണമല്ലാത്തത് ഏത്?",
+      "options": [
+        "അടുപ്പിൽ വെള്ളം ചൂടാകുന്നത്",
+        "കാറ്റുണ്ടാകുന്നത്",
+        "ചൂടുവായു ബലൂൺ (Hot air balloon) ഉയരുന്നത്",
+        "സൂര്യന്റെ ചൂട് അനുഭവപ്പെടുന്നത്"
+      ],
+      "hint": "സൂര്യപ്രകാശം ശൂന്യമായ ബഹിരാകാശത്തിലൂടെയാണ് വരുന്നത്.",
+      "explanation": "സൂര്യന്റെ ചൂട് നമ്മളിലെത്തുന്നത് വികിരണം വഴിയാണ്. വെള്ളം ചൂടാകുന്നതും കാറ്റും ചൂടുവായു ബലൂണും സംവഹനത്തിന് ഉദാഹരണങ്ങളാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q29",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-30",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which agency regulates the safety and quality of food in our country?",
+      "options": [
+        "WHO",
+        "FAO",
+        "FSSAI",
+        "ISO"
+      ],
+      "hint": "Look for the one with \"India\" in its full name.",
+      "explanation": "FSSAI is the Food Safety and Standards Authority of India."
+    },
+    "ml": {
+      "question": "നമ്മുടെ രാജ്യത്ത് ഭക്ഷ്യ വസ്തുക്കളുടെ സുരക്ഷിതത്വവും നിലവാരവും നിയന്ത്രിക്കുന്ന ഏജൻസിയാണ്:",
+      "options": [
+        "WHO",
+        "FAO",
+        "FSSAI",
+        "ISO"
+      ],
+      "hint": "പൂർണ്ണരൂപത്തിൽ \"India\" എന്ന വാക്കുള്ളത് ഏതാണ്?",
+      "explanation": "FSSAI എന്നാൽ ഫുഡ് സേഫ്റ്റി ആൻഡ് സ്റ്റാൻഡേർഡ്സ് അതോറിറ്റി ഓഫ് ഇന്ത്യ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q30",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-31",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "In the human body almost all arteries carry oxygen-rich blood. Which artery carries blood without oxygen?",
+      "options": [
+        "Pulmonary artery",
+        "Renal artery",
+        "Aorta",
+        "Coronary artery"
+      ],
+      "hint": "This artery takes blood from the heart to the lungs.",
+      "explanation": "The pulmonary artery carries blood without oxygen from the heart to the lungs to pick up oxygen."
+    },
+    "ml": {
+      "question": "മനുഷ്യ ശരീരത്തിൽ എല്ലാ ധമനികളും ഓക്സിജൻ കലർന്ന രക്തത്തെ വഹിക്കുന്നു. എന്നാൽ, ഓക്സിജൻ കലരാത്ത രക്തത്തെ വഹിക്കുന്ന ധമനി ഏത്?",
+      "options": [
+        "ശ്വാസകോശ ധമനി",
+        "വൃക്കാ ധമനി",
+        "മഹാ ധമനി",
+        "കൊറോണറി ധമനി"
+      ],
+      "hint": "ഹൃദയത്തിൽ നിന്ന് ശ്വാസകോശത്തിലേക്ക് രക്തം കൊണ്ടുപോകുന്ന ധമനിയാണിത്.",
+      "explanation": "ശ്വാസകോശ ധമനി ഓക്സിജൻ കലരാത്ത രക്തത്തെ ഹൃദയത്തിൽ നിന്ന് ഓക്സിജൻ ശേഖരിക്കാനായി ശ്വാസകോശത്തിലേക്ക് കൊണ്ടുപോകുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q31",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-32",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which is NOT an advantage of using biological methods to drive away pests?",
+      "options": [
+        "It does not harm the environment",
+        "It costs less",
+        "It is effective in the long run",
+        "It causes pollution of soil and water"
+      ],
+      "hint": "Look for the option that sounds harmful.",
+      "explanation": "Biological pest control does not pollute soil and water — chemical pesticides do. So D is not an advantage."
+    },
+    "ml": {
+      "question": "കീടങ്ങളെ തുരത്താൻ ജൈവ നിയന്ത്രണ മാർഗ്ഗങ്ങൾ ഉപയോഗിക്കുന്നതിന്റെ മേന്മ അല്ലാത്തത് ഏത്?",
+      "options": [
+        "പരിസ്ഥിതിക്ക് ദോഷം ഉണ്ടാകുന്നില്ല",
+        "ചെലവ് കുറവാണ്",
+        "ദീർഘകാലാടിസ്ഥാനത്തിൽ ഫലപ്രദമാണ്",
+        "മണ്ണ്, ജലം എന്നിവ മലിനീകരിക്കാൻ ഇടയാകുന്നു"
+      ],
+      "hint": "ദോഷമായി തോന്നുന്ന ഉത്തരം ഏതാണ്?",
+      "explanation": "ജൈവ കീടനിയന്ത്രണം മണ്ണും ജലവും മലിനമാക്കുന്നില്ല — രാസകീടനാശിനികളാണ് അത് ചെയ്യുന്നത്. അതിനാൽ D മേന്മയല്ല."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q32",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-33",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "In which organ are nephrons found?",
+      "options": [
+        "Kidney",
+        "Brain",
+        "Liver",
+        "Heart"
+      ],
+      "hint": "Nephrons filter the blood to make urine.",
+      "explanation": "Nephrons are the tiny filtering units of the kidney."
+    },
+    "ml": {
+      "question": "നെഫ്രോണുകൾ കാണപ്പെടുന്ന അവയവം ഏത്?",
+      "options": [
+        "വൃക്ക",
+        "തലച്ചോറ്",
+        "കരൾ",
+        "ഹൃദയം"
+      ],
+      "hint": "രക്തം അരിച്ച് മൂത്രം ഉണ്ടാക്കുന്നത് നെഫ്രോണുകളാണ്.",
+      "explanation": "വൃക്കയിലെ ചെറിയ അരിപ്പ യൂണിറ്റുകളാണ് നെഫ്രോണുകൾ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q33",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-34",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which statement about a plane mirror is INCORRECT?",
+      "options": [
+        "The image shows lateral inversion.",
+        "The distance of the object from the mirror equals the distance of the image from the mirror.",
+        "The object and image are the same size.",
+        "It can be used as a rear-view mirror."
+      ],
+      "hint": "Which mirror do vehicles actually use to see behind?",
+      "explanation": "Vehicles use convex mirrors as rear-view mirrors because they show a wider area. The other three statements about plane mirrors are true."
+    },
+    "ml": {
+      "question": "സമതല ദർപ്പണവുമായി ബന്ധപ്പെട്ട് താഴെ പറയുന്നവയിൽ തെറ്റായ പ്രസ്താവന ഏത്?",
+      "options": [
+        "പ്രതിബിംബത്തിന് പാർശ്വീയ വിപര്യയം ഉണ്ടാകുന്നു.",
+        "വസ്തുവിൽ നിന്ന് ദർപ്പണത്തിലേയ്ക്കുള്ള ദൂരവും പ്രതിബിംബത്തിലേയ്ക്കുള്ള ദൂരവും തുല്യമാണ്.",
+        "വസ്തുവിന്റെയും പ്രതിബിംബത്തിന്റെയും വലിപ്പം തുല്യമാണ്.",
+        "റിയർ വ്യൂ മിറർ ആയി ഉപയോഗിക്കാം."
+      ],
+      "hint": "വാഹനങ്ങളിൽ പിന്നിലേക്ക് നോക്കാൻ ഏത് ദർപ്പണമാണ് ഉപയോഗിക്കുന്നത്?",
+      "explanation": "വിശാലമായ കാഴ്ച നൽകുന്നതിനാൽ വാഹനങ്ങളിൽ കോൺവെക്സ് ദർപ്പണമാണ് റിയർ വ്യൂ മിററായി ഉപയോഗിക്കുന്നത്. മറ്റു മൂന്നും സമതല ദർപ്പണത്തെക്കുറിച്ച് ശരിയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q34",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-SCI-35",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "Which acid is NOT found in natural (organic) substances?",
+      "options": [
+        "Hydrofluoric acid",
+        "Lactic acid",
+        "Hydrochloric acid",
+        "Ascorbic acid"
+      ],
+      "hint": "Lactic acid is in curd, ascorbic acid in fruits and hydrochloric acid in our stomach.",
+      "explanation": "Lactic acid (curd), ascorbic acid (vitamin C in fruits) and hydrochloric acid (in our stomach) are found in living things. Hydrofluoric acid is not."
+    },
+    "ml": {
+      "question": "ജൈവിക വസ്തുക്കളിൽ കാണപ്പെടാത്ത ആസിഡിന് ഉദാഹരണമാണ്:",
+      "options": [
+        "ഹൈഡ്രോ ഫ്ലൂറിക് ആസിഡ്",
+        "ലാക്ടിക് ആസിഡ്",
+        "ഹൈഡ്രോ ക്ലോറിക് ആസിഡ്",
+        "അസ്കോർബിക് ആസിഡ്"
+      ],
+      "hint": "തൈരിൽ ലാക്ടിക് ആസിഡും പഴങ്ങളിൽ അസ്കോർബിക് ആസിഡും ആമാശയത്തിൽ ഹൈഡ്രോക്ലോറിക് ആസിഡുമുണ്ട്.",
+      "explanation": "ലാക്ടിക് ആസിഡ് (തൈര്), അസ്കോർബിക് ആസിഡ് (പഴങ്ങളിലെ ജീവകം C), ഹൈഡ്രോക്ലോറിക് ആസിഡ് (ആമാശയം) എന്നിവ ജീവികളിൽ കാണുന്നു. ഹൈഡ്രോഫ്ലൂറിക് ആസിഡ് കാണുന്നില്ല."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q35",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-01",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nWhere did the tiny seed lie hidden?",
+      "options": [
+        "soil",
+        "water",
+        "grain of rice",
+        "sun"
+      ],
+      "hint": "Look at the first sentence.",
+      "explanation": "\"A tiny seed lay hidden beneath the soil.\""
+    },
+    "ml": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nWhere did the tiny seed lie hidden?",
+      "options": [
+        "soil",
+        "water",
+        "grain of rice",
+        "sun"
+      ],
+      "hint": "ആദ്യത്തെ വാക്യം ശ്രദ്ധിക്കൂ.",
+      "explanation": "\"A tiny seed lay hidden beneath the soil\" — വിത്ത് മണ്ണിനടിയിലായിരുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q1",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-02",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nWhat miracle was waiting to happen inside the seed?",
+      "options": [
+        "sprout",
+        "bloom",
+        "no change",
+        "decay"
+      ],
+      "hint": "What does a seed do first when it gets water and warmth?",
+      "explanation": "The miracle inside the seed was that it would sprout — \"the seed began to sprout\"."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nWhat miracle was waiting to happen inside the seed?",
+      "options": [
+        "sprout",
+        "bloom",
+        "no change",
+        "decay"
+      ],
+      "hint": "വെള്ളവും ചൂടും കിട്ടുമ്പോൾ വിത്ത് ആദ്യം എന്തു ചെയ്യും?",
+      "explanation": "വിത്തിനുള്ളിലെ അത്ഭുതം അത് മുളയ്ക്കുക (sprout) എന്നതായിരുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q2",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-03",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nHow did the farmer feel when he saw the flower?",
+      "options": [
+        "sad",
+        "angry",
+        "happy",
+        "surprised"
+      ],
+      "hint": "Look at the last sentence.",
+      "explanation": "\"The farmer smiled with joy\" — he was happy."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nHow did the farmer feel when he saw the flower?",
+      "options": [
+        "sad",
+        "angry",
+        "happy",
+        "surprised"
+      ],
+      "hint": "അവസാന വാക്യം ശ്രദ്ധിക്കൂ.",
+      "explanation": "\"The farmer smiled with joy\" — കർഷകൻ സന്തോഷിച്ചു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q3",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-04",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nPick out a word from the paragraph which means the opposite of 'foul smell'.",
+      "options": [
+        "warmth",
+        "joy",
+        "fragrance",
+        "sweetness"
+      ],
+      "hint": "Foul smell = bad smell. What is a good smell?",
+      "explanation": "\"Fragrance\" means a pleasant smell, the opposite of a foul smell."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"As the sun rose over the fields, a tiny seed lay hidden beneath the soil. It was a small, brown seed, no bigger than a grain of rice. But inside that tiny seed, a miracle was waiting to happen. The seed had been planted by a farmer, who had carefully dug a small hole and placed the seed inside. He had covered it with soil and watered it gently. Now, the seed was beginning to feel the warmth of the sun and the coolness of the water. Slowly but surely, the seed began to sprout. A tiny white root grew downward, deep into the soil, while a small green stem grew upward, reaching for the sunlight. As the days passed, the stem grew taller and stronger, and the root grew deeper and more secure. Finally, the day arrived when the seedling was ready to bloom. A beautiful yellow flower burst forth from the stem, filling the air with its sweet fragrance. The farmer smiled with joy as he saw the flower, knowing that his hard work had paid off.\"\n\nPick out a word from the paragraph which means the opposite of 'foul smell'.",
+      "options": [
+        "warmth",
+        "joy",
+        "fragrance",
+        "sweetness"
+      ],
+      "hint": "Foul smell = ദുർഗന്ധം. അതിന്റെ വിപരീതം?",
+      "explanation": "\"Fragrance\" എന്നാൽ സുഗന്ധം — ദുർഗന്ധത്തിന്റെ വിപരീതം."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q4",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-05",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Fill in the blank: We should not throw anything ____ the window.",
+      "options": [
+        "in",
+        "with",
+        "through",
+        "of"
+      ],
+      "hint": "Something goes from inside to outside across the window.",
+      "explanation": "\"Through\" means passing from one side to the other: throw through the window."
+    },
+    "ml": {
+      "question": "Fill in the blank: We should not throw anything ____ the window.",
+      "options": [
+        "in",
+        "with",
+        "through",
+        "of"
+      ],
+      "hint": "ജനലിനുള്ളിലൂടെ അപ്പുറത്തേക്ക് പോകുന്നതിനെ സൂചിപ്പിക്കുന്ന വാക്ക്.",
+      "explanation": "ഒരു വശത്തുനിന്ന് മറുവശത്തേക്ക് കടന്നുപോകുന്നതിനെ \"through\" സൂചിപ്പിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q5",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-06",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Fill in the blank: His performance was impressive, though he had been trained only ____ six months.",
+      "options": [
+        "in",
+        "since",
+        "during",
+        "for"
+      ],
+      "hint": "Six months is a length of time.",
+      "explanation": "We use \"for\" with a length of time (for six months) and \"since\" with a starting point (since May)."
+    },
+    "ml": {
+      "question": "Fill in the blank: His performance was impressive, though he had been trained only ____ six months.",
+      "options": [
+        "in",
+        "since",
+        "during",
+        "for"
+      ],
+      "hint": "ആറ് മാസം ഒരു കാലയളവാണ്.",
+      "explanation": "കാലയളവിനൊപ്പം \"for\" (for six months), തുടങ്ങിയ സമയത്തിനൊപ്പം \"since\" (since May)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q6",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-07",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Fill in the blank: The woman ____ designed this building is very talented.",
+      "options": [
+        "who",
+        "whom",
+        "that",
+        "which"
+      ],
+      "hint": "The blank is the subject of \"designed\" and refers to a person.",
+      "explanation": "\"Who\" is used for a person who does the action (the woman who designed…)."
+    },
+    "ml": {
+      "question": "Fill in the blank: The woman ____ designed this building is very talented.",
+      "options": [
+        "who",
+        "whom",
+        "that",
+        "which"
+      ],
+      "hint": "ഒഴിവിലെ വാക്ക് ഒരു വ്യക്തിയെ സൂചിപ്പിക്കുന്നു, അവരാണ് design ചെയ്തത്.",
+      "explanation": "പ്രവൃത്തി ചെയ്യുന്ന വ്യക്തിയെ സൂചിപ്പിക്കാൻ \"who\" ഉപയോഗിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q7",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-08",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "He decided to give up smoking to feel much healthier. What does \"give up\" mean in this sentence?",
+      "options": [
+        "start",
+        "continue",
+        "stop",
+        "reduce"
+      ],
+      "hint": "He wants to be healthier.",
+      "explanation": "\"Give up\" means to stop doing something."
+    },
+    "ml": {
+      "question": "He decided to give up smoking to feel much healthier. What does \"give up\" mean in this sentence?",
+      "options": [
+        "start",
+        "continue",
+        "stop",
+        "reduce"
+      ],
+      "hint": "അദ്ദേഹം ആരോഗ്യവാനാകാൻ ആഗ്രഹിക്കുന്നു.",
+      "explanation": "\"Give up\" എന്നാൽ ഒരു കാര്യം നിർത്തുക (stop)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q8",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-09",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Fill in the blank: It is very interesting to watch the ____ of fish swimming in the sea.",
+      "options": [
+        "flock",
+        "school",
+        "herd",
+        "gang"
+      ],
+      "hint": "A flock is for birds and a herd for cattle.",
+      "explanation": "A group of fish is called a \"school\"."
+    },
+    "ml": {
+      "question": "Fill in the blank: It is very interesting to watch the ____ of fish swimming in the sea.",
+      "options": [
+        "flock",
+        "school",
+        "herd",
+        "gang"
+      ],
+      "hint": "പക്ഷിക്കൂട്ടം flock, കന്നുകാലിക്കൂട്ടം herd.",
+      "explanation": "മീൻകൂട്ടത്തെ \"school\" എന്നു വിളിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q9",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-10",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Fill in the blank: She is ____ clever as her brother.",
+      "options": [
+        "much",
+        "more",
+        "as",
+        "either"
+      ],
+      "hint": "Look for the pattern \"… as …\".",
+      "explanation": "To say two people are equal we use \"as … as\": She is as clever as her brother."
+    },
+    "ml": {
+      "question": "Fill in the blank: She is ____ clever as her brother.",
+      "options": [
+        "much",
+        "more",
+        "as",
+        "either"
+      ],
+      "hint": "\"… as …\" എന്ന ഘടന ശ്രദ്ധിക്കൂ.",
+      "explanation": "രണ്ടുപേർ തുല്യരാണെന്ന് പറയാൻ \"as … as\" ഉപയോഗിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q10",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-11",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Fill in the blank: If I ____ the lottery, I would buy a new house.",
+      "options": [
+        "win",
+        "won",
+        "get",
+        "had won"
+      ],
+      "hint": "\"would buy\" goes with a past-tense verb after \"if\".",
+      "explanation": "In this kind of sentence (imagining), we use \"If + past tense, … would …\": If I won…, I would buy…."
+    },
+    "ml": {
+      "question": "Fill in the blank: If I ____ the lottery, I would buy a new house.",
+      "options": [
+        "win",
+        "won",
+        "get",
+        "had won"
+      ],
+      "hint": "\"would buy\" വരുമ്പോൾ \"if\" കഴിഞ്ഞ് ഭൂതകാല രൂപം വേണം.",
+      "explanation": "സങ്കൽപ്പിച്ചു പറയുന്ന വാക്യങ്ങളിൽ \"If + past tense, … would …\" എന്ന ഘടന ഉപയോഗിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q11",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-12",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Fill in the blank: ____ you pass me the salt, please?",
+      "options": [
+        "Have",
+        "Should",
+        "When",
+        "Could"
+      ],
+      "hint": "It is a polite request.",
+      "explanation": "\"Could you … please?\" is a polite way to ask someone to do something."
+    },
+    "ml": {
+      "question": "Fill in the blank: ____ you pass me the salt, please?",
+      "options": [
+        "Have",
+        "Should",
+        "When",
+        "Could"
+      ],
+      "hint": "ഇത് മര്യാദയോടെയുള്ള ഒരു അഭ്യർത്ഥനയാണ്.",
+      "explanation": "മര്യാദയോടെ ഒരാളോട് എന്തെങ്കിലും ചെയ്യാൻ ആവശ്യപ്പെടാൻ \"Could you … please?\" ഉപയോഗിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q12",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-13",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nHow does the speaker observe the bird?",
+      "options": [
+        "From a distance, unnoticed by the bird",
+        "Looking directly at the bird",
+        "Standing near the wall",
+        "By following it closely"
+      ],
+      "hint": "Read the second line again.",
+      "explanation": "\"He did not know I saw\" — the speaker watched quietly without the bird noticing."
+    },
+    "ml": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nHow does the speaker observe the bird?",
+      "options": [
+        "From a distance, unnoticed by the bird",
+        "Looking directly at the bird",
+        "Standing near the wall",
+        "By following it closely"
+      ],
+      "hint": "രണ്ടാമത്തെ വരി ഒന്നുകൂടി വായിക്കൂ.",
+      "explanation": "\"He did not know I saw\" — പക്ഷി അറിയാതെ ദൂരെനിന്നാണ് കവി നോക്കിയത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q13",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-14",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nHow does the bird behave toward the beetle?",
+      "options": [
+        "It ignores the beetle completely.",
+        "It lets the beetle go.",
+        "It tries to eat the beetle.",
+        "It attacks the beetle."
+      ],
+      "hint": "Look at \"hopped sidewise to the wall\".",
+      "explanation": "\"Hopped sidewise to the wall to let a beetle pass\" — the bird politely lets the beetle go."
+    },
+    "ml": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nHow does the bird behave toward the beetle?",
+      "options": [
+        "It ignores the beetle completely.",
+        "It lets the beetle go.",
+        "It tries to eat the beetle.",
+        "It attacks the beetle."
+      ],
+      "hint": "\"hopped sidewise to the wall\" എന്ന ഭാഗം ശ്രദ്ധിക്കൂ.",
+      "explanation": "വണ്ടിന് കടന്നുപോകാൻ പക്ഷി വശത്തേക്ക് ചാടിമാറി — അതിനെ പോകാൻ അനുവദിച്ചു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q14",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-ENG-15",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nWhat poetic device is used in the line \"He stirred his Velvet Head\"?",
+      "options": [
+        "Refrain",
+        "Simile",
+        "Alliteration",
+        "Assonance"
+      ],
+      "hint": "Listen to the beginning sounds: He … his … Head.",
+      "explanation": "The official answer is Alliteration — the repeated \"h\" sound in He, his and Head."
+    },
+    "ml": {
+      "question": "Read these lines from \"A Bird came down the Walk\" by Emily Dickinson:\nA Bird, came down the walk -\nHe did not know I saw -\nHe bit an Angle Worm in halves\nAnd ate the fellow, raw,\nAnd then, he drank a dew\nFrom a convenient grass -\nAnd then hopped sidewise to the wall\nTo let a beetle pass.\nHe glanced with rapid eyes,\nThat hurried all abroad -\nThey looked like frightened Beads, I thought,\nHe stirred his Velvet Head.\n\nWhat poetic device is used in the line \"He stirred his Velvet Head\"?",
+      "options": [
+        "Refrain",
+        "Simile",
+        "Alliteration",
+        "Assonance"
+      ],
+      "hint": "ആദ്യ ശബ്ദങ്ങൾ ശ്രദ്ധിക്കൂ: He … his … Head.",
+      "explanation": "ഔദ്യോഗിക ഉത്തരം Alliteration — He, his, Head എന്നിവയിലെ \"h\" ശബ്ദം ആവർത്തിക്കുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q15",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-16",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "'ഉണ്ണിക്കതിരോന്റെ പൊൻനുകപ്പാടേറ്റു\nവിണ്ണിൻ വിളിപ്പാടും ചോന്നിതല്ലോ.'\nഇവിടെ 'നുകം' എന്നു പ്രയോഗിച്ചത് എന്തിനെപ്പറ്റിയാണ്?",
+      "options": [
+        "കലപ്പ",
+        "ആകാശം",
+        "ബാലസൂര്യൻ",
+        "സൂര്യരശ്മി"
+      ],
+      "hint": "The young sun (unnikkathiron) is pulling something golden across the sky.",
+      "explanation": "Here the golden \"yoke\" (nukam) of the young sun means the rays of the sun."
+    },
+    "ml": {
+      "question": "'ഉണ്ണിക്കതിരോന്റെ പൊൻനുകപ്പാടേറ്റു\nവിണ്ണിൻ വിളിപ്പാടും ചോന്നിതല്ലോ.'\nഇവിടെ 'നുകം' എന്നു പ്രയോഗിച്ചത് എന്തിനെപ്പറ്റിയാണ്?",
+      "options": [
+        "കലപ്പ",
+        "ആകാശം",
+        "ബാലസൂര്യൻ",
+        "സൂര്യരശ്മി"
+      ],
+      "hint": "ഉണ്ണിക്കതിരോന്റെ (ബാലസൂര്യന്റെ) \"പൊൻ\" നുകം — സ്വർണ്ണനിറമുള്ളത് എന്താണ്?",
+      "explanation": "ഇവിടെ ബാലസൂര്യന്റെ \"പൊൻനുകം\" എന്നത് സൂര്യരശ്മിയെയാണ് സൂചിപ്പിക്കുന്നത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q16",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-17",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "ചുവടെ കൊടുത്തിരിക്കുന്നവയിൽ 'പോയി' എന്ന പദം വ്യത്യസ്തമായി ഉപയോഗിച്ചിരിക്കുന്ന വാക്യം ഏത്?",
+      "options": [
+        "ആ കാഴ്ച കണ്ട് അയാൾ കരഞ്ഞുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ പകച്ചുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ വീട്ടിലേക്കു തിരിച്ചുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ അന്തിച്ചുപോയി."
+      ],
+      "hint": "In one sentence \"poyi\" really means \"went somewhere\".",
+      "explanation": "In C, \"poyi\" means he actually went (back home). In the others it only adds to the feeling (cried, was shocked, was stunned)."
+    },
+    "ml": {
+      "question": "ചുവടെ കൊടുത്തിരിക്കുന്നവയിൽ 'പോയി' എന്ന പദം വ്യത്യസ്തമായി ഉപയോഗിച്ചിരിക്കുന്ന വാക്യം ഏത്?",
+      "options": [
+        "ആ കാഴ്ച കണ്ട് അയാൾ കരഞ്ഞുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ പകച്ചുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ വീട്ടിലേക്കു തിരിച്ചുപോയി.",
+        "ആ കാഴ്ച കണ്ട് അയാൾ അന്തിച്ചുപോയി."
+      ],
+      "hint": "ഒരു വാക്യത്തിൽ മാത്രം \"പോയി\" എന്നാൽ ശരിക്കും ഒരിടത്തേക്ക് പോയി എന്നാണ്.",
+      "explanation": "C യിൽ \"പോയി\" എന്നാൽ ശരിക്കും വീട്ടിലേക്ക് പോയി എന്നാണ്. മറ്റുള്ളവയിൽ അത് ഭാവത്തെ (കരഞ്ഞു, പകച്ചു, അന്തിച്ചു) ശക്തിപ്പെടുത്തുക മാത്രം ചെയ്യുന്നു."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q17",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-18",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "പദങ്ങൾ ചേർത്ത് എഴുതിയപ്പോൾ കൂടിച്ചേരലിൽ വ്യത്യസ്തത പുലർത്തുന്നതേത്?",
+      "options": [
+        "പല + ഇനം – പലയിനം",
+        "ആ + ക – ആവുക",
+        "വല + ഉടെ – വലയുടെ",
+        "പശു + കുട്ടി – പശുക്കുട്ടി"
+      ],
+      "hint": "In three of them a new sound (യ or വ) is added; in one a sound is doubled.",
+      "explanation": "In പലയിനം, ആവുക, വലയുടെ a new letter (യ/വ) comes in between (ആഗമസന്ധി). In പശുക്കുട്ടി the \"ക\" is doubled (ദ്വിത്വസന്ധി)."
+    },
+    "ml": {
+      "question": "പദങ്ങൾ ചേർത്ത് എഴുതിയപ്പോൾ കൂടിച്ചേരലിൽ വ്യത്യസ്തത പുലർത്തുന്നതേത്?",
+      "options": [
+        "പല + ഇനം – പലയിനം",
+        "ആ + ക – ആവുക",
+        "വല + ഉടെ – വലയുടെ",
+        "പശു + കുട്ടി – പശുക്കുട്ടി"
+      ],
+      "hint": "മൂന്നെണ്ണത്തിൽ പുതിയൊരു വർണം (യ/വ) വരുന്നു; ഒന്നിൽ വർണം ഇരട്ടിക്കുന്നു.",
+      "explanation": "പലയിനം, ആവുക, വലയുടെ എന്നിവയിൽ യ/വ എന്ന പുതിയ വർണം വരുന്നു (ആഗമസന്ധി). പശുക്കുട്ടിയിൽ \"ക\" ഇരട്ടിക്കുന്നു (ദ്വിത്വസന്ധി)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q18",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-19",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "കൂട്ടത്തിൽ ചേരാത്തത് ഏത്?",
+      "options": [
+        "കുഞ്ഞിക്കഴമ",
+        "കൗമുദി",
+        "മുണ്ടകൻ",
+        "ജീരകശാല"
+      ],
+      "hint": "Three of these are names of rice varieties.",
+      "explanation": "Kunjikkazhama, Mundakan and Jeerakasala are traditional rice varieties of Kerala. Kaumudi (moonlight) is not."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ ചേരാത്തത് ഏത്?",
+      "options": [
+        "കുഞ്ഞിക്കഴമ",
+        "കൗമുദി",
+        "മുണ്ടകൻ",
+        "ജീരകശാല"
+      ],
+      "hint": "മൂന്നെണ്ണം നെല്ലിനങ്ങളുടെ പേരുകളാണ്.",
+      "explanation": "കുഞ്ഞിക്കഴമ, മുണ്ടകൻ, ജീരകശാല എന്നിവ കേരളത്തിലെ നാടൻ നെല്ലിനങ്ങളാണ്. കൗമുദി (നിലാവ്) അങ്ങനെയല്ല."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q19",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-20",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "'തിരമുറിച്ച് കനവ് നെയ്തവർ' എന്ന ശീർഷകത്തിന്റെ വിശകലനത്തിൽ ഉൾപ്പെടാത്തതേത്?",
+      "options": [
+        "തിരമാലകളെ സ്വപ്നം കണ്ടവർ",
+        "ജീവിതമാകുന്ന കടലിൽ മുങ്ങിപ്പോകാതിരുന്നവർ",
+        "പ്രളയത്തെ അതിജീവിച്ചവർ",
+        "പ്രതിസന്ധികളോട് പൊരുതിയവർ"
+      ],
+      "hint": "The title is about people who cut through the waves and still built their dreams.",
+      "explanation": "The title praises people who survived floods and hardships. \"People who dreamt of waves\" does not fit its meaning."
+    },
+    "ml": {
+      "question": "'തിരമുറിച്ച് കനവ് നെയ്തവർ' എന്ന ശീർഷകത്തിന്റെ വിശകലനത്തിൽ ഉൾപ്പെടാത്തതേത്?",
+      "options": [
+        "തിരമാലകളെ സ്വപ്നം കണ്ടവർ",
+        "ജീവിതമാകുന്ന കടലിൽ മുങ്ങിപ്പോകാതിരുന്നവർ",
+        "പ്രളയത്തെ അതിജീവിച്ചവർ",
+        "പ്രതിസന്ധികളോട് പൊരുതിയവർ"
+      ],
+      "hint": "തിരകൾ മുറിച്ചുകടന്ന് സ്വപ്നങ്ങൾ നെയ്തവരെക്കുറിച്ചാണ് ശീർഷകം.",
+      "explanation": "പ്രളയത്തെയും പ്രതിസന്ധികളെയും അതിജീവിച്ചവരെയാണ് ശീർഷകം സൂചിപ്പിക്കുന്നത്. \"തിരമാലകളെ സ്വപ്നം കണ്ടവർ\" എന്നത് അതിന്റെ അർഥമല്ല."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q20",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-21",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "നൽകിയിരിക്കുന്ന സൂചനകളിൽ നിന്ന് എഴുത്തുകാരനെ കണ്ടെത്താമോ?\n• കോഴിക്കോട് ജില്ലയിലെ വടകരയിൽ ജനനം\n• കാരൂരിനു ശേഷം അധ്യാപക കഥകളെഴുതി പ്രശസ്തനായി\n• ലാളിത്യം, ഗ്രാമീണത, നർമ്മരസം തുളുമ്പുന്ന രചനകൾ\n• പാഠം മുപ്പത്, സർഗ്ഗസമീക്ഷ, സ്കൂൾ ഡയറി, ശമീലാഫഹ്മി തുടങ്ങിയ രചനകൾ",
+      "options": [
+        "അക്ബർ കക്കട്ടിൽ",
+        "എസ്. ഹരീഷ്",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "വൈക്കം മുഹമ്മദ് ബഷീർ"
+      ],
+      "hint": "He was a teacher who wrote \"School Diary\".",
+      "explanation": "Akbar Kakkattil, born near Vadakara, is famous for funny stories about teachers and school life."
+    },
+    "ml": {
+      "question": "നൽകിയിരിക്കുന്ന സൂചനകളിൽ നിന്ന് എഴുത്തുകാരനെ കണ്ടെത്താമോ?\n• കോഴിക്കോട് ജില്ലയിലെ വടകരയിൽ ജനനം\n• കാരൂരിനു ശേഷം അധ്യാപക കഥകളെഴുതി പ്രശസ്തനായി\n• ലാളിത്യം, ഗ്രാമീണത, നർമ്മരസം തുളുമ്പുന്ന രചനകൾ\n• പാഠം മുപ്പത്, സർഗ്ഗസമീക്ഷ, സ്കൂൾ ഡയറി, ശമീലാഫഹ്മി തുടങ്ങിയ രചനകൾ",
+      "options": [
+        "അക്ബർ കക്കട്ടിൽ",
+        "എസ്. ഹരീഷ്",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "വൈക്കം മുഹമ്മദ് ബഷീർ"
+      ],
+      "hint": "\"സ്കൂൾ ഡയറി\" എഴുതിയ അധ്യാപകനാണ് ഇദ്ദേഹം.",
+      "explanation": "വടകരയ്ക്കടുത്ത് ജനിച്ച അക്ബർ കക്കട്ടിൽ അധ്യാപകജീവിതത്തെക്കുറിച്ചുള്ള നർമ്മകഥകൾക്ക് പ്രശസ്തനാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q21",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-22",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "ഭാവം കൊണ്ടും ചലനം കൊണ്ടും വാക്കു കൊണ്ടും കാസിമിനെയും അനന്തനെയും പ്രോത്സാഹിപ്പിക്കാനല്ലാതെ സ്വന്തം നിലയിൽ ഒന്നും ചെയ്യാൻ ബാബുവിന് ഒക്കുന്ന ഒരു സൂചനയും ഇതുവരെ കിട്ടിയിട്ടില്ല.\nബാബുവിന്റെ പ്രകൃതവുമായി ചേർച്ചയുള്ള ശൈലി കണ്ടെത്തുക.",
+      "options": [
+        "അധരവ്യായാമം ചെയ്യുക",
+        "അക്കരപ്പറ്റുക",
+        "അടിക്കല്ല് മാന്തുക",
+        "ഇഞ്ചി കടിക്കുക"
+      ],
+      "hint": "Babu only talks and cheers others on; he does nothing himself.",
+      "explanation": "\"അധരവ്യായാമം ചെയ്യുക\" means only talking without doing anything — just like Babu."
+    },
+    "ml": {
+      "question": "ഭാവം കൊണ്ടും ചലനം കൊണ്ടും വാക്കു കൊണ്ടും കാസിമിനെയും അനന്തനെയും പ്രോത്സാഹിപ്പിക്കാനല്ലാതെ സ്വന്തം നിലയിൽ ഒന്നും ചെയ്യാൻ ബാബുവിന് ഒക്കുന്ന ഒരു സൂചനയും ഇതുവരെ കിട്ടിയിട്ടില്ല.\nബാബുവിന്റെ പ്രകൃതവുമായി ചേർച്ചയുള്ള ശൈലി കണ്ടെത്തുക.",
+      "options": [
+        "അധരവ്യായാമം ചെയ്യുക",
+        "അക്കരപ്പറ്റുക",
+        "അടിക്കല്ല് മാന്തുക",
+        "ഇഞ്ചി കടിക്കുക"
+      ],
+      "hint": "ബാബു സംസാരിക്കുക മാത്രം ചെയ്യുന്നു; സ്വയം ഒന്നും ചെയ്യുന്നില്ല.",
+      "explanation": "\"അധരവ്യായാമം ചെയ്യുക\" എന്നാൽ പ്രവൃത്തിയില്ലാതെ വെറുതെ സംസാരിക്കുക — ബാബുവിന്റെ സ്വഭാവം ഇതാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q22",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-23",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'താഴെ, വയലിൽ, നിരയായ് നിരയായി വിരിഞ്ഞ നീല നീരാളം' എന്ന് കവയിത്രി വിശേഷിപ്പിക്കുന്നത് എന്തിനെയാണ്?",
+      "options": [
+        "വയലിൽ വിരിച്ചിരിക്കുന്ന നീലക്കസവ്",
+        "വയലിൽ നിര നിരയായി പണി ചെയ്യുന്ന സ്ത്രീകൾ",
+        "വയലിൽ നിര നിരയായി നട്ട ഞാറുകൾ",
+        "വയലിൽ നിര നിരയായി വിരിഞ്ഞ നീലത്താമര"
+      ],
+      "hint": "What is planted in rows in a paddy field?",
+      "explanation": "The rows of young paddy seedlings (njaaru) look like a spread-out blue-green silk cloth."
+    },
+    "ml": {
+      "question": "'താഴെ, വയലിൽ, നിരയായ് നിരയായി വിരിഞ്ഞ നീല നീരാളം' എന്ന് കവയിത്രി വിശേഷിപ്പിക്കുന്നത് എന്തിനെയാണ്?",
+      "options": [
+        "വയലിൽ വിരിച്ചിരിക്കുന്ന നീലക്കസവ്",
+        "വയലിൽ നിര നിരയായി പണി ചെയ്യുന്ന സ്ത്രീകൾ",
+        "വയലിൽ നിര നിരയായി നട്ട ഞാറുകൾ",
+        "വയലിൽ നിര നിരയായി വിരിഞ്ഞ നീലത്താമര"
+      ],
+      "hint": "വയലിൽ നിര നിരയായി നടുന്നത് എന്താണ്?",
+      "explanation": "നിര നിരയായി നട്ട ഞാറുകളെയാണ് വിരിച്ചിട്ട നീല നീരാളം (പട്ട്) പോലെ കവയിത്രി കാണുന്നത്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q23",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-24",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'നാളത്തെ പൊന്മാൻ' എന്ന പാഠഭാഗവുമായി ബന്ധപ്പെടാത്ത പ്രസ്താവനയേത്?",
+      "options": [
+        "ആറ്റിറമ്പ് എന്ന ഗ്രാമത്തിൽ നടക്കുന്ന കഥയാണ്.",
+        "മനുഷ്യരുടെ സ്വാർത്ഥത നിറഞ്ഞ ഇടപെടലുകൾ ഈ കഥയിൽ കാണാം.",
+        "അയ്മനം ജോണിന്റെ ആത്മകഥയാണ്.",
+        "പ്രതികൂല സാഹചര്യങ്ങളെ അതിജീവിക്കാനുള്ള തന്ത്രങ്ങൾ കഥയിലുണ്ട്."
+      ],
+      "hint": "Is it a story or an autobiography?",
+      "explanation": "\"Naalathe Ponman\" is a story, not an autobiography — so statement C does not fit."
+    },
+    "ml": {
+      "question": "'നാളത്തെ പൊന്മാൻ' എന്ന പാഠഭാഗവുമായി ബന്ധപ്പെടാത്ത പ്രസ്താവനയേത്?",
+      "options": [
+        "ആറ്റിറമ്പ് എന്ന ഗ്രാമത്തിൽ നടക്കുന്ന കഥയാണ്.",
+        "മനുഷ്യരുടെ സ്വാർത്ഥത നിറഞ്ഞ ഇടപെടലുകൾ ഈ കഥയിൽ കാണാം.",
+        "അയ്മനം ജോണിന്റെ ആത്മകഥയാണ്.",
+        "പ്രതികൂല സാഹചര്യങ്ങളെ അതിജീവിക്കാനുള്ള തന്ത്രങ്ങൾ കഥയിലുണ്ട്."
+      ],
+      "hint": "ഇതൊരു കഥയോ ആത്മകഥയോ?",
+      "explanation": "\"നാളത്തെ പൊന്മാൻ\" ഒരു കഥയാണ്, ആത്മകഥയല്ല. അതിനാൽ C ചേരുന്നില്ല."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q24",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-25",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "ഉസ്താദ് സാക്കിർ ഹുസൈൻ ഏതു വാദ്യവുമായി ബന്ധപ്പെട്ട കലാകാരനാണ്?",
+      "options": [
+        "വയലിൻ",
+        "തബല",
+        "ഗിത്താർ",
+        "വീണ"
+      ],
+      "hint": "It is a pair of hand drums.",
+      "explanation": "Ustad Zakir Hussain was a world-famous tabla player."
+    },
+    "ml": {
+      "question": "ഉസ്താദ് സാക്കിർ ഹുസൈൻ ഏതു വാദ്യവുമായി ബന്ധപ്പെട്ട കലാകാരനാണ്?",
+      "options": [
+        "വയലിൻ",
+        "തബല",
+        "ഗിത്താർ",
+        "വീണ"
+      ],
+      "hint": "ഇത് കൈകൊണ്ട് വായിക്കുന്ന ഒരു ജോടി ചെണ്ടപോലുള്ള വാദ്യമാണ്.",
+      "explanation": "ലോകപ്രശസ്ത തബല വാദകനായിരുന്നു ഉസ്താദ് സാക്കിർ ഹുസൈൻ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q25",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-26",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "ഞങ്ങൾ അതിജീവിക്കുക തന്നെ ചെയ്യും\n\"പ്രാചീനമായ പർവ്വതങ്ങളെപ്പോലെ, അക്ഷരങ്ങളെപ്പോലെ\" — ഈ പ്രയോഗങ്ങളുടെ അർഥമെന്ത്?",
+      "options": [
+        "മാറ്റാൻ കഴിയുന്നത്",
+        "സ്ഥിരതയുള്ളത്",
+        "ദൃഢതയില്ലാത്തത്",
+        "വലുപ്പമുള്ളത്"
+      ],
+      "hint": "Ancient mountains and letters last for a very long time.",
+      "explanation": "Like ancient mountains and letters, \"we\" will last — it means stable and lasting."
+    },
+    "ml": {
+      "question": "ഞങ്ങൾ അതിജീവിക്കുക തന്നെ ചെയ്യും\n\"പ്രാചീനമായ പർവ്വതങ്ങളെപ്പോലെ, അക്ഷരങ്ങളെപ്പോലെ\" — ഈ പ്രയോഗങ്ങളുടെ അർഥമെന്ത്?",
+      "options": [
+        "മാറ്റാൻ കഴിയുന്നത്",
+        "സ്ഥിരതയുള്ളത്",
+        "ദൃഢതയില്ലാത്തത്",
+        "വലുപ്പമുള്ളത്"
+      ],
+      "hint": "പഴയ പർവതങ്ങളും അക്ഷരങ്ങളും ഏറെക്കാലം നിലനിൽക്കുന്നു.",
+      "explanation": "പ്രാചീന പർവതങ്ങളെയും അക്ഷരങ്ങളെയും പോലെ നിലനിൽക്കും — സ്ഥിരതയുള്ളത് എന്നാണ് അർഥം."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q26",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-27",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "ചുവടെ കൊടുത്തിരിക്കുന്നവയിൽ തെറ്റായ ജോഡി ഏത്?",
+      "options": [
+        "എഴുത്തച്ഛനെഴുതുമ്പോൾ – എഴുത്തച്ഛൻ",
+        "പെണങ്ങുണ്ണി – കുരീപ്പുഴ ശ്രീകുമാർ",
+        "തുലാവർഷപ്പച്ച – സുഗതകുമാരി",
+        "വേഗമുറങ്ങു – സച്ചിദാനന്ദൻ"
+      ],
+      "hint": "A poem ABOUT Ezhuthachan was not written BY him.",
+      "explanation": "\"Ezhuthachanezhuthumbol\" is a poem by K. Satchidanandan about Ezhuthachan, so pair A is wrong."
+    },
+    "ml": {
+      "question": "ചുവടെ കൊടുത്തിരിക്കുന്നവയിൽ തെറ്റായ ജോഡി ഏത്?",
+      "options": [
+        "എഴുത്തച്ഛനെഴുതുമ്പോൾ – എഴുത്തച്ഛൻ",
+        "പെണങ്ങുണ്ണി – കുരീപ്പുഴ ശ്രീകുമാർ",
+        "തുലാവർഷപ്പച്ച – സുഗതകുമാരി",
+        "വേഗമുറങ്ങു – സച്ചിദാനന്ദൻ"
+      ],
+      "hint": "എഴുത്തച്ഛനെക്കുറിച്ചുള്ള കവിത എഴുത്തച്ഛൻ തന്നെ എഴുതിയതാകുമോ?",
+      "explanation": "\"എഴുത്തച്ഛനെഴുതുമ്പോൾ\" എഴുത്തച്ഛനെക്കുറിച്ച് സച്ചിദാനന്ദൻ എഴുതിയ കവിതയാണ്. അതിനാൽ A തെറ്റായ ജോഡിയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q27",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-29",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'ഒച്ചയൊച്ച കല്ലുകളെ' — ആരുടെ കൃതിയാണ്?",
+      "options": [
+        "അയ്മനം ജോൺ",
+        "സച്ചിദാനന്ദൻ",
+        "പ്രകാശ് ചെന്തളം",
+        "അക്ബർ കക്കട്ടിൽ"
+      ],
+      "hint": "It is a lesson from your Class 7 textbook.",
+      "explanation": "According to the official answer key, \"Ochayocha Kallukale\" is by Prakash Chenthalam."
+    },
+    "ml": {
+      "question": "'ഒച്ചയൊച്ച കല്ലുകളെ' — ആരുടെ കൃതിയാണ്?",
+      "options": [
+        "അയ്മനം ജോൺ",
+        "സച്ചിദാനന്ദൻ",
+        "പ്രകാശ് ചെന്തളം",
+        "അക്ബർ കക്കട്ടിൽ"
+      ],
+      "hint": "ഏഴാം ക്ലാസിലെ പാഠപുസ്തകത്തിലുള്ള രചനയാണ്.",
+      "explanation": "ഔദ്യോഗിക ഉത്തരസൂചിക പ്രകാരം \"ഒച്ചയൊച്ച കല്ലുകളെ\" പ്രകാശ് ചെന്തളത്തിന്റെ കൃതിയാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q29",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAL-30",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "അടിവരയിട്ട പ്രയോഗം കൊണ്ട് അർഥമാക്കുന്നതെന്ത്?\nപാറി വന്ന സെപ്തംബർ മുകിലുകൾ\nനാലുദിക്കിലും കറുത്തകോട്ടയായ്\n\"തീക്കുടുക്കകളുടയ്ക്കുമന്തിയിൽ\"\nഫാത്തിമത്തുരുത്തിലൊന്നുപോകണം",
+      "options": [
+        "സന്ധ്യാസമയത്ത് ആകാശത്ത് കറുത്ത കോട്ടകൾ കാണുന്നു.",
+        "സന്ധ്യാസമയത്ത് കറുത്ത കോട്ടകളിൽ തീപിടിയ്ക്കുന്നു.",
+        "സന്ധ്യാസമയത്തെ ഇടിമുഴക്കങ്ങളുടെ ശബ്ദതീവ്രതയും ഭയാനകതയും.",
+        "സന്ധ്യാസമയത്ത് അടുപ്പുകുട്ടി തീ പിടിപ്പിക്കുന്നത്."
+      ],
+      "hint": "Dark September clouds… \"pots of fire breaking\" in the evening sky.",
+      "explanation": "\"Breaking pots of fire\" in the evening describes the loud, frightening thunder and lightning from the dark clouds."
+    },
+    "ml": {
+      "question": "അടിവരയിട്ട പ്രയോഗം കൊണ്ട് അർഥമാക്കുന്നതെന്ത്?\nപാറി വന്ന സെപ്തംബർ മുകിലുകൾ\nനാലുദിക്കിലും കറുത്തകോട്ടയായ്\n\"തീക്കുടുക്കകളുടയ്ക്കുമന്തിയിൽ\"\nഫാത്തിമത്തുരുത്തിലൊന്നുപോകണം",
+      "options": [
+        "സന്ധ്യാസമയത്ത് ആകാശത്ത് കറുത്ത കോട്ടകൾ കാണുന്നു.",
+        "സന്ധ്യാസമയത്ത് കറുത്ത കോട്ടകളിൽ തീപിടിയ്ക്കുന്നു.",
+        "സന്ധ്യാസമയത്തെ ഇടിമുഴക്കങ്ങളുടെ ശബ്ദതീവ്രതയും ഭയാനകതയും.",
+        "സന്ധ്യാസമയത്ത് അടുപ്പുകുട്ടി തീ പിടിപ്പിക്കുന്നത്."
+      ],
+      "hint": "കറുത്ത മേഘങ്ങൾ… സന്ധ്യയ്ക്ക് \"തീക്കുടുക്കകൾ ഉടയുന്നു\".",
+      "explanation": "സന്ധ്യയ്ക്ക് \"തീക്കുടുക്കകൾ ഉടയ്ക്കുന്നത്\" കറുത്ത മേഘങ്ങളിൽ നിന്നുള്ള ഇടിമുഴക്കത്തിന്റെയും മിന്നലിന്റെയും ശബ്ദതീവ്രതയും ഭയാനകതയുമാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q30",
+    "year": 2025,
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-31",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "In triangle ABC, a line AD is drawn through A parallel to BC. ∠BAC = 50° and ∠CAD = 70°. What is ∠ABC?",
+      "options": [
+        "60°",
+        "70°",
+        "110°",
+        "120°"
+      ],
+      "hint": "Since AD ∥ BC, ∠ACB = ∠CAD (alternate angles).",
+      "explanation": "∠ACB = ∠CAD = 70° (alternate angles). So ∠ABC = 180° − 50° − 70° = 60°."
+    },
+    "ml": {
+      "question": "ABC എന്ന ത്രികോണത്തിൽ A യിലൂടെ BC യ്ക്ക് സമാന്തരമായി AD എന്ന വര വരച്ചിരിക്കുന്നു. കോൺ BAC = 50°, കോൺ CAD = 70°. കോൺ ABC യുടെ അളവ് എത്രയാണ്?",
+      "options": [
+        "60°",
+        "70°",
+        "110°",
+        "120°"
+      ],
+      "hint": "AD, BC സമാന്തരമായതിനാൽ കോൺ ACB = കോൺ CAD (ഏകാന്തര കോണുകൾ).",
+      "explanation": "കോൺ ACB = കോൺ CAD = 70°. അതിനാൽ കോൺ ABC = 180° − 50° − 70° = 60°."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q31",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-32",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which of the products below is equal to 1.37 × 5.7?",
+      "options": [
+        "0.137 × 57",
+        "137 × 0.570",
+        "0.137 × 0.57",
+        "1.37 × 57"
+      ],
+      "hint": "Count the total number of decimal places.",
+      "explanation": "1.37 × 5.7 has 3 decimal places in all. 0.137 × 57 also has 3 decimal places and the same digits, so they are equal."
+    },
+    "ml": {
+      "question": "1.37 × 5.7 ന് തുല്യമായ ഗുണനഫലം ഏത്?",
+      "options": [
+        "0.137 × 57",
+        "137 × 0.570",
+        "0.137 × 0.57",
+        "1.37 × 57"
+      ],
+      "hint": "ആകെ ദശാംശസ്ഥാനങ്ങളുടെ എണ്ണം നോക്കൂ.",
+      "explanation": "1.37 × 5.7 ൽ ആകെ 3 ദശാംശസ്ഥാനങ്ങളുണ്ട്. 0.137 × 57 ലും അതേ അക്കങ്ങളും 3 ദശാംശസ്ഥാനങ്ങളുമാണ്. അതിനാൽ രണ്ടും തുല്യം."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q32",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-33",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "The area of a square is 484 square centimetres. What is the area of the figure got by joining the midpoints of the sides of the square?",
+      "options": [
+        "242 cm²",
+        "121 cm²",
+        "88 cm²",
+        "484 cm²"
+      ],
+      "hint": "The new square is exactly half of the big square.",
+      "explanation": "Joining the midpoints makes a square with half the area: 484 ÷ 2 = 242 cm²."
+    },
+    "ml": {
+      "question": "ഒരു സമചതുരത്തിന്റെ പരപ്പളവ് 484 ചതുരശ്ര സെന്റിമീറ്റർ ആണ്. ആ സമചതുരത്തിന്റെ വശങ്ങളുടെ മധ്യബിന്ദുക്കൾ യോജിപ്പിച്ചു വരച്ചാൽ കിട്ടുന്ന രൂപത്തിന്റെ പരപ്പളവ് എത്ര?",
+      "options": [
+        "242 ചതുരശ്ര സെന്റിമീറ്റർ",
+        "121 ചതുരശ്ര സെന്റിമീറ്റർ",
+        "88 ചതുരശ്ര സെന്റിമീറ്റർ",
+        "484 ചതുരശ്ര സെന്റിമീറ്റർ"
+      ],
+      "hint": "പുതിയ സമചതുരം വലിയതിന്റെ കൃത്യം പകുതിയാണ്.",
+      "explanation": "മധ്യബിന്ദുക്കൾ യോജിപ്പിച്ചാൽ പകുതി പരപ്പളവുള്ള സമചതുരം കിട്ടും: 484 ÷ 2 = 242."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q33",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-34",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "In a triangle, all the side lengths are natural numbers. One side is 11 cm and another side is 7 cm. Which could be the third side?",
+      "options": [
+        "1 cm",
+        "2 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "hint": "Any two sides together must be longer than the third side.",
+      "explanation": "The third side must be more than 11 − 7 = 4 and less than 11 + 7 = 18. Only 5 cm works."
+    },
+    "ml": {
+      "question": "ഒരു ത്രികോണത്തിന്റെ വശങ്ങളുടെ നീളങ്ങളെല്ലാം എണ്ണൽസംഖ്യകളാണ്. ഒരു വശം 11 സെന്റിമീറ്ററും മറ്റൊരു വശം 7 സെന്റിമീറ്ററും ആണ്. മൂന്നാമത്തെ വശം ആകാവുന്നത് ഏത്?",
+      "options": [
+        "1 സെന്റിമീറ്റർ",
+        "2 സെന്റിമീറ്റർ",
+        "4 സെന്റിമീറ്റർ",
+        "5 സെന്റിമീറ്റർ"
+      ],
+      "hint": "ഏതു രണ്ടു വശങ്ങളുടെയും തുക മൂന്നാമത്തേതിനേക്കാൾ കൂടുതലായിരിക്കണം.",
+      "explanation": "മൂന്നാമത്തെ വശം 11 − 7 = 4 നേക്കാൾ കൂടുതലും 11 + 7 = 18 നേക്കാൾ കുറവും ആയിരിക്കണം. 5 സെന്റിമീറ്റർ മാത്രം ശരിയാകും."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q34",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-35",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "Which of the following numbers has exactly 6 factors?",
+      "options": [
+        "4⁵",
+        "5³ × 7²",
+        "71⁵",
+        "3 × 5 × 7 × 11"
+      ],
+      "hint": "A prime raised to the power n has (n + 1) factors.",
+      "explanation": "71 is prime, so 71⁵ has 5 + 1 = 6 factors. 4⁵ = 2¹⁰ has 11, 5³ × 7² has 4 × 3 = 12, and 3 × 5 × 7 × 11 has 16."
+    },
+    "ml": {
+      "question": "കൃത്യം 6 ഘടകങ്ങളുള്ള സംഖ്യ ഏത്?",
+      "options": [
+        "4⁵",
+        "5³ × 7²",
+        "71⁵",
+        "3 × 5 × 7 × 11"
+      ],
+      "hint": "ഒരു അഭാജ്യസംഖ്യയുടെ n-ാം കൃതിക്ക് (n + 1) ഘടകങ്ങളുണ്ട്.",
+      "explanation": "71 അഭാജ്യമായതിനാൽ 71⁵ ന് 5 + 1 = 6 ഘടകങ്ങൾ. 4⁵ = 2¹⁰ ന് 11, 5³ × 7² ന് 4 × 3 = 12, 3 × 5 × 7 × 11 ന് 16 ഘടകങ്ങൾ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q35",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-36",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "(0.8 × 0.3 × 0.01) ÷ (0.6 × 0.4) is equal to:",
+      "options": [
+        "1/100",
+        "1/10",
+        "1",
+        "100"
+      ],
+      "hint": "0.8 × 0.3 = 0.24 and 0.6 × 0.4 = 0.24.",
+      "explanation": "0.8 × 0.3 = 0.24 and 0.6 × 0.4 = 0.24, so they cancel, leaving 0.01 = 1/100."
+    },
+    "ml": {
+      "question": "(0.8 × 0.3 × 0.01) ÷ (0.6 × 0.4) ന്റെ വില എത്ര?",
+      "options": [
+        "1/100",
+        "1/10",
+        "1",
+        "100"
+      ],
+      "hint": "0.8 × 0.3 = 0.24, 0.6 × 0.4 = 0.24.",
+      "explanation": "0.8 × 0.3 ഉം 0.6 × 0.4 ഉം 0.24 ആയതിനാൽ അവ റദ്ദാകുന്നു. ബാക്കി 0.01 = 1/100."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q36",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-37",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "Which smallest two-digit number added to 25141 gives a multiple of 9?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "hint": "A number is a multiple of 9 if the sum of its digits is a multiple of 9.",
+      "explanation": "The digit sum of 25141 is 13, which leaves 4 when divided by 9. We need to add a number leaving 5: the smallest two-digit one is 14. Check: 25141 + 14 = 25155, digit sum 18."
+    },
+    "ml": {
+      "question": "25141 നോട് കൂട്ടിയാൽ 9 ന്റെ ഗുണിതം കിട്ടുന്ന ഏറ്റവും ചെറിയ രണ്ടക്ക സംഖ്യ ഏത്?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "hint": "അക്കങ്ങളുടെ തുക 9 ന്റെ ഗുണിതമായാൽ സംഖ്യയും 9 ന്റെ ഗുണിതമാണ്.",
+      "explanation": "25141 ന്റെ അക്കത്തുക 13; 9 കൊണ്ട് ഹരിച്ചാൽ ശിഷ്ടം 4. ശിഷ്ടം 5 വരുന്ന ഏറ്റവും ചെറിയ രണ്ടക്കസംഖ്യ 14. പരിശോധന: 25141 + 14 = 25155, അക്കത്തുക 18."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q37",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-38",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "The average of nine numbers is 20. The average of five of these numbers is 18. The average of the remaining four numbers is:",
+      "options": [
+        "19.5",
+        "20.5",
+        "21.5",
+        "22.5"
+      ],
+      "hint": "Find the totals first.",
+      "explanation": "Total of 9 numbers = 9 × 20 = 180. Total of 5 numbers = 5 × 18 = 90. Remaining 4 numbers total 90, so their average = 90 ÷ 4 = 22.5."
+    },
+    "ml": {
+      "question": "ഒമ്പത് സംഖ്യകളുടെ ശരാശരി 20 ആണ്. അവയിൽ അഞ്ചെണ്ണത്തിന്റെ ശരാശരി 18. ബാക്കി നാല് സംഖ്യകളുടെ ശരാശരി എത്ര?",
+      "options": [
+        "19.5",
+        "20.5",
+        "21.5",
+        "22.5"
+      ],
+      "hint": "ആദ്യം ആകെ തുക കണ്ടുപിടിക്കൂ.",
+      "explanation": "9 സംഖ്യകളുടെ തുക = 9 × 20 = 180. 5 സംഖ്യകളുടെ തുക = 5 × 18 = 90. ബാക്കി 4 എണ്ണത്തിന്റെ തുക 90; ശരാശരി = 90 ÷ 4 = 22.5."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q38",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-39",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which fraction is greater than 7/8 and less than 9/10?",
+      "options": [
+        "10/11",
+        "8/9",
+        "5/6",
+        "2/3"
+      ],
+      "hint": "Change them to decimals: 7/8 = 0.875 and 9/10 = 0.9.",
+      "explanation": "8/9 ≈ 0.889, which is between 0.875 and 0.9."
+    },
+    "ml": {
+      "question": "7/8 നേക്കാൾ വലുതും 9/10 നേക്കാൾ ചെറുതുമായ ഭിന്നസംഖ്യ ഏത്?",
+      "options": [
+        "10/11",
+        "8/9",
+        "5/6",
+        "2/3"
+      ],
+      "hint": "ദശാംശമാക്കി നോക്കൂ: 7/8 = 0.875, 9/10 = 0.9.",
+      "explanation": "8/9 ≈ 0.889; ഇത് 0.875 നും 0.9 നും ഇടയിലാണ്."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q39",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-40",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "A wire of length 17½ metres is cut into equal pieces of 1¼ metres each. How many pieces are obtained?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "14"
+      ],
+      "hint": "Divide the total length by the length of one piece.",
+      "explanation": "17½ ÷ 1¼ = 17.5 ÷ 1.25 = 14 pieces."
+    },
+    "ml": {
+      "question": "17½ മീറ്റർ നീളമുള്ള ഒരു കമ്പിയെ 1¼ മീറ്റർ വീതം നീളമുള്ള തുല്യ കഷണങ്ങളാക്കിയാൽ എത്ര കഷണങ്ങൾ കിട്ടും?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "14"
+      ],
+      "hint": "ആകെ നീളത്തെ ഒരു കഷണത്തിന്റെ നീളം കൊണ്ട് ഹരിക്കൂ.",
+      "explanation": "17½ ÷ 1¼ = 17.5 ÷ 1.25 = 14 കഷണങ്ങൾ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q40",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-41",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "2½ glasses of water fill a large bottle and 1½ glasses fill a smaller bottle. What is the ratio of the capacity of the larger bottle to the smaller bottle?",
+      "options": [
+        "2 : 1",
+        "5 : 3",
+        "1 : 2",
+        "3 : 5"
+      ],
+      "hint": "Double both numbers to remove the halves.",
+      "explanation": "2½ : 1½ = 5/2 : 3/2 = 5 : 3."
+    },
+    "ml": {
+      "question": "ഒരു വലിയ കുപ്പി നിറയ്ക്കാൻ 2½ ഗ്ലാസ് വെള്ളവും ചെറിയ കുപ്പി നിറയ്ക്കാൻ 1½ ഗ്ലാസ് വെള്ളവും വേണം. വലിയ കുപ്പിയുടെയും ചെറിയ കുപ്പിയുടെയും ഉള്ളളവുകൾ തമ്മിലുള്ള അംശബന്ധം എന്ത്?",
+      "options": [
+        "2 : 1",
+        "5 : 3",
+        "1 : 2",
+        "3 : 5"
+      ],
+      "hint": "പകുതികൾ ഒഴിവാക്കാൻ രണ്ടിനെയും 2 കൊണ്ട് ഗുണിക്കൂ.",
+      "explanation": "2½ : 1½ = 5/2 : 3/2 = 5 : 3."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q41",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-42",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "What number should be added to both terms of the ratio 11 : 5 so that it becomes 3 : 2?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "9"
+      ],
+      "hint": "Try each option: (11 + x) : (5 + x).",
+      "explanation": "(11 + 7) : (5 + 7) = 18 : 12 = 3 : 2."
+    },
+    "ml": {
+      "question": "11 : 5 എന്ന അംശബന്ധത്തിന്റെ രണ്ടു പദങ്ങളോടും ഏത് സംഖ്യ കൂട്ടിയാൽ അംശബന്ധം 3 : 2 ആകും?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "9"
+      ],
+      "hint": "ഓരോ ഉത്തരവും പരീക്ഷിക്കൂ: (11 + x) : (5 + x).",
+      "explanation": "(11 + 7) : (5 + 7) = 18 : 12 = 3 : 2."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q42",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-43",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "If each side of a square is increased by 10%, the increase in area will be:",
+      "options": [
+        "10%",
+        "11%",
+        "21%",
+        "100%"
+      ],
+      "hint": "Take the side as 10. What is the new side and new area?",
+      "explanation": "Side 10 → 11. Area 100 → 121. Increase = 21 out of 100 = 21%."
+    },
+    "ml": {
+      "question": "ഒരു സമചതുരത്തിന്റെ ഓരോ വശവും 10% കൂട്ടിയാൽ പരപ്പളവിലുണ്ടാകുന്ന വർധന എത്ര?",
+      "options": [
+        "10%",
+        "11%",
+        "21%",
+        "100%"
+      ],
+      "hint": "വശം 10 എന്നെടുക്കൂ. പുതിയ വശവും പരപ്പളവും എത്ര?",
+      "explanation": "വശം 10 → 11. പരപ്പളവ് 100 → 121. വർധന 100 ൽ 21 = 21%."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q43",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-44",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "If x¹⁵⁰ = (9x)⁵⁰, then x = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hint": "(9x)⁵⁰ = 9⁵⁰ × x⁵⁰.",
+      "explanation": "x¹⁵⁰ = 9⁵⁰ × x⁵⁰, so x¹⁰⁰ = 9⁵⁰, which means x² = 9, so x = 3."
+    },
+    "ml": {
+      "question": "x¹⁵⁰ = (9x)⁵⁰ ആയാൽ x = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hint": "(9x)⁵⁰ = 9⁵⁰ × x⁵⁰.",
+      "explanation": "x¹⁵⁰ = 9⁵⁰ × x⁵⁰, അതിനാൽ x¹⁰⁰ = 9⁵⁰, അതായത് x² = 9, x = 3."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q44",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-45",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "If 6x − 1 is an odd number, what is the next greater odd number?",
+      "options": [
+        "6x",
+        "6x + 1",
+        "6x + 2",
+        "7"
+      ],
+      "hint": "Odd numbers go up by 2.",
+      "explanation": "The next odd number is 2 more: (6x − 1) + 2 = 6x + 1."
+    },
+    "ml": {
+      "question": "6x − 1 ഒരു ഒറ്റസംഖ്യയാണെങ്കിൽ, തൊട്ടടുത്ത വലിയ ഒറ്റസംഖ്യ ഏത്?",
+      "options": [
+        "6x",
+        "6x + 1",
+        "6x + 2",
+        "7"
+      ],
+      "hint": "ഒറ്റസംഖ്യകൾ 2 വീതം കൂടുന്നു.",
+      "explanation": "തൊട്ടടുത്ത ഒറ്റസംഖ്യ 2 കൂടുതലാണ്: (6x − 1) + 2 = 6x + 1."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q45",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-46",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "O is the centre of a circle of radius 10 cm. A and B are points on the circle. The perpendicular from O to the chord AB is 6 cm long. What is the length of AB?",
+      "options": [
+        "16 cm",
+        "12 cm",
+        "8 cm",
+        "6 cm"
+      ],
+      "hint": "The perpendicular from the centre cuts the chord into two equal halves.",
+      "explanation": "Half of AB = √(10² − 6²) = √64 = 8 cm. So AB = 2 × 8 = 16 cm."
+    },
+    "ml": {
+      "question": "O കേന്ദ്രമായ ഒരു വൃത്തത്തിന്റെ ആരം 10 സെന്റിമീറ്റർ. A, B എന്നിവ വൃത്തത്തിലെ ബിന്ദുക്കളാണ്. O യിൽ നിന്ന് AB എന്ന ഞാണിലേക്കുള്ള ലംബത്തിന്റെ നീളം 6 സെന്റിമീറ്റർ. AB യുടെ നീളം എത്ര?",
+      "options": [
+        "16 സെ.മീ.",
+        "12 സെ.മീ.",
+        "8 സെ.മീ.",
+        "6 സെ.മീ."
+      ],
+      "hint": "കേന്ദ്രത്തിൽ നിന്നുള്ള ലംബം ഞാണിനെ രണ്ടു തുല്യഭാഗങ്ങളാക്കുന്നു.",
+      "explanation": "AB യുടെ പകുതി = √(10² − 6²) = √64 = 8. അതിനാൽ AB = 2 × 8 = 16 സെ.മീ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q46",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-47",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "20% of a number is 45. What is the number?",
+      "options": [
+        "45",
+        "90",
+        "125",
+        "225"
+      ],
+      "hint": "20% is one fifth.",
+      "explanation": "20% = 1/5, so the number = 45 × 5 = 225."
+    },
+    "ml": {
+      "question": "ഒരു സംഖ്യയുടെ 20% 45 ആണ്. സംഖ്യ ഏത്?",
+      "options": [
+        "45",
+        "90",
+        "125",
+        "225"
+      ],
+      "hint": "20% എന്നാൽ അഞ്ചിലൊന്ന്.",
+      "explanation": "20% = 1/5. അതിനാൽ സംഖ്യ = 45 × 5 = 225."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q47",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-48",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "The product of three prime numbers is 1310. Which of them is the largest?",
+      "options": [
+        "2",
+        "5",
+        "59",
+        "131"
+      ],
+      "hint": "1310 ends in 0, so 2 and 5 are two of the primes.",
+      "explanation": "1310 = 2 × 5 × 131, so the largest prime is 131."
+    },
+    "ml": {
+      "question": "മൂന്ന് അഭാജ്യസംഖ്യകളുടെ ഗുണനഫലം 1310 ആണ്. അവയിൽ ഏറ്റവും വലുത് ഏത്?",
+      "options": [
+        "2",
+        "5",
+        "59",
+        "131"
+      ],
+      "hint": "1310 പൂജ്യത്തിൽ അവസാനിക്കുന്നതിനാൽ 2 ഉം 5 ഉം അതിന്റെ ഘടകങ്ങളാണ്.",
+      "explanation": "1310 = 2 × 5 × 131. ഏറ്റവും വലിയ അഭാജ്യസംഖ്യ 131."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q48",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-49",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "When 150 litres of water is poured into a tank, 2/5 of the tank is filled. What is the total capacity of the tank?",
+      "options": [
+        "750 litres",
+        "600 litres",
+        "375 litres",
+        "225 litres"
+      ],
+      "hint": "Find 1/5 of the tank first.",
+      "explanation": "2/5 = 150 litres, so 1/5 = 75 litres and the whole tank = 75 × 5 = 375 litres."
+    },
+    "ml": {
+      "question": "ഒരു ടാങ്കിൽ 150 ലിറ്റർ വെള്ളം ഒഴിച്ചപ്പോൾ ടാങ്കിന്റെ 2/5 ഭാഗം നിറഞ്ഞു. ടാങ്കിന്റെ ആകെ ഉള്ളളവ് എത്ര?",
+      "options": [
+        "750 ലിറ്റർ",
+        "600 ലിറ്റർ",
+        "375 ലിറ്റർ",
+        "225 ലിറ്റർ"
+      ],
+      "hint": "ആദ്യം ടാങ്കിന്റെ 1/5 കണ്ടുപിടിക്കൂ.",
+      "explanation": "2/5 = 150 ലിറ്റർ, അതിനാൽ 1/5 = 75 ലിറ്റർ. ആകെ = 75 × 5 = 375 ലിറ്റർ."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q49",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "USS25-MAT-50",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which of the following is equal to (x − y) − z?",
+      "options": [
+        "x − y + z",
+        "x − (y + z)",
+        "x + (y − z)",
+        "x − (y − z)"
+      ],
+      "hint": "Both y and z are being subtracted from x.",
+      "explanation": "(x − y) − z = x − y − z = x − (y + z)."
+    },
+    "ml": {
+      "question": "(x − y) − z ന് തുല്യമായത് ഏത്?",
+      "options": [
+        "x − y + z",
+        "x − (y + z)",
+        "x + (y − z)",
+        "x − (y − z)"
+      ],
+      "hint": "y യും z ഉം x ൽ നിന്ന് കുറയ്ക്കുന്നു.",
+      "explanation": "(x − y) − z = x − y − z = x − (y + z)."
+    },
+    "source": "USS 2025 exam, Kerala Pareeksha Bhavan (official answer key), Q50",
+    "year": 2025,
+    "reviewed": false,
+    "needsReview": false
+  }
+]
