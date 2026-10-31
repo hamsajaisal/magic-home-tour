@@ -108,5 +108,7 @@
   "mixPass": "The well is happy! 🎉",
   "continue": "Continue ➜",
   "secretToday": "🌟 Today's secret room: {room} — its surprise gives double coins!",
-  "secretBonus": "🌟 Secret room bonus: +{c} 🪙"
+  "secretBonus": "🌟 Secret room bonus: +{c} 🪙",
+  "turnLeft": "Turn camera left",
+  "turnRight": "Turn camera right"
 }

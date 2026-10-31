@@ -38,18 +38,18 @@
 
   <!-- Top bar -->
   <div id="hud" class="hidden">
-    <div class="hud-pill" title="coins">🪙 <span id="hud-coins">0</span></div>
-    <div class="hud-pill hud-level">⭐ <span data-i18n="level">Level</span> <span id="hud-level">1</span>
+    <div class="hud-pill" id="pill-coins" role="img">🪙 <span id="hud-coins">0</span></div>
+    <div class="hud-pill hud-level" id="pill-level" role="img">⭐ <span data-i18n="level">Level</span> <span id="hud-level">1</span>
       <div class="xp-bar"><div id="hud-xp"></div></div>
     </div>
-    <div class="hud-pill">🚪 <span id="hud-rooms">0/0</span></div>
+    <div class="hud-pill" id="pill-rooms" role="img">🚪 <span id="hud-rooms">0/0</span></div>
     <div class="hud-pill" id="hud-streak">🔥 0</div>
     <div class="hud-spacer"></div>
-    <button class="hud-btn icon" id="shop-btn" aria-label="shop">🛍️</button>
-    <button class="hud-btn icon" id="album-btn" aria-label="album">📒</button>
+    <button class="hud-btn icon" id="shop-btn" aria-label="shop" data-i18n-label="shop">🛍️</button>
+    <button class="hud-btn icon" id="album-btn" aria-label="album" data-i18n-label="album">📒</button>
     <button class="hud-btn" id="lang-btn">English</button>
-    <button class="hud-btn icon" id="sound-btn" aria-label="sound">🔊</button>
-    <button class="hud-btn icon" id="settings-btn" aria-label="settings">⚙️</button>
+    <button class="hud-btn icon" id="sound-btn" aria-label="sound" data-i18n-label="sound">🔊</button>
+    <button class="hud-btn icon" id="settings-btn" aria-label="settings" data-i18n-label="settings">⚙️</button>
   </div>
 
   <div id="tip" class="hidden"></div>
@@ -73,7 +73,7 @@
         <span id="quiz-room"></span>
         <span id="quiz-count"></span>
         <button class="soft-btn small" id="quiz-lang">English</button>
-        <button class="close-x" id="quiz-close" aria-label="close">✕</button>
+        <button class="close-x" id="quiz-close" aria-label="close" data-i18n-label="close">✕</button>
       </div>
       <div class="dots" id="quiz-dots"></div>
       <div id="quiz-body">
@@ -99,7 +99,7 @@
   <!-- Shop -->
   <div id="shop" class="overlay hidden">
     <div class="modal-card wide">
-      <div class="panel-top"><h2 data-i18n="shop">Shop</h2><span class="hud-pill" id="shop-coins"></span><button class="close-x" data-close="shop" aria-label="close">✕</button></div>
+      <div class="panel-top"><h2 data-i18n="shop">Shop</h2><span class="hud-pill" id="shop-coins"></span><button class="close-x" data-close="shop" aria-label="close" data-i18n-label="close">✕</button></div>
       <div class="tab-row">
         <button class="soft-btn small" data-tab="decor" data-i18n="tabDecor"></button>
         <button class="soft-btn small" data-tab="pet" data-i18n="tabPet"></button>
@@ -112,7 +112,7 @@
   <!-- Album -->
   <div id="album" class="overlay hidden">
     <div class="modal-card wide">
-      <div class="panel-top"><h2 data-i18n="album">Album</h2><button class="close-x" data-close="album" aria-label="close">✕</button></div>
+      <div class="panel-top"><h2 data-i18n="album">Album</h2><button class="close-x" data-close="album" aria-label="close" data-i18n-label="close">✕</button></div>
       <div class="tab-row">
         <button class="soft-btn small" data-tab="badges" data-i18n="badges"></button>
         <button class="soft-btn small" data-tab="stickers" data-i18n="stickers"></button>
@@ -170,8 +170,8 @@
   <div id="joy-zone"></div>
   <div id="joystick"><div id="joy-knob"></div></div>
   <div id="cam-btns" class="hidden">
-    <button class="hud-btn icon" id="cam-left" aria-label="turn left">⟲</button>
-    <button class="hud-btn icon" id="cam-right" aria-label="turn right">⟳</button>
+    <button class="hud-btn icon" id="cam-left" aria-label="turn left" data-i18n-label="turnLeft">⟲</button>
+    <button class="hud-btn icon" id="cam-right" aria-label="turn right" data-i18n-label="turnRight">⟳</button>
   </div>
 
   <script type="module" src="js/main.js"></script>

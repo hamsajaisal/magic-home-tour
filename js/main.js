@@ -366,6 +366,11 @@ function refreshHUD() {
   $('hud-rooms').textContent = `${open}/${rooms.length}`;
   $('hud-streak').textContent = t('streakDays', { n: save.streak.count });
   $('hud-streak').classList.toggle('hidden', !save.streak.count);
+  $('pill-coins').setAttribute('aria-label', `${t('coins')}: ${save.coins}`);
+  $('pill-level').setAttribute('aria-label', `${t('level')} ${level()}`);
+  $('pill-rooms').setAttribute('aria-label', `${t('rooms')}: ${open} / ${rooms.length}`);
+  $('hud-streak').setAttribute('aria-label', t('dailyStreak', { n: save.streak.count }));
+  $('sound-btn').setAttribute('aria-pressed', String(!!save.settings.sound));
   $('lang-btn').textContent = t('switchTo');
   $('quiz-lang').textContent = t('switchTo');
   $('sound-btn').textContent = save.settings.sound ? '🔊' : '🔇';

@@ -44,4 +44,6 @@ export function pick(obj) {
 
 export function applyToPage() {
   document.querySelectorAll('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
+  // names read out by screen readers for icon-only buttons
+  document.querySelectorAll('[data-i18n-label]').forEach((el) => { el.setAttribute('aria-label', t(el.dataset.i18nLabel)); });
 }
