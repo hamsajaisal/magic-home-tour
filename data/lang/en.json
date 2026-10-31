@@ -51,7 +51,7 @@
   "source": "Source",
   "privacy": "This game does not collect any personal information. There are no ads and no login. Progress is saved only on this device.",
   "creditsQuestions": "Question sources",
-  "creditsMade": "Made with Three.js (3D) and the Baloo Chettan 2 font (SIL Open Font License).",
+  "creditsMade": "Made with Three.js (3D) and the fonts Manjari (Swathanthra Malayalam Computing) and Baloo Chettan 2 (both SIL Open Font License).",
   "unreviewedNote": "Questions marked 'not yet reviewed' have not been checked by a teacher yet.",
   "allOpen": "All rooms are open! New rooms are coming soon 🏗️",
   "levelUp": "Level up! You are now level {l} 🎈",
@@ -94,5 +94,7 @@
   "newBadge": "🏅 New badge: {b}",
   "streakDays": "🔥 {n}",
   "bonusPass": "Surprise unlocked! 🎁",
-  "bonusGo": "Open the surprise ➜"
+  "bonusGo": "Open the surprise ➜",
+  "voiceSetting": "Spoken praise (voice)",
+  "joyHint": "👆 Drag to walk"
 }

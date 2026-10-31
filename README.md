@@ -55,6 +55,15 @@ Other things you can change in `settings.js`:
 - **Surprises:** `BONUS_QUESTIONS` / `BONUS_CORRECT` set the quick quiz at a gift box. One surprise per room per day is free, and after that the child answers these questions for a new one. `SURPRISE_SECONDS` sets how long chocolate rain and balloons last.
 - **Daily bonus:** `DAILY_BONUS` is the coins for playing today. It is multiplied by the streak, up to 7 days.
 
+### 🎙️ Spoken praise (voice)
+After a right answer the game says things like "അടിപൊളി!". By default it uses the phone's own voice: Malayalam if the phone has a Malayalam voice installed, otherwise English ("Super!"). Children can switch it off in **Settings → Spoken praise**.
+
+**To use real recorded voices instead** (warmer, and the same on every phone):
+1. Record short clips (1–2 seconds) as .mp3, for example "അടിപൊളി!", "നന്നായി!", "ഒന്നുകൂടി നോക്കൂ!", "വാതിൽ തുറന്നു!".
+2. Put them in the `data/voice` folder.
+3. Open `data/voice/voice.json` and write the file names in the right list, for example `"praise": ["adipoli.mp3", "nannayi.mp3"]`.
+   The lists are: `praise` (right answer), `tryAgain` (wrong answer), `pass` (door or surprise opens), `fail` (needs another try), separately for `ml` and `en`.
+
 ### Shop, badges and stickers
 - **Prices and names** of shop items are in `data/shop.json`. Change `price` or `name`, but keep `id` the same.
 - **Badges and stickers** are in `data/badges.json`. You can change the number a badge needs (`n`) and its name.
@@ -176,7 +185,7 @@ data/
   rooms.json        the rooms: name, subject, colour, place in the house, gift box spot
   shop.json         ← shop items and prices
   badges.json       ← badges and stickers
-assets/fonts/       the Baloo Chettan 2 font (shows Malayalam nicely)
+assets/fonts/       fonts: Manjari for Malayalam, Baloo Chettan 2 for English
 tools/
   converter.html    question converter + file checker
   server.js         the tiny local server used by start-game.bat
@@ -193,5 +202,6 @@ tools/
 ## 📜 Credits & licences
 
 - 3D: [Three.js](https://threejs.org) (MIT licence)
-- Font: Baloo Chettan 2 by Ek Type (SIL Open Font License, see `assets/fonts/OFL.txt`)
+- Malayalam font: Manjari by Swathanthra Malayalam Computing (SIL Open Font License, see `assets/fonts/OFL-manjari.txt`)
+- English font: Baloo Chettan 2 by Ek Type (SIL Open Font License, see `assets/fonts/OFL-baloo-chettan-2.txt`)
 - Question sources are listed in the game under **Settings → Credits**.

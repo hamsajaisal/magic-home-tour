@@ -1,6 +1,7 @@
 // The question panel that appears at a locked door.
-import { t } from '../i18n.js';
+import { t, tIn, lang } from '../i18n.js';
 import { play } from '../audio.js';
+import { say } from '../voice.js';
 import { LETTERS } from '../question-format.js';
 
 const $ = (id) => document.getElementById(id);
@@ -55,6 +56,17 @@ export function closeQuiz() {
   onClose?.();
 }
 
+// the same praise word in both languages (so a spoken English fallback matches)
+function praise(l = lang()) {
+  const list = [].concat(tIn(l, 'praise'));
+  return list[S.praiseIdx % list.length];
+}
+
+function speak(kind, key) {
+  const pickText = (l) => (key === 'praise' ? praise(l) : tIn(l, key));
+  say(kind, lang(), { ml: pickText('ml'), en: pickText('en') });
+}
+
 function sourceLine(item) {
   const parts = [];
   if (item.source) parts.push(`${t('source')}: ${item.source}`);
@@ -89,7 +101,7 @@ function renderFeedback() {
   const item = S.items[S.index];
   const right = item.options.findIndex((o) => o.correct);
   if (!S.fb) el.feedback.className = 'feedback hidden';
-  else if (S.fb === 'good') feedback('good', t('praise'), item.explanation ? `${t('why')} ${item.explanation}` : '');
+  else if (S.fb === 'good') feedback('good', praise(), item.explanation ? `${t('why')} ${item.explanation}` : '');
   else if (S.fb === 'hint' && item.hint) feedback('hint', t('wrongHint'), `${item.hint} ${t('tryOnce')}`);
   else if (S.fb === 'hint') feedback('hint', t('noHint'), t('tryOnce'));
   else feedback('explain', `${t('correctAnswerIs')} ${LETTERS[right]}. ${item.options[right].text}`, item.explanation);
@@ -116,8 +128,10 @@ function pickOption(i) {
     if (firstTry) S.score++;
     S.marks[S.index] = firstTry ? 'ok' : 'bad';
     play('correct');
+    S.praiseIdx = Math.floor(Math.random() * 100);
     S.fb = 'good';
     renderFeedback();
+    speak('praise', 'praise');
     S.onAnswer?.(item, firstTry);
     showNext();
     return;
@@ -129,6 +143,7 @@ function pickOption(i) {
   if (firstTry) {
     S.fb = 'hint';
     renderFeedback();
+    speak('tryAgain', 'tryOnce');
     return;
   }
   // second miss: show the right answer and why
@@ -171,6 +186,7 @@ function showResult() {
     el.rMain.textContent = t(S.passButton || 'walkIn');
     el.rLater.classList.add('hidden');
     play('unlock');
+    speak('pass', S.passTitle || 'resultPass');
   } else {
     el.rEmoji.textContent = '💪';
     el.rTitle.textContent = scoreText;
@@ -178,6 +194,7 @@ function showResult() {
     el.rMain.textContent = t('tryAgain');
     el.rLater.classList.remove('hidden');
     play('fail');
+    speak('fail', 'tryAgain');
   }
   S.passed = res.passed;
   el.rMain.focus({ preventScroll: true });

@@ -12,7 +12,7 @@ const VERANDA = { x1: -6, x2: 6, z1: 8, z2: 11 };
 const STEPS = { x1: -1.6, x2: 1.6, z1: 11, z2: 12 };
 export const START = { x: 0, z: 18 };
 
-const FONT = '"Baloo Chettan 2", "Noto Sans Malayalam", "Nirmala UI", sans-serif';
+const FONT = '"Game Font", "Noto Sans Malayalam", "Nirmala UI", sans-serif';
 const sharedMats = new Map();
 
 export function mat(color, unique = false) {
@@ -426,6 +426,7 @@ export function labelTexture(lines, bg = '#ffffff', fg = '#3a2a1a', w = 512, h =
   g.lineWidth = 6; g.strokeStyle = '#ffffff'; g.stroke();
   g.fillStyle = fg;
   g.textAlign = 'center'; g.textBaseline = 'middle';
+  if ('wordSpacing' in g) g.wordSpacing = `${Math.round(h * 0.05)}px`;
   const list = Array.isArray(lines) ? lines : [lines];
   const size = list.length > 1 ? h * 0.34 : h * 0.46;
   list.forEach((line, i) => {

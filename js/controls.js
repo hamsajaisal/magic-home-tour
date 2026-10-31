@@ -31,7 +31,8 @@ export function initControls({ onAction }) {
     if (joy.active) return;
     joy.active = true; joy.id = e.pointerId; joy.ox = e.clientX; joy.oy = e.clientY; joy.x = joy.y = 0;
     joyEl.style.left = `${e.clientX}px`; joyEl.style.top = `${e.clientY}px`;
-    joyEl.classList.remove('hidden');
+    joyEl.classList.add('active');
+    document.body.classList.add('joy-used');
     knob.style.transform = 'translate(0px, 0px)';
     try { zone.setPointerCapture(e.pointerId); } catch (err) { /* not needed for mouse */ }
   });
@@ -45,8 +46,7 @@ export function initControls({ onAction }) {
   });
   const endJoy = (e) => {
     if (e.pointerId !== joy.id) return;
-    joy.active = false; joy.id = null; joy.x = joy.y = 0;
-    joyEl.classList.add('hidden');
+    resetJoystick();
   };
   zone.addEventListener('pointerup', endJoy);
   zone.addEventListener('pointercancel', endJoy);
@@ -71,9 +71,17 @@ export function initControls({ onAction }) {
   hold('cam-right', -1);
 }
 
+// the joystick goes back to its resting place (bottom left) so children always see how to walk
+function resetJoystick() {
+  joy.active = false; joy.id = null; joy.x = joy.y = 0;
+  joyEl.classList.remove('active');
+  joyEl.style.left = joyEl.style.top = '';
+  knob.style.transform = 'translate(0px, 0px)';
+}
+
 export function setControlsEnabled(on) {
   enabled = on;
-  if (!on) { keys.clear(); joy.active = false; joy.x = joy.y = 0; joyEl.classList.add('hidden'); turnButtons = 0; }
+  if (!on) { keys.clear(); resetJoystick(); turnButtons = 0; }
 }
 
 // x = right, y = forward (both -1 … 1)

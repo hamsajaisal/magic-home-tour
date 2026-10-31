@@ -17,6 +17,7 @@ import {
   freeSurpriseReady, useFreeSurprise, claimDaily,
 } from './rewards.js';
 import { play, unlockAudio } from './audio.js';
+import { loadVoice } from './voice.js';
 import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
@@ -46,7 +47,8 @@ async function boot() {
   const [roomData] = await Promise.all([
     fetch('data/rooms.json').then((r) => r.json()),
     loadQuestions(),
-    document.fonts.load('700 40px "Baloo Chettan 2"', 'മലയാളം Aa').catch(() => {}),
+    loadVoice(),
+    document.fonts.load('700 40px "Game Font"', 'മലയാളം Aa').catch(() => {}),
   ]);
   rooms = roomData.rooms;
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
@@ -298,6 +300,7 @@ const anyPanelOpen = () => PANELS.some((id) => !$(id).classList.contains('hidden
 
 // ---------- HUD and signs ----------
 function refreshHUD() {
+  $('joystick').dataset.label = t('joyHint');
   $('hud-coins').textContent = save.coins;
   $('hud-level').textContent = level();
   $('hud-xp').style.width = `${((save.xp % SETTINGS.XP_PER_LEVEL) / SETTINGS.XP_PER_LEVEL) * 100}%`;
@@ -414,6 +417,7 @@ function setupUI() {
     $('start').classList.add('hidden');
     $('hud').classList.remove('hidden');
     $('cam-btns').classList.add('playing');
+    document.body.classList.add('playing');
     startPlaying();
   });
   $('prompt-go').addEventListener('click', act);
@@ -427,12 +431,14 @@ function setupUI() {
     play('click');
     $('set-low').checked = isLowGraphics();
     $('set-sound').checked = save.settings.sound;
+    $('set-voice').checked = save.settings.voice !== false;
     hidePrompt();
     setControlsEnabled(false);
     $('settings').classList.remove('hidden');
   });
   $('set-low').addEventListener('change', (e) => { save.settings.lowGraphics = e.target.checked; persist(); location.reload(); });
   $('set-sound').addEventListener('change', (e) => { save.settings.sound = e.target.checked; persist(); refreshHUD(); });
+  $('set-voice').addEventListener('change', (e) => { save.settings.voice = e.target.checked; persist(); });
   $('reset-btn').addEventListener('click', () => {
     if (confirm(t('resetConfirm'))) { resetAll(); location.reload(); }
   });

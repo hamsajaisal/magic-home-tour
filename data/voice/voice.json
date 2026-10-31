@@ -1,0 +1,15 @@
+{
+  "_help": "Optional voice recordings. Put short .mp3 files in this folder (data/voice) and write their names below, inside quotes, separated by commas. When a list is empty, the game uses the phone's own voice instead. praise = after a right answer, tryAgain = after a wrong answer, pass = when a door or surprise opens, fail = when the quiz needs another try.",
+  "ml": {
+    "praise": [],
+    "tryAgain": [],
+    "pass": [],
+    "fail": []
+  },
+  "en": {
+    "praise": [],
+    "tryAgain": [],
+    "pass": [],
+    "fail": []
+  }
+}

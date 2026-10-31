@@ -31,6 +31,11 @@ export function t(key, vars = {}) {
   return String(s).replace(/\{(\w+)\}/g, (_, k) => (vars[k] ?? `{${k}}`));
 }
 
+// The same text in a chosen language (no random pick): tIn('en', 'praise') -> the whole list
+export function tIn(l, key) {
+  return strings[l]?.[key] ?? strings.en?.[key] ?? key;
+}
+
 // Pick the right language out of an object like { en: "Kitchen", ml: "അടുക്കള" }
 export function pick(obj) {
   if (!obj) return '';
