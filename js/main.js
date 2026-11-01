@@ -12,13 +12,14 @@ import { createDecor } from './world/decor.js';
 import { createExtras } from './world/extras.js';
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
-import { initPanels, openShop, openAlbum, openDaily } from './ui/panels.js';
+import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
 import {
   loadCatalog, addCoins, bumpStat, checkBadges, giveSticker, dailyCheck, level,
   freeSurpriseReady, useFreeSurprise, claimDaily,
 } from './rewards.js';
 import { play, unlockAudio } from './audio.js';
 import { loadVoice } from './voice.js';
+import { recordAnswer } from './progress.js';
 import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
@@ -164,7 +165,8 @@ function runQuiz(opts) {
     passTitle: door ? null : opts.passTitle || 'bonusPass',
     passButton: door ? null : opts.passButton || 'bonusGo',
     items,
-    onAnswer(item, firstTry) {
+    onAnswer(item, firstTry, seconds) {
+      recordAnswer(item, firstTry, seconds);
       const levelBefore = level();
       if (firstTry) {
         save.xp += SETTINGS.XP_PER_CORRECT;
@@ -353,7 +355,7 @@ function checkPrompts() {
   if (!prompt && walked > 3 && walked < 4 && !rooms.some((r) => roomState(r.id).unlocked)) setTip(t('goToDoor'));
 }
 
-const PANELS = ['shop', 'album', 'daily', 'settings', 'credits'];
+const PANELS = ['shop', 'album', 'daily', 'settings', 'credits', 'progress'];
 const anyPanelOpen = () => PANELS.some((id) => !$(id).classList.contains('hidden'));
 
 // ---------- HUD and signs ----------
@@ -490,6 +492,7 @@ function setupUI() {
   $('prompt-no').addEventListener('click', () => { play('click'); dismissed = prompt; hidePrompt(); });
   $('shop-btn').addEventListener('click', () => { play('click'); openShop(); });
   $('album-btn').addEventListener('click', () => { play('click'); openAlbum(); });
+  $('progress-btn').addEventListener('click', () => { play('click'); openProgress(); });
   $('sound-btn').addEventListener('click', () => {
     save.settings.sound = !save.settings.sound; persist(); refreshHUD(); unlockAudio(); play('click');
   });

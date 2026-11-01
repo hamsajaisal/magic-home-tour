@@ -131,6 +131,8 @@ html[lang="ml"] body { word-spacing: 0.14em; }
 .stars { font-size: 2.4rem; letter-spacing: 6px; }
 .stars .off { filter: grayscale(1); opacity: .35; }
 #r-text { font-size: 1.15rem; font-weight: 700; }
+.r-time { white-space: pre-line; font-size: .98rem; background: #eef6ff; border-radius: 14px; padding: 8px 12px; margin: 6px auto 0; max-width: 460px; line-height: 1.5; }
+.r-time:empty { display: none; }
 
 .modal-card h2 { margin: 4px 0 10px; color: var(--orange-dark); }
 .modal-card h3 { margin: 6px 0; }
@@ -177,6 +179,17 @@ body.touch #tip { bottom: auto; top: 104px; }
 .item-card button { width: 100%; white-space: normal; }
 .item-card button.buy { background: var(--orange); color: #fff; border-color: var(--orange-dark); }
 .item-card button:disabled { opacity: .7; cursor: default; }
+.prog-summary { font-size: 1.05rem; font-weight: 700; line-height: 1.7; background: #fff3cf; border-radius: 14px; padding: 8px 12px; }
+.prog-table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 1rem; }
+.prog-table th, .prog-table td { text-align: left; padding: 6px 6px; border-bottom: 2px solid #f2e6d4; }
+.prog-table th { font-size: .9rem; opacity: .8; }
+.prog-days { list-style: none; padding: 0; margin: 6px 0; }
+.prog-days li { display: grid; grid-template-columns: 4.5em 1fr 6em; align-items: center; gap: 8px; margin: 4px 0; font-weight: 700; }
+.prog-bar { height: 14px; border-radius: 7px; background: linear-gradient(90deg, #ffd23d, #ff8a3d); min-width: 3px; }
+.prog-hard { padding-left: 20px; line-height: 1.5; }
+.prog-hard li { margin: 6px 0; }
+.prog-hard .meta { display: block; font-size: .9rem; opacity: .75; }
+.modal-card h3 { margin: 14px 0 4px; }
 .daily-streak { font-size: 1.4rem; font-weight: 800; color: var(--orange-dark); margin: 4px 0; }
 .daily-days { display: flex; gap: 6px; justify-content: center; margin: 8px 0; }
 .daily-days .day { width: 38px; height: 38px; border-radius: 50%; background: #f2e6d4; display: flex; align-items: center; justify-content: center; font-weight: 800; }

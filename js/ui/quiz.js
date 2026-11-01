@@ -2,6 +2,7 @@
 import { t, tIn, lang } from '../i18n.js';
 import { play } from '../audio.js';
 import { say } from '../voice.js';
+import { fmtTime, shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
 
 const $ = (id) => document.getElementById(id);
@@ -40,7 +41,7 @@ export function retranslateQuiz(translate) {
  *         onRetry(), onClose() }
  */
 export function openQuiz(opts) {
-  S = { ...opts, index: 0, score: 0, tries: 0, marks: [] };
+  S = { ...opts, index: 0, score: 0, tries: 0, marks: [], times: [] };
   el.panel.classList.remove('hidden');
   el.result.classList.add('hidden');
   el.body.classList.remove('hidden');
@@ -77,6 +78,7 @@ function sourceLine(item) {
 function showQuestion() {
   const item = S.items[S.index];
   S.tries = 0;
+  S.shownAt = performance.now();
   el.count.textContent = t('questionOf', { i: S.index + 1, n: S.items.length });
   el.dots.innerHTML = S.items.map((_, i) =>
     `<span class="dot ${i === S.index ? 'now' : S.marks[i] || ''}"></span>`).join('');
@@ -133,7 +135,7 @@ function pickOption(i) {
     S.fb = 'good';
     renderFeedback();
     speak('praise', 'praise');
-    S.onAnswer?.(item, firstTry);
+    S.onAnswer?.(item, firstTry, finishTime());
     showNext();
     return;
   }
@@ -154,7 +156,7 @@ function pickOption(i) {
   S.marks[S.index] = 'bad';
   S.fb = 'explain';
   renderFeedback();
-  S.onAnswer?.(item, false);
+  S.onAnswer?.(item, false, finishTime());
   showNext();
 }
 
@@ -172,6 +174,30 @@ el.next.addEventListener('click', () => {
   else showResult();
 });
 
+// seconds spent on the current question (from when it appeared to when it was finished)
+function finishTime() {
+  const sec = (performance.now() - S.shownAt) / 1000;
+  S.times[S.index] = sec;
+  return sec;
+}
+
+// "⏱ Time taken … · slowest question …" under the result
+function timeReport() {
+  const times = S.times.filter((x) => x != null);
+  if (!times.length) return '';
+  const total = times.reduce((a, b) => a + b, 0);
+  let slow = 0;
+  S.times.forEach((x, i) => { if (x > (S.times[slow] || 0)) slow = i; });
+  const lines = [
+    `${t('timeTotal', { t: fmtTime(total) })} · ${t('timeAvg', { t: fmtTime(total / times.length) })}`,
+  ];
+  if (times.length > 1) {
+    lines.push(t('slowest', { i: slow + 1, t: fmtTime(S.times[slow]) }));
+    lines.push(`"${shortText(S.items[slow].question, 70)}"`);
+  }
+  return lines.join('\n');
+}
+
 function showResult() {
   const res = S.onFinish(S.score, S.items.length);
   el.body.classList.add('hidden');
@@ -180,6 +206,7 @@ function showResult() {
   el.count.textContent = '';
   el.rStars.innerHTML = [1, 2, 3].map((n) => `<span class="${n <= res.stars ? '' : 'off'}">⭐</span>`).join('');
   const scoreText = t('resultScore', { s: S.score, n: S.items.length });
+  $('r-time').textContent = timeReport();
   if (res.passed) {
     el.rEmoji.textContent = '🎉';
     el.rTitle.textContent = t(S.passTitle || 'resultPass');

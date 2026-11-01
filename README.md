@@ -19,6 +19,7 @@ house. Every room door is locked, and answering questions opens it.
 - **🌟 Secret room of the day:** one room each day gives double coins for its surprise.
 - **📚 Revision Cupboard** (back of the hall): questions the child got wrong are "locked" in here to practise again. They leave the cupboard once answered correctly.
 - **🪣 Wishing Well** (in the garden): a mixed quiz from all subjects, with bonus coins.
+- **📊 My Progress:** time taken for each question, a short time report after every quiz, results subject by subject, the last 7 days, and the questions to practise more. Saved only on the device, so parents and teachers can look at it there.
 - **🛍️ Shop, 📒 album, 🔥 daily bonus:** decorations, pets, costumes, badges and stickers.
 
 To add a new room, add it to `data/rooms.json` (a programmer can help with the position), and give its `subject` some questions.

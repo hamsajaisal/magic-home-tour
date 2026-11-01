@@ -1,8 +1,9 @@
 // Shop, sticker/badge album and the daily bonus popup.
 import { save } from '../storage.js';
-import { t, pick } from '../i18n.js';
+import { t, pick, lang } from '../i18n.js';
 import { play } from '../audio.js';
 import { catalog, badgeProgress } from '../rewards.js';
+import { overall, bySubject, hardQuestions, lastDays, fmtTime, shortText } from '../progress.js';
 
 const $ = (id) => document.getElementById(id);
 let shopTab = 'decor';
@@ -92,4 +93,45 @@ export function openDaily(info, onCollect) {
   btn.textContent = t('collect', { c: info.coins });
   btn.onclick = () => { $('daily').classList.add('hidden'); onCollect(); };
   open('daily');
+}
+
+// ---------- my progress ----------
+const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+export function openProgress() { renderProgress(); open('progress'); }
+
+function renderProgress() {
+  const body = $('progress-body');
+  const all = overall();
+  if (!all.n) { body.innerHTML = `<p class="prog-summary">${esc(t('progEmpty'))}</p>`; return; }
+
+  const subjects = bySubject();
+  const rows = catalog.rooms.filter((r) => subjects[r.subject]).map((r) => {
+    const s = subjects[r.subject];
+    return `<tr><td>${esc(r.emoji)} ${esc(pick(r.name))}</td><td>${s.n}</td><td>${pct(s.right, s.n)}%</td><td>${esc(fmtTime(s.time / s.n))}</td></tr>`;
+  }).join('');
+
+  const days = lastDays(7);
+  const most = Math.max(1, ...days.map((d) => d.n));
+  const locale = lang() === 'ml' ? 'ml-IN' : 'en-IN';
+  const dayItems = days.map((d) => {
+    const name = new Date(`${d.day}T12:00:00`).toLocaleDateString(locale, { weekday: 'short' });
+    return `<li><span>${esc(name)}</span><span class="prog-bar" style="width:${(d.n / most) * 100}%" aria-hidden="true"></span><span>${esc(t('qCount', { n: d.n }))}</span></li>`;
+  }).join('');
+
+  const hard = hardQuestions(lang());
+  const hardItems = hard.map((h) => `<li>${esc(shortText(h.q[lang()].question))}<span class="meta">${esc(t('hardMeta', { w: h.wrong, n: h.s.n, t: fmtTime(h.avg) }))}</span></li>`).join('');
+
+  body.innerHTML = `
+    <p class="prog-summary">${esc(t('progAnswered', { n: all.n }))}<br>${esc(t('progRight', { p: pct(all.right, all.n) }))}<br>${esc(t('progAvg', { t: fmtTime(all.time / all.n) }))}</p>
+    <h3>${esc(t('progSubjects'))}</h3>
+    <table class="prog-table">
+      <thead><tr><th>${esc(t('colSubject'))}</th><th>${esc(t('colAnswered'))}</th><th>${esc(t('colRight'))}</th><th>${esc(t('colAvg'))}</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <h3>${esc(t('progDays'))}</h3>
+    <ul class="prog-days">${dayItems}</ul>
+    <h3>${esc(t('progHard'))}</h3>
+    ${hard.length ? `<ol class="prog-hard">${hardItems}</ol>` : `<p>${esc(t('progHardNone'))}</p>`}`;
 }

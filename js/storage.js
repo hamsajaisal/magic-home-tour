@@ -18,6 +18,8 @@ function fresh() {
     stats: {},        // counters used for badges (correct, treats, kittens …)
     badges: [],       // badge ids earned
     stickers: [],     // sticker ids collected
+    qstats: {},       // questionId -> { n, right, time, last } (time in seconds)
+    days: {},         // date -> { n, right, time } questions answered that day
   };
 }
 

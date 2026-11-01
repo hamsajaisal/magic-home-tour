@@ -47,6 +47,7 @@
     <div class="hud-spacer"></div>
     <button class="hud-btn icon" id="shop-btn" aria-label="shop" data-i18n-label="shop">🛍️</button>
     <button class="hud-btn icon" id="album-btn" aria-label="album" data-i18n-label="album">📒</button>
+    <button class="hud-btn icon" id="progress-btn" aria-label="progress" data-i18n-label="progress">📊</button>
     <button class="hud-btn" id="lang-btn">English</button>
     <button class="hud-btn icon" id="sound-btn" aria-label="sound" data-i18n-label="sound">🔊</button>
     <button class="hud-btn icon" id="settings-btn" aria-label="settings" data-i18n-label="settings">⚙️</button>
@@ -88,6 +89,7 @@
         <h2 id="r-title"></h2>
         <div class="stars" id="r-stars"></div>
         <p id="r-text"></p>
+        <p id="r-time" class="r-time"></p>
         <div class="btn-row">
           <button class="big-btn" id="r-main"></button>
           <button class="soft-btn" id="r-later" data-i18n="later"></button>
@@ -119,6 +121,15 @@
       </div>
       <p class="small-note" id="album-hint"></p>
       <div class="item-grid" id="album-list"></div>
+    </div>
+  </div>
+
+  <!-- My progress -->
+  <div id="progress" class="overlay hidden">
+    <div class="modal-card wide">
+      <div class="panel-top"><h2 data-i18n="progress">My progress</h2><button class="close-x" data-close="progress" aria-label="close" data-i18n-label="close">✕</button></div>
+      <div id="progress-body"></div>
+      <p class="small-note" data-i18n="progNote"></p>
     </div>
   </div>
 
