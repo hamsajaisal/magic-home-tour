@@ -145,7 +145,8 @@ html[lang="ml"]:not(.lipi-new) body { word-spacing: 0.14em; }
 .feedback.hint { background: #fff3cf; }
 .feedback.explain { background: #e9f1ff; }
 .feedback b { display: block; }
-.q-source { font-size: .8rem; opacity: .6; margin: 10px 0 0; }
+.r-credit { font-size: .85rem; opacity: .75; margin: 10px auto 0; max-width: 460px; }
+.r-credit:empty { display: none; }
 #q-next { display: block; margin: 12px auto 0; }
 
 #quiz-result { text-align: center; padding: 6px 0; }

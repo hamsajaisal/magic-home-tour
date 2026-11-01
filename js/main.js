@@ -532,7 +532,7 @@ function setupUI() {
   $('credits-btn').addEventListener('click', () => {
     const list = $('credits-list');
     list.innerHTML = '';
-    for (const [src, count] of sources()) {
+    for (const [src, count] of sources(lang(), t('creditOwn'))) {
       const li = document.createElement('li');
       li.textContent = `${src} (${count})`;
       list.appendChild(li);

@@ -156,7 +156,8 @@ put a comma between them, and change the words. Each question looks like this:
 | `en` / `ml` | The English and Malayalam versions. You can leave one out, and the question will then show only in the other medium. |
 | `hint` | A small clue shown after a wrong answer (optional) |
 | `explanation` | Why the answer is right, shown after answering |
-| `source`, `year` | Where the question came from. Shown under each question and in **Settings → Credits**. |
+| `source`, `year` | Where the question came from (kept in the file for checking). |
+| `credit` | (optional) A short thank-you name, for example `{ "en": "KSTA – USS model exam 2026", "ml": "KSTA – USS മാതൃകാ പരീക്ഷ 2026" }`. It is shown **once at the end of each round** that used such a question, and in **Settings → Credits**. Leave it out for questions written for this game. |
 | `reviewed` | Set to `true` once a teacher has checked the question |
 | `needsReview` | `true` hides the question from children until you fix it |
 | `noShuffle` | (optional) `true` keeps options in A-B-C-D order, for example "All of these". The game already keeps the order automatically for options like "all of these" / "both". |
@@ -165,6 +166,13 @@ put a comma between them, and change the words. Each question looks like this:
 run **"Check my question files"** in the converter.
 
 ---
+
+## 🙏 Questions from other sources
+
+- **USS 2025 exam paper** (Kerala Pareeksha Bhavan): 88 questions, all checked against the official answer key (`uss-2025.json`).
+- **KSTA USS model exam 2026** (Kerala School Teachers' Association): 87 questions, used **with KSTA's permission**, all checked against KSTA's answer key (`ksta-2026.json`). Questions that need a picture, and a few where the printed answer key looked doubtful, were left out.
+
+Credit is given at the end of each round rather than under every question, so the game flows naturally. This was agreed with KSTA.
 
 ## 🧪 About the starter questions
 

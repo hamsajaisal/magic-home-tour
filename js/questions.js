@@ -96,13 +96,24 @@ export function toQuizItem(q, lang, order = null) {
     explanation: part.explanation || '',
     source: [q.source, q.year && !String(q.source).includes(String(q.year)) ? q.year : null].filter(Boolean).join(', '),
     reviewed: !!q.reviewed,
+    credit: creditOf(q, lang),
   };
 }
 
-export function sources() {
+// The short thank-you name for a question's source, e.g. "KSTA – USS model exam 2026".
+// "credit" can be one text, or { "en": "...", "ml": "..." }. Our own questions have none.
+export function creditOf(q, lang) {
+  const c = q.credit;
+  if (!c) return '';
+  return typeof c === 'string' ? c : (c[lang] || c.en || c.ml || '');
+}
+
+// For the Credits page: each source with how many questions came from it.
+// ownLabel names the questions written for this game (those have no "credit").
+export function sources(lang, ownLabel) {
   const set = new Map();
   for (const q of bank.all) {
-    const s = q.source || 'Unknown source';
+    const s = creditOf(q, lang) || ownLabel;
     set.set(s, (set.get(s) || 0) + 1);
   }
   return [...set.entries()];

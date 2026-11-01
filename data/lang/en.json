@@ -134,5 +134,7 @@
   "hardMeta": "wrong {w} of {n} times · about {t} each",
   "lipi": "Malayalam script",
   "lipiOld": "Old (traditional)",
-  "lipiNew": "New (reformed)"
+  "lipiNew": "New (reformed)",
+  "roundCredit": "🙏 Thanks for the questions in this round: {c}",
+  "creditOwn": "Practice questions written for this game"
 }

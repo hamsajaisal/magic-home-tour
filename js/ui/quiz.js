@@ -9,7 +9,7 @@ const $ = (id) => document.getElementById(id);
 const el = {
   panel: $('quiz'), room: $('quiz-room'), count: $('quiz-count'), dots: $('quiz-dots'),
   body: $('quiz-body'), text: $('q-text'), options: $('q-options'), feedback: $('q-feedback'),
-  source: $('q-source'), next: $('q-next'), result: $('quiz-result'),
+  next: $('q-next'), result: $('quiz-result'),
   rEmoji: $('r-emoji'), rTitle: $('r-title'), rStars: $('r-stars'), rText: $('r-text'),
   rMain: $('r-main'), rLater: $('r-later'), close: $('quiz-close'),
 };
@@ -23,12 +23,11 @@ export function isQuizOpen() { return !!S; }
 export function retranslateQuiz(translate) {
   if (!S) return;
   S.items = S.items.map((it) => translate(it) || it);
-  if (!el.result.classList.contains('hidden')) return;
+  if (!el.result.classList.contains('hidden')) { $('r-credit').textContent = creditLine(); return; }
   const item = S.items[S.index];
   el.count.textContent = t('questionOf', { i: S.index + 1, n: S.items.length });
   el.text.textContent = item.question;
   [...el.options.children].forEach((b, i) => { b.lastChild.textContent = item.options[i].text; });
-  el.source.textContent = sourceLine(item);
   el.room.textContent = S.title();
   if (!el.next.classList.contains('hidden')) {
     el.next.textContent = S.index === S.items.length - 1 ? t('seeResult') : t('next');
@@ -68,11 +67,10 @@ function speak(kind, key) {
   say(kind, lang(), { ml: pickText('ml'), en: pickText('en') });
 }
 
-function sourceLine(item) {
-  const parts = [];
-  if (item.source) parts.push(`${t('source')}: ${item.source}`);
-  if (!item.reviewed) parts.push(t('notReviewed'));
-  return parts.join(' · ');
+// One thank-you line for the round, naming only the sources whose questions came up.
+function creditLine() {
+  const names = [...new Set(S.items.map((it) => it.credit).filter(Boolean))];
+  return names.length ? t('roundCredit', { c: names.join(' · ') }) : '';
 }
 
 function showQuestion() {
@@ -95,7 +93,6 @@ function showQuestion() {
   });
   S.fb = null;
   renderFeedback();
-  el.source.textContent = sourceLine(item);
   el.next.classList.add('hidden');
 }
 
@@ -207,6 +204,7 @@ function showResult() {
   el.rStars.innerHTML = [1, 2, 3].map((n) => `<span class="${n <= res.stars ? '' : 'off'}">⭐</span>`).join('');
   const scoreText = t('resultScore', { s: S.score, n: S.items.length });
   $('r-time').textContent = timeReport();
+  $('r-credit').textContent = creditLine();
   if (res.passed) {
     el.rEmoji.textContent = '🎉';
     el.rTitle.textContent = t(S.passTitle || 'resultPass');

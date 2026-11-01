@@ -1,0 +1,3221 @@
+[
+  {
+    "id": "KSTA26-MAL-01",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "'മലരണിക്കാടുകൾ തിങ്ങിവിങ്ങി\nമരതക കാന്തിയിൽ മുങ്ങി മുങ്ങി\nകരളും മിഴിയും കവർന്നു മിന്നി\nകറയറ്റൊരാലസൽ ഗ്രാമ ഭംഗി'\nആരുടെ വരികളാണ്?",
+      "options": [
+        "കുമാരനാശാൻ",
+        "സുഗതകുമാരി",
+        "ജി. കുമാരപിള്ള",
+        "ചങ്ങമ്പുഴ"
+      ],
+      "hint": "The poet of 'Ramanan', known for musical romantic poems.",
+      "explanation": "These lines are by Changampuzha Krishna Pillai, the romantic poet who wrote about the beauty of the village."
+    },
+    "ml": {
+      "question": "'മലരണിക്കാടുകൾ തിങ്ങിവിങ്ങി\nമരതക കാന്തിയിൽ മുങ്ങി മുങ്ങി\nകരളും മിഴിയും കവർന്നു മിന്നി\nകറയറ്റൊരാലസൽ ഗ്രാമ ഭംഗി'\nആരുടെ വരികളാണ്?",
+      "options": [
+        "കുമാരനാശാൻ",
+        "സുഗതകുമാരി",
+        "ജി. കുമാരപിള്ള",
+        "ചങ്ങമ്പുഴ"
+      ],
+      "hint": "'രമണൻ' എഴുതിയ കാല്പനിക കവിയെ ഓർക്കൂ.",
+      "explanation": "ഗ്രാമഭംഗി വർണ്ണിക്കുന്ന ഈ സംഗീതാത്മകമായ വരികൾ ചങ്ങമ്പുഴ കൃഷ്ണപിള്ളയുടേതാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q1 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-02",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "പദങ്ങൾ പിരിച്ചെഴുതിയാൽ കൂട്ടത്തിൽപ്പെടാത്തതേത്?",
+      "options": [
+        "തിരുവോണം",
+        "ഉണ്ടായിരുന്നുവെന്ന്",
+        "കണ്ണീർ",
+        "കളിയാട്ടം"
+      ],
+      "hint": "Split each word. In three of them a new letter (വ് / യ്) comes in between.",
+      "explanation": "തിരു + ഓണം, ഉണ്ടായിരുന്നു + എന്ന്, കളി + ആട്ടം all add a letter in between (āgama sandhi). കൺ + നീർ = കണ്ണീർ changes a letter (ādēśa sandhi), so it is the odd one."
+    },
+    "ml": {
+      "question": "പദങ്ങൾ പിരിച്ചെഴുതിയാൽ കൂട്ടത്തിൽപ്പെടാത്തതേത്?",
+      "options": [
+        "തിരുവോണം",
+        "ഉണ്ടായിരുന്നുവെന്ന്",
+        "കണ്ണീർ",
+        "കളിയാട്ടം"
+      ],
+      "hint": "ഓരോന്നും പിരിച്ചെഴുതൂ. മൂന്നെണ്ണത്തിൽ ഇടയ്ക്ക് ഒരു പുതിയ അക്ഷരം (വ് / യ്) വരുന്നുണ്ട്.",
+      "explanation": "തിരു + ഓണം, ഉണ്ടായിരുന്നു + എന്ന്, കളി + ആട്ടം — ഇവയിൽ ഇടയ്ക്ക് വ്/യ് വരുന്നു (ആഗമസന്ധി). കൺ + നീർ = കണ്ണീർ — ഇവിടെ ന \"ണ\" ആയി മാറുന്നു (ആദേശസന്ധി)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q2 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-03",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "നാടകവുമായി ബന്ധപ്പെട്ട് താഴെപ്പറയുന്ന ഏത് പ്രസ്താവനയാണ് ശരിയല്ലാത്തത്?",
+      "options": [
+        "കൂട്ടായ്മയുടെ കലയാണ് നാടകം",
+        "ഒരു കഥയ്ക്ക് സംഭാഷണം ഒരുക്കിയാൽ അത് നാടകമായി",
+        "കുട്ടികളുടെ നാടകവേദി കേരളത്തിൽ സജീവമാണ്",
+        "സാമൂഹിക അവസ്ഥകളോട് സംവദിച്ചും കലഹിച്ചുമാണ് നാടകത്തിന്റെ വളർച്ച"
+      ],
+      "hint": "Is dialogue alone enough to make a play?",
+      "explanation": "A play needs more than dialogue: actors, a stage, action and conflict. So \"adding dialogue to a story makes it a play\" is not correct."
+    },
+    "ml": {
+      "question": "നാടകവുമായി ബന്ധപ്പെട്ട് താഴെപ്പറയുന്ന ഏത് പ്രസ്താവനയാണ് ശരിയല്ലാത്തത്?",
+      "options": [
+        "കൂട്ടായ്മയുടെ കലയാണ് നാടകം",
+        "ഒരു കഥയ്ക്ക് സംഭാഷണം ഒരുക്കിയാൽ അത് നാടകമായി",
+        "കുട്ടികളുടെ നാടകവേദി കേരളത്തിൽ സജീവമാണ്",
+        "സാമൂഹിക അവസ്ഥകളോട് സംവദിച്ചും കലഹിച്ചുമാണ് നാടകത്തിന്റെ വളർച്ച"
+      ],
+      "hint": "സംഭാഷണം മാത്രം മതിയോ ഒരു നാടകമാകാൻ?",
+      "explanation": "നാടകത്തിന് സംഭാഷണം മാത്രം പോരാ; അഭിനയം, രംഗം, സംഘർഷം എന്നിവയും വേണം. അതിനാൽ രണ്ടാമത്തെ പ്രസ്താവന ശരിയല്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q3 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-04",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "താഴെക്കൊടുത്തതിൽ തെറ്റായി എഴുതിയിരിക്കുന്ന പദം ഏത്?",
+      "options": [
+        "ഉന്നദം",
+        "ഉത്തമം",
+        "ഉപഹാരം",
+        "ഉദാത്തം"
+      ],
+      "hint": "One word should end with \"തം\".",
+      "explanation": "The correct spelling is ഉന്നതം (high), not ഉന്നദം."
+    },
+    "ml": {
+      "question": "താഴെക്കൊടുത്തതിൽ തെറ്റായി എഴുതിയിരിക്കുന്ന പദം ഏത്?",
+      "options": [
+        "ഉന്നദം",
+        "ഉത്തമം",
+        "ഉപഹാരം",
+        "ഉദാത്തം"
+      ],
+      "hint": "ഒരു വാക്ക് \"തം\" എന്ന് അവസാനിക്കേണ്ടതാണ്.",
+      "explanation": "ശരിയായ രൂപം \"ഉന്നതം\" ആണ്; \"ഉന്നദം\" തെറ്റാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q4 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-05",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "'കാവ്യനർത്തകി' എന്ന കവിതയിൽ പ്രത്യേകം പരാമർശിക്കുന്ന രണ്ടു കവികളാരെല്ലാം?",
+      "options": [
+        "തുഞ്ചനും കുഞ്ചനും",
+        "ഉള്ളൂരും വള്ളത്തോളും",
+        "ചെറുശ്ശേരിയും തുഞ്ചനും",
+        "ആശാനും ഉള്ളൂരും"
+      ],
+      "hint": "Think of the two great old poets whose names rhyme.",
+      "explanation": "Changampuzha's 'Kavyanarthaki' specially mentions Thunchan (Ezhuthachan) and Kunchan Nambiar."
+    },
+    "ml": {
+      "question": "'കാവ്യനർത്തകി' എന്ന കവിതയിൽ പ്രത്യേകം പരാമർശിക്കുന്ന രണ്ടു കവികളാരെല്ലാം?",
+      "options": [
+        "തുഞ്ചനും കുഞ്ചനും",
+        "ഉള്ളൂരും വള്ളത്തോളും",
+        "ചെറുശ്ശേരിയും തുഞ്ചനും",
+        "ആശാനും ഉള്ളൂരും"
+      ],
+      "hint": "പേരുകൾ പ്രാസമൊപ്പിക്കുന്ന രണ്ട് പഴയ മഹാകവികൾ.",
+      "explanation": "ചങ്ങമ്പുഴയുടെ 'കാവ്യനർത്തകി'യിൽ തുഞ്ചനെയും കുഞ്ചനെയും പ്രത്യേകം പരാമർശിക്കുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q5 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-06",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "'പൂപ്പുഞ്ചിരി' വിഗ്രഹിച്ചെഴുതിയാൽ?",
+      "options": [
+        "പൂവിന്റെ ചിരി",
+        "പൂ പോലുള്ള പുഞ്ചിരി",
+        "പൂവിനുള്ള ചിരി",
+        "പൂവിന്റെ ചിരി പോലെ"
+      ],
+      "hint": "The smile is being compared to a flower.",
+      "explanation": "പൂപ്പുഞ്ചിരി means \"a smile like a flower\" (പൂ പോലുള്ള പുഞ്ചിരി)."
+    },
+    "ml": {
+      "question": "'പൂപ്പുഞ്ചിരി' വിഗ്രഹിച്ചെഴുതിയാൽ?",
+      "options": [
+        "പൂവിന്റെ ചിരി",
+        "പൂ പോലുള്ള പുഞ്ചിരി",
+        "പൂവിനുള്ള ചിരി",
+        "പൂവിന്റെ ചിരി പോലെ"
+      ],
+      "hint": "പുഞ്ചിരിയെ പൂവിനോട് ഉപമിക്കുകയാണ്.",
+      "explanation": "പൂപ്പുഞ്ചിരി = പൂ പോലുള്ള പുഞ്ചിരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q6 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-07",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "2025 ലെ വയലാർ അവാർഡ് നേടിയ കൃതി ഏത്?",
+      "options": [
+        "ഭൂമിക്കൊരു ചരമഗീതം",
+        "കാട്ടുപൂക്കൾ",
+        "തപോമയിയുടെ അച്ഛൻ",
+        "മനുഷ്യന് ഒരാമുഖം"
+      ],
+      "hint": "It is a novel by E. Santhosh Kumar.",
+      "explanation": "E. Santhosh Kumar's novel 'Thapomayiyude Achan' won the Vayalar Award in 2025."
+    },
+    "ml": {
+      "question": "2025 ലെ വയലാർ അവാർഡ് നേടിയ കൃതി ഏത്?",
+      "options": [
+        "ഭൂമിക്കൊരു ചരമഗീതം",
+        "കാട്ടുപൂക്കൾ",
+        "തപോമയിയുടെ അച്ഛൻ",
+        "മനുഷ്യന് ഒരാമുഖം"
+      ],
+      "hint": "ഇ. സന്തോഷ് കുമാറിന്റെ നോവൽ.",
+      "explanation": "ഇ. സന്തോഷ് കുമാറിന്റെ 'തപോമയിയുടെ അച്ഛൻ' എന്ന നോവലിനാണ് 2025-ലെ വയലാർ അവാർഡ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q7 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-08",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "'സ്വർഗ്ഗത്തിലെ കുട്ടികൾ' (Children of Heaven) എന്ന സിനിമയെക്കുറിച്ച് നൽകിയിട്ടുള്ള പ്രസ്താവനകൾ വായിക്കൂ. ശരിയായത് കണ്ടെത്തൂ.\n1: പരമദരിദ്രരായ രണ്ട് കുട്ടികളുടെ കഥ പറയുന്ന സിനിമയാണിത്.\n2: അലിയും സാറയും സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണ്.\n3: 'മാനത്ത് മച്ചോളം തലയെടുത്ത്' എന്ന ഇതിലെ പാട്ട് ഏറെ പ്രസിദ്ധമാണ്.\n4: ഏറെ പ്രിയപ്പെട്ട തങ്ങളുടെ ഷൂ മോഷ്ടിച്ചവരെ കണ്ടെത്തുന്നുണ്ടെങ്കിലും അവരുടെ ദയനീയാവസ്ഥയിൽ മനസ്സലിഞ്ഞ് തിരിച്ച് പോരുന്ന ഹൃദയസ്പർശിയായ കാഴ്ച സിനിമ കാണുന്നവരുടെ മനസ്സിൽ നന്മയുടെ വിത്ത് വിതയ്ക്കും.",
+      "options": [
+        "പ്രസ്താവന 1 ഉം 3 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 2 ഉം 3 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 3 ഉം 4 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 1 ഉം 4 ഉം ശരിയാണ്"
+      ],
+      "hint": "It is an Iranian film. The sister's name is Zahra, and it has no Malayalam song.",
+      "explanation": "Children of Heaven (Iran) is about two very poor children, Ali and his sister Zahra (not Sara), and it has no Malayalam song. So statements 1 and 4 are correct."
+    },
+    "ml": {
+      "question": "'സ്വർഗ്ഗത്തിലെ കുട്ടികൾ' (Children of Heaven) എന്ന സിനിമയെക്കുറിച്ച് നൽകിയിട്ടുള്ള പ്രസ്താവനകൾ വായിക്കൂ. ശരിയായത് കണ്ടെത്തൂ.\n1: പരമദരിദ്രരായ രണ്ട് കുട്ടികളുടെ കഥ പറയുന്ന സിനിമയാണിത്.\n2: അലിയും സാറയും സിനിമയിലെ പ്രധാന കഥാപാത്രങ്ങളാണ്.\n3: 'മാനത്ത് മച്ചോളം തലയെടുത്ത്' എന്ന ഇതിലെ പാട്ട് ഏറെ പ്രസിദ്ധമാണ്.\n4: ഏറെ പ്രിയപ്പെട്ട തങ്ങളുടെ ഷൂ മോഷ്ടിച്ചവരെ കണ്ടെത്തുന്നുണ്ടെങ്കിലും അവരുടെ ദയനീയാവസ്ഥയിൽ മനസ്സലിഞ്ഞ് തിരിച്ച് പോരുന്ന ഹൃദയസ്പർശിയായ കാഴ്ച സിനിമ കാണുന്നവരുടെ മനസ്സിൽ നന്മയുടെ വിത്ത് വിതയ്ക്കും.",
+      "options": [
+        "പ്രസ്താവന 1 ഉം 3 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 2 ഉം 3 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 3 ഉം 4 ഉം ശരിയാണ്",
+        "പ്രസ്താവന 1 ഉം 4 ഉം ശരിയാണ്"
+      ],
+      "hint": "ഇതൊരു ഇറാനിയൻ സിനിമയാണ്. സഹോദരിയുടെ പേര് സഹ്റ എന്നാണ്; മലയാളം പാട്ടുമില്ല.",
+      "explanation": "ഇറാനിയൻ സിനിമയായ ഇതിലെ കുട്ടികൾ അലിയും സഹോദരി സഹ്റയുമാണ് (സാറ അല്ല). മലയാളം പാട്ടുമില്ല. അതിനാൽ 1 ഉം 4 ഉം ആണ് ശരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q8 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-09",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "'തേൻ' എന്ന പദത്തിന് പകരം വരാത്ത പദം ഏത്?",
+      "options": [
+        "മധു",
+        "മരന്ദം",
+        "മകരന്ദം",
+        "മധുപം"
+      ],
+      "hint": "One word means \"the one that drinks honey\".",
+      "explanation": "മധു, മരന്ദം, മകരന്ദം all mean honey. മധുപം means a bee (the one that drinks honey)."
+    },
+    "ml": {
+      "question": "'തേൻ' എന്ന പദത്തിന് പകരം വരാത്ത പദം ഏത്?",
+      "options": [
+        "മധു",
+        "മരന്ദം",
+        "മകരന്ദം",
+        "മധുപം"
+      ],
+      "hint": "ഒരു വാക്കിന്റെ അർത്ഥം \"തേൻ കുടിക്കുന്നത്\" എന്നാണ്.",
+      "explanation": "മധു, മരന്ദം, മകരന്ദം എന്നിവ തേനിന്റെ പര്യായങ്ങൾ. മധുപം എന്നാൽ വണ്ട് (തേൻ കുടിക്കുന്നത്)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q9 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-10",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "ചുവടെ നൽകിയിട്ടുള്ളതിൽ നിഘണ്ടു രൂപത്തിൽ എഴുതിയ ശരിയായ കൂട്ടം ഏത്?",
+      "options": [
+        "ഒപ്പന, ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം",
+        "ഒന്നാംതരം, ഒതേനൻ, ഒട്ടുപടം, ഒപ്പന",
+        "ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം, ഒപ്പന",
+        "ഒപ്പന, ഒന്നാംതരം, ഒതേനൻ, ഒട്ടുപടം"
+      ],
+      "hint": "All start with ഒ. Look at the second letter: ട, ത, ന, പ in alphabet order.",
+      "explanation": "In the alphabet ട comes before ത, then ന, then പ: ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം, ഒപ്പന."
+    },
+    "ml": {
+      "question": "ചുവടെ നൽകിയിട്ടുള്ളതിൽ നിഘണ്ടു രൂപത്തിൽ എഴുതിയ ശരിയായ കൂട്ടം ഏത്?",
+      "options": [
+        "ഒപ്പന, ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം",
+        "ഒന്നാംതരം, ഒതേനൻ, ഒട്ടുപടം, ഒപ്പന",
+        "ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം, ഒപ്പന",
+        "ഒപ്പന, ഒന്നാംതരം, ഒതേനൻ, ഒട്ടുപടം"
+      ],
+      "hint": "എല്ലാം \"ഒ\" യിൽ തുടങ്ങുന്നു. രണ്ടാമത്തെ അക്ഷരം നോക്കൂ: ട, ത, ന, പ.",
+      "explanation": "അക്ഷരമാലയിൽ ട, ത, ന, പ എന്ന ക്രമം: ഒട്ടുപടം, ഒതേനൻ, ഒന്നാംതരം, ഒപ്പന."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q10 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-11",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "തെറ്റായ ജോഡിയെ കണ്ടെത്താൻ ശ്രമിക്കൂ.",
+      "options": [
+        "ഒ.വി. വിജയൻ – അപ്പുക്കിളി",
+        "ടി. പത്മനാഭൻ – ശാരി",
+        "എം.ടി. വാസുദേവൻ നായർ – ഭ്രാന്തൻ വേലായുധൻ",
+        "ബഷീർ – നാരായണി"
+      ],
+      "hint": "Appukkili is from 'Khasakkinte Ithihasam', Narayani from 'Mathilukal'.",
+      "explanation": "Appukkili (O.V. Vijayan), Bhranthan Velayudhan (M.T.) and Narayani (Basheer) are correct pairs. 'Shari' – T. Padmanabhan is the wrong pair."
+    },
+    "ml": {
+      "question": "തെറ്റായ ജോഡിയെ കണ്ടെത്താൻ ശ്രമിക്കൂ.",
+      "options": [
+        "ഒ.വി. വിജയൻ – അപ്പുക്കിളി",
+        "ടി. പത്മനാഭൻ – ശാരി",
+        "എം.ടി. വാസുദേവൻ നായർ – ഭ്രാന്തൻ വേലായുധൻ",
+        "ബഷീർ – നാരായണി"
+      ],
+      "hint": "അപ്പുക്കിളി 'ഖസാക്കിന്റെ ഇതിഹാസ'ത്തിലും നാരായണി 'മതിലുകളി'ലുമാണ്.",
+      "explanation": "അപ്പുക്കിളി (ഒ.വി. വിജയൻ), ഭ്രാന്തൻ വേലായുധൻ (എം.ടി.), നാരായണി (ബഷീർ) എന്നിവ ശരിയായ ജോഡികൾ. ടി. പത്മനാഭൻ – ശാരി ആണ് തെറ്റായ ജോഡി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q11 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-12",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "താഴെക്കൊടുത്തിരിക്കുന്ന പദങ്ങളിൽ വ്യത്യസ്തമായത് ഏത്?",
+      "options": [
+        "ലവലേശം",
+        "പതുക്കെപ്പതുക്കെ",
+        "ഇടയ്ക്കിടെ",
+        "അരിച്ചരിച്ച്"
+      ],
+      "hint": "Three words are made by saying a word twice.",
+      "explanation": "പതുക്കെപ്പതുക്കെ, ഇടയ്ക്കിടെ, അരിച്ചരിച്ച് repeat a word. ലവലേശം (not even a little) does not."
+    },
+    "ml": {
+      "question": "താഴെക്കൊടുത്തിരിക്കുന്ന പദങ്ങളിൽ വ്യത്യസ്തമായത് ഏത്?",
+      "options": [
+        "ലവലേശം",
+        "പതുക്കെപ്പതുക്കെ",
+        "ഇടയ്ക്കിടെ",
+        "അരിച്ചരിച്ച്"
+      ],
+      "hint": "മൂന്നു വാക്കുകൾ ഒരു വാക്ക് ആവർത്തിച്ച് ഉണ്ടായവയാണ്.",
+      "explanation": "പതുക്കെപ്പതുക്കെ, ഇടയ്ക്കിടെ, അരിച്ചരിച്ച് എന്നിവ ആവർത്തനത്തിലൂടെ ഉണ്ടായവ. ലവലേശം അങ്ങനെയല്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q12 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-13",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "യാത്ര നൽകുന്ന അനുഭവങ്ങളിൽ ഉൾപ്പെടാത്തത് ഏത്?",
+      "options": [
+        "മടുപ്പ്",
+        "അനുഭൂതി",
+        "വിസ്മയം",
+        "അറിവ്"
+      ],
+      "hint": "Which one is a bad feeling?",
+      "explanation": "Travel gives joy (അനുഭൂതി), wonder (വിസ്മയം) and knowledge (അറിവ്) – not boredom (മടുപ്പ്)."
+    },
+    "ml": {
+      "question": "യാത്ര നൽകുന്ന അനുഭവങ്ങളിൽ ഉൾപ്പെടാത്തത് ഏത്?",
+      "options": [
+        "മടുപ്പ്",
+        "അനുഭൂതി",
+        "വിസ്മയം",
+        "അറിവ്"
+      ],
+      "hint": "ഇതിൽ ഏതാണ് ഒരു മോശം അനുഭവം?",
+      "explanation": "യാത്ര അനുഭൂതിയും വിസ്മയവും അറിവും നൽകുന്നു; മടുപ്പ് അല്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q13 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-15",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "'ആദ്യത്തിലാരാൽ പുകപോലെ' – 'ആരാൽ' എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നതെന്ത്?",
+      "options": [
+        "ആര്",
+        "ആരെ",
+        "അകലെ",
+        "മറ്റുള്ളവ"
+      ],
+      "hint": "Here ആരാൽ is not about a person; it tells a place.",
+      "explanation": "In this line ആരാൽ means \"far away\" (അകലെ) – at first it is seen far away, like smoke."
+    },
+    "ml": {
+      "question": "'ആദ്യത്തിലാരാൽ പുകപോലെ' – 'ആരാൽ' എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നതെന്ത്?",
+      "options": [
+        "ആര്",
+        "ആരെ",
+        "അകലെ",
+        "മറ്റുള്ളവ"
+      ],
+      "hint": "ഇവിടെ ആരാൽ ഒരാളെക്കുറിച്ചല്ല, ഒരു സ്ഥലത്തെക്കുറിച്ചാണ്.",
+      "explanation": "ഇവിടെ \"ആരാൽ\" എന്നതിന് \"അകലെ\" എന്നാണ് അർത്ഥം — ആദ്യം അകലെ പുക പോലെ കാണുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q15 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-17",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "'മട' എന്ന പദത്തിന് സമാനമായ പദം താഴെകൊടുത്തവയിൽ നിന്ന് തെരഞ്ഞെടുക്കൂ.",
+      "options": [
+        "മാളം",
+        "വീട്",
+        "കാട്",
+        "കൂട്"
+      ],
+      "hint": "Rats and snakes live in it.",
+      "explanation": "മട means a burrow or hole where rats and snakes live – the same as മാളം."
+    },
+    "ml": {
+      "question": "'മട' എന്ന പദത്തിന് സമാനമായ പദം താഴെകൊടുത്തവയിൽ നിന്ന് തെരഞ്ഞെടുക്കൂ.",
+      "options": [
+        "മാളം",
+        "വീട്",
+        "കാട്",
+        "കൂട്"
+      ],
+      "hint": "എലിയും പാമ്പും താമസിക്കുന്ന ഇടം.",
+      "explanation": "മട എന്നാൽ എലിയും പാമ്പും കഴിയുന്ന മാളം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q17 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-18",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "വിശ്വന്റെ 'ഗ്രാമമഴ' എന്ന കവിതയിലെ വരികൾ:\n'അതികഠിനം വേനൽച്ചൂടിൽ\nഎരിപൊരി കൊണ്ട് കഴിഞ്ഞോർക്ക്\nപെരുമഴ സുഖദം കുളിർമഴയായ്'\nവേനൽച്ചൂടിന്റെ കാഠിന്യത്തെ സൂചിപ്പിക്കാൻ കവിതയിൽ ചേർത്തിരിക്കുന്ന ശൈലിയേത്?",
+      "options": [
+        "കിടുകിടെ വിറച്ചു",
+        "എരിപൊരി കൊണ്ടു",
+        "വേദന കൊണ്ടു പുളഞ്ഞു",
+        "കുളിർമഴയായി"
+      ],
+      "hint": "Find the phrase that sits right next to \"വേനൽച്ചൂടിൽ\".",
+      "explanation": "എരിപൊരി കൊള്ളുക means to suffer badly from heat – it shows how hard the summer was."
+    },
+    "ml": {
+      "question": "വിശ്വന്റെ 'ഗ്രാമമഴ' എന്ന കവിതയിലെ വരികൾ:\n'അതികഠിനം വേനൽച്ചൂടിൽ\nഎരിപൊരി കൊണ്ട് കഴിഞ്ഞോർക്ക്\nപെരുമഴ സുഖദം കുളിർമഴയായ്'\nവേനൽച്ചൂടിന്റെ കാഠിന്യത്തെ സൂചിപ്പിക്കാൻ കവിതയിൽ ചേർത്തിരിക്കുന്ന ശൈലിയേത്?",
+      "options": [
+        "കിടുകിടെ വിറച്ചു",
+        "എരിപൊരി കൊണ്ടു",
+        "വേദന കൊണ്ടു പുളഞ്ഞു",
+        "കുളിർമഴയായി"
+      ],
+      "hint": "\"വേനൽച്ചൂടിൽ\" എന്നതിന് തൊട്ടടുത്തുള്ള പ്രയോഗം നോക്കൂ.",
+      "explanation": "എരിപൊരി കൊള്ളുക = ചൂടുകൊണ്ട് വല്ലാതെ വിഷമിക്കുക. വേനലിന്റെ കാഠിന്യം കാണിക്കുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q18 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-19",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "'ഗ്രാമമഴ' എന്ന കവിതയിലെ വരികൾ:\n'ഇലകളിൽ മഴയുടെ മോഹനനൃത്തം\nഇടിയുടെ മേളം കാറ്റിന്നീണം'\nമഴയുടെ വ്യത്യസ്ത ഭാവങ്ങളായി ഇവിടെ പറയുന്നത് എന്തെല്ലാമാണ്?\n1: ഇലകളിൽ മഴയുടെ മോഹന നൃത്തം\n2: ഇടിയുടെ മേളം\n3: കാറ്റിന്റെ ഈണം",
+      "options": [
+        "ഒന്നും രണ്ടും ശരി",
+        "രണ്ടും മൂന്നും ശരി",
+        "ഒന്നും മൂന്നും ശരി",
+        "എല്ലാം ശരി"
+      ],
+      "hint": "Check each of the three in the two lines.",
+      "explanation": "All three – the dance on the leaves, the drumming of thunder and the tune of the wind – are in the lines."
+    },
+    "ml": {
+      "question": "'ഗ്രാമമഴ' എന്ന കവിതയിലെ വരികൾ:\n'ഇലകളിൽ മഴയുടെ മോഹനനൃത്തം\nഇടിയുടെ മേളം കാറ്റിന്നീണം'\nമഴയുടെ വ്യത്യസ്ത ഭാവങ്ങളായി ഇവിടെ പറയുന്നത് എന്തെല്ലാമാണ്?\n1: ഇലകളിൽ മഴയുടെ മോഹന നൃത്തം\n2: ഇടിയുടെ മേളം\n3: കാറ്റിന്റെ ഈണം",
+      "options": [
+        "ഒന്നും രണ്ടും ശരി",
+        "രണ്ടും മൂന്നും ശരി",
+        "ഒന്നും മൂന്നും ശരി",
+        "എല്ലാം ശരി"
+      ],
+      "hint": "മൂന്നും ആ രണ്ടു വരികളിൽ ഉണ്ടോ എന്ന് നോക്കൂ.",
+      "explanation": "ഇലകളിലെ നൃത്തം, ഇടിയുടെ മേളം, കാറ്റിന്റെ ഈണം — മൂന്നും വരികളിലുണ്ട്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q19 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-21",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "'രാപകൽ' എന്ന പദം വിഗ്രഹിച്ചെഴുതിയാൽ ഏറ്റവും ശരിയായത് ഏത്?",
+      "options": [
+        "രാവിലത്തെ പകൽ",
+        "രാവിന്റെ പകൽ",
+        "രാവും പകലും",
+        "രാവ് കഴിഞ്ഞുള്ള പകൽ"
+      ],
+      "hint": "Both parts are equally important here.",
+      "explanation": "രാപകൽ = രാവും പകലും (night and day) – both words are joined with \"and\" (dvandva samāsam)."
+    },
+    "ml": {
+      "question": "'രാപകൽ' എന്ന പദം വിഗ്രഹിച്ചെഴുതിയാൽ ഏറ്റവും ശരിയായത് ഏത്?",
+      "options": [
+        "രാവിലത്തെ പകൽ",
+        "രാവിന്റെ പകൽ",
+        "രാവും പകലും",
+        "രാവ് കഴിഞ്ഞുള്ള പകൽ"
+      ],
+      "hint": "ഇവിടെ രണ്ടു പദങ്ങൾക്കും ഒരേ പ്രാധാന്യമാണ്.",
+      "explanation": "രാപകൽ = രാവും പകലും (ദ്വന്ദ്വസമാസം)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q21 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-22",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "'ചെണ്ട കൊട്ടിക്കുക' എന്ന ശൈലിയോട് യോജിക്കാത്ത വാക്യമേത്?",
+      "options": [
+        "ആരെയും കളിയാക്കുന്നത് നന്നല്ല",
+        "മറ്റുള്ളവരെ സ്നേഹിക്കുകയാണ് വേണ്ടത്",
+        "ക്ലാസിൽ അവനെ എല്ലാവരും പരിഹസിക്കും",
+        "മറ്റുള്ളവരെ കളിയാക്കുന്ന ശീലം നാം ഒഴിവാക്കണം."
+      ],
+      "hint": "ചെണ്ട കൊട്ടിക്കുക means to make fun of someone.",
+      "explanation": "The idiom means to mock or make a fool of someone. \"We should love others\" has nothing to do with mocking."
+    },
+    "ml": {
+      "question": "'ചെണ്ട കൊട്ടിക്കുക' എന്ന ശൈലിയോട് യോജിക്കാത്ത വാക്യമേത്?",
+      "options": [
+        "ആരെയും കളിയാക്കുന്നത് നന്നല്ല",
+        "മറ്റുള്ളവരെ സ്നേഹിക്കുകയാണ് വേണ്ടത്",
+        "ക്ലാസിൽ അവനെ എല്ലാവരും പരിഹസിക്കും",
+        "മറ്റുള്ളവരെ കളിയാക്കുന്ന ശീലം നാം ഒഴിവാക്കണം."
+      ],
+      "hint": "ചെണ്ട കൊട്ടിക്കുക = കളിയാക്കുക, പരിഹസിക്കുക.",
+      "explanation": "ചെണ്ട കൊട്ടിക്കുക എന്നാൽ പരിഹസിക്കുക. \"മറ്റുള്ളവരെ സ്നേഹിക്കുകയാണ് വേണ്ടത്\" എന്നതിന് ഈ ആശയവുമായി ബന്ധമില്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q22 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-23",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "'കൊത്തിയെടുത്ത്' എന്നത് പിരിച്ചെഴുതിയാൽ",
+      "options": [
+        "കൊത്തിയ + എടുത്ത്",
+        "കൊത്തി + യെടുത്ത്",
+        "കൊത്തിയത് + എടുത്ത്",
+        "കൊത്തി + എടുത്ത്"
+      ],
+      "hint": "The യ് appears only when the two words join.",
+      "explanation": "കൊത്തി + എടുത്ത് = കൊത്തിയെടുത്ത്; the യ് comes in while joining (āgama sandhi)."
+    },
+    "ml": {
+      "question": "'കൊത്തിയെടുത്ത്' എന്നത് പിരിച്ചെഴുതിയാൽ",
+      "options": [
+        "കൊത്തിയ + എടുത്ത്",
+        "കൊത്തി + യെടുത്ത്",
+        "കൊത്തിയത് + എടുത്ത്",
+        "കൊത്തി + എടുത്ത്"
+      ],
+      "hint": "രണ്ടു പദങ്ങൾ ചേരുമ്പോഴാണ് \"യ്\" വരുന്നത്.",
+      "explanation": "കൊത്തി + എടുത്ത് = കൊത്തിയെടുത്ത് (യ് ആഗമിക്കുന്നു)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q23 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-25",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'ഫാത്തിമത്തുരുത്തിൽ' ആരോടൊപ്പം പാടാനാണ് കവി ആഗ്രഹിക്കുന്നത്?",
+      "options": [
+        "പൂക്കളോടൊപ്പം",
+        "കൊപ്ലിമീനിനൊപ്പം",
+        "രാത്രി കാലത്തു പാടുന്ന കിളിയോടൊപ്പം",
+        "പൂച്ചകൾക്കൊപ്പം"
+      ],
+      "hint": "Think of a bird that sings at night.",
+      "explanation": "In this poem the poet wishes to sing along with the bird that sings at night."
+    },
+    "ml": {
+      "question": "'ഫാത്തിമത്തുരുത്തിൽ' ആരോടൊപ്പം പാടാനാണ് കവി ആഗ്രഹിക്കുന്നത്?",
+      "options": [
+        "പൂക്കളോടൊപ്പം",
+        "കൊപ്ലിമീനിനൊപ്പം",
+        "രാത്രി കാലത്തു പാടുന്ന കിളിയോടൊപ്പം",
+        "പൂച്ചകൾക്കൊപ്പം"
+      ],
+      "hint": "രാത്രിയിൽ പാടുന്ന ഒരു കിളിയെ ഓർക്കൂ.",
+      "explanation": "രാത്രികാലത്തു പാടുന്ന കിളിയോടൊപ്പം പാടാനാണ് കവി ആഗ്രഹിക്കുന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q25 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-26",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "'തുമ്മാൻ ചെരുതി, യുടുപുടവത്തുമ്പ്' – തുമ്മാൻ എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നത്",
+      "options": [
+        "തുമ്മുക",
+        "വെറ്റില മുറുക്കാൻ",
+        "ലഘുഭക്ഷണപദാർത്ഥം",
+        "പിരിയോല"
+      ],
+      "hint": "It is kept tucked in the end of the cloth – something old people chew.",
+      "explanation": "Here തുമ്മാൻ means the betel chew (വെറ്റില മുറുക്കാൻ) kept tucked in the end of the cloth."
+    },
+    "ml": {
+      "question": "'തുമ്മാൻ ചെരുതി, യുടുപുടവത്തുമ്പ്' – തുമ്മാൻ എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നത്",
+      "options": [
+        "തുമ്മുക",
+        "വെറ്റില മുറുക്കാൻ",
+        "ലഘുഭക്ഷണപദാർത്ഥം",
+        "പിരിയോല"
+      ],
+      "hint": "മുണ്ടിന്റെ തുമ്പിൽ കെട്ടിവെക്കുന്ന, പ്രായമായവർ ചവയ്ക്കുന്ന ഒന്ന്.",
+      "explanation": "ഇവിടെ തുമ്മാൻ എന്നാൽ വെറ്റില മുറുക്കാൻ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q26 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-27",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "കുമ്മാട്ടിയിൽ ഏതു രൂപത്തിനാണ് വാഴച്ചപ്പു കൊണ്ട് വേഷം കെട്ടുന്നത്?",
+      "options": [
+        "പന്നി",
+        "തള്ള",
+        "ഹനുമാൻ",
+        "കൃഷ്ണൻ"
+      ],
+      "hint": "It is an animal character.",
+      "explanation": "In Kummattikali, the pig (പന്നി) character is dressed in dried banana leaves (വാഴച്ചപ്പ്)."
+    },
+    "ml": {
+      "question": "കുമ്മാട്ടിയിൽ ഏതു രൂപത്തിനാണ് വാഴച്ചപ്പു കൊണ്ട് വേഷം കെട്ടുന്നത്?",
+      "options": [
+        "പന്നി",
+        "തള്ള",
+        "ഹനുമാൻ",
+        "കൃഷ്ണൻ"
+      ],
+      "hint": "ഇതൊരു മൃഗവേഷമാണ്.",
+      "explanation": "കുമ്മാട്ടിക്കളിയിൽ പന്നിയുടെ വേഷമാണ് വാഴച്ചപ്പു കൊണ്ട് കെട്ടുന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q27 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-28",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "പുറംമോടി കാണിക്കുന്നതുമായി ബന്ധപ്പെട്ട പഴഞ്ചൊല്ല് താഴെ കൊടുത്തതിൽ ഏതാണ്?",
+      "options": [
+        "അഴകുള്ള ചക്കയിൽ ചുളയില്ല",
+        "വേണമെങ്കിൽ ചക്ക വേരിലും കായ്ക്കും",
+        "വിത്താഴം ചെന്നാൽ പത്തായം നിറയും",
+        "പഴഞ്ചൊല്ലിൽ പതിരില്ല"
+      ],
+      "hint": "Something looks good outside but is empty inside.",
+      "explanation": "\"A beautiful jackfruit has no pulp\" – outer beauty does not mean real value inside."
+    },
+    "ml": {
+      "question": "പുറംമോടി കാണിക്കുന്നതുമായി ബന്ധപ്പെട്ട പഴഞ്ചൊല്ല് താഴെ കൊടുത്തതിൽ ഏതാണ്?",
+      "options": [
+        "അഴകുള്ള ചക്കയിൽ ചുളയില്ല",
+        "വേണമെങ്കിൽ ചക്ക വേരിലും കായ്ക്കും",
+        "വിത്താഴം ചെന്നാൽ പത്തായം നിറയും",
+        "പഴഞ്ചൊല്ലിൽ പതിരില്ല"
+      ],
+      "hint": "പുറമേ ഭംഗിയുണ്ട്, അകത്ത് ഒന്നുമില്ല.",
+      "explanation": "അഴകുള്ള ചക്കയിൽ ചുളയില്ല — പുറംഭംഗി ഉള്ളതുകൊണ്ട് ഉള്ളിൽ ഗുണമുണ്ടാകണമെന്നില്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q28 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-29",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "എയ്സൽ കൊച്ചുമോൻ ഏതു കാർഷിക മേഖലയിലാണ് പ്രശസ്തി കൈവരിച്ചത്?",
+      "options": [
+        "മീൻ കൃഷി",
+        "റബ്ബർ",
+        "പച്ചക്കറി",
+        "നാളീകേരം"
+      ],
+      "hint": "Think of a kitchen garden.",
+      "explanation": "Aysal Kochumon became well known for vegetable farming (പച്ചക്കറി)."
+    },
+    "ml": {
+      "question": "എയ്സൽ കൊച്ചുമോൻ ഏതു കാർഷിക മേഖലയിലാണ് പ്രശസ്തി കൈവരിച്ചത്?",
+      "options": [
+        "മീൻ കൃഷി",
+        "റബ്ബർ",
+        "പച്ചക്കറി",
+        "നാളീകേരം"
+      ],
+      "hint": "അടുക്കളത്തോട്ടം ഓർക്കൂ.",
+      "explanation": "എയ്സൽ കൊച്ചുമോൻ പച്ചക്കറി കൃഷിയിലാണ് പ്രശസ്തനായത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q29 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAL-30",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "തൊട്ടാൽ കട്ടിക്കാരൻ\nകട്ടിക്കുള്ളിൽ ചുവപ്പ് മെത്ത\nമെത്തക്കുള്ളിൽ പൂന്തേനാണേ\nപൂന്തേനൊപ്പം ഉണ്ണികളുണ്ടേ\nഈ കടങ്കഥയുടെ ഉത്തരം ചുവടെ നൽകിയിട്ടുള്ളതിൽ ഏതാണ്?",
+      "options": [
+        "മാമ്പഴം",
+        "തണ്ണിമത്തൻ",
+        "മുന്തിരി",
+        "ആപ്പിൾ"
+      ],
+      "hint": "Hard outside, red and sweet inside, with many seeds.",
+      "explanation": "A watermelon has a hard rind, a red juicy inside, and seeds (the \"little ones\")."
+    },
+    "ml": {
+      "question": "തൊട്ടാൽ കട്ടിക്കാരൻ\nകട്ടിക്കുള്ളിൽ ചുവപ്പ് മെത്ത\nമെത്തക്കുള്ളിൽ പൂന്തേനാണേ\nപൂന്തേനൊപ്പം ഉണ്ണികളുണ്ടേ\nഈ കടങ്കഥയുടെ ഉത്തരം ചുവടെ നൽകിയിട്ടുള്ളതിൽ ഏതാണ്?",
+      "options": [
+        "മാമ്പഴം",
+        "തണ്ണിമത്തൻ",
+        "മുന്തിരി",
+        "ആപ്പിൾ"
+      ],
+      "hint": "പുറം കട്ടി, ഉള്ളിൽ ചുവപ്പും മധുരവും, നിറയെ കുരുക്കളും.",
+      "explanation": "തണ്ണിമത്തന് പുറംതോട് കട്ടിയാണ്, ഉള്ളിൽ ചുവന്ന മധുരമുള്ള ഭാഗവും കുരുക്കളും (ഉണ്ണികൾ)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q30 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-32",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "2½ times 8 means:\ni) the sum of 2 times 8 and half of 8\nii) 5 times half of 8\niii) half of 5 times 8\niv) 8 times 5/2",
+      "options": [
+        "All are correct",
+        "Only i, ii are correct",
+        "Only ii, iii, iv are correct",
+        "Only ii, iv are correct"
+      ],
+      "hint": "Work out each one. Is each equal to 20?",
+      "explanation": "2½ × 8 = 20. i) 16 + 4 = 20, ii) 5 × 4 = 20, iii) 40 ÷ 2 = 20, iv) 8 × 5/2 = 20. All are correct."
+    },
+    "ml": {
+      "question": "8 ന്റെ 2½ മടങ്ങ് എന്നാൽ, താഴെപ്പറയുന്നതിൽ ഏതാണ് ശരി?\ni) 8 ന്റെ ഇരട്ടിയും 8 ന്റെ പകുതിയും ചേർന്നതാണ്.\nii) 8 ന്റെ പകുതിയുടെ 5 മടങ്ങാണ്.\niii) 8 ന്റെ 5 മടങ്ങിന്റെ പകുതിയാണ്.\niv) 5/2 ന്റെ 8 മടങ്ങാണ്.",
+      "options": [
+        "എല്ലാം ശരി",
+        "i, ii",
+        "ii, iii, iv",
+        "ii, iv"
+      ],
+      "hint": "ഓരോന്നും കണക്കാക്കൂ. എല്ലാം 20 ആണോ?",
+      "explanation": "2½ × 8 = 20. i) 16 + 4 = 20, ii) 5 × 4 = 20, iii) 40 ÷ 2 = 20, iv) 5/2 × 8 = 20. എല്ലാം ശരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q32 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-33",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "27 litres of milk is filled equally in 6 big bottles. The milk in one big bottle is filled equally in 5 small bottles. How much milk is in one small bottle?",
+      "options": [
+        "9 litres",
+        "90 ml",
+        "900 ml",
+        "0.9 ml"
+      ],
+      "hint": "First find the milk in one big bottle: 27 ÷ 6.",
+      "explanation": "27 ÷ 6 = 4.5 litres in a big bottle. 4.5 ÷ 5 = 0.9 litre = 900 ml."
+    },
+    "ml": {
+      "question": "27 ലിറ്റർ പാൽ 6 വലിയ കുപ്പികളിൽ തുല്യമായി നിറച്ചു. ഒരു വലിയ കുപ്പിയിലെ പാൽ 5 ചെറിയ കുപ്പികളിൽ തുല്യമായി നിറച്ചു. ചെറിയ കുപ്പിയിലെ പാലിന്റെ അളവ് എത്ര?",
+      "options": [
+        "9 ലിറ്റർ",
+        "90 മില്ലിലിറ്റർ",
+        "900 മില്ലിലിറ്റർ",
+        "0.9 മില്ലിലിറ്റർ"
+      ],
+      "hint": "ആദ്യം ഒരു വലിയ കുപ്പിയിലെ പാൽ: 27 ÷ 6.",
+      "explanation": "27 ÷ 6 = 4.5 ലിറ്റർ. 4.5 ÷ 5 = 0.9 ലിറ്റർ = 900 മില്ലിലിറ്റർ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q33 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-34",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "If the ratio of selling price to profit is 7 : 2, what is the profit percentage?",
+      "options": [
+        "20%",
+        "40%",
+        "30%",
+        "None of these"
+      ],
+      "hint": "Cost price = selling price − profit.",
+      "explanation": "Take SP = 7 and profit = 2. Then CP = 7 − 2 = 5. Profit % = 2/5 × 100 = 40%."
+    },
+    "ml": {
+      "question": "ഒരു വസ്തുവിന്റെ വിറ്റവിലയും ലാഭവും തമ്മിലുള്ള അംശബന്ധം 7 : 2 ആണ്. എങ്കിൽ ലാഭ ശതമാനം എത്ര?",
+      "options": [
+        "20%",
+        "40%",
+        "30%",
+        "ഇതൊന്നുമല്ല"
+      ],
+      "hint": "വാങ്ങിയ വില = വിറ്റവില − ലാഭം.",
+      "explanation": "വിറ്റവില 7, ലാഭം 2 എങ്കിൽ വാങ്ങിയ വില 5. ലാഭ ശതമാനം = 2/5 × 100 = 40%."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q34 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-35",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "What is the sum of the natural numbers below 101 which are not exactly divisible by 9?",
+      "options": [
+        "4546",
+        "4564",
+        "5446",
+        "4456"
+      ],
+      "hint": "Sum of 1 to 100 is 5050. Take away the multiples of 9.",
+      "explanation": "1 + 2 + … + 100 = 5050. Multiples of 9: 9 + 18 + … + 99 = 9 × 66 = 594. 5050 − 594 = 4456."
+    },
+    "ml": {
+      "question": "101 ൽ താഴെയുള്ള എണ്ണൽസംഖ്യകളിൽ 9 കൊണ്ട് പൂർണ്ണമായി ഹരിക്കാൻ കഴിയാത്ത സംഖ്യകളുടെ തുകയെത്ര?",
+      "options": [
+        "4546",
+        "4564",
+        "5446",
+        "4456"
+      ],
+      "hint": "1 മുതൽ 100 വരെയുള്ള തുക 5050. 9 ന്റെ ഗുണിതങ്ങൾ കുറയ്ക്കൂ.",
+      "explanation": "1 + 2 + … + 100 = 5050. 9 + 18 + … + 99 = 9 × 66 = 594. 5050 − 594 = 4456."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q35 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-36",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "What comes next in the series?\nAJM, CKO, EMQ, GPS, ……",
+      "options": [
+        "ITV",
+        "HTU",
+        "IUV",
+        "ITU"
+      ],
+      "hint": "Look at the 1st letters, 2nd letters and 3rd letters separately.",
+      "explanation": "1st letters: A, C, E, G, I (+2). 2nd letters: J, K, M, P, T (+1, +2, +3, +4). 3rd letters: M, O, Q, S, U (+2). So ITU."
+    },
+    "ml": {
+      "question": "ശ്രേണിയിൽ അടുത്തത് ഏത്?\nAJM, CKO, EMQ, GPS, ……",
+      "options": [
+        "ITV",
+        "HTU",
+        "IUV",
+        "ITU"
+      ],
+      "hint": "ഒന്നാം അക്ഷരങ്ങൾ, രണ്ടാം അക്ഷരങ്ങൾ, മൂന്നാം അക്ഷരങ്ങൾ എന്നിവ വേറെ വേറെ നോക്കൂ.",
+      "explanation": "ഒന്നാമത്: A, C, E, G, I (+2). രണ്ടാമത്: J, K, M, P, T (+1, +2, +3, +4). മൂന്നാമത്: M, O, Q, S, U (+2). ഉത്തരം ITU."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q36 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-37",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which of these can be the sides of a right-angled triangle?\ni) 3 cm, 5 cm, 4 cm\nii) 12 cm, 5 cm, 13 cm\niii) 9 cm, 7 cm, 14 cm\niv) 15 cm, 25 cm, 20 cm",
+      "options": [
+        "i, ii, iii",
+        "iii, iv",
+        "i, ii, iv",
+        "i, iii and iv"
+      ],
+      "hint": "Square of the longest side = sum of squares of the other two.",
+      "explanation": "3² + 4² = 25 = 5², 5² + 12² = 169 = 13², 15² + 20² = 625 = 25². But 7² + 9² = 130, not 14² = 196. So i, ii, iv."
+    },
+    "ml": {
+      "question": "തന്നിരിക്കുന്ന അളവുകളിൽ മട്ടത്രികോണത്തിന്റെ വശങ്ങളുടെ അളവുകൾ ഏത്?\ni) 3 സെ.മീ., 5 സെ.മീ., 4 സെ.മീ.\nii) 12 സെ.മീ., 5 സെ.മീ., 13 സെ.മീ.\niii) 9 സെ.മീ., 7 സെ.മീ., 14 സെ.മീ.\niv) 15 സെ.മീ., 25 സെ.മീ., 20 സെ.മീ.",
+      "options": [
+        "i, ii, iii",
+        "iii, iv",
+        "i, ii, iv",
+        "i, iii, iv"
+      ],
+      "hint": "ഏറ്റവും വലിയ വശത്തിന്റെ വർഗം = മറ്റു രണ്ടിന്റെയും വർഗങ്ങളുടെ തുക.",
+      "explanation": "3² + 4² = 5², 5² + 12² = 13², 15² + 20² = 25². എന്നാൽ 7² + 9² = 130, 14² = 196 അല്ല. അതിനാൽ i, ii, iv."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q37 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-38",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Beena and Seena got an average of 75 marks in an exam. Seena scored 82 marks. Which statements are correct?\ni) Beena's mark is 68\nii) Seena scored 14 marks more than Beena\niii) The total marks of both is 150\niv) Beena's mark is 78",
+      "options": [
+        "i, ii, iv are correct",
+        "Only i is correct",
+        "i, ii, iii are correct",
+        "All are correct"
+      ],
+      "hint": "Average 75 for 2 people means the total is 150.",
+      "explanation": "Total = 75 × 2 = 150. Beena = 150 − 82 = 68. 82 − 68 = 14. So i, ii, iii are correct; iv is wrong."
+    },
+    "ml": {
+      "question": "ബീനയ്ക്കും സീനയ്ക്കും കൂടി ഒരു മത്സരപ്പരീക്ഷയിൽ ലഭിച്ച ശരാശരി മാർക്ക് 75 ആണ്. സീനയ്ക്ക് ലഭിച്ചത് 82 മാർക്ക് ആണ്. ശരിയായ പ്രസ്താവനകൾ ഏതെല്ലാം?\ni) ബീനയുടെ മാർക്ക് 68 ആണ്.\nii) സീനയ്ക്ക് ബീനയെക്കാൾ 14 മാർക്ക് കൂടുതലുണ്ട്.\niii) ഇരുവരുടെയും ആകെ മാർക്ക് 150 ആണ്.\niv) ബീനയ്ക്ക് 78 മാർക്കുണ്ട്.",
+      "options": [
+        "i, ii, iv ശരി; iii തെറ്റ്",
+        "i ശരി; ii, iii, iv തെറ്റ്",
+        "i, ii, iii ശരി; iv തെറ്റ്",
+        "എല്ലാം ശരി"
+      ],
+      "hint": "രണ്ടു പേരുടെ ശരാശരി 75 എങ്കിൽ ആകെ 150.",
+      "explanation": "ആകെ = 75 × 2 = 150. ബീന = 150 − 82 = 68. 82 − 68 = 14. അതിനാൽ i, ii, iii ശരി; iv തെറ്റ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q38 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-40",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "A rectangle has length 5.4 cm and breadth 2.4 cm. A square has the same area as the rectangle. What is the side of the square?",
+      "options": [
+        "36 cm",
+        "32 cm",
+        "3.2 cm",
+        "3.6 cm"
+      ],
+      "hint": "Area of the rectangle = 5.4 × 2.4. Then find its square root.",
+      "explanation": "5.4 × 2.4 = 12.96 sq cm. √12.96 = 3.6, so the side is 3.6 cm."
+    },
+    "ml": {
+      "question": "5.4 സെ.മീ. നീളവും 2.4 സെ.മീ. വീതിയുമുള്ള ഒരു ചതുരത്തിന്റെ പരപ്പളവിന് തുല്യ പരപ്പളവുള്ള ഒരു സമചതുരത്തിന്റെ ഒരു വശം എത്ര?",
+      "options": [
+        "36 സെ.മീ.",
+        "32 സെ.മീ.",
+        "3.2 സെ.മീ.",
+        "3.6 സെ.മീ."
+      ],
+      "hint": "ചതുരത്തിന്റെ പരപ്പളവ് = 5.4 × 2.4. അതിന്റെ വർഗമൂലം കാണൂ.",
+      "explanation": "5.4 × 2.4 = 12.96 ച.സെ.മീ. √12.96 = 3.6. വശം 3.6 സെ.മീ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q40 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-41",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "In 3¹ + 3² + 3³ + 3⁴ + 3⁵ + … + 3¹⁰⁰, what is the digit in the ones place of the sum?",
+      "options": [
+        "3",
+        "0",
+        "7",
+        "9"
+      ],
+      "hint": "Ones digits of powers of 3 repeat: 3, 9, 7, 1.",
+      "explanation": "Each group of four (3 + 9 + 7 + 1 = 20) ends in 0. 100 terms = 25 such groups, so the ones digit is 0."
+    },
+    "ml": {
+      "question": "3¹ + 3² + 3³ + 3⁴ + 3⁵ + … + 3¹⁰⁰ ന്റെ ഒറ്റയുടെ സ്ഥാനത്തെ അക്കം ഏത്?",
+      "options": [
+        "3",
+        "0",
+        "7",
+        "9"
+      ],
+      "hint": "3 ന്റെ കൃതികളുടെ ഒറ്റയുടെ അക്കം 3, 9, 7, 1 എന്ന് ആവർത്തിക്കുന്നു.",
+      "explanation": "ഓരോ നാലെണ്ണത്തിന്റെയും തുക (3 + 9 + 7 + 1 = 20) 0 ൽ അവസാനിക്കുന്നു. 100 പദങ്ങൾ = 25 കൂട്ടം. ഒറ്റയുടെ അക്കം 0."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q41 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-44",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "If the length of a rectangle is increased by 50% but the breadth is decreased by 50%, what will be the change in its area?",
+      "options": [
+        "Increase 25%",
+        "Decrease 25%",
+        "Increase 50%",
+        "No change"
+      ],
+      "hint": "Try length 10 and breadth 10.",
+      "explanation": "New area = 1.5 × 0.5 = 0.75 of the old area, so it decreases by 25%."
+    },
+    "ml": {
+      "question": "ഒരു ചതുരത്തിന്റെ നീളം 50% കൂട്ടി, വീതി 50% കുറച്ചാൽ പരപ്പളവ് എത്ര ശതമാനം മാറും?",
+      "options": [
+        "25% കൂടും",
+        "25% കുറയും",
+        "50% കൂടും",
+        "മാറ്റം വരില്ല"
+      ],
+      "hint": "നീളം 10, വീതി 10 എന്നെടുത്തു നോക്കൂ.",
+      "explanation": "പുതിയ പരപ്പളവ് = 1.5 × 0.5 = പഴയതിന്റെ 0.75. അതായത് 25% കുറയും."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q44 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-45",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which of these sets of lengths can form a triangle?\ni) 5.5 cm, 6.5 cm, 12 cm\nii) 2 cm, 3 cm, 4 cm\niii) 9.5 cm, 4.5 cm, 4 cm\niv) 6 cm, 6 cm, 6 cm",
+      "options": [
+        "i, iii",
+        "ii, iv",
+        "i, iv",
+        "ii, iii"
+      ],
+      "hint": "The two shorter sides together must be longer than the longest side.",
+      "explanation": "i) 5.5 + 6.5 = 12, not more than 12. iii) 4.5 + 4 = 8.5, less than 9.5. ii) and iv) work."
+    },
+    "ml": {
+      "question": "ചുവടെ നൽകിയിരിക്കുന്ന കൂട്ടങ്ങളിൽ ത്രികോണം നിർമ്മിക്കാൻ കഴിയുന്ന അളവുകൾ ഏതൊക്കെയാണ്?\ni) 5.5 സെ.മീ., 6.5 സെ.മീ., 12 സെ.മീ.\nii) 2 സെ.മീ., 3 സെ.മീ., 4 സെ.മീ.\niii) 9.5 സെ.മീ., 4.5 സെ.മീ., 4 സെ.മീ.\niv) 6 സെ.മീ., 6 സെ.മീ., 6 സെ.മീ.",
+      "options": [
+        "i ഉം iii ഉം",
+        "ii ഉം iv ഉം",
+        "i ഉം iv ഉം",
+        "ii ഉം iii ഉം"
+      ],
+      "hint": "ചെറിയ രണ്ടു വശങ്ങളുടെ തുക വലിയ വശത്തെക്കാൾ കൂടുതലാകണം.",
+      "explanation": "i) 5.5 + 6.5 = 12, 12 നെക്കാൾ കൂടുതലല്ല. iii) 4.5 + 4 = 8.5 < 9.5. ii, iv ശരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q45 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-46",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "What is the smallest number by which 578 should be multiplied to make it a perfect square?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "hint": "Break 578 into prime factors.",
+      "explanation": "578 = 2 × 17 × 17. The 2 has no pair, so multiply by 2: 1156 = 34²."
+    },
+    "ml": {
+      "question": "578 നെ ഏറ്റവും ചെറിയ ഏത് സംഖ്യ കൊണ്ട് ഗുണിച്ചാൽ പൂർണവർഗമാകും?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "hint": "578 നെ അഭാജ്യഘടകങ്ങളാക്കൂ.",
+      "explanation": "578 = 2 × 17 × 17. 2 ന് ജോടിയില്ല, അതിനാൽ 2 കൊണ്ട് ഗുണിക്കണം: 1156 = 34²."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q46 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-47",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "If k − 4, k, k + 2 are three consecutive prime numbers, what is the value of k?",
+      "options": [
+        "13",
+        "15",
+        "17",
+        "11"
+      ],
+      "hint": "Try each option: are k − 4, k and k + 2 all prime, with no prime in between?",
+      "explanation": "k = 11 gives 7, 11, 13 – three primes one after another. (13 gives 9, which is not prime.)"
+    },
+    "ml": {
+      "question": "k − 4, k, k + 2 ഇവ തുടർച്ചയായ 3 അഭാജ്യസംഖ്യകളായാൽ k യുടെ വിലയെത്ര?",
+      "options": [
+        "13",
+        "15",
+        "17",
+        "11"
+      ],
+      "hint": "ഓരോ ഉത്തരവും വെച്ചു നോക്കൂ: k − 4, k, k + 2 മൂന്നും അഭാജ്യമാണോ?",
+      "explanation": "k = 11 എങ്കിൽ 7, 11, 13 — തുടർച്ചയായ അഭാജ്യസംഖ്യകൾ. (13 എടുത്താൽ 9 വരും; അത് അഭാജ്യമല്ല.)"
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q47 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-48",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "√36 + √0.36 + √0.0036 + √0.000036 = ?",
+      "options": [
+        "0.666",
+        "6.666",
+        "6.606",
+        "6.066"
+      ],
+      "hint": "√0.36 = 0.6. Each time two more decimal places are added, the root gets one more.",
+      "explanation": "6 + 0.6 + 0.06 + 0.006 = 6.666."
+    },
+    "ml": {
+      "question": "√36 + √0.36 + √0.0036 + √0.000036 = ?",
+      "options": [
+        "0.666",
+        "6.666",
+        "6.606",
+        "6.066"
+      ],
+      "hint": "√0.36 = 0.6. ദശാംശസ്ഥാനം രണ്ടു കൂടുമ്പോൾ വർഗമൂലത്തിൽ ഒന്നു കൂടും.",
+      "explanation": "6 + 0.6 + 0.06 + 0.006 = 6.666."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q48 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-49",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "(m⁵ / m¹⁰) ÷ m² = ?",
+      "options": [
+        "m⁵ / m¹⁰",
+        "m⁵ / m²",
+        "m⁷",
+        "1 / m⁷"
+      ],
+      "hint": "m⁵ / m¹⁰ = 1 / m⁵.",
+      "explanation": "m⁵ / m¹⁰ = 1 / m⁵. Dividing again by m² gives 1 / m⁷."
+    },
+    "ml": {
+      "question": "(m⁵ / m¹⁰) ÷ m² = ?",
+      "options": [
+        "m² / m⁵",
+        "m⁵ / m²",
+        "m⁷",
+        "1 / m⁷"
+      ],
+      "hint": "m⁵ / m¹⁰ = 1 / m⁵.",
+      "explanation": "m⁵ / m¹⁰ = 1 / m⁵. വീണ്ടും m² കൊണ്ട് ഹരിച്ചാൽ 1 / m⁷."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q49 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-MAT-50",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Match A with B.\nA: i) a two-digit number  ii) the sum of two numbers  iii) a series of odd numbers  iv) one subtracted from three times a number\nB: a) 2m − 1  b) 10k + n  c) 3p − 1  d) a + b",
+      "options": [
+        "i-c, ii-d, iii-a, iv-b",
+        "i-b, ii-d, iii-a, iv-c",
+        "i-d, ii-c, iii-a, iv-b",
+        "i-a, ii-d, iii-c, iv-b"
+      ],
+      "hint": "A two-digit number = 10 × tens digit + ones digit.",
+      "explanation": "Two-digit number = 10k + n, sum = a + b, odd numbers = 2m − 1, three times minus one = 3p − 1."
+    },
+    "ml": {
+      "question": "പട്ടിക പരിശോധിച്ച് ശരിയായ ജോടി കണ്ടെത്തുക.\nA: i) ഒരു രണ്ടക്കസംഖ്യ  ii) രണ്ട് സംഖ്യകളുടെ തുക  iii) ഒറ്റസംഖ്യകളുടെ ശ്രേണി  iv) ഒരു സംഖ്യയുടെ മൂന്ന് മടങ്ങിൽ നിന്ന് ഒന്ന് കുറച്ചത്\nB: a) 2m − 1  b) 10k + n  c) 3p − 1  d) a + b",
+      "options": [
+        "i-c, ii-d, iii-a, iv-b",
+        "i-b, ii-d, iii-a, iv-c",
+        "i-d, ii-c, iii-a, iv-b",
+        "i-a, ii-d, iii-c, iv-b"
+      ],
+      "hint": "രണ്ടക്കസംഖ്യ = 10 × പത്തിന്റെ അക്കം + ഒന്നിന്റെ അക്കം.",
+      "explanation": "രണ്ടക്കസംഖ്യ = 10k + n, തുക = a + b, ഒറ്റസംഖ്യകൾ = 2m − 1, മൂന്നു മടങ്ങിൽ നിന്ന് ഒന്ന് കുറച്ചത് = 3p − 1."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 1, Q50 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-01",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nWhy did the neighbours laugh at Alya at first?",
+      "options": [
+        "She wanted to fly, and they thought it wasn't for girls.",
+        "She told funny jokes.",
+        "She cooked bad food.",
+        "She wore funny clothes."
+      ],
+      "hint": "Look at what the neighbours said: \"Planes are for ...\"",
+      "explanation": "They teased her: \"Planes are for boys.\" They thought flying was not for girls."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nWhy did the neighbours laugh at Alya at first?",
+      "options": [
+        "She wanted to fly, and they thought it wasn't for girls.",
+        "She told funny jokes.",
+        "She cooked bad food.",
+        "She wore funny clothes."
+      ],
+      "hint": "അയൽക്കാർ പറഞ്ഞത് നോക്കൂ: \"Planes are for ...\"",
+      "explanation": "\"Planes are for boys\" എന്നു പറഞ്ഞാണ് അവർ കളിയാക്കിയത് — പറക്കൽ പെൺകുട്ടികൾക്കുള്ളതല്ല എന്ന് അവർ കരുതി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q1 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-02",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nConsider these statements:\ni. Alya gave up when people teased her.\nii. Alya worked hard to learn math and engines.\niii. Alya proved her neighbours wrong by becoming a pilot.\niv. The neighbours remained angry at her success.",
+      "options": [
+        "i and iv are correct",
+        "ii and iii are correct",
+        "Only ii is correct",
+        "All are correct"
+      ],
+      "hint": "Did Alya give up? Were the neighbours angry at the end?",
+      "explanation": "Alya did not give up (i is wrong) and the neighbours looked up in wonder, not anger (iv is wrong). ii and iii are correct."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nConsider these statements:\ni. Alya gave up when people teased her.\nii. Alya worked hard to learn math and engines.\niii. Alya proved her neighbours wrong by becoming a pilot.\niv. The neighbours remained angry at her success.",
+      "options": [
+        "i and iv are correct",
+        "ii and iii are correct",
+        "Only ii is correct",
+        "All are correct"
+      ],
+      "hint": "അല്യ പിന്മാറിയോ? അവസാനം അയൽക്കാർ ദേഷ്യപ്പെട്ടോ?",
+      "explanation": "അല്യ പിന്മാറിയില്ല (i തെറ്റ്), അയൽക്കാർ അത്ഭുതത്തോടെ നോക്കി (iv തെറ്റ്). ii ഉം iii ഉം ശരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q2 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-03",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nWhat is the moral of Alya's story?",
+      "options": [
+        "Telescopes are expensive.",
+        "Actions speak louder than words.",
+        "You should not listen to the radio.",
+        "Math is difficult."
+      ],
+      "hint": "Alya didn't argue – she just worked.",
+      "explanation": "Alya did not argue with the neighbours; her hard work answered them. Actions speak louder than words."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nWhat is the moral of Alya's story?",
+      "options": [
+        "Telescopes are expensive.",
+        "Actions speak louder than words.",
+        "You should not listen to the radio.",
+        "Math is difficult."
+      ],
+      "hint": "അല്യ തർക്കിച്ചില്ല, പ്രവർത്തിച്ചു.",
+      "explanation": "വാക്കുകളെക്കാൾ പ്രവൃത്തിയാണ് ഉത്തരം — അല്യയുടെ കഠിനാധ്വാനമാണ് അയൽക്കാർക്ക് മറുപടിയായത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q3 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-04",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nThe passage says: \"The announcer's voice crackled.\" The word 'crackled' suggests:",
+      "options": [
+        "The sound was clear and loud.",
+        "The announcer was crying.",
+        "The sound was sharp and rough (like radio static).",
+        "The radio was broken completely."
+      ],
+      "hint": "Think of the noise an old radio makes.",
+      "explanation": "\"Crackled\" means a sharp, rough sound with small noises, like static on an old radio."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nThe passage says: \"The announcer's voice crackled.\" The word 'crackled' suggests:",
+      "options": [
+        "The sound was clear and loud.",
+        "The announcer was crying.",
+        "The sound was sharp and rough (like radio static).",
+        "The radio was broken completely."
+      ],
+      "hint": "പഴയ റേഡിയോയുടെ ശബ്ദം ഓർക്കൂ.",
+      "explanation": "\"Crackled\" എന്നാൽ റേഡിയോയിലെ പോലെ പൊട്ടലും കിരുകിരുപ്പുമുള്ള ശബ്ദം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q4 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-05",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nAssertion (A): Alya studied math by candlelight.\nReason (R): She likely studied at night or didn't have electricity / luxury, showing her dedication.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation for A.",
+        "Both A and R are true, but R is not the correct explanation for A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "hint": "Is A in the passage? Does R explain why?",
+      "explanation": "The passage says she studied by candlelight (A is true), and R explains why – no electricity, but she still worked hard."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\nAssertion (A): Alya studied math by candlelight.\nReason (R): She likely studied at night or didn't have electricity / luxury, showing her dedication.",
+      "options": [
+        "Both A and R are true, and R is the correct explanation for A.",
+        "Both A and R are true, but R is not the correct explanation for A.",
+        "A is true, but R is false.",
+        "A is false, but R is true."
+      ],
+      "hint": "A കഥയിൽ ഉണ്ടോ? R അതിന്റെ കാരണം പറയുന്നുണ്ടോ?",
+      "explanation": "മെഴുകുതിരി വെളിച്ചത്തിൽ പഠിച്ചു എന്ന് കഥയിലുണ്ട് (A ശരി). R അതിന്റെ ശരിയായ കാരണവും വിശദീകരിക്കുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q5 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-06",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\n\"The neighbours didn't laugh that day.\" Why?",
+      "options": [
+        "They were sad.",
+        "They were respectful and amazed by her achievement.",
+        "They were asleep.",
+        "The radio was too loud."
+      ],
+      "hint": "They \"looked up at the sky in wonder\".",
+      "explanation": "They looked up in wonder – they were amazed and now respected her."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"In a village where girls were only taught to cook, Alya wanted to fly. She spent her nights looking at the moon through a broken pipe she pretended was a telescope. Her neighbours laughed. \"Planes are for boys,\" they teased. Alya didn't argue. She studied math by candlelight. She worked in a garage to understand engines. Ten years later, the village gathered around a radio. The announcer's voice crackled, \"Captain Alya is the first woman from her region to pilot a commercial jet.\" The neighbours didn't laugh that day; they looked up at the sky in wonder.\"\n\n\"The neighbours didn't laugh that day.\" Why?",
+      "options": [
+        "They were sad.",
+        "They were respectful and amazed by her achievement.",
+        "They were asleep.",
+        "The radio was too loud."
+      ],
+      "hint": "\"looked up at the sky in wonder\" എന്ന ഭാഗം ശ്രദ്ധിക്കൂ.",
+      "explanation": "അവർ അത്ഭുതത്തോടെ ആകാശത്തേക്ക് നോക്കി — അല്യയുടെ നേട്ടത്തിൽ അവർക്ക് ബഹുമാനവും അത്ഭുതവും തോന്നി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q6 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-10",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "\"The teacher asked the students to give up their bad habits.\" The phrasal verb 'give up' means:",
+      "options": [
+        "Start",
+        "Share",
+        "Abandon/Stop",
+        "Hide"
+      ],
+      "hint": "What should you do with bad habits?",
+      "explanation": "\"Give up\" means to stop doing something."
+    },
+    "ml": {
+      "question": "\"The teacher asked the students to give up their bad habits.\" The phrasal verb 'give up' means:",
+      "options": [
+        "Start",
+        "Share",
+        "Abandon/Stop",
+        "Hide"
+      ],
+      "hint": "ചീത്ത ശീലങ്ങൾ എന്തു ചെയ്യണം?",
+      "explanation": "\"Give up\" എന്നാൽ ഉപേക്ഷിക്കുക, നിർത്തുക."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q10 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-11",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "\"If it rains, I …… stay at home.\"",
+      "options": [
+        "will",
+        "would",
+        "would have",
+        "will have"
+      ],
+      "hint": "\"If it rains\" is in the simple present.",
+      "explanation": "If + simple present → will + verb: \"If it rains, I will stay at home.\""
+    },
+    "ml": {
+      "question": "\"If it rains, I …… stay at home.\"",
+      "options": [
+        "will",
+        "would",
+        "would have",
+        "will have"
+      ],
+      "hint": "\"If it rains\" — simple present ആണ്.",
+      "explanation": "If + simple present വന്നാൽ മറ്റേ ഭാഗത്ത് will + verb: \"I will stay at home.\""
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q11 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-12",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "\"You ________ not smoke in the hospital. It is prohibited.\"",
+      "options": [
+        "need",
+        "should",
+        "would",
+        "could"
+      ],
+      "hint": "It is a rule – something you must not do.",
+      "explanation": "\"Should not\" gives advice or a rule: \"You should not smoke in the hospital.\""
+    },
+    "ml": {
+      "question": "\"You ________ not smoke in the hospital. It is prohibited.\"",
+      "options": [
+        "need",
+        "should",
+        "would",
+        "could"
+      ],
+      "hint": "ഇതൊരു നിയമമാണ് — ചെയ്യാൻ പാടില്ലാത്തത്.",
+      "explanation": "\"should not\" = ചെയ്യരുത്. \"You should not smoke in the hospital.\""
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q12 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-13",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "\"He is the man ________ saved my life.\"",
+      "options": [
+        "which",
+        "whom",
+        "whose",
+        "who"
+      ],
+      "hint": "The word stands for a person who did the action.",
+      "explanation": "\"Who\" is used for a person who does the action: the man who saved my life."
+    },
+    "ml": {
+      "question": "\"He is the man ________ saved my life.\"",
+      "options": [
+        "which",
+        "whom",
+        "whose",
+        "who"
+      ],
+      "hint": "ഒരു വ്യക്തിയാണ് പ്രവൃത്തി ചെയ്തത്.",
+      "explanation": "പ്രവൃത്തി ചെയ്ത വ്യക്തിയെക്കുറിച്ച് പറയാൻ \"who\": the man who saved my life."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q13 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-14",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Identify the statements that express agreement.\ni. \"I couldn't agree more with you.\"\nii. \"I am afraid I have to differ.\"\niii. \"You have hit the nail on the head.\"\niv. \"That is exactly how I feel.\"",
+      "options": [
+        "i, iii, and iv",
+        "ii and iii only",
+        "i and iv only",
+        "All of the above"
+      ],
+      "hint": "\"Differ\" means to disagree.",
+      "explanation": "ii says \"I have to differ\" – that is disagreement. i, iii and iv all agree."
+    },
+    "ml": {
+      "question": "Identify the statements that express agreement.\ni. \"I couldn't agree more with you.\"\nii. \"I am afraid I have to differ.\"\niii. \"You have hit the nail on the head.\"\niv. \"That is exactly how I feel.\"",
+      "options": [
+        "i, iii, and iv",
+        "ii and iii only",
+        "i and iv only",
+        "All of the above"
+      ],
+      "hint": "\"Differ\" എന്നാൽ വിയോജിക്കുക.",
+      "explanation": "ii വിയോജിപ്പാണ്. i, iii, iv യോജിപ്പ് കാണിക്കുന്നു (\"hit the nail on the head\" = കൃത്യമായി പറഞ്ഞു)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q14 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-ENG-15",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which of the following sentences use 'since' or 'for' correctly?\ni. She has lived here since 2010.\nii. We have waited for three hours.\niii. He has known me since five years.",
+      "options": [
+        "i only",
+        "i and ii only",
+        "ii and iii only",
+        "i, ii, and iii"
+      ],
+      "hint": "\"Since\" goes with a point of time, \"for\" with a length of time.",
+      "explanation": "\"Since 2010\" (a point of time) and \"for three hours\" (a length of time) are right. It should be \"for five years\", not \"since five years\"."
+    },
+    "ml": {
+      "question": "Which of the following sentences use 'since' or 'for' correctly?\ni. She has lived here since 2010.\nii. We have waited for three hours.\niii. He has known me since five years.",
+      "options": [
+        "i only",
+        "i and ii only",
+        "ii and iii only",
+        "i, ii, and iii"
+      ],
+      "hint": "\"since\" ഒരു സമയബിന്ദുവിനൊപ്പം, \"for\" ഒരു കാലയളവിനൊപ്പം.",
+      "explanation": "\"since 2010\", \"for three hours\" ശരി. \"since five years\" തെറ്റ് — \"for five years\" ആണ് വേണ്ടത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q15 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-16",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which is the correct match of disease and vaccine?\na) Polio  b) Japanese Encephalitis  c) Tuberculosis\n1) BCG  2) FIPV  3) JEV",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-2, b-1, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "JEV = Japanese Encephalitis Vaccine.",
+      "explanation": "Polio – FIPV (polio vaccine), Japanese Encephalitis – JEV, Tuberculosis – BCG."
+    },
+    "ml": {
+      "question": "വാക്സിനുമായി ബന്ധപ്പെട്ട് ശരിയായ ജോടി ഏത്?\na) പോളിയോ  b) ജപ്പാൻ ജ്വരം  c) ക്ഷയം\n1) BCG  2) FIPV  3) JEV",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-2, b-1, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "JEV = ജപ്പാൻ ജ്വരത്തിനുള്ള വാക്സിൻ.",
+      "explanation": "പോളിയോ – FIPV, ജപ്പാൻ ജ്വരം – JEV, ക്ഷയം – BCG."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q16 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-17",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which of these is an example of 'biological control' of pests?",
+      "options": [
+        "Using pheromone traps to catch pests.",
+        "Spraying tobacco tincture on infected leaves.",
+        "Using ladybugs to feed on harmful insects.",
+        "Manually picking and destroying pest larvae."
+      ],
+      "hint": "Biological control uses living things.",
+      "explanation": "Ladybugs eat harmful insects – using one living thing to control another is biological control."
+    },
+    "ml": {
+      "question": "താഴെപ്പറയുന്നവയിൽ ഏതാണ് കീടങ്ങളുടെ 'ജൈവ നിയന്ത്രണ' രീതിക്ക് ഉദാഹരണം?",
+      "options": [
+        "കീടങ്ങളെ പിടിക്കാൻ ഫെറോമോൺ കെണികൾ ഉപയോഗിക്കുന്നത്.",
+        "പുകയിലയുടെ കഷായം രോഗബാധിതമായ ഇലകളിൽ തളിക്കുന്നത്.",
+        "ഹാനികരമായ പ്രാണികളെ ഭക്ഷിക്കാൻ ലേഡിബഗുകളെ ഉപയോഗിക്കുന്നത്.",
+        "കീടങ്ങളുടെ ലാർവകളെ കൈകൊണ്ട് എടുക്കുകയും നശിപ്പിക്കുകയും ചെയ്യുന്നത്."
+      ],
+      "hint": "ജൈവ നിയന്ത്രണത്തിൽ ജീവികളെയാണ് ഉപയോഗിക്കുന്നത്.",
+      "explanation": "ലേഡിബഗുകൾ ഹാനികരമായ പ്രാണികളെ തിന്നുന്നു — ഒരു ജീവിയെ ഉപയോഗിച്ച് മറ്റൊന്നിനെ നിയന്ത്രിക്കുന്നതാണ് ജൈവ നിയന്ത്രണം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q17 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-18",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which of these safety measures are correct when dealing with electricity?\n1. Use insulated tools when doing repairs.\n2. Never touch electrical switches with wet hands.\n3. Install an ELCB (Earth Leakage Circuit Breaker) for protection against shocks.",
+      "options": [
+        "Only one and two",
+        "Only two and three",
+        "Only one and three",
+        "One, two and three"
+      ],
+      "hint": "Check each one – is any of them unsafe?",
+      "explanation": "All three are correct safety measures."
+    },
+    "ml": {
+      "question": "വൈദ്യുതിയുമായി ബന്ധപ്പെട്ട് താഴെപ്പറയുന്ന സുരക്ഷാ നടപടികളിൽ ഏതാണ് ശരി?\n1. അറ്റകുറ്റപ്പണികൾ നടത്തുമ്പോൾ ഇൻസുലേറ്റഡ് ഉപകരണങ്ങൾ ഉപയോഗിക്കുക.\n2. നനഞ്ഞ കൈകൾ ഉപയോഗിച്ച് ഒരിക്കലും ഇലക്ട്രിക്കൽ സ്വിച്ചുകളിൽ സ്പർശിക്കരുത്.\n3. ആഘാതങ്ങളിൽ നിന്നുള്ള സംരക്ഷണത്തിനായി ഒരു ELCB (എർത്ത് ലീക്കേജ് സർക്യൂട്ട് ബ്രേക്കർ) സ്ഥാപിക്കുക.",
+      "options": [
+        "ഒന്നും രണ്ടും മാത്രം",
+        "രണ്ടും മൂന്നും മാത്രം",
+        "ഒന്നും മൂന്നും മാത്രം",
+        "ഒന്നും രണ്ടും മൂന്നും"
+      ],
+      "hint": "ഓരോന്നും നോക്കൂ — ഏതെങ്കിലും അപകടകരമാണോ?",
+      "explanation": "മൂന്നും ശരിയായ സുരക്ഷാ നടപടികളാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q18 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-19",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Antacids used to treat stomach acidity are usually:",
+      "options": [
+        "Weak acids",
+        "Weak bases",
+        "Strong acids",
+        "Neutral salts"
+      ],
+      "hint": "To cancel an acid you need its opposite.",
+      "explanation": "Antacids are weak bases. They neutralise the extra acid in the stomach."
+    },
+    "ml": {
+      "question": "ആമാശയത്തിലെ അസിഡിറ്റി ചികിത്സിക്കാൻ ഉപയോഗിക്കുന്ന ആന്റാസിഡുകൾ സാധാരണയായി ഇവയാണ്:",
+      "options": [
+        "വീര്യംകുറഞ്ഞ ആസിഡുകൾ",
+        "വീര്യംകുറഞ്ഞ ബേസുകൾ",
+        "വീര്യംകൂടിയ ആസിഡുകൾ",
+        "ന്യൂട്രൽ ലവണങ്ങൾ"
+      ],
+      "hint": "ആസിഡിനെ നിർവീര്യമാക്കാൻ അതിന്റെ എതിരായത് വേണം.",
+      "explanation": "ആന്റാസിഡുകൾ വീര്യം കുറഞ്ഞ ബേസുകളാണ്. അവ ആമാശയത്തിലെ അധിക ആസിഡിനെ നിർവീര്യമാക്കുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q19 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-20",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "At night, when the light of a vehicle falls on signboards by the road, they seem to glow. Which phenomenon causes this?",
+      "options": [
+        "Gradual reflection",
+        "Diffuse reflection",
+        "Absorption of light",
+        "None of these"
+      ],
+      "hint": "The light bounces back from the board.",
+      "explanation": "The boards reflect the light back towards us, so they seem to glow. KSTA's answer is diffuse reflection."
+    },
+    "ml": {
+      "question": "രാത്രികാലങ്ങളിൽ റോഡരികിലെ സിഗ്നൽ ബോർഡുകളിൽ വാഹനത്തിന്റെ വെളിച്ചം പതിക്കുമ്പോൾ അവ തിളങ്ങുന്നതായി കാണാം. ഇതിന് കാരണമായ പ്രതിഭാസം ഏത്?",
+      "options": [
+        "ക്രമപ്രതിപതനം",
+        "വിസരിത പ്രതിപതനം",
+        "പ്രകാശത്തിന്റെ ആഗിരണം",
+        "ഇവയൊന്നുമല്ല"
+      ],
+      "hint": "വെളിച്ചം ബോർഡിൽ തട്ടി തിരിച്ചുവരുന്നു.",
+      "explanation": "ബോർഡുകൾ വെളിച്ചം തിരികെ പ്രതിഫലിപ്പിക്കുന്നതുകൊണ്ട് തിളങ്ങുന്നു. KSTA നൽകിയ ഉത്തരം വിസരിത പ്രതിപതനം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q20 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-21",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "The breathing rate is different in newborns and adults. Which is correct?",
+      "options": [
+        "The breathing rate is higher in adults.",
+        "The breathing rate is higher in children.",
+        "The breathing rate is the same in both.",
+        "There is no breathing rate in children."
+      ],
+      "hint": "Babies breathe fast.",
+      "explanation": "Newborn babies breathe much faster (about 40–60 times a minute) than adults (about 12–20)."
+    },
+    "ml": {
+      "question": "നവജാത ശിശുക്കളിലും മുതിർന്നവരിലും ശ്വസന നിരക്ക് വ്യത്യസ്തമായിരിക്കും. ഇതിനെക്കുറിച്ച് താഴെ പറയുന്നവയിൽ ഏതാണ് ശരി?",
+      "options": [
+        "മുതിർന്നവരിലാണ് ശ്വസന നിരക്ക് കൂടുതൽ",
+        "കുട്ടികളിൽ ശ്വസന നിരക്ക് കൂടുതൽ",
+        "രണ്ടുപേരിലും ശ്വസന നിരക്ക് ഒരുപോലെയായിരിക്കും",
+        "കുട്ടികളിൽ ശ്വസന നിരക്ക് ഇല്ല"
+      ],
+      "hint": "കുഞ്ഞുങ്ങൾ വേഗത്തിൽ ശ്വസിക്കുന്നു.",
+      "explanation": "നവജാത ശിശുക്കൾ മിനിറ്റിൽ ഏകദേശം 40–60 തവണ ശ്വസിക്കുന്നു; മുതിർന്നവർ 12–20 തവണ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q21 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-22",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "In a science museum, the angle between two large plane mirrors is reduced from 90° to 60°. What happens to the number of images a person standing between them sees?",
+      "options": [
+        "The number of images will decrease",
+        "The number of images will not change",
+        "The number of images will increase",
+        "The images will disappear"
+      ],
+      "hint": "Number of images = 360 ÷ angle − 1.",
+      "explanation": "90°: 360 ÷ 90 − 1 = 3 images. 60°: 360 ÷ 60 − 1 = 5 images. So the number increases."
+    },
+    "ml": {
+      "question": "ഒരു സയൻസ് മ്യൂസിയത്തിൽ വെച്ചിരിക്കുന്ന രണ്ട് വലിയ സമതല ദർപ്പണങ്ങൾക്കിടയിലുള്ള കോൺ അളവ് 90 ഡിഗ്രിയിൽ നിന്നും 60 ഡിഗ്രിയായി കുറച്ചാൽ, അവയ്ക്കിടയിൽ നിൽക്കുന്ന ഒരാൾക്ക് തന്റെ പ്രതിബിംബങ്ങളുടെ എണ്ണത്തിൽ എന്ത് മാറ്റമാണ് അനുഭവപ്പെടുക?",
+      "options": [
+        "പ്രതിബിംബങ്ങളുടെ എണ്ണം കുറയും",
+        "പ്രതിബിംബങ്ങളുടെ എണ്ണത്തിൽ മാറ്റമുണ്ടാകില്ല",
+        "പ്രതിബിംബങ്ങളുടെ എണ്ണം കൂടും",
+        "പ്രതിബിംബങ്ങൾ അപ്രത്യക്ഷമാകും"
+      ],
+      "hint": "പ്രതിബിംബങ്ങളുടെ എണ്ണം = 360 ÷ കോൺ − 1.",
+      "explanation": "90°: 360 ÷ 90 − 1 = 3. 60°: 360 ÷ 60 − 1 = 5. എണ്ണം കൂടും."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q22 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-23",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which statements about magnets are correct?\n1. A freely hanging bar magnet always points east–west because of the Earth's magnetic field.\n2. Just as like poles of two magnets repel each other, unlike poles attract each other.\n3. The magnetic force of a bar magnet is greatest at its centre and least at the poles.",
+      "options": [
+        "1 and 2 only",
+        "1, 2, 3",
+        "1 and 3 only",
+        "2 only"
+      ],
+      "hint": "Which direction does a compass needle point?",
+      "explanation": "A freely hanging magnet points north–south (1 is wrong), and the force is strongest at the poles (3 is wrong). Only 2 is correct."
+    },
+    "ml": {
+      "question": "കാന്തങ്ങളെക്കുറിച്ചുള്ള പ്രസ്താവനകളിൽ ശരിയായത് ഏതാണ്?\n1. ഭൂമിയുടെ കാന്തികമണ്ഡലം കാരണം സ്വതന്ത്രമായി തൂക്കിയിട്ട ഒരു ബാർ കാന്തം എല്ലായ്പ്പോഴും കിഴക്ക്-പടിഞ്ഞാറ് ദിശയിലാണ് നിൽക്കുന്നത്.\n2. രണ്ട് കാന്തങ്ങളുടെ ഒരേ ധ്രുവങ്ങൾ പരസ്പരം അകലുന്നതുപോലെ വ്യത്യസ്ത ധ്രുവങ്ങൾ പരസ്പരം ആകർഷിക്കുന്നു.\n3. ഒരു ബാർ കാന്തത്തിന്റെ കാന്തിക ശക്തി അതിന്റെ കേന്ദ്രത്തിൽ പരമാവധിയും ധ്രുവങ്ങളിൽ ഏറ്റവും കുറഞ്ഞതുമാണ്.",
+      "options": [
+        "1 ഉം 2 ഉം മാത്രം",
+        "1, 2, 3",
+        "1 ഉം 3 ഉം മാത്രം",
+        "2 മാത്രം"
+      ],
+      "hint": "കോമ്പസ് സൂചി ഏത് ദിശ കാണിക്കുന്നു?",
+      "explanation": "തൂക്കിയിട്ട കാന്തം വടക്ക്-തെക്ക് ദിശയിൽ നിൽക്കുന്നു (1 തെറ്റ്). കാന്തിക ശക്തി ധ്രുവങ്ങളിലാണ് കൂടുതൽ (3 തെറ്റ്). 2 മാത്രം ശരി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q23 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-24",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Red litmus paper did not change in a solution, but blue litmus turned red in the same solution. Which statement about the solution is correct?",
+      "options": [
+        "It feels slippery like soap when touched.",
+        "It has a sour taste.",
+        "It turns turmeric powder red.",
+        "It is a base solution."
+      ],
+      "hint": "Blue litmus turns red in an acid.",
+      "explanation": "Blue litmus turning red shows an acid. Acids taste sour. (Slippery feel and turmeric turning red are signs of a base.)"
+    },
+    "ml": {
+      "question": "ചുവന്ന ലിറ്റ്മസ് പേപ്പർ ഒരു ലായനിയിൽ മുക്കിയപ്പോൾ അതിന് മാറ്റമൊന്നും സംഭവിച്ചില്ല. എന്നാൽ അതേ ലായനിയിൽ നീല ലിറ്റ്മസ് മുക്കിയപ്പോൾ അത് ചുവപ്പായി മാറി. എങ്കിൽ ഈ ലായനിയെക്കുറിച്ച് ശരിയായ പ്രസ്താവന ഏത്?",
+      "options": [
+        "ഇത് കൈകളിൽ സ്പർശിക്കുമ്പോൾ സോപ്പ് പോലെ വഴുക്കൽ അനുഭവപ്പെടും.",
+        "ഇതിന് പുളിരുചി ഉണ്ടായിരിക്കും.",
+        "ഇത് മഞ്ഞൾപ്പൊടിയെ ചുവപ്പ് നിറമാക്കും.",
+        "ഇത് ഒരു ബേസ് ലായനിയാണ്."
+      ],
+      "hint": "ആസിഡിൽ നീല ലിറ്റ്മസ് ചുവപ്പാകും.",
+      "explanation": "നീല ലിറ്റ്മസ് ചുവപ്പായത് ആസിഡ് ആയതുകൊണ്ടാണ്. ആസിഡുകൾക്ക് പുളിരുചിയാണ്. (വഴുക്കലും മഞ്ഞൾ ചുവപ്പാകലും ബേസിന്റെ ലക്ഷണങ്ങൾ.)"
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q24 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-25",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Why is extra oxygen given to critically ill patients in hospitals?",
+      "options": [
+        "To give rest to the lungs.",
+        "To maintain the correct level of oxygen in the blood.",
+        "To prevent the release of carbon dioxide.",
+        "To increase the body temperature."
+      ],
+      "hint": "What does the blood carry to every cell?",
+      "explanation": "Very sick patients may not take in enough oxygen, so oxygen is given to keep the oxygen level in the blood correct."
+    },
+    "ml": {
+      "question": "ആശുപത്രികളിൽ ഗുരുതരാവസ്ഥയിലുള്ള രോഗികൾക്ക് കൃത്രിമമായി ഓക്സിജൻ നൽകുന്നത് എന്തിനാണ്?",
+      "options": [
+        "ശ്വാസകോശത്തിന് വിശ്രമം നൽകാൻ.",
+        "രക്തത്തിലെ ഓക്സിജന്റെ അളവ് കൃത്യമായി നിലനിർത്താൻ.",
+        "കാർബൺ ഡയോക്സൈഡ് പുറത്തുപോകുന്നത് തടയാൻ.",
+        "ശരീരത്തിന്റെ താപനില വർദ്ധിപ്പിക്കാൻ."
+      ],
+      "hint": "രക്തം എല്ലാ കോശങ്ങളിലേക്കും എന്താണ് എത്തിക്കുന്നത്?",
+      "explanation": "ഗുരുതരാവസ്ഥയിലുള്ളവർക്ക് ആവശ്യത്തിന് ഓക്സിജൻ സ്വീകരിക്കാൻ കഴിയാതെ വരാം. രക്തത്തിലെ ഓക്സിജൻ അളവ് നിലനിർത്താനാണ് ഓക്സിജൻ നൽകുന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q25 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-26",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Why can't we see the moon in the sky on New Moon days?",
+      "options": [
+        "Because the part of the moon that is not lit by the sun faces the earth.",
+        "Because the moon is in the shadow of the earth.",
+        "Because New Moon happens only at night.",
+        "Because the sun completely covers the moon."
+      ],
+      "hint": "The sun always lights half of the moon. Which half faces us on a New Moon day?",
+      "explanation": "On a New Moon day the moon is between the earth and the sun, so its dark (unlit) side faces us. (The earth's shadow on the moon is a lunar eclipse.)"
+    },
+    "ml": {
+      "question": "അമാവാസി (New Moon) ദിവസങ്ങളിൽ ചന്ദ്രനെ ആകാശത്ത് കാണാൻ കഴിയാത്തത് എന്തുകൊണ്ട്?",
+      "options": [
+        "ചന്ദ്രനിൽ പ്രകാശം പതിക്കാത്ത ഭാഗം ഭൂമിക്ക് അഭിമുഖമായി വരുന്നതുകൊണ്ട്.",
+        "ചന്ദ്രൻ ഭൂമിയുടെ നിഴലിലായിരിക്കുന്നതുകൊണ്ട്.",
+        "രാത്രി സമയം മാത്രമാണ് അമാവാസി ഉണ്ടാകുന്നത്.",
+        "സൂര്യൻ ചന്ദ്രനെ പൂർണ്ണമായും മറയ്ക്കുന്നതുകൊണ്ട്."
+      ],
+      "hint": "സൂര്യൻ എപ്പോഴും ചന്ദ്രന്റെ പകുതി ഭാഗം പ്രകാശിപ്പിക്കുന്നു. അമാവാസിയിൽ ഏതു ഭാഗമാണ് നമുക്ക് നേരെ?",
+      "explanation": "അമാവാസിയിൽ ചന്ദ്രൻ ഭൂമിക്കും സൂര്യനും ഇടയിലാണ്; പ്രകാശം പതിക്കാത്ത ഭാഗം ഭൂമിക്ക് നേരെ വരുന്നു. (ഭൂമിയുടെ നിഴൽ ചന്ദ്രനിൽ വീഴുന്നത് ചന്ദ്രഗ്രഹണമാണ്.)"
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q26 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-27",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "The body sweats when someone has a fever. Which function of the body is this related to?",
+      "options": [
+        "Excretion and body temperature regulation",
+        "To increase blood flow",
+        "To kill germs directly",
+        "To reduce blood flow"
+      ],
+      "hint": "Sweat cools the skin as it dries.",
+      "explanation": "Sweating removes wastes (excretion) and cools the body as the sweat evaporates (temperature control)."
+    },
+    "ml": {
+      "question": "ഒരാൾക്ക് പനി വരുമ്പോൾ ശരീരം വിയർക്കുന്നത് ശ്രദ്ധിച്ചിട്ടുണ്ടാകും. ഇത് ശരീരത്തിന്റെ ഏത് ധർമ്മവുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?",
+      "options": [
+        "വിസർജനവും ശരീര താപനില ക്രമീകരണവും",
+        "രക്തയോട്ടം വർദ്ധിപ്പിക്കാൻ",
+        "അണുക്കളെ നേരിട്ട് കൊല്ലാൻ",
+        "രക്തയോട്ടം കുറക്കാൻ"
+      ],
+      "hint": "വിയർപ്പ് ബാഷ്പീകരിക്കുമ്പോൾ ശരീരം തണുക്കുന്നു.",
+      "explanation": "വിയർപ്പിലൂടെ മാലിന്യങ്ങൾ പുറത്തുപോകുന്നു (വിസർജനം), ശരീരം തണുക്കുന്നു (താപനില ക്രമീകരണം)."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q27 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-28",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Why are LED bulbs preferred over filament bulbs in modern homes?",
+      "options": [
+        "LED bulbs produce more heat.",
+        "LED bulbs are cheaper.",
+        "LED bulbs produce very little heat.",
+        "LED bulbs work only on high-voltage AC."
+      ],
+      "hint": "Touch a filament bulb after it has been on – it is hot!",
+      "explanation": "LED bulbs turn most of the electricity into light and make very little heat, so they save energy."
+    },
+    "ml": {
+      "question": "എന്തുകൊണ്ടാണ് ആധുനിക വീടുകളിൽ ഫിലമെന്റ് ബൾബുകളേക്കാൾ എൽഇഡി ബൾബുകൾക്ക് മുൻഗണന നൽകുന്നത്?",
+      "options": [
+        "എൽഇഡി ബൾബുകൾ കൂടുതൽ താപം ഉൽപ്പാദിപ്പിക്കുന്നു.",
+        "എൽഇഡി ബൾബുകൾക്ക് വിലകുറവാണ്.",
+        "എൽഇഡി ബൾബുകൾ വളരെ കുറഞ്ഞ അളവിൽ താപം ഉൽപ്പാദിപ്പിക്കുന്നു.",
+        "എൽഇഡി ബൾബുകൾ ഹൈ-വോൾട്ടേജ് എസിയിൽ മാത്രമേ പ്രവർത്തിക്കൂ."
+      ],
+      "hint": "കത്തിക്കൊണ്ടിരിക്കുന്ന ഫിലമെന്റ് ബൾബ് തൊട്ടാൽ ചൂടാണ്!",
+      "explanation": "എൽഇഡി ബൾബുകൾ വൈദ്യുതിയുടെ ഭൂരിഭാഗവും പ്രകാശമാക്കുന്നു, താപം വളരെ കുറവ്. അതിനാൽ ഊർജം ലാഭിക്കാം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q28 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-29",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Why does the amount of urine decrease in summer and increase in winter?",
+      "options": [
+        "Because we do not drink water in summer",
+        "Because we lose more water through sweating in summer",
+        "Because the kidneys do less work in winter",
+        "Because of the change in atmospheric pressure"
+      ],
+      "hint": "Where else does water leave the body on a hot day?",
+      "explanation": "In summer we lose a lot of water as sweat, so less urine is made. In winter we sweat less, so more urine is made."
+    },
+    "ml": {
+      "question": "വേനൽക്കാലത്ത് മൂത്രത്തിന്റെ അളവ് കുറയുകയും ശൈത്യകാലത്ത് വർദ്ധിക്കുകയും ചെയ്യുന്നത് എന്തുകൊണ്ട്?",
+      "options": [
+        "വേനൽക്കാലത്ത് നാം വെള്ളം കുടിക്കാത്തതുകൊണ്ട്",
+        "വേനൽക്കാലത്ത് വിയർപ്പിലൂടെ കൂടുതൽ ജലം നഷ്ടപ്പെടുന്നതുകൊണ്ട്",
+        "ശൈത്യകാലത്ത് വൃക്കകൾക്ക് ജോലി കുറവായതുകൊണ്ട്",
+        "അന്തരീക്ഷ മർദ്ദത്തിലെ വ്യതിയാനം കൊണ്ട്"
+      ],
+      "hint": "ചൂടുള്ള ദിവസം വെള്ളം മറ്റെങ്ങനെയാണ് ശരീരത്തിൽ നിന്ന് പോകുന്നത്?",
+      "explanation": "വേനലിൽ വിയർപ്പിലൂടെ ധാരാളം ജലം പോകുന്നതിനാൽ മൂത്രം കുറയുന്നു. ശൈത്യകാലത്ത് വിയർപ്പ് കുറവായതിനാൽ മൂത്രം കൂടുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q29 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SCI-30",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "When our body is injured, blood clotting is a life-saving process. Which part of the blood mainly helps in this?",
+      "options": [
+        "White blood cells (WBC)",
+        "Red blood cells (RBC)",
+        "Platelets",
+        "Haemoglobin"
+      ],
+      "hint": "They are tiny cell pieces that plug a cut.",
+      "explanation": "Platelets gather at a cut and help the blood to clot, stopping the bleeding."
+    },
+    "ml": {
+      "question": "നമ്മുടെ ശരീരത്തിൽ മുറിവുണ്ടാകുമ്പോൾ രക്തം കട്ടപിടിക്കുന്നത് ഒരു ജീവൻരക്ഷാ പ്രക്രിയയാണ്. രക്തത്തിലെ ഏത് ഘടകമാണ് ഇതിന് പ്രധാനമായും സഹായിക്കുന്നത്?",
+      "options": [
+        "ശ്വേതരക്താണുക്കൾ (WBC)",
+        "ചുവന്ന രക്താണുക്കൾ (RBC)",
+        "പ്ലേറ്റ്‌ലെറ്റുകൾ (Platelets)",
+        "ഹീമോഗ്ലോബിൻ"
+      ],
+      "hint": "മുറിവ് അടയ്ക്കുന്ന ചെറിയ കോശഭാഗങ്ങൾ.",
+      "explanation": "പ്ലേറ്റ്‌ലെറ്റുകൾ മുറിവിൽ ഒത്തുചേർന്ന് രക്തം കട്ടപിടിക്കാൻ സഹായിക്കുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q30 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-31",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Identify the heritage monument from these clues:\n• Original name is Qila-i-Mubarak\n• Known as Lal Qila\n• Built in Indo-Persian style\n• On the banks of the Yamuna",
+      "options": [
+        "Fatehpur Sikri",
+        "Red Fort",
+        "Sanchi Stupa",
+        "Taj Mahal"
+      ],
+      "hint": "\"Lal\" means red.",
+      "explanation": "Lal Qila (Red Fort) in Delhi, built by Shah Jahan on the Yamuna, was first called Qila-i-Mubarak."
+    },
+    "ml": {
+      "question": "താഴെ നൽകിയിരിക്കുന്ന സൂചനകളിൽ നിന്ന് പൈതൃക കേന്ദ്രം തിരിച്ചറിയുക.\n• യഥാർത്ഥ പേര് ഖില-ഇ-മുബാറക്\n• ലാൽ കില എന്ന പേരിൽ അറിയപ്പെടുന്നു\n• ഇൻഡോ-പേർഷ്യൻ നിർമ്മാണ ശൈലി\n• യമുനാ നദിയുടെ തീരത്ത് സ്ഥിതി ചെയ്യുന്നു",
+      "options": [
+        "ഫത്തേപ്പൂർ സിക്രി",
+        "ചെങ്കോട്ട",
+        "സാഞ്ചി സ്തൂപം",
+        "താജ്മഹൽ"
+      ],
+      "hint": "\"ലാൽ\" എന്നാൽ ചുവപ്പ്.",
+      "explanation": "യമുനാതീരത്ത് ഷാജഹാൻ നിർമ്മിച്ച ചെങ്കോട്ടയുടെ (ലാൽ കില) ആദ്യ പേര് ഖില-ഇ-മുബാറക് എന്നായിരുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q31 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-32",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which of these is in the Concurrent List?",
+      "options": [
+        "Foreign Affairs",
+        "Atomic Energy",
+        "Education",
+        "Defence"
+      ],
+      "hint": "The Concurrent List has subjects both the Centre and the States can make laws on.",
+      "explanation": "Education is in the Concurrent List. Foreign affairs, atomic energy and defence are in the Union List."
+    },
+    "ml": {
+      "question": "കൺകറന്റ് ലിസ്റ്റിൽ ഉൾപ്പെടുന്നത് ഏത്?",
+      "options": [
+        "വിദേശകാര്യം",
+        "അണുശക്തി",
+        "വിദ്യാഭ്യാസം",
+        "പ്രതിരോധം"
+      ],
+      "hint": "കേന്ദ്രത്തിനും സംസ്ഥാനങ്ങൾക്കും നിയമം നിർമ്മിക്കാവുന്ന വിഷയങ്ങളാണ് കൺകറന്റ് ലിസ്റ്റിൽ.",
+      "explanation": "വിദ്യാഭ്യാസം കൺകറന്റ് ലിസ്റ്റിലാണ്. വിദേശകാര്യം, അണുശക്തി, പ്രതിരോധം എന്നിവ യൂണിയൻ ലിസ്റ്റിൽ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q32 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-33",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which arranges the Mughal rulers in the correct order of their reign?",
+      "options": [
+        "Babur – Humayun – Jahangir – Shah Jahan",
+        "Babur – Humayun – Akbar – Jahangir",
+        "Babur – Akbar – Humayun – Jahangir",
+        "Babur – Humayun – Jahangir – Akbar"
+      ],
+      "hint": "Akbar was the son of Humayun.",
+      "explanation": "Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb."
+    },
+    "ml": {
+      "question": "ഭരണകാലഘട്ടമനുസരിച്ച് മുഗൾ ഭരണാധികാരികളെ ശരിയായ ക്രമത്തിൽ നിരത്തിയത് ഏത്?",
+      "options": [
+        "ബാബർ – ഹുമയൂൺ – ജഹാംഗീർ – ഷാജഹാൻ",
+        "ബാബർ – ഹുമയൂൺ – അക്ബർ – ജഹാംഗീർ",
+        "ബാബർ – അക്ബർ – ഹുമയൂൺ – ജഹാംഗീർ",
+        "ബാബർ – ഹുമയൂൺ – ജഹാംഗീർ – അക്ബർ"
+      ],
+      "hint": "അക്ബർ ഹുമയൂണിന്റെ മകനാണ്.",
+      "explanation": "ബാബർ → ഹുമയൂൺ → അക്ബർ → ജഹാംഗീർ → ഷാജഹാൻ → ഔറംഗസേബ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q33 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-34",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "Which statements are correct about society in the Vijayanagara Empire?\nA) The caste system existed in society\nB) Brahmins had no rights over temple lands\nC) Women were not employed in administration\nD) Polygamy existed in society",
+      "options": [
+        "A and B",
+        "A and D",
+        "A and C",
+        "B and D"
+      ],
+      "hint": "In Vijayanagara, women worked even as accountants and guards in the palace.",
+      "explanation": "Caste and polygamy existed. Brahmins controlled temple lands, and women did serve in administration, so B and C are wrong."
+    },
+    "ml": {
+      "question": "വിജയനഗര സാമ്രാജ്യത്തിലെ സാമൂഹ്യവ്യവസ്ഥയുമായി ബന്ധപ്പെട്ട ശരിയായ പ്രസ്താവനകൾ ഏത്?\nA) സമൂഹത്തിൽ ജാതിവ്യവസ്ഥ നിലനിന്നിരുന്നു\nB) ബ്രാഹ്മണർക്ക് ക്ഷേത്രഭൂമിയിൽ അവകാശമുണ്ടായിരുന്നില്ല\nC) സ്ത്രീകളുടെ സേവനം രാജ്യകാര്യങ്ങളിൽ ഉപയോഗിച്ചിരുന്നില്ല\nD) സമൂഹത്തിൽ ബഹുഭാര്യത്വം നിലനിന്നിരുന്നു",
+      "options": [
+        "A യും B യും",
+        "A യും D യും",
+        "A യും C യും",
+        "B യും D യും"
+      ],
+      "hint": "വിജയനഗരത്തിൽ സ്ത്രീകൾ കണക്കെഴുത്തുകാരും കാവൽക്കാരുമായി ജോലി ചെയ്തിരുന്നു.",
+      "explanation": "ജാതിവ്യവസ്ഥയും ബഹുഭാര്യത്വവും നിലനിന്നിരുന്നു. ക്ഷേത്രഭൂമിയിൽ ബ്രാഹ്മണർക്ക് അവകാശമുണ്ടായിരുന്നു; സ്ത്രീകൾ ഭരണകാര്യങ്ങളിലും പ്രവർത്തിച്ചിരുന്നു."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q34 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-35",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "Which of these is NOT correct about the Government of India Act (1935)?",
+      "options": [
+        "A two-house legislature at the Centre",
+        "321 sections and 10 schedules",
+        "Division of powers between the Centre and the Provinces",
+        "Took 2 years, 11 months and 17 days to draft"
+      ],
+      "hint": "Which document took almost 3 years to make after Independence?",
+      "explanation": "\"2 years, 11 months and 17 days\" is the time taken to make the Constitution of India, not the Government of India Act."
+    },
+    "ml": {
+      "question": "ഗവൺമെന്റ് ഓഫ് ഇന്ത്യ ആക്ടിനെ (1935) സംബന്ധിച്ച് ശരിയല്ലാത്തത് ഏത്?",
+      "options": [
+        "കേന്ദ്രത്തിൽ ദ്വിമണ്ഡല സഭ",
+        "321 വിഭാഗങ്ങൾ, 10 പട്ടികകൾ",
+        "കേന്ദ്രത്തിനും പ്രവിശ്യകൾക്കുമായി അധികാരം പങ്കിട്ടു",
+        "നിർമ്മാണത്തിന് 2 വർഷം 11 മാസം 17 ദിവസം എടുത്തു"
+      ],
+      "hint": "സ്വാതന്ത്ര്യത്തിനു ശേഷം ഏകദേശം 3 വർഷമെടുത്ത് തയ്യാറാക്കിയ രേഖ ഏത്?",
+      "explanation": "2 വർഷം 11 മാസം 17 ദിവസം എടുത്തത് ഇന്ത്യൻ ഭരണഘടനയുടെ നിർമ്മാണത്തിനാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q35 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-36",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which is the correct order of atmospheric layers from the Earth's surface?",
+      "options": [
+        "Troposphere – Stratosphere – Mesosphere – Thermosphere",
+        "Troposphere – Mesosphere – Thermosphere – Stratosphere",
+        "Troposphere – Thermosphere – Stratosphere – Exosphere",
+        "Troposphere – Mesosphere – Exosphere – Stratosphere"
+      ],
+      "hint": "Think \"T-S-M-T-E\".",
+      "explanation": "From the ground up: Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere."
+    },
+    "ml": {
+      "question": "ഭൂമിയുടെ ഉപരിതലത്തിൽ നിന്ന് അന്തരീക്ഷ പാളികളുടെ ശരിയായ ക്രമം ഏത്?",
+      "options": [
+        "ട്രോപ്പോസ്ഫിയർ – സ്ട്രാറ്റോസ്ഫിയർ – മീസോസ്ഫിയർ – തെർമോസ്ഫിയർ",
+        "ട്രോപ്പോസ്ഫിയർ – മീസോസ്ഫിയർ – തെർമോസ്ഫിയർ – സ്ട്രാറ്റോസ്ഫിയർ",
+        "ട്രോപ്പോസ്ഫിയർ – തെർമോസ്ഫിയർ – സ്ട്രാറ്റോസ്ഫിയർ – എക്സോസ്ഫിയർ",
+        "ട്രോപ്പോസ്ഫിയർ – മീസോസ്ഫിയർ – എക്സോസ്ഫിയർ – സ്ട്രാറ്റോസ്ഫിയർ"
+      ],
+      "hint": "ഓസോൺ പാളിയുള്ള സ്ട്രാറ്റോസ്ഫിയർ ട്രോപ്പോസ്ഫിയറിന് തൊട്ടു മുകളിലാണ്.",
+      "explanation": "താഴെ നിന്ന്: ട്രോപ്പോസ്ഫിയർ, സ്ട്രാറ്റോസ്ഫിയർ, മീസോസ്ഫിയർ, തെർമോസ്ഫിയർ, എക്സോസ്ഫിയർ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q36 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-37",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Between which latitudes does the apparent movement of the Sun take place?",
+      "options": [
+        "23½° North to 23½° South",
+        "23½° South to 66½°",
+        "23½° North to 66½°",
+        "66½° to 90°"
+      ],
+      "hint": "Think of the Tropic of Cancer and the Tropic of Capricorn.",
+      "explanation": "The Sun appears to move between the Tropic of Cancer (23½° N) and the Tropic of Capricorn (23½° S)."
+    },
+    "ml": {
+      "question": "സൂര്യന്റെ അയനം നടക്കുന്നത് ഏത് അക്ഷാംശങ്ങൾക്കിടയിലാണ്?",
+      "options": [
+        "23½° ഉത്തരാർദ്ധഗോളം മുതൽ 23½° ദക്ഷിണാർദ്ധഗോളം വരെ",
+        "23½° ദക്ഷിണാർദ്ധഗോളം മുതൽ 66½° വരെ",
+        "23½° ഉത്തരാർദ്ധഗോളം മുതൽ 66½° വരെ",
+        "66½° മുതൽ 90° വരെ"
+      ],
+      "hint": "ഉത്തരായനരേഖയും ദക്ഷിണായനരേഖയും ഓർക്കൂ.",
+      "explanation": "ഉത്തരായനരേഖയ്ക്കും (23½° വടക്ക്) ദക്ഷിണായനരേഖയ്ക്കും (23½° തെക്ക്) ഇടയിലാണ് സൂര്യന്റെ അയനം."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q37 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-38",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "What is the main reason for large-scale cotton cultivation in the Deccan Plateau?",
+      "options": [
+        "Heavy rainfall",
+        "High temperature",
+        "Western winds",
+        "Black soil"
+      ],
+      "hint": "This soil is also called \"black cotton soil\".",
+      "explanation": "The Deccan has black (regur) soil, which holds moisture well and is best for cotton."
+    },
+    "ml": {
+      "question": "ഡക്കാൻ പീഠഭൂമിയിൽ പരുത്തി കൃഷി ധാരാളമായി ചെയ്യുന്നതിനുള്ള പ്രധാന കാരണം എന്ത്?",
+      "options": [
+        "ധാരാളം മഴ ലഭിക്കുന്നതു കൊണ്ട്",
+        "ധാരാളം ചൂട് ലഭിക്കുന്നതു കൊണ്ട്",
+        "പടിഞ്ഞാറൻ കാറ്റ് ലഭിക്കുന്നതു കൊണ്ട്",
+        "കറുത്ത മണ്ണ് നിറഞ്ഞിരിക്കുന്നതു കൊണ്ട്"
+      ],
+      "hint": "ഈ മണ്ണിനെ \"കറുത്ത പരുത്തി മണ്ണ്\" എന്നും വിളിക്കുന്നു.",
+      "explanation": "ഡക്കാനിലെ കറുത്ത മണ്ണ് (റിഗർ) ഈർപ്പം നിലനിർത്തുന്നതിനാൽ പരുത്തിക്ക് ഏറ്റവും യോജിച്ചതാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q38 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-39",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Identify the type of farming from these clues:\n(i) Farming for own use\n(ii) Profit is not the aim\n(iii) Traditional tools are used\n(iv) Sold only if there is extra",
+      "options": [
+        "Subsistence farming",
+        "Mixed farming",
+        "Commercial farming",
+        "Plantation farming"
+      ],
+      "hint": "Farming just to live (subsist).",
+      "explanation": "Subsistence farming grows food mainly for the farmer's own family, not for profit."
+    },
+    "ml": {
+      "question": "താഴെ നൽകിയിരിക്കുന്ന സൂചനകളിൽ നിന്ന് കൃഷിരീതി തിരിച്ചറിയുക.\n(i) സ്വന്തം ആവശ്യത്തിന് മാത്രം കൃഷി\n(ii) ലാഭം ലക്ഷ്യമല്ല\n(iii) പരമ്പരാഗത ഉപകരണങ്ങൾ\n(iv) മിച്ചം ഉണ്ടെങ്കിൽ മാത്രം വിൽപ്പന",
+      "options": [
+        "ഉപജീവന കൃഷി",
+        "സമ്മിശ്ര കൃഷി",
+        "വാണിജ്യവിള കൃഷി",
+        "തോട്ടവിള കൃഷി"
+      ],
+      "hint": "ജീവിക്കാൻ വേണ്ടി മാത്രമുള്ള കൃഷി.",
+      "explanation": "സ്വന്തം കുടുംബത്തിന്റെ ആവശ്യത്തിനായി, ലാഭം ലക്ഷ്യമാക്കാതെ ചെയ്യുന്നതാണ് ഉപജീവന കൃഷി."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q39 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-40",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which of these is NOT related to Gram Swaraj?",
+      "options": [
+        "Self-governing administration",
+        "Centralised power",
+        "Decentralisation of power",
+        "Development of villages"
+      ],
+      "hint": "Gandhiji wanted power to reach the villages.",
+      "explanation": "Gram Swaraj means villages governing themselves – power is spread out, not centralised."
+    },
+    "ml": {
+      "question": "ഗ്രാമസ്വരാജുമായി ബന്ധമില്ലാത്തത് ഏത്?",
+      "options": [
+        "സ്വയംഭരണ സർക്കാർ",
+        "കേന്ദ്രീകൃത അധികാരം",
+        "അധികാര വികേന്ദ്രീകരണം",
+        "ഗ്രാമങ്ങളുടെ വികസനം"
+      ],
+      "hint": "അധികാരം ഗ്രാമങ്ങളിലേക്ക് എത്തണമെന്നാണ് ഗാന്ധിജി ആഗ്രഹിച്ചത്.",
+      "explanation": "ഗ്രാമസ്വരാജ് എന്നാൽ ഗ്രാമങ്ങളുടെ സ്വയംഭരണം — അധികാരം വികേന്ദ്രീകരിക്കുക; കേന്ദ്രീകരിക്കുകയല്ല."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q40 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-41",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "On what basis are maps classified?\n(i) Purpose of the map\n(ii) Colours used in the map\n(iii) Symbols used in the map\n(iv) Scale of the map",
+      "options": [
+        "i & ii",
+        "ii & iii",
+        "i & iii",
+        "i & iv"
+      ],
+      "hint": "Large-scale and small-scale maps…",
+      "explanation": "Maps are classified by their purpose (political, physical…) and by their scale (large-scale, small-scale)."
+    },
+    "ml": {
+      "question": "ഭൂപടങ്ങളെ വർഗ്ഗീകരിക്കുന്നത് എന്തിന്റെ അടിസ്ഥാനത്തിലാണ്?\n(i) ഭൂപടങ്ങളുടെ ധർമ്മം\n(ii) ഭൂപടങ്ങളിലെ നിറം\n(iii) ഭൂപടങ്ങളിലെ സൂചികകൾ\n(iv) ഭൂപടങ്ങൾ തയ്യാറാക്കിയിരിക്കുന്ന തോത്",
+      "options": [
+        "i & ii",
+        "ii & iii",
+        "i & iii",
+        "i & iv"
+      ],
+      "hint": "വലിയ തോത്, ചെറിയ തോത് ഭൂപടങ്ങൾ…",
+      "explanation": "ധർമ്മം (രാഷ്ട്രീയം, ഭൗതികം…), തോത് (വലിയ തോത്, ചെറിയ തോത്) എന്നിവയുടെ അടിസ്ഥാനത്തിലാണ് ഭൂപടങ്ങളെ തരംതിരിക്കുന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q41 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-42",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which is an example of non-developmental expenditure?",
+      "options": [
+        "Setting up educational institutions",
+        "Social security pension",
+        "Construction of bridges",
+        "Power generation"
+      ],
+      "hint": "Which one does not build anything new?",
+      "explanation": "Pensions are non-developmental expenditure. Schools, bridges and power plants build the economy (developmental)."
+    },
+    "ml": {
+      "question": "വികസനേതര ചെലവിന് ഉദാഹരണം ഏത്?",
+      "options": [
+        "വിദ്യാഭ്യാസ സ്ഥാപനങ്ങൾ ആരംഭിക്കൽ",
+        "സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ",
+        "പാലങ്ങളുടെ നിർമ്മാണം",
+        "ഊർജ്ജോത്പാദനം"
+      ],
+      "hint": "ഇതിൽ ഏതാണ് പുതിയ ഒന്നും നിർമ്മിക്കാത്തത്?",
+      "explanation": "പെൻഷൻ വികസനേതര ചെലവാണ്. സ്കൂളുകൾ, പാലങ്ങൾ, ഊർജ്ജോത്പാദനം എന്നിവ വികസനച്ചെലവുകൾ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q42 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-43",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "Which law in South Africa set apart separate \"reserves\" for the Black population?",
+      "options": [
+        "Mines and Labour Act",
+        "Native Land Act",
+        "Native Urban Areas Act",
+        "Group Areas Act"
+      ],
+      "hint": "It is about land.",
+      "explanation": "The Native Land Act (1913) kept the Black population to separate \"reserves\"."
+    },
+    "ml": {
+      "question": "ദക്ഷിണാഫ്രിക്കയിൽ കറുത്ത വർഗ്ഗക്കാർക്ക് 'റിസർവ്' അനുവദിച്ച നിയമം ഏത്?",
+      "options": [
+        "ഖനി-തൊഴിൽ നിയമം",
+        "പ്രാദേശിക ഭൂനിയമം",
+        "പ്രാദേശിക നഗരപ്രദേശനിയമം",
+        "ഗ്രൂപ്പ് ഏരിയ നിയമം"
+      ],
+      "hint": "ഭൂമിയുമായി ബന്ധപ്പെട്ട നിയമം.",
+      "explanation": "പ്രാദേശിക ഭൂനിയമം (Native Land Act, 1913) ആണ് കറുത്ത വർഗ്ഗക്കാരെ പ്രത്യേക \"റിസർവുകളിൽ\" ഒതുക്കിയത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q43 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-GK-45",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "In which state is India's first Artificial Intelligence (AI) Data Centre Park?",
+      "options": [
+        "Chhattisgarh",
+        "Kerala",
+        "Tamil Nadu",
+        "Uttar Pradesh"
+      ],
+      "hint": "It is in Nava Raipur.",
+      "explanation": "India's first AI Data Centre Park is in Nava Raipur, Chhattisgarh."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയുടെ ആദ്യ AI ഡാറ്റാ സെന്റർ പാർക്ക് സ്ഥിതി ചെയ്യുന്ന സംസ്ഥാനം ഏത്?",
+      "options": [
+        "ഛത്തീസ്ഗഢ്",
+        "കേരളം",
+        "തമിഴ്നാട്",
+        "ഉത്തർപ്രദേശ്"
+      ],
+      "hint": "നവ റായ്പൂരിലാണ്.",
+      "explanation": "ഇന്ത്യയിലെ ആദ്യ AI ഡാറ്റാ സെന്റർ പാർക്ക് ഛത്തീസ്ഗഢിലെ നവ റായ്പൂരിലാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q45 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-SOC-46",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which of these is NOT an archaeological source for writing history?",
+      "options": [
+        "Coins",
+        "Stone monuments",
+        "Caves",
+        "Literary works"
+      ],
+      "hint": "Archaeological sources are things dug up or built.",
+      "explanation": "Coins, monuments and caves are archaeological sources. Literary works are literary sources."
+    },
+    "ml": {
+      "question": "ചരിത്രരചനയ്ക്ക് ഉപയോഗിക്കുന്ന പുരാവസ്തുശാസ്ത്ര സ്രോതസ്സിൽ ഉൾപ്പെടാത്തത് ഏത്?",
+      "options": [
+        "നാണയങ്ങൾ",
+        "ശിലാ സ്മാരകങ്ങൾ",
+        "ഗുഹകൾ",
+        "സാഹിത്യകൃതികൾ"
+      ],
+      "hint": "കുഴിച്ചെടുക്കുന്നതോ നിർമ്മിച്ചതോ ആയ വസ്തുക്കളാണ് പുരാവസ്തു സ്രോതസ്സുകൾ.",
+      "explanation": "നാണയങ്ങൾ, സ്മാരകങ്ങൾ, ഗുഹകൾ എന്നിവ പുരാവസ്തു സ്രോതസ്സുകൾ. സാഹിത്യകൃതികൾ സാഹിത്യ സ്രോതസ്സുകളാണ്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q46 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-GK-48",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which countries are hosting the 2026 FIFA World Cup?",
+      "options": [
+        "Canada, Mexico, United States",
+        "Brazil, Argentina, Chile",
+        "France, Germany, Italy",
+        "Spain, Portugal, England"
+      ],
+      "hint": "Three countries of North America.",
+      "explanation": "The 2026 FIFA World Cup is hosted by Canada, Mexico and the United States."
+    },
+    "ml": {
+      "question": "2026 ലോകകപ്പ് ഫുട്ബോൾ ടൂർണമെന്റ് ആതിഥേയത്വം വഹിക്കുന്ന രാജ്യങ്ങൾ ഏവ?",
+      "options": [
+        "കാനഡ, മെക്സിക്കോ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്",
+        "ബ്രസീൽ, അർജന്റീന, ചിലി",
+        "ഫ്രാൻസ്, ജർമനി, ഇറ്റലി",
+        "സ്പെയിൻ, പോർച്ചുഗൽ, ഇംഗ്ലണ്ട്"
+      ],
+      "hint": "വടക്കേ അമേരിക്കയിലെ മൂന്ന് രാജ്യങ്ങൾ.",
+      "explanation": "കാനഡ, മെക്സിക്കോ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ് എന്നിവ ചേർന്നാണ് 2026 ലോകകപ്പ് നടത്തുന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q48 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-GK-49",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "What is the highest civilian award of India?",
+      "options": [
+        "Padma Bhushan",
+        "Padma Vibhushan",
+        "Bharat Ratna",
+        "Padma Shri"
+      ],
+      "hint": "\"The jewel of India\".",
+      "explanation": "Bharat Ratna is the highest civilian award. Then come Padma Vibhushan, Padma Bhushan and Padma Shri."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയുടെ ഏറ്റവും വലിയ സിവിലിയൻ ബഹുമതി ഏത്?",
+      "options": [
+        "പത്മഭൂഷൺ",
+        "പത്മവിഭൂഷൺ",
+        "ഭാരതരത്ന",
+        "പത്മശ്രീ"
+      ],
+      "hint": "\"ഇന്ത്യയുടെ രത്നം\".",
+      "explanation": "ഭാരതരത്നയാണ് ഏറ്റവും ഉയർന്ന സിവിലിയൻ ബഹുമതി. തുടർന്ന് പത്മവിഭൂഷൺ, പത്മഭൂഷൺ, പത്മശ്രീ."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q49 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KSTA26-GK-50",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which scheme was started in Kerala schools to provide IT education?",
+      "options": [
+        "IT@School",
+        "KITS",
+        "EDUSAT",
+        "Digital India"
+      ],
+      "hint": "Its name has \"School\" in it.",
+      "explanation": "IT@School (now KITE) brought IT education to Kerala schools."
+    },
+    "ml": {
+      "question": "കേരളത്തിലെ സ്കൂളുകളിൽ ഐടി വിദ്യാഭ്യാസത്തിനായി നടപ്പിലാക്കിയ പദ്ധതി ഏത്?",
+      "options": [
+        "ഐടി@സ്കൂൾ",
+        "കെഐടിഎസ്",
+        "എഡ്യൂസാറ്റ്",
+        "ഡിജിറ്റൽ ഇന്ത്യ"
+      ],
+      "hint": "പേരിൽ \"സ്കൂൾ\" ഉണ്ട്.",
+      "explanation": "ഐടി@സ്കൂൾ (ഇപ്പോൾ കൈറ്റ് – KITE) ആണ് കേരളത്തിലെ സ്കൂളുകളിൽ ഐടി വിദ്യാഭ്യാസം കൊണ്ടുവന്നത്."
+    },
+    "source": "KSTA USS model exam 2026 (8 Feb 2026), Paper 2, Q50 – used with KSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KSTA (Kerala School Teachers' Association) – USS model exam 2026",
+      "ml": "KSTA (കേരള സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  }
+]
