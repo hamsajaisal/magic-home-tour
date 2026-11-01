@@ -4,7 +4,7 @@ import { SETTINGS } from '../settings.js';
 import { save, persist, resetAll, roomState, today } from './storage.js';
 import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
 import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions } from './questions.js';
-import { buildWorld, floorHeight, labelTexture, START } from './world/house.js';
+import { buildWorld, floorHeight, labelTexture, setSignFont, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
 import { collide } from './world/physics.js';
 import { createSurprises } from './world/surprises.js';
@@ -51,8 +51,10 @@ async function boot() {
     loadQuestions(),
     loadVoice(),
     document.fonts.load('700 40px "Game Font"', 'മലയാളം Aa').catch(() => {}),
+    document.fonts.load('700 40px "Game Font New"', 'മലയാളം Aa').catch(() => {}),
   ]);
   rooms = roomData.rooms;
+  applyLipi(save.settings.lipi);
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
@@ -442,6 +444,14 @@ function wear(item, on) {
 }
 
 // ---------- buttons and menus ----------
+// old (traditional) or new (reformed) Malayalam script
+function applyLipi(choice) {
+  const isNew = choice === 'new';
+  document.documentElement.classList.toggle('lipi-new', isNew);
+  setSignFont(isNew);
+  document.querySelectorAll('[data-lipi]').forEach((b) => b.classList.toggle('active', b.dataset.lipi === (isNew ? 'new' : 'old')));
+}
+
 function changeLang(l) {
   save.lang = l;
   persist();
@@ -507,6 +517,14 @@ function setupUI() {
   });
   $('set-low').addEventListener('change', (e) => { save.settings.lowGraphics = e.target.checked; persist(); location.reload(); });
   $('set-sound').addEventListener('change', (e) => { save.settings.sound = e.target.checked; persist(); refreshHUD(); });
+  document.querySelectorAll('[data-lipi]').forEach((b) => b.addEventListener('click', async () => {
+    play('click');
+    save.settings.lipi = b.dataset.lipi;
+    persist();
+    applyLipi(save.settings.lipi);
+    await document.fonts.ready;
+    refreshSigns();
+  }));
   $('set-voice').addEventListener('change', (e) => { save.settings.voice = e.target.checked; persist(); });
   $('reset-btn').addEventListener('click', () => {
     if (confirm(t('resetConfirm'))) { resetAll(); location.reload(); }

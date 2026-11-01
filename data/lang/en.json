@@ -51,7 +51,7 @@
   "source": "Source",
   "privacy": "This game does not collect any personal information. There are no ads and no login. Progress is saved only on this device.",
   "creditsQuestions": "Question sources",
-  "creditsMade": "Made with Three.js (3D) and the fonts Manjari (Swathanthra Malayalam Computing) and Baloo Chettan 2 (both SIL Open Font License).",
+  "creditsMade": "Made with Three.js (3D) and the fonts Manjari (Swathanthra Malayalam Computing), Anek Malayalam and Baloo Chettan 2 (Ek Type) — all SIL Open Font License.",
   "unreviewedNote": "Questions marked 'not yet reviewed' have not been checked by a teacher yet.",
   "allOpen": "All rooms are open! 🎉 Try the Wishing Well in the garden and the Revision Cupboard in the hall.",
   "levelUp": "Level up! You are now level {l} 🎈",
@@ -131,5 +131,8 @@
   "qCount": "{n} questions",
   "progHard": "Questions to practise more",
   "progHardNone": "No tricky questions yet — super!",
-  "hardMeta": "wrong {w} of {n} times · about {t} each"
+  "hardMeta": "wrong {w} of {n} times · about {t} each",
+  "lipi": "Malayalam script",
+  "lipiOld": "Old (traditional)",
+  "lipiNew": "New (reformed)"
 }

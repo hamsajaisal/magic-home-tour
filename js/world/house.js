@@ -12,7 +12,12 @@ const VERANDA = { x1: -6, x2: 6, z1: 8, z2: 11 };
 const STEPS = { x1: -1.6, x2: 1.6, z1: 11, z2: 12 };
 export const START = { x: 0, z: 18 };
 
-const FONT = '"Game Font", "Noto Sans Malayalam", "Nirmala UI", sans-serif';
+let FONT = '"Game Font", "Noto Sans Malayalam", "Nirmala UI", sans-serif';
+
+// switch the signs between the old (traditional) and new (reformed) Malayalam script
+export function setSignFont(newLipi) {
+  FONT = `"${newLipi ? 'Game Font New' : 'Game Font'}", "Noto Sans Malayalam", "Nirmala UI", sans-serif`;
+}
 const sharedMats = new Map();
 
 export function mat(color, unique = false) {

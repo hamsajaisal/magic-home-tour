@@ -215,5 +215,6 @@ tools/
 
 - 3D: [Three.js](https://threejs.org) (MIT licence)
 - Malayalam font: Manjari by Swathanthra Malayalam Computing (SIL Open Font License, see `assets/fonts/OFL-manjari.txt`)
+- New-script (reformed) Malayalam font: Anek Malayalam by Ek Type (SIL Open Font License, see `assets/fonts/OFL-anek-malayalam.txt`)
 - English font: Baloo Chettan 2 by Ek Type (SIL Open Font License, see `assets/fonts/OFL-baloo-chettan-2.txt`)
 - Question sources are listed in the game under **Settings → Credits**.

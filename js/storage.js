@@ -10,7 +10,7 @@ function fresh() {
     rooms: {},        // roomId -> { unlocked, stars, best }
     wrong: {},        // questionId -> times answered wrong (used by the revision room later)
     seen: {},         // questionId -> times shown
-    settings: { lowGraphics: null, sound: true, voice: true },
+    settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old' },
     streak: { count: 0, last: null },   // days in a row
     surpriseDay: {},  // roomId -> date of today's free surprise
     owned: [],        // shop items bought
