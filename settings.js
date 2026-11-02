@@ -32,6 +32,9 @@ export const SETTINGS = {
   SHOW_NEEDS_REVIEW: false,   // false = hide questions marked "needsReview": true
   SHUFFLE_OPTIONS: true,      // true = mix up the order of A/B/C/D each time
 
+  // ---- Thanks to question sources ----
+  MORE_TESTS_LINK_EVERY: 4,   // after every 4th round with Bio-vision questions, show a link to their mock tests (0 = never)
+
   // ---- Walking ----
   WALK_SPEED: 3.4,            // how fast the child walks
 };

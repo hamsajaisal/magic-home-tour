@@ -147,6 +147,7 @@ html[lang="ml"]:not(.lipi-new) body { word-spacing: 0.14em; }
 .feedback b { display: block; }
 .r-credit { font-size: .85rem; opacity: .75; margin: 10px auto 0; max-width: 460px; }
 .r-credit:empty { display: none; }
+.r-credit a { color: inherit; font-weight: 600; }
 #q-next { display: block; margin: 12px auto 0; }
 
 #quiz-result { text-align: center; padding: 6px 0; }

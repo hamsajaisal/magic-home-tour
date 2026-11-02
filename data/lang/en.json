@@ -136,5 +136,7 @@
   "lipiOld": "Old (traditional)",
   "lipiNew": "New (reformed)",
   "roundCredit": "🙏 Thanks for the questions in this round: {c}",
-  "creditOwn": "Practice questions written for this game"
+  "creditOwn": "Practice questions written for this game",
+  "moreTests": "📝 For more USS mock tests, visit {c}",
+  "moreTestsShort": "more mock tests"
 }

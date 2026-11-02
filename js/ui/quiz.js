@@ -4,6 +4,8 @@ import { play } from '../audio.js';
 import { say } from '../voice.js';
 import { fmtTime, shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
+import { save, persist } from '../storage.js';
+import { SETTINGS } from '../../settings.js';
 
 const $ = (id) => document.getElementById(id);
 const el = {
@@ -23,7 +25,7 @@ export function isQuizOpen() { return !!S; }
 export function retranslateQuiz(translate) {
   if (!S) return;
   S.items = S.items.map((it) => translate(it) || it);
-  if (!el.result.classList.contains('hidden')) { $('r-credit').textContent = creditLine(); return; }
+  if (!el.result.classList.contains('hidden')) { $('r-credit').textContent = creditLine(); showMoreLink(); return; }
   const item = S.items[S.index];
   el.count.textContent = t('questionOf', { i: S.index + 1, n: S.items.length });
   el.text.textContent = item.question;
@@ -71,6 +73,32 @@ function speak(kind, key) {
 function creditLine() {
   const names = [...new Set(S.items.map((it) => it.credit).filter(Boolean))];
   return names.length ? t('roundCredit', { c: names.join(' · ') }) : '';
+}
+
+// Now and then, a link to the source's own site for more mock tests (asked for by Bio-vision).
+// "creditLink" in a question: { "url": "...", "en": "Bio-vision", "ml": "ബയോ വിഷൻ" }.
+function pickMoreLink() {
+  const link = S.items.map((it) => it.creditLink).find((l) => l && l.url);
+  const every = SETTINGS.MORE_TESTS_LINK_EVERY;
+  if (!link || !every) return null;
+  save.stats.moreLinkRounds = (save.stats.moreLinkRounds || 0) + 1;
+  persist();
+  return (save.stats.moreLinkRounds - 1) % every === 0 ? link : null;
+}
+
+function showMoreLink() {
+  const p = $('r-more');
+  p.textContent = '';
+  const link = S.moreLink;
+  if (!link) return;
+  const name = link[lang()] || link.en;
+  const [before, after = ''] = t('moreTests').split('{c}');
+  const a = document.createElement('a');
+  a.href = link.url;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  a.textContent = name;
+  p.append(before, a, after);
 }
 
 function showQuestion() {
@@ -205,6 +233,8 @@ function showResult() {
   const scoreText = t('resultScore', { s: S.score, n: S.items.length });
   $('r-time').textContent = timeReport();
   $('r-credit').textContent = creditLine();
+  S.moreLink = pickMoreLink();
+  showMoreLink();
   if (res.passed) {
     el.rEmoji.textContent = '🎉';
     el.rTitle.textContent = t(S.passTitle || 'resultPass');

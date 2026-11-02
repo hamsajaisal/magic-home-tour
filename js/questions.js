@@ -97,6 +97,7 @@ export function toQuizItem(q, lang, order = null) {
     source: [q.source, q.year && !String(q.source).includes(String(q.year)) ? q.year : null].filter(Boolean).join(', '),
     reviewed: !!q.reviewed,
     credit: creditOf(q, lang),
+    creditLink: q.creditLink || null,
   };
 }
 
@@ -108,13 +109,16 @@ export function creditOf(q, lang) {
   return typeof c === 'string' ? c : (c[lang] || c.en || c.ml || '');
 }
 
-// For the Credits page: each source with how many questions came from it.
+// For the Credits page: each source with how many questions came from it, and its link if it has one.
 // ownLabel names the questions written for this game (those have no "credit").
 export function sources(lang, ownLabel) {
   const set = new Map();
   for (const q of bank.all) {
     const s = creditOf(q, lang) || ownLabel;
-    set.set(s, (set.get(s) || 0) + 1);
+    const e = set.get(s) || { count: 0, link: null };
+    e.count++;
+    e.link ||= q.creditLink?.url || null;
+    set.set(s, e);
   }
-  return [...set.entries()];
+  return [...set.entries()].map(([src, e]) => [src, e.count, e.link]);
 }

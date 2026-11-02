@@ -532,9 +532,17 @@ function setupUI() {
   $('credits-btn').addEventListener('click', () => {
     const list = $('credits-list');
     list.innerHTML = '';
-    for (const [src, count] of sources(lang(), t('creditOwn'))) {
+    for (const [src, count, link] of sources(lang(), t('creditOwn'))) {
       const li = document.createElement('li');
       li.textContent = `${src} (${count})`;
+      if (link) {
+        const a = document.createElement('a');
+        a.href = link;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.textContent = t('moreTestsShort');
+        li.append(' – ', a);
+      }
       list.appendChild(li);
     }
     $('settings').classList.add('hidden');
