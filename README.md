@@ -174,6 +174,9 @@ run **"Check my question files"** in the converter.
 
 - **Bio-vision USS mock tests** (biovisions.in, run by a teacher and his son since 2009): 468 questions, used **with Bio-vision's permission**. That is about 40% of each subject's mock-test questions, picked from every chapter. Many come in both media. Each answer was checked, and questions needing a picture or a passage, or with a doubtful answer, were left out (`biovision.json`). As agreed, after every 4th round with Bio-vision questions the result screen shows a link to their USS practice tests page (change `MORE_TESTS_LINK_EVERY` in `settings.js`; 0 turns it off). The link is also in **Settings → Credits**.
 
+- **KPSTA USS model exam 2026** (Kerala Pradesh School Teachers Association): 90 questions, used **with KPSTA's permission**, all checked against KPSTA's answer key (`kpsta-2026.json`). Questions needing a figure, and a few where the key looked wrong or the news will go out of date, were left out.
+- **Textbook practice questions** (`textbook-7.json`): our own questions, written chapter by chapter from the new SCERT Kerala Class 7 textbooks (2024). So far Basic Science and Social Science. They are marked `"reviewed": false` until a teacher checks them.
+
 Credit is given at the end of each round rather than under every question, so the game flows naturally. This was agreed with KSTA.
 
 A question can also carry `creditLink` (`{ "url": "...", "en": "name", "ml": "പേര്" }`) to show the source's "more mock tests" link.

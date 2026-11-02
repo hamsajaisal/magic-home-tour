@@ -1,0 +1,3073 @@
+[
+  {
+    "id": "TB7-SCI-001",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "Producing new plants from roots, stems, leaves or underground stems is called:",
+      "options": [
+        "Pollination",
+        "Hybridization",
+        "Vegetative propagation",
+        "Germination"
+      ],
+      "hint": "No seeds are used.",
+      "explanation": "Making new plants from vegetative parts like root, stem, leaf or underground stem is vegetative propagation."
+    },
+    "ml": {
+      "question": "വേര്, തണ്ട്, ഇല, ഭൂകാണ്ഡം എന്നിവയിൽ നിന്ന് പുതിയ തൈകൾ ഉണ്ടാക്കുന്നതിനെ എന്തു പറയുന്നു?",
+      "options": [
+        "പരാഗണം",
+        "സങ്കരണം",
+        "കായികപ്രജനനം",
+        "അങ്കുരണം"
+      ],
+      "hint": "വിത്ത് ഉപയോഗിക്കുന്നില്ല.",
+      "explanation": "സസ്യത്തിന്റെ കായികഭാഗങ്ങളിൽ നിന്ന് പുതിയ തൈകൾ ഉണ്ടാക്കുന്നത് കായികപ്രജനനം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-002",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "Producing seeds by artificially pollinating two plants of the same species with different qualities is:",
+      "options": [
+        "Budding",
+        "Hybridization",
+        "Layering",
+        "Grafting"
+      ],
+      "hint": "The new seed gets good qualities from both parents.",
+      "explanation": "Hybridization is artificial pollination between two plants of the same species with different qualities."
+    },
+    "ml": {
+      "question": "ഒരേ ഇനത്തിൽപ്പെട്ട, വ്യത്യസ്ത ഗുണങ്ങളുള്ള രണ്ടു സസ്യങ്ങളെ കൃത്രിമമായി പരാഗണം നടത്തി വിത്ത് ഉൽപാദിപ്പിക്കുന്ന രീതി:",
+      "options": [
+        "ബഡ്ഡിംഗ്",
+        "സങ്കരണം",
+        "പതിവയ്ക്കൽ",
+        "ഒട്ടിക്കൽ"
+      ],
+      "hint": "രണ്ടു മാതൃസസ്യങ്ങളുടെയും ഗുണങ്ങൾ പുതിയ വിത്തിന് കിട്ടും.",
+      "explanation": "വ്യത്യസ്ത ഗുണങ്ങളുള്ള ഒരേ ഇനം സസ്യങ്ങളെ കൃത്രിമമായി പരാഗണം ചെയ്യിക്കുന്നതാണ് സങ്കരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-003",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "In budding, what is joined to a rooted plant of the same species?",
+      "options": [
+        "A bud of a superior plant",
+        "A leaf of a superior plant",
+        "A seed of a superior plant",
+        "A flower of a superior plant"
+      ],
+      "hint": "The name of the method tells you.",
+      "explanation": "Budding joins a bud of a superior plant to another rooted plant of the same species."
+    },
+    "ml": {
+      "question": "ബഡ്ഡിംഗിൽ ഒരേ ഇനത്തിൽപ്പെട്ട വേരുള്ള ചെടിയോട് ചേർക്കുന്നത് എന്താണ്?",
+      "options": [
+        "മേന്മയുള്ള ചെടിയുടെ മുകുളം",
+        "മേന്മയുള്ള ചെടിയുടെ ഇല",
+        "മേന്മയുള്ള ചെടിയുടെ വിത്ത്",
+        "മേന്മയുള്ള ചെടിയുടെ പൂവ്"
+      ],
+      "hint": "രീതിയുടെ പേരിൽത്തന്നെ ഉത്തരമുണ്ട് (bud).",
+      "explanation": "മേന്മയുള്ള ചെടിയുടെ മുകുളം വേരുള്ള മറ്റൊരു ചെടിയിൽ ചേർക്കുന്നതാണ് ബഡ്ഡിംഗ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-004",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "Fruits from which stage of a plant's life are best for collecting seeds?",
+      "options": [
+        "The very first fruits",
+        "The last fruits",
+        "Any damaged fruit",
+        "Fruits from the middle of its lifespan"
+      ],
+      "hint": "Early fruits give low yield; the last ones come from a tired plant.",
+      "explanation": "Seeds from fruits formed in the middle of the plant's lifespan, on a healthy plant, give a good yield."
+    },
+    "ml": {
+      "question": "വിത്തിനായി ചെടിയുടെ ജീവിതകാലത്തിലെ ഏത് ഘട്ടത്തിലെ കായ്കളാണ് നല്ലത്?",
+      "options": [
+        "ഏറ്റവും ആദ്യത്തെ കായ്കൾ",
+        "അവസാനത്തെ കായ്കൾ",
+        "കേടുവന്ന കായ്കൾ",
+        "ജീവിതകാലത്തിന്റെ മധ്യത്തിലെ കായ്കൾ"
+      ],
+      "hint": "ആദ്യത്തെ കായ്കൾക്ക് വിളവ് കുറവ്; അവസാനത്തേത് ക്ഷീണിച്ച ചെടിയിൽ നിന്ന്.",
+      "explanation": "ആരോഗ്യമുള്ള ചെടിയുടെ ജീവിതകാലത്തിന്റെ മധ്യത്തിൽ ഉണ്ടാകുന്ന കായ്കളിലെ വിത്താണ് നല്ല വിളവ് തരുന്നത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-005",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "Controlling pests by using their natural enemies (like friendly insects) is called:",
+      "options": [
+        "Mechanical control",
+        "Biological control",
+        "Chemical control",
+        "Manual control"
+      ],
+      "hint": "\"Bio\" means life – living things help.",
+      "explanation": "Using living organisms such as predators to control pests is biological control."
+    },
+    "ml": {
+      "question": "കീടങ്ങളുടെ സ്വാഭാവിക ശത്രുക്കളെ (മിത്രകീടങ്ങളെ) ഉപയോഗിച്ച് കീടനിയന്ത്രണം നടത്തുന്നത്:",
+      "options": [
+        "യാന്ത്രികനിയന്ത്രണം",
+        "ജൈവനിയന്ത്രണം",
+        "രാസനിയന്ത്രണം",
+        "കൈകൊണ്ടുള്ള നിയന്ത്രണം"
+      ],
+      "hint": "ജീവികളെ ഉപയോഗിക്കുന്നു.",
+      "explanation": "മിത്രകീടങ്ങൾ പോലുള്ള ജീവികളെ ഉപയോഗിച്ചുള്ള കീടനിയന്ത്രണം ജൈവനിയന്ത്രണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-006",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Plants: propagation and farming",
+      "ml": "സസ്യങ്ങൾ: പ്രജനനവും കൃഷിയും"
+    },
+    "en": {
+      "question": "Which is an important agricultural research centre in Kerala?",
+      "options": [
+        "ISRO",
+        "Kerala Sahitya Akademi",
+        "Kerala Agricultural University",
+        "KSEB"
+      ],
+      "hint": "It is in Thrissur (Vellanikkara).",
+      "explanation": "Kerala Agricultural University does research on crop varieties, animals and birds."
+    },
+    "ml": {
+      "question": "കേരളത്തിലെ ഒരു പ്രധാന കാർഷിക ഗവേഷണകേന്ദ്രം ഏത്?",
+      "options": [
+        "ഐ.എസ്.ആർ.ഒ",
+        "കേരള സാഹിത്യ അക്കാദമി",
+        "കേരള കാർഷിക സർവകലാശാല",
+        "കെ.എസ്.ഇ.ബി"
+      ],
+      "hint": "തൃശ്ശൂരിലെ വെള്ളാനിക്കരയിലാണ്.",
+      "explanation": "കേരള കാർഷിക സർവകലാശാല വിളയിനങ്ങൾ, മൃഗങ്ങൾ, പക്ഷികൾ എന്നിവയെക്കുറിച്ച് ഗവേഷണം നടത്തുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Plants: propagation and farming\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-007",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "The word 'acid' comes from the Latin word 'acidus'. What does it mean?",
+      "options": [
+        "Sour",
+        "Sweet",
+        "Bitter",
+        "Salty"
+      ],
+      "hint": "Think of how lemon tastes.",
+      "explanation": "'Acidus' is Latin for sour taste. Acids taste sour."
+    },
+    "ml": {
+      "question": "'ആസിഡ്' എന്ന വാക്ക് 'അസിഡസ്' എന്ന ലാറ്റിൻ വാക്കിൽ നിന്നാണ്. അതിന്റെ അർത്ഥം?",
+      "options": [
+        "പുളി",
+        "മധുരം",
+        "കയ്പ്",
+        "ഉപ്പ്"
+      ],
+      "hint": "നാരങ്ങയുടെ രുചി ഓർക്കൂ.",
+      "explanation": "'അസിഡസ്' എന്നാൽ ലാറ്റിനിൽ പുളിരസം. ആസിഡുകൾക്ക് പുളിയാണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-008",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Acids and bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Medicines given for acidity, which neutralise extra stomach acid, are called:",
+      "options": [
+        "Antibiotics",
+        "Vitamins",
+        "Antacids",
+        "Painkillers"
+      ],
+      "hint": "\"Anti\" + \"acid\".",
+      "explanation": "Antacids neutralise excess acid in the stomach."
+    },
+    "ml": {
+      "question": "ആമാശയത്തിലെ അധിക ആസിഡിനെ നിർവീര്യമാക്കാൻ നൽകുന്ന മരുന്നുകൾ:",
+      "options": [
+        "ആന്റിബയോട്ടിക്കുകൾ",
+        "വിറ്റാമിനുകൾ",
+        "ആന്റാസിഡുകൾ",
+        "വേദനസംഹാരികൾ"
+      ],
+      "hint": "\"ആന്റി\" + \"ആസിഡ്\".",
+      "explanation": "ആന്റാസിഡുകൾ ആമാശയത്തിലെ അധിക ആസിഡിനെ നിർവീര്യമാക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-009",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Acids and bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Who discovered hydrogen?",
+      "options": [
+        "Louis Pasteur",
+        "Henry Cavendish",
+        "Isaac Newton",
+        "Marie Curie"
+      ],
+      "hint": "A British scientist.",
+      "explanation": "The British scientist Henry Cavendish discovered hydrogen."
+    },
+    "ml": {
+      "question": "ഹൈഡ്രജൻ കണ്ടുപിടിച്ചത് ആര്?",
+      "options": [
+        "ലൂയി പാസ്ചർ",
+        "ഹെൻറി കാവൻഡിഷ്",
+        "ഐസക് ന്യൂട്ടൺ",
+        "മേരി ക്യൂറി"
+      ],
+      "hint": "ഒരു ബ്രിട്ടീഷ് ശാസ്ത്രജ്ഞൻ.",
+      "explanation": "ബ്രിട്ടീഷ് ശാസ്ത്രജ്ഞനായ ഹെൻറി കാവൻഡിഷാണ് ഹൈഡ്രജൻ കണ്ടുപിടിച്ചത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-010",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Acids and bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Which is NOT a symptom of acidity?",
+      "options": [
+        "Stomach pain",
+        "Heartburn",
+        "Nausea",
+        "Good appetite"
+      ],
+      "hint": "Three are discomforts.",
+      "explanation": "Abdominal pain, heartburn, nausea and constipation are symptoms of acidity. Good appetite is not."
+    },
+    "ml": {
+      "question": "അസിഡിറ്റിയുടെ ലക്ഷണമല്ലാത്തത് ഏത്?",
+      "options": [
+        "വയറുവേദന",
+        "നെഞ്ചെരിച്ചിൽ",
+        "ഓക്കാനം",
+        "നല്ല വിശപ്പ്"
+      ],
+      "hint": "മൂന്നെണ്ണം അസ്വസ്ഥതകളാണ്.",
+      "explanation": "വയറുവേദന, നെഞ്ചെരിച്ചിൽ, ഓക്കാനം, മലബന്ധം എന്നിവ അസിഡിറ്റിയുടെ ലക്ഷണങ്ങൾ. നല്ല വിശപ്പ് അല്ല."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-011",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "When an acid reacts with a metal like zinc or magnesium, which gas is produced?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "hint": "It burns with a \"pop\" sound.",
+      "explanation": "Acids react with metals and release hydrogen gas."
+    },
+    "ml": {
+      "question": "ആസിഡ് സിങ്ക്, മഗ്നീഷ്യം പോലുള്ള ലോഹങ്ങളുമായി പ്രവർത്തിക്കുമ്പോൾ ഉണ്ടാകുന്ന വാതകം?",
+      "options": [
+        "ഹൈഡ്രജൻ",
+        "ഓക്സിജൻ",
+        "നൈട്രജൻ",
+        "കാർബൺ ഡൈ ഓക്സൈഡ്"
+      ],
+      "hint": "\"പോപ്പ്\" ശബ്ദത്തോടെ കത്തുന്നു.",
+      "explanation": "ആസിഡുകൾ ലോഹങ്ങളുമായി പ്രവർത്തിച്ച് ഹൈഡ്രജൻ ഉണ്ടാക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-012",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Electricity",
+      "ml": "വൈദ്യുതി"
+    },
+    "en": {
+      "question": "Substances that allow electricity to pass through them are called:",
+      "options": [
+        "Insulators",
+        "Conductors",
+        "Magnets",
+        "Resistors"
+      ],
+      "hint": "Copper wire is an example.",
+      "explanation": "Conductors let electricity pass through. Insulators do not."
+    },
+    "ml": {
+      "question": "വൈദ്യുതി കടത്തിവിടുന്ന പദാർത്ഥങ്ങളെ എന്തു വിളിക്കുന്നു?",
+      "options": [
+        "ഇൻസുലേറ്ററുകൾ",
+        "ചാലകങ്ങൾ",
+        "കാന്തങ്ങൾ",
+        "പ്രതിരോധകങ്ങൾ"
+      ],
+      "hint": "ചെമ്പുകമ്പി ഒരു ഉദാഹരണം.",
+      "explanation": "വൈദ്യുതി കടത്തിവിടുന്നവ ചാലകങ്ങൾ; കടത്തിവിടാത്തവ ഇൻസുലേറ്ററുകൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-013",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Electricity",
+      "ml": "വൈദ്യുതി"
+    },
+    "en": {
+      "question": "What is the major cause of death from an electric shock?",
+      "options": [
+        "Burns on the hand",
+        "Loss of hair",
+        "Cardiac arrest (the heart stops)",
+        "Broken bones"
+      ],
+      "hint": "Electricity disturbs the beating of an important organ.",
+      "explanation": "Cardiac arrest – the heart stopping – is the major cause of death due to electric shock."
+    },
+    "ml": {
+      "question": "വൈദ്യുതാഘാതമേറ്റുള്ള മരണത്തിന്റെ പ്രധാന കാരണം എന്ത്?",
+      "options": [
+        "കൈയിലെ പൊള്ളൽ",
+        "മുടി കൊഴിയൽ",
+        "ഹൃദയസ്തംഭനം",
+        "എല്ലൊടിയൽ"
+      ],
+      "hint": "വൈദ്യുതി ഒരു പ്രധാന അവയവത്തിന്റെ സ്പന്ദനം തെറ്റിക്കുന്നു.",
+      "explanation": "ഹൃദയം നിലയ്ക്കുന്നതാണ് (ഹൃദയസ്തംഭനം) ഷോക്കേറ്റുള്ള മരണത്തിന്റെ പ്രധാന കാരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-014",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Electricity",
+      "ml": "വൈദ്യുതി"
+    },
+    "en": {
+      "question": "When a battery lights a bulb, what is the order of energy changes?",
+      "options": [
+        "Chemical → Electrical → Light",
+        "Light → Electrical → Chemical",
+        "Electrical → Chemical → Light",
+        "Heat → Chemical → Light"
+      ],
+      "hint": "A battery stores energy in chemicals.",
+      "explanation": "The battery changes chemical energy into electrical energy, and the bulb changes it into light."
+    },
+    "ml": {
+      "question": "ബാറ്ററി ഒരു ബൾബ് കത്തിക്കുമ്പോൾ ഊർജ്ജമാറ്റത്തിന്റെ ക്രമം ഏത്?",
+      "options": [
+        "രാസോർജ്ജം → വൈദ്യുതോർജ്ജം → പ്രകാശോർജ്ജം",
+        "പ്രകാശോർജ്ജം → വൈദ്യുതോർജ്ജം → രാസോർജ്ജം",
+        "വൈദ്യുതോർജ്ജം → രാസോർജ്ജം → പ്രകാശോർജ്ജം",
+        "താപോർജ്ജം → രാസോർജ്ജം → പ്രകാശോർജ്ജം"
+      ],
+      "hint": "ബാറ്ററിയിൽ ഊർജ്ജം രാസവസ്തുക്കളിലാണ് സംഭരിച്ചിരിക്കുന്നത്.",
+      "explanation": "ബാറ്ററി രാസോർജ്ജത്തെ വൈദ്യുതോർജ്ജമാക്കുന്നു; ബൾബ് അതിനെ പ്രകാശമാക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-015",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "Electricity",
+      "ml": "വൈദ്യുതി"
+    },
+    "en": {
+      "question": "Before removing a ceiling fan for repair, what must be done first?",
+      "options": [
+        "Pour water on it",
+        "Wear wet gloves",
+        "Run the fan at full speed",
+        "Turn off the main switch"
+      ],
+      "hint": "Safety first: no current should flow.",
+      "explanation": "Always switch off the main switch before touching any electrical device for repair."
+    },
+    "ml": {
+      "question": "നന്നാക്കാനായി സീലിംഗ് ഫാൻ അഴിച്ചുമാറ്റുന്നതിന് മുമ്പ് ആദ്യം ചെയ്യേണ്ടത്?",
+      "options": [
+        "അതിൽ വെള്ളം ഒഴിക്കുക",
+        "നനഞ്ഞ കൈയുറ ധരിക്കുക",
+        "ഫാൻ മുഴുവൻ വേഗത്തിൽ ഓടിക്കുക",
+        "മെയിൻ സ്വിച്ച് ഓഫ് ചെയ്യുക"
+      ],
+      "hint": "ആദ്യം സുരക്ഷ: വൈദ്യുതി ഒഴുകരുത്.",
+      "explanation": "നന്നാക്കാൻ തൊടുന്നതിനു മുമ്പ് മെയിൻ സ്വിച്ച് ഓഫ് ചെയ്യണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-016",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Electricity",
+      "ml": "വൈദ്യുതി"
+    },
+    "en": {
+      "question": "In a hydroelectric power station, what runs the generators?",
+      "options": [
+        "Burning coal",
+        "Turbines turned by flowing water",
+        "Sunlight on panels",
+        "Batteries"
+      ],
+      "hint": "Water from a dam rushes down.",
+      "explanation": "Falling water turns the turbines, and the generators joined to them produce electricity."
+    },
+    "ml": {
+      "question": "ജലവൈദ്യുത നിലയത്തിൽ ജനറേറ്ററുകൾ പ്രവർത്തിപ്പിക്കുന്നത് എന്ത്?",
+      "options": [
+        "കൽക്കരി കത്തിക്കൽ",
+        "ഒഴുകുന്ന വെള്ളം കറക്കുന്ന ടർബൈനുകൾ",
+        "പാനലുകളിലെ സൂര്യപ്രകാശം",
+        "ബാറ്ററികൾ"
+      ],
+      "hint": "അണക്കെട്ടിൽ നിന്ന് വെള്ളം ശക്തിയായി താഴേക്ക്.",
+      "explanation": "ഒഴുകുന്ന വെള്ളം ടർബൈനുകളെ കറക്കുന്നു; അവയോട് ചേർന്ന ജനറേറ്ററുകൾ വൈദ്യുതി ഉണ്ടാക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-017",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Light and reflection",
+      "ml": "പ്രകാശവും പ്രതിഫലനവും"
+    },
+    "en": {
+      "question": "The angle between the incident ray and the normal is called:",
+      "options": [
+        "Angle of reflection",
+        "Right angle",
+        "Angle of incidence",
+        "Straight angle"
+      ],
+      "hint": "It belongs to the ray that falls on the mirror.",
+      "explanation": "The angle between the incident ray and the normal is the angle of incidence."
+    },
+    "ml": {
+      "question": "പതനരശ്മിക്കും ലംബത്തിനും ഇടയിലുള്ള കോൺ:",
+      "options": [
+        "പ്രതിഫലനകോൺ",
+        "മട്ടകോൺ",
+        "പതനകോൺ",
+        "നേർകോൺ"
+      ],
+      "hint": "കണ്ണാടിയിൽ പതിക്കുന്ന രശ്മിയുടേത്.",
+      "explanation": "പതനരശ്മിക്കും ലംബത്തിനും ഇടയിലുള്ള കോണാണ് പതനകോൺ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Light and reflection\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-018",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Light and reflection",
+      "ml": "പ്രകാശവും പ്രതിഫലനവും"
+    },
+    "en": {
+      "question": "Why do we see many images of a candle placed between two parallel mirrors?",
+      "options": [
+        "Multiple reflection",
+        "Refraction",
+        "Dispersion",
+        "Absorption"
+      ],
+      "hint": "Light keeps bouncing between the two mirrors.",
+      "explanation": "Light reflects again and again between the mirrors – multiple reflection – forming many images."
+    },
+    "ml": {
+      "question": "രണ്ട് സമാന്തര ദർപ്പണങ്ങൾക്കിടയിൽ വെച്ച മെഴുകുതിരിയുടെ ധാരാളം പ്രതിബിംബങ്ങൾ കാണാൻ കാരണം?",
+      "options": [
+        "ആവർത്തന പ്രതിഫലനം",
+        "അപവർത്തനം",
+        "പ്രകീർണനം",
+        "ആഗിരണം"
+      ],
+      "hint": "പ്രകാശം രണ്ടു കണ്ണാടികൾക്കിടയിൽ വീണ്ടും വീണ്ടും തട്ടിത്തിരിയുന്നു.",
+      "explanation": "ദർപ്പണങ്ങൾക്കിടയിൽ ആവർത്തിച്ചുള്ള പ്രതിഫലനം കാരണം ധാരാളം പ്രതിബിംബങ്ങൾ ഉണ്ടാകുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Light and reflection\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-019",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Light and reflection",
+      "ml": "പ്രകാശവും പ്രതിഫലനവും"
+    },
+    "en": {
+      "question": "Where is the image formed when we see an object?",
+      "options": [
+        "On the eyelid",
+        "On the cornea only",
+        "In the ear",
+        "On the retina"
+      ],
+      "hint": "The screen at the back of the eye.",
+      "explanation": "We see an object when its image forms on the retina of the eye."
+    },
+    "ml": {
+      "question": "ഒരു വസ്തുവിനെ കാണുമ്പോൾ അതിന്റെ പ്രതിബിംബം രൂപപ്പെടുന്നത് എവിടെ?",
+      "options": [
+        "കൺപോളയിൽ",
+        "കോർണിയയിൽ മാത്രം",
+        "ചെവിയിൽ",
+        "റെറ്റിനയിൽ"
+      ],
+      "hint": "കണ്ണിന്റെ പിന്നിലെ \"തിരശ്ശീല\".",
+      "explanation": "വസ്തുവിന്റെ പ്രതിബിംബം കണ്ണിലെ റെറ്റിനയിൽ രൂപപ്പെടുമ്പോഴാണ് നാം അതിനെ കാണുന്നത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Light and reflection\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-020",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "Light and reflection",
+      "ml": "പ്രകാശവും പ്രതിഫലനവും"
+    },
+    "en": {
+      "question": "A ray falls on a plane mirror making an angle of 30° with the mirror surface. What is the angle of reflection?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "hint": "Angles are measured from the normal, not from the mirror.",
+      "explanation": "The normal is at 90° to the mirror, so the angle of incidence is 90° − 30° = 60°. The angle of reflection equals it: 60°."
+    },
+    "ml": {
+      "question": "ഒരു രശ്മി സമതലദർപ്പണത്തിന്റെ പ്രതലവുമായി 30° കോണിൽ പതിക്കുന്നു. പ്രതിഫലനകോൺ എത്ര?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "hint": "കോണുകൾ അളക്കുന്നത് ലംബത്തിൽ നിന്നാണ്, കണ്ണാടിയിൽ നിന്നല്ല.",
+      "explanation": "ലംബം ദർപ്പണത്തിന് 90°. പതനകോൺ = 90° − 30° = 60°. പ്രതിഫലനകോണും 60°."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Light and reflection\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-021",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Nutrition and respiration",
+      "ml": "പോഷണവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "The wave-like movement of the food pipe that pushes food down is called:",
+      "options": [
+        "Absorption",
+        "Assimilation",
+        "Peristalsis",
+        "Egestion"
+      ],
+      "hint": "Muscles squeeze one after another.",
+      "explanation": "The wave-like muscle movement that pushes food through the food pipe is peristalsis."
+    },
+    "ml": {
+      "question": "അന്നനാളത്തിലെ ഭക്ഷണത്തെ താഴേക്ക് തള്ളിനീക്കുന്ന തരംഗരൂപത്തിലുള്ള ചലനം:",
+      "options": [
+        "ആഗിരണം",
+        "സ്വാംശീകരണം",
+        "പെരിസ്റ്റാൾസിസ്",
+        "വിസർജനം"
+      ],
+      "hint": "പേശികൾ ഒന്നിനു പിറകെ ഒന്നായി ചുരുങ്ങുന്നു.",
+      "explanation": "അന്നനാളത്തിലൂടെ ഭക്ഷണത്തെ തള്ളിനീക്കുന്ന തരംഗചലനമാണ് പെരിസ്റ്റാൾസിസ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Nutrition and respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-022",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Nutrition and respiration",
+      "ml": "പോഷണവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "What are the finger-like projections in the wall of the small intestine called?",
+      "options": [
+        "Villi",
+        "Alveoli",
+        "Cilia",
+        "Valves"
+      ],
+      "hint": "They increase the area for absorbing food.",
+      "explanation": "Villi are finger-like projections in the small intestine that absorb digested food."
+    },
+    "ml": {
+      "question": "ചെറുകുടലിന്റെ ഭിത്തിയിലെ വിരൽ പോലുള്ള ചെറിയ തള്ളലുകൾ:",
+      "options": [
+        "വില്ലസുകൾ",
+        "ആൽവിയോളൈ",
+        "സിലിയ",
+        "വാൽവുകൾ"
+      ],
+      "hint": "ഭക്ഷണം ആഗിരണം ചെയ്യാനുള്ള ഉപരിതലം കൂട്ടുന്നു.",
+      "explanation": "ചെറുകുടലിലെ വിരൽപോലുള്ള വില്ലസുകൾ ദഹിച്ച ആഹാരം ആഗിരണം ചെയ്യുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Nutrition and respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-023",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Nutrition and respiration",
+      "ml": "പോഷണവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Removing undigested waste from the body is which stage of nutrition?",
+      "options": [
+        "First – ingestion",
+        "Fifth – egestion",
+        "Second – digestion",
+        "Fourth – assimilation"
+      ],
+      "hint": "It is the last stage.",
+      "explanation": "Nutrition has five stages: ingestion, digestion, absorption, assimilation and egestion (the fifth)."
+    },
+    "ml": {
+      "question": "ദഹിക്കാത്ത മാലിന്യങ്ങൾ ശരീരത്തിൽ നിന്ന് പുറന്തള്ളുന്നത് പോഷണത്തിന്റെ ഏത് ഘട്ടം?",
+      "options": [
+        "ഒന്നാം – ആഹാരസ്വീകരണം",
+        "അഞ്ചാം – മലവിസർജനം",
+        "രണ്ടാം – ദഹനം",
+        "നാലാം – സ്വാംശീകരണം"
+      ],
+      "hint": "അവസാനത്തെ ഘട്ടം.",
+      "explanation": "പോഷണത്തിന് അഞ്ച് ഘട്ടങ്ങൾ: ആഹാരസ്വീകരണം, ദഹനം, ആഗിരണം, സ്വാംശീകരണം, മലവിസർജനം (അഞ്ചാമത്)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Nutrition and respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-024",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Nutrition and respiration",
+      "ml": "പോഷണവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Bile from the liver and pancreatic juice mix with food in which part?",
+      "options": [
+        "Mouth",
+        "Food pipe",
+        "Large intestine",
+        "The first part of the small intestine"
+      ],
+      "hint": "Right after the stomach.",
+      "explanation": "Bile and pancreatic juice join the partly digested food in the first part of the small intestine."
+    },
+    "ml": {
+      "question": "കരളിലെ പിത്തരസവും ആഗ്നേയരസവും ഭക്ഷണവുമായി കലരുന്നത് എവിടെ?",
+      "options": [
+        "വായിൽ",
+        "അന്നനാളത്തിൽ",
+        "വൻകുടലിൽ",
+        "ചെറുകുടലിന്റെ ആദ്യഭാഗത്ത്"
+      ],
+      "hint": "ആമാശയത്തിന് തൊട്ടുശേഷം.",
+      "explanation": "പിത്തരസവും ആഗ്നേയരസവും ചെറുകുടലിന്റെ ആദ്യഭാഗത്ത് ഭാഗികമായി ദഹിച്ച ആഹാരവുമായി കലരുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Nutrition and respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-025",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Nutrition and respiration",
+      "ml": "പോഷണവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Taking air into the lungs is called:",
+      "options": [
+        "Inhalation",
+        "Exhalation",
+        "Excretion",
+        "Digestion"
+      ],
+      "hint": "\"In\" – air going in.",
+      "explanation": "Inhalation takes air into the lungs; exhalation sends it out."
+    },
+    "ml": {
+      "question": "വായു ശ്വാസകോശത്തിലേക്ക് എടുക്കുന്ന പ്രക്രിയ:",
+      "options": [
+        "ഉച്ഛ്വാസം (ശ്വാസമെടുക്കൽ)",
+        "നിശ്വാസം",
+        "വിസർജനം",
+        "ദഹനം"
+      ],
+      "hint": "വായു ഉള്ളിലേക്ക്.",
+      "explanation": "വായു ഉള്ളിലേക്കെടുക്കുന്നത് ഉച്ഛ്വാസം; പുറത്തുവിടുന്നത് നിശ്വാസം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Nutrition and respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-026",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Heat",
+      "ml": "താപം"
+    },
+    "en": {
+      "question": "Heat travels from the Sun to the Earth through empty space. This method is:",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "hint": "There is no medium in space.",
+      "explanation": "Radiation transmits heat without any medium, so the Sun's heat reaches us by radiation."
+    },
+    "ml": {
+      "question": "സൂര്യനിൽ നിന്ന് ശൂന്യാകാശത്തിലൂടെ താപം ഭൂമിയിലെത്തുന്ന രീതി:",
+      "options": [
+        "ചാലനം",
+        "സംവഹനം",
+        "വികിരണം",
+        "ബാഷ്പീകരണം"
+      ],
+      "hint": "ശൂന്യാകാശത്ത് മാധ്യമമില്ല.",
+      "explanation": "മാധ്യമമില്ലാതെ താപം പ്രേഷണം ചെയ്യുന്നത് വികിരണം. സൂര്യതാപം വികിരണം വഴി എത്തുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Heat\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-027",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Heat",
+      "ml": "താപം"
+    },
+    "en": {
+      "question": "Which word tells how hot or cold something is?",
+      "options": [
+        "Heat",
+        "Temperature",
+        "Energy",
+        "Pressure"
+      ],
+      "hint": "We measure it with a thermometer.",
+      "explanation": "Temperature tells the degree of hotness of a body."
+    },
+    "ml": {
+      "question": "ഒരു വസ്തു എത്രമാത്രം ചൂടുള്ളതാണ് എന്ന് സൂചിപ്പിക്കുന്ന പദം?",
+      "options": [
+        "താപം",
+        "താപനില",
+        "ഊർജ്ജം",
+        "മർദ്ദം"
+      ],
+      "hint": "തെർമോമീറ്റർ കൊണ്ട് അളക്കുന്നു.",
+      "explanation": "ചൂടിന്റെ അളവിനെ (degree of hotness) സൂചിപ്പിക്കുന്നത് താപനില."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Heat\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-028",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Heat",
+      "ml": "താപം"
+    },
+    "en": {
+      "question": "Why do cooking pots have wooden or plastic handles?",
+      "options": [
+        "They look nice",
+        "They are heavy",
+        "They conduct heat well",
+        "They are poor conductors of heat"
+      ],
+      "hint": "We should not burn our hands.",
+      "explanation": "Wood and plastic are poor conductors, so the handle stays cool."
+    },
+    "ml": {
+      "question": "പാചകപ്പാത്രങ്ങൾക്ക് മരം കൊണ്ടോ പ്ലാസ്റ്റിക് കൊണ്ടോ ഉള്ള പിടി നൽകുന്നത് എന്തിന്?",
+      "options": [
+        "ഭംഗിക്ക്",
+        "ഭാരം കൂട്ടാൻ",
+        "അവ താപം നന്നായി കടത്തിവിടുന്നതിനാൽ",
+        "അവ താപത്തിന്റെ കുചാലകങ്ങളായതിനാൽ"
+      ],
+      "hint": "കൈ പൊള്ളരുത്.",
+      "explanation": "മരവും പ്ലാസ്റ്റിക്കും കുചാലകങ്ങളായതിനാൽ പിടി ചൂടാകില്ല."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Heat\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-029",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Circulation and excretion",
+      "ml": "രക്തപര്യയനവും വിസർജനവും"
+    },
+    "en": {
+      "question": "What gives blood its red colour?",
+      "options": [
+        "Haemoglobin",
+        "Plasma",
+        "Platelets",
+        "White blood cells"
+      ],
+      "hint": "A pigment with iron in it.",
+      "explanation": "Blood is red because of the pigment haemoglobin."
+    },
+    "ml": {
+      "question": "രക്തത്തിന് ചുവപ്പുനിറം നൽകുന്നത് എന്ത്?",
+      "options": [
+        "ഹീമോഗ്ലോബിൻ",
+        "പ്ലാസ്മ",
+        "പ്ലേറ്റ്‌ലെറ്റുകൾ",
+        "വെളുത്ത രക്തകോശങ്ങൾ"
+      ],
+      "hint": "ഇരുമ്പുള്ള ഒരു വർണ്ണകം.",
+      "explanation": "ഹീമോഗ്ലോബിൻ എന്ന വർണ്ണകമാണ് രക്തത്തിന് ചുവപ്പുനിറം നൽകുന്നത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Circulation and excretion\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-030",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Circulation and excretion",
+      "ml": "രക്തപര്യയനവും വിസർജനവും"
+    },
+    "en": {
+      "question": "The wave felt in an artery (for example at the wrist) because of the heartbeat is called:",
+      "options": [
+        "Breath",
+        "Blood pressure",
+        "Pulse",
+        "Reflex"
+      ],
+      "hint": "A doctor feels it at your wrist.",
+      "explanation": "The pulse is the wave produced in an artery by each heartbeat."
+    },
+    "ml": {
+      "question": "ഹൃദയസ്പന്ദനത്തിന്റെ ഫലമായി ധമനിയിൽ (ഉദാ: കൈത്തണ്ടയിൽ) അനുഭവപ്പെടുന്ന തരംഗം:",
+      "options": [
+        "ശ്വാസം",
+        "രക്തസമ്മർദ്ദം",
+        "നാഡിമിടിപ്പ് (പൾസ്)",
+        "റിഫ്ലക്സ്"
+      ],
+      "hint": "ഡോക്ടർ കൈത്തണ്ടയിൽ പിടിച്ചുനോക്കുന്നു.",
+      "explanation": "ഓരോ ഹൃദയസ്പന്ദനവും ധമനിയിൽ ഉണ്ടാക്കുന്ന തരംഗമാണ് നാഡിമിടിപ്പ് (പൾസ്)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Circulation and excretion\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-031",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Circulation and excretion",
+      "ml": "രക്തപര്യയനവും വിസർജനവും"
+    },
+    "en": {
+      "question": "What is the shape of a kidney?",
+      "options": [
+        "Heart-shaped",
+        "Bean-shaped",
+        "Round like a ball",
+        "Long like a tube"
+      ],
+      "hint": "Think of a rajma seed.",
+      "explanation": "Kidneys are bean-shaped."
+    },
+    "ml": {
+      "question": "വൃക്കയുടെ ആകൃതി എന്താണ്?",
+      "options": [
+        "ഹൃദയാകൃതി",
+        "പയർമണിയുടെ ആകൃതി",
+        "പന്തുപോലെ ഉരുണ്ടത്",
+        "കുഴൽപോലെ നീണ്ടത്"
+      ],
+      "hint": "രാജ്മ പയർ ഓർക്കൂ.",
+      "explanation": "വൃക്കയ്ക്ക് പയർമണിയുടെ ആകൃതിയാണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Circulation and excretion\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-032",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Circulation and excretion",
+      "ml": "രക്തപര്യയനവും വിസർജനവും"
+    },
+    "en": {
+      "question": "Which is the main job of the kidneys?",
+      "options": [
+        "Pumping blood",
+        "Digesting fat",
+        "Making saliva",
+        "Removing urea and extra water and salts from blood"
+      ],
+      "hint": "They make urine.",
+      "explanation": "Kidneys filter urea, extra water and salts out of the blood and keep the body's water and salt balance."
+    },
+    "ml": {
+      "question": "വൃക്കകളുടെ പ്രധാന ധർമ്മം ഏത്?",
+      "options": [
+        "രക്തം പമ്പ് ചെയ്യുക",
+        "കൊഴുപ്പ് ദഹിപ്പിക്കുക",
+        "ഉമിനീർ ഉണ്ടാക്കുക",
+        "രക്തത്തിൽ നിന്ന് യൂറിയയും അധിക ജലവും ലവണങ്ങളും നീക്കുക"
+      ],
+      "hint": "മൂത്രം ഉണ്ടാക്കുന്നു.",
+      "explanation": "വൃക്കകൾ രക്തത്തിലെ യൂറിയ, അധിക ജലം, ലവണങ്ങൾ എന്നിവ അരിച്ചുമാറ്റുകയും ജല-ലവണ സന്തുലനം നിലനിർത്തുകയും ചെയ്യുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Circulation and excretion\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-033",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Earth, Moon and shadows",
+      "ml": "ഭൂമിയും ചന്ദ്രനും നിഴലും"
+    },
+    "en": {
+      "question": "On the Earth, it is night in the part that is:",
+      "options": [
+        "in the Earth's own shadow, away from the Sun",
+        "facing the Sun",
+        "nearest to the Moon",
+        "at the equator only"
+      ],
+      "hint": "Where sunlight does not fall.",
+      "explanation": "The half of the Earth facing the Sun has day; the other half, in shadow, has night."
+    },
+    "ml": {
+      "question": "ഭൂമിയിൽ രാത്രിയാകുന്നത് ഏത് ഭാഗത്താണ്?",
+      "options": [
+        "സൂര്യന് എതിരെ, ഭൂമിയുടെ നിഴലിലുള്ള ഭാഗത്ത്",
+        "സൂര്യന് അഭിമുഖമായ ഭാഗത്ത്",
+        "ചന്ദ്രന് ഏറ്റവും അടുത്ത ഭാഗത്ത്",
+        "ഭൂമധ്യരേഖയിൽ മാത്രം"
+      ],
+      "hint": "സൂര്യപ്രകാശം വീഴാത്ത ഭാഗം.",
+      "explanation": "സൂര്യന് അഭിമുഖമായ പകുതിയിൽ പകൽ; നിഴലിലുള്ള മറുപകുതിയിൽ രാത്രി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Earth, Moon and shadows\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-034",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Earth, Moon and shadows",
+      "ml": "ഭൂമിയും ചന്ദ്രനും നിഴലും"
+    },
+    "en": {
+      "question": "The days when the lit part of the Moon we see grows bigger each night are called:",
+      "options": [
+        "Waning (black halo)",
+        "Eclipse",
+        "Waxing (white halo / shuklapaksham)",
+        "New Moon"
+      ],
+      "hint": "From new Moon to full Moon.",
+      "explanation": "When the Moon's bright part grows night by night it is waxing; when it shrinks it is waning."
+    },
+    "ml": {
+      "question": "ഓരോ രാത്രിയും ചന്ദ്രന്റെ പ്രകാശിതഭാഗം വലുതായി വരുന്ന കാലം:",
+      "options": [
+        "കൃഷ്ണപക്ഷം (ക്ഷയം)",
+        "ഗ്രഹണം",
+        "ശുക്ലപക്ഷം (വൃദ്ധി)",
+        "അമാവാസി"
+      ],
+      "hint": "അമാവാസി മുതൽ പൗർണ്ണമി വരെ.",
+      "explanation": "പ്രകാശിതഭാഗം കൂടിവരുന്നത് ശുക്ലപക്ഷം (വൃദ്ധി); കുറഞ്ഞുവരുന്നത് കൃഷ്ണപക്ഷം (ക്ഷയം)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Earth, Moon and shadows\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-035",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Earth, Moon and shadows",
+      "ml": "ഭൂമിയും ചന്ദ്രനും നിഴലും"
+    },
+    "en": {
+      "question": "Chandrayaan-3 was the first mission to land near which part of the Moon?",
+      "options": [
+        "North Pole",
+        "South Pole",
+        "Equator",
+        "Far side centre"
+      ],
+      "hint": "A part no one had landed near before.",
+      "explanation": "Chandrayaan-3 was the first to land near the South Pole of the Moon (2023)."
+    },
+    "ml": {
+      "question": "ചന്ദ്രന്റെ ഏത് ഭാഗത്തിനടുത്ത് ഇറങ്ങിയ ആദ്യ ദൗത്യമാണ് ചന്ദ്രയാൻ-3?",
+      "options": [
+        "ഉത്തരധ്രുവം",
+        "ദക്ഷിണധ്രുവം",
+        "ഭൂമധ്യരേഖ",
+        "മറുവശത്തെ നടുഭാഗം"
+      ],
+      "hint": "മുമ്പ് ആരും ഇറങ്ങാത്ത ഭാഗം.",
+      "explanation": "ചന്ദ്രന്റെ ദക്ഷിണധ്രുവത്തിനടുത്ത് ഇറങ്ങിയ ആദ്യ ദൗത്യമാണ് ചന്ദ്രയാൻ-3 (2023)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Earth, Moon and shadows\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-036",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Earth, Moon and shadows",
+      "ml": "ഭൂമിയും ചന്ദ്രനും നിഴലും"
+    },
+    "en": {
+      "question": "With Chandrayaan-3, India became which country to make a soft landing on the Moon?",
+      "options": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ],
+      "hint": "After the USSR, the USA and China.",
+      "explanation": "India became the fourth country to soft-land on the Moon."
+    },
+    "ml": {
+      "question": "ചന്ദ്രയാൻ-3-ലൂടെ ചന്ദ്രനിൽ സോഫ്റ്റ് ലാൻഡിംഗ് നടത്തിയ എത്രാമത്തെ രാജ്യമായി ഇന്ത്യ?",
+      "options": [
+        "ഒന്നാമത്തെ",
+        "രണ്ടാമത്തെ",
+        "മൂന്നാമത്തെ",
+        "നാലാമത്തെ"
+      ],
+      "hint": "സോവിയറ്റ് യൂണിയൻ, അമേരിക്ക, ചൈന എന്നിവയ്ക്കു ശേഷം.",
+      "explanation": "ചന്ദ്രനിൽ സോഫ്റ്റ് ലാൻഡിംഗ് നടത്തിയ നാലാമത്തെ രാജ്യമാണ് ഇന്ത്യ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Earth, Moon and shadows\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-037",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "chapter": {
+      "en": "Pollution and waste",
+      "ml": "മലിനീകരണവും മാലിന്യ സംസ്കരണവും"
+    },
+    "en": {
+      "question": "Rivers, lakes and ponds together hold about what part of the Earth's water as fresh water?",
+      "options": [
+        "30%",
+        "3%",
+        "0.3%",
+        "13%"
+      ],
+      "hint": "A very, very small amount.",
+      "explanation": "All rivers, lakes and ponds hold only about 0.3% of fresh water. That is why we must not pollute them."
+    },
+    "ml": {
+      "question": "നദികൾ, തടാകങ്ങൾ, കുളങ്ങൾ എന്നിവയിലെല്ലാം ചേർന്ന് ശുദ്ധജലത്തിന്റെ എത്ര ഭാഗമാണുള്ളത്?",
+      "options": [
+        "30%",
+        "3%",
+        "0.3%",
+        "13%"
+      ],
+      "hint": "വളരെ വളരെ കുറച്ച്.",
+      "explanation": "നദികളിലും തടാകങ്ങളിലും കുളങ്ങളിലുമെല്ലാം ചേർന്ന് ശുദ്ധജലത്തിന്റെ 0.3% മാത്രം. അതിനാൽ അവ മലിനമാക്കരുത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Pollution and waste\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-038",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Pollution and waste",
+      "ml": "മലിനീകരണവും മാലിന്യ സംസ്കരണവും"
+    },
+    "en": {
+      "question": "Too much growth of algae and water plants in a pond (often due to fertilizer and waste) is called:",
+      "options": [
+        "Eutrophication",
+        "Pasteurisation",
+        "Distillation",
+        "Adulteration"
+      ],
+      "hint": "The pond gets \"over-fed\".",
+      "explanation": "Excess growth of algae in water bodies is eutrophication; it uses up the oxygen in the water."
+    },
+    "ml": {
+      "question": "ജലാശയത്തിൽ ആൽഗകളും ജലസസ്യങ്ങളും അമിതമായി വളരുന്ന പ്രതിഭാസം:",
+      "options": [
+        "യൂട്രോഫിക്കേഷൻ",
+        "പാസ്ചറൈസേഷൻ",
+        "സ്വേദനം",
+        "മായംചേർക്കൽ"
+      ],
+      "hint": "ജലാശയത്തിന് \"അമിതപോഷണം\".",
+      "explanation": "ജലാശയങ്ങളിൽ ആൽഗകൾ അമിതമായി വളരുന്നതാണ് യൂട്രോഫിക്കേഷൻ; ഇത് വെള്ളത്തിലെ ഓക്സിജൻ കുറയ്ക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Pollution and waste\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-039",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Pollution and waste",
+      "ml": "മലിനീകരണവും മാലിന്യ സംസ്കരണവും"
+    },
+    "en": {
+      "question": "What is the first step of waste management at source?",
+      "options": [
+        "Burning all waste",
+        "Separating (segregating) the waste where it is produced",
+        "Throwing it in the river",
+        "Burying plastic"
+      ],
+      "hint": "Keep wet and dry waste apart.",
+      "explanation": "Waste management at source starts by segregating waste at home itself."
+    },
+    "ml": {
+      "question": "ഉറവിടമാലിന്യ സംസ്കരണത്തിന്റെ ആദ്യപടി ഏത്?",
+      "options": [
+        "എല്ലാ മാലിന്യവും കത്തിക്കുക",
+        "മാലിന്യം ഉണ്ടാകുന്നിടത്തുതന്നെ തരംതിരിക്കുക",
+        "പുഴയിൽ എറിയുക",
+        "പ്ലാസ്റ്റിക് കുഴിച്ചിടുക"
+      ],
+      "hint": "നനഞ്ഞതും ഉണങ്ങിയതും വേർതിരിക്കുക.",
+      "explanation": "ഉറവിടത്തിൽ തന്നെ മാലിന്യം തരംതിരിക്കുന്നതാണ് ആദ്യപടി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Pollution and waste\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-040",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Pollution and waste",
+      "ml": "മലിനീകരണവും മാലിന്യ സംസ്കരണവും"
+    },
+    "en": {
+      "question": "Boiling water into steam and cooling the steam to collect pure water is called:",
+      "options": [
+        "Filtration",
+        "Chlorination",
+        "Decantation",
+        "Distillation"
+      ],
+      "hint": "Steam turns back into water.",
+      "explanation": "Distillation boils water and condenses the steam to get pure water."
+    },
+    "ml": {
+      "question": "വെള്ളം തിളപ്പിച്ച് നീരാവിയാക്കി, തണുപ്പിച്ച് ശുദ്ധജലം ശേഖരിക്കുന്ന രീതി:",
+      "options": [
+        "അരിക്കൽ",
+        "ക്ലോറിനേഷൻ",
+        "തെളിയൂറ്റൽ",
+        "സ്വേദനം"
+      ],
+      "hint": "നീരാവി വീണ്ടും വെള്ളമാകുന്നു.",
+      "explanation": "വെള്ളം തിളപ്പിച്ച് നീരാവിയാക്കി തണുപ്പിച്ച് ശുദ്ധജലം നേടുന്നതാണ് സ്വേദനം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Pollution and waste\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-041",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Safe food",
+      "ml": "സുരക്ഷിത ഭക്ഷണം"
+    },
+    "en": {
+      "question": "Adding cheap, similar-looking, poor-quality things to food is called:",
+      "options": [
+        "Adulteration",
+        "Preservation",
+        "Fermentation",
+        "Pasteurisation"
+      ],
+      "hint": "It cheats the buyer.",
+      "explanation": "Mixing cheap, poor-quality substances into food is adulteration."
+    },
+    "ml": {
+      "question": "ഭക്ഷണത്തിൽ വിലകുറഞ്ഞ, ഗുണമില്ലാത്ത സമാനവസ്തുക്കൾ ചേർക്കുന്നത്:",
+      "options": [
+        "മായംചേർക്കൽ",
+        "ഭക്ഷ്യസംരക്ഷണം",
+        "പുളിപ്പിക്കൽ",
+        "പാസ്ചറൈസേഷൻ"
+      ],
+      "hint": "വാങ്ങുന്നവരെ ചതിക്കുന്നു.",
+      "explanation": "ഗുണമില്ലാത്ത വിലകുറഞ്ഞ വസ്തുക്കൾ ഭക്ഷണത്തിൽ ചേർക്കുന്നത് മായംചേർക്കൽ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Safe food\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-042",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Safe food",
+      "ml": "സുരക്ഷിത ഭക്ഷണം"
+    },
+    "en": {
+      "question": "Pasteurisation of milk is named after which scientist?",
+      "options": [
+        "Henry Cavendish",
+        "Isaac Newton",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "hint": "A French scientist.",
+      "explanation": "Louis Pasteur, a French scientist, invented the process, so it is called pasteurisation."
+    },
+    "ml": {
+      "question": "പാലിന്റെ പാസ്ചറൈസേഷന് ആ പേര് ലഭിച്ചത് ഏത് ശാസ്ത്രജ്ഞന്റെ പേരിൽ നിന്ന്?",
+      "options": [
+        "ഹെൻറി കാവൻഡിഷ്",
+        "ഐസക് ന്യൂട്ടൺ",
+        "ലൂയി പാസ്ചർ",
+        "അലക്സാണ്ടർ ഫ്ലെമിംഗ്"
+      ],
+      "hint": "ഒരു ഫ്രഞ്ച് ശാസ്ത്രജ്ഞൻ.",
+      "explanation": "ഫ്രഞ്ച് ശാസ്ത്രജ്ഞനായ ലൂയി പാസ്ചറാണ് ഈ രീതി കണ്ടുപിടിച്ചത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Safe food\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-043",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "Safe food",
+      "ml": "സുരക്ഷിത ഭക്ഷണം"
+    },
+    "en": {
+      "question": "Which chemical is often added while making ice (so it is not safe to put such ice in food)?",
+      "options": [
+        "Common salt",
+        "Ammonium chloride",
+        "Sugar",
+        "Baking soda"
+      ],
+      "hint": "It keeps the temperature low.",
+      "explanation": "Ammonium chloride is added while making factory ice to cool it quickly and stop melting – such ice is not fit for food."
+    },
+    "ml": {
+      "question": "ഐസ് ഉണ്ടാക്കുമ്പോൾ ചേർക്കാറുള്ള രാസവസ്തു ഏത് (അതിനാൽ ഇത്തരം ഐസ് ഭക്ഷണത്തിൽ ഇടുന്നത് സുരക്ഷിതമല്ല)?",
+      "options": [
+        "കറിയുപ്പ്",
+        "അമോണിയം ക്ലോറൈഡ്",
+        "പഞ്ചസാര",
+        "അപ്പക്കാരം"
+      ],
+      "hint": "താപനില കുറച്ചുനിർത്തുന്നു.",
+      "explanation": "വേഗം തണുക്കാനും ഉരുകാതിരിക്കാനും ഐസ് ഉണ്ടാക്കുമ്പോൾ അമോണിയം ക്ലോറൈഡ് ചേർക്കുന്നു; ഇത്തരം ഐസ് ഭക്ഷണത്തിന് പറ്റില്ല."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Safe food\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-044",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "Who started calling Babur's dynasty \"Mughal\"?",
+      "options": [
+        "The Mughals themselves",
+        "The Marathas",
+        "The Europeans",
+        "The Vijayanagara kings"
+      ],
+      "hint": "People from far away, in the 16th century.",
+      "explanation": "It was the Europeans who began calling this dynasty \"Mughal\" in the 16th century."
+    },
+    "ml": {
+      "question": "ബാബറിന്റെ രാജവംശത്തെ \"മുഗൾ\" എന്ന് വിളിച്ചുതുടങ്ങിയത് ആര്?",
+      "options": [
+        "മുഗളർ തന്നെ",
+        "മറാഠർ",
+        "യൂറോപ്യന്മാർ",
+        "വിജയനഗര രാജാക്കന്മാർ"
+      ],
+      "hint": "പതിനാറാം നൂറ്റാണ്ടിൽ ദൂരെ നിന്ന് വന്നവർ.",
+      "explanation": "പതിനാറാം നൂറ്റാണ്ടിൽ യൂറോപ്യന്മാരാണ് ഈ രാജവംശത്തെ \"മുഗൾ\" എന്ന് വിളിച്ചുതുടങ്ങിയത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-045",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "Which were the main export items of Mughal India?",
+      "options": [
+        "Textiles, muslin, sugar and rice",
+        "Horses and guns",
+        "Gold and silver coins",
+        "Tea and coffee"
+      ],
+      "hint": "Fine cloth was famous worldwide.",
+      "explanation": "Textiles, muslin, sugar and rice were the main exports in the Mughal period."
+    },
+    "ml": {
+      "question": "മുഗൾ കാലഘട്ടത്തിലെ പ്രധാന കയറ്റുമതി വസ്തുക്കൾ ഏവ?",
+      "options": [
+        "തുണിത്തരങ്ങൾ, മസ്ലിൻ, പഞ്ചസാര, അരി",
+        "കുതിരകളും തോക്കുകളും",
+        "സ്വർണ്ണ-വെള്ളി നാണയങ്ങൾ",
+        "തേയിലയും കാപ്പിയും"
+      ],
+      "hint": "നേർത്ത തുണിക്ക് ലോകമെങ്ങും പ്രശസ്തി.",
+      "explanation": "തുണിത്തരങ്ങൾ, മസ്ലിൻ, പഞ്ചസാര, അരി എന്നിവയായിരുന്നു പ്രധാന കയറ്റുമതി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-046",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "The scholars in the court of Krishnadeva Raya were known as:",
+      "options": [
+        "Navaratnas",
+        "Ashtadiggajas",
+        "Amara-Nayakas",
+        "Kuthirachettis"
+      ],
+      "hint": "\"Ashta\" means eight.",
+      "explanation": "Eight great poets called the Ashtadiggajas adorned Krishnadeva Raya's court."
+    },
+    "ml": {
+      "question": "കൃഷ്ണദേവരായരുടെ സദസ്സിലെ പണ്ഡിതന്മാർ അറിയപ്പെട്ടത്:",
+      "options": [
+        "നവരത്നങ്ങൾ",
+        "അഷ്ടദിഗ്ഗജങ്ങൾ",
+        "അമരനായകർ",
+        "കുതിരച്ചെട്ടികൾ"
+      ],
+      "hint": "\"അഷ്ട\" എന്നാൽ എട്ട്.",
+      "explanation": "കൃഷ്ണദേവരായരുടെ സദസ്സിലെ എട്ട് മഹാകവികളാണ് അഷ്ടദിഗ്ഗജങ്ങൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-047",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "Local traders in Vijayanagara who traded in horses were called:",
+      "options": [
+        "Amara-Nayakas",
+        "Murids",
+        "Mansabdars",
+        "Kuthirachettis"
+      ],
+      "hint": "\"Kuthira\" means horse.",
+      "explanation": "Horse traders in Vijayanagara were known as Kuthirachettis."
+    },
+    "ml": {
+      "question": "വിജയനഗരത്തിൽ കുതിരക്കച്ചവടം നടത്തിയ പ്രാദേശിക വ്യാപാരികൾ:",
+      "options": [
+        "അമരനായകർ",
+        "മുരീദുകൾ",
+        "മൻസബ്ദാർമാർ",
+        "കുതിരച്ചെട്ടികൾ"
+      ],
+      "hint": "പേരിൽ \"കുതിര\" ഉണ്ട്.",
+      "explanation": "വിജയനഗരത്തിലെ കുതിരവ്യാപാരികൾ കുതിരച്ചെട്ടികൾ എന്നറിയപ്പെട്ടു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-048",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "Land given by the Vijayanagara kings to military commanders was called:",
+      "options": [
+        "Amara",
+        "Jagir",
+        "Mansab",
+        "Iqta"
+      ],
+      "hint": "The commanders were named after it.",
+      "explanation": "The land was called \"Amara\", so the commanders were Amara-Nayakas and the system the Amara-Nayaka system."
+    },
+    "ml": {
+      "question": "വിജയനഗര രാജാക്കന്മാർ സൈനികമേധാവികൾക്ക് നൽകിയ ഭൂമി അറിയപ്പെട്ടത്:",
+      "options": [
+        "അമരം",
+        "ജാഗീർ",
+        "മൻസബ്",
+        "ഇഖ്ത"
+      ],
+      "hint": "സൈനികമേധാവികളുടെ പേര് ഇതിൽ നിന്നാണ്.",
+      "explanation": "ഭൂമിയെ \"അമരം\" എന്ന് വിളിച്ചു; അതിനാൽ സൈനികമേധാവികൾ അമരനായകർ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-049",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India: Mughals and Vijayanagara",
+      "ml": "മധ്യകാല ഇന്ത്യ: മുഗളരും വിജയനഗരവും"
+    },
+    "en": {
+      "question": "Which river had a dam that helped farming in Vijayanagara?",
+      "options": [
+        "Ganga",
+        "Narmada",
+        "Tungabhadra",
+        "Periyar"
+      ],
+      "hint": "Hampi is on its banks.",
+      "explanation": "The dam across the Tungabhadra, Kamalapuram lake and Hiriya canal strengthened farming in Vijayanagara."
+    },
+    "ml": {
+      "question": "വിജയനഗരത്തിലെ കൃഷിയെ സഹായിച്ച അണക്കെട്ട് ഏത് നദിക്ക് കുറുകെയായിരുന്നു?",
+      "options": [
+        "ഗംഗ",
+        "നർമ്മദ",
+        "തുംഗഭദ്ര",
+        "പെരിയാർ"
+      ],
+      "hint": "ഹംപി ഈ നദിയുടെ തീരത്താണ്.",
+      "explanation": "തുംഗഭദ്രയിലെ അണക്കെട്ടും കമലാപുരം തടാകവും ഹിരിയ കനാലും വിജയനഗരത്തിലെ കൃഷിയെ സഹായിച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Mughals and Vijayanagara\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-050",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "What were the writings of the Nayanars (devotees of Shiva) called?",
+      "options": [
+        "Nalayira Divyaprabandham",
+        "Thirumuraikal",
+        "Vachanas",
+        "Dohas"
+      ],
+      "hint": "The Alvars' writings are the Nalayira Divyaprabandham.",
+      "explanation": "The Nayanars' writings are the Thirumuraikal; the Alvars' are the Nalayira Divyaprabandham."
+    },
+    "ml": {
+      "question": "ശിവഭക്തരായ നായനാർമാരുടെ രചനകൾ അറിയപ്പെടുന്നത്:",
+      "options": [
+        "നാലായിര ദിവ്യപ്രബന്ധം",
+        "തിരുമുറൈകൾ",
+        "വചനങ്ങൾ",
+        "ദോഹകൾ"
+      ],
+      "hint": "ആഴ്വാർമാരുടേത് നാലായിര ദിവ്യപ്രബന്ധം.",
+      "explanation": "നായനാർമാരുടെ രചനകൾ തിരുമുറൈകൾ; ആഴ്വാർമാരുടേത് നാലായിര ദിവ്യപ്രബന്ധം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-051",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Kabir spread his ideas through short verses called:",
+      "options": [
+        "Vachanas",
+        "Qawwalis",
+        "Dohas",
+        "Abhangs"
+      ],
+      "hint": "Two-line poems in Hindi.",
+      "explanation": "Kabir's two-line verses are called Dohas."
+    },
+    "ml": {
+      "question": "കബീർ തന്റെ ആശയങ്ങൾ പ്രചരിപ്പിച്ച ചെറുകവിതകൾ:",
+      "options": [
+        "വചനങ്ങൾ",
+        "ഖവ്വാലികൾ",
+        "ദോഹകൾ",
+        "അഭംഗുകൾ"
+      ],
+      "hint": "ഹിന്ദിയിലെ ഈരടികൾ.",
+      "explanation": "കബീറിന്റെ ഈരടികളാണ് ദോഹകൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-052",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "Guru Nanak was born in which village (now in Pakistan)?",
+      "options": [
+        "Talwandi",
+        "Amritsar",
+        "Lahore",
+        "Varanasi"
+      ],
+      "hint": "Today it is called Nankana Sahib.",
+      "explanation": "Guru Nanak was born in the 15th century at Talwandi, now Nankana Sahib in Pakistan."
+    },
+    "ml": {
+      "question": "ഗുരുനാനാക്ക് ജനിച്ച ഗ്രാമം (ഇപ്പോൾ പാകിസ്ഥാനിൽ) ഏത്?",
+      "options": [
+        "തൽവണ്ടി",
+        "അമൃത്സർ",
+        "ലാഹോർ",
+        "വാരാണസി"
+      ],
+      "hint": "ഇന്ന് നങ്കാന സാഹിബ് എന്നറിയപ്പെടുന്നു.",
+      "explanation": "പതിനഞ്ചാം നൂറ്റാണ്ടിൽ തൽവണ്ടിയിലാണ് (ഇന്നത്തെ നങ്കാന സാഹിബ്) ഗുരുനാനാക്ക് ജനിച്ചത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-053",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "What is the holy book of Sikhism?",
+      "options": [
+        "Bible",
+        "Gita",
+        "Quran",
+        "Adi Granth (Guru Granth Sahib)"
+      ],
+      "hint": "It contains the teachings of the Sikh Gurus.",
+      "explanation": "The Adi Granth (Guru Granth Sahib) is the holy book of Sikhism."
+    },
+    "ml": {
+      "question": "സിഖ് മതത്തിന്റെ വിശുദ്ധഗ്രന്ഥം ഏത്?",
+      "options": [
+        "ബൈബിൾ",
+        "ഗീത",
+        "ഖുർആൻ",
+        "ആദിഗ്രന്ഥം (ഗുരു ഗ്രന്ഥസാഹിബ്)"
+      ],
+      "hint": "സിഖ് ഗുരുക്കന്മാരുടെ ഉപദേശങ്ങൾ.",
+      "explanation": "ആദിഗ്രന്ഥം (ഗുരു ഗ്രന്ഥസാഹിബ്) ആണ് സിഖ് മതത്തിന്റെ വിശുദ്ധഗ്രന്ഥം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-054",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "A Sufi master was called:",
+      "options": [
+        "Murid",
+        "Pir (Sheikh)",
+        "Alvar",
+        "Guru"
+      ],
+      "hint": "His followers were murids.",
+      "explanation": "The Sufi master was called Pir (Sheikh) and his followers were murids."
+    },
+    "ml": {
+      "question": "സൂഫി ആചാര്യൻ അറിയപ്പെട്ടിരുന്നത്:",
+      "options": [
+        "മുരീദ്",
+        "പീർ (ഷെയ്ഖ്)",
+        "ആഴ്വാർ",
+        "ഗുരു"
+      ],
+      "hint": "അനുയായികളെ മുരീദുകൾ എന്ന് വിളിച്ചു.",
+      "explanation": "സൂഫി ആചാര്യൻ പീർ (ഷെയ്ഖ്); അനുയായികൾ മുരീദുകൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-055",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Medieval India: Cultural movements",
+      "ml": "മധ്യകാല ഇന്ത്യ: സാംസ്കാരിക പ്രസ്ഥാനങ്ങൾ"
+    },
+    "en": {
+      "question": "By which century had the Sufi movement reached India?",
+      "options": [
+        "8th century",
+        "10th century",
+        "12th century",
+        "16th century"
+      ],
+      "hint": "Around the same time as Basavanna.",
+      "explanation": "The Sufi movement reached India by the 12th century CE."
+    },
+    "ml": {
+      "question": "ഏത് നൂറ്റാണ്ടോടെയാണ് സൂഫി പ്രസ്ഥാനം ഇന്ത്യയിലെത്തിയത്?",
+      "options": [
+        "8-ാം നൂറ്റാണ്ട്",
+        "10-ാം നൂറ്റാണ്ട്",
+        "12-ാം നൂറ്റാണ്ട്",
+        "16-ാം നൂറ്റാണ്ട്"
+      ],
+      "hint": "ബസവണ്ണയുടെ കാലത്തോടടുത്ത്.",
+      "explanation": "പന്ത്രണ്ടാം നൂറ്റാണ്ടോടെ സൂഫി പ്രസ്ഥാനം ഇന്ത്യയിലെത്തി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Medieval India: Cultural movements\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-056",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Constitution: path and guiding light",
+      "ml": "ഭരണഘടന: വഴിയും വഴിവിളക്കും"
+    },
+    "en": {
+      "question": "Which group that visited India in 1946 proposed a code of laws (a Constitution) for free India?",
+      "options": [
+        "Cabinet Mission",
+        "Simon Commission",
+        "Cripps Mission",
+        "Hunter Commission"
+      ],
+      "hint": "It came to discuss the transfer of power.",
+      "explanation": "The Cabinet Mission of 1946 proposed a Constitution for independent India; the Constituent Assembly was formed for this."
+    },
+    "ml": {
+      "question": "1946-ൽ ഇന്ത്യ സന്ദർശിച്ച്, സ്വതന്ത്ര ഇന്ത്യയ്ക്ക് ഒരു ഭരണഘടന വേണമെന്ന് നിർദ്ദേശിച്ച സംഘം?",
+      "options": [
+        "കാബിനറ്റ് മിഷൻ",
+        "സൈമൺ കമ്മീഷൻ",
+        "ക്രിപ്സ് മിഷൻ",
+        "ഹണ്ടർ കമ്മീഷൻ"
+      ],
+      "hint": "അധികാരക്കൈമാറ്റം ചർച്ച ചെയ്യാൻ വന്നത്.",
+      "explanation": "1946-ലെ കാബിനറ്റ് മിഷനാണ് ഭരണഘടന നിർദ്ദേശിച്ചത്; അതിനായി ഭരണഘടനാനിർമ്മാണസഭ രൂപീകരിച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Constitution: path and guiding light\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-057",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Constitution: path and guiding light",
+      "ml": "ഭരണഘടന: വഴിയും വഴിവിളക്കും"
+    },
+    "en": {
+      "question": "Changing the Constitution to meet new needs of society is called:",
+      "options": [
+        "Preamble",
+        "Election",
+        "Constitutional Amendment",
+        "Budget"
+      ],
+      "hint": "The 42nd one is famous.",
+      "explanation": "A constitutional amendment changes the Constitution as society's needs change."
+    },
+    "ml": {
+      "question": "മാറുന്ന സാമൂഹിക ആവശ്യങ്ങൾക്കനുസരിച്ച് ഭരണഘടനയിൽ മാറ്റം വരുത്തുന്നത്:",
+      "options": [
+        "ആമുഖം",
+        "തിരഞ്ഞെടുപ്പ്",
+        "ഭരണഘടനാഭേദഗതി",
+        "ബജറ്റ്"
+      ],
+      "hint": "42-ാമത്തേത് പ്രശസ്തം.",
+      "explanation": "ഭരണഘടനയിൽ മാറ്റം വരുത്തുന്ന പ്രക്രിയയാണ് ഭരണഘടനാഭേദഗതി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Constitution: path and guiding light\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-058",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Constitution: path and guiding light",
+      "ml": "ഭരണഘടന: വഴിയും വഴിവിളക്കും"
+    },
+    "en": {
+      "question": "Police officers who handle POCSO cases are known as:",
+      "options": [
+        "Traffic officers",
+        "Excise officers",
+        "Forest officers",
+        "Child Welfare Police Officers (CWPO)"
+      ],
+      "hint": "POCSO protects children.",
+      "explanation": "Officers handling POCSO cases are Child Welfare Police Officers (CWPO)."
+    },
+    "ml": {
+      "question": "POCSO കേസുകൾ കൈകാര്യം ചെയ്യുന്ന പോലീസ് ഉദ്യോഗസ്ഥർ അറിയപ്പെടുന്നത്:",
+      "options": [
+        "ട്രാഫിക് ഓഫീസർ",
+        "എക്സൈസ് ഓഫീസർ",
+        "വനം ഓഫീസർ",
+        "ചൈൽഡ് വെൽഫെയർ പോലീസ് ഓഫീസർ (CWPO)"
+      ],
+      "hint": "POCSO കുട്ടികളെ സംരക്ഷിക്കുന്ന നിയമം.",
+      "explanation": "POCSO കേസുകൾ കൈകാര്യം ചെയ്യുന്നവർ ചൈൽഡ് വെൽഫെയർ പോലീസ് ഓഫീസർമാർ (CWPO)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Constitution: path and guiding light\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-059",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Constitution: path and guiding light",
+      "ml": "ഭരണഘടന: വഴിയും വഴിവിളക്കും"
+    },
+    "en": {
+      "question": "Which was the first mass movement against British rule?",
+      "options": [
+        "Quit India Movement",
+        "The First War of Independence (1857)",
+        "Salt Satyagraha",
+        "Non-Cooperation Movement"
+      ],
+      "hint": "Many years before Gandhiji.",
+      "explanation": "The First War of Independence in 1857 was the first mass movement against the British."
+    },
+    "ml": {
+      "question": "ബ്രിട്ടീഷ് ഭരണത്തിനെതിരായ ആദ്യ ബഹുജനപ്രക്ഷോഭം ഏത്?",
+      "options": [
+        "ക്വിറ്റ് ഇന്ത്യാ സമരം",
+        "ഒന്നാം സ്വാതന്ത്ര്യസമരം (1857)",
+        "ഉപ്പുസത്യാഗ്രഹം",
+        "നിസ്സഹകരണ പ്രസ്ഥാനം"
+      ],
+      "hint": "ഗാന്ധിജിക്ക് വളരെ മുമ്പ്.",
+      "explanation": "1857-ലെ ഒന്നാം സ്വാതന്ത്ര്യസമരമാണ് ബ്രിട്ടീഷുകാർക്കെതിരായ ആദ്യ ബഹുജനപ്രക്ഷോഭം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Constitution: path and guiding light\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-060",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "From injustice to justice",
+      "ml": "അനീതിയിൽ നിന്ന് നീതിയിലേക്ക്"
+    },
+    "en": {
+      "question": "Ooruttambalam Government UP School is now named after Ayyankali and which girl?",
+      "options": [
+        "Panchami",
+        "Malala",
+        "Savitri",
+        "Nangeli"
+      ],
+      "hint": "A Dalit girl who was not allowed to study.",
+      "explanation": "The school is now \"Ayyankali-Panchami Memorial Government UP School\", remembering Panchami, a Dalit girl denied entry to school."
+    },
+    "ml": {
+      "question": "ഊരൂട്ടമ്പലം ഗവൺമെന്റ് യു.പി. സ്കൂളിന് അയ്യങ്കാളിയോടൊപ്പം ഏത് പെൺകുട്ടിയുടെ പേരാണ് നൽകിയത്?",
+      "options": [
+        "പഞ്ചമി",
+        "മലാല",
+        "സാവിത്രി",
+        "നങ്ങേലി"
+      ],
+      "hint": "പഠിക്കാൻ അനുവദിക്കപ്പെടാതിരുന്ന ദളിത് പെൺകുട്ടി.",
+      "explanation": "സ്കൂൾ ഇപ്പോൾ \"അയ്യങ്കാളി-പഞ്ചമി സ്മാരക ഗവ. യു.പി. സ്കൂൾ\" ആണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"From injustice to justice\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-061",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "From injustice to justice",
+      "ml": "അനീതിയിൽ നിന്ന് നീതിയിലേക്ക്"
+    },
+    "en": {
+      "question": "Who was the headmistress of India's first school for girls in Pune?",
+      "options": [
+        "Annie Besant",
+        "Sarojini Naidu",
+        "Savitribai Phule",
+        "Pandita Ramabai"
+      ],
+      "hint": "Wife of Jyotirao Phule.",
+      "explanation": "Savitribai Phule was the headmistress of India's first girls' school in Pune."
+    },
+    "ml": {
+      "question": "പൂനെയിലെ ഇന്ത്യയിലെ ആദ്യ പെൺപള്ളിക്കൂടത്തിലെ പ്രധാനാധ്യാപിക ആരായിരുന്നു?",
+      "options": [
+        "ആനി ബസന്റ്",
+        "സരോജിനി നായിഡു",
+        "സാവിത്രിബായ് ഫുലെ",
+        "പണ്ഡിത രമാബായ്"
+      ],
+      "hint": "ജ്യോതിറാവു ഫുലെയുടെ ഭാര്യ.",
+      "explanation": "സാവിത്രിബായ് ഫുലെയായിരുന്നു പൂനെയിലെ ആദ്യ പെൺപള്ളിക്കൂടത്തിലെ പ്രധാനാധ്യാപിക."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"From injustice to justice\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-062",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "From injustice to justice",
+      "ml": "അനീതിയിൽ നിന്ന് നീതിയിലേക്ക്"
+    },
+    "en": {
+      "question": "Who founded the Self-Respect Movement?",
+      "options": [
+        "B. R. Ambedkar",
+        "E. V. Ramasamy (Periyar)",
+        "Jyotirao Phule",
+        "Sree Narayana Guru"
+      ],
+      "hint": "A leader from Tamil Nadu.",
+      "explanation": "E. V. Ramasamy, known as Periyar, founded the Self-Respect Movement against caste."
+    },
+    "ml": {
+      "question": "ആത്മാഭിമാന പ്രസ്ഥാനം (Self-Respect Movement) സ്ഥാപിച്ചത് ആര്?",
+      "options": [
+        "ബി. ആർ. അംബേദ്കർ",
+        "ഇ. വി. രാമസാമി (പെരിയാർ)",
+        "ജ്യോതിറാവു ഫുലെ",
+        "ശ്രീനാരായണഗുരു"
+      ],
+      "hint": "തമിഴ്നാട്ടിലെ ഒരു നേതാവ്.",
+      "explanation": "ജാതിക്കെതിരെ ആത്മാഭിമാന പ്രസ്ഥാനം സ്ഥാപിച്ചത് ഇ. വി. രാമസാമി (പെരിയാർ)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"From injustice to justice\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-063",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "chapter": {
+      "en": "From injustice to justice",
+      "ml": "അനീതിയിൽ നിന്ന് നീതിയിലേക്ക്"
+    },
+    "en": {
+      "question": "Keeping some groups away from places where they deserve equal treatment is called:",
+      "options": [
+        "Decentralisation",
+        "Colonisation",
+        "Assimilation",
+        "Marginalisation"
+      ],
+      "hint": "Pushing people to the \"margin\" (edge).",
+      "explanation": "Marginalisation is excluding some groups from places where they deserve equal consideration."
+    },
+    "ml": {
+      "question": "തുല്യപരിഗണന അർഹിക്കുന്ന ഇടങ്ങളിൽ നിന്ന് ചില വിഭാഗങ്ങളെ മാറ്റിനിർത്തുന്ന പ്രക്രിയ:",
+      "options": [
+        "അധികാരവികേന്ദ്രീകരണം",
+        "കോളനിവൽക്കരണം",
+        "സ്വാംശീകരണം",
+        "പാർശ്വവൽക്കരണം"
+      ],
+      "hint": "ആളുകളെ \"അരികിലേക്ക്\" തള്ളുന്നത്.",
+      "explanation": "തുല്യപരിഗണന അർഹിക്കുന്നവരെ മുഖ്യധാരയിൽ നിന്ന് മാറ്റിനിർത്തുന്നതാണ് പാർശ്വവൽക്കരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"From injustice to justice\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-064",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Power to the people",
+      "ml": "അധികാരം ജനങ്ങളിലേക്ക്"
+    },
+    "en": {
+      "question": "The word 'Panchayat' comes from 'pancha' and 'ayat'. What do they mean?",
+      "options": [
+        "Five and meeting",
+        "Village and king",
+        "Five and rivers",
+        "People and power"
+      ],
+      "hint": "Pancha = 5.",
+      "explanation": "'Pancha' means five and 'ayat' means meeting (assembly)."
+    },
+    "ml": {
+      "question": "'പഞ്ചായത്ത്' എന്ന വാക്ക് 'പഞ്ച', 'ആയത്' എന്നിവയിൽ നിന്നാണ്. അവയുടെ അർത്ഥം?",
+      "options": [
+        "അഞ്ചും സഭയും",
+        "ഗ്രാമവും രാജാവും",
+        "അഞ്ചും നദികളും",
+        "ജനങ്ങളും അധികാരവും"
+      ],
+      "hint": "പഞ്ച = 5.",
+      "explanation": "'പഞ്ച' എന്നാൽ അഞ്ച്, 'ആയത്' എന്നാൽ സഭ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Power to the people\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-065",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Power to the people",
+      "ml": "അധികാരം ജനങ്ങളിലേക്ക്"
+    },
+    "en": {
+      "question": "Panchayati Raj began first in Rajasthan on the advice of which committee?",
+      "options": [
+        "Kothari Commission",
+        "Sarkaria Commission",
+        "Balwantrai Mehta Committee",
+        "Mandal Commission"
+      ],
+      "hint": "Set up in 1957.",
+      "explanation": "Panchayati Raj came first in Rajasthan as recommended by the Balwantrai Mehta Committee."
+    },
+    "ml": {
+      "question": "ഏത് കമ്മിറ്റിയുടെ ശുപാർശ പ്രകാരമാണ് രാജസ്ഥാനിൽ ആദ്യമായി പഞ്ചായത്തീരാജ് നിലവിൽ വന്നത്?",
+      "options": [
+        "കോത്താരി കമ്മീഷൻ",
+        "സർക്കാരിയ കമ്മീഷൻ",
+        "ബൽവന്ത്റായ് മേത്ത കമ്മിറ്റി",
+        "മണ്ഡൽ കമ്മീഷൻ"
+      ],
+      "hint": "1957-ൽ രൂപീകരിച്ചത്.",
+      "explanation": "ബൽവന്ത്റായ് മേത്ത കമ്മിറ്റിയുടെ ശുപാർശ പ്രകാരം രാജസ്ഥാനിൽ ആദ്യം പഞ്ചായത്തീരാജ് വന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Power to the people\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-066",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Power to the people",
+      "ml": "അധികാരം ജനങ്ങളിലേക്ക്"
+    },
+    "en": {
+      "question": "In which year did Kerala start 'People's Planning' (Janakeeyasoothranam)?",
+      "options": [
+        "1956",
+        "1996",
+        "2006",
+        "1992"
+      ],
+      "hint": "A few years after the 73rd and 74th Amendments.",
+      "explanation": "Kerala began decentralised planning, People's Planning, in 1996."
+    },
+    "ml": {
+      "question": "കേരളത്തിൽ 'ജനകീയാസൂത്രണം' ആരംഭിച്ച വർഷം?",
+      "options": [
+        "1956",
+        "1996",
+        "2006",
+        "1992"
+      ],
+      "hint": "73, 74 ഭേദഗതികൾക്ക് ഏതാനും വർഷം ശേഷം.",
+      "explanation": "അധികാരവികേന്ദ്രീകരണത്തിന്റെ ഭാഗമായി 1996-ൽ കേരളം ജനകീയാസൂത്രണം ആരംഭിച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Power to the people\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-067",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "Power to the people",
+      "ml": "അധികാരം ജനങ്ങളിലേക്ക്"
+    },
+    "en": {
+      "question": "In cities, the meeting of all voters of a ward (like the grama sabha in villages) is called:",
+      "options": [
+        "Niyamasabha",
+        "Lok Sabha",
+        "Kudumbasree",
+        "Ward sabha"
+      ],
+      "hint": "In villages it is the grama sabha.",
+      "explanation": "In cities it is called the ward sabha; in villages, the grama sabha."
+    },
+    "ml": {
+      "question": "ഗ്രാമങ്ങളിലെ ഗ്രാമസഭ പോലെ നഗരങ്ങളിൽ വാർഡിലെ വോട്ടർമാരുടെ സഭ അറിയപ്പെടുന്നത്:",
+      "options": [
+        "നിയമസഭ",
+        "ലോക്സഭ",
+        "കുടുംബശ്രീ",
+        "വാർഡ്സഭ"
+      ],
+      "hint": "ഗ്രാമങ്ങളിൽ ഗ്രാമസഭ.",
+      "explanation": "നഗരങ്ങളിൽ ഇതിനെ വാർഡ്സഭ എന്നു വിളിക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Power to the people\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-068",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Power to the people",
+      "ml": "അധികാരം ജനങ്ങളിലേക്ക്"
+    },
+    "en": {
+      "question": "Legally giving people the power to take and carry out decisions is called:",
+      "options": [
+        "Decentralisation of power",
+        "Centralisation of power",
+        "Monarchy",
+        "Colonisation"
+      ],
+      "hint": "Power spreads out from the centre.",
+      "explanation": "Transferring power to the people to decide and act is decentralisation of power."
+    },
+    "ml": {
+      "question": "തീരുമാനമെടുക്കാനും നടപ്പാക്കാനുമുള്ള അധികാരം നിയമപരമായി ജനങ്ങൾക്ക് കൈമാറുന്നത്:",
+      "options": [
+        "അധികാരവികേന്ദ്രീകരണം",
+        "അധികാരകേന്ദ്രീകരണം",
+        "രാജഭരണം",
+        "കോളനിവൽക്കരണം"
+      ],
+      "hint": "അധികാരം കേന്ദ്രത്തിൽ നിന്ന് പുറത്തേക്ക് പരക്കുന്നു.",
+      "explanation": "അധികാരം ജനങ്ങളിലേക്ക് കൈമാറുന്നതാണ് അധികാരവികേന്ദ്രീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Power to the people\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-069",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Maps and technology",
+      "ml": "ഭൂപടങ്ങളും സാങ്കേതികവിദ്യയും"
+    },
+    "en": {
+      "question": "Maps that show one particular topic, like soil types or natural vegetation, are called:",
+      "options": [
+        "Physical maps",
+        "Thematic maps",
+        "Political maps",
+        "Sketches"
+      ],
+      "hint": "They focus on one \"theme\".",
+      "explanation": "Maps focusing on a particular theme are thematic maps."
+    },
+    "ml": {
+      "question": "മണ്ണിനങ്ങൾ, സ്വാഭാവിക സസ്യജാലം പോലുള്ള ഒരു പ്രത്യേക വിഷയം മാത്രം കാണിക്കുന്ന ഭൂപടങ്ങൾ:",
+      "options": [
+        "ഭൗതിക ഭൂപടങ്ങൾ",
+        "വിഷയാധിഷ്ഠിത ഭൂപടങ്ങൾ (Thematic maps)",
+        "രാഷ്ട്രീയ ഭൂപടങ്ങൾ",
+        "രേഖാചിത്രങ്ങൾ"
+      ],
+      "hint": "ഒരു \"വിഷയം\" മാത്രം.",
+      "explanation": "ഒരു പ്രത്യേക വിഷയത്തിൽ ഊന്നുന്ന ഭൂപടങ്ങൾ വിഷയാധിഷ്ഠിത ഭൂപടങ്ങൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Maps and technology\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-070",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "chapter": {
+      "en": "Maps and technology",
+      "ml": "ഭൂപടങ്ങളും സാങ്കേതികവിദ്യയും"
+    },
+    "en": {
+      "question": "A map has the scale 1 : 100000 (in cm). What does it mean?",
+      "options": [
+        "1 cm on the ground = 1 lakh cm on the map",
+        "1 km on the map = 1 cm on the ground",
+        "1 cm on the map = 1 lakh cm (1 km) on the ground",
+        "The map is 1 metre long"
+      ],
+      "hint": "The first number is on the map.",
+      "explanation": "In a representative fraction, the first unit is the map distance: 1 cm on the map = 1,00,000 cm = 1 km on the ground."
+    },
+    "ml": {
+      "question": "ഒരു ഭൂപടത്തിന്റെ തോത് 1 : 100000 (സെന്റിമീറ്ററിൽ) ആണ്. ഇതിന്റെ അർത്ഥം?",
+      "options": [
+        "ഭൂമിയിലെ 1 സെ.മീ. = ഭൂപടത്തിലെ 1 ലക്ഷം സെ.മീ.",
+        "ഭൂപടത്തിലെ 1 കി.മീ. = ഭൂമിയിലെ 1 സെ.മീ.",
+        "ഭൂപടത്തിലെ 1 സെ.മീ. = ഭൂമിയിലെ 1 ലക്ഷം സെ.മീ. (1 കി.മീ.)",
+        "ഭൂപടത്തിന് 1 മീറ്റർ നീളം"
+      ],
+      "hint": "ആദ്യത്തെ സംഖ്യ ഭൂപടത്തിലേതാണ്.",
+      "explanation": "ഭിന്നക രീതിയിൽ (Representative Fraction) ആദ്യത്തേത് ഭൂപടദൂരം: ഭൂപടത്തിലെ 1 സെ.മീ. = ഭൂമിയിലെ 1,00,000 സെ.മീ. = 1 കി.മീ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Maps and technology\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-071",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Maps and technology",
+      "ml": "ഭൂപടങ്ങളും സാങ്കേതികവിദ്യയും"
+    },
+    "en": {
+      "question": "Which Greek geographer of the 2nd century believed the Earth was round?",
+      "options": [
+        "Ptolemy",
+        "Aristotle",
+        "Homer",
+        "Socrates"
+      ],
+      "hint": "He also drew an early world map.",
+      "explanation": "Ptolemy, a Greek geographer of the 2nd century, believed the Earth was round."
+    },
+    "ml": {
+      "question": "ഭൂമി ഉരുണ്ടതാണെന്ന് വിശ്വസിച്ച രണ്ടാം നൂറ്റാണ്ടിലെ ഗ്രീക്ക് ഭൂമിശാസ്ത്രജ്ഞൻ?",
+      "options": [
+        "ടോളമി",
+        "അരിസ്റ്റോട്ടിൽ",
+        "ഹോമർ",
+        "സോക്രട്ടീസ്"
+      ],
+      "hint": "ആദ്യകാല ലോകഭൂപടവും വരച്ചു.",
+      "explanation": "രണ്ടാം നൂറ്റാണ്ടിലെ ഗ്രീക്ക് ഭൂമിശാസ്ത്രജ്ഞനായ ടോളമി ഭൂമി ഉരുണ്ടതാണെന്ന് വിശ്വസിച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Maps and technology\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-072",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Maps and technology",
+      "ml": "ഭൂപടങ്ങളും സാങ്കേതികവിദ്യയും"
+    },
+    "en": {
+      "question": "Collecting information about places using cameras on aeroplanes is called:",
+      "options": [
+        "Terrestrial remote sensing",
+        "Satellite remote sensing",
+        "GPS",
+        "Aerial remote sensing"
+      ],
+      "hint": "\"Aerial\" – from the air.",
+      "explanation": "Photographing areas with a camera fixed on an aeroplane is aerial remote sensing."
+    },
+    "ml": {
+      "question": "വിമാനങ്ങളിൽ ഘടിപ്പിച്ച ക്യാമറകൾ ഉപയോഗിച്ച് ഭൂപ്രദേശങ്ങളുടെ വിവരം ശേഖരിക്കുന്ന രീതി:",
+      "options": [
+        "ഭൂതല വിദൂരസംവേദനം",
+        "ഉപഗ്രഹ വിദൂരസംവേദനം",
+        "ജി.പി.എസ്.",
+        "ആകാശീയ വിദൂരസംവേദനം"
+      ],
+      "hint": "ആകാശത്തുനിന്ന്.",
+      "explanation": "വിമാനത്തിലെ ക്യാമറ ഉപയോഗിച്ചുള്ളത് ആകാശീയ വിദൂരസംവേദനം (Aerial remote sensing)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Maps and technology\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-073",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Maps and technology",
+      "ml": "ഭൂപടങ്ങളും സാങ്കേതികവിദ്യയും"
+    },
+    "en": {
+      "question": "Which technology tells the exact latitude, longitude and height of a place, as used in mobile maps?",
+      "options": [
+        "GIS",
+        "GPS",
+        "CCTV",
+        "Radar"
+      ],
+      "hint": "Global Positioning System.",
+      "explanation": "GPS (Global Positioning System) finds the latitude, longitude and altitude of a place."
+    },
+    "ml": {
+      "question": "മൊബൈൽ ഭൂപടങ്ങളിലെ പോലെ ഒരു സ്ഥലത്തിന്റെ കൃത്യമായ അക്ഷാംശം, രേഖാംശം, ഉയരം എന്നിവ അറിയാൻ സഹായിക്കുന്ന സാങ്കേതികവിദ്യ?",
+      "options": [
+        "GIS",
+        "GPS",
+        "CCTV",
+        "റഡാർ"
+      ],
+      "hint": "Global Positioning System.",
+      "explanation": "GPS (ആഗോള സ്ഥാനനിർണ്ണയ സംവിധാനം) സ്ഥലത്തിന്റെ അക്ഷാംശം, രേഖാംശം, ഉയരം എന്നിവ കണ്ടെത്തുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Maps and technology\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-074",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Budget: the true record of development",
+      "ml": "ബജറ്റ്: വികസനത്തിന്റെ യഥാർത്ഥ രേഖ"
+    },
+    "en": {
+      "question": "The word 'budget' comes from the French word 'boget'. What does it mean?",
+      "options": [
+        "A small bag",
+        "A big box",
+        "A book of laws",
+        "A gold coin"
+      ],
+      "hint": "Something you carry documents in.",
+      "explanation": "'Boget' means a small bag – the bag with the government's financial papers."
+    },
+    "ml": {
+      "question": "'ബജറ്റ്' എന്ന വാക്ക് 'ബോഗെറ്റ്' എന്ന ഫ്രഞ്ച് വാക്കിൽ നിന്നാണ്. അതിന്റെ അർത്ഥം?",
+      "options": [
+        "ചെറിയ സഞ്ചി",
+        "വലിയ പെട്ടി",
+        "നിയമപുസ്തകം",
+        "സ്വർണ്ണനാണയം"
+      ],
+      "hint": "രേഖകൾ കൊണ്ടുപോകുന്ന ഒന്ന്.",
+      "explanation": "'ബോഗെറ്റ്' എന്നാൽ ചെറിയ സഞ്ചി – സർക്കാരിന്റെ സാമ്പത്തികരേഖകൾ അടങ്ങിയ സഞ്ചി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Budget: the true record of development\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-075",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Budget: the true record of development",
+      "ml": "ബജറ്റ്: വികസനത്തിന്റെ യഥാർത്ഥ രേഖ"
+    },
+    "en": {
+      "question": "Who presented the first Union Budget of independent India?",
+      "options": [
+        "Jawaharlal Nehru",
+        "Manmohan Singh",
+        "R. K. Shanmukham Chetty",
+        "Indira Gandhi"
+      ],
+      "hint": "He was India's first Finance Minister.",
+      "explanation": "R. K. Shanmukham Chetty, the first Finance Minister, presented the first Union Budget."
+    },
+    "ml": {
+      "question": "സ്വതന്ത്ര ഇന്ത്യയുടെ ആദ്യ കേന്ദ്രബജറ്റ് അവതരിപ്പിച്ചത് ആര്?",
+      "options": [
+        "ജവഹർലാൽ നെഹ്റു",
+        "മൻമോഹൻ സിങ്",
+        "ആർ. കെ. ഷൺമുഖം ചെട്ടി",
+        "ഇന്ദിരാഗാന്ധി"
+      ],
+      "hint": "ഇന്ത്യയുടെ ആദ്യ ധനമന്ത്രി.",
+      "explanation": "ആദ്യ ധനമന്ത്രിയായ ആർ. കെ. ഷൺമുഖം ചെട്ടിയാണ് ആദ്യ കേന്ദ്രബജറ്റ് അവതരിപ്പിച്ചത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Budget: the true record of development\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-076",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Budget: the true record of development",
+      "ml": "ബജറ്റ്: വികസനത്തിന്റെ യഥാർത്ഥ രേഖ"
+    },
+    "en": {
+      "question": "Loans the government takes from other countries and international organisations are called:",
+      "options": [
+        "Domestic debt",
+        "External (foreign) debt",
+        "Direct tax",
+        "Public revenue"
+      ],
+      "hint": "From outside the country.",
+      "explanation": "Loans from other countries and international bodies are external debt; loans from inside the country are domestic debt."
+    },
+    "ml": {
+      "question": "സർക്കാർ മറ്റു രാജ്യങ്ങളിൽ നിന്നും അന്താരാഷ്ട്ര സ്ഥാപനങ്ങളിൽ നിന്നും എടുക്കുന്ന വായ്പ:",
+      "options": [
+        "ആഭ്യന്തരകടം",
+        "വിദേശകടം",
+        "പ്രത്യക്ഷനികുതി",
+        "പൊതുവരുമാനം"
+      ],
+      "hint": "രാജ്യത്തിന് പുറത്തുനിന്ന്.",
+      "explanation": "വിദേശത്തുനിന്നുള്ള വായ്പ വിദേശകടം; രാജ്യത്തിനുള്ളിൽ നിന്നുള്ളത് ആഭ്യന്തരകടം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Budget: the true record of development\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-077",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Budget: the true record of development",
+      "ml": "ബജറ്റ്: വികസനത്തിന്റെ യഥാർത്ഥ രേഖ"
+    },
+    "en": {
+      "question": "A tax paid directly by the person on whom it is charged (like income tax) is a:",
+      "options": [
+        "Fine",
+        "Fee",
+        "Indirect tax",
+        "Direct tax"
+      ],
+      "hint": "The payer bears it himself.",
+      "explanation": "A direct tax is paid by the same person on whom it is levied, like income tax."
+    },
+    "ml": {
+      "question": "ആരുടെ മേൽ ചുമത്തുന്നുവോ അയാൾ തന്നെ നേരിട്ട് അടയ്ക്കുന്ന നികുതി (ഉദാ: ആദായനികുതി):",
+      "options": [
+        "പിഴ",
+        "ഫീസ്",
+        "പരോക്ഷനികുതി",
+        "പ്രത്യക്ഷനികുതി"
+      ],
+      "hint": "അടയ്ക്കുന്നയാൾ തന്നെ ഭാരം വഹിക്കുന്നു.",
+      "explanation": "ചുമത്തപ്പെടുന്നയാൾ തന്നെ അടയ്ക്കുന്ന നികുതി പ്രത്യക്ഷനികുതി; ഉദാ: ആദായനികുതി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Budget: the true record of development\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-078",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Budget: the true record of development",
+      "ml": "ബജറ്റ്: വികസനത്തിന്റെ യഥാർത്ഥ രേഖ"
+    },
+    "en": {
+      "question": "A financial plan made from a family's expected income and expenditure for a period is the:",
+      "options": [
+        "Family budget",
+        "Family tree",
+        "Ration card",
+        "Bank passbook"
+      ],
+      "hint": "Plan before you spend.",
+      "explanation": "A family budget plans expected income and expenditure for a period."
+    },
+    "ml": {
+      "question": "ഒരു കാലയളവിലെ പ്രതീക്ഷിത വരവും ചെലവും അടിസ്ഥാനമാക്കി കുടുംബം തയ്യാറാക്കുന്ന സാമ്പത്തിക പദ്ധതി:",
+      "options": [
+        "കുടുംബബജറ്റ്",
+        "കുടുംബവൃക്ഷം",
+        "റേഷൻ കാർഡ്",
+        "ബാങ്ക് പാസ്ബുക്ക്"
+      ],
+      "hint": "ചെലവഴിക്കുന്നതിനു മുമ്പുള്ള പദ്ധതി.",
+      "explanation": "പ്രതീക്ഷിത വരവും ചെലവും ആസൂത്രണം ചെയ്യുന്നതാണ് കുടുംബബജറ്റ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Budget: the true record of development\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-079",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Against discrimination: South Africa",
+      "ml": "വിവേചനത്തിനെതിരെ: ദക്ഷിണാഫ്രിക്ക"
+    },
+    "en": {
+      "question": "Why was the southern tip of Africa named the \"Cape of Good Hope\"?",
+      "options": [
+        "It had good weather",
+        "It gave sailors hope of reaching Asia",
+        "Gold was found there",
+        "It was a holy place"
+      ],
+      "hint": "Ships from Europe sailed around it.",
+      "explanation": "Rounding this cape gave navigators hope of reaching Asia, so it was named the Cape of Good Hope."
+    },
+    "ml": {
+      "question": "ആഫ്രിക്കയുടെ തെക്കേ മുനമ്പിന് \"ശുഭപ്രതീക്ഷാ മുനമ്പ്\" എന്ന് പേര് വരാൻ കാരണം?",
+      "options": [
+        "നല്ല കാലാവസ്ഥ",
+        "നാവികർക്ക് ഏഷ്യയിലെത്താമെന്ന പ്രതീക്ഷ നൽകി",
+        "അവിടെ സ്വർണ്ണം കണ്ടെത്തി",
+        "ഒരു പുണ്യസ്ഥലമായിരുന്നു"
+      ],
+      "hint": "യൂറോപ്പിൽ നിന്നുള്ള കപ്പലുകൾ ഇതിനെ ചുറ്റി സഞ്ചരിച്ചു.",
+      "explanation": "ഈ മുനമ്പ് കടന്നതോടെ ഏഷ്യയിലെത്താമെന്ന പ്രതീക്ഷ നാവികർക്ക് കിട്ടി; അതിനാലാണ് ആ പേര്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Against discrimination: South Africa\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-080",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Against discrimination: South Africa",
+      "ml": "വിവേചനത്തിനെതിരെ: ദക്ഷിണാഫ്രിക്ക"
+    },
+    "en": {
+      "question": "The Dutch word 'Boer' means:",
+      "options": [
+        "Soldier",
+        "Trader",
+        "Farmer",
+        "Sailor"
+      ],
+      "hint": "They came and worked the land.",
+      "explanation": "'Boer' is Dutch for farmer. Later they were called Afrikaners."
+    },
+    "ml": {
+      "question": "'ബോവർ' എന്ന ഡച്ച് വാക്കിന്റെ അർത്ഥം:",
+      "options": [
+        "പടയാളി",
+        "വ്യാപാരി",
+        "കർഷകൻ",
+        "നാവികൻ"
+      ],
+      "hint": "അവർ വന്ന് ഭൂമിയിൽ കൃഷി ചെയ്തു.",
+      "explanation": "'ബോവർ' എന്നാൽ ഡച്ച് ഭാഷയിൽ കർഷകൻ. പിന്നീട് അവർ ആഫ്രിക്കാനർമാർ എന്നറിയപ്പെട്ടു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Against discrimination: South Africa\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-081",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "chapter": {
+      "en": "Against discrimination: South Africa",
+      "ml": "വിവേചനത്തിനെതിരെ: ദക്ഷിണാഫ്രിക്ക"
+    },
+    "en": {
+      "question": "The movement of the Boers into the interior of South Africa to escape British policies is called:",
+      "options": [
+        "The Great Trek",
+        "The Long March",
+        "The Dandi March",
+        "The Gold Rush"
+      ],
+      "hint": "A long journey by ox-wagon.",
+      "explanation": "The Great Trek was the exodus of the Boers into the interior; they then set up Transvaal, Orange Free State and Natal."
+    },
+    "ml": {
+      "question": "ബ്രിട്ടീഷ് നയങ്ങളിൽ നിന്ന് രക്ഷപ്പെടാൻ ബോവർമാർ ദക്ഷിണാഫ്രിക്കയുടെ ഉൾപ്രദേശങ്ങളിലേക്ക് നടത്തിയ പലായനം:",
+      "options": [
+        "ഗ്രേറ്റ് ട്രെക്ക്",
+        "ലോങ് മാർച്ച്",
+        "ദണ്ഡി മാർച്ച്",
+        "ഗോൾഡ് റഷ്"
+      ],
+      "hint": "കാളവണ്ടിയിലെ നീണ്ട യാത്ര.",
+      "explanation": "ബോവർമാരുടെ ഈ പലായനമാണ് ഗ്രേറ്റ് ട്രെക്ക്; തുടർന്ന് അവർ ട്രാൻസ്വാൾ, ഓറഞ്ച് ഫ്രീ സ്റ്റേറ്റ്, നേറ്റാൾ എന്നീ റിപ്പബ്ലിക്കുകൾ സ്ഥാപിച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Against discrimination: South Africa\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-082",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Against discrimination: South Africa",
+      "ml": "വിവേചനത്തിനെതിരെ: ദക്ഷിണാഫ്രിക്ക"
+    },
+    "en": {
+      "question": "Which two oceans border South Africa?",
+      "options": [
+        "Pacific and Atlantic",
+        "Arctic and Indian",
+        "Pacific and Indian",
+        "Indian and Atlantic"
+      ],
+      "hint": "It is at the southern tip of Africa.",
+      "explanation": "South Africa shares its borders with the Indian Ocean and the Atlantic Ocean."
+    },
+    "ml": {
+      "question": "ദക്ഷിണാഫ്രിക്കയുടെ അതിർത്തിയിലുള്ള രണ്ട് സമുദ്രങ്ങൾ ഏവ?",
+      "options": [
+        "പസഫിക്, അറ്റ്ലാന്റിക്",
+        "ആർട്ടിക്, ഇന്ത്യൻ",
+        "പസഫിക്, ഇന്ത്യൻ",
+        "ഇന്ത്യൻ, അറ്റ്ലാന്റിക്"
+      ],
+      "hint": "ആഫ്രിക്കയുടെ തെക്കേ അറ്റത്ത്.",
+      "explanation": "ദക്ഷിണാഫ്രിക്കയുടെ അതിർത്തിയിൽ ഇന്ത്യൻ മഹാസമുദ്രവും അറ്റ്ലാന്റിക് സമുദ്രവുമാണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Against discrimination: South Africa\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SOC-083",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Against discrimination: South Africa",
+      "ml": "വിവേചനത്തിനെതിരെ: ദക്ഷിണാഫ്രിക്ക"
+    },
+    "en": {
+      "question": "Towards the end of the 19th century, what was discovered in the Boer republics?",
+      "options": [
+        "Oil and coal",
+        "Gold and diamonds",
+        "Iron and copper",
+        "Tea and coffee"
+      ],
+      "hint": "South Africa became the largest producer of these.",
+      "explanation": "Gold and diamond mines were found, and South Africa became their largest producer – which led to the Boer wars."
+    },
+    "ml": {
+      "question": "പത്തൊമ്പതാം നൂറ്റാണ്ടിന്റെ അവസാനം ബോവർ റിപ്പബ്ലിക്കുകളിൽ കണ്ടെത്തിയത് എന്ത്?",
+      "options": [
+        "എണ്ണയും കൽക്കരിയും",
+        "സ്വർണ്ണവും വജ്രവും",
+        "ഇരുമ്പും ചെമ്പും",
+        "തേയിലയും കാപ്പിയും"
+      ],
+      "hint": "ഇവയുടെ ഏറ്റവും വലിയ ഉൽപാദകരായി ദക്ഷിണാഫ്രിക്ക.",
+      "explanation": "സ്വർണ്ണ-വജ്ര ഖനികൾ കണ്ടെത്തി; ദക്ഷിണാഫ്രിക്ക അവയുടെ ഏറ്റവും വലിയ ഉൽപാദകരായി. ഇത് ബോവർ യുദ്ധങ്ങൾക്ക് വഴിവെച്ചു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Against discrimination: South Africa\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  }
+]

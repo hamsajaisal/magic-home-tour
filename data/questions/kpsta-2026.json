@@ -1,0 +1,3332 @@
+[
+  {
+    "id": "KPSTA26-MAL-01",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'ഇരട്ടമിഠായികൾ' എന്ന കൃതി എഴുതിയതാര്?",
+      "options": [
+        "എം. മുകുന്ദൻ",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "പി. കെ. പാറക്കടവ്",
+        "സക്കറിയ"
+      ],
+      "hint": "A writer known for very short stories (mini stories).",
+      "explanation": "'Irattamittayikal' is by P. K. Parakkadavu, known for his mini stories."
+    },
+    "ml": {
+      "question": "'ഇരട്ടമിഠായികൾ' എന്ന കൃതി എഴുതിയതാര്?",
+      "options": [
+        "എം. മുകുന്ദൻ",
+        "എം. ടി. വാസുദേവൻ നായർ",
+        "പി. കെ. പാറക്കടവ്",
+        "സക്കറിയ"
+      ],
+      "hint": "മിനിക്കഥകൾക്ക് പ്രശസ്തനായ എഴുത്തുകാരൻ.",
+      "explanation": "'ഇരട്ടമിഠായികൾ' മിനിക്കഥകളിലൂടെ പ്രശസ്തനായ പി. കെ. പാറക്കടവിന്റെ കൃതിയാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q1 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-02",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "സുഗതകുമാരിയുടെ കൃതി അല്ലാത്തത് ഏത്?",
+      "options": [
+        "രാത്രിമഴ",
+        "എന്റെ മലയാളം",
+        "അമ്പലമണി",
+        "പാതിരാപ്പൂക്കൾ"
+      ],
+      "hint": "Three of these are well-known Sugathakumari works.",
+      "explanation": "Rathrimazha, Ambalamani and Pathirappookkal are by Sugathakumari. 'Ente Malayalam' is not."
+    },
+    "ml": {
+      "question": "സുഗതകുമാരിയുടെ കൃതി അല്ലാത്തത് ഏത്?",
+      "options": [
+        "രാത്രിമഴ",
+        "എന്റെ മലയാളം",
+        "അമ്പലമണി",
+        "പാതിരാപ്പൂക്കൾ"
+      ],
+      "hint": "മൂന്നെണ്ണം സുഗതകുമാരിയുടെ പ്രശസ്ത കൃതികളാണ്.",
+      "explanation": "രാത്രിമഴ, അമ്പലമണി, പാതിരാപ്പൂക്കൾ എന്നിവ സുഗതകുമാരിയുടേത്. 'എന്റെ മലയാളം' അല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q2 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-03",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "തെറ്റായ ജോഡി ഏത്?",
+      "options": [
+        "കിളിക്കൊഞ്ചൽ – വള്ളത്തോൾ",
+        "മാണിക്യക്കല്ല് – എം. ടി.",
+        "രമണൻ – ചങ്ങമ്പുഴ",
+        "നങ്ങേമക്കുട്ടി – ഒ. എൻ. വി."
+      ],
+      "hint": "'Nangemakkutty' is a long poem by Olappamanna.",
+      "explanation": "'Nangemakkutty' was written by Olappamanna, not O. N. V. So D is the wrong pair."
+    },
+    "ml": {
+      "question": "തെറ്റായ ജോഡി ഏത്?",
+      "options": [
+        "കിളിക്കൊഞ്ചൽ – വള്ളത്തോൾ",
+        "മാണിക്യക്കല്ല് – എം. ടി.",
+        "രമണൻ – ചങ്ങമ്പുഴ",
+        "നങ്ങേമക്കുട്ടി – ഒ. എൻ. വി."
+      ],
+      "hint": "'നങ്ങേമക്കുട്ടി' ഒളപ്പമണ്ണയുടെ കൃതിയാണ്.",
+      "explanation": "'നങ്ങേമക്കുട്ടി' എഴുതിയത് ഒളപ്പമണ്ണയാണ്, ഒ. എൻ. വി. അല്ല. അതിനാൽ D തെറ്റായ ജോഡി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q3 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-04",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "സൂചനകളിൽ നിന്ന് എഴുത്തുകാരനെ കണ്ടെത്തുക:\n• സഞ്ചാരിയും എഴുത്തുകാരനും\n• എറണാകുളം ജില്ലയിലെ പള്ളിപ്പുറത്ത് ജനിച്ചു\n• വന്യജീവി ഫോട്ടോഗ്രാഫർ എന്ന നിലയിൽ പ്രശസ്തൻ\n• നാല്പതിലേറെ വർഷമായി പശ്ചിമഘട്ട മലനിരകളിലൂടെ യാത്ര ചെയ്യുന്നു",
+      "options": [
+        "രവീന്ദ്രൻ",
+        "എൻ. എ. നസീർ",
+        "എസ്. കെ. പൊറ്റെക്കാട്",
+        "രാജൻ കാക്കനാടൻ"
+      ],
+      "hint": "He wrote 'Kaadum Camerayum'.",
+      "explanation": "N. A. Naseer is a wildlife photographer and writer who has roamed the Western Ghats for decades."
+    },
+    "ml": {
+      "question": "സൂചനകളിൽ നിന്ന് എഴുത്തുകാരനെ കണ്ടെത്തുക:\n• സഞ്ചാരിയും എഴുത്തുകാരനും\n• എറണാകുളം ജില്ലയിലെ പള്ളിപ്പുറത്ത് ജനിച്ചു\n• വന്യജീവി ഫോട്ടോഗ്രാഫർ എന്ന നിലയിൽ പ്രശസ്തൻ\n• നാല്പതിലേറെ വർഷമായി പശ്ചിമഘട്ട മലനിരകളിലൂടെ യാത്ര ചെയ്യുന്നു",
+      "options": [
+        "രവീന്ദ്രൻ",
+        "എൻ. എ. നസീർ",
+        "എസ്. കെ. പൊറ്റെക്കാട്",
+        "രാജൻ കാക്കനാടൻ"
+      ],
+      "hint": "'കാടും ക്യാമറയും' എഴുതിയ ആൾ.",
+      "explanation": "എൻ. എ. നസീർ പശ്ചിമഘട്ടത്തിലൂടെ യാത്ര ചെയ്യുന്ന വന്യജീവി ഫോട്ടോഗ്രാഫറും എഴുത്തുകാരനുമാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q4 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-05",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "\"അമ്പത്താറക്ഷരമല്ല\nഅമ്പത്തൊന്നക്ഷരവുമല്ലെന്റെ മലയാളം\nമലയാളമെന്ന നാലക്ഷരവുമല്ല\nഅമ്മ എന്ന ഒരൊറ്റക്ഷരമാണെന്റെ മലയാളം\" – ആരുടെ വരികൾ?",
+      "options": [
+        "എഴുത്തച്ഛൻ",
+        "കുമാരനാശാൻ",
+        "കുഞ്ഞുണ്ണി മാഷ്",
+        "കെ. അയ്യപ്പപ്പണിക്കർ"
+      ],
+      "hint": "A poet famous for short, simple poems for children.",
+      "explanation": "These short, playful lines are by Kunjunni Mash."
+    },
+    "ml": {
+      "question": "\"അമ്പത്താറക്ഷരമല്ല\nഅമ്പത്തൊന്നക്ഷരവുമല്ലെന്റെ മലയാളം\nമലയാളമെന്ന നാലക്ഷരവുമല്ല\nഅമ്മ എന്ന ഒരൊറ്റക്ഷരമാണെന്റെ മലയാളം\" – ആരുടെ വരികൾ?",
+      "options": [
+        "എഴുത്തച്ഛൻ",
+        "കുമാരനാശാൻ",
+        "കുഞ്ഞുണ്ണി മാഷ്",
+        "കെ. അയ്യപ്പപ്പണിക്കർ"
+      ],
+      "hint": "ചെറിയ, ലളിതമായ കവിതകൾക്ക് പ്രശസ്തനായ കവി.",
+      "explanation": "കുട്ടിക്കവിതകളിലൂടെ പ്രശസ്തനായ കുഞ്ഞുണ്ണി മാഷിന്റെ വരികളാണിവ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q5 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-06",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "നാടകവുമായി ബന്ധപ്പെട്ട് ശരിയായ പ്രസ്താവനകൾ ഏത്?\n1. കൂട്ടായ്മയുടെ കലയാണ് നാടകം.\n2. ഒരു കഥയ്ക്ക് സംഭാഷണം ഒരുക്കിയാൽ അത് നാടകമായി.\n3. കുട്ടികളുടെ നാടകരംഗത്ത് ശ്രദ്ധേയമായ സ്ഥാനം വഹിച്ച വ്യക്തിയാണ് ജി. ശങ്കരപ്പിള്ള.",
+      "options": [
+        "1, 2, 3 ഉം ശരി",
+        "1 ഉം 3 ഉം ശരി",
+        "2 ഉം 3 ഉം ശരി",
+        "1 ഉം 2 ഉം ശരി"
+      ],
+      "hint": "Is dialogue alone enough to make a play?",
+      "explanation": "Drama is a group art (1) and G. Sankara Pillai did much for children's theatre (3). Dialogue alone does not make a play, so 2 is wrong."
+    },
+    "ml": {
+      "question": "നാടകവുമായി ബന്ധപ്പെട്ട് ശരിയായ പ്രസ്താവനകൾ ഏത്?\n1. കൂട്ടായ്മയുടെ കലയാണ് നാടകം.\n2. ഒരു കഥയ്ക്ക് സംഭാഷണം ഒരുക്കിയാൽ അത് നാടകമായി.\n3. കുട്ടികളുടെ നാടകരംഗത്ത് ശ്രദ്ധേയമായ സ്ഥാനം വഹിച്ച വ്യക്തിയാണ് ജി. ശങ്കരപ്പിള്ള.",
+      "options": [
+        "1, 2, 3 ഉം ശരി",
+        "1 ഉം 3 ഉം ശരി",
+        "2 ഉം 3 ഉം ശരി",
+        "1 ഉം 2 ഉം ശരി"
+      ],
+      "hint": "സംഭാഷണം മാത്രം മതിയോ നാടകമാകാൻ?",
+      "explanation": "നാടകം കൂട്ടായ്മയുടെ കലയാണ് (1). കുട്ടികളുടെ നാടകവേദിക്ക് ജി. ശങ്കരപ്പിള്ള വലിയ സംഭാവന നൽകി (3). സംഭാഷണം മാത്രം ചേർത്താൽ നാടകമാകില്ല; 2 തെറ്റ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q6 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-07",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "'പൂപ്പുഞ്ചിരി' – വിഗ്രഹിച്ചെഴുതിയാൽ:",
+      "options": [
+        "പൂവിന്റെ ചിരി",
+        "പൂവിന്റെ ചിരി പോലെ",
+        "പൂവിനുള്ള ചിരി",
+        "പൂ പോലുള്ള പുഞ്ചിരി"
+      ],
+      "hint": "The smile is compared to a flower.",
+      "explanation": "'Poopunchiri' means a smile like a flower: പൂ പോലുള്ള പുഞ്ചിരി."
+    },
+    "ml": {
+      "question": "'പൂപ്പുഞ്ചിരി' – വിഗ്രഹിച്ചെഴുതിയാൽ:",
+      "options": [
+        "പൂവിന്റെ ചിരി",
+        "പൂവിന്റെ ചിരി പോലെ",
+        "പൂവിനുള്ള ചിരി",
+        "പൂ പോലുള്ള പുഞ്ചിരി"
+      ],
+      "hint": "പുഞ്ചിരിയെ പൂവിനോട് ഉപമിക്കുന്നു.",
+      "explanation": "പൂപ്പുഞ്ചിരി = പൂ പോലുള്ള പുഞ്ചിരി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q7 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-08",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "നവമാധ്യമങ്ങളുടെ ഉപയോഗം കൊണ്ട് കുട്ടികൾക്കുണ്ടായേക്കാവുന്ന ദൂഷ്യങ്ങളിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "സൈബർ തട്ടിപ്പിലേക്ക് നയിക്കുന്നു",
+        "ആനുകാലിക വിവരങ്ങൾ തൽസമയം അറിയാൻ കഴിയുന്നു",
+        "ഏകാഗ്രതയില്ലായ്മയിലേക്ക് നയിക്കുന്നു",
+        "നിയമവിരുദ്ധ കുറ്റകൃത്യങ്ങളും വൈറസ് ആക്രമണങ്ങളും"
+      ],
+      "hint": "One option is a benefit, not a harm.",
+      "explanation": "Getting the latest news quickly is a benefit of new media, not a harm."
+    },
+    "ml": {
+      "question": "നവമാധ്യമങ്ങളുടെ ഉപയോഗം കൊണ്ട് കുട്ടികൾക്കുണ്ടായേക്കാവുന്ന ദൂഷ്യങ്ങളിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "സൈബർ തട്ടിപ്പിലേക്ക് നയിക്കുന്നു",
+        "ആനുകാലിക വിവരങ്ങൾ തൽസമയം അറിയാൻ കഴിയുന്നു",
+        "ഏകാഗ്രതയില്ലായ്മയിലേക്ക് നയിക്കുന്നു",
+        "നിയമവിരുദ്ധ കുറ്റകൃത്യങ്ങളും വൈറസ് ആക്രമണങ്ങളും"
+      ],
+      "hint": "ഒരെണ്ണം ദോഷമല്ല, ഗുണമാണ്.",
+      "explanation": "ആനുകാലിക വിവരങ്ങൾ ഉടനെ അറിയാൻ കഴിയുന്നത് നവമാധ്യമങ്ങളുടെ ഗുണമാണ്, ദോഷമല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q8 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-09",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "കാര്യകാരണബന്ധം നോക്കി ശരിയുത്തരം കണ്ടെത്തുക.\nകാര്യം: നല്ല കറുത്ത കൺപീലികൾക്കിടയിലുള്ള മിനുങ്ങുന്ന കണ്ണുകൾ… ആ കണ്ണുകളുടെ അരികിൽ നിന്നാണല്ലോ താൻ നക്ഷത്രത്തെ തേടി പോകേണ്ടതെന്നോർത്തപ്പോൾ അവനു ചിരി വന്നുപോയി.\nകാരണം: കമ്മലിനെക്കാളും നക്ഷത്രത്തെക്കാളും കൂടുതൽ തിളങ്ങുന്നത് തന്റെ അമ്മയുടെ വാത്സല്യം തുളുമ്പുന്ന കണ്ണുകളല്ലേ എന്ന കുട്ടിയുടെ തിരിച്ചറിവ്.",
+      "options": [
+        "കാര്യവും കാരണവും ശരി",
+        "കാര്യം തെറ്റ്, കാരണം ശരി",
+        "കാര്യവും കാരണവും തെറ്റ്",
+        "കാര്യം ശരി, കാരണം തെറ്റ്"
+      ],
+      "hint": "Why did the boy smile? Because the brightest \"star\" was right beside him.",
+      "explanation": "Both are true: the boy smiled because he realised his mother's loving eyes shine brighter than any star."
+    },
+    "ml": {
+      "question": "കാര്യകാരണബന്ധം നോക്കി ശരിയുത്തരം കണ്ടെത്തുക.\nകാര്യം: നല്ല കറുത്ത കൺപീലികൾക്കിടയിലുള്ള മിനുങ്ങുന്ന കണ്ണുകൾ… ആ കണ്ണുകളുടെ അരികിൽ നിന്നാണല്ലോ താൻ നക്ഷത്രത്തെ തേടി പോകേണ്ടതെന്നോർത്തപ്പോൾ അവനു ചിരി വന്നുപോയി.\nകാരണം: കമ്മലിനെക്കാളും നക്ഷത്രത്തെക്കാളും കൂടുതൽ തിളങ്ങുന്നത് തന്റെ അമ്മയുടെ വാത്സല്യം തുളുമ്പുന്ന കണ്ണുകളല്ലേ എന്ന കുട്ടിയുടെ തിരിച്ചറിവ്.",
+      "options": [
+        "കാര്യവും കാരണവും ശരി",
+        "കാര്യം തെറ്റ്, കാരണം ശരി",
+        "കാര്യവും കാരണവും തെറ്റ്",
+        "കാര്യം ശരി, കാരണം തെറ്റ്"
+      ],
+      "hint": "കുട്ടി എന്തിനാണ് ചിരിച്ചത്? ഏറ്റവും തിളങ്ങുന്ന \"നക്ഷത്രം\" അരികിൽത്തന്നെ ഉണ്ടായിരുന്നു.",
+      "explanation": "അമ്മയുടെ സ്നേഹമുള്ള കണ്ണുകളാണ് നക്ഷത്രത്തേക്കാൾ തിളങ്ങുന്നതെന്ന തിരിച്ചറിവാണ് ചിരിക്കു കാരണം. രണ്ടും ശരി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q9 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-10",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "\"ഞാനീ ജനലഴി പിടിച്ചൊട്ടു നിൽക്കട്ടെ, നീയെന്നണിയത്തു തന്നെ നിൽക്കൂ\" – ഏത് കവിതയിലെ വരികളാണ്?",
+      "options": [
+        "രാത്രിമഴ",
+        "രേണുക",
+        "സഫലമീയാത്ര",
+        "ഭ്രാന്തി"
+      ],
+      "hint": "A poem by N. N. Kakkad about an old couple waiting for the Thiruvathira moon.",
+      "explanation": "These lines are from N. N. Kakkad's 'Saphalamee Yathra'."
+    },
+    "ml": {
+      "question": "\"ഞാനീ ജനലഴി പിടിച്ചൊട്ടു നിൽക്കട്ടെ, നീയെന്നണിയത്തു തന്നെ നിൽക്കൂ\" – ഏത് കവിതയിലെ വരികളാണ്?",
+      "options": [
+        "രാത്രിമഴ",
+        "രേണുക",
+        "സഫലമീയാത്ര",
+        "ഭ്രാന്തി"
+      ],
+      "hint": "തിരുവാതിര നിലാവ് കാത്തിരിക്കുന്ന വൃദ്ധദമ്പതികളെക്കുറിച്ചുള്ള എൻ. എൻ. കക്കാടിന്റെ കവിത.",
+      "explanation": "ഈ വരികൾ എൻ. എൻ. കക്കാടിന്റെ 'സഫലമീയാത്ര'യിലേതാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q10 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-12",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'മഴത്തുള്ളി' – ഇതിലെ സന്ധി ഏത്?",
+      "options": [
+        "ആദേശസന്ധി",
+        "ആഗമസന്ധി",
+        "ദ്വിത്വസന്ധി",
+        "ലോപസന്ധി"
+      ],
+      "hint": "മഴ + തുള്ളി: which letter is doubled?",
+      "explanation": "മഴ + തുള്ളി = മഴത്തുള്ളി. The 'ത' is doubled, so it is dvitva sandhi."
+    },
+    "ml": {
+      "question": "'മഴത്തുള്ളി' – ഇതിലെ സന്ധി ഏത്?",
+      "options": [
+        "ആദേശസന്ധി",
+        "ആഗമസന്ധി",
+        "ദ്വിത്വസന്ധി",
+        "ലോപസന്ധി"
+      ],
+      "hint": "മഴ + തുള്ളി: ഏത് അക്ഷരമാണ് ഇരട്ടിച്ചത്?",
+      "explanation": "മഴ + തുള്ളി = മഴത്തുള്ളി. 'ത' ഇരട്ടിക്കുന്നു; ഇത് ദ്വിത്വസന്ധി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q12 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-13",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "പിക്‌ലു മൈനയുടെ കാലിലെ കെട്ടഴിച്ച്, അതിനെ കൈയിലെടുത്തു. മൃദുവായി തലോടി. അതിനുശേഷം അവൻ അമ്മയെ വിളിച്ചു. – ഈ വാക്യത്തിലെ സർവ്വനാമപദം ഏത്?",
+      "options": [
+        "പിക്‌ലു",
+        "മൈന",
+        "അവൻ",
+        "അമ്മ"
+      ],
+      "hint": "A pronoun stands in place of a name.",
+      "explanation": "'അവൻ' is used instead of the name Piklu, so it is the pronoun."
+    },
+    "ml": {
+      "question": "പിക്‌ലു മൈനയുടെ കാലിലെ കെട്ടഴിച്ച്, അതിനെ കൈയിലെടുത്തു. മൃദുവായി തലോടി. അതിനുശേഷം അവൻ അമ്മയെ വിളിച്ചു. – ഈ വാക്യത്തിലെ സർവ്വനാമപദം ഏത്?",
+      "options": [
+        "പിക്‌ലു",
+        "മൈന",
+        "അവൻ",
+        "അമ്മ"
+      ],
+      "hint": "നാമത്തിനു പകരം നിൽക്കുന്ന പദം.",
+      "explanation": "'അവൻ' എന്നത് പിക്‌ലു എന്ന നാമത്തിനു പകരം വരുന്നു; ഇത് സർവ്വനാമം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q13 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-14",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "'കച്ചി' എന്ന അർത്ഥം കിട്ടുന്ന വാക്ക് ഏത്?",
+      "options": [
+        "വൈക്കോൽ",
+        "പുല്ല്",
+        "ഇല",
+        "ചപ്പ്"
+      ],
+      "hint": "Dried stalks left after harvesting paddy.",
+      "explanation": "'Kachi' means straw – വൈക്കോൽ."
+    },
+    "ml": {
+      "question": "'കച്ചി' എന്ന അർത്ഥം കിട്ടുന്ന വാക്ക് ഏത്?",
+      "options": [
+        "വൈക്കോൽ",
+        "പുല്ല്",
+        "ഇല",
+        "ചപ്പ്"
+      ],
+      "hint": "നെല്ല് കൊയ്തശേഷമുള്ള ഉണങ്ങിയ തണ്ട്.",
+      "explanation": "കച്ചി എന്നാൽ വൈക്കോൽ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q14 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-15",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "'സാംസ്കാരിക നായകൻ പോലും' – ഈ വരിയിൽ തെളിയുന്ന ഭാവം എന്ത്?",
+      "options": [
+        "സഹതാപം",
+        "വെറുപ്പ്",
+        "പുച്ഛം",
+        "ദേഷ്യം"
+      ],
+      "hint": "The word 'പോലും' here makes fun of the person.",
+      "explanation": "'…പോലും' here mocks the so-called cultural leader. The feeling is scorn (പുച്ഛം)."
+    },
+    "ml": {
+      "question": "'സാംസ്കാരിക നായകൻ പോലും' – ഈ വരിയിൽ തെളിയുന്ന ഭാവം എന്ത്?",
+      "options": [
+        "സഹതാപം",
+        "വെറുപ്പ്",
+        "പുച്ഛം",
+        "ദേഷ്യം"
+      ],
+      "hint": "'പോലും' എന്ന വാക്ക് ഇവിടെ പരിഹാസമാണ്.",
+      "explanation": "'സാംസ്കാരിക നായകൻ പോലും' എന്നതിൽ പരിഹാസം, അതായത് പുച്ഛം, തെളിയുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q15 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-16",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "'തുമ്മാൻ ചെരുതി, യുടുപുടത്തുമ്പ്' – 'തുമ്മാൻ' എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നത് എന്ത്?",
+      "options": [
+        "തുമ്മുക",
+        "വെറ്റില മുറുക്കാനുള്ള സാധനങ്ങൾ",
+        "തൂമ്പയെടുക്കുക",
+        "തെളിഞ്ഞ ആകാശം"
+      ],
+      "hint": "A dialect word from North Kerala; think of a village elder's pouch.",
+      "explanation": "In the North Kerala dialect, 'thumman' means things for chewing betel (vettila murukkan)."
+    },
+    "ml": {
+      "question": "'തുമ്മാൻ ചെരുതി, യുടുപുടത്തുമ്പ്' – 'തുമ്മാൻ' എന്ന പദം കൊണ്ട് അർത്ഥമാക്കുന്നത് എന്ത്?",
+      "options": [
+        "തുമ്മുക",
+        "വെറ്റില മുറുക്കാനുള്ള സാധനങ്ങൾ",
+        "തൂമ്പയെടുക്കുക",
+        "തെളിഞ്ഞ ആകാശം"
+      ],
+      "hint": "വടക്കൻ കേരളത്തിലെ നാട്ടുവാക്ക്; പഴയ കാരണവരുടെ സഞ്ചി ഓർക്കൂ.",
+      "explanation": "വടക്കൻ നാട്ടുഭാഷയിൽ 'തുമ്മാൻ' എന്നാൽ വെറ്റില മുറുക്കാനുള്ള സാധനങ്ങൾ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q16 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-17",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "സൂചനകൾ നോക്കി കലാരൂപം ഏതെന്ന് കണ്ടെത്തുക:\n• തൃശ്ശൂർ ജില്ലയിലും പരിസരപ്രദേശത്തും അരങ്ങേറുന്നു\n• 'പന്നിമറച്ചിൽ' എന്ന അഭ്യാസ സന്ദർഭം അഭിനയിക്കുന്നു\n• ഗ്രാമീണവീഥികളും മുറ്റങ്ങളും അരങ്ങായി ഉപയോഗിക്കുന്നു",
+      "options": [
+        "തെയ്യം",
+        "പുലികളി",
+        "കുമ്മാട്ടി",
+        "പടയണി"
+      ],
+      "hint": "A folk art of Onam with masks and grass costumes, going from house to house.",
+      "explanation": "Kummattikali is performed in Thrissur and nearby places during Onam, going through village streets and courtyards."
+    },
+    "ml": {
+      "question": "സൂചനകൾ നോക്കി കലാരൂപം ഏതെന്ന് കണ്ടെത്തുക:\n• തൃശ്ശൂർ ജില്ലയിലും പരിസരപ്രദേശത്തും അരങ്ങേറുന്നു\n• 'പന്നിമറച്ചിൽ' എന്ന അഭ്യാസ സന്ദർഭം അഭിനയിക്കുന്നു\n• ഗ്രാമീണവീഥികളും മുറ്റങ്ങളും അരങ്ങായി ഉപയോഗിക്കുന്നു",
+      "options": [
+        "തെയ്യം",
+        "പുലികളി",
+        "കുമ്മാട്ടി",
+        "പടയണി"
+      ],
+      "hint": "ഓണക്കാലത്ത് മുഖംമൂടിയും പുല്ലുകൊണ്ടുള്ള വേഷവുമായി വീടുതോറും എത്തുന്ന കലാരൂപം.",
+      "explanation": "തൃശ്ശൂരും പരിസരത്തും ഓണക്കാലത്ത് ഗ്രാമവീഥികളിലൂടെ അവതരിപ്പിക്കുന്ന കലാരൂപമാണ് കുമ്മാട്ടി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q17 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-18",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "വിത്തുഗുണം പത്തുഗുണം",
+        "ഞാറുറച്ചാൽ ചോറുറച്ചു",
+        "ഉഴവു പിഴച്ചാൽ വിളവു പിഴയ്ക്കും",
+        "ഇരിക്കുന്ന കൊമ്പ് മുറിക്കരുത്"
+      ],
+      "hint": "Three proverbs are about farming.",
+      "explanation": "The first three are farming proverbs. \"Do not cut the branch you sit on\" is not about farming."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "വിത്തുഗുണം പത്തുഗുണം",
+        "ഞാറുറച്ചാൽ ചോറുറച്ചു",
+        "ഉഴവു പിഴച്ചാൽ വിളവു പിഴയ്ക്കും",
+        "ഇരിക്കുന്ന കൊമ്പ് മുറിക്കരുത്"
+      ],
+      "hint": "മൂന്നെണ്ണം കൃഷിയുമായി ബന്ധപ്പെട്ട പഴഞ്ചൊല്ലുകൾ.",
+      "explanation": "ആദ്യത്തെ മൂന്നും കാർഷിക പഴഞ്ചൊല്ലുകളാണ്. \"ഇരിക്കുന്ന കൊമ്പ് മുറിക്കരുത്\" കൃഷിയുമായി ബന്ധപ്പെട്ടതല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q18 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-19",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "എയ്സൽ കൊച്ചുമോൻ ഏതു കാർഷിക മേഖലയിലാണ് പ്രശസ്തി നേടിയത്?",
+      "options": [
+        "റബ്ബർ",
+        "നെൽകൃഷി",
+        "പച്ചക്കറി",
+        "നാളികേരം"
+      ],
+      "hint": "Remember the farmer from the lesson.",
+      "explanation": "According to the lesson, Aisal Kochumon became famous for vegetable farming."
+    },
+    "ml": {
+      "question": "എയ്സൽ കൊച്ചുമോൻ ഏതു കാർഷിക മേഖലയിലാണ് പ്രശസ്തി നേടിയത്?",
+      "options": [
+        "റബ്ബർ",
+        "നെൽകൃഷി",
+        "പച്ചക്കറി",
+        "നാളികേരം"
+      ],
+      "hint": "പാഠഭാഗത്തിലെ കർഷകനെ ഓർക്കൂ.",
+      "explanation": "പാഠഭാഗം അനുസരിച്ച് എയ്സൽ കൊച്ചുമോൻ പച്ചക്കറി കൃഷിയിലാണ് പ്രശസ്തനായത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q19 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-20",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "കാര്യം: വിത്തുമൂടയിൽ സൂക്ഷിച്ച വിത്തിൽ നിന്ന് ആദ്യം മൂപ്പു കൂടിയ വിത്തുകളാണ് നടാനായി പുറത്തെടുക്കുന്നത്.\nകാരണം: വിത്തുകൾ മുഴുവൻ പാകമാകാത്തതുകൊണ്ട്.",
+      "options": [
+        "കാര്യവും കാരണവും ശരി",
+        "കാര്യം ശരി, കാരണം തെറ്റ്",
+        "കാര്യവും കാരണവും തെറ്റ്",
+        "കാര്യം തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "Is the reason really about unripe seeds?",
+      "explanation": "The fact is true, but the reason given (seeds are not ripe) is not the real reason. So the fact is right and the reason is wrong."
+    },
+    "ml": {
+      "question": "കാര്യം: വിത്തുമൂടയിൽ സൂക്ഷിച്ച വിത്തിൽ നിന്ന് ആദ്യം മൂപ്പു കൂടിയ വിത്തുകളാണ് നടാനായി പുറത്തെടുക്കുന്നത്.\nകാരണം: വിത്തുകൾ മുഴുവൻ പാകമാകാത്തതുകൊണ്ട്.",
+      "options": [
+        "കാര്യവും കാരണവും ശരി",
+        "കാര്യം ശരി, കാരണം തെറ്റ്",
+        "കാര്യവും കാരണവും തെറ്റ്",
+        "കാര്യം തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "പാകമാകാത്ത വിത്തുകളാണോ ശരിക്കുള്ള കാരണം?",
+      "explanation": "കാര്യം ശരിയാണ്; എന്നാൽ തന്നിരിക്കുന്ന കാരണം ശരിയല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q20 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-21",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "'അറിയാനുള്ള ആഗ്രഹം' – ഇതിന് ഉപയോഗിക്കാവുന്ന ഒറ്റപ്പദം ഏത്?",
+      "options": [
+        "സഫലം",
+        "സംഭ്രാന്തി",
+        "ജിജ്ഞാസ",
+        "ആരവം"
+      ],
+      "hint": "Curiosity.",
+      "explanation": "The wish to know is ജിജ്ഞാസ (curiosity)."
+    },
+    "ml": {
+      "question": "'അറിയാനുള്ള ആഗ്രഹം' – ഇതിന് ഉപയോഗിക്കാവുന്ന ഒറ്റപ്പദം ഏത്?",
+      "options": [
+        "സഫലം",
+        "സംഭ്രാന്തി",
+        "ജിജ്ഞാസ",
+        "ആരവം"
+      ],
+      "hint": "ഇംഗ്ലീഷിൽ curiosity.",
+      "explanation": "അറിയാനുള്ള ആഗ്രഹം = ജിജ്ഞാസ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q21 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-22",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "ശരിയായ പദം തിരഞ്ഞെടുക്കുക.",
+      "options": [
+        "ഉദ്ഘാടനം",
+        "ഉത്ഘാടനം",
+        "ഉല്ഘാടനം",
+        "ഉദ്ഖാടനം"
+      ],
+      "hint": "ഉദ് + ഘാടനം.",
+      "explanation": "The correct spelling is ഉദ്ഘാടനം (inauguration)."
+    },
+    "ml": {
+      "question": "ശരിയായ പദം തിരഞ്ഞെടുക്കുക.",
+      "options": [
+        "ഉദ്ഘാടനം",
+        "ഉത്ഘാടനം",
+        "ഉല്ഘാടനം",
+        "ഉദ്ഖാടനം"
+      ],
+      "hint": "ഉദ് + ഘാടനം.",
+      "explanation": "ശരിയായ രൂപം ഉദ്ഘാടനം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q22 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-23",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "'മീനിളക്കങ്ങൾ നോക്കി നോക്കിയിരുന്ന്' – 'മീനിളക്കങ്ങൾ' വിഗ്രഹിച്ചാൽ:",
+      "options": [
+        "മീനും ഇളക്കവും",
+        "മീനുകളുടെ ഇളക്കം",
+        "മീനിന്റെ ഇളക്കം",
+        "മീനാകുന്ന ഇളക്കം"
+      ],
+      "hint": "Many fish are moving.",
+      "explanation": "'Meenilakkangal' means the movements of the fish: മീനുകളുടെ ഇളക്കം."
+    },
+    "ml": {
+      "question": "'മീനിളക്കങ്ങൾ നോക്കി നോക്കിയിരുന്ന്' – 'മീനിളക്കങ്ങൾ' വിഗ്രഹിച്ചാൽ:",
+      "options": [
+        "മീനും ഇളക്കവും",
+        "മീനുകളുടെ ഇളക്കം",
+        "മീനിന്റെ ഇളക്കം",
+        "മീനാകുന്ന ഇളക്കം"
+      ],
+      "hint": "ഒരുപാട് മീനുകൾ ഇളകുന്നു.",
+      "explanation": "മീനിളക്കങ്ങൾ = മീനുകളുടെ ഇളക്കം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q23 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-24",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "'നാളത്തെ പൊന്മാൻ' എന്ന കഥയുമായി യോജിക്കുന്ന പ്രസ്താവനകൾ ഏത്?\n1. പരിസ്ഥിതിപ്രശ്നങ്ങളിലേക്ക് വെളിച്ചം വീശുന്നു.\n2. ജലാശയങ്ങൾ സംരക്ഷിക്കേണ്ടതാണ്.\n3. പ്രകൃതിയിലെ ഓരോ ചെറുജീവിയും അതിജീവനത്തിനായി ശ്രമിക്കും.",
+      "options": [
+        "ഒന്നും രണ്ടും മൂന്നും ശരി",
+        "ഒന്നും മൂന്നും ശരി",
+        "ഒന്നും രണ്ടും ശരി",
+        "രണ്ടും മൂന്നും ശരി"
+      ],
+      "hint": "The story is about a kingfisher and its disappearing pond.",
+      "explanation": "All three ideas – environmental problems, saving water bodies, and small creatures struggling to survive – are in the story."
+    },
+    "ml": {
+      "question": "'നാളത്തെ പൊന്മാൻ' എന്ന കഥയുമായി യോജിക്കുന്ന പ്രസ്താവനകൾ ഏത്?\n1. പരിസ്ഥിതിപ്രശ്നങ്ങളിലേക്ക് വെളിച്ചം വീശുന്നു.\n2. ജലാശയങ്ങൾ സംരക്ഷിക്കേണ്ടതാണ്.\n3. പ്രകൃതിയിലെ ഓരോ ചെറുജീവിയും അതിജീവനത്തിനായി ശ്രമിക്കും.",
+      "options": [
+        "ഒന്നും രണ്ടും മൂന്നും ശരി",
+        "ഒന്നും മൂന്നും ശരി",
+        "ഒന്നും രണ്ടും ശരി",
+        "രണ്ടും മൂന്നും ശരി"
+      ],
+      "hint": "ഒരു പൊന്മാനും ഇല്ലാതാകുന്ന ജലാശയവുമാണ് കഥയിൽ.",
+      "explanation": "പരിസ്ഥിതിപ്രശ്നം, ജലാശയസംരക്ഷണം, ചെറുജീവികളുടെ അതിജീവനം – മൂന്നും കഥയിലുണ്ട്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q24 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-25",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "'അ' എന്ന അക്ഷരം മറ്റുള്ളവയിൽ നിന്ന് വേറിട്ട അർത്ഥത്തിൽ ചേർത്ത് ഉപയോഗിച്ചിരിക്കുന്ന പദം ഏത്?",
+      "options": [
+        "അധർമ്മം",
+        "അനുജൻ",
+        "അശാന്തി",
+        "അജ്ഞാതം"
+      ],
+      "hint": "In three words 'അ' means 'not'.",
+      "explanation": "In അധർമ്മം, അശാന്തി, അജ്ഞാതം, 'അ' means 'not'. In അനുജൻ (younger brother) it does not."
+    },
+    "ml": {
+      "question": "'അ' എന്ന അക്ഷരം മറ്റുള്ളവയിൽ നിന്ന് വേറിട്ട അർത്ഥത്തിൽ ചേർത്ത് ഉപയോഗിച്ചിരിക്കുന്ന പദം ഏത്?",
+      "options": [
+        "അധർമ്മം",
+        "അനുജൻ",
+        "അശാന്തി",
+        "അജ്ഞാതം"
+      ],
+      "hint": "മൂന്നിടത്ത് 'അ' 'അല്ലാത്ത' എന്ന അർത്ഥം നൽകുന്നു.",
+      "explanation": "അധർമ്മം, അശാന്തി, അജ്ഞാതം – ഇവിടെ 'അ' നിഷേധാർത്ഥം. അനുജനിൽ അങ്ങനെയല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q25 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-26",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "നാട്ടുഭാഷാ രൂപവും അർത്ഥവും – ശരിയല്ലാത്ത ജോഡി ഏത്?",
+      "options": [
+        "റങ്കിയ കാട് – ഉറങ്ങിയ കാട്",
+        "ഒരി വാസ – ഒരു ഭാഷ",
+        "മണ ഇണ്ട് – മനസ്സുണ്ട്",
+        "വീന്ത് മുളച്ച – വീണ് മുളച്ച"
+      ],
+      "hint": "Look closely at what \"മണ\" means.",
+      "explanation": "According to the key, \"മണ ഇണ്ട് – മനസ്സുണ്ട്\" is the pair that does not match."
+    },
+    "ml": {
+      "question": "നാട്ടുഭാഷാ രൂപവും അർത്ഥവും – ശരിയല്ലാത്ത ജോഡി ഏത്?",
+      "options": [
+        "റങ്കിയ കാട് – ഉറങ്ങിയ കാട്",
+        "ഒരി വാസ – ഒരു ഭാഷ",
+        "മണ ഇണ്ട് – മനസ്സുണ്ട്",
+        "വീന്ത് മുളച്ച – വീണ് മുളച്ച"
+      ],
+      "hint": "'മണ' എന്നതിന്റെ അർത്ഥം ശ്രദ്ധിക്കൂ.",
+      "explanation": "ഉത്തരസൂചിക പ്രകാരം 'മണ ഇണ്ട് – മനസ്സുണ്ട്' ആണ് ചേരാത്ത ജോഡി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q26 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-27",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "ചെറുവയൽ രാമൻ എന്ന കർഷകനെ തേടിയെത്തിയ ദേശീയ പുരസ്കാരം ഏത്?",
+      "options": [
+        "പത്മശ്രീ",
+        "കീർത്തിചക്ര",
+        "പത്മഭൂഷൺ",
+        "ദ്രോണാചാര്യ"
+      ],
+      "hint": "A civilian award given in 2023 to a Wayanad farmer who saves traditional rice seeds.",
+      "explanation": "Cheruvayal Raman, who preserves traditional paddy seeds in Wayanad, received the Padma Shri in 2023."
+    },
+    "ml": {
+      "question": "ചെറുവയൽ രാമൻ എന്ന കർഷകനെ തേടിയെത്തിയ ദേശീയ പുരസ്കാരം ഏത്?",
+      "options": [
+        "പത്മശ്രീ",
+        "കീർത്തിചക്ര",
+        "പത്മഭൂഷൺ",
+        "ദ്രോണാചാര്യ"
+      ],
+      "hint": "നാടൻ നെൽവിത്തുകൾ സംരക്ഷിക്കുന്ന വയനാട്ടിലെ കർഷകന് 2023-ൽ ലഭിച്ചു.",
+      "explanation": "നാടൻ നെൽവിത്തുകൾ സംരക്ഷിക്കുന്ന ചെറുവയൽ രാമന് 2023-ൽ പത്മശ്രീ ലഭിച്ചു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q27 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-28",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "'പർവ്വതം' എന്ന പദത്തിന് സമാനമല്ലാത്തത് ഏത്?",
+      "options": [
+        "ഗിരി",
+        "അചലം",
+        "അദ്രി",
+        "ആഴി"
+      ],
+      "hint": "One word means the sea.",
+      "explanation": "ഗിരി, അചലം, അദ്രി all mean mountain. ആഴി means sea."
+    },
+    "ml": {
+      "question": "'പർവ്വതം' എന്ന പദത്തിന് സമാനമല്ലാത്തത് ഏത്?",
+      "options": [
+        "ഗിരി",
+        "അചലം",
+        "അദ്രി",
+        "ആഴി"
+      ],
+      "hint": "ഒരു വാക്കിന് കടൽ എന്നാണ് അർത്ഥം.",
+      "explanation": "ഗിരി, അചലം, അദ്രി എന്നിവ പർവ്വതത്തിന്റെ പര്യായങ്ങൾ. ആഴി എന്നാൽ കടൽ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q28 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAL-30",
+    "subject": "malayalam",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "വിപ്ലവകവി എന്ന് അറിയപ്പെടുന്നത് ആര്?",
+      "options": [
+        "കാവാലം നാരായണപ്പണിക്കർ",
+        "വയലാർ രാമവർമ്മ",
+        "അക്കിത്തം",
+        "ഇടശ്ശേരി ഗോവിന്ദൻ നായർ"
+      ],
+      "hint": "He also wrote many film songs.",
+      "explanation": "Vayalar Ramavarma is known as the revolutionary poet (viplava kavi)."
+    },
+    "ml": {
+      "question": "വിപ്ലവകവി എന്ന് അറിയപ്പെടുന്നത് ആര്?",
+      "options": [
+        "കാവാലം നാരായണപ്പണിക്കർ",
+        "വയലാർ രാമവർമ്മ",
+        "അക്കിത്തം",
+        "ഇടശ്ശേരി ഗോവിന്ദൻ നായർ"
+      ],
+      "hint": "ധാരാളം സിനിമാഗാനങ്ങളും എഴുതി.",
+      "explanation": "വിപ്ലവകവി എന്നറിയപ്പെടുന്നത് വയലാർ രാമവർമ്മയാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q30 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-32",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "Which of these is equal to 2⁹⁸ + 2⁹⁸ + 2⁹⁸ + 2⁹⁸?",
+      "options": [
+        "2⁹⁹",
+        "2¹⁰⁰",
+        "8⁹⁸",
+        "2³⁹²"
+      ],
+      "hint": "Four of the same thing is 4 × 2⁹⁸, and 4 = 2².",
+      "explanation": "4 × 2⁹⁸ = 2² × 2⁹⁸ = 2¹⁰⁰."
+    },
+    "ml": {
+      "question": "2⁹⁸ + 2⁹⁸ + 2⁹⁸ + 2⁹⁸ ന് തുല്യമായത് ഏത്?",
+      "options": [
+        "2⁹⁹",
+        "2¹⁰⁰",
+        "8⁹⁸",
+        "2³⁹²"
+      ],
+      "hint": "ഒരേ സംഖ്യ നാലു തവണ = 4 × 2⁹⁸; 4 = 2².",
+      "explanation": "4 × 2⁹⁸ = 2² × 2⁹⁸ = 2¹⁰⁰."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q32 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-33",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "en": {
+      "question": "Look at these statements:\ni. The square of a prime number has only 2 factors.\nii. The number of factors of a power of a prime is one more than its exponent.\niii. The product of two different primes has 4 factors.\niv. The product of three different primes has 8 factors.",
+      "options": [
+        "only i and ii are correct",
+        "only ii and iv are correct",
+        "only ii, iii and iv are correct",
+        "only ii and iii are correct"
+      ],
+      "hint": "Try 9 = 3²: its factors are 1, 3, 9.",
+      "explanation": "3² has 3 factors, so i is wrong. ii is right (p³ has 4 factors). 2 × 3 = 6 has 4 factors (iii). 2 × 3 × 5 = 30 has 8 factors (iv)."
+    },
+    "ml": {
+      "question": "ഈ പ്രസ്താവനകൾ നോക്കൂ:\ni. ഒരു അഭാജ്യസംഖ്യയുടെ വർഗ്ഗത്തിന് 2 ഘടകങ്ങളേ ഉള്ളൂ.\nii. ഒരു അഭാജ്യസംഖ്യയുടെ കൃതിയായി എഴുതാവുന്ന സംഖ്യയുടെ ഘടകങ്ങളുടെ എണ്ണം കൃത്യങ്കത്തേക്കാൾ ഒന്നു കൂടുതലാണ്.\niii. 2 വ്യത്യസ്ത അഭാജ്യസംഖ്യകളുടെ ഗുണനഫലത്തിന് 4 ഘടകങ്ങളുണ്ട്.\niv. 3 വ്യത്യസ്ത അഭാജ്യസംഖ്യകളുടെ ഗുണനഫലത്തിന് 8 ഘടകങ്ങളുണ്ട്.",
+      "options": [
+        "i, ii മാത്രം ശരി",
+        "ii, iv മാത്രം ശരി",
+        "ii, iii, iv മാത്രം ശരി",
+        "ii, iii മാത്രം ശരി"
+      ],
+      "hint": "9 = 3² എടുത്തുനോക്കൂ: ഘടകങ്ങൾ 1, 3, 9.",
+      "explanation": "3²-ന് 3 ഘടകങ്ങളുണ്ട്; i തെറ്റ്. ii ശരി (p³-ന് 4 ഘടകങ്ങൾ). 2 × 3 = 6-ന് 4 ഘടകങ്ങൾ (iii). 2 × 3 × 5 = 30-ന് 8 ഘടകങ്ങൾ (iv)."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q33 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-34",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Two sides of some right triangles are given in column A. Match each with the third side in column B.\n1) 3, 4   2) 24, 25   3) 5, 12   4) 10, 6\na) 7   b) 5   c) 8   d) 13",
+      "options": [
+        "1-b, 2-d, 3-c, 4-a",
+        "1-b, 2-a, 3-c, 4-d",
+        "1-b, 2-a, 3-d, 4-c",
+        "1-b, 2-c, 3-a, 4-d"
+      ],
+      "hint": "Remember the triples 3-4-5, 5-12-13, 6-8-10, 7-24-25.",
+      "explanation": "3,4 → 5; 24,25 → 7; 5,12 → 13; 10,6 → 8. So 1-b, 2-a, 3-d, 4-c."
+    },
+    "ml": {
+      "question": "ചില മട്ടത്രികോണങ്ങളുടെ രണ്ട് വശങ്ങൾ A കോളത്തിലും മൂന്നാമത്തെ വശം B കോളത്തിലും. ശരിയായി യോജിപ്പിക്കുക.\n1) 3, 4   2) 24, 25   3) 5, 12   4) 10, 6\na) 7   b) 5   c) 8   d) 13",
+      "options": [
+        "1-b, 2-d, 3-c, 4-a",
+        "1-b, 2-a, 3-c, 4-d",
+        "1-b, 2-a, 3-d, 4-c",
+        "1-b, 2-c, 3-a, 4-d"
+      ],
+      "hint": "3-4-5, 5-12-13, 6-8-10, 7-24-25 എന്നീ ത്രയങ്ങൾ ഓർക്കൂ.",
+      "explanation": "3,4 → 5; 24,25 → 7; 5,12 → 13; 10,6 → 8. അതിനാൽ 1-b, 2-a, 3-d, 4-c."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q34 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-36",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "15 ÷ 3 + 4 × 2 – 1 = ?",
+      "options": [
+        "13",
+        "12",
+        "11",
+        "10"
+      ],
+      "hint": "Do ÷ and × first, then + and −.",
+      "explanation": "15 ÷ 3 = 5, 4 × 2 = 8, so 5 + 8 − 1 = 12."
+    },
+    "ml": {
+      "question": "15 ÷ 3 + 4 × 2 – 1 = ?",
+      "options": [
+        "13",
+        "12",
+        "11",
+        "10"
+      ],
+      "hint": "ആദ്യം ÷, ×; പിന്നെ +, −.",
+      "explanation": "15 ÷ 3 = 5, 4 × 2 = 8; 5 + 8 − 1 = 12."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q36 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-37",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "What is the ones digit of 2²⁰⁷⁸?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "hint": "The ones digits of powers of 2 repeat: 2, 4, 8, 6.",
+      "explanation": "2078 ÷ 4 leaves remainder 2, so the ones digit is the 2nd in the cycle 2, 4, 8, 6, which is 4."
+    },
+    "ml": {
+      "question": "2²⁰⁷⁸ ന്റെ ഒന്നിന്റെ സ്ഥാനത്തെ അക്കം ഏത്?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "hint": "2-ന്റെ കൃതികളുടെ ഒന്നിന്റെ സ്ഥാനം 2, 4, 8, 6 എന്ന് ആവർത്തിക്കുന്നു.",
+      "explanation": "2078-നെ 4 കൊണ്ട് ഹരിച്ചാൽ ശിഷ്ടം 2. അതിനാൽ ചക്രത്തിലെ രണ്ടാമത്തേത്, 4."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q37 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-38",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "10² – 9² + 8² – 7² + … + 2² – 1² = ?",
+      "options": [
+        "0",
+        "55",
+        "100",
+        "105"
+      ],
+      "hint": "a² − b² = (a + b)(a − b). Here a − b = 1.",
+      "explanation": "10² − 9² = 19, 8² − 7² = 15, … 2² − 1² = 3. 19 + 15 + 11 + 7 + 3 = 55 (the same as 1 + 2 + … + 10)."
+    },
+    "ml": {
+      "question": "10² – 9² + 8² – 7² + … + 2² – 1² = ?",
+      "options": [
+        "0",
+        "55",
+        "100",
+        "105"
+      ],
+      "hint": "a² − b² = (a + b)(a − b). ഇവിടെ a − b = 1.",
+      "explanation": "10² − 9² = 19, 8² − 7² = 15, … 2² − 1² = 3. 19 + 15 + 11 + 7 + 3 = 55 (1 + 2 + … + 10 ന് തുല്യം)."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q38 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-39",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Find the average of the odd numbers 1, 3, 5, 7, …, 997, 999.",
+      "options": [
+        "500",
+        "501",
+        "499",
+        "100"
+      ],
+      "hint": "Pair the first and last numbers.",
+      "explanation": "The numbers go up evenly, so the average is (first + last) ÷ 2 = (1 + 999) ÷ 2 = 500."
+    },
+    "ml": {
+      "question": "1, 3, 5, 7, …, 997, 999 എന്നീ ഒറ്റസംഖ്യകളുടെ ശരാശരി എത്ര?",
+      "options": [
+        "500",
+        "501",
+        "499",
+        "100"
+      ],
+      "hint": "ആദ്യത്തെയും അവസാനത്തെയും സംഖ്യകൾ ജോഡിയാക്കൂ.",
+      "explanation": "ഒരേ വ്യത്യാസത്തിൽ കൂടുന്ന സംഖ്യകളുടെ ശരാശരി = (ആദ്യം + അവസാനം) ÷ 2 = (1 + 999) ÷ 2 = 500."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q39 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-40",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "en": {
+      "question": "Which of these numbers has 49 factors?",
+      "options": [
+        "12³",
+        "2⁷ × 3⁷",
+        "4⁸ × 3⁶",
+        "36³"
+      ],
+      "hint": "49 = 7 × 7, so the number must look like p⁶ × q⁶.",
+      "explanation": "36³ = (2² × 3²)³ = 2⁶ × 3⁶, which has (6 + 1)(6 + 1) = 49 factors."
+    },
+    "ml": {
+      "question": "താഴെ കൊടുത്തവയിൽ 49 ഘടകങ്ങളുള്ള സംഖ്യ ഏത്?",
+      "options": [
+        "12³",
+        "2⁷ × 3⁷",
+        "4⁸ × 3⁶",
+        "36³"
+      ],
+      "hint": "49 = 7 × 7; അതിനാൽ സംഖ്യ p⁶ × q⁶ രൂപത്തിലാകണം.",
+      "explanation": "36³ = (2² × 3²)³ = 2⁶ × 3⁶; ഘടകങ്ങളുടെ എണ്ണം (6 + 1)(6 + 1) = 49."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q40 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-41",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "Which of these is equal to 1.37 × 5.7?",
+      "options": [
+        "0.137 × 5.7",
+        "137 × 0.057",
+        "0.137 × 0.57",
+        "1.37 × 57"
+      ],
+      "hint": "If one number is multiplied by 100, the other must be divided by 100.",
+      "explanation": "1.37 × 100 = 137 and 5.7 ÷ 100 = 0.057, so 137 × 0.057 = 1.37 × 5.7."
+    },
+    "ml": {
+      "question": "1.37 × 5.7 ന് തുല്യമായത് ഏത്?",
+      "options": [
+        "0.137 × 5.7",
+        "137 × 0.057",
+        "0.137 × 0.57",
+        "1.37 × 57"
+      ],
+      "hint": "ഒരു സംഖ്യയെ 100 കൊണ്ട് ഗുണിച്ചാൽ മറ്റേതിനെ 100 കൊണ്ട് ഹരിക്കണം.",
+      "explanation": "1.37 × 100 = 137, 5.7 ÷ 100 = 0.057. അതിനാൽ 137 × 0.057 = 1.37 × 5.7."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q41 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-42",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "2½ glasses of water fill a large bottle and 1½ glasses fill a small bottle. What is the ratio of the capacity of the large bottle to the small bottle?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "5 : 3",
+        "3 : 5"
+      ],
+      "hint": "Double both numbers to remove the halves.",
+      "explanation": "2½ : 1½ = 5/2 : 3/2 = 5 : 3."
+    },
+    "ml": {
+      "question": "ഒരു വലിയ കുപ്പി നിറയ്ക്കാൻ 2½ ഗ്ലാസ് വെള്ളവും ചെറിയ കുപ്പി നിറയ്ക്കാൻ 1½ ഗ്ലാസ് വെള്ളവും വേണം. വലിയ കുപ്പിയുടെയും ചെറിയ കുപ്പിയുടെയും ഉള്ളളവുകളുടെ അംശബന്ധം എത്ര?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "5 : 3",
+        "3 : 5"
+      ],
+      "hint": "രണ്ടിനെയും 2 കൊണ്ട് ഗുണിച്ച് പകുതികൾ ഒഴിവാക്കൂ.",
+      "explanation": "2½ : 1½ = 5/2 : 3/2 = 5 : 3."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q42 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-43",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "How many rectangles of length ¾ m and breadth ½ m can be cut from a rectangle of length 4½ m and breadth 1½ m?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
+      "hint": "See how many fit along the length and along the breadth.",
+      "explanation": "Along the length: 4½ ÷ ¾ = 6. Along the breadth: 1½ ÷ ½ = 3. 6 × 3 = 18."
+    },
+    "ml": {
+      "question": "4½ മീറ്റർ നീളവും 1½ മീറ്റർ വീതിയുമുള്ള ഒരു ചതുരത്തിൽ നിന്ന് ¾ മീറ്റർ നീളവും ½ മീറ്റർ വീതിയുമുള്ള എത്ര ചതുരങ്ങൾ മുറിച്ചെടുക്കാം?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "18"
+      ],
+      "hint": "നീളത്തിലും വീതിയിലും എത്രയെണ്ണം കൊള്ളുമെന്ന് നോക്കൂ.",
+      "explanation": "നീളത്തിൽ 4½ ÷ ¾ = 6, വീതിയിൽ 1½ ÷ ½ = 3. 6 × 3 = 18."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q43 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-44",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "A tank is ⅗ full. When 60 litres more are added, it is completely full. How many litres does the tank hold?",
+      "options": [
+        "150 litres",
+        "100 litres",
+        "500 litres",
+        "250 litres"
+      ],
+      "hint": "The empty part is ⅖ of the tank.",
+      "explanation": "⅖ of the tank = 60 litres, so ⅕ = 30 litres and the whole tank = 150 litres."
+    },
+    "ml": {
+      "question": "ഒരു ടാങ്കിന്റെ ⅗ ഭാഗം നിറഞ്ഞിരിക്കുന്നു. 60 ലിറ്റർ വെള്ളം കൂടി ഒഴിച്ചപ്പോൾ ടാങ്ക് നിറഞ്ഞു. ടാങ്കിൽ ആകെ എത്ര ലിറ്റർ വെള്ളം കൊള്ളും?",
+      "options": [
+        "150 ലിറ്റർ",
+        "100 ലിറ്റർ",
+        "500 ലിറ്റർ",
+        "250 ലിറ്റർ"
+      ],
+      "hint": "ഒഴിഞ്ഞ ഭാഗം ടാങ്കിന്റെ ⅖ ആണ്.",
+      "explanation": "⅖ ഭാഗം = 60 ലിറ്റർ; ⅕ = 30 ലിറ്റർ; മുഴുവൻ = 150 ലിറ്റർ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q44 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-45",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "If 12ˣ⁻⁴ = 1, what is x?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "5"
+      ],
+      "hint": "Any number (except 0) to the power 0 is 1.",
+      "explanation": "For 12ˣ⁻⁴ = 1, the power must be 0: x − 4 = 0, so x = 4."
+    },
+    "ml": {
+      "question": "12ˣ⁻⁴ = 1 ആയാൽ x ന്റെ വില എത്ര?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "5"
+      ],
+      "hint": "ഏത് സംഖ്യയുടെയും (0 ഒഴികെ) കൃതി 0 ആയാൽ ഫലം 1.",
+      "explanation": "12ˣ⁻⁴ = 1 ആകാൻ കൃത്യങ്കം 0 ആകണം: x − 4 = 0, x = 4."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q45 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-46",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "A",
+    "en": {
+      "question": "What is the ones digit of 1 + 6 + 6² + 6³ + … + 6¹⁰⁰?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hint": "Every power of 6 ends in 6.",
+      "explanation": "There are 100 powers of 6, each ending in 6: 100 × 6 = 600 ends in 0. Adding 1 gives a ones digit of 1."
+    },
+    "ml": {
+      "question": "1 + 6 + 6² + 6³ + … + 6¹⁰⁰ എന്ന തുകയുടെ ഒന്നിന്റെ സ്ഥാനത്തെ അക്കം എത്ര?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hint": "6-ന്റെ എല്ലാ കൃതികളും 6-ൽ അവസാനിക്കുന്നു.",
+      "explanation": "6-ന്റെ 100 കൃതികൾ, ഓരോന്നും 6-ൽ അവസാനിക്കുന്നു: 100 × 6 = 600 (അവസാനം 0). 1 കൂട്ടിയാൽ ഒന്നിന്റെ സ്ഥാനം 1."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q46 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-47",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Two sides of a triangle are 4 cm and 6 cm. What is the largest whole number of centimetres the third side can be?",
+      "options": [
+        "8 cm",
+        "6 cm",
+        "9 cm",
+        "11 cm"
+      ],
+      "hint": "Any two sides together must be longer than the third side.",
+      "explanation": "The third side must be less than 4 + 6 = 10 cm, so the largest whole number is 9 cm."
+    },
+    "ml": {
+      "question": "ഒരു ത്രികോണത്തിന്റെ 2 വശങ്ങൾ 4 സെ.മീ., 6 സെ.മീ. ആണ്. മൂന്നാമത്തെ വശമാകാൻ സാധ്യതയുള്ള ഏറ്റവും വലിയ എണ്ണൽസംഖ്യ ഏത്?",
+      "options": [
+        "8 സെ.മീ.",
+        "6 സെ.മീ.",
+        "9 സെ.മീ.",
+        "11 സെ.മീ."
+      ],
+      "hint": "ഏതു രണ്ടു വശങ്ങളുടെയും തുക മൂന്നാമത്തേതിനേക്കാൾ കൂടുതലാകണം.",
+      "explanation": "മൂന്നാമത്തെ വശം 4 + 6 = 10 സെ.മീ.-ൽ കുറവാകണം. ഏറ്റവും വലിയ എണ്ണൽസംഖ്യ 9."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q47 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-49",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "A worker's salary is cut by 10% and then increased by 10%. What is the change now?",
+      "options": [
+        "No change",
+        "Increased by 1%",
+        "Decreased by 1%",
+        "Increased by 10%"
+      ],
+      "hint": "Try it with a salary of 100.",
+      "explanation": "100 − 10% = 90; 90 + 10% of 90 = 90 + 9 = 99. So it is 1% less."
+    },
+    "ml": {
+      "question": "ഒരു ജോലിക്കാരന്റെ ശമ്പളം 10% കുറച്ചശേഷം 10% കൂട്ടുന്നു. ഇപ്പോൾ ശമ്പളത്തിലെ മാറ്റം എന്ത്?",
+      "options": [
+        "മാറ്റമില്ല",
+        "1% കൂടും",
+        "1% കുറയും",
+        "10% കൂടും"
+      ],
+      "hint": "100 രൂപ ശമ്പളം എന്നെടുത്തു നോക്കൂ.",
+      "explanation": "100 − 10% = 90; 90 + 9 = 99. അതായത് 1% കുറവ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q49 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-MAT-50",
+    "subject": "maths",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "en": {
+      "question": "1024 has 11 factors. How many factors does 1024² have?",
+      "options": [
+        "13",
+        "21",
+        "22",
+        "121"
+      ],
+      "hint": "1024 = 2¹⁰.",
+      "explanation": "1024² = 2²⁰, which has 20 + 1 = 21 factors."
+    },
+    "ml": {
+      "question": "1024-ന് 11 ഘടകങ്ങളുണ്ട്. 1024²-ന് എത്ര ഘടകങ്ങളുണ്ട്?",
+      "options": [
+        "13",
+        "21",
+        "22",
+        "121"
+      ],
+      "hint": "1024 = 2¹⁰.",
+      "explanation": "1024² = 2²⁰; ഘടകങ്ങൾ 20 + 1 = 21."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 1, Q50 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-01",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\n\"The journey of a book begins long before it reaches the hands of a reader.\" Which statements explain this beginning?\nA. It starts with an idea.\nB. It is the outcome of research and imagination.\nC. The readers engage with the text and interpret it.\nD. The readers get the books from bookstores and libraries.",
+      "options": [
+        "A and D are correct",
+        "A, B and C are correct",
+        "B and C are correct",
+        "A and B are correct"
+      ],
+      "hint": "Which statements are about the start, before readers?",
+      "explanation": "The beginning is the idea (A), which comes from research and imagination (B). C and D happen at the end."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\n\"The journey of a book begins long before it reaches the hands of a reader.\" Which statements explain this beginning?\nA. It starts with an idea.\nB. It is the outcome of research and imagination.\nC. The readers engage with the text and interpret it.\nD. The readers get the books from bookstores and libraries.",
+      "options": [
+        "A and D are correct",
+        "A, B and C are correct",
+        "B and C are correct",
+        "A and B are correct"
+      ],
+      "hint": "വായനക്കാരിലെത്തുന്നതിന് മുമ്പുള്ള തുടക്കത്തെക്കുറിച്ചുള്ളവ ഏതൊക്കെ?",
+      "explanation": "തുടക്കം ഒരു ആശയമാണ് (A), അത് ഗവേഷണത്തിൽ നിന്നും ഭാവനയിൽ നിന്നും വരുന്നു (B). C, D അവസാനം നടക്കുന്നവ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q1 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-02",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhich is the first step of a book's journey?",
+      "options": [
+        "Publishing",
+        "Distribution",
+        "Marketing",
+        "Writing and revising"
+      ],
+      "hint": "What do authors do before sending it to publishers?",
+      "explanation": "First the author writes and revises the manuscript. Publishing, marketing and distribution come later."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhich is the first step of a book's journey?",
+      "options": [
+        "Publishing",
+        "Distribution",
+        "Marketing",
+        "Writing and revising"
+      ],
+      "hint": "പ്രസാധകർക്ക് അയയ്ക്കുന്നതിനു മുമ്പ് എഴുത്തുകാരൻ എന്ത് ചെയ്യുന്നു?",
+      "explanation": "ആദ്യം എഴുത്തും തിരുത്തലും. പ്രസിദ്ധീകരണവും വിപണനവും വിതരണവും പിന്നീട്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q2 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-03",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhat happens after a manuscript is accepted by a publisher?",
+      "options": [
+        "It is thrown away",
+        "It is ignored",
+        "It goes through a production process",
+        "It is published without changes"
+      ],
+      "hint": "Read the line beginning \"If accepted…\".",
+      "explanation": "The passage says: \"If accepted, the book goes through a production process.\""
+    },
+    "ml": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhat happens after a manuscript is accepted by a publisher?",
+      "options": [
+        "It is thrown away",
+        "It is ignored",
+        "It goes through a production process",
+        "It is published without changes"
+      ],
+      "hint": "\"If accepted…\" എന്ന് തുടങ്ങുന്ന വരി വായിക്കൂ.",
+      "explanation": "സ്വീകരിച്ചാൽ പുസ്തകം നിർമ്മാണപ്രക്രിയയിലൂടെ (production process) കടന്നുപോകുന്നു എന്ന് ഖണ്ഡികയിലുണ്ട്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q3 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-04",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhich are common strategies used to promote a book?\ni. Promoting the book through various channels\nii. Avoiding public events\niii. Social media campaigns\niv. Ignoring readers",
+      "options": [
+        "i and iii are correct",
+        "ii and iv are correct",
+        "i, ii and iv are correct",
+        "i, iii and iv are correct"
+      ],
+      "hint": "Promotion means reaching more readers, not avoiding them.",
+      "explanation": "Promoting through various channels (i) and social media campaigns (iii) are mentioned. Avoiding events and ignoring readers would not promote a book."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nWhich are common strategies used to promote a book?\ni. Promoting the book through various channels\nii. Avoiding public events\niii. Social media campaigns\niv. Ignoring readers",
+      "options": [
+        "i and iii are correct",
+        "ii and iv are correct",
+        "i, ii and iv are correct",
+        "i, iii and iv are correct"
+      ],
+      "hint": "പ്രചാരണം എന്നാൽ കൂടുതൽ വായനക്കാരിലെത്തുക.",
+      "explanation": "വിവിധ മാർഗങ്ങളിലൂടെയുള്ള പ്രചാരണവും (i) സോഷ്യൽ മീഡിയ കാമ്പെയ്‌നുകളും (iii) ഖണ്ഡികയിലുണ്ട്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q4 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-05",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nHow do readers contribute to the journey of a book?",
+      "options": [
+        "By disregarding the text",
+        "By interpreting its themes and sharing their thoughts",
+        "By keeping it to themselves",
+        "By not engaging with it"
+      ],
+      "hint": "Read the last part of the passage.",
+      "explanation": "Readers \"interpret its themes and share their thoughts with others\"."
+    },
+    "ml": {
+      "question": "Read the passage:\n\"The journey of a book begins long before it reaches the hands of a reader. It starts with an idea, often inspired by personal experiences, research or imagination. Authors spend countless hours writing, revising and editing their manuscripts to create a polished piece of work. Once completed, the manuscript is submitted to publishers who evaluate it for publication.\nIf accepted, the book goes through a production process that includes designing a cover, typesetting the text and printing. It is then promoted through various channels to attract readers. Book launches, author signings and social media campaigns are common strategies to generate buzz around new releases.\nFinally, the book finds its way to bookstores and libraries, where it can be discovered by readers. The journey does not end there: readers engage with the text, interpret its themes and share their thoughts with others. This interaction creates a dynamic relationship between the author, the book and the audience.\"\n\nHow do readers contribute to the journey of a book?",
+      "options": [
+        "By disregarding the text",
+        "By interpreting its themes and sharing their thoughts",
+        "By keeping it to themselves",
+        "By not engaging with it"
+      ],
+      "hint": "ഖണ്ഡികയുടെ അവസാനഭാഗം വായിക്കൂ.",
+      "explanation": "വായനക്കാർ ആശയങ്ങൾ വ്യാഖ്യാനിക്കുകയും ചിന്തകൾ മറ്റുള്ളവരുമായി പങ്കുവെക്കുകയും ചെയ്യുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q5 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-06",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhat is hope compared to in the poem?",
+      "options": [
+        "A bird",
+        "A tree",
+        "A river",
+        "A song"
+      ],
+      "hint": "It has feathers and it perches.",
+      "explanation": "Hope is \"the thing with feathers\" that perches and sings – a bird."
+    },
+    "ml": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhat is hope compared to in the poem?",
+      "options": [
+        "A bird",
+        "A tree",
+        "A river",
+        "A song"
+      ],
+      "hint": "അതിന് തൂവലുണ്ട്, അത് ചേക്കേറുന്നു.",
+      "explanation": "തൂവലുള്ള, ചേക്കേറി പാടുന്ന ഒന്ന് – ഒരു പക്ഷി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q6 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-07",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhat kind of storm is needed to 'abash' the little bird?",
+      "options": [
+        "A soft storm",
+        "A mild breeze",
+        "A sore (very strong) storm",
+        "A light rain"
+      ],
+      "hint": "Look at the line \"And sore must be the storm\".",
+      "explanation": "Only a very strong (\"sore\") storm could trouble the little bird of hope."
+    },
+    "ml": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhat kind of storm is needed to 'abash' the little bird?",
+      "options": [
+        "A soft storm",
+        "A mild breeze",
+        "A sore (very strong) storm",
+        "A light rain"
+      ],
+      "hint": "\"And sore must be the storm\" എന്ന വരി നോക്കൂ.",
+      "explanation": "വളരെ ശക്തമായ ഒരു കൊടുങ്കാറ്റിനു മാത്രമേ പ്രത്യാശയുടെ കിളിയെ തളർത്താനാവൂ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q7 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-08",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhere does the 'thing with feathers' perch, according to the poem?",
+      "options": [
+        "In the sky",
+        "In the heart",
+        "In the soul",
+        "In a tree"
+      ],
+      "hint": "Read the second line.",
+      "explanation": "\"That perches in the soul.\""
+    },
+    "ml": {
+      "question": "Read the poem (Emily Dickinson):\n\"Hope\" is the thing with feathers\nThat perches in the soul,\nAnd sings the tune without the words,\nAnd never stops at all,\nAnd sweetest in the gale is heard;\nAnd sore must be the storm\nThat could abash the little bird\nThat kept so many warm.\n\nWhere does the 'thing with feathers' perch, according to the poem?",
+      "options": [
+        "In the sky",
+        "In the heart",
+        "In the soul",
+        "In a tree"
+      ],
+      "hint": "രണ്ടാമത്തെ വരി വായിക്കൂ.",
+      "explanation": "\"That perches in the soul\" – ആത്മാവിൽ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q8 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-10",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Let's go for a movie, ______?",
+      "options": [
+        "shall we",
+        "will you",
+        "aren't us",
+        "won't us"
+      ],
+      "hint": "The tag for \"Let's…\" is always the same.",
+      "explanation": "Sentences beginning with \"Let's\" take the question tag \"shall we?\"."
+    },
+    "ml": {
+      "question": "Let's go for a movie, ______?",
+      "options": [
+        "shall we",
+        "will you",
+        "aren't us",
+        "won't us"
+      ],
+      "hint": "\"Let's…\" എന്ന് തുടങ്ങുന്ന വാക്യങ്ങൾക്ക് ഒരേ tag.",
+      "explanation": "\"Let's\" എന്ന് തുടങ്ങുന്ന വാക്യങ്ങൾക്ക് \"shall we?\" എന്ന question tag."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q10 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-11",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "'He's king of the swing.' This is an example of ______.",
+      "options": [
+        "Alliteration",
+        "Rhyme at the end of lines",
+        "Rhythm",
+        "Internal rhyme"
+      ],
+      "hint": "'king' and 'swing' are in the same line.",
+      "explanation": "'king' and 'swing' rhyme inside the same line, so it is internal rhyme."
+    },
+    "ml": {
+      "question": "'He's king of the swing.' This is an example of ______.",
+      "options": [
+        "Alliteration",
+        "Rhyme at the end of lines",
+        "Rhythm",
+        "Internal rhyme"
+      ],
+      "hint": "'king', 'swing' എന്നിവ ഒരേ വരിയിൽ.",
+      "explanation": "ഒരേ വരിക്കുള്ളിൽ 'king', 'swing' എന്നിവ പ്രാസത്തിൽ വരുന്നു: internal rhyme."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q11 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-12",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "I don't know what we'll do ______ the weekend. It depends ______ the weather.",
+      "options": [
+        "in, on",
+        "at, on",
+        "on, in",
+        "on, of"
+      ],
+      "hint": "We always say 'depends on'.",
+      "explanation": "'At the weekend' (British English) and 'depends on' the weather."
+    },
+    "ml": {
+      "question": "I don't know what we'll do ______ the weekend. It depends ______ the weather.",
+      "options": [
+        "in, on",
+        "at, on",
+        "on, in",
+        "on, of"
+      ],
+      "hint": "'depends on' എന്നാണ് പറയുക.",
+      "explanation": "'at the weekend', 'depends on the weather'."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q12 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-13",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "I usually ______ glasses while driving.",
+      "options": [
+        "wore",
+        "wears",
+        "wear",
+        "will wear"
+      ],
+      "hint": "'Usually' shows a habit, and the subject is 'I'.",
+      "explanation": "For habits we use the simple present: 'I usually wear glasses.'"
+    },
+    "ml": {
+      "question": "I usually ______ glasses while driving.",
+      "options": [
+        "wore",
+        "wears",
+        "wear",
+        "will wear"
+      ],
+      "hint": "'usually' ശീലം കാണിക്കുന്നു; കർത്താവ് 'I'.",
+      "explanation": "ശീലങ്ങൾക്ക് simple present: 'I usually wear glasses.'"
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q13 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-14",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "A ______ of steps.",
+      "options": [
+        "flight",
+        "heavy",
+        "group",
+        "pack"
+      ],
+      "hint": "A set of stairs going up from one floor to the next.",
+      "explanation": "'A flight of steps' is a set of stairs."
+    },
+    "ml": {
+      "question": "A ______ of steps.",
+      "options": [
+        "flight",
+        "heavy",
+        "group",
+        "pack"
+      ],
+      "hint": "ഒരു നിലയിൽ നിന്ന് അടുത്തതിലേക്കുള്ള പടികൾ.",
+      "explanation": "'A flight of steps' = ഒരു നിര പടികൾ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q14 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-ENG-15",
+    "subject": "english",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "'He gave up using sugar.' The meaning of 'gave up' is ______.",
+      "options": [
+        "used",
+        "stopped",
+        "rejected",
+        "continued"
+      ],
+      "hint": "He does not use sugar any more.",
+      "explanation": "'Give up' means to stop doing something."
+    },
+    "ml": {
+      "question": "'He gave up using sugar.' The meaning of 'gave up' is ______.",
+      "options": [
+        "used",
+        "stopped",
+        "rejected",
+        "continued"
+      ],
+      "hint": "അദ്ദേഹം ഇനി പഞ്ചസാര ഉപയോഗിക്കുന്നില്ല.",
+      "explanation": "'give up' = നിർത്തുക."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q15 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-16",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Find the odd one.",
+      "options": [
+        "Bone meal",
+        "Compost",
+        "Urea",
+        "Chicken manure"
+      ],
+      "hint": "Three come from living things.",
+      "explanation": "Bone meal, compost and chicken manure are organic. Urea is a chemical fertilizer."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "എല്ലുപൊടി",
+        "കമ്പോസ്റ്റ്",
+        "യൂറിയ",
+        "കോഴിവളം"
+      ],
+      "hint": "മൂന്നെണ്ണം ജൈവവസ്തുക്കളിൽ നിന്ന്.",
+      "explanation": "എല്ലുപൊടി, കമ്പോസ്റ്റ്, കോഴിവളം ജൈവവളങ്ങൾ. യൂറിയ രാസവളം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q16 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-17",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "From which part of ginger are new saplings formed?",
+      "options": [
+        "Root",
+        "Stem",
+        "Underground stem (rhizome)",
+        "Leaf"
+      ],
+      "hint": "The part of ginger we cook with.",
+      "explanation": "Ginger grows new plants from its underground stem, the rhizome."
+    },
+    "ml": {
+      "question": "ഇഞ്ചിയുടെ ഏത് ഭാഗത്തുനിന്നാണ് പുതിയ തൈകൾ ഉണ്ടാകുന്നത്?",
+      "options": [
+        "വേര്",
+        "തണ്ട്",
+        "ഭൂകാണ്ഡം",
+        "ഇല"
+      ],
+      "hint": "നാം കറിയിൽ ഉപയോഗിക്കുന്ന ഭാഗം.",
+      "explanation": "ഇഞ്ചിയുടെ ഭൂകാണ്ഡത്തിൽ നിന്നാണ് പുതിയ തൈകൾ ഉണ്ടാകുന്നത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q17 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-18",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which acid is in soda water?",
+      "options": [
+        "Phosphoric acid",
+        "Acetic acid",
+        "Carbonic acid",
+        "Sulphuric acid"
+      ],
+      "hint": "Soda water has carbon dioxide dissolved in it.",
+      "explanation": "Carbon dioxide dissolved in water forms carbonic acid."
+    },
+    "ml": {
+      "question": "സോഡാവെള്ളത്തിലുള്ള ആസിഡ് ഏത്?",
+      "options": [
+        "ഫോസ്ഫോറിക് ആസിഡ്",
+        "അസറ്റിക് ആസിഡ്",
+        "കാർബോണിക് ആസിഡ്",
+        "സൾഫ്യൂറിക് ആസിഡ്"
+      ],
+      "hint": "സോഡയിൽ കാർബൺ ഡൈ ഓക്സൈഡ് ലയിപ്പിച്ചിരിക്കുന്നു.",
+      "explanation": "കാർബൺ ഡൈ ഓക്സൈഡ് വെള്ളത്തിൽ ലയിച്ചാൽ കാർബോണിക് ആസിഡ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q18 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-19",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Why can we see the reflection of a tree in still water?",
+      "options": [
+        "Regular reflection",
+        "Diffused reflection",
+        "Lateral inversion",
+        "Dispersion"
+      ],
+      "hint": "Still water is smooth like a mirror.",
+      "explanation": "A smooth surface gives regular reflection, so a clear image forms."
+    },
+    "ml": {
+      "question": "കെട്ടിനിൽക്കുന്ന വെള്ളത്തിൽ ഒരു മരത്തിന്റെ പ്രതിബിംബം കാണാൻ കാരണം?",
+      "options": [
+        "ക്രമപ്രതിഫലനം",
+        "വിസരിത പ്രതിഫലനം",
+        "പാർശ്വിക വിപര്യയം",
+        "പ്രകീർണനം"
+      ],
+      "hint": "കെട്ടിനിൽക്കുന്ന വെള്ളം കണ്ണാടി പോലെ മിനുസമാണ്.",
+      "explanation": "മിനുസമുള്ള പ്രതലത്തിൽ ക്രമപ്രതിഫലനം നടന്ന് വ്യക്തമായ പ്രതിബിംബം ഉണ്ടാകുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q19 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-21",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which is not a part of the respiratory system?",
+      "options": [
+        "Capillary",
+        "Nostril",
+        "Trachea",
+        "Air sacs"
+      ],
+      "hint": "One is a tiny blood vessel.",
+      "explanation": "Nostrils, trachea and air sacs are breathing organs. Capillaries are blood vessels."
+    },
+    "ml": {
+      "question": "ശ്വസനവ്യവസ്ഥയുടെ ഭാഗമല്ലാത്തത് ഏത്?",
+      "options": [
+        "ലോമിക",
+        "നാസാരന്ധ്രം",
+        "ശ്വാസനാളം",
+        "വായു അറകൾ"
+      ],
+      "hint": "ഒരെണ്ണം ചെറിയ രക്തക്കുഴലാണ്.",
+      "explanation": "നാസാരന്ധ്രം, ശ്വാസനാളം, വായു അറകൾ ശ്വസനാവയവങ്ങൾ. ലോമികകൾ രക്തക്കുഴലുകളാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q21 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-23",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which microorganism is used in biological pest control?",
+      "options": [
+        "Trichoderma",
+        "Rhizobium",
+        "Azotobacter",
+        "Azolla"
+      ],
+      "hint": "The other three help add nitrogen to the soil.",
+      "explanation": "Trichoderma (a fungus) controls plant diseases. Rhizobium, Azotobacter and Azolla are biofertilizers."
+    },
+    "ml": {
+      "question": "ജൈവകീടനിയന്ത്രണത്തിൽ ഉപയോഗിക്കുന്ന സൂക്ഷ്മജീവി ഏത്?",
+      "options": [
+        "ട്രൈക്കോഡെർമ",
+        "റൈസോബിയം",
+        "അസറ്റോബാക്ടർ",
+        "അസോള"
+      ],
+      "hint": "മറ്റു മൂന്നും മണ്ണിൽ നൈട്രജൻ ചേർക്കാൻ സഹായിക്കുന്നവ.",
+      "explanation": "ട്രൈക്കോഡെർമ (ഒരു ഫംഗസ്) രോഗനിയന്ത്രണത്തിന്. റൈസോബിയം, അസറ്റോബാക്ടർ, അസോള ജീവാണുവളങ്ങൾ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q23 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-24",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "en": {
+      "question": "Which is the odd one?",
+      "options": [
+        "Heart",
+        "Arteries",
+        "Veins",
+        "Lungs"
+      ],
+      "hint": "Three belong to the circulatory system.",
+      "explanation": "Heart, arteries and veins circulate blood. Lungs are for breathing."
+    },
+    "ml": {
+      "question": "ഒറ്റപ്പെട്ടത് ഏത്?",
+      "options": [
+        "ഹൃദയം",
+        "ധമനികൾ",
+        "സിരകൾ",
+        "ശ്വാസകോശം"
+      ],
+      "hint": "മൂന്നെണ്ണം രക്തപര്യയനവ്യവസ്ഥയുടെ ഭാഗം.",
+      "explanation": "ഹൃദയം, ധമനികൾ, സിരകൾ രക്തപര്യയനത്തിന്. ശ്വാസകോശം ശ്വസനത്തിന്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q24 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-25",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "For which plant is serpentine layering (naga layering) effective?",
+      "options": [
+        "Sapota",
+        "Pumpkin",
+        "Jasmine",
+        "Cucumber"
+      ],
+      "hint": "A plant with long, bendable branches.",
+      "explanation": "Serpentine layering suits plants like jasmine with long flexible stems."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്ന ഏത് സസ്യത്തിലാണ് നാഗപ്പതിവയ്ക്കൽ ഫലപ്രദമാകുന്നത്?",
+      "options": [
+        "സപ്പോട്ട",
+        "മത്തൻ",
+        "മുല്ല",
+        "വെള്ളരി"
+      ],
+      "hint": "നീണ്ട വളയുന്ന ശാഖകളുള്ള ചെടി.",
+      "explanation": "മുല്ല പോലെ നീണ്ട വഴക്കമുള്ള തണ്ടുകളുള്ള ചെടികളിൽ നാഗപ്പതിവയ്ക്കൽ ഫലപ്രദം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q25 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-26",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which is not needed to complete an electric circuit?",
+      "options": [
+        "Fuse",
+        "Switch",
+        "Conductor (wire)",
+        "Both A and B"
+      ],
+      "hint": "A circuit only needs a source, a device and a closed path.",
+      "explanation": "A circuit works without a fuse or a switch (they add safety and control). So both A and B are not needed."
+    },
+    "ml": {
+      "question": "ഒരു സർക്യൂട്ട് പൂർത്തിയാക്കാൻ ആവശ്യമില്ലാത്ത ഘടകം ഏത്?",
+      "options": [
+        "ഫ്യൂസ്",
+        "സ്വിച്ച്",
+        "ചാലകം (കമ്പി)",
+        "A യും B യും"
+      ],
+      "hint": "സ്രോതസ്സും ഉപകരണവും അടഞ്ഞ പാതയും മാത്രം മതി.",
+      "explanation": "ഫ്യൂസും സ്വിച്ചുമില്ലാതെയും സർക്യൂട്ട് പ്രവർത്തിക്കും (അവ സുരക്ഷയ്ക്കും നിയന്ത്രണത്തിനും). അതിനാൽ A യും B യും."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q26 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-27",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "What is the angle between two adjacent mirrors in a kaleidoscope?",
+      "options": [
+        "90°",
+        "60°",
+        "30°",
+        "120°"
+      ],
+      "hint": "Three mirrors make a triangle with equal sides.",
+      "explanation": "A kaleidoscope has three mirrors forming an equilateral triangle, so the angle is 60°."
+    },
+    "ml": {
+      "question": "ഒരു കലൈഡോസ്കോപ്പിലെ അടുത്തടുത്ത രണ്ടു ദർപ്പണങ്ങൾ തമ്മിലുള്ള കോൺ എത്ര?",
+      "options": [
+        "90°",
+        "60°",
+        "30°",
+        "120°"
+      ],
+      "hint": "മൂന്ന് ദർപ്പണങ്ങൾ ചേർന്ന് സമഭുജത്രികോണം.",
+      "explanation": "കലൈഡോസ്കോപ്പിലെ മൂന്ന് ദർപ്പണങ്ങൾ സമഭുജത്രികോണമായതിനാൽ കോൺ 60°."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q27 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-28",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "What causes stars to have different colours?",
+      "options": [
+        "Size",
+        "Position",
+        "Temperature",
+        "Shape"
+      ],
+      "hint": "Think of a flame: blue is hotter than red.",
+      "explanation": "A star's colour depends on its temperature: blue stars are hottest, red ones cooler."
+    },
+    "ml": {
+      "question": "നക്ഷത്രങ്ങളുടെ നിറവ്യത്യാസത്തിന്റെ അടിസ്ഥാനം എന്ത്?",
+      "options": [
+        "വലുപ്പം",
+        "സ്ഥാനം",
+        "താപനില",
+        "ആകൃതി"
+      ],
+      "hint": "തീജ്വാലയിൽ നീല ചുവപ്പിനേക്കാൾ ചൂടുള്ളതാണ്.",
+      "explanation": "നക്ഷത്രത്തിന്റെ നിറം താപനിലയെ ആശ്രയിച്ചിരിക്കുന്നു: നീല ഏറ്റവും ചൂട്, ചുവപ്പ് കുറവ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q28 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-29",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which of these is NOT a greenhouse gas?",
+      "options": [
+        "Carbon monoxide",
+        "Carbon dioxide",
+        "Nitrous oxide",
+        "Methane"
+      ],
+      "hint": "Three of them trap heat in the atmosphere.",
+      "explanation": "Carbon dioxide, nitrous oxide and methane are greenhouse gases. Carbon monoxide is a poisonous gas but not a main greenhouse gas."
+    },
+    "ml": {
+      "question": "താഴെ പറയുന്നവയിൽ ഹരിതഗൃഹ വാതകമല്ലാത്തത് ഏത്?",
+      "options": [
+        "കാർബൺ മോണോക്സൈഡ്",
+        "കാർബൺ ഡൈ ഓക്സൈഡ്",
+        "നൈട്രസ് ഓക്സൈഡ്",
+        "മീഥേൻ"
+      ],
+      "hint": "മൂന്നെണ്ണം അന്തരീക്ഷത്തിൽ ചൂട് തടഞ്ഞുനിർത്തുന്നു.",
+      "explanation": "കാർബൺ ഡൈ ഓക്സൈഡ്, നൈട്രസ് ഓക്സൈഡ്, മീഥേൻ ഹരിതഗൃഹ വാതകങ്ങൾ. കാർബൺ മോണോക്സൈഡ് വിഷവാതകമാണ്, പ്രധാന ഹരിതഗൃഹ വാതകമല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q29 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SCI-30",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which gas released from air conditioners causes air pollution?",
+      "options": [
+        "CFC",
+        "CO",
+        "NO₂",
+        "SO₂"
+      ],
+      "hint": "It also damages the ozone layer.",
+      "explanation": "Chlorofluorocarbons (CFCs) from old ACs and fridges pollute the air and harm the ozone layer."
+    },
+    "ml": {
+      "question": "എയർ കണ്ടീഷണറുകളിൽ നിന്ന് പുറത്തുവരുന്നതും വായുമലിനീകരണത്തിന് കാരണമാകുന്നതുമായ വാതകം?",
+      "options": [
+        "CFC",
+        "CO",
+        "NO₂",
+        "SO₂"
+      ],
+      "hint": "ഓസോൺ പാളിക്കും ഇത് ദോഷം ചെയ്യുന്നു.",
+      "explanation": "പഴയ AC-കളിൽ നിന്നും ഫ്രിഡ്ജുകളിൽ നിന്നുമുള്ള CFC (ക്ലോറോഫ്ലൂറോ കാർബൺ) വായു മലിനമാക്കുകയും ഓസോൺ പാളിയെ നശിപ്പിക്കുകയും ചെയ്യുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q30 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-31",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Where did the Bhakti movement begin as a popular movement?",
+      "options": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "hint": "The land of the Alvars and Nayanars.",
+      "explanation": "The Bhakti movement began in Tamil Nadu with the Alvars and Nayanars."
+    },
+    "ml": {
+      "question": "ഭക്തിപ്രസ്ഥാനം ഒരു ജനകീയ പ്രസ്ഥാനമായി രൂപംകൊണ്ടത് എവിടെ?",
+      "options": [
+        "കേരളം",
+        "തമിഴ്നാട്",
+        "കർണാടക",
+        "ആന്ധ്രപ്രദേശ്"
+      ],
+      "hint": "ആഴ്വാർമാരുടെയും നായനാർമാരുടെയും നാട്.",
+      "explanation": "ആഴ്വാർമാരിലൂടെയും നായനാർമാരിലൂടെയും തമിഴ്നാട്ടിലാണ് ഭക്തിപ്രസ്ഥാനം തുടങ്ങിയത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q31 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-32",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which statement about Vijayanagara is NOT correct?",
+      "options": [
+        "Military commanders were called Amaranayakas",
+        "They had trade relations with China and Sri Lanka",
+        "Dhaka, Murshidabad and Agra were major cities",
+        "There were courts at various levels for justice"
+      ],
+      "hint": "These three cities are in the north and east.",
+      "explanation": "Dhaka, Murshidabad and Agra were Mughal-era cities, not Vijayanagara cities."
+    },
+    "ml": {
+      "question": "വിജയനഗരവുമായി ബന്ധപ്പെട്ട പ്രസ്താവനകളിൽ തെറ്റായത് ഏത്?",
+      "options": [
+        "സൈനികമേധാവികൾ അമരനായകർ എന്നറിയപ്പെട്ടു",
+        "ചൈന, ശ്രീലങ്ക എന്നീ രാജ്യങ്ങളുമായി വ്യാപാരബന്ധമുണ്ടായിരുന്നു",
+        "ധാക്ക, മുർഷിദാബാദ്, ആഗ്ര തുടങ്ങിയവ പ്രധാന നഗരങ്ങളായിരുന്നു",
+        "നീതിനിർവഹണത്തിനായി പല തലങ്ങളിൽ കോടതികളുണ്ടായിരുന്നു"
+      ],
+      "hint": "ഈ മൂന്ന് നഗരങ്ങളും വടക്കും കിഴക്കുമാണ്.",
+      "explanation": "ധാക്ക, മുർഷിദാബാദ്, ആഗ്ര മുഗൾകാല നഗരങ്ങളാണ്, വിജയനഗരത്തിലേതല്ല."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q32 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-33",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which amendment is called the \"Mini Constitution\"?",
+      "options": [
+        "42nd Amendment",
+        "44th Amendment",
+        "86th Amendment",
+        "100th Amendment"
+      ],
+      "hint": "Made in 1976; it changed the Preamble.",
+      "explanation": "The 42nd Amendment (1976) made so many changes that it is called the Mini Constitution."
+    },
+    "ml": {
+      "question": "ഏതു ഭേദഗതിയെയാണ് \"മിനി ഭരണഘടന\" എന്ന് വിളിക്കുന്നത്?",
+      "options": [
+        "42-ാം ഭേദഗതി",
+        "44-ാം ഭേദഗതി",
+        "86-ാം ഭേദഗതി",
+        "100-ാം ഭേദഗതി"
+      ],
+      "hint": "1976-ൽ; ആമുഖം മാറ്റി.",
+      "explanation": "1976-ലെ 42-ാം ഭേദഗതി വളരെയേറെ മാറ്റങ്ങൾ വരുത്തിയതിനാൽ മിനി ഭരണഘടന എന്നറിയപ്പെടുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q33 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-34",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Which social reformer gave the message 'Enlighten through education'?",
+      "options": [
+        "Chattampi Swamikal",
+        "Sree Narayana Guru",
+        "Ayya Vaikunda Swamikal",
+        "Pandit K. P. Karuppan"
+      ],
+      "hint": "The saint of Sivagiri.",
+      "explanation": "Sree Narayana Guru said \"Enlighten through education\"."
+    },
+    "ml": {
+      "question": "\"വിദ്യകൊണ്ട് പ്രബുദ്ധരാകുക\" എന്ന സന്ദേശം നൽകിയ സാമൂഹ്യപരിഷ്കർത്താവ് ആര്?",
+      "options": [
+        "ചട്ടമ്പിസ്വാമികൾ",
+        "ശ്രീനാരായണഗുരു",
+        "അയ്യാ വൈകുണ്ഠസ്വാമികൾ",
+        "പണ്ഡിറ്റ് കെ. പി. കറുപ്പൻ"
+      ],
+      "hint": "ശിവഗിരിയിലെ ഗുരു.",
+      "explanation": "ശ്രീനാരായണഗുരുവിന്റെ സന്ദേശമാണിത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q34 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-35",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Which Article of the Indian Constitution guarantees equality before the law?",
+      "options": [
+        "Article 14",
+        "Article 15",
+        "Article 10",
+        "Article 11"
+      ],
+      "hint": "The first article of the Right to Equality.",
+      "explanation": "Article 14 guarantees equality before the law and equal protection of the laws."
+    },
+    "ml": {
+      "question": "ഇന്ത്യൻ ഭരണഘടനയിൽ നിയമത്തിനു മുന്നിൽ തുല്യത ഉറപ്പുവരുത്തുന്ന അനുച്ഛേദം ഏത്?",
+      "options": [
+        "അനുച്ഛേദം 14",
+        "അനുച്ഛേദം 15",
+        "അനുച്ഛേദം 10",
+        "അനുച്ഛേദം 11"
+      ],
+      "hint": "സമത്വാവകാശത്തിലെ ആദ്യ അനുച്ഛേദം.",
+      "explanation": "അനുച്ഛേദം 14 നിയമത്തിനു മുന്നിൽ തുല്യത ഉറപ്പാക്കുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q35 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-36",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which Arab traveller wrote about the monsoon winds that change direction with the seasons?",
+      "options": [
+        "Al-Biruni",
+        "Abul Fazl",
+        "Abdur Razzaq",
+        "Al-Masudi"
+      ],
+      "hint": "A 10th-century traveller.",
+      "explanation": "Al-Masudi wrote about the monsoon winds changing direction with the seasons."
+    },
+    "ml": {
+      "question": "ഋതുഭേദങ്ങൾക്കനുസരിച്ച് ദിശമാറുന്ന മൺസൂൺ കാറ്റുകളെക്കുറിച്ച് എഴുതിയ അറബ് സഞ്ചാരി ആര്?",
+      "options": [
+        "അൽ ബിറൂനി",
+        "അബുൽ ഫസൽ",
+        "അബ്ദുർ റസാഖ്",
+        "അൽ മസൂദി"
+      ],
+      "hint": "പത്താം നൂറ്റാണ്ടിലെ സഞ്ചാരി.",
+      "explanation": "മൺസൂൺ കാറ്റുകളെക്കുറിച്ച് എഴുതിയത് അൽ മസൂദി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q36 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-37",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which statements about the troposphere are correct?\na. It is the lowest layer of the atmosphere.\nb. Its average height is about 50 km.\nc. Dust and water vapour are most abundant in it.\nd. The ozone layer is in it.",
+      "options": [
+        "a and c",
+        "b and d",
+        "a and d",
+        "c and d"
+      ],
+      "hint": "Ozone and the 50 km height belong to the next layer.",
+      "explanation": "The troposphere is the lowest layer with most dust and water vapour (a, c). The ozone layer and 50 km height belong to the stratosphere."
+    },
+    "ml": {
+      "question": "ട്രോപ്പോസ്ഫിയറുമായി യോജിക്കുന്ന പ്രസ്താവനകൾ ഏവ?\na. അന്തരീക്ഷത്തിന്റെ ഏറ്റവും താഴെയുള്ള പാളിയാണ്.\nb. ഭൗമോപരിതലത്തിൽ നിന്ന് 50 കി.മീ. വരെയാണ് ഉയരം.\nc. പൊടിപടലങ്ങളും ജലബാഷ്പവും ഏറ്റവും കൂടുതൽ ഈ പാളിയിലാണ്.\nd. ഓസോൺ പാളി ഈ പാളിയിലാണ്.",
+      "options": [
+        "a യും c യും",
+        "b യും d യും",
+        "a യും d യും",
+        "c യും d യും"
+      ],
+      "hint": "ഓസോണും 50 കി.മീ. ഉയരവും അടുത്ത പാളിയുടേതാണ്.",
+      "explanation": "ഏറ്റവും താഴത്തെ പാളിയായ ട്രോപ്പോസ്ഫിയറിലാണ് പൊടിയും ജലബാഷ്പവും കൂടുതൽ (a, c). ഓസോണും 50 കി.മീ.-ഉം സ്ട്രാറ്റോസ്ഫിയറിന്റേത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q37 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-38",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "en": {
+      "question": "Identify the farming method:\n1. Profit is not the main aim.\n2. Traditional farm tools are used.",
+      "options": [
+        "Subsistence farming",
+        "Mixed farming",
+        "Commercial farming",
+        "Plantation farming"
+      ],
+      "hint": "Farming just for the family.",
+      "explanation": "Subsistence farming uses traditional tools and grows food mainly for the family, not for profit."
+    },
+    "ml": {
+      "question": "സൂചനകളിൽ നിന്ന് കൃഷിരീതി തിരിച്ചറിയുക:\n1. ലാഭം നേടുക എന്നതല്ല ലക്ഷ്യം.\n2. പരമ്പരാഗത കൃഷി ഉപകരണങ്ങൾ ഉപയോഗിക്കുന്നു.",
+      "options": [
+        "ഉപജീവന കൃഷി",
+        "സമ്മിശ്ര കൃഷി",
+        "വാണിജ്യ കൃഷി",
+        "തോട്ടവിള കൃഷി"
+      ],
+      "hint": "കുടുംബത്തിനു വേണ്ടി മാത്രമുള്ള കൃഷി.",
+      "explanation": "പരമ്പരാഗത ഉപകരണങ്ങൾ ഉപയോഗിച്ച്, ലാഭത്തിനല്ലാതെ കുടുംബത്തിനായി ചെയ്യുന്നത് ഉപജീവന കൃഷി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q38 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-39",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "Who is the father of the Green Revolution in India?",
+      "options": [
+        "Norman Borlaug",
+        "Dr M. S. Swaminathan",
+        "Mahatma Gandhi",
+        "Ayyankali"
+      ],
+      "hint": "An Indian scientist (Borlaug is the father of the world Green Revolution).",
+      "explanation": "Dr M. S. Swaminathan led the Green Revolution in India."
+    },
+    "ml": {
+      "question": "ഇന്ത്യൻ ഹരിതവിപ്ലവത്തിന്റെ പിതാവ് ആര്?",
+      "options": [
+        "നോർമൻ ബോർലോഗ്",
+        "ഡോ. എം. എസ്. സ്വാമിനാഥൻ",
+        "മഹാത്മാഗാന്ധി",
+        "അയ്യങ്കാളി"
+      ],
+      "hint": "ഒരു ഇന്ത്യൻ ശാസ്ത്രജ്ഞൻ (ബോർലോഗ് ലോക ഹരിതവിപ്ലവത്തിന്റെ പിതാവ്).",
+      "explanation": "ഇന്ത്യയിൽ ഹരിതവിപ്ലവത്തിന് നേതൃത്വം നൽകിയത് ഡോ. എം. എസ്. സ്വാമിനാഥൻ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q39 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-40",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Which period is a financial year in India?",
+      "options": [
+        "1 February to 31 March",
+        "29 January to 1 April",
+        "1 April to 31 March",
+        "1 March to 31 March"
+      ],
+      "hint": "It starts in April.",
+      "explanation": "India's financial year runs from 1 April to 31 March."
+    },
+    "ml": {
+      "question": "ഇന്ത്യയിൽ സാമ്പത്തിക വർഷം ഏത്?",
+      "options": [
+        "ഫെബ്രുവരി 1 മുതൽ മാർച്ച് 31 വരെ",
+        "ജനുവരി 29 മുതൽ ഏപ്രിൽ 1 വരെ",
+        "ഏപ്രിൽ 1 മുതൽ മാർച്ച് 31 വരെ",
+        "മാർച്ച് 1 മുതൽ 31 വരെ"
+      ],
+      "hint": "ഏപ്രിലിൽ തുടങ്ങുന്നു.",
+      "explanation": "സാമ്പത്തിക വർഷം ഏപ്രിൽ 1 മുതൽ മാർച്ച് 31 വരെ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q40 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-41",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "Which state first introduced Panchayati Raj?",
+      "options": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Rajasthan",
+        "West Bengal"
+      ],
+      "hint": "Nehru inaugurated it at Nagaur in 1959.",
+      "explanation": "Panchayati Raj started first in Rajasthan (Nagaur, 2 October 1959)."
+    },
+    "ml": {
+      "question": "പഞ്ചായത്തീരാജ് സംവിധാനം ആദ്യം നിലവിൽ വന്ന സംസ്ഥാനം ഏത്?",
+      "options": [
+        "ആന്ധ്രപ്രദേശ്",
+        "തമിഴ്നാട്",
+        "രാജസ്ഥാൻ",
+        "പശ്ചിമബംഗാൾ"
+      ],
+      "hint": "1959-ൽ നാഗൗറിൽ നെഹ്റു ഉദ്ഘാടനം ചെയ്തു.",
+      "explanation": "1959 ഒക്ടോബർ 2-ന് രാജസ്ഥാനിലെ നാഗൗറിലാണ് പഞ്ചായത്തീരാജ് ആദ്യം തുടങ്ങിയത്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q41 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-42",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "en": {
+      "question": "Which is not shown on a physical map?",
+      "options": [
+        "Landforms",
+        "Soil",
+        "Climate",
+        "Roads"
+      ],
+      "hint": "Physical maps show natural features.",
+      "explanation": "Physical maps show natural features like landforms, soil and climate. Roads are man-made and appear on other maps."
+    },
+    "ml": {
+      "question": "ഭൗതിക ഭൂപടങ്ങളിൽ ഉൾപ്പെടാത്തത് ഏത്?",
+      "options": [
+        "ഭൂപ്രകൃതി",
+        "മണ്ണ്",
+        "കാലാവസ്ഥ",
+        "റോഡുകൾ"
+      ],
+      "hint": "ഭൗതിക ഭൂപടങ്ങൾ പ്രകൃതിസവിശേഷതകൾ കാണിക്കുന്നു.",
+      "explanation": "ഭൂപ്രകൃതി, മണ്ണ്, കാലാവസ്ഥ പ്രകൃതിദത്തം. റോഡുകൾ മനുഷ്യനിർമ്മിതം."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q42 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-43",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "What does the colour yellow show on a map?",
+      "options": [
+        "Natural vegetation",
+        "Agricultural land",
+        "Railway lines",
+        "Roads"
+      ],
+      "hint": "Think of ripe crops in the fields.",
+      "explanation": "On maps, yellow is used for agricultural land."
+    },
+    "ml": {
+      "question": "ഭൂപടങ്ങളിൽ മഞ്ഞനിറം എന്തിനെ സൂചിപ്പിക്കുന്നു?",
+      "options": [
+        "നൈസർഗിക സസ്യജാലം",
+        "കൃഷിയിടങ്ങൾ",
+        "തീവണ്ടിപ്പാത",
+        "റോഡുകൾ"
+      ],
+      "hint": "പാടത്തെ വിളഞ്ഞ നെല്ല് ഓർക്കൂ.",
+      "explanation": "ഭൂപടങ്ങളിൽ കൃഷിയിടങ്ങൾ മഞ്ഞനിറത്തിൽ കാണിക്കുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q43 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-44",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "en": {
+      "question": "In which year did Mahatma Gandhi arrive in South Africa?",
+      "options": [
+        "1793",
+        "1893",
+        "1891",
+        "1791"
+      ],
+      "hint": "He went as a young lawyer, near the end of the 1800s.",
+      "explanation": "Gandhiji reached South Africa in 1893."
+    },
+    "ml": {
+      "question": "മഹാത്മാഗാന്ധി ദക്ഷിണാഫ്രിക്കയിൽ എത്തിയ വർഷം ഏത്?",
+      "options": [
+        "1793",
+        "1893",
+        "1891",
+        "1791"
+      ],
+      "hint": "യുവ അഭിഭാഷകനായി, 1800-കളുടെ അവസാനം.",
+      "explanation": "ഗാന്ധിജി 1893-ൽ ദക്ഷിണാഫ്രിക്കയിലെത്തി."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q44 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-GK-46",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "en": {
+      "question": "On which day does the NDRF (National Disaster Response Force) celebrate its foundation day?",
+      "options": [
+        "18 January",
+        "20 January",
+        "19 January",
+        "21 January"
+      ],
+      "hint": "It is in the third week of January.",
+      "explanation": "The NDRF celebrates its raising day on 19 January."
+    },
+    "ml": {
+      "question": "എൻ.ഡി.ആർ.എഫ് (NDRF) സ്ഥാപകദിനം ആഘോഷിക്കുന്നത് എന്ന്?",
+      "options": [
+        "ജനുവരി 18",
+        "ജനുവരി 20",
+        "ജനുവരി 19",
+        "ജനുവരി 21"
+      ],
+      "hint": "ജനുവരിയിലെ മൂന്നാം ആഴ്ച.",
+      "explanation": "NDRF സ്ഥാപകദിനം ജനുവരി 19."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q46 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-GK-47",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "en": {
+      "question": "What was the theme of World Environment Day 2025?",
+      "options": [
+        "Ecosystem restoration",
+        "Ending plastic pollution",
+        "Biodiversity conservation",
+        "Climate action"
+      ],
+      "hint": "It was about something we throw away every day.",
+      "explanation": "The theme of World Environment Day 2025 was ending plastic pollution."
+    },
+    "ml": {
+      "question": "2025-ലെ ലോക പരിസ്ഥിതി ദിനത്തിന്റെ പ്രമേയം എന്തായിരുന്നു?",
+      "options": [
+        "പരിസ്ഥിതി പുനഃസ്ഥാപനം",
+        "പ്ലാസ്റ്റിക് മലിനീകരണം അവസാനിപ്പിക്കൽ",
+        "ജൈവവൈവിധ്യ സംരക്ഷണം",
+        "കാലാവസ്ഥാ പ്രവർത്തനം"
+      ],
+      "hint": "നാം ദിവസവും വലിച്ചെറിയുന്ന ഒന്നിനെക്കുറിച്ച്.",
+      "explanation": "2025-ലെ ലോക പരിസ്ഥിതി ദിനത്തിന്റെ പ്രമേയം പ്ലാസ്റ്റിക് മലിനീകരണം അവസാനിപ്പിക്കൽ."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q47 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-SOC-49",
+    "subject": "social",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "en": {
+      "question": "Which scheme gives health care, support and free medicines to senior citizens in urban areas?",
+      "options": [
+        "Vayomithram",
+        "Aswasakiranam",
+        "Ormathoni",
+        "Amrutham"
+      ],
+      "hint": "'Vayo' means old age and 'mithram' means friend.",
+      "explanation": "Vayomithram gives health care and free medicines to elderly people in towns and cities."
+    },
+    "ml": {
+      "question": "നഗരപ്രദേശങ്ങളിലെ മുതിർന്ന പൗരന്മാർക്ക് ആരോഗ്യപരിചരണവും സൗജന്യ മരുന്നും നൽകുന്ന പദ്ധതി ഏത്?",
+      "options": [
+        "വയോമിത്രം",
+        "ആശ്വാസകിരണം",
+        "ഓർമ്മത്തോണി",
+        "അമൃതം"
+      ],
+      "hint": "വയോ = വാർദ്ധക്യം, മിത്രം = സുഹൃത്ത്.",
+      "explanation": "വയോമിത്രം പദ്ധതി നഗരങ്ങളിലെ വയോജനങ്ങൾക്ക് ആരോഗ്യപരിചരണവും സൗജന്യ മരുന്നും നൽകുന്നു."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q49 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  },
+  {
+    "id": "KPSTA26-GK-50",
+    "subject": "gk",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "en": {
+      "question": "Sunita Williams is a famous astronaut of which space agency?",
+      "options": [
+        "ISRO",
+        "ESA",
+        "NASA",
+        "Roscosmos"
+      ],
+      "hint": "The space agency of the USA.",
+      "explanation": "Sunita Williams is an astronaut of NASA, the US space agency."
+    },
+    "ml": {
+      "question": "സുനിത വില്യംസ് ഏത് ബഹിരാകാശ ഏജൻസിയിലെ ബഹിരാകാശയാത്രികയാണ്?",
+      "options": [
+        "ഐ.എസ്.ആർ.ഒ (ISRO)",
+        "ഇ.എസ്.എ (ESA)",
+        "നാസ (NASA)",
+        "റോസ്കോസ്മോസ്"
+      ],
+      "hint": "അമേരിക്കയുടെ ബഹിരാകാശ ഏജൻസി.",
+      "explanation": "സുനിത വില്യംസ് അമേരിക്കയുടെ നാസയിലെ ബഹിരാകാശയാത്രികയാണ്."
+    },
+    "source": "KPSTA USS (CM Kids Scholarship UP) model exam 2026, Paper 2, Q50 – used with KPSTA's permission",
+    "year": 2026,
+    "credit": {
+      "en": "KPSTA (Kerala Pradesh School Teachers Association) – USS model exam 2026",
+      "ml": "KPSTA (കേരള പ്രദേശ് സ്കൂൾ ടീച്ചേഴ്സ് അസോസിയേഷൻ) – USS മാതൃകാ പരീക്ഷ 2026"
+    },
+    "reviewed": true,
+    "needsReview": false
+  }
+]
