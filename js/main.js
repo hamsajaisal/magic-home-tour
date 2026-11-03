@@ -136,6 +136,7 @@ function setup3D() {
   terrace = createTerrace({ scene, W, low, lights: { hemi, sun }, setBanner });
   terrace.setAtticOpen(save.terrace.atticOpen, true);
   terrace.setRescue(rescueStepToday(), true);
+  terrace.setTrail(!save.stats.terraceVisited);
 
   for (const d of W.doors) {
     if (roomState(d.room.id).unlocked) openDoor(d, true);
@@ -234,6 +235,7 @@ function runQuiz(opts) {
         toast(t('coinsEarned', { c: SETTINGS.COINS_FOR_UNLOCK }));
         checkBadges();
         if (W.doors.every((x) => roomState(x.room.id).unlocked)) setTimeout(() => toast(t('allOpen')), 1600);
+        callFromTerrace(4500);
       }
       if (passedNow && onPassed) onPassed();
       opts.afterClose?.(passedNow, rights);
@@ -311,6 +313,22 @@ function rescueStepToday() {
   const T = save.terrace;
   if (T.rescuedDay === today()) return RESCUE_STEPS;
   return T.rescueDay === today() ? T.rescueStep : 0;
+}
+
+// Until the child has found the terrace, the lifeguard calls from up there (a whistle and a message):
+// after a door opens, or when the game starts. At most once a day and 3 times in all.
+function callFromTerrace(delay) {
+  const st = save.stats;
+  if (st.terraceVisited || (st.terraceCalls || 0) >= 3 || st.terraceCallDay === today()) return;
+  st.terraceCalls = (st.terraceCalls || 0) + 1;
+  st.terraceCallDay = today();
+  persist();
+  setTimeout(() => {
+    if (save.stats.terraceVisited) return;
+    play('whistle');
+    setBanner(t('terraceCall'));
+    setTimeout(() => { if ($('banner').textContent === t('terraceCall')) setBanner(''); }, 10000);
+  }, delay);
 }
 
 // a golden key for the secret attic (from the kite, the stars and the pool)
@@ -651,11 +669,7 @@ function startPlaying() {
   refreshHUD();
   const secret = rooms.find((r) => r.id === secretRoomId());
   setTimeout(() => toast(t('secretToday', { room: `${secret.emoji} ${pick(secret.name)}` })), daily ? 4000 : 1500);
-  if (!save.stats.terraceHint) {
-    save.stats.terraceHint = 1;
-    persist();
-    setTimeout(() => toast(t('terraceNew')), daily ? 8000 : 5000);
-  }
+  if (rooms.some((r) => roomState(r.id).unlocked)) callFromTerrace(daily ? 9000 : 6000);
   if (daily) {
     openDaily(daily, () => {
       claimDaily();
@@ -896,6 +910,11 @@ function frame(dt, time, draw = true) {
   extras.update(dt, time);
   player.setJacket(jacketToday() && isUp(pos.y));
   terrace.update(dt, time, me, jacketToday());
+  if (isUp(pos.y) && !save.stats.terraceVisited) {
+    save.stats.terraceVisited = 1;
+    persist();
+    terrace.setTrail(false);
+  }
   decor.update(dt, time, me);
   updateCamera(dt);
   if (draw) renderer.render(scene, camera);

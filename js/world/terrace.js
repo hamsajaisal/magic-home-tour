@@ -1,7 +1,7 @@
 // The terrace upstairs (outside stairs on the east side of the house): kite flying, star counting
 // with a telescope, the rooftop pool where a friend needs help, and the secret attic hut.
 import * as THREE from 'three';
-import { mat, labelTexture, emojiTexture, mergeStatic, TERRACE as T, TSTAIRS as S } from './house.js';
+import { mat, labelTexture, emojiTexture, mergeStatic, floorHeight, TERRACE as T, TSTAIRS as S } from './house.js';
 import { createPlayer } from './player.js';
 
 const TOP = T.top;
@@ -263,6 +263,38 @@ export function createTerrace({ scene, W, low, lights, setBanner }) {
   sky.add(moon);
   scene.add(sky);
 
+  // ---------- clues that something is up here ----------
+  // a big kite tied to the terrace railing, always flying, seen from the garden and the house
+  const flag = makeKite();
+  flag.group.scale.setScalar(2.4);
+  root.add(flag.group);
+  const flagAnchor = new THREE.Vector3(T.x2 - 0.2, TOP + 0.8, T.z2 - 0.2);
+  const flagGeo = new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(6), 3));
+  const flagString = new THREE.Line(flagGeo, new THREE.LineBasicMaterial({ color: '#ffffff' }));
+  flagString.frustumCulled = false;
+  root.add(flagString);
+
+  // glowing footprints from the front steps to the terrace stairs (until the child has been up once)
+  const trail = new THREE.Group();
+  root.add(trail);
+  const route = [[1.2, 12.9], [9.5, 12.6], [sx, S.z2 + 0.6]];
+  const printGeo = new THREE.CircleGeometry(0.15, 10);
+  let side = 1, n = 0;
+  for (let k = 0; k < route.length - 1; k++) {
+    const [ax, az] = route[k], [bx, bz] = route[k + 1];
+    const len = Math.hypot(bx - ax, bz - az), dx = (bx - ax) / len, dz = (bz - az) / len;
+    for (let d = 0; d < len; d += 0.7) {
+      const x = ax + dx * d - dz * 0.15 * side, z = az + dz * d + dx * 0.15 * side;
+      const m = new THREE.Mesh(printGeo, new THREE.MeshBasicMaterial({ color: '#fff59d', transparent: true, depthWrite: false }));
+      m.scale.set(1, 1.6, 1);
+      m.rotation.set(-Math.PI / 2, Math.atan2(-dx, -dz), 0, 'YXZ');   // flat, pointing along the path
+      m.position.set(x, floorHeight(x, z) + 0.03, z);
+      m.userData.i = n++;
+      trail.add(m);
+      side = -side;
+    }
+  }
+
   const merged = mergeStatic(statics);
   root.add(merged);
   statics = merged;
@@ -417,6 +449,7 @@ export function createTerrace({ scene, W, low, lights, setBanner }) {
     showStars,
     setRescue,
     sayThanks,
+    setTrail(on) { trail.visible = !!on; },
     get rescueStep() { return rescue.goal; },
     // the show is still playing (prompts wait until it ends)
     busy: () => kiteShow.on && kiteShow.t < 6 || night.goal > 0 || rescue.shown < rescue.goal,
@@ -460,6 +493,20 @@ export function createTerrace({ scene, W, low, lights, setBanner }) {
       bob(kiteIcon, TOP + 2.3, 0); bob(teleIcon, TOP + 2.3, 1); bob(poolIcon, TOP + 2.4, 2);
       bob(atticIcon, TOP + HUT.h + 1.8, 3); bob(chestIcon, TOP + 1.3, 4);
       kiteIcon.visible = !kiteShow.on;
+      // the big kite flies whenever the child's own kite is not up
+      flag.group.visible = flagString.visible = !kiteShow.on;
+      const fp = flagAnchor.clone().add(new THREE.Vector3(2.5 + Math.sin(time * 0.5) * 0.8, 9 + Math.sin(time * 0.8) * 0.5, 3.5));
+      flag.group.position.copy(fp);
+      flag.group.lookAt(flagAnchor);
+      flag.group.rotateZ(Math.sin(time * 1.9) * 0.2);
+      flag.tail.forEach((b, i) => { b.position.x = Math.sin(time * 4 + i) * 0.08 * i; });
+      const fs = flagGeo.attributes.position;
+      fs.setXYZ(0, flagAnchor.x, flagAnchor.y, flagAnchor.z);
+      fs.setXYZ(1, fp.x, fp.y, fp.z);
+      fs.needsUpdate = true;
+      if (trail.visible) {
+        for (const m of trail.children) m.material.opacity = 0.4 + 0.6 * Math.max(0, Math.sin(time * 3 - m.userData.i * 0.45));
+      }
       const pos = water.geometry.attributes.position;
       for (let i = 0; i < pos.count; i++) pos.setZ(i, Math.sin(time * 2 + pos.getX(i) * 2 + pos.getY(i) * 1.5) * 0.025);
       pos.needsUpdate = true;
