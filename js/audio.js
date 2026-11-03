@@ -61,6 +61,7 @@ const SOUNDS = {
   wrong: () => { tone(330, 0, 0.18, 'sine', 0.14); tone(262, 0.15, 0.25, 'sine', 0.12); },
   coin: () => { tone(988, 0, 0.08, 'square', 0.06); tone(1319, 0.07, 0.18, 'square', 0.06); },
   unlock: () => [523, 659, 784, 1047, 1319].forEach((f, i) => tone(f, i * 0.09, 0.3, 'triangle', 0.15)),
+  whistle: () => { tone(2100, 0, 0.22, 'sine', 0.1); tone(2400, 0.28, 0.35, 'sine', 0.1); },
   fail: () => { tone(440, 0, 0.2, 'sine', 0.12); tone(392, 0.18, 0.2, 'sine', 0.12); tone(440, 0.36, 0.3, 'sine', 0.12); },
 };
 

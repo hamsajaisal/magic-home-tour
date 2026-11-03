@@ -75,6 +75,17 @@ export function makeQuiz(subject, lang, count, save) {
   return shuffle(pool).map((q) => toQuizItem(q, lang));
 }
 
+// Bonus level: questions from every subject, the hard ones first, then medium, then easy.
+const DIFFICULTY = { hard: 0, medium: 1.2, easy: 3 };
+export function makeHardQuiz(lang, count, save) {
+  const pool = available('mix', lang)
+    .map((q) => ({ q, score: (DIFFICULTY[q.difficulty] ?? 1.5) + (save.seen[q.id] || 0) * 0.8 + Math.random() }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, count)
+    .map((x) => x.q);
+  return shuffle(pool).map((q) => toQuizItem(q, lang));
+}
+
 // `order` keeps the same A/B/C/D order when the child switches language mid-question.
 export function toQuizItem(q, lang, order = null) {
   if (!q[lang]) return null;

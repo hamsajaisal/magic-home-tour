@@ -222,3 +222,15 @@ body.touch #tip { bottom: auto; top: 104px; }
 
 /* long reading passages and poems in a question */
 .q-text.long { font-size: 1.02rem; font-weight: 600; line-height: 1.55; }
+
+/* ---------- Phase 4: read aloud, install ---------- */
+.soft-btn.small.icon { padding: 4px 9px; font-size: 1.1rem; }
+#q-voice-note { margin: 6px 0 0; }
+.install-box { margin: 10px 0 4px; }
+.install-box .small-note { margin: 6px 0 0; }
+@media (max-width: 520px) {
+  .quiz-top { flex-wrap: wrap; gap: 6px; }
+  #quiz-room { flex: 1 1 0; min-width: 0; }
+  #quiz-count { order: 5; flex: 1 1 100%; font-size: .9rem; }
+}
+#test-tag { position: fixed; left: 50%; transform: translateX(-50%); bottom: 6px; z-index: 60; background: #6a1b9a; color: #fff; font-weight: 800; font-size: .85rem; padding: 3px 12px; border-radius: 12px; pointer-events: none; }

@@ -1,5 +1,5 @@
 {
-  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, wells, revisions, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers. n = \"all\" means every room. Stickers come from treasure chests.",
+  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, wells, revisions, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers, kites, starsLit, rescues, attic, atticRounds. n = \"all\" means every room. Stickers come from treasure chests.",
   "badges": [
     {
       "id": "firstDoor",
@@ -179,6 +179,46 @@
       "name": {
         "en": "Wishing Well friend",
         "ml": "ആഗ്രഹക്കിണറിന്റെ ചങ്ങാതി"
+      }
+    },
+    {
+      "id": "kiteFlyer",
+      "emoji": "🪁",
+      "rule": "kites",
+      "n": 1,
+      "name": {
+        "en": "Flew a kite",
+        "ml": "പട്ടം പറത്തി"
+      }
+    },
+    {
+      "id": "starGazer",
+      "emoji": "🔭",
+      "rule": "starsLit",
+      "n": 100,
+      "name": {
+        "en": "100 stars lit",
+        "ml": "100 നക്ഷത്രങ്ങൾ തെളിയിച്ചു"
+      }
+    },
+    {
+      "id": "lifeSaver",
+      "emoji": "🛟",
+      "rule": "rescues",
+      "n": 1,
+      "name": {
+        "en": "Helped a friend in the pool",
+        "ml": "കുളത്തിലെ ചങ്ങാതിയെ സഹായിച്ചു"
+      }
+    },
+    {
+      "id": "atticFound",
+      "emoji": "💎",
+      "rule": "attic",
+      "n": 1,
+      "name": {
+        "en": "Opened the secret attic",
+        "ml": "രഹസ്യ തട്ടിൻപുറം തുറന്നു"
       }
     }
   ],

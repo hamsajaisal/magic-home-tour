@@ -6,6 +6,10 @@
   <title>Magic Home Tour – USS Practice Game</title>
   <meta name="description" content="A free 3D practice game for the Kerala USS scholarship exam (Classes 5–7), in Malayalam and English medium.">
   <meta name="theme-color" content="#ff8a3d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
   <link rel="stylesheet" href="css/style.css">
   <script type="importmap">{ "imports": { "three": "./js/lib/three.module.min.js" } }</script>
@@ -54,8 +58,8 @@
   </div>
 
   <div id="tip" class="hidden"></div>
-  <div id="banner" class="hidden"></div>
-  <div id="toasts"></div>
+  <div id="banner" class="hidden" role="status" aria-live="polite"></div>
+  <div id="toasts" role="status" aria-live="polite"></div>
 
   <!-- Door prompt -->
   <div id="prompt" class="hidden">
@@ -73,6 +77,7 @@
       <div class="quiz-top">
         <span id="quiz-room"></span>
         <span id="quiz-count"></span>
+        <button class="soft-btn small icon" id="quiz-read" aria-label="read aloud" data-i18n-label="readAloud">🔈</button>
         <button class="soft-btn small" id="quiz-lang">English</button>
         <button class="close-x" id="quiz-close" aria-label="close" data-i18n-label="close">✕</button>
       </div>
@@ -80,6 +85,7 @@
       <div id="quiz-body">
         <p class="q-text" id="q-text"></p>
         <div class="options" id="q-options"></div>
+        <p class="small-note hidden" id="q-voice-note" role="status"></p>
         <div class="feedback hidden" id="q-feedback"></div>
         <button class="big-btn hidden" id="q-next"></button>
       </div>
@@ -153,6 +159,7 @@
       <label class="row"><input type="checkbox" id="set-low"> <span data-i18n="lowGraphics"></span></label>
       <label class="row"><input type="checkbox" id="set-sound"> <span data-i18n="sound"></span></label>
       <label class="row"><input type="checkbox" id="set-voice"> <span data-i18n="voiceSetting"></span></label>
+      <label class="row"><input type="checkbox" id="set-read"> <span data-i18n="readAloudSetting"></span></label>
       <div class="row"><span data-i18n="lipi"></span>
         <button class="soft-btn small lipi-btn" data-lipi="old" data-i18n="lipiOld"></button>
         <button class="soft-btn small lipi-btn" data-lipi="new" data-i18n="lipiNew"></button>
@@ -164,6 +171,10 @@
       <div class="btn-row">
         <button class="soft-btn" id="credits-btn" data-i18n="credits"></button>
         <button class="soft-btn danger" id="reset-btn" data-i18n="resetProgress"></button>
+      </div>
+      <div class="install-box">
+        <button class="soft-btn hidden" id="install-btn" data-i18n="installApp"></button>
+        <p class="small-note" id="install-note"></p>
       </div>
       <p class="small-note" data-i18n="privacy"></p>
       <button class="big-btn" data-close="settings" data-i18n="close"></button>

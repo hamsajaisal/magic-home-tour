@@ -44,3 +44,22 @@ export function say(kind, lang, texts) {
   u.pitch = 1.25;   // a little brighter and friendlier
   synth.speak(u);
 }
+
+// Reads a question aloud. Returns 'ok', 'noMl' (no Malayalam voice on this phone) or 'none' (no speech at all).
+export function readAloud(text, lang) {
+  const synth = window.speechSynthesis;
+  if (!synth) return 'none';
+  const voice = findVoice(lang);
+  if (!voice) return lang === 'ml' ? 'noMl' : 'none';
+  synth.cancel();
+  const u = new SpeechSynthesisUtterance(clean(text));
+  u.voice = voice;
+  u.lang = voice.lang;
+  u.rate = 0.92;
+  synth.speak(u);
+  return 'ok';
+}
+
+export function stopReading() {
+  window.speechSynthesis?.cancel();
+}

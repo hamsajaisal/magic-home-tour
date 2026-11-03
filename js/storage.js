@@ -1,5 +1,8 @@
 // Saves the child's progress in this browser only (localStorage). Nothing leaves the device.
-const KEY = 'magicHomeTour.save.v1';
+// The test copy for trusted testers (…/magic-home-tour-test/) keeps its own save,
+// so testing never changes the progress on the real game.
+export const IS_TEST = location.pathname.includes('-test/');
+const KEY = IS_TEST ? 'magicHomeTour.test.save.v1' : 'magicHomeTour.save.v1';
 
 function fresh() {
   return {
@@ -10,7 +13,7 @@ function fresh() {
     rooms: {},        // roomId -> { unlocked, stars, best }
     wrong: {},        // questionId -> times answered wrong (used by the revision room later)
     seen: {},         // questionId -> times shown
-    settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old' },
+    settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old', readAloud: false },
     streak: { count: 0, last: null },   // days in a row
     surpriseDay: {},  // roomId -> date of today's free surprise
     owned: [],        // shop items bought
@@ -20,6 +23,7 @@ function fresh() {
     stickers: [],     // sticker ids collected
     qstats: {},       // questionId -> { n, right, time, last } (time in seconds)
     days: {},         // date -> { n, right, time } questions answered that day
+    terrace: { keys: [], jacketDay: null, rescueDay: null, rescueStep: 0, rescuedDay: null, atticOpen: false },
   };
 }
 
@@ -31,7 +35,7 @@ function load() {
     if (raw) {
       const data = JSON.parse(raw);
       const base = fresh();
-      return { ...base, ...data, settings: { ...base.settings, ...(data.settings || {}) } };
+      return { ...base, ...data, settings: { ...base.settings, ...(data.settings || {}) }, terrace: { ...base.terrace, ...(data.terrace || {}) } };
     }
   } catch (e) {
     console.warn('Could not read saved progress, starting fresh.', e);
