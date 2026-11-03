@@ -181,7 +181,7 @@
   "resultFailRound": "So close! You need {k} right answers. Let's try again!",
   "rescueFail": "Your friend came closer and is safe, holding the float ring. {left} more right answers to bring them out — let's try again!",
   "terraceCall": "🛟 Someone is calling from the terrace! Go outside and climb the stairs on the right side of the house. Follow the shiny footprints ✨👣",
-  "practiceMode": "📝 Quiz mode",
+  "practiceMode": "📝 Quiz only mode",
   "practiceIntro": "Just questions, no house. Choose a subject and a chapter, then practise.",
   "practiceSubject": "Subject",
   "practiceChapterPick": "Chapter",
