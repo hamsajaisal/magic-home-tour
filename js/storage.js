@@ -1,5 +1,8 @@
 // Saves the child's progress in this browser only (localStorage). Nothing leaves the device.
-const KEY = 'magicHomeTour.save.v1';
+// The test copy for trusted testers (…/magic-home-tour-test/) keeps its own save,
+// so testing never changes the progress on the real game.
+export const IS_TEST = location.pathname.includes('-test/');
+const KEY = IS_TEST ? 'magicHomeTour.test.save.v1' : 'magicHomeTour.save.v1';
 
 function fresh() {
   return {

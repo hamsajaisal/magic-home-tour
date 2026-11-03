@@ -1,7 +1,8 @@
 // Lets the game work without internet. The first visit saves every game file on the phone.
 // After that, the game always tries the internet first (so updates arrive), and uses the saved
 // copy when there is no connection or it is very slow.
-const CACHE = 'magic-home-tour-v1';
+// Named after where the game lives, so the test copy and the real game keep separate saved files.
+const CACHE = `magic-home-tour-v1:${self.registration.scope}`;
 const WAIT_MS = 4000;
 
 const FILES = [
@@ -35,7 +36,8 @@ self.addEventListener('install', (e) => {
 
 self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
-    for (const key of await caches.keys()) if (key !== CACHE) await caches.delete(key);
+    const mine = (key) => key.endsWith(`:${self.registration.scope}`) || key === 'magic-home-tour-v1';
+    for (const key of await caches.keys()) if (mine(key) && key !== CACHE) await caches.delete(key);
     await self.clients.claim();
   })());
 });

@@ -1,7 +1,7 @@
 // Starts the game: loads data, builds the 3D house, runs the walking loop, door quizzes and surprises.
 import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
-import { save, persist, resetAll, roomState, today } from './storage.js';
+import { save, persist, resetAll, roomState, today, IS_TEST } from './storage.js';
 import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
 import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, setSignFont, START } from './world/house.js';
@@ -45,6 +45,7 @@ boot().catch((e) => {
 });
 
 async function boot() {
+  if (IS_TEST) showTestLabel();
   await loadLanguages();
   setLang(save.lang || SETTINGS.DEFAULT_LANGUAGE);
   const [roomData] = await Promise.all([
@@ -64,6 +65,17 @@ async function boot() {
   $('loading').classList.add('hidden');
   $('start').classList.remove('hidden');
   requestAnimationFrame(loop);
+}
+
+// a small label so testers always know they are in the test copy
+function showTestLabel() {
+  const tag = document.createElement('div');
+  tag.id = 'test-tag';
+  tag.setAttribute('role', 'note');
+  tag.textContent = '🧪 TEST';
+  tag.setAttribute('aria-label', 'Test version / ടെസ്റ്റ് പതിപ്പ്');
+  document.body.appendChild(tag);
+  document.title = `🧪 TEST – ${document.title}`;
 }
 
 function isLowGraphics() {
