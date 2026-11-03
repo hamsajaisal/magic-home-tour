@@ -14,6 +14,7 @@ import { createTerrace, isUp, STARS_PER_ANSWER, RESCUE_STEPS } from './world/ter
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
+import { initPractice, openPractice } from './ui/practice.js';
 import {
   loadCatalog, addCoins, bumpStat, checkBadges, giveSticker, dailyCheck, level,
   freeSurpriseReady, useFreeSurprise, claimDaily,
@@ -60,6 +61,7 @@ async function boot() {
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
+  await initPractice({ rooms, onExit: () => $('start').classList.remove('hidden') });
   setupInstall();
   refreshAll();
   $('loading').classList.add('hidden');
@@ -711,6 +713,14 @@ function setupUI() {
     $('cam-btns').classList.add('playing');
     document.body.classList.add('playing');
     startPlaying();
+  });
+  // Quiz mode: questions only, without the house
+  $('practice-btn').addEventListener('click', () => {
+    unlockAudio();
+    play('click');
+    if (!save.lang) changeLang(lang());
+    $('start').classList.add('hidden');
+    openPractice();
   });
   $('prompt-go').addEventListener('click', act);
   $('prompt-no').addEventListener('click', () => { play('click'); dismissed = prompt; hidePrompt(); });
