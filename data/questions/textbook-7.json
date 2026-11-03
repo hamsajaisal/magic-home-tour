@@ -3186,43 +3186,6 @@
     "id": "TB7-SCI-087",
     "subject": "science",
     "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "From which part of Bryophyllum do new plants usually grow?",
-      "options": [
-        "Root",
-        "Leaf",
-        "Seed",
-        "Flower"
-      ],
-      "hint": "Look at the edges of its thick, fleshy leaves.",
-      "explanation": "Small plantlets grow from the edges of Bryophyllum leaves."
-    },
-    "ml": {
-      "question": "ഇലമുളച്ചിയുടെ ഏതു ഭാഗത്തുനിന്നാണ് സാധാരണ പുതിയ തൈകൾ ഉണ്ടാകുന്നത്?",
-      "options": [
-        "വേര്",
-        "ഇല",
-        "വിത്ത്",
-        "പൂവ്"
-      ],
-      "hint": "പേരിൽത്തന്നെ ഉത്തരമുണ്ട്.",
-      "explanation": "ഇലമുളച്ചിയുടെ ഇലയുടെ അരികുകളിൽനിന്ന് പുതിയ തൈകൾ മുളയ്ക്കുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-088",
-    "subject": "science",
-    "class": 7,
     "difficulty": "medium",
     "answer": "C",
     "chapter": {
@@ -3257,44 +3220,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-089",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Vegetative propagation is a kind of:",
-      "options": [
-        "Sexual reproduction",
-        "Asexual reproduction",
-        "Pollination",
-        "Hybridization"
-      ],
-      "hint": "No seeds are formed in it.",
-      "explanation": "Growing new plants from root, stem, leaf or underground stem is asexual reproduction. Seeds are formed by sexual reproduction."
-    },
-    "ml": {
-      "question": "കായികപ്രജനനം ഏതു തരം പ്രത്യുൽപാദനമാണ്?",
-      "options": [
-        "ലൈംഗികപ്രത്യുൽപാദനം",
-        "അലൈംഗികപ്രത്യുൽപാദനം",
-        "പരാഗണം",
-        "വർഗസങ്കരണം"
-      ],
-      "hint": "ഇതിൽ വിത്ത് ഉണ്ടാകുന്നില്ല.",
-      "explanation": "വേര്, തണ്ട്, ഇല, ഭൂകാണ്ഡം എന്നിവയിൽനിന്ന് തൈ ഉണ്ടാക്കുന്നത് അലൈംഗികപ്രത്യുൽപാദനമാണ്. വിത്തുണ്ടാകുന്നത് ലൈംഗികപ്രത്യുൽപാദനത്തിലൂടെയാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-090",
+    "id": "TB7-SCI-088",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -3331,7 +3257,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-091",
+    "id": "TB7-SCI-089",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3368,7 +3294,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-092",
+    "id": "TB7-SCI-090",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -3405,44 +3331,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-093",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Making roots grow on a stem while it is still on the mother plant, and then cutting and planting it, is called:",
-      "options": [
-        "Grafting",
-        "Budding",
-        "Layering",
-        "Hybridization"
-      ],
-      "hint": "The roots form before the stem is cut off.",
-      "explanation": "This is layering. It is done in guava, sapota, java apple (chamba), almond and fig."
-    },
-    "ml": {
-      "question": "മാതൃസസ്യത്തിന്റെ കമ്പിൽ വേര് മുളപ്പിച്ചശേഷം ആ ഭാഗം മുറിച്ചുനട്ട് പുതിയ തൈ ഉണ്ടാക്കുന്ന രീതി:",
-      "options": [
-        "കമ്പൊട്ടിക്കൽ",
-        "മുകുളം ഒട്ടിക്കൽ",
-        "പതിവയ്ക്കൽ",
-        "വർഗസങ്കരണം"
-      ],
-      "hint": "കമ്പ് മുറിക്കുന്നതിനുമുമ്പുതന്നെ വേര് ഉണ്ടാകുന്നു.",
-      "explanation": "ഇതാണ് പതിവയ്ക്കൽ. പേര, സപ്പോട്ട, ചാമ്പ, ബദാം, അത്തി തുടങ്ങിയവയിൽ ഇത് ചെയ്യുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-094",
+    "id": "TB7-SCI-091",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3480,7 +3369,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-095",
+    "id": "TB7-SCI-092",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3517,44 +3406,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-096",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Bending long branches into the soil and covering them with soil at the nodes is serpentine layering. It is done in:",
-      "options": [
-        "Guava",
-        "Pepper",
-        "Mango",
-        "Sapota"
-      ],
-      "hint": "A climbing spice plant of Kerala.",
-      "explanation": "Serpentine layering is done in pepper, jasmine, betel, grapes, bougainvillea and chrysanthemum. Many saplings come from one branch."
-    },
-    "ml": {
-      "question": "നീളമുള്ള ശാഖകൾ മണ്ണിലേക്ക് വളച്ചുവച്ച് പർവഭാഗങ്ങളിൽ മണ്ണിട്ടു മൂടുന്നതാണ് നാഗപതിവയ്ക്കൽ. ഇത് ചെയ്യുന്ന സസ്യം:",
-      "options": [
-        "പേര",
-        "കുരുമുളക്",
-        "മാവ്",
-        "സപ്പോട്ട"
-      ],
-      "hint": "കേരളത്തിലെ ഒരു പടർന്നുകയറുന്ന സുഗന്ധവിള.",
-      "explanation": "കുരുമുളക്, മുല്ല, പിച്ചി, വെറ്റില, മുന്തിരി, ബോഗൺവില്ല, ജമന്തി എന്നിവയിൽ നാഗപതിവയ്ക്കൽ ചെയ്യുന്നു. ഒരു ശാഖയിൽനിന്ന് ഒരേസമയം പല തൈകൾ കിട്ടും."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-097",
+    "id": "TB7-SCI-093",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -3591,7 +3443,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-098",
+    "id": "TB7-SCI-094",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3628,7 +3480,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-099",
+    "id": "TB7-SCI-095",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3665,7 +3517,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-100",
+    "id": "TB7-SCI-096",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -3702,81 +3554,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-101",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "In grafting, the plant with roots onto which a stem is joined is called the:",
-      "options": [
-        "Scion",
-        "Root stock",
-        "Bud",
-        "Node"
-      ],
-      "hint": "It gives the roots (stock) for the new plant.",
-      "explanation": "The rooted plant is the root stock; the stem joined to it is the scion."
-    },
-    "ml": {
-      "question": "കമ്പൊട്ടിക്കലിൽ, കമ്പ് ഒട്ടിച്ചുചേർക്കുന്ന വേരോടുകൂടിയ ചെടിയെ എന്തു പറയുന്നു?",
-      "options": [
-        "സയൺ",
-        "റൂട്ട് സ്റ്റോക്ക്",
-        "മുകുളം",
-        "പർവം"
-      ],
-      "hint": "പുതിയ ചെടിക്ക് വേരുകൾ നൽകുന്നത് ഇതാണ്.",
-      "explanation": "വേരോടുകൂടിയ ചെടി റൂട്ട് സ്റ്റോക്ക്; അതിൽ ഒട്ടിക്കുന്ന കമ്പ് സയൺ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-102",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "D",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "In grafting, the stem of the superior plant that is joined to the root stock is called the:",
-      "options": [
-        "Root stock",
-        "Taproot",
-        "Cutting",
-        "Scion"
-      ],
-      "hint": "It is the top part that will give the good fruit.",
-      "explanation": "The stem joined to the root stock is the scion."
-    },
-    "ml": {
-      "question": "കമ്പൊട്ടിക്കലിൽ റൂട്ട് സ്റ്റോക്കിൽ ഒട്ടിച്ചുചേർക്കുന്ന മികച്ച ചെടിയുടെ കമ്പിനെ എന്തു പറയുന്നു?",
-      "options": [
-        "റൂട്ട് സ്റ്റോക്ക്",
-        "തായ്‌വേര്",
-        "കട്ടിങ്",
-        "സയൺ"
-      ],
-      "hint": "നല്ല കായ്കൾ തരുന്ന മുകൾഭാഗം ഇതാണ്.",
-      "explanation": "റൂട്ട് സ്റ്റോക്കിൽ ഒട്ടിക്കുന്ന കമ്പാണ് സയൺ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-103",
+    "id": "TB7-SCI-097",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3813,7 +3591,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-104",
+    "id": "TB7-SCI-098",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -3850,44 +3628,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-105",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "For mango grafting, how old should the root stock plant be?",
-      "options": [
-        "One week",
-        "One month",
-        "Six months to one year",
-        "Five to ten years"
-      ],
-      "hint": "Young, but not a tiny seedling.",
-      "explanation": "A Moovandan mango plant of six months to one year is chosen as the root stock."
-    },
-    "ml": {
-      "question": "മാവിൽ കമ്പൊട്ടിക്കാൻ എത്ര പ്രായമുള്ള തൈയാണ് റൂട്ട് സ്റ്റോക്കായി എടുക്കുന്നത്?",
-      "options": [
-        "ഒരാഴ്ച",
-        "ഒരു മാസം",
-        "ആറുമാസം മുതൽ ഒരുവർഷം വരെ",
-        "അഞ്ചുമുതൽ പത്തുവർഷം വരെ"
-      ],
-      "hint": "ചെറുതാണ്, പക്ഷേ തീരെ കുഞ്ഞുതൈയല്ല.",
-      "explanation": "ആറുമാസം മുതൽ ഒരുവർഷം വരെ പ്രായമുള്ള മൂവാണ്ടൻ മാവിൻതൈയാണ് റൂട്ട് സ്റ്റോക്ക്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-106",
+    "id": "TB7-SCI-099",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -3924,7 +3665,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-107",
+    "id": "TB7-SCI-100",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3961,7 +3702,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-108",
+    "id": "TB7-SCI-101",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -3998,7 +3739,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-109",
+    "id": "TB7-SCI-102",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4035,7 +3776,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-110",
+    "id": "TB7-SCI-103",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4072,7 +3813,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-111",
+    "id": "TB7-SCI-104",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -4110,7 +3851,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-112",
+    "id": "TB7-SCI-105",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4147,7 +3888,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-113",
+    "id": "TB7-SCI-106",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4184,7 +3925,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-114",
+    "id": "TB7-SCI-107",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4221,7 +3962,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-115",
+    "id": "TB7-SCI-108",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4258,7 +3999,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-116",
+    "id": "TB7-SCI-109",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -4296,81 +4037,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-117",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Ujjwala and Jwalamukhi are hybrid varieties of:",
-      "options": [
-        "Pea",
-        "Paddy",
-        "Chilli",
-        "Coconut"
-      ],
-      "hint": "\"Jwala\" means flame – think hot!",
-      "explanation": "Ujjwala and Jwalamukhi are hybrid chilli varieties."
-    },
-    "ml": {
-      "question": "ഉജ്ജ്വല, ജ്വാലാമുഖി എന്നിവ ഏതിന്റെ സങ്കരയിനങ്ങളാണ്?",
-      "options": [
-        "പയർ",
-        "നെല്ല്",
-        "മുളക്",
-        "തെങ്ങ്"
-      ],
-      "hint": "\"ജ്വാല\" എന്നാൽ തീ – എരിവ് ഓർക്കൂ!",
-      "explanation": "ഉജ്ജ്വല, ജ്വാലാമുഖി എന്നിവ മുളകിന്റെ സങ്കരയിനങ്ങളാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-118",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Kiran and Salkeerthi are hybrid varieties of:",
-      "options": [
-        "Lady's finger",
-        "Pea",
-        "Coconut",
-        "Paddy"
-      ],
-      "hint": "A green vegetable with sticky seeds inside.",
-      "explanation": "Salkeerthi and Kiran are hybrid lady's finger (okra) varieties."
-    },
-    "ml": {
-      "question": "സൽക്കീർത്തി, കിരൺ എന്നിവ ഏതിന്റെ സങ്കരയിനങ്ങളാണ്?",
-      "options": [
-        "വെണ്ട",
-        "പയർ",
-        "തെങ്ങ്",
-        "നെല്ല്"
-      ],
-      "hint": "ഉള്ളിൽ വഴുവഴുപ്പുള്ള പച്ചക്കറി.",
-      "explanation": "സൽക്കീർത്തി, കിരൺ എന്നിവ വെണ്ടയുടെ സങ്കരയിനങ്ങളാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-119",
+    "id": "TB7-SCI-110",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4407,81 +4074,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-120",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Research on coconut, arecanut and cocoa is done at:",
-      "options": [
-        "CTCRI, Sreekaryam",
-        "RRII, Kottayam",
-        "CPCRI, Kasaragod",
-        "KAU, Mannuthi"
-      ],
-      "hint": "These are plantation crops.",
-      "explanation": "The Central Plantation Crops Research Institute (CPCRI), Kasaragod, studies coconut, arecanut and cocoa."
-    },
-    "ml": {
-      "question": "തെങ്ങ്, കവുങ്ങ്, കൊക്കോ എന്നിവയെക്കുറിച്ചുള്ള ഗവേഷണം നടക്കുന്നത് എവിടെ?",
-      "options": [
-        "CTCRI, ശ്രീകാര്യം",
-        "RRII, കോട്ടയം",
-        "CPCRI, കാസർഗോഡ്",
-        "KAU, മണ്ണുത്തി"
-      ],
-      "hint": "ഇവ തോട്ടവിളകളാണ്.",
-      "explanation": "കേന്ദ്ര തോട്ടവിള ഗവേഷണകേന്ദ്രം (CPCRI), കാസർഗോഡ് – തെങ്ങ്, കവുങ്ങ്, കൊക്കോ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-121",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Where is the Central Tuber Crops Research Institute (CTCRI)?",
-      "options": [
-        "Sreekaryam, Thiruvananthapuram",
-        "Kasaragod",
-        "Kottayam",
-        "Mannuthi, Thrissur"
-      ],
-      "hint": "In the capital district.",
-      "explanation": "CTCRI, which studies tuber crops, is at Sreekaryam, Thiruvananthapuram."
-    },
-    "ml": {
-      "question": "കേന്ദ്ര കിഴങ്ങുവിള ഗവേഷണകേന്ദ്രം (CTCRI) എവിടെയാണ്?",
-      "options": [
-        "ശ്രീകാര്യം, തിരുവനന്തപുരം",
-        "കാസർഗോഡ്",
-        "കോട്ടയം",
-        "മണ്ണുത്തി, തൃശ്ശൂർ"
-      ],
-      "hint": "തലസ്ഥാന ജില്ലയിൽ.",
-      "explanation": "കിഴങ്ങുവിളകളെക്കുറിച്ച് പഠിക്കുന്ന CTCRI തിരുവനന്തപുരത്തെ ശ്രീകാര്യത്താണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-122",
+    "id": "TB7-SCI-111",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4518,7 +4111,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-123",
+    "id": "TB7-SCI-112",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4555,7 +4148,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-124",
+    "id": "TB7-SCI-113",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4592,7 +4185,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-125",
+    "id": "TB7-SCI-114",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4630,7 +4223,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-126",
+    "id": "TB7-SCI-115",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4667,7 +4260,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-127",
+    "id": "TB7-SCI-116",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4704,7 +4297,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-128",
+    "id": "TB7-SCI-117",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4741,7 +4334,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-129",
+    "id": "TB7-SCI-118",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4778,7 +4371,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-130",
+    "id": "TB7-SCI-119",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4815,7 +4408,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-131",
+    "id": "TB7-SCI-120",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4852,7 +4445,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-132",
+    "id": "TB7-SCI-121",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -4889,7 +4482,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-133",
+    "id": "TB7-SCI-122",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -4926,7 +4519,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-134",
+    "id": "TB7-SCI-123",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -4963,7 +4556,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-135",
+    "id": "TB7-SCI-124",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -5000,7 +4593,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-136",
+    "id": "TB7-SCI-125",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5037,44 +4630,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-137",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Towards a Hundredfold Yield",
-      "ml": "വിളയിക്കാം നൂറുമേനി"
-    },
-    "en": {
-      "question": "Cuniculture is the rearing of:",
-      "options": [
-        "Honeybees",
-        "Rabbits",
-        "Silkworms",
-        "Fish"
-      ],
-      "hint": "Soft, long-eared animals.",
-      "explanation": "Cuniculture is rabbit rearing."
-    },
-    "ml": {
-      "question": "ക്യൂണികൾച്ചർ എന്നാൽ എന്തിനെ വളർത്തലാണ്?",
-      "options": [
-        "തേനീച്ച",
-        "മുയൽ",
-        "പട്ടുനൂൽപ്പുഴു",
-        "മത്സ്യം"
-      ],
-      "hint": "നീണ്ട ചെവിയുള്ള മൃദുവായ ജീവി.",
-      "explanation": "മുയൽ വളർത്തലാണ് ക്യൂണികൾച്ചർ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-138",
+    "id": "TB7-SCI-126",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5111,7 +4667,120 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-139",
+    "id": "TB7-SCI-127",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Bryophyllum\n(b) Ginger\n(c) Pepper\n(1) Stem\n(2) Leaf\n(3) Underground stem",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3"
+      ],
+      "hint": "Ginger is a rhizome that grows under the soil.",
+      "explanation": "Bryophyllum – leaf; ginger – underground stem; pepper – stem."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) ഇലമുളച്ചി\n(b) ഇഞ്ചി\n(c) കുരുമുളക്\n(1) കാണ്ഡം\n(2) ഇല\n(3) ഭൂകാണ്ഡം",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3"
+      ],
+      "hint": "ഇഞ്ചി മണ്ണിനടിയിൽ വളരുന്ന കാണ്ഡമാണ്.",
+      "explanation": "ഇലമുളച്ചി – ഇല; ഇഞ്ചി – ഭൂകാണ്ഡം; കുരുമുളക് – കാണ്ഡം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-128",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) Vegetative propagation is a kind of asexual reproduction\n(ii) Seeds are formed through sexual reproduction\n(iii) Moringa can be grown only from seeds",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Remember the moringa stem cuttings.",
+      "explanation": "Moringa grows from seeds and from stem cuttings, so (iii) is wrong. (i) and (ii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) കായികപ്രജനനം അലൈംഗികപ്രത്യുൽപാദനമാണ്\n(ii) വിത്തുകൾ ഉണ്ടാകുന്നത് ലൈംഗികപ്രത്യുൽപാദനത്തിലൂടെയാണ്\n(iii) മുരിങ്ങ വിത്തിൽനിന്ന് മാത്രമേ വളർത്താൻ കഴിയൂ",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "മുരിങ്ങയുടെ കമ്പ് നടാറില്ലേ?",
+      "explanation": "മുരിങ്ങ വിത്തുമുളച്ചും കമ്പ് നട്ടും ഉണ്ടാകും; (iii) തെറ്റ്. (i), (ii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-129",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which statements about grafting are correct?\n(i) The plant with roots is called the root stock\n(ii) The root stock and the scion can be of different species\n(iii) The stem joined to the root stock is called the scion",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Grafting is done between plants of the same species.",
+      "explanation": "The root stock and the scion must belong to the same species. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "കമ്പൊട്ടിക്കലിനെക്കുറിച്ചുള്ള ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) വേരോടുകൂടിയ ചെടിയെ റൂട്ട് സ്റ്റോക്ക് എന്നു പറയുന്നു\n(ii) റൂട്ട് സ്റ്റോക്കും സയണും വ്യത്യസ്ത വർഗങ്ങളിലുള്ളവയാകാം\n(iii) റൂട്ട് സ്റ്റോക്കിൽ ഒട്ടിക്കുന്ന കമ്പാണ് സയൺ",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "ഒരേ വർഗത്തിലെ ചെടികൾ തമ്മിലാണ് കമ്പൊട്ടിക്കുന്നത്.",
+      "explanation": "റൂട്ട് സ്റ്റോക്കും സയണും ഒരേ വർഗത്തിലുള്ളവയായിരിക്കണം. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-130",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -5121,31 +4790,367 @@
       "ml": "വിളയിക്കാം നൂറുമേനി"
     },
     "en": {
-      "question": "Rearing honeybees is called:",
+      "question": "\"I am a young Moovandan mango plant, six months to one year old, with roots. A Neelam stem is joined to me.\" What am I called?",
       "options": [
-        "Pisciculture",
-        "Sericulture",
-        "Floriculture",
-        "Apiculture"
+        "Scion",
+        "Bud",
+        "Hybrid seed",
+        "Root stock"
       ],
-      "hint": "\"Apis\" is the honeybee.",
-      "explanation": "Apiculture is rearing honeybees."
+      "hint": "I give the roots.",
+      "explanation": "The rooted plant chosen for grafting is the root stock."
     },
     "ml": {
-      "question": "തേനീച്ച വളർത്തലിനെ എന്തു പറയുന്നു?",
+      "question": "\"ആറുമാസം മുതൽ ഒരുവർഷം വരെ പ്രായമുള്ള, വേരോടുകൂടിയ മൂവാണ്ടൻ മാവിൻതൈയാണ് ഞാൻ. നീലം മാവിന്റെ കമ്പ് എന്നിൽ ഒട്ടിക്കുന്നു.\" എന്നെ എന്തു വിളിക്കുന്നു?",
       "options": [
-        "പിസികൾച്ചർ",
-        "സെറികൾച്ചർ",
-        "ഫ്ലോറികൾച്ചർ",
-        "എപ്പികൾച്ചർ"
+        "സയൺ",
+        "മുകുളം",
+        "സങ്കരയിനം വിത്ത്",
+        "റൂട്ട് സ്റ്റോക്ക്"
       ],
-      "hint": "തേനീച്ചയുടെ ശാസ്ത്രനാമം \"ഏപിസ്\".",
-      "explanation": "തേനീച്ച വളർത്തലാണ് എപ്പികൾച്ചർ."
+      "hint": "വേര് നൽകുന്നത് ഞാനാണ്.",
+      "explanation": "കമ്പൊട്ടിക്കാൻ തിരഞ്ഞെടുക്കുന്ന വേരോടുകൂടിയ ചെടിയാണ് റൂട്ട് സ്റ്റോക്ക്."
     },
     "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
     "year": 2026,
     "reviewed": false,
     "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-131",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Match the following:\n(a) CPCRI\n(b) CTCRI\n(c) RRII\n(d) KAU\n(1) Kasaragod\n(2) Sreekaryam\n(3) Kottayam\n(4) Mannuthi",
+      "options": [
+        "a-1, b-2, c-3, d-4",
+        "a-2, b-1, c-3, d-4",
+        "a-1, b-3, c-2, d-4",
+        "a-4, b-2, c-3, d-1"
+      ],
+      "hint": "Plantation crops in the north, tubers in the capital, rubber in Kottayam.",
+      "explanation": "CPCRI – Kasaragod; CTCRI – Sreekaryam, Thiruvananthapuram; RRII – Kottayam; KAU – Mannuthi, Thrissur."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) CPCRI\n(b) CTCRI\n(c) RRII\n(d) KAU\n(1) കാസർഗോഡ്\n(2) ശ്രീകാര്യം\n(3) കോട്ടയം\n(4) മണ്ണുത്തി",
+      "options": [
+        "a-1, b-2, c-3, d-4",
+        "a-2, b-1, c-3, d-4",
+        "a-1, b-3, c-2, d-4",
+        "a-4, b-2, c-3, d-1"
+      ],
+      "hint": "തോട്ടവിളകൾ വടക്ക്, കിഴങ്ങുവിളകൾ തലസ്ഥാനത്ത്, റബ്ബർ കോട്ടയത്ത്.",
+      "explanation": "CPCRI – കാസർഗോഡ്; CTCRI – ശ്രീകാര്യം, തിരുവനന്തപുരം; RRII – കോട്ടയം; KAU – മണ്ണുത്തി, തൃശ്ശൂർ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-132",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Chilli\n(b) Pea\n(c) Lady's finger\n(d) Coconut\n(1) Kiran\n(2) Chandrasankara\n(3) Jwalamukhi\n(4) Jyothika",
+      "options": [
+        "a-1, b-4, c-3, d-2",
+        "a-3, b-2, c-1, d-4",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1"
+      ],
+      "hint": "\"Jwala\" is a flame – think hot.",
+      "explanation": "Chilli – Jwalamukhi; pea – Jyothika; lady’s finger – Kiran; coconut – Chandrasankara."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) മുളക്\n(b) പയർ\n(c) വെണ്ട\n(d) തെങ്ങ്\n(1) കിരൺ\n(2) ചന്ദ്രശങ്കര\n(3) ജ്വാലാമുഖി\n(4) ജ്യോതിക",
+      "options": [
+        "a-1, b-4, c-3, d-2",
+        "a-3, b-2, c-1, d-4",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1"
+      ],
+      "hint": "\"ജ്വാല\" എന്നാൽ തീ – എരിവ് ഓർക്കൂ.",
+      "explanation": "മുളക് – ജ്വാലാമുഖി; പയർ – ജ്യോതിക; വെണ്ട – കിരൺ; തെങ്ങ് – ചന്ദ്രശങ്കര."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-133",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Sericulture\n(b) Apiculture\n(c) Pisciculture\n(d) Cuniculture\n(1) Rearing honeybees\n(2) Rearing fish\n(3) Rearing silkworms\n(4) Rearing rabbits",
+      "options": [
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-1, c-2, d-4",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "hint": "Seri – silk; Api – bee; Pisci – fish.",
+      "explanation": "Sericulture – silkworms; apiculture – honeybees; pisciculture – fish; cuniculture – rabbits."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) സെറികൾച്ചർ\n(b) എപ്പികൾച്ചർ\n(c) പിസികൾച്ചർ\n(d) ക്യൂണികൾച്ചർ\n(1) തേനീച്ച വളർത്തൽ\n(2) മത്സ്യകൃഷി\n(3) പട്ടുനൂൽപ്പുഴു വളർത്തൽ\n(4) മുയൽ വളർത്തൽ",
+      "options": [
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-1, c-2, d-4",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2"
+      ],
+      "hint": "സെറി – പട്ട്; എപ്പി – തേനീച്ച; പിസി – മത്സ്യം.",
+      "explanation": "സെറികൾച്ചർ – പട്ടുനൂൽപ്പുഴു; എപ്പികൾച്ചർ – തേനീച്ച; പിസികൾച്ചർ – മത്സ്യം; ക്യൂണികൾച്ചർ – മുയൽ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-134",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Find the odd one out (method of layering):",
+      "options": [
+        "Pepper",
+        "Jasmine",
+        "Grapes",
+        "Guava"
+      ],
+      "hint": "Three of them are layered by bending branches into the soil.",
+      "explanation": "Pepper, jasmine and grapes use serpentine layering. Guava is air layered."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത് (പതിവയ്ക്കുന്ന രീതി)?",
+      "options": [
+        "കുരുമുളക്",
+        "മുല്ല",
+        "മുന്തിരി",
+        "പേര"
+      ],
+      "hint": "മൂന്നെണ്ണത്തിൽ ശാഖകൾ മണ്ണിലേക്ക് വളച്ചുവയ്ക്കുന്നു.",
+      "explanation": "കുരുമുളക്, മുല്ല, മുന്തിരി എന്നിവയിൽ നാഗപതിവയ്ക്കൽ. പേരയിൽ വായുവിൽ പതിവയ്ക്കൽ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-135",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Statement: Many saplings can be made at the same time from one pepper branch by serpentine layering.\nReason: The long branch is covered with soil at several nodes, and roots form at each of them.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "How many places on the branch touch the soil?",
+      "explanation": "Soil is put at many nodes, so roots and new plants form at each. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: നാഗപതിവയ്ക്കലിലൂടെ ഒരു കുരുമുളകുശാഖയിൽനിന്ന് ഒരേസമയം പല തൈകൾ ലഭിക്കും.\nകാരണം: നീളമുള്ള ശാഖയിൽ പല പർവഭാഗങ്ങളിൽ മണ്ണിട്ടു മൂടുന്നു; ഓരോയിടത്തും വേരുണ്ടാകുന്നു.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ശാഖയുടെ എത്ര ഭാഗങ്ങൾ മണ്ണിൽ മൂടുന്നു?",
+      "explanation": "പല പർവഭാഗങ്ങളിലും മണ്ണിടുന്നതിനാൽ ഓരോയിടത്തും വേരും തൈയുമുണ്ടാകും. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-136",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Statement: Hybrid seeds are produced by self pollination.\nReason: In cross pollination, the qualities of two plants come together.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Which kind of pollination is used in hybridization?",
+      "explanation": "Hybrid seeds come from artificial cross pollination, not self pollination. The statement is false; the reason is true."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: സ്വപരാഗണത്തിലൂടെയാണ് സങ്കരയിനം വിത്തുകൾ ഉണ്ടാക്കുന്നത്.\nകാരണം: പരപരാഗണത്തിൽ രണ്ടു സസ്യങ്ങളുടെയും ഗുണങ്ങൾ കൂടിച്ചേരുന്നു.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "വർഗസങ്കരണത്തിൽ ഏതു പരാഗണമാണ് നടത്തുന്നത്?",
+      "explanation": "കൃത്രിമമായ പരപരാഗണത്തിലൂടെയാണ് സങ്കരയിനം വിത്തുകൾ. പ്രസ്താവന തെറ്റ്, കാരണം ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-137",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) CPCRI in Kottayam studies coconut, arecanut and cocoa\n(ii) CTCRI studies tuber crops\n(iii) Kerala Agricultural University researches crops, animals and birds",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Where is CPCRI?",
+      "explanation": "CPCRI is in Kasaragod, not Kottayam. (ii) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) കോട്ടയത്തെ CPCRI തെങ്ങ്, കവുങ്ങ്, കൊക്കോ എന്നിവയെക്കുറിച്ച് പഠിക്കുന്നു\n(ii) CTCRI കിഴങ്ങുവിളകളെക്കുറിച്ച് ഗവേഷണം നടത്തുന്നു\n(iii) കേരള കാർഷിക സർവകലാശാല വിളയിനങ്ങൾ, മൃഗങ്ങൾ, പക്ഷികൾ എന്നിവയെക്കുറിച്ച് ഗവേഷണം നടത്തുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "CPCRI എവിടെയാണ്?",
+      "explanation": "CPCRI കാസർഗോഡാണ്, കോട്ടയത്തല്ല. (ii), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-138",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Put the steps of artificial pollination in order:\n(i) Put the collected pollen on the stigma of the flower\n(ii) Cover the flower so that no other pollen falls on it\n(iii) Remove the stamens of the flower\n(iv) Collect pollen with a brush from a plant of the same species with different qualities",
+      "options": [
+        "(iii), (iv), (i), (ii)",
+        "(iv), (iii), (ii), (i)",
+        "(iii), (ii), (iv), (i)",
+        "(ii), (iii), (iv), (i)"
+      ],
+      "hint": "First stop self pollination, then protect the flower.",
+      "explanation": "Remove stamens → cover the flower → collect pollen → put it on the stigma (then cover again)."
+    },
+    "ml": {
+      "question": "കൃത്രിമപരാഗണത്തിന്റെ ഘട്ടങ്ങൾ ക്രമത്തിലാക്കുക:\n(i) ശേഖരിച്ച പരാഗരേണുക്കൾ പൂവിന്റെ പരാഗണസ്ഥലത്ത് പതിപ്പിക്കുന്നു\n(ii) മറ്റു പരാഗരേണുക്കൾ എത്താതിരിക്കാൻ പൂവ് പൊതിഞ്ഞുകെട്ടുന്നു\n(iii) പൂവിലെ കേസരങ്ങൾ മുറിച്ചുമാറ്റുന്നു\n(iv) ഇതേ ഇനത്തിൽപ്പെട്ട വ്യത്യസ്തഗുണങ്ങളുള്ള ചെടിയിലെ പൂവിൽനിന്ന് പരാഗരേണുക്കൾ ബ്രഷിൽ ശേഖരിക്കുന്നു",
+      "options": [
+        "(iii), (iv), (i), (ii)",
+        "(iv), (iii), (ii), (i)",
+        "(iii), (ii), (iv), (i)",
+        "(ii), (iii), (iv), (i)"
+      ],
+      "hint": "ആദ്യം സ്വപരാഗണം തടയണം, പിന്നെ പൂവ് സംരക്ഷിക്കണം.",
+      "explanation": "കേസരങ്ങൾ മുറിക്കുന്നു → പൂവ് പൊതിയുന്നു → പരാഗരേണു ശേഖരിക്കുന്നു → പരാഗണസ്ഥലത്ത് പതിപ്പിക്കുന്നു (പിന്നെ വീണ്ടും പൊതിയുന്നു)."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-139",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Towards a Hundredfold Yield",
+      "ml": "വിളയിക്കാം നൂറുമേനി"
+    },
+    "en": {
+      "question": "Which are features of plants produced by layering?\n(i) They have the qualities of the mother plant\n(ii) They flower and fruit early\n(iii) They are small and have a short lifespan",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "All three are listed in the textbook.",
+      "explanation": "Layered plants have the mother plant’s qualities, fruit early, are small, live shorter and need more care. All three are correct."
+    },
+    "ml": {
+      "question": "പതിവച്ചുണ്ടാക്കുന്ന സസ്യങ്ങളുടെ സവിശേഷതകൾ ഏവ?\n(i) മാതൃസസ്യത്തിന്റെ ഗുണങ്ങൾ ഉണ്ടാകും\n(ii) വേഗത്തിൽ പൂക്കുകയും കായ്ക്കുകയും ചെയ്യും\n(iii) വലിപ്പവും ആയുസ്സും കുറവായിരിക്കും",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "മൂന്നും പാഠപുസ്തകത്തിലുണ്ട്.",
+      "explanation": "പതിവച്ച ചെടികൾക്ക് മാതൃസസ്യത്തിന്റെ ഗുണം, വേഗം കായ്ക്കൽ, ചെറിയ വലിപ്പം, കുറഞ്ഞ ആയുസ്സ് – മൂന്നും ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Towards a Hundredfold Yield\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
   },
   {
     "id": "TB7-SCI-140",
@@ -5225,43 +5230,6 @@
     "id": "TB7-SCI-142",
     "subject": "science",
     "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Litmus is a dye made from:",
-      "options": [
-        "Turmeric",
-        "Hibiscus flowers",
-        "Lichens",
-        "Beetroot"
-      ],
-      "hint": "They grow on trees and rocks.",
-      "explanation": "Litmus is made from the extract of lichens that grow on trees, rocks and so on."
-    },
-    "ml": {
-      "question": "ലിറ്റ്മസ് എന്ന ചായം നിർമ്മിക്കുന്നത് എന്തിൽനിന്നാണ്?",
-      "options": [
-        "മഞ്ഞൾ",
-        "ചെമ്പരത്തിപ്പൂവ്",
-        "ലൈക്കണുകൾ",
-        "ബീറ്റ്റൂട്ട്"
-      ],
-      "hint": "മരങ്ങളിലും പാറകളിലും പറ്റിപ്പിടിച്ചു വളരുന്നവ.",
-      "explanation": "മരങ്ങളിലും പാറകളിലും പറ്റിപ്പിടിച്ചു വളരുന്ന ലൈക്കണുകളുടെ സത്തിൽനിന്നാണ് ലിറ്റ്മസ് നിർമ്മിക്കുന്നത്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-143",
-    "subject": "science",
-    "class": 7,
     "difficulty": "easy",
     "answer": "C",
     "chapter": {
@@ -5296,44 +5264,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-144",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Substances that help us identify acids and bases by changing their colour are called:",
-      "options": [
-        "Indicators",
-        "Antacids",
-        "Fertilisers",
-        "Pesticides"
-      ],
-      "hint": "They \"indicate\" – they show us.",
-      "explanation": "Indicators change colour in acids or bases. Litmus paper is an indicator."
-    },
-    "ml": {
-      "question": "നിറം മാറ്റത്തിലൂടെ ആസിഡിനെയും ബേസിനെയും തിരിച്ചറിയാൻ സഹായിക്കുന്ന പദാർഥങ്ങൾ:",
-      "options": [
-        "സൂചകങ്ങൾ",
-        "ആന്റാസിഡുകൾ",
-        "വളങ്ങൾ",
-        "കീടനാശിനികൾ"
-      ],
-      "hint": "ഇവ \"സൂചിപ്പിക്കുന്നു\".",
-      "explanation": "നിറം മാറി ആസിഡിനെയും ബേസിനെയും തിരിച്ചറിയാൻ സഹായിക്കുന്നവയാണ് സൂചകങ്ങൾ. ലിറ്റ്മസ് പേപ്പർ ഒരു സൂചകമാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-145",
+    "id": "TB7-SCI-143",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5370,7 +5301,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-146",
+    "id": "TB7-SCI-144",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -5407,44 +5338,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-147",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Besides litmus, which two indicators are commonly used in laboratories?",
-      "options": [
-        "Phenolphthalein and methyl orange",
-        "Turmeric and hibiscus",
-        "Pathimugam and beetroot",
-        "Urea and potash"
-      ],
-      "hint": "They come in small bottles in the lab.",
-      "explanation": "Phenolphthalein and methyl orange are two common laboratory indicators."
-    },
-    "ml": {
-      "question": "ലിറ്റ്മസിനു പുറമേ ലബോറട്ടറിയിൽ സാധാരണ ഉപയോഗിക്കുന്ന രണ്ടു സൂചകങ്ങൾ:",
-      "options": [
-        "ഫിനോഫ്താലീൻ, മീഥൈൽ ഓറഞ്ച്",
-        "മഞ്ഞൾ, ചെമ്പരത്തി",
-        "പതിമുകം, ബീറ്റ്റൂട്ട്",
-        "യൂറിയ, പൊട്ടാഷ്"
-      ],
-      "hint": "ലബോറട്ടറിയിലെ ചെറിയ കുപ്പികളിൽ.",
-      "explanation": "ഫിനോഫ്താലീനും മീഥൈൽ ഓറഞ്ചുമാണ് ലബോറട്ടറിയിലെ രണ്ടു സാധാരണ സൂചകങ്ങൾ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-148",
+    "id": "TB7-SCI-145",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5481,44 +5375,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-149",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Methyl orange turns pink in:",
-      "options": [
-        "Soap water",
-        "Lime water",
-        "Vinegar",
-        "Baking soda solution"
-      ],
-      "hint": "Methyl orange is an indicator of acids.",
-      "explanation": "Methyl orange turns pink in acids. Vinegar is the only acid here."
-    },
-    "ml": {
-      "question": "മീഥൈൽ ഓറഞ്ച് പിങ്ക് നിറമാകുന്നത് ഏതിൽ ചേർക്കുമ്പോൾ?",
-      "options": [
-        "സോപ്പുവെള്ളം",
-        "ചുണ്ണാമ്പുവെള്ളം",
-        "വിനാഗിരി",
-        "അപ്പക്കാരലായനി"
-      ],
-      "hint": "മീഥൈൽ ഓറഞ്ച് ആസിഡിന്റെ സൂചകമാണ്.",
-      "explanation": "ആസിഡുകളിൽ മീഥൈൽ ഓറഞ്ച് പിങ്ക് നിറമാകും. ഇവിടെ വിനാഗിരി മാത്രമാണ് ആസിഡ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-150",
+    "id": "TB7-SCI-146",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -5555,7 +5412,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-151",
+    "id": "TB7-SCI-147",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5592,44 +5449,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-152",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Soap and baking soda taste the same. Their taste is:",
-      "options": [
-        "Sour",
-        "Sweet",
-        "Alkaline (bitter-soapy)",
-        "Salty"
-      ],
-      "hint": "All bases have this taste.",
-      "explanation": "Bases have an alkaline taste. Soap is basic in nature."
-    },
-    "ml": {
-      "question": "സോപ്പ്, അപ്പക്കാരം എന്നിവയുടെ രുചി ഒരുപോലെയാണ്. ആ രുചി:",
-      "options": [
-        "പുളിരുചി",
-        "മധുരം",
-        "കാരരുചി",
-        "ഉപ്പുരസം"
-      ],
-      "hint": "എല്ലാ ബേസുകൾക്കും ഈ രുചിയാണ്.",
-      "explanation": "എല്ലാ ബേസുകൾക്കും കാരരുചിയാണ്. ബേസ് സ്വഭാവമുള്ള പദാർഥമാണ് സോപ്പ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-153",
+    "id": "TB7-SCI-148",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -5666,7 +5486,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-154",
+    "id": "TB7-SCI-149",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5704,7 +5524,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-155",
+    "id": "TB7-SCI-150",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -5741,155 +5561,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-156",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "The main acid in lemon is:",
-      "options": [
-        "Acetic acid",
-        "Citric acid",
-        "Lactic acid",
-        "Oxalic acid"
-      ],
-      "hint": "Lemons and oranges are \"citrus\" fruits.",
-      "explanation": "Lemon contains citric acid."
-    },
-    "ml": {
-      "question": "നാരങ്ങയിലെ പ്രധാന ആസിഡ്:",
-      "options": [
-        "അസെറ്റിക് ആസിഡ്",
-        "സിട്രിക് ആസിഡ്",
-        "ലാക്ടിക് ആസിഡ്",
-        "ഓക്സാലിക് ആസിഡ്"
-      ],
-      "hint": "നാരങ്ങ, ഓറഞ്ച് എന്നിവ \"സിട്രസ്\" പഴങ്ങളാണ്.",
-      "explanation": "നാരങ്ങയിൽ സിട്രിക് ആസിഡാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-157",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "The main acid in vinegar is:",
-      "options": [
-        "Citric acid",
-        "Malic acid",
-        "Acetic acid",
-        "Tartaric acid"
-      ],
-      "hint": "Vinegar is dilute ___ acid.",
-      "explanation": "Vinegar contains acetic acid."
-    },
-    "ml": {
-      "question": "വിനാഗിരിയിലെ പ്രധാന ആസിഡ്:",
-      "options": [
-        "സിട്രിക് ആസിഡ്",
-        "മാലിക് ആസിഡ്",
-        "അസെറ്റിക് ആസിഡ്",
-        "ടാർടാറിക് ആസിഡ്"
-      ],
-      "hint": "നേർപ്പിച്ച ___ ആസിഡാണ് വിനാഗിരി.",
-      "explanation": "വിനാഗിരിയിൽ അസെറ്റിക് ആസിഡാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-158",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "D",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "The main acid in tamarind is:",
-      "options": [
-        "Malic acid",
-        "Lactic acid",
-        "Oxalic acid",
-        "Tartaric acid"
-      ],
-      "hint": "It starts with \"T\", like tamarind.",
-      "explanation": "Tamarind contains tartaric acid."
-    },
-    "ml": {
-      "question": "വാളൻപുളിയിലെ പ്രധാന ആസിഡ്:",
-      "options": [
-        "മാലിക് ആസിഡ്",
-        "ലാക്ടിക് ആസിഡ്",
-        "ഓക്സാലിക് ആസിഡ്",
-        "ടാർടാറിക് ആസിഡ്"
-      ],
-      "hint": "ഇംഗ്ലീഷിൽ \"T\"-യിൽ തുടങ്ങുന്നു (Tamarind പോലെ).",
-      "explanation": "വാളൻപുളിയിൽ ടാർടാറിക് ആസിഡാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-159",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "A",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Which acid is found in apple?",
-      "options": [
-        "Malic acid",
-        "Citric acid",
-        "Ascorbic acid",
-        "Formic acid"
-      ],
-      "hint": "\"Malum\" is Latin for apple.",
-      "explanation": "Apple contains malic acid."
-    },
-    "ml": {
-      "question": "ആപ്പിളിൽ അടങ്ങിയിരിക്കുന്ന ആസിഡ്:",
-      "options": [
-        "മാലിക് ആസിഡ്",
-        "സിട്രിക് ആസിഡ്",
-        "അസ്കോർബിക് ആസിഡ്",
-        "ഫോർമിക് ആസിഡ്"
-      ],
-      "hint": "ലാറ്റിനിൽ ആപ്പിളിന് \"മാലം\" എന്നാണ്.",
-      "explanation": "ആപ്പിളിൽ മാലിക് ആസിഡാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-160",
+    "id": "TB7-SCI-151",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5926,7 +5598,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-161",
+    "id": "TB7-SCI-152",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -5963,7 +5635,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-162",
+    "id": "TB7-SCI-153",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6000,7 +5672,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-163",
+    "id": "TB7-SCI-154",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6037,7 +5709,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-164",
+    "id": "TB7-SCI-155",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6074,44 +5746,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-165",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "B",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Rubber tappers use formic acid to:",
-      "options": [
-        "Clean the knife",
-        "Thicken the latex",
-        "Kill weeds",
-        "Make the tree grow faster"
-      ],
-      "hint": "Think about what happens to latex next.",
-      "explanation": "Formic acid is used to thicken (set) rubber latex."
-    },
-    "ml": {
-      "question": "റബ്ബർ ടാപ്പിങ് തൊഴിലാളികൾ ഫോർമിക് ആസിഡ് ഉപയോഗിക്കുന്നത് എന്തിന്?",
-      "options": [
-        "കത്തി വൃത്തിയാക്കാൻ",
-        "റബ്ബർപാൽ കട്ടിയാക്കാൻ",
-        "കളകളെ നശിപ്പിക്കാൻ",
-        "മരം വേഗം വളരാൻ"
-      ],
-      "hint": "റബ്ബർപാലിന് പിന്നെ എന്തു സംഭവിക്കുന്നു?",
-      "explanation": "റബ്ബർപാൽ കട്ടിയാക്കാനാണ് ഫോർമിക് ആസിഡ് ഉപയോഗിക്കുന്നത്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-166",
+    "id": "TB7-SCI-156",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6148,118 +5783,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-167",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Caustic soda is the common name of:",
-      "options": [
-        "Calcium hydroxide",
-        "Potassium hydroxide",
-        "Sodium hydroxide",
-        "Magnesium hydroxide"
-      ],
-      "hint": "Soda – sodium.",
-      "explanation": "Sodium hydroxide is caustic soda. Potassium hydroxide is caustic potash; calcium hydroxide is lime."
-    },
-    "ml": {
-      "question": "കാസ്റ്റിക് സോഡ എന്നറിയപ്പെടുന്നത്:",
-      "options": [
-        "കാൽസ്യം ഹൈഡ്രോക്സൈഡ്",
-        "പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്",
-        "സോഡിയം ഹൈഡ്രോക്സൈഡ്",
-        "മഗ്നീഷ്യം ഹൈഡ്രോക്സൈഡ്"
-      ],
-      "hint": "സോഡ – സോഡിയം.",
-      "explanation": "സോഡിയം ഹൈഡ്രോക്സൈഡാണ് കാസ്റ്റിക് സോഡ. പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ് കാസ്റ്റിക് പൊട്ടാഷ്; കാൽസ്യം ഹൈഡ്രോക്സൈഡ് ചുണ്ണാമ്പ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-168",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "A",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Lime (chunnambu) is chemically:",
-      "options": [
-        "Calcium hydroxide",
-        "Sodium hydroxide",
-        "Hydrochloric acid",
-        "Acetic acid"
-      ],
-      "hint": "Lime is rich in calcium.",
-      "explanation": "Lime is calcium hydroxide, a base."
-    },
-    "ml": {
-      "question": "ചുണ്ണാമ്പ് എന്നത് ഏതു രാസവസ്തുവാണ്?",
-      "options": [
-        "കാൽസ്യം ഹൈഡ്രോക്സൈഡ്",
-        "സോഡിയം ഹൈഡ്രോക്സൈഡ്",
-        "ഹൈഡ്രോക്ലോറിക് ആസിഡ്",
-        "അസെറ്റിക് ആസിഡ്"
-      ],
-      "hint": "ചുണ്ണാമ്പിൽ കാൽസ്യം ധാരാളമുണ്ട്.",
-      "explanation": "ചുണ്ണാമ്പ് കാൽസ്യം ഹൈഡ്രോക്സൈഡാണ് – ഒരു ബേസ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-169",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Which base is used to make soft soap?",
-      "options": [
-        "Calcium hydroxide",
-        "Aluminium hydroxide",
-        "Potassium hydroxide",
-        "Magnesium hydroxide"
-      ],
-      "hint": "Its common name is caustic potash.",
-      "explanation": "Potassium hydroxide (caustic potash) is used to make soft soap."
-    },
-    "ml": {
-      "question": "സോഫ്റ്റ് സോപ്പ് ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്ന ബേസ്:",
-      "options": [
-        "കാൽസ്യം ഹൈഡ്രോക്സൈഡ്",
-        "അലൂമിനിയം ഹൈഡ്രോക്സൈഡ്",
-        "പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്",
-        "മഗ്നീഷ്യം ഹൈഡ്രോക്സൈഡ്"
-      ],
-      "hint": "ഇതിന്റെ സാധാരണ പേര് കാസ്റ്റിക് പൊട്ടാഷ്.",
-      "explanation": "പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ് (കാസ്റ്റിക് പൊട്ടാഷ്) ഉപയോഗിച്ചാണ് സോഫ്റ്റ് സോപ്പ് ഉണ്ടാക്കുന്നത്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-170",
+    "id": "TB7-SCI-157",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6296,7 +5820,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-171",
+    "id": "TB7-SCI-158",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6333,7 +5857,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-172",
+    "id": "TB7-SCI-159",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6370,7 +5894,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-173",
+    "id": "TB7-SCI-160",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6407,44 +5931,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-174",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "D",
-    "chapter": {
-      "en": "Acids and Bases",
-      "ml": "ആസിഡുകളും ബേസുകളും"
-    },
-    "en": {
-      "question": "Nitric acid is used to make:",
-      "options": [
-        "Soft drinks",
-        "Pickles",
-        "Soft soap",
-        "Chemical fertilisers, paints and dyes"
-      ],
-      "hint": "Not a food item.",
-      "explanation": "Nitric acid is used to make chemical fertilisers, paints and dyes."
-    },
-    "ml": {
-      "question": "നൈട്രിക് ആസിഡ് ഉപയോഗിക്കുന്നത്:",
-      "options": [
-        "പാനീയങ്ങൾ ഉണ്ടാക്കാൻ",
-        "അച്ചാർ ഉണ്ടാക്കാൻ",
-        "സോഫ്റ്റ് സോപ്പ് ഉണ്ടാക്കാൻ",
-        "രാസവളം, പെയിന്റ്, ചായങ്ങൾ എന്നിവ നിർമ്മിക്കാൻ"
-      ],
-      "hint": "ഭക്ഷ്യവസ്തുവല്ല.",
-      "explanation": "നൈട്രിക് ആസിഡ് രാസവളം, പെയിന്റ്, ചായങ്ങൾ എന്നിവ നിർമ്മിക്കാൻ ഉപയോഗിക്കുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-175",
+    "id": "TB7-SCI-161",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6481,7 +5968,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-176",
+    "id": "TB7-SCI-162",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6518,7 +6005,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-177",
+    "id": "TB7-SCI-163",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6555,7 +6042,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-178",
+    "id": "TB7-SCI-164",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -6592,7 +6079,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-179",
+    "id": "TB7-SCI-165",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6629,7 +6116,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-180",
+    "id": "TB7-SCI-166",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6667,7 +6154,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-181",
+    "id": "TB7-SCI-167",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -6704,7 +6191,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-182",
+    "id": "TB7-SCI-168",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6741,7 +6228,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-183",
+    "id": "TB7-SCI-169",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -6778,7 +6265,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-184",
+    "id": "TB7-SCI-170",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -6815,7 +6302,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-185",
+    "id": "TB7-SCI-171",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6852,7 +6339,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-186",
+    "id": "TB7-SCI-172",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6889,7 +6376,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-187",
+    "id": "TB7-SCI-173",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -6926,7 +6413,81 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-188",
+    "id": "TB7-SCI-174",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Lemon\n(b) Tamarind\n(c) Apple\n(d) Vinegar\n(1) Malic acid\n(2) Acetic acid\n(3) Citric acid\n(4) Tartaric acid",
+      "options": [
+        "a-3, b-1, c-4, d-2",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-1, d-2",
+        "a-2, b-4, c-1, d-3"
+      ],
+      "hint": "Apple – \"malum\" in Latin.",
+      "explanation": "Lemon – citric; tamarind – tartaric; apple – malic; vinegar – acetic."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) നാരങ്ങ\n(b) വാളൻപുളി\n(c) ആപ്പിൾ\n(d) വിനാഗിരി\n(1) മാലിക് ആസിഡ്\n(2) അസെറ്റിക് ആസിഡ്\n(3) സിട്രിക് ആസിഡ്\n(4) ടാർടാറിക് ആസിഡ്",
+      "options": [
+        "a-3, b-1, c-4, d-2",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-1, d-2",
+        "a-2, b-4, c-1, d-3"
+      ],
+      "hint": "ആപ്പിളിന് ലാറ്റിനിൽ \"മാലം\".",
+      "explanation": "നാരങ്ങ – സിട്രിക്; വാളൻപുളി – ടാർടാറിക്; ആപ്പിൾ – മാലിക്; വിനാഗിരി – അസെറ്റിക്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-175",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Sodium hydroxide\n(b) Potassium hydroxide\n(c) Calcium hydroxide\n(1) Caustic soda\n(2) Caustic potash\n(3) Lime",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1",
+        "a-1, b-3, c-2"
+      ],
+      "hint": "Soda – sodium; potash – potassium.",
+      "explanation": "Sodium hydroxide – caustic soda; potassium hydroxide – caustic potash; calcium hydroxide – lime."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) സോഡിയം ഹൈഡ്രോക്സൈഡ്\n(b) പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്\n(c) കാൽസ്യം ഹൈഡ്രോക്സൈഡ്\n(1) കാസ്റ്റിക് സോഡ\n(2) കാസ്റ്റിക് പൊട്ടാഷ്\n(3) ചുണ്ണാമ്പ്",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1",
+        "a-1, b-3, c-2"
+      ],
+      "hint": "സോഡ – സോഡിയം; പൊട്ടാഷ് – പൊട്ടാസ്യം.",
+      "explanation": "സോഡിയം ഹൈഡ്രോക്സൈഡ് – കാസ്റ്റിക് സോഡ; പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ് – കാസ്റ്റിക് പൊട്ടാഷ്; കാൽസ്യം ഹൈഡ്രോക്സൈഡ് – ചുണ്ണാമ്പ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-176",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -6936,26 +6497,26 @@
       "ml": "ആസിഡുകളും ബേസുകളും"
     },
     "en": {
-      "question": "Home-made soap taken out of the mould can be used after:",
+      "question": "Match the following:\n(a) Calcium hydroxide\n(b) Sodium hydroxide\n(c) Potassium hydroxide\n(d) Magnesium hydroxide\n(1) Medicines\n(2) Soft soap\n(3) Soap, paper and rayon\n(4) Glass making",
       "options": [
-        "One hour",
-        "One day",
-        "Two days",
-        "Two weeks"
+        "a-3, b-1, c-4, d-2",
+        "a-2, b-4, c-1, d-3",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1"
       ],
-      "hint": "It needs time to become fully ready.",
-      "explanation": "After it hardens, the soap is taken out of the mould and can be used after two weeks."
+      "hint": "Soft soap uses caustic potash.",
+      "explanation": "Calcium hydroxide – glass; sodium hydroxide – soap, paper, rayon; potassium hydroxide – soft soap; magnesium hydroxide – medicines."
     },
     "ml": {
-      "question": "മോൾഡിൽനിന്ന് ഇളക്കിയെടുത്ത സോപ്പ് എത്ര കഴിഞ്ഞ് ഉപയോഗിക്കാം?",
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) കാൽസ്യം ഹൈഡ്രോക്സൈഡ്\n(b) സോഡിയം ഹൈഡ്രോക്സൈഡ്\n(c) പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്\n(d) മഗ്നീഷ്യം ഹൈഡ്രോക്സൈഡ്\n(1) മരുന്നുകൾ\n(2) സോഫ്റ്റ് സോപ്പ്\n(3) സോപ്പ്, കടലാസ്, റയോൺ\n(4) ഗ്ലാസ് നിർമ്മാണം",
       "options": [
-        "ഒരു മണിക്കൂർ",
-        "ഒരു ദിവസം",
-        "രണ്ടു ദിവസം",
-        "രണ്ടാഴ്ച"
+        "a-3, b-1, c-4, d-2",
+        "a-2, b-4, c-1, d-3",
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1"
       ],
-      "hint": "പൂർണ്ണമായി തയ്യാറാകാൻ സമയം വേണം.",
-      "explanation": "ഉറച്ചശേഷം മോൾഡിൽനിന്ന് ഇളക്കിയെടുത്ത് രണ്ടാഴ്ച കഴിഞ്ഞ് ഉപയോഗിക്കാം."
+      "hint": "സോഫ്റ്റ് സോപ്പിന് കാസ്റ്റിക് പൊട്ടാഷ്.",
+      "explanation": "കാൽസ്യം ഹൈഡ്രോക്സൈഡ് – ഗ്ലാസ്; സോഡിയം ഹൈഡ്രോക്സൈഡ് – സോപ്പ്, കടലാസ്, റയോൺ; പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ് – സോഫ്റ്റ് സോപ്പ്; മഗ്നീഷ്യം ഹൈഡ്രോക്സൈഡ് – മരുന്നുകൾ."
     },
     "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
     "year": 2026,
@@ -6963,7 +6524,492 @@
     "needsReview": false
   },
   {
+    "id": "TB7-SCI-177",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Sulphuric acid\n(b) Tannic acid\n(c) Citric acid\n(d) Formic acid\n(1) Leather and ink\n(2) Vehicle batteries\n(3) Thickening rubber latex\n(4) Making drinks",
+      "options": [
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2",
+        "a-2, b-1, c-4, d-3"
+      ],
+      "hint": "Leather making is \"tanning\".",
+      "explanation": "Sulphuric – batteries; tannic – leather and ink; citric – drinks; formic – thickening latex."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) സൾഫ്യൂറിക് ആസിഡ്\n(b) ടാനിക് ആസിഡ്\n(c) സിട്രിക് ആസിഡ്\n(d) ഫോർമിക് ആസിഡ്\n(1) തുകലും മഷിയും\n(2) വാഹന ബാറ്ററി\n(3) റബ്ബർപാൽ കട്ടിയാക്കാൻ\n(4) പാനീയങ്ങൾ ഉണ്ടാക്കാൻ",
+      "options": [
+        "a-4, b-3, c-1, d-2",
+        "a-3, b-4, c-2, d-1",
+        "a-1, b-4, c-3, d-2",
+        "a-2, b-1, c-4, d-3"
+      ],
+      "hint": "തുകൽ ഊറയ്ക്കിടുന്നതിന് \"tanning\" എന്നു പറയും.",
+      "explanation": "സൾഫ്യൂറിക് – ബാറ്ററി; ടാനിക് – തുകൽ, മഷി; സിട്രിക് – പാനീയങ്ങൾ; ഫോർമിക് – റബ്ബർപാൽ കട്ടിയാക്കൽ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-178",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Which statements about litmus are correct?\n(i) It is made from the extract of lichens\n(ii) Acids turn blue litmus red\n(iii) Bases turn blue litmus red",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Bases change red litmus, not blue.",
+      "explanation": "Bases turn red litmus blue. (i) and (ii) are correct."
+    },
+    "ml": {
+      "question": "ലിറ്റ്മസിനെക്കുറിച്ചുള്ള ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) ലൈക്കണുകളുടെ സത്തിൽനിന്നാണ് നിർമ്മിക്കുന്നത്\n(ii) ആസിഡുകൾ നീല ലിറ്റ്മസിനെ ചുവപ്പാക്കുന്നു\n(iii) ബേസുകൾ നീല ലിറ്റ്മസിനെ ചുവപ്പാക്കുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "ബേസുകൾ മാറ്റുന്നത് ചുവപ്പ് ലിറ്റ്മസിനെയാണ്.",
+      "explanation": "ബേസുകൾ ചുവപ്പ് ലിറ്റ്മസിനെ നീലയാക്കുന്നു. (i), (ii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-179",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) Turmeric is a natural indicator of acids\n(ii) Phenolphthalein turns pink in bases\n(iii) Methyl orange turns pink in acids",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Turmeric changes colour with soap water.",
+      "explanation": "Turmeric is a natural indicator of bases. (ii) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) മഞ്ഞൾ ആസിഡുകളുടെ പ്രകൃതിദത്ത സൂചകമാണ്\n(ii) ബേസുകളിൽ ഫിനോഫ്താലീൻ പിങ്ക് നിറമാകുന്നു\n(iii) ആസിഡുകളിൽ മീഥൈൽ ഓറഞ്ച് പിങ്ക് നിറമാകുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "സോപ്പുവെള്ളം വീഴുമ്പോഴാണ് മഞ്ഞളിന്റെ നിറം മാറുന്നത്.",
+      "explanation": "മഞ്ഞൾ ബേസുകളുടെ പ്രകൃതിദത്ത സൂചകമാണ്. (ii), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-180",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "\"Rubber tappers use me to thicken latex. I am also found in the body of ants.\" Who am I?",
+      "options": [
+        "Citric acid",
+        "Lactic acid",
+        "Formic acid",
+        "Acetic acid"
+      ],
+      "hint": "Ant in Latin is \"formica\".",
+      "explanation": "Formic acid thickens rubber latex; it is also in ants and makes their bite painful."
+    },
+    "ml": {
+      "question": "\"റബ്ബർപാൽ കട്ടിയാക്കാൻ ടാപ്പിങ് തൊഴിലാളികൾ എന്നെ ഉപയോഗിക്കുന്നു. ഉറുമ്പിന്റെ ശരീരത്തിലും ഞാനുണ്ട്.\" ഞാൻ ആര്?",
+      "options": [
+        "സിട്രിക് ആസിഡ്",
+        "ലാക്ടിക് ആസിഡ്",
+        "ഫോർമിക് ആസിഡ്",
+        "അസെറ്റിക് ആസിഡ്"
+      ],
+      "hint": "ഉറുമ്പിന് ലാറ്റിനിൽ \"ഫോർമിക\".",
+      "explanation": "ഫോർമിക് ആസിഡ് റബ്ബർപാൽ കട്ടിയാക്കുന്നു; ഉറുമ്പിലുമുണ്ട് – ഉറുമ്പുകടിയുടെ വേദനയ്ക്ക് കാരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-181",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "\"I am a base. My common name is caustic soda. I am used to make soap, paper and rayon.\" Who am I?",
+      "options": [
+        "Calcium hydroxide",
+        "Potassium hydroxide",
+        "Magnesium hydroxide",
+        "Sodium hydroxide"
+      ],
+      "hint": "Soda – sodium.",
+      "explanation": "Sodium hydroxide (caustic soda) is used to make soap, paper and rayon."
+    },
+    "ml": {
+      "question": "\"ഞാൻ ഒരു ബേസാണ്. കാസ്റ്റിക് സോഡ എന്നാണ് എന്റെ സാധാരണ പേര്. സോപ്പ്, കടലാസ്, റയോൺ എന്നിവ ഉണ്ടാക്കാൻ എന്നെ ഉപയോഗിക്കുന്നു.\" ഞാൻ ആര്?",
+      "options": [
+        "കാൽസ്യം ഹൈഡ്രോക്സൈഡ്",
+        "പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്",
+        "മഗ്നീഷ്യം ഹൈഡ്രോക്സൈഡ്",
+        "സോഡിയം ഹൈഡ്രോക്സൈഡ്"
+      ],
+      "hint": "സോഡ – സോഡിയം.",
+      "explanation": "സോഡിയം ഹൈഡ്രോക്സൈഡ് (കാസ്റ്റിക് സോഡ) സോപ്പ്, കടലാസ്, റയോൺ എന്നിവ ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-182",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Find the odd one out:",
+      "options": [
+        "Hydrochloric acid",
+        "Sulphuric acid",
+        "Nitric acid",
+        "Citric acid"
+      ],
+      "hint": "Which one can you find in a lemon?",
+      "explanation": "Hydrochloric, sulphuric and nitric acids are strong acids used in laboratories. Citric acid is a weak acid found in food."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "ഹൈഡ്രോക്ലോറിക് ആസിഡ്",
+        "സൾഫ്യൂറിക് ആസിഡ്",
+        "നൈട്രിക് ആസിഡ്",
+        "സിട്രിക് ആസിഡ്"
+      ],
+      "hint": "നാരങ്ങയിൽ കാണുന്നത് ഏത്?",
+      "explanation": "ഹൈഡ്രോക്ലോറിക്, സൾഫ്യൂറിക്, നൈട്രിക് എന്നിവ ലബോറട്ടറിയിലെ വീര്യം കൂടിയ ആസിഡുകൾ. സിട്രിക് ആസിഡ് ഭക്ഷ്യവസ്തുക്കളിലെ വീര്യം കുറഞ്ഞ ആസിഡാണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-183",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Find the odd one out:",
+      "options": [
+        "Calcium hydroxide",
+        "Acetic acid",
+        "Sodium hydroxide",
+        "Potassium hydroxide"
+      ],
+      "hint": "Three of them are bases.",
+      "explanation": "Calcium, sodium and potassium hydroxides are bases. Acetic acid is an acid."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത്?",
+      "options": [
+        "കാൽസ്യം ഹൈഡ്രോക്സൈഡ്",
+        "അസെറ്റിക് ആസിഡ്",
+        "സോഡിയം ഹൈഡ്രോക്സൈഡ്",
+        "പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡ്"
+      ],
+      "hint": "മൂന്നെണ്ണം ബേസുകളാണ്.",
+      "explanation": "കാൽസ്യം, സോഡിയം, പൊട്ടാസ്യം ഹൈഡ്രോക്സൈഡുകൾ ബേസുകൾ. അസെറ്റിക് ആസിഡ് ആസിഡാണ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-184",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Statement: The acids in lemon, tamarind and curd do not harm us when we eat them.\nReason: Acids in food items are weak.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Compare them with laboratory acids.",
+      "explanation": "Acids in food are weak, unlike many strong laboratory acids. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: നാരങ്ങ, പുളി, തൈര് എന്നിവയിലെ ആസിഡുകൾ കഴിക്കുമ്പോൾ നമുക്ക് ദോഷം ചെയ്യുന്നില്ല.\nകാരണം: ഭക്ഷ്യവസ്തുക്കളിലെ ആസിഡുകൾ വീര്യം കുറഞ്ഞവയാണ്.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ലബോറട്ടറിയിലെ ആസിഡുകളുമായി താരതമ്യം ചെയ്യൂ.",
+      "explanation": "ഭക്ഷ്യവസ്തുക്കളിലെ ആസിഡുകൾ വീര്യം കുറഞ്ഞവയാണ്; ലബോറട്ടറിയിലെ പലതും വീര്യം കൂടിയവ. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-185",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Statement: Soap feels slippery when rubbed between the fingers.\nReason: Soap is basic in nature.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Slippery feel is a property of which group?",
+      "explanation": "Bases feel slippery, and soap is a base. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: സോപ്പ് വിരലുകൾക്കിടയിൽ ഉരയ്ക്കുമ്പോൾ വഴുവഴുപ്പ് തോന്നുന്നു.\nകാരണം: ബേസ് സ്വഭാവമുള്ള പദാർഥമാണ് സോപ്പ്.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "വഴുവഴുപ്പ് ഏതു കൂട്ടരുടെ സ്വഭാവമാണ്?",
+      "explanation": "ബേസുകൾക്ക് വഴുവഴുപ്പുണ്ട്; സോപ്പ് ബേസാണ്. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-186",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Statement: Calcium hydroxide is used to reduce the acidity of soil.\nReason: Calcium hydroxide is an acid.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Can an acid reduce acidity?",
+      "explanation": "Calcium hydroxide (lime) is a base; that is why it reduces soil acidity. The statement is true; the reason is false."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: മണ്ണിന്റെ അസിഡിറ്റി കുറയ്ക്കാൻ കാൽസ്യം ഹൈഡ്രോക്സൈഡ് ഉപയോഗിക്കുന്നു.\nകാരണം: കാൽസ്യം ഹൈഡ്രോക്സൈഡ് ഒരു ആസിഡാണ്.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ആസിഡ് അസിഡിറ്റി കുറയ്ക്കുമോ?",
+      "explanation": "കാൽസ്യം ഹൈഡ്രോക്സൈഡ് (ചുണ്ണാമ്പ്) ബേസാണ്; അതുകൊണ്ടാണ് മണ്ണിന്റെ അസിഡിറ്റി കുറയ്ക്കുന്നത്. പ്രസ്താവന ശരി, കാരണം തെറ്റ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-187",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Put the steps of making soap in order:\n(i) Pour the thick mixture into the mould\n(ii) Dissolve caustic soda in water in a steel bowl\n(iii) Add sodium silicate and stone powder one by one\n(iv) When it cools, pour it slowly into coconut oil while stirring",
+      "options": [
+        "(ii), (iii), (iv), (i)",
+        "(ii), (iv), (iii), (i)",
+        "(iv), (ii), (iii), (i)",
+        "(ii), (iv), (i), (iii)"
+      ],
+      "hint": "The mould comes last.",
+      "explanation": "Dissolve caustic soda → cool and pour into coconut oil while stirring → add sodium silicate and stone powder → pour into the mould."
+    },
+    "ml": {
+      "question": "സോപ്പ് നിർമ്മാണത്തിന്റെ ഘട്ടങ്ങൾ ക്രമത്തിലാക്കുക:\n(i) കുറുകിയ മിശ്രിതം മോൾഡിലേക്ക് ഒഴിക്കുന്നു\n(ii) സ്റ്റീൽ പാത്രത്തിലെ വെള്ളത്തിൽ കാസ്റ്റിക് സോഡ ലയിപ്പിക്കുന്നു\n(iii) സോഡിയം സിലിക്കേറ്റും സ്റ്റോൺ പൗഡറും ഓരോന്നായി ചേർക്കുന്നു\n(iv) തണുത്തശേഷം ഇളക്കിക്കൊണ്ട് വെളിച്ചെണ്ണയിലേക്ക് പതുക്കെ ഒഴിക്കുന്നു",
+      "options": [
+        "(ii), (iii), (iv), (i)",
+        "(ii), (iv), (iii), (i)",
+        "(iv), (ii), (iii), (i)",
+        "(ii), (iv), (i), (iii)"
+      ],
+      "hint": "മോൾഡ് അവസാനമാണ്.",
+      "explanation": "കാസ്റ്റിക് സോഡ ലയിപ്പിക്കുന്നു → തണുത്തശേഷം വെളിച്ചെണ്ണയിൽ ഇളക്കി ഒഴിക്കുന്നു → സോഡിയം സിലിക്കേറ്റും സ്റ്റോൺ പൗഡറും ചേർക്കുന്നു → മോൾഡിൽ ഒഴിക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-188",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) Hydrochloric acid is produced in the stomach to help digestion\n(ii) Antacids are acids that increase stomach acid\n(iii) Too much stomach acid causes acidity",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "What does \"anti\" mean?",
+      "explanation": "Antacids neutralise extra stomach acid; they do not add acid. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) ദഹനത്തെ സഹായിക്കാൻ ആമാശയത്തിൽ ഹൈഡ്രോക്ലോറിക് ആസിഡ് ഉൽപാദിപ്പിക്കുന്നു\n(ii) ആമാശയത്തിലെ ആസിഡ് കൂട്ടുന്ന ആസിഡുകളാണ് ആന്റാസിഡുകൾ\n(iii) ആമാശയത്തിലെ ആസിഡ് കൂടുന്നതാണ് അസിഡിറ്റി",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "\"ആന്റി\" എന്നാൽ എതിര്.",
+      "explanation": "ആന്റാസിഡുകൾ അധിക ആസിഡിനെ നിർവീര്യമാക്കുന്നു; ആസിഡ് കൂട്ടുന്നില്ല. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
     "id": "TB7-SCI-189",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Acids and Bases",
+      "ml": "ആസിഡുകളും ബേസുകളും"
+    },
+    "en": {
+      "question": "\"I give curd its sour taste. Lactobacillus bacteria make me while feeding on milk.\" Who am I?",
+      "options": [
+        "Lactic acid",
+        "Citric acid",
+        "Ascorbic acid",
+        "Tartaric acid"
+      ],
+      "hint": "\"Lacto\" means milk.",
+      "explanation": "Lactobacillus bacteria in curd produce lactic acid, which makes curd sour."
+    },
+    "ml": {
+      "question": "\"തൈരിന് പുളിരുചി നൽകുന്നത് ഞാനാണ്. ലാക്ടോബാസിലസ് ബാക്ടീരിയ പാലിൽനിന്ന് പോഷണം നടത്തുമ്പോൾ ഞാൻ ഉണ്ടാകുന്നു.\" ഞാൻ ആര്?",
+      "options": [
+        "ലാക്ടിക് ആസിഡ്",
+        "സിട്രിക് ആസിഡ്",
+        "അസ്കോർബിക് ആസിഡ്",
+        "ടാർടാറിക് ആസിഡ്"
+      ],
+      "hint": "\"ലാക്ടോ\" എന്നാൽ പാൽ.",
+      "explanation": "തൈരിലെ ലാക്ടോബാസിലസ് ബാക്ടീരിയ ഉണ്ടാക്കുന്ന ലാക്ടിക് ആസിഡാണ് തൈരിന് പുളിരുചി നൽകുന്നത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Acids and Bases\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-190",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7000,7 +7046,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-190",
+    "id": "TB7-SCI-191",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7037,7 +7083,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-191",
+    "id": "TB7-SCI-192",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7074,7 +7120,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-192",
+    "id": "TB7-SCI-193",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7111,7 +7157,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-193",
+    "id": "TB7-SCI-194",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7141,43 +7187,6 @@
       ],
       "hint": "ചാർജ് ചെയ്യാൻ പ്ലഗിൽ കുത്തുന്നു.",
       "explanation": "മൊബൈൽ ഫോണിലെ ബാറ്ററി റീചാർജ് ചെയ്ത് വീണ്ടും ഉപയോഗിക്കാം. ക്ലോക്കിലെ സെല്ലിന്റെ ചാർജ് തീർന്നാൽ വീണ്ടും ഉപയോഗിക്കാൻ കഴിയില്ല."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-194",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "What is the full form of LED?",
-      "options": [
-        "Low Energy Device",
-        "Light Electric Diode",
-        "Light Emitting Diode",
-        "Long Electric Display"
-      ],
-      "hint": "It \"emits\" light.",
-      "explanation": "LED stands for Light Emitting Diode. It saves a lot of energy."
-    },
-    "ml": {
-      "question": "LED എന്നതിന്റെ പൂർണ്ണരൂപം:",
-      "options": [
-        "ലോ എനർജി ഡിവൈസ്",
-        "ലൈറ്റ് ഇലക്ട്രിക് ഡയോഡ്",
-        "ലൈറ്റ് എമിറ്റിംഗ് ഡയോഡ്",
-        "ലോങ് ഇലക്ട്രിക് ഡിസ്പ്ലേ"
-      ],
-      "hint": "ഇത് പ്രകാശം പുറപ്പെടുവിക്കുന്നു (emit).",
-      "explanation": "LED = ലൈറ്റ് എമിറ്റിംഗ് ഡയോഡ് (Light Emitting Diode). ഊർജലാഭത്തിന് ഗണ്യമായി സഹായിക്കുന്നു."
     },
     "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
     "year": 2026,
@@ -7226,43 +7235,6 @@
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
-    "answer": "D",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "An arrangement of more than one LED bulb in a strip is called:",
-      "options": [
-        "A filament",
-        "A CFL",
-        "A switch",
-        "An LED module"
-      ],
-      "hint": "You used it to make the emergency lamp.",
-      "explanation": "An LED module is several LED bulbs arranged on a strip."
-    },
-    "ml": {
-      "question": "ഒന്നിലധികം LED ബൾബുകൾ ഒരു സ്ട്രിപ്പിൽ ക്രമീകരിച്ച സംവിധാനം:",
-      "options": [
-        "ഫിലമെന്റ്",
-        "CFL",
-        "സ്വിച്ച്",
-        "LED മൊഡ്യൂൾ"
-      ],
-      "hint": "എമർജൻസി ലാമ്പ് ഉണ്ടാക്കാൻ ഉപയോഗിച്ചത്.",
-      "explanation": "ഒന്നിലധികം LED ബൾബുകൾ ഒരു സ്ട്രിപ്പിൽ ക്രമീകരിച്ചതാണ് LED മൊഡ്യൂൾ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-197",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
     "answer": "B",
     "chapter": {
       "en": "The World of Electricity",
@@ -7296,7 +7268,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-198",
+    "id": "TB7-SCI-197",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7333,7 +7305,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-199",
+    "id": "TB7-SCI-198",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7370,44 +7342,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-200",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "When a switch is turned ON, the circuit becomes:",
-      "options": [
-        "Closed",
-        "Open",
-        "Broken",
-        "Shorter"
-      ],
-      "hint": "Devices work only in this kind.",
-      "explanation": "A switch closes the circuit when turned on and opens it when turned off."
-    },
-    "ml": {
-      "question": "സ്വിച്ച് ഓൺ ആക്കുമ്പോൾ സെർക്കീട്ട്:",
-      "options": [
-        "അടഞ്ഞതാകുന്നു",
-        "തുറന്നതാകുന്നു",
-        "പൊട്ടുന്നു",
-        "ചെറുതാകുന്നു"
-      ],
-      "hint": "ഉപകരണങ്ങൾ പ്രവർത്തിക്കുന്നത് ഇതിലാണ്.",
-      "explanation": "സ്വിച്ച് ഓണാക്കുമ്പോൾ സെർക്കീട്ട് അടഞ്ഞതാകുന്നു; ഓഫാക്കുമ്പോൾ തുറന്നതാകുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-201",
+    "id": "TB7-SCI-199",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7444,7 +7379,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-202",
+    "id": "TB7-SCI-200",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7481,7 +7416,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-203",
+    "id": "TB7-SCI-201",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7518,7 +7453,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-204",
+    "id": "TB7-SCI-202",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7555,7 +7490,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-205",
+    "id": "TB7-SCI-203",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7592,7 +7527,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-206",
+    "id": "TB7-SCI-204",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7630,7 +7565,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-207",
+    "id": "TB7-SCI-205",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7667,7 +7602,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-208",
+    "id": "TB7-SCI-206",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7704,81 +7639,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-209",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "D",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "Which tool does an electrician use to remove the insulation from a wire?",
-      "options": [
-        "Tester",
-        "Screw driver",
-        "Hammer",
-        "Stripper"
-      ],
-      "hint": "It \"strips\" the plastic off.",
-      "explanation": "A stripper removes insulation. Cutting pliers cut wire, and a tester checks for current."
-    },
-    "ml": {
-      "question": "വയറിലെ ഇൻസുലേഷൻ കളയാൻ ഇലക്ട്രീഷ്യൻ ഉപയോഗിക്കുന്ന ഉപകരണം:",
-      "options": [
-        "ടെസ്റ്റർ",
-        "സ്ക്രൂ ഡ്രൈവർ",
-        "ചുറ്റിക",
-        "സ്ട്രിപ്പർ"
-      ],
-      "hint": "പ്ലാസ്റ്റിക് ആവരണം ഊരി (strip) കളയുന്നു.",
-      "explanation": "സ്ട്രിപ്പർ ഇൻസുലേഷൻ കളയുന്നു. കട്ടിംഗ് പ്ലയർ വയർ മുറിക്കാനും ടെസ്റ്റർ വൈദ്യുതപ്രവാഹം പരിശോധിക്കാനും."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-210",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "An electrician’s tester is used to:",
-      "options": [
-        "Check whether electric current is present",
-        "Cut wires",
-        "Remove insulation",
-        "Join two wires"
-      ],
-      "hint": "Its name says it.",
-      "explanation": "A tester is used to test for electric current."
-    },
-    "ml": {
-      "question": "ഇലക്ട്രീഷ്യന്റെ ടെസ്റ്റർ ഉപയോഗിക്കുന്നത്:",
-      "options": [
-        "വൈദ്യുതപ്രവാഹം ഉണ്ടോ എന്നു പരിശോധിക്കാൻ",
-        "വയർ മുറിക്കാൻ",
-        "ഇൻസുലേഷൻ കളയാൻ",
-        "രണ്ടു വയറുകൾ ചേർക്കാൻ"
-      ],
-      "hint": "പേരിൽത്തന്നെ ഉത്തരമുണ്ട്.",
-      "explanation": "വൈദ്യുതപ്രവാഹം പരിശോധിക്കാനാണ് ടെസ്റ്റർ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-211",
+    "id": "TB7-SCI-207",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7815,7 +7676,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-212",
+    "id": "TB7-SCI-208",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -7852,7 +7713,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-213",
+    "id": "TB7-SCI-209",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7889,7 +7750,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-214",
+    "id": "TB7-SCI-210",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7926,7 +7787,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-215",
+    "id": "TB7-SCI-211",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -7963,7 +7824,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-216",
+    "id": "TB7-SCI-212",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8000,7 +7861,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-217",
+    "id": "TB7-SCI-213",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -8038,7 +7899,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-218",
+    "id": "TB7-SCI-214",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8075,7 +7936,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-219",
+    "id": "TB7-SCI-215",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8112,7 +7973,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-220",
+    "id": "TB7-SCI-216",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -8149,7 +8010,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-221",
+    "id": "TB7-SCI-217",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8186,7 +8047,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-222",
+    "id": "TB7-SCI-218",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8223,44 +8084,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-223",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "A solar panel is:",
-      "options": [
-        "A combination of two or more solar cells",
-        "A single LED",
-        "A type of switch",
-        "A small battery"
-      ],
-      "hint": "Many cells together.",
-      "explanation": "A solar cell changes solar energy into electrical energy. A solar panel is two or more solar cells joined together."
-    },
-    "ml": {
-      "question": "സോളാർപാനൽ എന്നാൽ:",
-      "options": [
-        "ഒന്നിലധികം സോളാർസെല്ലുകൾ ചേർന്നത്",
-        "ഒരൊറ്റ LED",
-        "ഒരുതരം സ്വിച്ച്",
-        "ചെറിയൊരു ബാറ്ററി"
-      ],
-      "hint": "പല സെല്ലുകൾ ഒരുമിച്ച്.",
-      "explanation": "സൗരോർജത്തെ വൈദ്യുതോർജമാക്കുന്നതാണ് സോളാർസെൽ. ഒന്നിലധികം സോളാർസെല്ലുകൾ ചേർന്നതാണ് സോളാർപാനൽ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-224",
+    "id": "TB7-SCI-219",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8297,7 +8121,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-225",
+    "id": "TB7-SCI-220",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8334,7 +8158,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-226",
+    "id": "TB7-SCI-221",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8371,44 +8195,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-227",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "B",
-    "chapter": {
-      "en": "The World of Electricity",
-      "ml": "വൈദ്യുതിയുടെ ലോകം"
-    },
-    "en": {
-      "question": "Insulation tape is used to cover the joints of electric wires because it is:",
-      "options": [
-        "A conductor",
-        "An insulator",
-        "A metal",
-        "A source of electricity"
-      ],
-      "hint": "It stops current from reaching our hands.",
-      "explanation": "Insulation tape does not let electricity pass, so it keeps bare joints safe."
-    },
-    "ml": {
-      "question": "വയറുകളുടെ ചേർപ്പുകൾ ഇൻസുലേഷൻ ടേപ്പുകൊണ്ട് പൊതിയുന്നത് അത് ഒരു ___ ആയതിനാലാണ്.",
-      "options": [
-        "ചാലകം",
-        "ഇൻസുലേറ്റർ",
-        "ലോഹം",
-        "വൈദ്യുതസ്രോതസ്സ്"
-      ],
-      "hint": "ഇത് വൈദ്യുതി നമ്മുടെ കയ്യിലെത്തുന്നത് തടയുന്നു.",
-      "explanation": "ഇൻസുലേഷൻ ടേപ്പ് വൈദ്യുതി കടത്തിവിടില്ല; തുറന്ന ചേർപ്പുകൾ സുരക്ഷിതമാക്കുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-228",
+    "id": "TB7-SCI-222",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8445,7 +8232,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-229",
+    "id": "TB7-SCI-223",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -8482,81 +8269,269 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-230",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "Which of these is a transparent object?",
-      "options": [
-        "Wooden block",
-        "Butter paper",
-        "Window glass",
-        "A coin"
-      ],
-      "hint": "Light passes through it very well.",
-      "explanation": "Objects that let light pass through very well are transparent, like window glass and clear water."
-    },
-    "ml": {
-      "question": "സുതാര്യവസ്തു ഏത്?",
-      "options": [
-        "മരക്കട്ട",
-        "ബട്ടർ പേപ്പർ",
-        "ജനൽച്ചില്ല്",
-        "നാണയം"
-      ],
-      "hint": "പ്രകാശം നന്നായി കടത്തിവിടുന്നു.",
-      "explanation": "പ്രകാശം നന്നായി കടത്തിവിടുന്നവയാണ് സുതാര്യവസ്തുക്കൾ – ജനൽച്ചില്ല്, ശുദ്ധജലം തുടങ്ങിയവ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-231",
+    "id": "TB7-SCI-224",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
     "answer": "B",
     "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
     },
     "en": {
-      "question": "Butter paper lets only part of the light pass through. It is:",
+      "question": "Match the following:\n(a) Cutting pliers\n(b) Stripper\n(c) Tester\n(1) Remove insulation\n(2) Test for electric current\n(3) Cut wire",
       "options": [
-        "Transparent",
-        "Translucent",
-        "Opaque",
-        "A mirror"
+        "a-1, b-3, c-2",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1"
       ],
-      "hint": "Partly – not fully, not at all.",
-      "explanation": "Objects that transmit light partially are translucent, like butter paper, oiled paper and scratched glass."
+      "hint": "Each tool’s name tells its job.",
+      "explanation": "Cutting pliers – cut wire; stripper – remove insulation; tester – test for current."
     },
     "ml": {
-      "question": "ബട്ടർ പേപ്പർ പ്രകാശം ഭാഗികമായി മാത്രം കടത്തിവിടുന്നു. അത്:",
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) കട്ടിംഗ് പ്ലയർ\n(b) സ്ട്രിപ്പർ\n(c) ടെസ്റ്റർ\n(1) ഇൻസുലേഷൻ കളയാൻ\n(2) വൈദ്യുതപ്രവാഹം പരിശോധിക്കാൻ\n(3) വയർ മുറിക്കാൻ",
       "options": [
-        "സുതാര്യവസ്തു",
-        "അർധതാര്യവസ്തു",
-        "അതാര്യവസ്തു",
-        "ദർപ്പണം"
+        "a-1, b-3, c-2",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1"
       ],
-      "hint": "ഭാഗികമായി – പൂർണ്ണമായുമല്ല, ഒട്ടുമില്ലാതെയുമല്ല.",
-      "explanation": "പ്രകാശം ഭാഗികമായി കടത്തിവിടുന്നവയാണ് അർധതാര്യവസ്തുക്കൾ – ബട്ടർ പേപ്പർ, ഓയിൽ പേപ്പർ, പോറലുള്ള ചില്ല് തുടങ്ങിയവ."
+      "hint": "ഓരോ ഉപകരണത്തിന്റെയും പേരിൽത്തന്നെ ഉപയോഗമുണ്ട്.",
+      "explanation": "കട്ടിംഗ് പ്ലയർ – വയർ മുറിക്കാൻ; സ്ട്രിപ്പർ – ഇൻസുലേഷൻ കളയാൻ; ടെസ്റ്റർ – വൈദ്യുതപ്രവാഹം പരിശോധിക്കാൻ."
     },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
     "year": 2026,
     "reviewed": false,
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-232",
+    "id": "TB7-SCI-225",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) LED stands for Light Emitting Diode\n(ii) An LED module has more than one LED in a strip\n(iii) An LED bulb needs more energy than a CFL",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "LED is the energy saver.",
+      "explanation": "LED bulbs need less energy than CFL. (i) and (ii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) LED എന്നാൽ ലൈറ്റ് എമിറ്റിംഗ് ഡയോഡ്\n(ii) ഒന്നിലധികം LED-കൾ ഒരു സ്ട്രിപ്പിൽ ക്രമീകരിച്ചതാണ് LED മൊഡ്യൂൾ\n(iii) CFL-നേക്കാൾ കൂടുതൽ ഊർജം LED ബൾബിന് വേണം",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "ഊർജം ലാഭിക്കുന്നത് LED.",
+      "explanation": "LED-ക്ക് CFL-നേക്കാൾ കുറഞ്ഞ ഊർജം മതി. (i), (ii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-226",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "B",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Statement: A circuit becomes closed when the switch is turned on.\nReason: Electric devices work only in a closed circuit.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Does the reason tell us WHY the switch closes the circuit?",
+      "explanation": "Both are true, but the reason does not explain the statement – a switch closes the circuit by completing the path."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: സ്വിച്ച് ഓണാക്കുമ്പോൾ സെർക്കീട്ട് അടഞ്ഞതാകുന്നു.\nകാരണം: അടഞ്ഞ സെർക്കീട്ടിൽ മാത്രമേ വൈദ്യുതോപകരണങ്ങൾ പ്രവർത്തിക്കൂ.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "സ്വിച്ച് സെർക്കീട്ട് അടയ്ക്കുന്നത് എന്തുകൊണ്ടെന്ന് കാരണം പറയുന്നുണ്ടോ?",
+      "explanation": "രണ്ടും ശരി. പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല – സ്വിച്ച് വഴി പൂർത്തിയാക്കുന്നതുകൊണ്ടാണ് സെർക്കീട്ട് അടയുന്നത്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-227",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) A solar cell changes solar energy into electrical energy\n(ii) Chandrayaan-3 got its electricity from diesel\n(iii) A solar panel is made of two or more solar cells",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "There is no fuel station in space.",
+      "explanation": "Chandrayaan-3 used solar panels. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) സോളാർസെൽ സൗരോർജത്തെ വൈദ്യുതോർജമാക്കുന്നു\n(ii) ചന്ദ്രയാൻ 3-ന് വൈദ്യുതി ലഭിച്ചത് ഡീസലിൽനിന്നാണ്\n(iii) ഒന്നിലധികം സോളാർസെല്ലുകൾ ചേർന്നതാണ് സോളാർപാനൽ",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "ബഹിരാകാശത്ത് ഇന്ധനം നിറയ്ക്കാൻ കഴിയില്ലല്ലോ.",
+      "explanation": "ചന്ദ്രയാൻ 3 സോളാർപാനലുകൾ ഉപയോഗിച്ചു. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-228",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Statement: Joints of electric wires are wrapped with insulation tape.\nReason: Insulation tape does not let electricity pass through.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "What kind of material is the tape?",
+      "explanation": "The tape is an insulator, so it keeps bare joints safe. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: വൈദ്യുതവയറുകളുടെ ചേർപ്പുകൾ ഇൻസുലേഷൻ ടേപ്പുകൊണ്ട് പൊതിയുന്നു.\nകാരണം: ഇൻസുലേഷൻ ടേപ്പ് വൈദ്യുതി കടത്തിവിടില്ല.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ടേപ്പ് ഏതുതരം വസ്തുവാണ്?",
+      "explanation": "ടേപ്പ് ഇൻസുലേറ്ററാണ്; തുറന്ന ചേർപ്പുകൾ സുരക്ഷിതമാക്കുന്നു. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-229",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "\"I store energy as chemical energy and give it out as electrical energy. Join two or more of me and you get a battery.\" Who am I?",
+      "options": [
+        "Generator",
+        "Switch",
+        "Solar panel",
+        "Electric cell"
+      ],
+      "hint": "A torch has one or two of me.",
+      "explanation": "An electric cell changes chemical energy into electrical energy. More than one cell joined together is a battery."
+    },
+    "ml": {
+      "question": "\"ഞാൻ ഊർജം രാസോർജമായി സംഭരിച്ച് വൈദ്യുതോർജമായി നൽകുന്നു. എന്നെ ഒന്നിലധികം ചേർത്താൽ ബാറ്ററിയാകും.\" ഞാൻ ആര്?",
+      "options": [
+        "ജനറേറ്റർ",
+        "സ്വിച്ച്",
+        "സോളാർപാനൽ",
+        "വൈദ്യുതസെൽ"
+      ],
+      "hint": "ടോർച്ചിൽ ഞാനുണ്ട്.",
+      "explanation": "വൈദ്യുതസെൽ രാസോർജത്തെ വൈദ്യുതോർജമാക്കുന്നു. ഒന്നിലധികം സെല്ലുകൾ ചേർന്നതാണ് ബാറ്ററി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-230",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "C",
+    "chapter": {
+      "en": "The World of Electricity",
+      "ml": "വൈദ്യുതിയുടെ ലോകം"
+    },
+    "en": {
+      "question": "Put the steps to help a person getting an electric shock in order:\n(i) If the heart has stopped, give chest compressions\n(ii) Take the person to a hospital if the shock is serious\n(iii) Switch off or remove the fuse to cut the electric contact",
+      "options": [
+        "(i), (iii), (ii)",
+        "(iii), (ii), (i)",
+        "(iii), (i), (ii)",
+        "(ii), (iii), (i)"
+      ],
+      "hint": "Stop the current before touching anyone.",
+      "explanation": "First cut the electric contact, then give chest compressions if needed, and take the person to hospital if the shock is serious."
+    },
+    "ml": {
+      "question": "ഷോക്കേറ്റയാളെ രക്ഷിക്കാനുള്ള ഘട്ടങ്ങൾ ക്രമത്തിലാക്കുക:\n(i) ഹൃദയമിടിപ്പ് നിലച്ചെങ്കിൽ നെഞ്ചിൽ തുടർച്ചയായി അമർത്തുക\n(ii) ഷോക്ക് ഗുരുതരമെങ്കിൽ ആശുപത്രിയിലെത്തിക്കുക\n(iii) സ്വിച്ച് ഓഫ് ചെയ്തോ ഫ്യൂസ് ഊരിയോ വൈദ്യുതബന്ധം ഒഴിവാക്കുക",
+      "options": [
+        "(i), (iii), (ii)",
+        "(iii), (ii), (i)",
+        "(iii), (i), (ii)",
+        "(ii), (iii), (i)"
+      ],
+      "hint": "ആരെയും തൊടുന്നതിനുമുമ്പ് വൈദ്യുതി നിർത്തണം.",
+      "explanation": "ആദ്യം വൈദ്യുതബന്ധം ഒഴിവാക്കുക, ആവശ്യമെങ്കിൽ നെഞ്ചിൽ അമർത്തുക, ഗുരുതരമെങ്കിൽ ആശുപത്രിയിലെത്തിക്കുക."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"The World of Electricity\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-231",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -8593,7 +8568,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-233",
+    "id": "TB7-SCI-232",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8630,7 +8605,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-234",
+    "id": "TB7-SCI-233",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8667,7 +8642,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-235",
+    "id": "TB7-SCI-234",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8704,44 +8679,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-236",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "We use oil paper to trace pictures and maps because it is:",
-      "options": [
-        "Opaque",
-        "A mirror",
-        "Translucent",
-        "A conductor"
-      ],
-      "hint": "You can see the lines through it, but not clearly.",
-      "explanation": "Oil paper is translucent, so the picture below shows through it for tracing."
-    },
-    "ml": {
-      "question": "ചിത്രങ്ങളും മാപ്പുകളും ട്രേസ് ചെയ്യാൻ ഓയിൽ പേപ്പർ ഉപയോഗിക്കുന്നത് അത് ___ ആയതിനാലാണ്.",
-      "options": [
-        "അതാര്യം",
-        "ദർപ്പണം",
-        "അർധതാര്യം",
-        "ചാലകം"
-      ],
-      "hint": "അടിയിലെ വരകൾ മങ്ങിയെങ്കിലും കാണാം.",
-      "explanation": "ഓയിൽ പേപ്പർ അർധതാര്യമാണ്; അതിനാൽ അടിയിലെ ചിത്രം കണ്ട് ട്രേസ് ചെയ്യാം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-237",
+    "id": "TB7-SCI-235",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8778,7 +8716,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-238",
+    "id": "TB7-SCI-236",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -8815,44 +8753,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-239",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "The returning of light when it strikes an object is called:",
-      "options": [
-        "Reflection of light",
-        "Transmission of light",
-        "Light pollution",
-        "Lateral inversion"
-      ],
-      "hint": "Light bounces back.",
-      "explanation": "Reflection of light is the returning of light after it strikes an object."
-    },
-    "ml": {
-      "question": "പ്രകാശം വസ്തുക്കളിൽ തട്ടി തിരിച്ചുവരുന്നതിനെ എന്തു പറയുന്നു?",
-      "options": [
-        "പ്രകാശത്തിന്റെ പ്രതിപതനം",
-        "പ്രകാശം കടത്തിവിടൽ",
-        "പ്രകാശമലിനീകരണം",
-        "പാർശ്വികവിപര്യയം"
-      ],
-      "hint": "പ്രകാശം തട്ടി തിരിച്ചുവരുന്നു.",
-      "explanation": "പ്രകാശം വസ്തുക്കളിൽ തട്ടി തിരിച്ചുവരുന്നതാണ് പ്രകാശത്തിന്റെ പ്രതിപതനം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-240",
+    "id": "TB7-SCI-237",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8889,7 +8790,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-241",
+    "id": "TB7-SCI-238",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -8926,7 +8827,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-242",
+    "id": "TB7-SCI-239",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -8963,81 +8864,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-243",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "A",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "The line drawn perpendicular to the mirror at the point of incidence is called:",
-      "options": [
-        "The normal",
-        "The incident ray",
-        "The reflected ray",
-        "The plane"
-      ],
-      "hint": "It makes 90° with the mirror.",
-      "explanation": "The normal is the line perpendicular to the mirror at the point where the incident ray falls."
-    },
-    "ml": {
-      "question": "പതനബിന്ദുവിൽ ദർപ്പണത്തിന് ലംബമായി വരയ്ക്കുന്ന രേഖ:",
-      "options": [
-        "ലംബം",
-        "പതനരശ്മി",
-        "പ്രതിപതനരശ്മി",
-        "തലം"
-      ],
-      "hint": "ദർപ്പണവുമായി 90° ഉണ്ടാക്കുന്നു.",
-      "explanation": "പതനബിന്ദുവിൽ ദർപ്പണത്തിന് ലംബമായി വരയ്ക്കുന്ന രേഖയാണ് ലംബം (Normal)."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-244",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "The ray of light that falls on a mirror is called the:",
-      "options": [
-        "Reflected ray",
-        "Incident ray",
-        "Normal",
-        "Image"
-      ],
-      "hint": "It is the ray that \"falls\" (is incident).",
-      "explanation": "The ray falling on the mirror is the incident ray; the ray coming back is the reflected ray."
-    },
-    "ml": {
-      "question": "ദർപ്പണത്തിൽ പതിക്കുന്ന പ്രകാശരശ്മിയെ എന്തു പറയുന്നു?",
-      "options": [
-        "പ്രതിപതനരശ്മി",
-        "പതനരശ്മി",
-        "ലംബം",
-        "പ്രതിബിംബം"
-      ],
-      "hint": "ദർപ്പണത്തിൽ \"പതിക്കുന്ന\" രശ്മി.",
-      "explanation": "ദർപ്പണത്തിൽ പതിക്കുന്നത് പതനരശ്മി; തട്ടി തിരിച്ചുവരുന്നത് പ്രതിപതനരശ്മി."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-245",
+    "id": "TB7-SCI-240",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -9074,7 +8901,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-246",
+    "id": "TB7-SCI-241",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9112,7 +8939,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-247",
+    "id": "TB7-SCI-242",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -9149,7 +8976,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-248",
+    "id": "TB7-SCI-243",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9186,7 +9013,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-249",
+    "id": "TB7-SCI-244",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9223,44 +9050,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-250",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "A mirror with a flat surface is called a:",
-      "options": [
-        "Kaleidoscope",
-        "Periscope",
-        "Plane mirror",
-        "Prism"
-      ],
-      "hint": "\"Plane\" means flat.",
-      "explanation": "A mirror with a flat surface is a plane mirror. We can see our image in it."
-    },
-    "ml": {
-      "question": "ഉപരിതലം നിരപ്പായ ദർപ്പണത്തെ എന്തു പറയുന്നു?",
-      "options": [
-        "കാലിഡോസ്കോപ്പ്",
-        "പെരിസ്കോപ്പ്",
-        "സമതലദർപ്പണം",
-        "പ്രിസം"
-      ],
-      "hint": "\"സമതലം\" എന്നാൽ നിരപ്പായത്.",
-      "explanation": "ഉപരിതലം നിരപ്പായ ദർപ്പണമാണ് സമതലദർപ്പണം. ഇതിൽ നമ്മുടെ പ്രതിബിംബം കാണാം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-251",
+    "id": "TB7-SCI-245",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -9297,44 +9087,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-252",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "D",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "In a plane mirror, the left side of an object appears as the right side of the image. This is called:",
-      "options": [
-        "Multiple reflection",
-        "Diffused reflection",
-        "Light pollution",
-        "Lateral inversion"
-      ],
-      "hint": "\"Lateral\" means sideways.",
-      "explanation": "This sideways swapping of left and right is lateral inversion."
-    },
-    "ml": {
-      "question": "സമതലദർപ്പണത്തിൽ വസ്തുവിന്റെ ഇടതുഭാഗം പ്രതിബിംബത്തിന്റെ വലതുഭാഗമായി കാണുന്ന പ്രതിഭാസം:",
-      "options": [
-        "ആവർത്തനപ്രതിപതനം",
-        "വിസരിത പ്രതിപതനം",
-        "പ്രകാശമലിനീകരണം",
-        "പാർശ്വികവിപര്യയം"
-      ],
-      "hint": "\"പാർശ്വം\" എന്നാൽ വശം.",
-      "explanation": "ഇടതും വലതും പരസ്പരം മാറിക്കാണുന്നതാണ് പാർശ്വികവിപര്യയം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-253",
+    "id": "TB7-SCI-246",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9371,44 +9124,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-254",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "A person has a mole on the LEFT cheek. In a plane mirror, the mole is seen on which side of the image?",
-      "options": [
-        "Left side",
-        "On the forehead",
-        "Right side",
-        "It is not seen"
-      ],
-      "hint": "Left becomes …",
-      "explanation": "Because of lateral inversion, a mole on the left cheek appears on the right side of the image."
-    },
-    "ml": {
-      "question": "ഒരാളുടെ ഇടതു കവിളിൽ ഒരു മറുകുണ്ട്. സമതലദർപ്പണത്തിലെ പ്രതിബിംബത്തിൽ അത് ഏതു വശത്താണ് കാണുക?",
-      "options": [
-        "ഇടതുവശത്ത്",
-        "നെറ്റിയിൽ",
-        "വലതുവശത്ത്",
-        "കാണില്ല"
-      ],
-      "hint": "ഇടത് മാറി …",
-      "explanation": "പാർശ്വികവിപര്യയം കാരണം ഇടതു കവിളിലെ മറുക് പ്രതിബിംബത്തിന്റെ വലതുവശത്ത് കാണും."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-255",
+    "id": "TB7-SCI-247",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9445,7 +9161,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-256",
+    "id": "TB7-SCI-248",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -9482,7 +9198,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-257",
+    "id": "TB7-SCI-249",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9520,44 +9236,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-258",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "In a barber shop we see many images of ourselves. This is because of:",
-      "options": [
-        "Diffused reflection",
-        "Lateral inversion only",
-        "Multiple reflection",
-        "Light pollution"
-      ],
-      "hint": "Mirrors facing each other.",
-      "explanation": "Mirrors placed facing each other reflect light again and again – multiple reflection – so many images are formed."
-    },
-    "ml": {
-      "question": "ബാർബർഷോപ്പിൽ നമ്മുടെ ധാരാളം പ്രതിബിംബങ്ങൾ കാണുന്നതിന് കാരണം:",
-      "options": [
-        "വിസരിത പ്രതിപതനം",
-        "പാർശ്വികവിപര്യയം മാത്രം",
-        "ആവർത്തനപ്രതിപതനം",
-        "പ്രകാശമലിനീകരണം"
-      ],
-      "hint": "അഭിമുഖമായി വച്ച ദർപ്പണങ്ങൾ.",
-      "explanation": "അഭിമുഖമായ ദർപ്പണങ്ങളിൽ പ്രകാശം ആവർത്തിച്ച് പ്രതിപതിക്കുന്നതിനാൽ (ആവർത്തനപ്രതിപതനം) അനേകം പ്രതിബിംബങ്ങൾ ഉണ്ടാകുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-259",
+    "id": "TB7-SCI-250",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9594,7 +9273,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-260",
+    "id": "TB7-SCI-251",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -9631,7 +9310,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-261",
+    "id": "TB7-SCI-252",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9668,44 +9347,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-262",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "\"Three plane mirrors are taped into a triangle. Put coloured bangle pieces inside, turn me, and see beautiful patterns.\" What am I?",
-      "options": [
-        "Periscope",
-        "Telescope",
-        "Kaleidoscope",
-        "Microscope"
-      ],
-      "hint": "Its name means \"seeing beautiful shapes\".",
-      "explanation": "A kaleidoscope uses multiple reflection in three mirrors arranged in a triangle."
-    },
-    "ml": {
-      "question": "\"മൂന്നു സമതലദർപ്പണങ്ങൾ ത്രികോണാകൃതിയിൽ ഒട്ടിച്ചതാണ് ഞാൻ. ഉള്ളിൽ വളപ്പൊട്ടുകളിട്ട് തിരിച്ചാൽ മനോഹരമായ രൂപങ്ങൾ കാണാം.\" ഞാൻ ആര്?",
-      "options": [
-        "പെരിസ്കോപ്പ്",
-        "ടെലിസ്കോപ്പ്",
-        "കാലിഡോസ്കോപ്പ്",
-        "മൈക്രോസ്കോപ്പ്"
-      ],
-      "hint": "ഭംഗിയുള്ള രൂപങ്ങൾ കാണിക്കുന്ന ഉപകരണം.",
-      "explanation": "ത്രികോണാകൃതിയിൽ ക്രമീകരിച്ച മൂന്നു ദർപ്പണങ്ങളിലെ ആവർത്തനപ്രതിപതനമാണ് കാലിഡോസ്കോപ്പിൽ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-263",
+    "id": "TB7-SCI-253",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9742,44 +9384,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-264",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "A",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "How many plane mirrors are fixed in the periscope you make, and where?",
-      "options": [
-        "Two, at the slanting ends, facing inside",
-        "One, at the top only",
-        "Three, in a triangle",
-        "Four, on all sides"
-      ],
-      "hint": "One mirror at each end.",
-      "explanation": "Two plane mirrors are fixed at the slanting ends with their reflecting surfaces facing inside, so light reflects twice to reach the eye."
-    },
-    "ml": {
-      "question": "നിങ്ങൾ നിർമ്മിക്കുന്ന പെരിസ്കോപ്പിൽ എത്ര സമതലദർപ്പണങ്ങൾ, എവിടെയാണ് ഉറപ്പിക്കുന്നത്?",
-      "options": [
-        "രണ്ടെണ്ണം, ചരിഞ്ഞ അറ്റങ്ങളിൽ, ഉള്ളിലേക്ക് അഭിമുഖമായി",
-        "ഒരെണ്ണം, മുകളിൽ മാത്രം",
-        "മൂന്നെണ്ണം, ത്രികോണാകൃതിയിൽ",
-        "നാലെണ്ണം, എല്ലാ വശത്തും"
-      ],
-      "hint": "ഓരോ അറ്റത്തും ഓരോന്ന്.",
-      "explanation": "രണ്ടു സമതലദർപ്പണങ്ങൾ ചരിഞ്ഞ അറ്റങ്ങളിൽ, പ്രതിപതനതലം ഉള്ളിലേക്കാക്കി ഉറപ്പിക്കുന്നു. പ്രകാശം രണ്ടുതവണ പ്രതിപതിച്ച് കണ്ണിലെത്തുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-265",
+    "id": "TB7-SCI-254",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -9816,44 +9421,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-266",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "When Light Reflects",
-      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
-    },
-    "en": {
-      "question": "Too much artificial light at night, which harms animals and hides the stars, is called:",
-      "options": [
-        "Noise pollution",
-        "Light pollution",
-        "Water pollution",
-        "Multiple reflection"
-      ],
-      "hint": "It is a kind of pollution caused by light.",
-      "explanation": "This is light pollution. Many sky views seen only on clear dark nights are lost because of it."
-    },
-    "ml": {
-      "question": "ജീവികളെ ബാധിക്കുകയും നക്ഷത്രങ്ങളെ മറയ്ക്കുകയും ചെയ്യുന്ന, രാത്രിയിലെ അമിതമായ കൃത്രിമപ്രകാശം:",
-      "options": [
-        "ശബ്ദമലിനീകരണം",
-        "പ്രകാശമലിനീകരണം",
-        "ജലമലിനീകരണം",
-        "ആവർത്തനപ്രതിപതനം"
-      ],
-      "hint": "പ്രകാശം മൂലമുള്ള മലിനീകരണം.",
-      "explanation": "ഇതാണ് പ്രകാശമലിനീകരണം. തെളിഞ്ഞ രാത്രികളിൽ മാത്രം കാണാവുന്ന ആകാശക്കാഴ്ചകൾ ഇതുമൂലം നഷ്ടമാകുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-267",
+    "id": "TB7-SCI-255",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9890,7 +9458,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-268",
+    "id": "TB7-SCI-256",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -9927,7 +9495,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-269",
+    "id": "TB7-SCI-257",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9964,7 +9532,492 @@
     "needsReview": false
   },
   {
+    "id": "TB7-SCI-258",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Window glass\n(b) Butter paper\n(c) Wooden block\n(1) Transparent\n(2) Translucent\n(3) Opaque",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-1, c-3",
+        "a-1, b-3, c-2",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "Which one lets no light through?",
+      "explanation": "Window glass – transparent; butter paper – translucent; wooden block – opaque."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) ജനൽച്ചില്ല്\n(b) ബട്ടർ പേപ്പർ\n(c) മരക്കട്ട\n(1) സുതാര്യം\n(2) അർധതാര്യം\n(3) അതാര്യം",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-1, c-3",
+        "a-1, b-3, c-2",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "പ്രകാശം ഒട്ടും കടത്തിവിടാത്തത് ഏത്?",
+      "explanation": "ജനൽച്ചില്ല് – സുതാര്യം; ബട്ടർ പേപ്പർ – അർധതാര്യം; മരക്കട്ട – അതാര്യം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-259",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "B",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) Opaque objects let light pass through completely\n(ii) Transparent objects let light pass through very well\n(iii) Translucent objects let light pass through partially",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Opaque objects block light.",
+      "explanation": "Opaque objects do not let light pass at all. (ii) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) അതാര്യവസ്തുക്കൾ പ്രകാശം പൂർണ്ണമായി കടത്തിവിടുന്നു\n(ii) സുതാര്യവസ്തുക്കൾ പ്രകാശം നന്നായി കടത്തിവിടുന്നു\n(iii) അർധതാര്യവസ്തുക്കൾ പ്രകാശം ഭാഗികമായി കടത്തിവിടുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "അതാര്യവസ്തുക്കൾ പ്രകാശം തടയുന്നു.",
+      "explanation": "അതാര്യവസ്തുക്കൾ പ്രകാശം ഒട്ടും കടത്തിവിടില്ല. (ii), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-260",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) The ray of light falling on a mirror is the incident ray\n(ii) The angle between the reflected ray and the mirror surface is the angle of reflection\n(iii) The normal is perpendicular to the mirror at the point of incidence",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Angles are measured from the normal, not from the mirror.",
+      "explanation": "The angle of reflection is between the reflected ray and the normal. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) ദർപ്പണത്തിൽ പതിക്കുന്ന പ്രകാശരശ്മിയാണ് പതനരശ്മി\n(ii) പ്രതിപതനരശ്മിയും ദർപ്പണപ്രതലവും തമ്മിലുള്ള കോണാണ് പ്രതിപതനകോൺ\n(iii) പതനബിന്ദുവിൽ ദർപ്പണത്തിന് ലംബമായ രേഖയാണ് ലംബം",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "കോണുകൾ അളക്കുന്നത് ലംബത്തിൽനിന്നാണ്, ദർപ്പണത്തിൽനിന്നല്ല.",
+      "explanation": "പ്രതിപതനരശ്മിയും ലംബവും തമ്മിലുള്ള കോണാണ് പ്രതിപതനകോൺ. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-261",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "\"I am a line drawn at 90° to the mirror at the point of incidence. The angle of incidence and the angle of reflection are both measured from me.\" Who am I?",
+      "options": [
+        "Incident ray",
+        "Reflected ray",
+        "Plane",
+        "Normal"
+      ],
+      "hint": "It is also called the perpendicular.",
+      "explanation": "The normal is perpendicular to the mirror at the point of incidence."
+    },
+    "ml": {
+      "question": "\"പതനബിന്ദുവിൽ ദർപ്പണത്തിന് 90°-ൽ വരയ്ക്കുന്ന രേഖയാണ് ഞാൻ. പതനകോണും പ്രതിപതനകോണും എന്നിൽനിന്നാണ് അളക്കുന്നത്.\" ഞാൻ ആര്?",
+      "options": [
+        "പതനരശ്മി",
+        "പ്രതിപതനരശ്മി",
+        "തലം",
+        "ലംബം"
+      ],
+      "hint": "ദർപ്പണത്തിന് നേരെ കുത്തനെ.",
+      "explanation": "പതനബിന്ദുവിൽ ദർപ്പണത്തിന് ലംബമായി വരയ്ക്കുന്നതാണ് ലംബം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-262",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Statement: Oil paper is used to trace pictures and maps.\nReason: Oil paper is translucent.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Can you see the map through it?",
+      "explanation": "Oil paper lets some light through, so the picture below shows through. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: ചിത്രങ്ങളും മാപ്പുകളും ട്രേസ് ചെയ്യാൻ ഓയിൽ പേപ്പർ ഉപയോഗിക്കുന്നു.\nകാരണം: ഓയിൽ പേപ്പർ അർധതാര്യമാണ്.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "അതിലൂടെ മാപ്പ് കാണാമോ?",
+      "explanation": "ഓയിൽ പേപ്പർ പ്രകാശം ഭാഗികമായി കടത്തിവിടുന്നതിനാൽ അടിയിലെ ചിത്രം കാണാം. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-263",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Statement: A mole on a person’s left cheek appears on the right side of the image in a plane mirror.\nReason: A plane mirror shows lateral inversion.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Left and right swap.",
+      "explanation": "Because of lateral inversion, left appears as right. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: ഒരാളുടെ ഇടതു കവിളിലെ മറുക് സമതലദർപ്പണത്തിലെ പ്രതിബിംബത്തിന്റെ വലതുവശത്ത് കാണുന്നു.\nകാരണം: സമതലദർപ്പണത്തിൽ പാർശ്വികവിപര്യയം സംഭവിക്കുന്നു.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ഇടതും വലതും മാറുന്നു.",
+      "explanation": "പാർശ്വികവിപര്യയം കാരണം ഇടത് വലതായി കാണുന്നു. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-264",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Statement: The image in a plane mirror is smaller than the object.\nReason: The object and the image are at equal distances from the mirror.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Remember the two candles of the same height.",
+      "explanation": "In a plane mirror the image is the same size as the object, so the statement is false. The reason is true."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: സമതലദർപ്പണത്തിലെ പ്രതിബിംബം വസ്തുവിനേക്കാൾ ചെറുതാണ്.\nകാരണം: വസ്തുവും പ്രതിബിംബവും ദർപ്പണത്തിൽനിന്ന് തുല്യ അകലത്തിലാണ്.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ഒരേ ഉയരമുള്ള രണ്ടു മെഴുകുതിരികൾ ഓർക്കൂ.",
+      "explanation": "സമതലദർപ്പണത്തിൽ വസ്തുവിന്റെയും പ്രതിബിംബത്തിന്റെയും വലിപ്പം തുല്യം; പ്രസ്താവന തെറ്റ്. കാരണം ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-265",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Kaleidoscope\n(b) Periscope\n(c) Two parallel mirrors\n(1) Many endless images\n(2) Two mirrors at slanting ends; shows the view above\n(3) Three mirrors in a triangle; colourful patterns",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-2, c-1",
+        "a-3, b-1, c-2"
+      ],
+      "hint": "Bangle pieces go into which one?",
+      "explanation": "Kaleidoscope – three mirrors, patterns; periscope – two slanting mirrors, view above; parallel mirrors – endless images."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) കാലിഡോസ്കോപ്പ്\n(b) പെരിസ്കോപ്പ്\n(c) അഭിമുഖമായ രണ്ടു ദർപ്പണങ്ങൾ\n(1) അനന്തമായ പ്രതിബിംബങ്ങൾ\n(2) ചരിഞ്ഞ അറ്റങ്ങളിൽ രണ്ടു ദർപ്പണങ്ങൾ; മുകളിലെ കാഴ്ച കാണാം\n(3) ത്രികോണാകൃതിയിൽ മൂന്നു ദർപ്പണങ്ങൾ; നിറമുള്ള രൂപങ്ങൾ",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-2, b-3, c-1",
+        "a-3, b-2, c-1",
+        "a-3, b-1, c-2"
+      ],
+      "hint": "വളപ്പൊട്ടുകൾ ഇടുന്നത് ഏതിൽ?",
+      "explanation": "കാലിഡോസ്കോപ്പ് – മൂന്നു ദർപ്പണങ്ങൾ, രൂപങ്ങൾ; പെരിസ്കോപ്പ് – ചരിഞ്ഞ രണ്ടു ദർപ്പണങ്ങൾ, മുകളിലെ കാഴ്ച; അഭിമുഖ ദർപ്പണങ്ങൾ – അനന്തമായ പ്രതിബിംബങ്ങൾ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-266",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Which are problems caused by light pollution?\n(i) It harms animals that hunt in the dark\n(ii) It helps owls to hunt better\n(iii) People miss views of the sky on clear nights",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Remember the worried owl.",
+      "explanation": "Light pollution troubles animals like owls and hides the night sky. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "പ്രകാശമലിനീകരണം ഉണ്ടാക്കുന്ന പ്രശ്നങ്ങൾ ഏവ?\n(i) ഇരുട്ടിൽ ഇരതേടുന്ന ജീവികൾക്ക് ദോഷകരമാകുന്നു\n(ii) മൂങ്ങകൾക്ക് നന്നായി ഇരതേടാൻ സഹായിക്കുന്നു\n(iii) തെളിഞ്ഞ രാത്രികളിലെ ആകാശക്കാഴ്ചകൾ മനുഷ്യർക്ക് നഷ്ടമാകുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "വിഷമിച്ചിരിക്കുന്ന മൂങ്ങയെ ഓർക്കൂ.",
+      "explanation": "പ്രകാശമലിനീകരണം മൂങ്ങപോലുള്ള ജീവികളെ ബാധിക്കുന്നു; ആകാശക്കാഴ്ചകൾ മറയ്ക്കുന്നു. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-267",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "D",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Find the odd one out (type of reflection):",
+      "options": [
+        "Mirror",
+        "Still water",
+        "Polished furniture",
+        "Sandpaper"
+      ],
+      "hint": "Three of them are smooth and shiny.",
+      "explanation": "Mirror, still water and polished furniture give regular reflection. Sandpaper is rough and gives diffused reflection."
+    },
+    "ml": {
+      "question": "കൂട്ടത്തിൽ പെടാത്തത് ഏത് (പ്രതിപതനരീതി)?",
+      "options": [
+        "ദർപ്പണം",
+        "കെട്ടിനിൽക്കുന്ന വെള്ളം",
+        "പോളിഷ് ചെയ്ത ഫർണിച്ചർ",
+        "സാൻഡ് പേപ്പർ"
+      ],
+      "hint": "മൂന്നെണ്ണം മിനുസമുള്ളവ.",
+      "explanation": "ദർപ്പണം, കെട്ടിനിൽക്കുന്ന വെള്ളം, പോളിഷ് ചെയ്ത ഫർണിച്ചർ – ക്രമപ്രതിപതനം. സാൻഡ് പേപ്പർ പരുപരുത്തതാണ് – വിസരിത പ്രതിപതനം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-268",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Clues: smooth surface • light returns in an orderly way • we see a clear image. Identify it.",
+      "options": [
+        "Regular reflection",
+        "Diffused reflection",
+        "Light pollution",
+        "Transmission of light"
+      ],
+      "hint": "The opposite of scattering.",
+      "explanation": "Light falling on smooth surfaces reflects regularly – this is regular reflection, as in a mirror."
+    },
+    "ml": {
+      "question": "സൂചനകൾ: മിനുസമുള്ള പ്രതലം • പ്രകാശം ക്രമമായി പ്രതിപതിക്കുന്നു • വ്യക്തമായ പ്രതിബിംബം. ഇത് ഏത്?",
+      "options": [
+        "ക്രമപ്രതിപതനം",
+        "വിസരിത പ്രതിപതനം",
+        "പ്രകാശമലിനീകരണം",
+        "പ്രകാശം കടത്തിവിടൽ"
+      ],
+      "hint": "ചിതറലിന്റെ എതിര്.",
+      "explanation": "മിനുസമുള്ള പ്രതലങ്ങളിൽ പ്രകാശം ക്രമമായി പ്രതിപതിക്കുന്നു – ക്രമപ്രതിപതനം; ദർപ്പണത്തിലേതുപോലെ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-269",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "How do we see a book in a lit room? Put the steps in order:\n(i) The light is reflected from the book\n(ii) Light from the bulb falls on the book\n(iii) The reflected light reaches our eyes",
+      "options": [
+        "(i), (ii), (iii)",
+        "(ii), (i), (iii)",
+        "(ii), (iii), (i)",
+        "(iii), (ii), (i)"
+      ],
+      "hint": "Light must reach the book first.",
+      "explanation": "Light from the bulb falls on the book, is reflected, and reaches our eyes."
+    },
+    "ml": {
+      "question": "വെളിച്ചമുള്ള മുറിയിൽ പുസ്തകം കാണുന്നത് എങ്ങനെ? ഘട്ടങ്ങൾ ക്രമത്തിലാക്കുക:\n(i) പ്രകാശം പുസ്തകത്തിൽ തട്ടി പ്രതിപതിക്കുന്നു\n(ii) ബൾബിൽനിന്നുള്ള പ്രകാശം പുസ്തകത്തിൽ പതിക്കുന്നു\n(iii) പ്രതിപതിച്ച പ്രകാശം കണ്ണിലെത്തുന്നു",
+      "options": [
+        "(i), (ii), (iii)",
+        "(ii), (i), (iii)",
+        "(ii), (iii), (i)",
+        "(iii), (ii), (i)"
+      ],
+      "hint": "ആദ്യം പ്രകാശം പുസ്തകത്തിലെത്തണം.",
+      "explanation": "ബൾബിന്റെ പ്രകാശം പുസ്തകത്തിൽ പതിക്കുന്നു, പ്രതിപതിക്കുന്നു, കണ്ണിലെത്തുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
     "id": "TB7-SCI-270",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "hard",
+    "answer": "D",
+    "chapter": {
+      "en": "When Light Reflects",
+      "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ"
+    },
+    "en": {
+      "question": "Match the angle between two mirrors with the number of images:\n(a) 120°\n(b) 90°\n(c) 60°\n(d) 30°\n(1) 3\n(2) 5\n(3) 11\n(4) 2",
+      "options": [
+        "a-3, b-1, c-4, d-2",
+        "a-4, b-3, c-1, d-2",
+        "a-2, b-3, c-1, d-4",
+        "a-4, b-1, c-2, d-3"
+      ],
+      "hint": "Number of images = 360 ÷ angle − 1.",
+      "explanation": "120° – 2; 90° – 3; 60° – 5; 30° – 11."
+    },
+    "ml": {
+      "question": "ദർപ്പണങ്ങൾക്കിടയിലെ കോണളവും പ്രതിബിംബങ്ങളുടെ എണ്ണവും ചേരുംപടി ചേർക്കുക:\n(a) 120°\n(b) 90°\n(c) 60°\n(d) 30°\n(1) 3\n(2) 5\n(3) 11\n(4) 2",
+      "options": [
+        "a-3, b-1, c-4, d-2",
+        "a-4, b-3, c-1, d-2",
+        "a-2, b-3, c-1, d-4",
+        "a-4, b-1, c-2, d-3"
+      ],
+      "hint": "പ്രതിബിംബങ്ങളുടെ എണ്ണം = 360 ÷ കോണളവ് − 1.",
+      "explanation": "120° – 2; 90° – 3; 60° – 5; 30° – 11."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"When Light Reflects\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-271",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -9994,43 +10047,6 @@
       ],
       "hint": "കൂട്ടത്തിലെ ഓരോ ജീവിയെയും പരിശോധിക്കൂ.",
       "explanation": "മനുഷ്യൻ, കോഴി, കുരങ്ങൻ, മയിൽ എന്നിവ മിശ്രാഹാരികളാണ്. കാക്ക സസ്യാഹാരിയല്ല, ആന മാംസാഹാരിയല്ല, പൂച്ച സസ്യാഹാരിയല്ല."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-271",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "The process by which living things obtain food and use it is called:",
-      "options": [
-        "Nutrition",
-        "Respiration",
-        "Excretion",
-        "Pollination"
-      ],
-      "hint": "It has five stages, starting with ingestion.",
-      "explanation": "Nutrition is the process by which organisms obtain and utilise food."
-    },
-    "ml": {
-      "question": "ജീവികൾ ആഹാരം സ്വീകരിക്കുകയും പ്രയോജനപ്പെടുത്തുകയും ചെയ്യുന്ന പ്രക്രിയ:",
-      "options": [
-        "പോഷണം",
-        "ശ്വസനം",
-        "വിസർജനം",
-        "പരാഗണം"
-      ],
-      "hint": "ഇതിന് അഞ്ചു ഘട്ടങ്ങളുണ്ട്; ആദ്യത്തേത് ആഹാരസ്വീകരണം.",
-      "explanation": "ജീവികൾ ആഹാരം സ്വീകരിക്കുകയും പ്രയോജനപ്പെടുത്തുകയും ചെയ്യുന്ന പ്രക്രിയയാണ് പോഷണം."
     },
     "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
     "year": 2026,
@@ -10152,43 +10168,6 @@
     "id": "TB7-SCI-275",
     "subject": "science",
     "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "At about what age do a baby’s teeth start to come?",
-      "options": [
-        "Six months",
-        "Six years",
-        "One month",
-        "Twelve years"
-      ],
-      "hint": "Before the baby’s first birthday.",
-      "explanation": "Teeth start to develop at about six months. These are milk teeth."
-    },
-    "ml": {
-      "question": "ഏകദേശം എത്ര പ്രായത്തിലാണ് കുഞ്ഞുങ്ങൾക്ക് പല്ല് മുളയ്ക്കാൻ തുടങ്ങുന്നത്?",
-      "options": [
-        "ആറുമാസം",
-        "ആറുവയസ്സ്",
-        "ഒരു മാസം",
-        "പന്ത്രണ്ടുവയസ്സ്"
-      ],
-      "hint": "ഒന്നാം പിറന്നാളിനു മുമ്പ്.",
-      "explanation": "ഏകദേശം ആറുമാസം പ്രായമാകുമ്പോൾ പല്ല് മുളയ്ക്കാൻ തുടങ്ങും – ഇവയാണ് പാൽപ്പല്ലുകൾ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-276",
-    "subject": "science",
-    "class": 7,
     "difficulty": "medium",
     "answer": "C",
     "chapter": {
@@ -10223,7 +10202,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-277",
+    "id": "TB7-SCI-276",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10260,44 +10239,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-278",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "The teeth in front that help us bite and cut food are:",
-      "options": [
-        "Incisors",
-        "Canines",
-        "Premolars",
-        "Molars"
-      ],
-      "hint": "There are eight of them in front.",
-      "explanation": "Incisors – 4 in the upper and 4 in the lower jaw in front – help to bite and cut food."
-    },
-    "ml": {
-      "question": "മുൻവശത്ത്, ആഹാരം കടിച്ചുമുറിക്കാൻ സഹായിക്കുന്ന പല്ലുകൾ:",
-      "options": [
-        "ഉളിപ്പല്ല്",
-        "കോമ്പല്ല്",
-        "അഗ്രചർവണകം",
-        "ചർവണകം"
-      ],
-      "hint": "മുൻവശത്ത് എട്ടെണ്ണം.",
-      "explanation": "മുൻവശത്ത് മുകളിലും താഴെയുമായി നാലുവീതമുള്ള ഉളിപ്പല്ലുകൾ ആഹാരം കടിച്ചുമുറിക്കാൻ സഹായിക്കുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-279",
+    "id": "TB7-SCI-277",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -10334,44 +10276,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-280",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "How many canines does an adult have?",
-      "options": [
-        "2",
-        "8",
-        "4",
-        "12"
-      ],
-      "hint": "Two in the upper jaw and two in the lower jaw.",
-      "explanation": "There are 4 canines – 2 above and 2 below, next to the incisors."
-    },
-    "ml": {
-      "question": "പ്രായപൂർത്തിയായ ഒരാൾക്ക് എത്ര കോമ്പല്ലുകളുണ്ട്?",
-      "options": [
-        "2",
-        "8",
-        "4",
-        "12"
-      ],
-      "hint": "മുകളിൽ രണ്ട്, താഴെ രണ്ട്.",
-      "explanation": "ഉളിപ്പല്ലുകൾക്കടുത്ത് മുകളിലും താഴെയുമായി രണ്ടുവീതം ആകെ 4 കോമ്പല്ലുകൾ."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-281",
+    "id": "TB7-SCI-278",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10408,44 +10313,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-282",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "Premolars and molars together are commonly called:",
-      "options": [
-        "Molars (grinding teeth)",
-        "Milk teeth",
-        "Canines",
-        "Incisors"
-      ],
-      "hint": "In Malayalam they are called \"anappallukal\".",
-      "explanation": "Teeth in the premolar and molar groups are together called molars (അണപ്പല്ലുകൾ)."
-    },
-    "ml": {
-      "question": "അഗ്രചർവണകം, ചർവണകം എന്നിവയെ പൊതുവായി വിളിക്കുന്ന പേര്:",
-      "options": [
-        "അണപ്പല്ലുകൾ",
-        "പാൽപ്പല്ലുകൾ",
-        "കോമ്പല്ലുകൾ",
-        "ഉളിപ്പല്ലുകൾ"
-      ],
-      "hint": "വായുടെ പിൻഭാഗത്തുള്ള പല്ലുകൾ.",
-      "explanation": "അഗ്രചർവണകം, ചർവണകം എന്നീ വിഭാഗങ്ങളിലെ പല്ലുകളെ പൊതുവായി അണപ്പല്ലുകൾ എന്നു വിളിക്കുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-283",
+    "id": "TB7-SCI-279",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10482,7 +10350,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-284",
+    "id": "TB7-SCI-280",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10519,7 +10387,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-285",
+    "id": "TB7-SCI-281",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10556,7 +10424,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-286",
+    "id": "TB7-SCI-282",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -10593,7 +10461,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-287",
+    "id": "TB7-SCI-283",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10630,7 +10498,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-288",
+    "id": "TB7-SCI-284",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -10667,81 +10535,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-289",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "Saliva in our mouth is produced by:",
-      "options": [
-        "Salivary glands",
-        "The liver",
-        "The pancreas",
-        "The stomach"
-      ],
-      "hint": "Their name has \"saliva\" in it.",
-      "explanation": "Salivary glands produce saliva, which mixes with food in the mouth."
-    },
-    "ml": {
-      "question": "വായിലെ ഉമിനീർ ഉൽപാദിപ്പിക്കുന്നത്:",
-      "options": [
-        "ഉമിനീർഗ്രന്ഥികൾ",
-        "കരൾ",
-        "ആഗ്നേയഗ്രന്ഥി",
-        "ആമാശയം"
-      ],
-      "hint": "പേരിൽത്തന്നെ \"ഉമിനീർ\" ഉണ്ട്.",
-      "explanation": "ഉമിനീർഗ്രന്ഥികളാണ് ഉമിനീർ ഉൽപാദിപ്പിക്കുന്നത്. വായിൽവച്ച് അത് ആഹാരവുമായി കലരുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-290",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "B",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "The long muscular tube that connects the mouth to the stomach is the:",
-      "options": [
-        "Trachea",
-        "Oesophagus (food pipe)",
-        "Small intestine",
-        "Bronchus"
-      ],
-      "hint": "Food travels down through it.",
-      "explanation": "The oesophagus is a muscular tube from the mouth to the stomach."
-    },
-    "ml": {
-      "question": "വായയെ ആമാശയവുമായി ബന്ധിപ്പിക്കുന്ന, പേശികൾകൊണ്ട് നിർമ്മിതമായ കുഴൽ:",
-      "options": [
-        "ശ്വാസനാളം",
-        "അന്നനാളം",
-        "ചെറുകുടൽ",
-        "ശ്വസനി"
-      ],
-      "hint": "ആഹാരം ഇതിലൂടെ താഴേക്കിറങ്ങുന്നു.",
-      "explanation": "വായയെ ആമാശയവുമായി ബന്ധിപ്പിക്കുന്ന പേശീനിർമ്മിതമായ കുഴലാണ് അന്നനാളം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-291",
+    "id": "TB7-SCI-285",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -10778,7 +10572,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-292",
+    "id": "TB7-SCI-286",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10815,7 +10609,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-293",
+    "id": "TB7-SCI-287",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10853,7 +10647,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-294",
+    "id": "TB7-SCI-288",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -10890,7 +10684,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-295",
+    "id": "TB7-SCI-289",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10927,7 +10721,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-296",
+    "id": "TB7-SCI-290",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -10964,44 +10758,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-297",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "C",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "Nutrients that reach the blood become part of the body. This stage of nutrition is:",
-      "options": [
-        "Ingestion",
-        "Absorption",
-        "Assimilation",
-        "Egestion"
-      ],
-      "hint": "It is the fourth stage.",
-      "explanation": "Assimilation is the fourth stage – nutrients in the blood become part of the body."
-    },
-    "ml": {
-      "question": "രക്തത്തിലെത്തിയ പോഷകഘടകങ്ങൾ ശരീരത്തിന്റെ ഭാഗമായി മാറുന്ന ഘട്ടം:",
-      "options": [
-        "ആഹാരസ്വീകരണം",
-        "ആഗിരണം",
-        "സ്വാംശീകരണം",
-        "മലവിസർജനം"
-      ],
-      "hint": "ഇത് നാലാം ഘട്ടമാണ്.",
-      "explanation": "പോഷകഘടകങ്ങൾ ശരീരത്തിന്റെ ഭാഗമായി മാറുന്ന നാലാം ഘട്ടമാണ് സ്വാംശീകരണം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-298",
+    "id": "TB7-SCI-291",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11038,7 +10795,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-299",
+    "id": "TB7-SCI-292",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -11075,44 +10832,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-300",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "A",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "Taking air into the lungs is inhalation. Moving air out of the lungs is:",
-      "options": [
-        "Exhalation",
-        "Absorption",
-        "Ingestion",
-        "Peristalsis"
-      ],
-      "hint": "\"Ex\" means out.",
-      "explanation": "Exhalation is the movement of air from the lungs to the outside."
-    },
-    "ml": {
-      "question": "വായു ശ്വാസകോശത്തിലേക്ക് എടുക്കുന്നത് ഉച്ഛ്വാസം. ശ്വാസകോശത്തിൽനിന്ന് വായു പുറത്തേക്ക് പോകുന്നത്:",
-      "options": [
-        "നിശ്വാസം",
-        "ആഗിരണം",
-        "ആഹാരസ്വീകരണം",
-        "പെരിസ്റ്റാൾസിസ്"
-      ],
-      "hint": "വായു പുറത്തേക്ക്.",
-      "explanation": "ശ്വാസകോശത്തിൽനിന്ന് വായു പുറത്തേക്ക് പോകുന്ന പ്രക്രിയയാണ് നിശ്വാസം."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-301",
+    "id": "TB7-SCI-293",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -11149,44 +10869,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-302",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "medium",
-    "answer": "B",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "In the lung model made with a bottle and balloons, the two small balloons stand for:",
-      "options": [
-        "The diaphragm",
-        "The two lungs",
-        "The ribs",
-        "The nostrils"
-      ],
-      "hint": "They swell when the big balloon is pulled down.",
-      "explanation": "The big balloon at the bottom is like the diaphragm; the two small balloons are like the two lungs."
-    },
-    "ml": {
-      "question": "കുപ്പിയും ബലൂണുകളും ഉപയോഗിച്ചുണ്ടാക്കിയ ശ്വാസകോശമാതൃകയിൽ രണ്ടു ചെറിയ ബലൂണുകൾ സൂചിപ്പിക്കുന്നത്:",
-      "options": [
-        "ഡയഫ്രം",
-        "രണ്ടു ശ്വാസകോശങ്ങൾ",
-        "വാരിയെല്ലുകൾ",
-        "നാസാദ്വാരങ്ങൾ"
-      ],
-      "hint": "വലിയ ബലൂൺ താഴേക്ക് വലിക്കുമ്പോൾ ഇവ വികസിക്കുന്നു.",
-      "explanation": "അടിയിലെ വലിയ ബലൂൺ ഡയഫ്രവും രണ്ടു ചെറിയ ബലൂണുകൾ രണ്ടു ശ്വാസകോശങ്ങളുമാണ്."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-303",
+    "id": "TB7-SCI-294",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11223,7 +10906,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-304",
+    "id": "TB7-SCI-295",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -11261,7 +10944,7 @@
     "noShuffle": true
   },
   {
-    "id": "TB7-SCI-305",
+    "id": "TB7-SCI-296",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11298,7 +10981,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-306",
+    "id": "TB7-SCI-297",
     "subject": "science",
     "class": 7,
     "difficulty": "hard",
@@ -11335,7 +11018,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-307",
+    "id": "TB7-SCI-298",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11372,7 +11055,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-308",
+    "id": "TB7-SCI-299",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11409,7 +11092,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-309",
+    "id": "TB7-SCI-300",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -11446,7 +11129,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-310",
+    "id": "TB7-SCI-301",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11483,7 +11166,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-311",
+    "id": "TB7-SCI-302",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11520,7 +11203,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-312",
+    "id": "TB7-SCI-303",
     "subject": "science",
     "class": 7,
     "difficulty": "easy",
@@ -11557,44 +11240,7 @@
     "needsReview": false
   },
   {
-    "id": "TB7-SCI-313",
-    "subject": "science",
-    "class": 7,
-    "difficulty": "easy",
-    "answer": "C",
-    "chapter": {
-      "en": "Human Body: A Wonder – Digestion and Respiration",
-      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
-    },
-    "en": {
-      "question": "Through what do plants exchange gases during respiration?",
-      "options": [
-        "Roots only",
-        "Flowers",
-        "Stomata – tiny pores in leaves and tender stems",
-        "Seeds"
-      ],
-      "hint": "Very small holes on the leaf.",
-      "explanation": "Plants take in oxygen and give out carbon dioxide through stomata found in leaves and tender stems."
-    },
-    "ml": {
-      "question": "സസ്യങ്ങളിൽ ശ്വസനത്തിനുള്ള വാതകവിനിമയം നടക്കുന്നത് എന്തിലൂടെയാണ്?",
-      "options": [
-        "വേരുകളിലൂടെ മാത്രം",
-        "പൂക്കളിലൂടെ",
-        "ഇലകളിലും ഇളംകാണ്ഡങ്ങളിലുമുള്ള ആസ്യരന്ധ്രങ്ങളിലൂടെ",
-        "വിത്തുകളിലൂടെ"
-      ],
-      "hint": "ഇലയിലെ വളരെ ചെറിയ സുഷിരങ്ങൾ.",
-      "explanation": "ഇലകളിലും ഇളംകാണ്ഡങ്ങളിലുമുള്ള ആസ്യരന്ധ്രങ്ങൾ (Stomata) വഴി സസ്യങ്ങൾ ഓക്സിജൻ സ്വീകരിക്കുകയും കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുകയും ചെയ്യുന്നു."
-    },
-    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
-    "year": 2026,
-    "reviewed": false,
-    "needsReview": false
-  },
-  {
-    "id": "TB7-SCI-314",
+    "id": "TB7-SCI-304",
     "subject": "science",
     "class": 7,
     "difficulty": "medium",
@@ -11624,6 +11270,416 @@
       ],
       "hint": "ശ്വസനത്തിന് എല്ലാ ജീവികൾക്കും വേണ്ട വാതകം ഏത്?",
       "explanation": "സസ്യങ്ങളും ശ്വസിക്കുന്നു; ശ്വസനത്തിൽ ഓക്സിജൻ സ്വീകരിച്ച് കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുന്നു. പ്രസ്താവന ശരി, കാരണം തെറ്റ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-305",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Incisor\n(b) Canine\n(c) Molar\n(1) Chew and grind food\n(2) Bite and cut food\n(3) Tear food",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-3, b-2, c-1",
+        "a-2, b-3, c-1",
+        "a-2, b-1, c-3"
+      ],
+      "hint": "The teeth at the back grind.",
+      "explanation": "Incisors – bite and cut; canines – tear; molars – chew and grind."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) ഉളിപ്പല്ല്\n(b) കോമ്പല്ല്\n(c) ചർവണകം\n(1) ചവച്ചരയ്ക്കാൻ\n(2) കടിച്ചുമുറിക്കാൻ\n(3) കടിച്ചുകീറാൻ",
+      "options": [
+        "a-1, b-2, c-3",
+        "a-3, b-2, c-1",
+        "a-2, b-3, c-1",
+        "a-2, b-1, c-3"
+      ],
+      "hint": "പിറകിലെ പല്ലുകൾ ചവച്ചരയ്ക്കുന്നു.",
+      "explanation": "ഉളിപ്പല്ല് – കടിച്ചുമുറിക്കൽ; കോമ്പല്ല് – കടിച്ചുകീറൽ; ചർവണകം – ചവച്ചരയ്ക്കൽ."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-306",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) A new tooth grows when a permanent tooth breaks\n(ii) Teeth start to come at about six months of age\n(iii) A child has 20 milk teeth",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Permanent teeth are not replaced.",
+      "explanation": "No new tooth grows in place of a broken permanent tooth. (ii) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) സ്ഥിരദന്തം പൊട്ടിയാൽ പകരം പുതിയ പല്ല് മുളയ്ക്കും\n(ii) ഏകദേശം ആറുമാസം പ്രായത്തിൽ പല്ല് മുളയ്ക്കാൻ തുടങ്ങുന്നു\n(iii) കുഞ്ഞിന് 20 പാൽപ്പല്ലുകൾ ഉണ്ട്",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "സ്ഥിരദന്തങ്ങൾക്ക് പകരം വരില്ല.",
+      "explanation": "സ്ഥിരദന്തം പൊട്ടിയാൽ പകരം പല്ല് ഉണ്ടാകില്ല. (ii), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-307",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "A",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "\"I am a muscular tube between the mouth and the stomach. My wave-like movement, peristalsis, pushes food down.\" Who am I?",
+      "options": [
+        "Oesophagus",
+        "Trachea",
+        "Small intestine",
+        "Large intestine"
+      ],
+      "hint": "Also called the food pipe.",
+      "explanation": "The oesophagus carries food to the stomach by peristalsis."
+    },
+    "ml": {
+      "question": "\"വായയെ ആമാശയവുമായി ബന്ധിപ്പിക്കുന്ന പേശീനിർമ്മിതമായ കുഴലാണ് ഞാൻ. എന്റെ തരംഗചലനമായ പെരിസ്റ്റാൾസിസ് ആഹാരത്തെ താഴേക്ക് തള്ളുന്നു.\" ഞാൻ ആര്?",
+      "options": [
+        "അന്നനാളം",
+        "ശ്വാസനാളം",
+        "ചെറുകുടൽ",
+        "വൻകുടൽ"
+      ],
+      "hint": "ആഹാരം കടന്നുപോകുന്ന കുഴൽ.",
+      "explanation": "അന്നനാളം പെരിസ്റ്റാൾസിസിലൂടെ ആഹാരത്തെ ആമാശയത്തിലെത്തിക്കുന്നു."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-308",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Liver\n(b) Pancreas\n(c) Salivary glands\n(d) Glands in the stomach wall\n(1) Saliva\n(2) Gastric juice\n(3) Pancreatic juice\n(4) Bile",
+      "options": [
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1",
+        "a-1, b-3, c-4, d-2",
+        "a-4, b-3, c-1, d-2"
+      ],
+      "hint": "Bile comes from the biggest gland.",
+      "explanation": "Liver – bile; pancreas – pancreatic juice; salivary glands – saliva; stomach wall – gastric juice."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) കരൾ\n(b) ആഗ്നേയഗ്രന്ഥി\n(c) ഉമിനീർഗ്രന്ഥികൾ\n(d) ആമാശയഭിത്തിയിലെ ഗ്രന്ഥികൾ\n(1) ഉമിനീർ\n(2) ആമാശയരസം\n(3) ആഗ്നേയരസം\n(4) പിത്തരസം",
+      "options": [
+        "a-3, b-4, c-1, d-2",
+        "a-4, b-3, c-2, d-1",
+        "a-1, b-3, c-4, d-2",
+        "a-4, b-3, c-1, d-2"
+      ],
+      "hint": "പിത്തരസം കരളിൽനിന്ന്.",
+      "explanation": "കരൾ – പിത്തരസം; ആഗ്നേയഗ്രന്ഥി – ആഗ്നേയരസം; ഉമിനീർഗ്രന്ഥികൾ – ഉമിനീർ; ആമാശയഭിത്തി – ആമാശയരസം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-309",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "B",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Match the following:\n(a) Ingestion\n(b) Absorption\n(c) Egestion\n(1) Through the villi of the small intestine\n(2) Through the anus\n(3) In the mouth",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "Food first reaches the mouth.",
+      "explanation": "Ingestion – mouth; absorption – villi of the small intestine; egestion – through the anus."
+    },
+    "ml": {
+      "question": "ചേരുംപടി ചേർക്കുക:\n(a) ആഹാരസ്വീകരണം\n(b) ആഗിരണം\n(c) മലവിസർജനം\n(1) ചെറുകുടലിലെ വില്ലസുകളിലൂടെ\n(2) മലദ്വാരത്തിലൂടെ\n(3) വായിൽ",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-3, b-1, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1"
+      ],
+      "hint": "ആഹാരം ആദ്യം എത്തുന്നത് വായിലാണ്.",
+      "explanation": "ആഹാരസ്വീകരണം – വായ്; ആഗിരണം – ചെറുകുടലിലെ വില്ലസുകൾ; മലവിസർജനം – മലദ്വാരം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-310",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "C",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Which statements about breathing are correct?\n(i) In inhalation, the diaphragm contracts and flattens\n(ii) In inhalation, the chest cavity becomes smaller\n(iii) In exhalation, the diaphragm returns to its earlier position",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Air rushes in when there is more room.",
+      "explanation": "In inhalation the chest cavity gets bigger, not smaller. (i) and (iii) are correct."
+    },
+    "ml": {
+      "question": "ശ്വസനത്തെക്കുറിച്ചുള്ള ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) ഉച്ഛ്വാസസമയത്ത് ഡയഫ്രം ചുരുങ്ങി വളവ് അൽപം നിവരുന്നു\n(ii) ഉച്ഛ്വാസസമയത്ത് ഔരസാശയത്തിന്റെ വ്യാപ്തി കുറയുന്നു\n(iii) നിശ്വാസസമയത്ത് ഡയഫ്രം പൂർവസ്ഥിതിയിലാകുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "ഇടം കൂടുമ്പോഴാണ് വായു അകത്തുകയറുന്നത്.",
+      "explanation": "ഉച്ഛ്വാസത്തിൽ ഔരസാശയത്തിന്റെ വ്യാപ്തി കൂടുകയാണ്. (i), (iii) ശരി."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-311",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Statement: The lungs expand during inhalation.\nReason: The diaphragm flattens and the chest cavity becomes bigger.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "Where does the extra room come from?",
+      "explanation": "As the diaphragm flattens, the chest cavity grows, air rushes in and the lungs expand. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: ഉച്ഛ്വാസസമയത്ത് ശ്വാസകോശം വികസിക്കുന്നു.\nകാരണം: ഡയഫ്രം നിവരുന്നതിനാൽ ഔരസാശയത്തിന്റെ വ്യാപ്തി വർധിക്കുന്നു.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "അധിക ഇടം എവിടെനിന്ന്?",
+      "explanation": "ഡയഫ്രം നിവരുമ്പോൾ ഔരസാശയം വലുതാകുന്നു; വായു കയറി ശ്വാസകോശം വികസിക്കുന്നു. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-312",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Match the parts of the lung model with the body parts:\n(a) Big balloon at the bottom\n(b) Two small balloons\n(c) Y tube\n(1) Lungs\n(2) Trachea and bronchi\n(3) Diaphragm",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1",
+        "a-3, b-1, c-2"
+      ],
+      "hint": "The pulled-down balloon works like the dome-shaped muscle.",
+      "explanation": "Big balloon – diaphragm; small balloons – lungs; Y tube – air pipes (trachea and bronchi)."
+    },
+    "ml": {
+      "question": "ശ്വാസകോശമാതൃകയിലെ ഭാഗങ്ങളും ശരീരഭാഗങ്ങളും ചേരുംപടി ചേർക്കുക:\n(a) അടിയിലെ വലിയ ബലൂൺ\n(b) രണ്ടു ചെറിയ ബലൂണുകൾ\n(c) Y ട്യൂബ്\n(1) ശ്വാസകോശങ്ങൾ\n(2) ശ്വാസനാളവും ശ്വസനികളും\n(3) ഡയഫ്രം",
+      "options": [
+        "a-1, b-3, c-2",
+        "a-2, b-1, c-3",
+        "a-3, b-2, c-1",
+        "a-3, b-1, c-2"
+      ],
+      "hint": "താഴേക്ക് വലിക്കുന്ന ബലൂൺ ഡയഫ്രംപോലെ പ്രവർത്തിക്കുന്നു.",
+      "explanation": "വലിയ ബലൂൺ – ഡയഫ്രം; ചെറിയ ബലൂണുകൾ – ശ്വാസകോശങ്ങൾ; Y ട്യൂബ് – ശ്വാസനാളവും ശ്വസനികളും."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-313",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "easy",
+    "answer": "C",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "\"We are tiny pores on leaves and tender stems. Plants take in oxygen and give out carbon dioxide through us.\" Who are we?",
+      "options": [
+        "Villi",
+        "Alveoli",
+        "Stomata",
+        "Gills"
+      ],
+      "hint": "Very small holes on a leaf.",
+      "explanation": "Stomata are fine pores in leaves and tender stems; gas exchange in plants happens through them."
+    },
+    "ml": {
+      "question": "\"ഇലകളിലും ഇളംകാണ്ഡങ്ങളിലുമുള്ള സൂക്ഷ്മസുഷിരങ്ങളാണ് ഞങ്ങൾ. സസ്യങ്ങൾ ഞങ്ങളിലൂടെ ഓക്സിജൻ സ്വീകരിച്ച് കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുന്നു.\" ഞങ്ങൾ ആര്?",
+      "options": [
+        "വില്ലസുകൾ",
+        "വായു അറകൾ",
+        "ആസ്യരന്ധ്രങ്ങൾ",
+        "ശകുലങ്ങൾ"
+      ],
+      "hint": "ഇലയിലെ വളരെ ചെറിയ സുഷിരങ്ങൾ.",
+      "explanation": "ഇലകളിലും ഇളംകാണ്ഡങ്ങളിലുമുള്ള ആസ്യരന്ധ്രങ്ങൾ വഴിയാണ് സസ്യങ്ങളിലെ വാതകവിനിമയം."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false
+  },
+  {
+    "id": "TB7-SCI-314",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "D",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Which statements are correct?\n(i) Respiration is taking in oxygen and giving out carbon dioxide\n(ii) An earthworm breathes through its moist skin\n(iii) A spider breathes with book lungs",
+      "options": [
+        "(i) and (ii) only",
+        "(ii) and (iii) only",
+        "(i) and (iii) only",
+        "All three"
+      ],
+      "hint": "Check each animal in the table.",
+      "explanation": "All three are correct: respiration is taking in oxygen and giving out carbon dioxide; earthworm – moist skin; spider – book lungs."
+    },
+    "ml": {
+      "question": "ശരിയായ പ്രസ്താവനകൾ ഏവ?\n(i) ഓക്സിജൻ സ്വീകരിക്കുകയും കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുകയും ചെയ്യുന്ന പ്രക്രിയയാണ് ശ്വസനം\n(ii) മണ്ണിര ഈർപ്പമുള്ള ത്വക്കിലൂടെ ശ്വസിക്കുന്നു\n(iii) ചിലന്തി ബുക്ക് ലംഗ്സ് വഴി ശ്വസിക്കുന്നു",
+      "options": [
+        "(i), (ii) മാത്രം",
+        "(ii), (iii) മാത്രം",
+        "(i), (iii) മാത്രം",
+        "മൂന്നും"
+      ],
+      "hint": "പട്ടികയിലെ ഓരോ ജീവിയെയും നോക്കൂ.",
+      "explanation": "മൂന്നും ശരി: ഓക്സിജൻ സ്വീകരിച്ച് കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുന്നതാണ് ശ്വസനം; മണ്ണിര – ഈർപ്പമുള്ള ത്വക്ക്; ചിലന്തി – ബുക്ക് ലംഗ്സ്."
+    },
+    "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
+    "year": 2026,
+    "reviewed": false,
+    "needsReview": false,
+    "noShuffle": true
+  },
+  {
+    "id": "TB7-SCI-315",
+    "subject": "science",
+    "class": 7,
+    "difficulty": "medium",
+    "answer": "A",
+    "chapter": {
+      "en": "Human Body: A Wonder – Digestion and Respiration",
+      "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും"
+    },
+    "en": {
+      "question": "Statement: Exhaled air has more carbon dioxide than inhaled air.\nReason: Our body gives out carbon dioxide in respiration.",
+      "options": [
+        "Both are true; the reason correctly explains the statement",
+        "Both are true, but the reason does not explain the statement",
+        "The statement is true, but the reason is false",
+        "The statement is false, but the reason is true"
+      ],
+      "hint": "What does the body add to the air?",
+      "explanation": "Respiration gives out carbon dioxide, so it rises from 0.04% to 4%. Both are true and the reason explains it."
+    },
+    "ml": {
+      "question": "പ്രസ്താവന: ഉച്ഛ്വാസവായുവിനേക്കാൾ കൂടുതൽ കാർബൺ ഡൈഓക്സൈഡ് നിശ്വാസവായുവിലുണ്ട്.\nകാരണം: ശ്വസനത്തിൽ നമ്മുടെ ശരീരം കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുന്നു.",
+      "options": [
+        "രണ്ടും ശരി; കാരണം പ്രസ്താവനയെ ശരിയായി വിശദീകരിക്കുന്നു",
+        "രണ്ടും ശരി; പക്ഷേ കാരണം പ്രസ്താവനയുടെ വിശദീകരണമല്ല",
+        "പ്രസ്താവന ശരി, കാരണം തെറ്റ്",
+        "പ്രസ്താവന തെറ്റ്, കാരണം ശരി"
+      ],
+      "hint": "ശരീരം വായുവിലേക്ക് എന്തു ചേർക്കുന്നു?",
+      "explanation": "ശ്വസനത്തിൽ കാർബൺ ഡൈഓക്സൈഡ് പുറന്തള്ളുന്നതിനാൽ അത് 0.04%-ൽനിന്ന് 4% ആകുന്നു. രണ്ടും ശരി, കാരണം ശരിയായ വിശദീകരണം."
     },
     "source": "Written for this game from the SCERT Kerala Class 7 textbook (2024), chapter \"Human Body: A Wonder – Digestion and Respiration\"",
     "year": 2026,
