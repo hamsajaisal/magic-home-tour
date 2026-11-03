@@ -21,6 +21,21 @@ export const SETTINGS = {
   SURPRISE_SECONDS: 15,       // how long chocolate rain / balloon games last
   KITTEN_SECONDS: 40,         // time to find the hidden kitten
 
+  // ---- Terrace upstairs (kite, stars, pool, secret attic) ----
+  KITE_QUESTIONS: 5,          // questions to fly the kite (each right answer lifts it higher)
+  KITE_CORRECT: 3,            // right answers needed for a golden key
+  STAR_QUESTIONS: 5,          // questions at the telescope (each right answer lights up stars)
+  STAR_CORRECT: 3,            // right answers needed for a golden key
+  JACKET_QUESTIONS: 3,        // questions for the lifeguard's life jacket (once a day)
+  JACKET_CORRECT: 2,          // how many must be right
+  RESCUE_QUESTIONS: 5,        // right answers needed to help the friend out of the pool
+  TERRACE_COINS: 20,          // coins for passing the kite or star round
+  RESCUE_COINS: 30,           // coins for helping the friend out
+  ATTIC_QUESTIONS: 10,        // bonus level questions in the secret attic (harder ones first)
+  ATTIC_CORRECT: 7,           // how many must be right
+  ATTIC_FIRST_COINS: 100,     // coins the first time the attic opens
+  ATTIC_COINS: 40,            // coins for each later bonus level won
+
   // ---- Daily bonus ----
   DAILY_BONUS: 10,            // coins for playing today; multiplied by the streak (max 7 days)
 

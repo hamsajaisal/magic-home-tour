@@ -60,6 +60,18 @@ export function createPlayer(look = {}) {
 
   root.traverse((o) => { if (o.isMesh && o !== shadow) o.castShadow = true; });
 
+  // life jacket from the lifeguard (rooftop pool)
+  const jacket = new THREE.Group();
+  body.add(jacket);
+  part(new THREE.BoxGeometry(0.52, 0.42, 0.34), '#ff6d00', 0, 1.0, 0.01, jacket);
+  for (const y of [0.9, 1.08]) part(new THREE.BoxGeometry(0.54, 0.04, 0.36), '#ffe066', 0, y, 0.01, jacket);
+  jacket.visible = false;
+  const setJacket = (on) => { jacket.visible = !!on; };
+
+  // a held pose: 'namaste' (folded hands, saying thank you) or 'wave'; null = normal
+  let pose = null;
+  const setPose = (p) => { pose = p; };
+
   let phase = 0;
   let idle = 0;
   function animate(dt, speed01) {
@@ -70,6 +82,15 @@ export function createPlayer(look = {}) {
     legR.rotation.x = -swing;
     armL.rotation.x = -swing * 0.9;
     armR.rotation.x = swing * 0.9;
+    armL.rotation.z = armR.rotation.z = 0;
+    if (pose === 'namaste') {
+      armL.rotation.x = armR.rotation.x = -1.25;
+      armL.rotation.z = 0.6;
+      armR.rotation.z = -0.6;
+    } else if (pose === 'wave') {
+      armR.rotation.x = -2.9;
+      armR.rotation.z = 0.25 + Math.sin(idle * 9) * 0.35;
+    }
     body.position.y = Math.abs(Math.sin(phase)) * 0.06 * speed01 + Math.sin(idle * 2) * 0.01;
     head.rotation.z = Math.sin(phase * 0.5) * 0.05 * speed01;
   }
@@ -119,5 +140,5 @@ export function createPlayer(look = {}) {
     }
   }
 
-  return { root, animate, cheer, updateCheer, setCostume };
+  return { root, animate, cheer, updateCheer, setCostume, setJacket, setPose };
 }

@@ -1,7 +1,7 @@
 // The question panel that appears at a locked door.
 import { t, tIn, lang } from '../i18n.js';
 import { play } from '../audio.js';
-import { say } from '../voice.js';
+import { say, readAloud, stopReading } from '../voice.js';
 import { fmtTime, shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
 import { save, persist } from '../storage.js';
@@ -52,6 +52,7 @@ export function openQuiz(opts) {
 
 export function closeQuiz() {
   if (!S) return;
+  stopReading();
   const { onClose } = S;
   S = null;
   el.panel.classList.add('hidden');
@@ -122,7 +123,22 @@ function showQuestion() {
   S.fb = null;
   renderFeedback();
   el.next.classList.add('hidden');
+  $('q-voice-note').classList.add('hidden');
+  stopReading();
+  if (save.settings.readAloud) setTimeout(() => { if (S && S.items[S.index] === item) readQuestion(); }, 350);
 }
+
+// "Read aloud": the question and the four choices, with their letters
+function readQuestion() {
+  const item = S.items[S.index];
+  const text = [item.question, ...item.options.map((o, i) => `${LETTERS[i]}. ${o.text}`)].join('. ');
+  const res = readAloud(text, lang());
+  const note = $('q-voice-note');
+  note.textContent = res === 'noMl' ? t('noMlVoice') : res === 'none' ? t('noVoice') : '';
+  note.classList.toggle('hidden', res === 'ok');
+}
+
+$('quiz-read').addEventListener('click', () => { if (S && !el.body.classList.contains('hidden')) readQuestion(); });
 
 // S.fb remembers which message is showing, so it can be redrawn in the other language.
 function renderFeedback() {
@@ -246,7 +262,7 @@ function showResult() {
   } else {
     el.rEmoji.textContent = '💪';
     el.rTitle.textContent = scoreText;
-    el.rText.textContent = t('resultFail', { k: res.needed });
+    el.rText.textContent = S.failText ? S.failText() : t(S.passTitle ? 'resultFailRound' : 'resultFail', { k: res.needed });
     el.rMain.textContent = t('tryAgain');
     el.rLater.classList.remove('hidden');
     play('fail');

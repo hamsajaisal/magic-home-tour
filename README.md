@@ -19,6 +19,13 @@ house. Every room door is locked, and answering questions opens it.
 - **🌟 Secret room of the day:** one room each day gives double coins for its surprise.
 - **📚 Revision Cupboard** (back of the hall): questions the child got wrong are "locked" in here to practise again. They leave the cupboard once answered correctly.
 - **🪣 Wishing Well** (in the garden): a mixed quiz from all subjects, with bonus coins.
+- **🪜 Terrace upstairs** (outside stairs on the right side of the house):
+  - **🪁 Kite flying:** every right answer lifts the kite higher.
+  - **🔭 Star counting:** night falls, and every right answer lights up a group of stars.
+  - **🛟 Rooftop pool:** the lifeguard gives a life jacket after a few questions; then each right answer helps a tired friend (holding a float ring) come closer to the ladder. Wrong answers never pull them back and nobody ever sinks. At the end the friend says "നന്ദി" with folded hands, and the game shows a water-safety reminder.
+  - **🔐 Secret attic:** passing the kite, stars and pool rounds gives three golden keys 🗝️. With all three, a bonus level of harder questions opens the attic and its treasure chest.
+- **🔈 Read aloud:** the speaker button in a question reads it with its choices. **Settings → Read each question aloud** does it for every question. Malayalam needs a Malayalam voice on the phone (Android: Settings → Text-to-speech → Google → install Malayalam).
+- **📲 Works without internet:** after the first visit the game is saved on the phone. **Settings** shows how to add it to the home screen like an app.
 - **📊 My Progress:** time taken for each question, a short time report after every quiz, results subject by subject, the last 7 days, and the questions to practise more. Saved only on the device, so parents and teachers can look at it there.
 - **🛍️ Shop, 📒 album, 🔥 daily bonus:** decorations, pets, costumes, badges and stickers.
 
@@ -65,6 +72,7 @@ To use 10 questions with 7 needed to pass, change them to `10` and `7`.
 
 Other things you can change in `settings.js`:
 - **Surprises:** `BONUS_QUESTIONS` / `BONUS_CORRECT` set the quick quiz at a gift box. One surprise per room per day is free, and after that the child answers these questions for a new one. `SURPRISE_SECONDS` sets how long chocolate rain and balloons last.
+- **Terrace:** `KITE_…`, `STAR_…`, `JACKET_…`, `RESCUE_QUESTIONS` and `ATTIC_…` set the questions and coins for the kite, stars, pool and secret attic.
 - **Daily bonus:** `DAILY_BONUS` is the coins for playing today. It is multiplied by the streak, up to 7 days.
 
 ### 🎙️ Spoken praise (voice)
@@ -201,6 +209,8 @@ children and parents can see where it came from.
 index.html          the game page
 settings.js         ← numbers you can change
 start-game.bat      double-click to play on this computer
+sw.js               saves the game on the phone so it works without internet
+manifest.webmanifest, icons/   name and icon for "Add to home screen"
 css/                colours and layout
 js/                 the game code (you don't need to touch this)
   world/            the 3D house, rooms, character

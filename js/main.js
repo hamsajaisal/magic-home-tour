@@ -3,13 +3,14 @@ import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
 import { save, persist, resetAll, roomState, today } from './storage.js';
 import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
-import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions } from './questions.js';
+import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, setSignFont, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
 import { collide } from './world/physics.js';
 import { createSurprises } from './world/surprises.js';
 import { createDecor } from './world/decor.js';
 import { createExtras } from './world/extras.js';
+import { createTerrace, isUp, STARS_PER_ANSWER, RESCUE_STEPS } from './world/terrace.js';
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
@@ -18,13 +19,13 @@ import {
   freeSurpriseReady, useFreeSurprise, claimDaily,
 } from './rewards.js';
 import { play, unlockAudio } from './audio.js';
-import { loadVoice } from './voice.js';
+import { loadVoice, say } from './voice.js';
 import { recordAnswer } from './progress.js';
 import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
 let rooms = [];
-let W, player, renderer, scene, camera, sun, surprises, decor, extras;
+let W, player, renderer, scene, camera, sun, hemi, surprises, decor, extras, terrace;
 const pos = new THREE.Vector3(START.x, 0, START.z);
 const vel = new THREE.Vector2();
 let facing = Math.PI;      // facing the house
@@ -58,6 +59,7 @@ async function boot() {
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
+  setupInstall();
   refreshAll();
   $('loading').classList.add('hidden');
   $('start').classList.remove('hidden');
@@ -85,7 +87,8 @@ function setup3D() {
   scene.fog = new THREE.Fog('#bfe9ff', 40, 90);
   camera = new THREE.PerspectiveCamera(55, innerWidth / innerHeight, 0.1, 200);
 
-  scene.add(new THREE.HemisphereLight('#dff4ff', '#7cbf5a', 1.1));
+  hemi = new THREE.HemisphereLight('#dff4ff', '#7cbf5a', 1.1);
+  scene.add(hemi);
   sun = new THREE.DirectionalLight('#fff3dd', 1.6);
   sun.position.set(12, 22, 10);
   if (!low) {
@@ -118,6 +121,9 @@ function setup3D() {
   decor = createDecor({ scene, W, play });
   decor.apply(save.owned);
   extras = createExtras({ scene, W });
+  terrace = createTerrace({ scene, W, low, lights: { hemi, sun }, setBanner });
+  terrace.setAtticOpen(save.terrace.atticOpen, true);
+  terrace.setRescue(rescueStepToday(), true);
 
   for (const d of W.doors) {
     if (roomState(d.room.id).unlocked) openDoor(d, true);
@@ -155,6 +161,7 @@ function runQuiz(opts) {
   const items = opts.makeItems ? opts.makeItems() : makeQuiz(room.subject, lang(), count, save);
   if (!items.length) { toast(t('noQuestions')); return; }
   needed = Math.min(needed, items.length);
+  let rights = 0;   // right on the first try, in this round
   const askedAt = prompt;
   hidePrompt();
   setTip('');
@@ -169,6 +176,8 @@ function runQuiz(opts) {
     items,
     onAnswer(item, firstTry, seconds) {
       recordAnswer(item, firstTry, seconds);
+      if (firstTry) rights++;
+      opts.onEach?.(firstTry);
       const levelBefore = level();
       if (firstTry) {
         save.xp += SETTINGS.XP_PER_CORRECT;
@@ -200,7 +209,7 @@ function runQuiz(opts) {
       refreshAll();
       return { passed: passedNow, stars, needed };
     },
-    onRetry() { runQuiz(opts); },
+    onRetry() { if (opts.retry) opts.retry(); else runQuiz(opts); },
     onClose() {
       setControlsEnabled(true);
       dismissed = askedAt;
@@ -215,6 +224,7 @@ function runQuiz(opts) {
         if (W.doors.every((x) => roomState(x.room.id).unlocked)) setTimeout(() => toast(t('allOpen')), 1600);
       }
       if (passedNow && onPassed) onPassed();
+      opts.afterClose?.(passedNow, rights);
     },
   });
 }
@@ -281,6 +291,126 @@ function startRevision() {
   });
 }
 
+// ---------- terrace upstairs ----------
+const terraceRoom = (id, emoji, key) => ({ id, subject: 'mix', emoji, name: nameOf(key) });
+const jacketToday = () => save.terrace.jacketDay === today();
+
+function rescueStepToday() {
+  const T = save.terrace;
+  if (T.rescuedDay === today()) return RESCUE_STEPS;
+  return T.rescueDay === today() ? T.rescueStep : 0;
+}
+
+// a golden key for the secret attic (from the kite, the stars and the pool)
+function giveKey(id) {
+  if (save.terrace.keys.includes(id)) return;
+  save.terrace.keys.push(id);
+  persist();
+  setTimeout(() => { toast(t('keyGot', { k: save.terrace.keys.length })); play('chest'); confetti(40, ['🗝️']); }, 1500);
+  refreshSigns();
+}
+
+function startKite() {
+  runQuiz({
+    room: terraceRoom('kite', '🪁', 'kiteName'), count: SETTINGS.KITE_QUESTIONS, needed: SETTINGS.KITE_CORRECT,
+    passTitle: 'kitePass', passButton: 'continue',
+    afterClose(passed, rights) {
+      terrace.flyKite(rights, camera);
+      play('unlock');
+      setTimeout(() => toast(t('kiteResult', { m: (2 + rights * 3) * 5 })), 2500);
+      bumpStat('kites');
+      if (passed) { addCoins(SETTINGS.TERRACE_COINS); giveKey('kite'); }
+    },
+  });
+}
+
+function startStars() {
+  runQuiz({
+    room: terraceRoom('stars', '🔭', 'starsName'), count: SETTINGS.STAR_QUESTIONS, needed: SETTINGS.STAR_CORRECT,
+    passTitle: 'starsPass', passButton: 'continue',
+    afterClose(passed, rights) {
+      terrace.showStars(rights, camera);
+      bumpStat('starsLit', rights * STARS_PER_ANSWER);
+      setTimeout(() => toast(t('starsResult', { s: rights * STARS_PER_ANSWER })), 3000);
+      if (passed) { addCoins(SETTINGS.TERRACE_COINS); giveKey('stars'); }
+    },
+  });
+}
+
+function startJacket() {
+  runQuiz({
+    room: terraceRoom('pool', '🛟', 'poolName'), count: SETTINGS.JACKET_QUESTIONS, needed: SETTINGS.JACKET_CORRECT,
+    passTitle: 'jacketPass', passButton: 'continue',
+    onPassed() {
+      save.terrace.jacketDay = today();
+      persist();
+      player.cheer();
+      toast(t('jacketGot'));
+    },
+  });
+}
+
+// Each right answer helps the friend a little closer to the ladder. Wrong answers never pull them
+// back: they keep holding the float ring, and the progress stays for the rest of the day.
+function startRescue() {
+  const T = save.terrace;
+  if (T.rescueDay !== today()) { T.rescueDay = today(); T.rescueStep = 0; }
+  runQuiz({
+    room: terraceRoom('pool', '🛟', 'poolName'), count: SETTINGS.RESCUE_QUESTIONS, needed: RESCUE_STEPS - T.rescueStep,
+    passTitle: 'rescuePass', passButton: 'continue',
+    failText: () => t('rescueFail', { left: RESCUE_STEPS - T.rescueStep }),
+    retry: startRescue,
+    onEach(firstTry) {
+      if (firstTry && T.rescueStep < RESCUE_STEPS) { T.rescueStep++; persist(); }
+    },
+    afterClose() {
+      if (T.rescueStep < RESCUE_STEPS) {
+        terrace.setRescue(T.rescueStep);
+        setTimeout(() => toast(t('rescueSoFar')), 1200);
+        return;
+      }
+      T.rescuedDay = today();
+      persist();
+      terrace.setRescue(RESCUE_STEPS, false, () => {
+        terrace.sayThanks(t('rescueThanks'));
+        say('thanks', lang(), { ml: tIn('ml', 'rescueThanks'), en: tIn('en', 'rescueThanks') });
+        confetti(90, ['🙏', '💧', '⭐']);
+        player.cheer();
+        addCoins(SETTINGS.RESCUE_COINS);
+        toast(t('coinsEarned', { c: SETTINGS.RESCUE_COINS }));
+        setTimeout(() => setBanner(t('waterSafety')), 1500);
+        setTimeout(() => setBanner(''), 10000);
+        bumpStat('rescues');
+        giveKey('pool');
+      });
+    },
+  });
+}
+
+// The secret attic: a bonus level of harder questions from every subject.
+function startAttic(first) {
+  runQuiz({
+    room: terraceRoom('attic', '💎', 'atticName'), count: SETTINGS.ATTIC_QUESTIONS, needed: SETTINGS.ATTIC_CORRECT,
+    makeItems: () => makeHardQuiz(lang(), SETTINGS.ATTIC_QUESTIONS, save),
+    passTitle: first ? 'atticPass' : 'chestPass', passButton: 'continue',
+    onPassed() {
+      const coins = first ? SETTINGS.ATTIC_FIRST_COINS : SETTINGS.ATTIC_COINS;
+      addCoins(coins);
+      toast(t('atticOpened', { c: coins }));
+      confetti(160, ['💎', '🪙', '✨', '👑']);
+      player.cheer();
+      play('chest');
+      if (first) {
+        save.terrace.atticOpen = true;
+        persist();
+        terrace.setAtticOpen(true);
+        bumpStat('attic');
+        refreshSigns();
+      } else bumpStat('atticRounds');
+    },
+  });
+}
+
 function setBanner(text) {
   const b = $('banner');
   b.textContent = text || '';
@@ -301,6 +431,35 @@ function showPrompt(target) {
     $('prompt-emoji').textContent = '🪣✨';
     $('prompt-text').textContent = t('wellPrompt', { n: SETTINGS.QUESTIONS_PER_QUIZ });
     $('prompt-go').textContent = t('wellGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'kite') {
+    $('prompt-emoji').textContent = '🪁';
+    $('prompt-text').textContent = t('kitePrompt', { n: SETTINGS.KITE_QUESTIONS, k: SETTINGS.KITE_CORRECT });
+    $('prompt-go').textContent = t('kiteGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'telescope') {
+    $('prompt-emoji').textContent = '🔭✨';
+    $('prompt-text').textContent = t('starsPrompt', { n: SETTINGS.STAR_QUESTIONS, k: SETTINGS.STAR_CORRECT, s: STARS_PER_ANSWER });
+    $('prompt-go').textContent = t('starsGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'pool') {
+    const done = rescueStepToday() >= RESCUE_STEPS;
+    $('prompt-emoji').textContent = done ? '😊🙏' : jacketToday() ? '🛟🤝' : '🛟🦺';
+    $('prompt-text').textContent = done ? `${t('rescueDone')} ${t('waterSafety')}`
+      : jacketToday() ? t('rescuePrompt', { left: RESCUE_STEPS - rescueStepToday() })
+        : t('jacketPrompt', { n: SETTINGS.JACKET_QUESTIONS, k: SETTINGS.JACKET_CORRECT });
+    $('prompt-go').textContent = jacketToday() ? t('rescueGo') : t('jacketGo');
+    $('prompt-go').classList.toggle('hidden', done);
+  } else if (target.kind === 'attic') {
+    const k = save.terrace.keys.length;
+    $('prompt-emoji').textContent = k >= 3 ? '🗝️🔐' : '🔐';
+    $('prompt-text').textContent = k >= 3 ? t('atticReady', { n: SETTINGS.ATTIC_QUESTIONS, k: SETTINGS.ATTIC_CORRECT }) : t('atticLocked', { k });
+    $('prompt-go').textContent = t('atticGo');
+    $('prompt-go').classList.toggle('hidden', k < 3);
+  } else if (target.kind === 'chest') {
+    $('prompt-emoji').textContent = '💎';
+    $('prompt-text').textContent = t('chestPrompt', { n: SETTINGS.ATTIC_QUESTIONS, k: SETTINGS.ATTIC_CORRECT, c: SETTINGS.ATTIC_COINS });
+    $('prompt-go').textContent = t('atticGo');
     $('prompt-go').classList.remove('hidden');
   } else if (target.kind === 'cupboard') {
     const n = wrongQuestions(save, lang()).length;
@@ -330,13 +489,26 @@ function act() {
   if (prompt.kind === 'door') startDoorQuiz(prompt.door);
   else if (prompt.kind === 'well') startWellQuiz();
   else if (prompt.kind === 'cupboard') startRevision();
+  else if (prompt.kind === 'kite') startKite();
+  else if (prompt.kind === 'telescope') startStars();
+  else if (prompt.kind === 'pool') { if (jacketToday()) startRescue(); else startJacket(); }
+  else if (prompt.kind === 'attic') startAttic(true);
+  else if (prompt.kind === 'chest') startAttic(false);
   else openGift(prompt.gift);
 }
 
 function checkPrompts() {
   if (!playing || isQuizOpen() || anyPanelOpen()) return;
   const targets = [];
-  for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', key: `door:${d.room.id}`, door: d, pos: d.front, r: 1.5 });
+  if (isUp(pos.y)) {
+    if (!terrace.busy()) {
+      const spots = ['kite', 'telescope', 'pool', save.terrace.atticOpen ? 'chest' : 'attic'];
+      for (const kind of spots) {
+        const [x, z, r] = terrace.spots[kind];
+        targets.push({ kind, key: kind, pos: [x, z], r });
+      }
+    }
+  } else for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', key: `door:${d.room.id}`, door: d, pos: d.front, r: 1.5 });
   if (!surprises.active()) {
     for (const g of surprises.gifts) if (g.group.visible) targets.push({ kind: 'gift', key: `gift:${g.room.id}`, gift: g, pos: g.pos, r: 1.3 });
     targets.push({ kind: 'well', key: 'well', pos: extras.well.pos, r: 2.0 });
@@ -391,6 +563,7 @@ function refreshSigns() {
     d.sign.material.needsUpdate = true;
   }
   extras.refreshSigns({ cupboard: t('cupboardName'), well: t('wellName') }, wrongQuestions(save, lang()).length);
+  terrace.refreshSigns({ terrace: t('terraceName'), attic: t('atticName') }, save.terrace.keys.length, save.terrace.atticOpen);
   W.titleSign.material.map?.dispose();
   W.titleSign.material.map = labelTexture(`🏡 ${t('title')}`, '#ff8a3d', '#ffffff');
   W.titleSign.material.needsUpdate = true;
@@ -466,6 +639,11 @@ function startPlaying() {
   refreshHUD();
   const secret = rooms.find((r) => r.id === secretRoomId());
   setTimeout(() => toast(t('secretToday', { room: `${secret.emoji} ${pick(secret.name)}` })), daily ? 4000 : 1500);
+  if (!save.stats.terraceHint) {
+    save.stats.terraceHint = 1;
+    persist();
+    setTimeout(() => toast(t('terraceNew')), daily ? 8000 : 5000);
+  }
   if (daily) {
     openDaily(daily, () => {
       claimDaily();
@@ -511,6 +689,7 @@ function setupUI() {
     $('set-low').checked = isLowGraphics();
     $('set-sound').checked = save.settings.sound;
     $('set-voice').checked = save.settings.voice !== false;
+    $('set-read').checked = !!save.settings.readAloud;
     hidePrompt();
     setControlsEnabled(false);
     $('settings').classList.remove('hidden');
@@ -526,6 +705,7 @@ function setupUI() {
     refreshSigns();
   }));
   $('set-voice').addEventListener('change', (e) => { save.settings.voice = e.target.checked; persist(); });
+  $('set-read').addEventListener('change', (e) => { save.settings.readAloud = e.target.checked; persist(); });
   $('reset-btn').addEventListener('click', () => {
     if (confirm(t('resetConfirm'))) { resetAll(); location.reload(); }
   });
@@ -554,6 +734,31 @@ function setupUI() {
     setControlsEnabled(!isQuizOpen() && !anyPanelOpen());
   }));
   applyToPage();
+}
+
+// ---------- play without internet, and "Add to home screen" ----------
+function setupInstall() {
+  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    navigator.serviceWorker.register('sw.js').catch((e) => console.warn('Offline mode not available', e));
+  }
+  let installEvent = null;
+  const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+  const show = () => {
+    $('install-btn').classList.toggle('hidden', !installEvent || standalone());
+    $('install-note').textContent = standalone() ? t('installed') : installEvent ? '' : t('installHelp');
+  };
+  addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvent = e; show(); });
+  addEventListener('appinstalled', () => { installEvent = null; show(); });
+  $('install-btn').addEventListener('click', async () => {
+    if (!installEvent) return;
+    play('click');
+    installEvent.prompt();
+    await installEvent.userChoice.catch(() => null);
+    installEvent = null;
+    show();
+  });
+  onLangChange(show);
+  show();
 }
 
 // ---------- walking ----------
@@ -616,8 +821,10 @@ function updateCamera(dt) {
   }
   const narrow = innerWidth < innerHeight;
   const dist = narrow ? 7.5 : 6.5, height = narrow ? 5.2 : 4.4;
-  lookAt.set(pos.x, pos.y + 1.1, pos.z);
-  camGoal.set(pos.x + Math.sin(yaw) * dist, pos.y + height, pos.z + Math.cos(yaw) * dist);
+  // look up at the sky while a kite flies or the stars come out
+  const lift = terrace.camLift();
+  lookAt.set(pos.x, pos.y + 1.1 + lift * 5, pos.z);
+  camGoal.set(pos.x + Math.sin(yaw) * dist, pos.y + height - lift * 3, pos.z + Math.cos(yaw) * dist);
   if (snapCamera) { camera.position.copy(camGoal); snapCamera = false; }
   else camera.position.lerp(camGoal, Math.min(1, dt * 6));
   camera.lookAt(lookAt);
@@ -675,6 +882,8 @@ function frame(dt, time, draw = true) {
   W.update(dt, time, pos);
   surprises.update(dt, time, me);
   extras.update(dt, time);
+  player.setJacket(jacketToday() && isUp(pos.y));
+  terrace.update(dt, time, me, jacketToday());
   decor.update(dt, time, me);
   updateCamera(dt);
   if (draw) renderer.render(scene, camera);
@@ -683,6 +892,9 @@ function frame(dt, time, draw = true) {
 // handy for testing in the browser console
 window.__game = {
   save, pos, me, startDoorQuiz, startSurprise, addCoins,
+  get terrace() { return terrace; },
+  // jump somewhere (for tests), e.g. __game.goTo(17.2, -0.3) for the kite corner
+  goTo(x, z) { pos.x = x; pos.z = z; pos.y = floorHeight(x, z); snapCamera = true; },
   get doors() { return W.doors; },
   get surprises() { return surprises; },
   snap() { snapCamera = true; },

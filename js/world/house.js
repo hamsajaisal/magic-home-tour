@@ -11,6 +11,9 @@ const HOUSE = { x1: -10, x2: 10, z1: -8, z2: 8 };
 const VERANDA = { x1: -6, x2: 6, z1: 8, z2: 11 };
 const STEPS = { x1: -1.6, x2: 1.6, z1: 11, z2: 12 };
 export const START = { x: 0, z: 18 };
+// the terrace block on the east side of the house, and its outside stairs (climbing towards the north)
+export const TERRACE = { x1: 11.5, x2: 18.5, z1: -9, z2: 1, top: 3.4 };
+export const TSTAIRS = { x1: 12.9, x2: 14.9, z1: 1, z2: 6.6 };
 
 let FONT = '"Game Font", "Noto Sans Malayalam", "Nirmala UI", sans-serif';
 
@@ -26,8 +29,12 @@ export function mat(color, unique = false) {
   return sharedMats.get(color);
 }
 
-// Height of the floor at a point, so the child walks smoothly up the front steps.
+// Height of the floor at a point, so the child walks smoothly up the front steps and the terrace stairs.
+// The terrace block is solid underneath, so anyone standing over it is up on the terrace.
 export function floorHeight(x, z) {
+  const S = TSTAIRS, T = TERRACE;
+  if (x > S.x1 && x < S.x2 && z > S.z1 && z <= S.z2) return T.top * (S.z2 - z) / (S.z2 - S.z1);
+  if (x >= T.x1 && x <= T.x2 && z >= T.z1 && z <= T.z2) return T.top;
   if (x > STEPS.x1 && x < STEPS.x2 && z >= STEPS.z1 && z <= STEPS.z2) return PLINTH * (STEPS.z2 - z) / (STEPS.z2 - STEPS.z1);
   const inHouse = x > HOUSE.x1 - 0.2 && x < HOUSE.x2 + 0.2 && z > HOUSE.z1 - 0.2 && z < HOUSE.z2 + 0.2;
   const inVeranda = x > VERANDA.x1 && x < VERANDA.x2 && z >= VERANDA.z1 && z < VERANDA.z2;
@@ -305,7 +312,7 @@ export function buildWorld(scene, rooms, { low }) {
   W.roofMeshes.push(W.titleSign);   // hidden with the roof when the child walks in
 
   // ---------- garden ----------
-  const trees = [[-14, 20], [14, 22], [-16, 6], [16, 4], [-15, -8], [15, -10], [-8, 24], [9, 25], [-17, -12], [17, 15], [-11, -12], [11, 18]];
+  const trees = [[-14, 20], [14, 22], [-16, 6], [16, 4], [-15, -8], [16, -12.3], [-8, 24], [9, 25], [-17, -12], [17, 15], [-11, -12], [11, 18]];
   trees.slice(0, low ? 6 : trees.length).forEach(([x, z], i) => coconutTree(x, z, 5 + (i % 3) * 0.8, i));
   for (const [x, z] of [[-12, 10], [12, 11], [-6, -11], [6, -12]].slice(0, low ? 2 : 4)) bananaPlant(x, z);
   for (const [x, z] of [[-3, 14], [3, 16], [-3, 19], [3, 22], [-7, 13], [7, 14], [-3, 25], [3, 25]].slice(0, low ? 4 : 8)) hibiscus(x, z);
@@ -396,7 +403,7 @@ export function buildWorld(scene, rooms, { low }) {
 }
 
 // Merge many small still meshes that share a material into one mesh each.
-function mergeStatic(group) {
+export function mergeStatic(group) {
   group.updateMatrixWorld(true);
   const byMat = new Map();
   group.traverse((o) => {

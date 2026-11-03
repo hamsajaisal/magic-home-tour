@@ -1,0 +1,17 @@
+{
+  "name": "Magic Home Tour – USS Practice Game",
+  "short_name": "Magic Home",
+  "description": "A free 3D practice game for the Kerala USS scholarship exam (Classes 5–7), in Malayalam and English medium.",
+  "lang": "ml",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#ffe7c2",
+  "theme_color": "#ff8a3d",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

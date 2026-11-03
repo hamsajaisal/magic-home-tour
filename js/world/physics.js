@@ -1,10 +1,13 @@
 // Keeps a round thing (the child, a pet, a ball) from walking through walls and furniture.
 // Returns true if it bumped into something.
+// A collider with minY / maxY only counts at those heights (e.g. the terrace railing only up on the terrace).
+const atHeight = (c, y = 0) => !(c.minY !== undefined && y < c.minY) && !(c.maxY !== undefined && y > c.maxY);
+
 export function collide(p, colliders, R) {
   let bumped = false;
   for (let pass = 0; pass < 2; pass++) {
     for (const c of colliders) {
-      if (!c.on) continue;
+      if (!c.on || !atHeight(c, p.y)) continue;
       const cx = Math.max(c.minX, Math.min(p.x, c.maxX));
       const cz = Math.max(c.minZ, Math.min(p.z, c.maxZ));
       const dx = p.x - cx, dz = p.z - cz;
@@ -27,5 +30,5 @@ export function collide(p, colliders, R) {
 }
 
 export function pointBlocked(x, z, colliders, R = 0.4) {
-  return colliders.some((c) => c.on && x > c.minX - R && x < c.maxX + R && z > c.minZ - R && z < c.maxZ + R);
+  return colliders.some((c) => c.on && atHeight(c, 0) && x > c.minX - R && x < c.maxX + R && z > c.minZ - R && z < c.maxZ + R);
 }
