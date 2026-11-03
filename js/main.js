@@ -123,6 +123,7 @@ function setup3D() {
     onEnd(room, coins, message) {
       addCoins(coins);
       toast(message);
+      callFromTerrace(3500);   // a calm moment after the surprise: a good time to call
       if (coins > 0) { confetti(70); player.cheer(); play('unlock'); }
       if (coins > 0 && room.id === secretRoomId()) {
         addCoins(coins);
@@ -235,7 +236,7 @@ function runQuiz(opts) {
         toast(t('coinsEarned', { c: SETTINGS.COINS_FOR_UNLOCK }));
         checkBadges();
         if (W.doors.every((x) => roomState(x.room.id).unlocked)) setTimeout(() => toast(t('allOpen')), 1600);
-        callFromTerrace(4500);
+        callFromTerrace(60000);   // in case the child skips the gift box
       }
       if (passedNow && onPassed) onPassed();
       opts.afterClose?.(passedNow, rights);
@@ -315,16 +316,25 @@ function rescueStepToday() {
   return T.rescueDay === today() ? T.rescueStep : 0;
 }
 
-// Until the child has found the terrace, the lifeguard calls from up there (a whistle and a message):
-// after a door opens, or when the game starts. At most once a day and 3 times in all.
-function callFromTerrace(delay) {
+// Until the child has found the terrace, the lifeguard calls from up there (a whistle and a message).
+// Best right after a surprise ends; otherwise a minute after a door opens or the game starts.
+// A newer request replaces a waiting one. It waits while a quiz, panel or surprise is on screen.
+// At most once a day and 3 times in all.
+let terraceCallTimer = null;
+const terraceCallDone = () => {
   const st = save.stats;
-  if (st.terraceVisited || (st.terraceCalls || 0) >= 3 || st.terraceCallDay === today()) return;
-  st.terraceCalls = (st.terraceCalls || 0) + 1;
-  st.terraceCallDay = today();
-  persist();
-  setTimeout(() => {
-    if (save.stats.terraceVisited) return;
+  return st.terraceVisited || (st.terraceCalls || 0) >= 3 || st.terraceCallDay === today();
+};
+
+function callFromTerrace(delay) {
+  if (terraceCallDone()) return;
+  clearTimeout(terraceCallTimer);
+  terraceCallTimer = setTimeout(function fire() {
+    if (terraceCallDone()) return;
+    if (isQuizOpen() || anyPanelOpen() || surprises.active()) { terraceCallTimer = setTimeout(fire, 8000); return; }
+    save.stats.terraceCalls = (save.stats.terraceCalls || 0) + 1;
+    save.stats.terraceCallDay = today();
+    persist();
     play('whistle');
     setBanner(t('terraceCall'));
     setTimeout(() => { if ($('banner').textContent === t('terraceCall')) setBanner(''); }, 10000);
@@ -669,7 +679,7 @@ function startPlaying() {
   refreshHUD();
   const secret = rooms.find((r) => r.id === secretRoomId());
   setTimeout(() => toast(t('secretToday', { room: `${secret.emoji} ${pick(secret.name)}` })), daily ? 4000 : 1500);
-  if (rooms.some((r) => roomState(r.id).unlocked)) callFromTerrace(daily ? 9000 : 6000);
+  if (rooms.some((r) => roomState(r.id).unlocked)) callFromTerrace(60000);
   if (daily) {
     openDaily(daily, () => {
       claimDaily();
