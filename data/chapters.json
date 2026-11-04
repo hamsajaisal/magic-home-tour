@@ -8,9 +8,9 @@
       { "en": "When Light Reflects", "ml": "പ്രകാശം പ്രതിപതിക്കുമ്പോൾ", "match": ["when light reflects", "chapter 4"] },
       { "en": "Human Body: A Wonder – Digestion and Respiration", "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – ദഹനവും ശ്വസനവും", "match": ["human body: a wonder – digestion and respiration", "human body: digestion and respiration", "chapter 5"] },
       { "en": "Heat in Everyday Life", "ml": "താപം നിത്യജീവിതത്തിൽ", "match": ["heat in everyday life", "heat", "chapter 6"] },
-      { "en": "Human Body: A Wonder – Circulation, Excretion and Nervous Coordination", "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – രക്തപര്യയനം, വിസർജനം, നാഡീയ ഏകോപനം", "match": ["circulation and excretion", "chapter 7"] },
-      { "en": "Wonders of the Sky", "ml": "ആകാശവിസ്മയങ്ങൾ", "match": ["earth, moon and shadows", "chapter 8"] },
-      { "en": "Hurt not the Environment", "ml": "പരിസ്ഥിതിയെ നോവിക്കാതെ", "match": ["pollution and waste", "chapter 9"] },
+      { "en": "Human Body: A Wonder – Circulation, Excretion and Nervous Coordination", "ml": "മനുഷ്യശരീരം ഒരു വിസ്മയം – രക്തപര്യയനം, വിസർജനം, നാഡീയ ഏകോപനം", "match": ["human body: a wonder – circulation, excretion and nervous coordination", "circulation and excretion", "chapter 7"] },
+      { "en": "Wonders of the Sky", "ml": "ആകാശവിസ്മയങ്ങൾ", "match": ["wonders of the sky", "earth, moon and shadows", "chapter 8"] },
+      { "en": "Hurt not the Environment", "ml": "പരിസ്ഥിതിയെ നോവിക്കാതെ", "match": ["hurt not the environment", "pollution and waste", "chapter 9"] },
       { "en": "Safe Food", "ml": "സുരക്ഷിതഭക്ഷണം", "match": ["safe food", "chapter 10"] }
     ],
     "social": [
