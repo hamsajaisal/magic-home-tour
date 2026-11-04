@@ -35,8 +35,29 @@
         <button class="medium-btn" data-lang="ml">മലയാളം</button>
         <button class="medium-btn" data-lang="en">English</button>
       </div>
-      <button id="play-btn" class="big-btn" data-i18n="play">Let's play!</button>
+      <div class="start-btns">
+        <button id="play-btn" class="big-btn" data-i18n="play">Let's play!</button>
+        <button id="practice-btn" class="soft-btn big-soft" data-i18n="practiceMode">Quiz only mode</button>
+      </div>
       <p class="start-stats" id="start-stats"></p>
+    </div>
+  </div>
+
+  <!-- Quiz mode: choose subject and chapter -->
+  <div id="practice" class="screen hidden">
+    <div class="start-card practice-card">
+      <h1 data-i18n="practiceMode">Quiz only mode</h1>
+      <p class="subtitle" data-i18n="practiceIntro"></p>
+      <label class="pr-field"><span data-i18n="practiceSubject">Subject</span>
+        <select id="pr-subject"></select></label>
+      <label class="pr-field"><span data-i18n="practiceChapterPick">Chapter</span>
+        <select id="pr-chapter"></select></label>
+      <label class="pr-field"><span data-i18n="practiceHowMany">How many questions</span>
+        <select id="pr-count"></select></label>
+      <div class="btn-row">
+        <button id="pr-start" class="big-btn" data-i18n="practiceStart">Start the quiz</button>
+        <button id="pr-back" class="soft-btn" data-i18n="practiceBack">Back</button>
+      </div>
     </div>
   </div>
 
@@ -88,12 +109,14 @@
         <p class="small-note hidden" id="q-voice-note" role="status"></p>
         <div class="feedback hidden" id="q-feedback"></div>
         <button class="big-btn hidden" id="q-next"></button>
+        <button class="soft-btn hidden" id="quiz-end" data-i18n="practiceEnd">End the quiz</button>
       </div>
       <div id="quiz-result" class="hidden">
         <div class="result-emoji" id="r-emoji">🎉</div>
         <h2 id="r-title"></h2>
         <div class="stars" id="r-stars"></div>
         <p id="r-text"></p>
+        <div id="r-report" class="hidden"></div>
         <p id="r-time" class="r-time"></p>
         <p id="r-credit" class="r-credit"></p>
         <p id="r-more" class="r-credit"></p>

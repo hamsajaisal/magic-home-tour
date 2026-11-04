@@ -4,7 +4,7 @@ import { play } from '../audio.js';
 import { say, readAloud, stopReading } from '../voice.js';
 import { fmtTime, shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
-import { save, persist } from '../storage.js';
+import { save, persist, today } from '../storage.js';
 import { SETTINGS } from '../../settings.js';
 
 const $ = (id) => document.getElementById(id);
@@ -13,7 +13,7 @@ const el = {
   body: $('quiz-body'), text: $('q-text'), options: $('q-options'), feedback: $('q-feedback'),
   next: $('q-next'), result: $('quiz-result'),
   rEmoji: $('r-emoji'), rTitle: $('r-title'), rStars: $('r-stars'), rText: $('r-text'),
-  rMain: $('r-main'), rLater: $('r-later'), close: $('quiz-close'),
+  rMain: $('r-main'), rLater: $('r-later'), close: $('quiz-close'), end: $('quiz-end'), report: $('r-report'),
 };
 
 let S = null;   // current quiz state
@@ -25,9 +25,20 @@ export function isQuizOpen() { return !!S; }
 export function retranslateQuiz(translate) {
   if (!S) return;
   S.items = S.items.map((it) => translate(it) || it);
-  if (!el.result.classList.contains('hidden')) { $('r-credit').textContent = creditLine(); showMoreLink(); return; }
+  if (!el.result.classList.contains('hidden')) {
+    $('r-credit').textContent = creditLine();
+    showMoreLink();
+    if (S.report) {
+      showReport();
+      $('r-time').textContent = timeReport();
+      el.rMain.textContent = t('practiceAgain');
+      el.rLater.textContent = t('practiceHome');
+      el.room.textContent = S.title();
+    }
+    return;
+  }
   const item = S.items[S.index];
-  el.count.textContent = t('questionOf', { i: S.index + 1, n: S.items.length });
+  el.count.textContent = countText();
   el.text.textContent = item.question;
   [...el.options.children].forEach((b, i) => { b.lastChild.textContent = item.options[i].text; });
   el.room.textContent = S.title();
@@ -40,14 +51,31 @@ export function retranslateQuiz(translate) {
 /**
  * opts: { title, items, onAnswer(item, firstTry), onFinish(score, total) -> {passed, stars, needed},
  *         onRetry(), onClose() }
+ * Quiz mode (practice) also gives: canEnd (an "End quiz" button), endless (no "of N" in the count),
+ * report(S) -> { emoji, title, text, fill(container) } for its own result page, and dailyLink.
  */
 export function openQuiz(opts) {
   S = { ...opts, index: 0, score: 0, tries: 0, marks: [], times: [] };
   el.panel.classList.remove('hidden');
   el.result.classList.add('hidden');
   el.body.classList.remove('hidden');
+  el.end.classList.toggle('hidden', !opts.canEnd);
+  el.dots.classList.toggle('hidden', opts.items.length > 25);
   el.room.textContent = opts.title();
   showQuestion();
+}
+
+const countText = () => (S.endless ? t('questionNum', { i: S.index + 1 }) : t('questionOf', { i: S.index + 1, n: S.items.length }));
+
+// Quiz mode: stop now and see the score for the questions answered so far.
+function endEarly() {
+  if (!S || !el.result.classList.contains('hidden')) return;
+  const answered = S.index + (el.next.classList.contains('hidden') ? 0 : 1);
+  if (!answered) { closeQuiz(); return; }
+  S.items = S.items.slice(0, answered);
+  S.marks = S.marks.slice(0, answered);
+  S.times = S.times.slice(0, answered);
+  showResult();
 }
 
 export function closeQuiz() {
@@ -82,6 +110,12 @@ function pickMoreLink() {
   const link = S.items.map((it) => it.creditLink).find((l) => l && l.url);
   const every = SETTINGS.MORE_TESTS_LINK_EVERY;
   if (!link || !every) return null;
+  if (S.dailyLink) {   // quiz mode: once a day
+    if (save.stats.practiceLinkDay === today()) return null;
+    save.stats.practiceLinkDay = today();
+    persist();
+    return link;
+  }
   save.stats.moreLinkRounds = (save.stats.moreLinkRounds || 0) + 1;
   persist();
   return (save.stats.moreLinkRounds - 1) % every === 0 ? link : null;
@@ -106,7 +140,7 @@ function showQuestion() {
   const item = S.items[S.index];
   S.tries = 0;
   S.shownAt = performance.now();
-  el.count.textContent = t('questionOf', { i: S.index + 1, n: S.items.length });
+  el.count.textContent = countText();
   el.dots.innerHTML = S.items.map((_, i) =>
     `<span class="dot ${i === S.index ? 'now' : S.marks[i] || ''}"></span>`).join('');
   el.text.textContent = item.question;
@@ -176,7 +210,8 @@ function pickOption(i) {
     S.fb = 'good';
     renderFeedback();
     speak('praise', 'praise');
-    S.onAnswer?.(item, firstTry, finishTime());
+    const secs = finishTime();
+    S.onAnswer?.(item, firstTry, secs);
     showNext();
     return;
   }
@@ -197,7 +232,8 @@ function pickOption(i) {
   S.marks[S.index] = 'bad';
   S.fb = 'explain';
   renderFeedback();
-  S.onAnswer?.(item, false, finishTime());
+  const secs = finishTime();
+  S.onAnswer?.(item, false, secs);
   showNext();
 }
 
@@ -239,18 +275,42 @@ function timeReport() {
   return lines.join('\n');
 }
 
+// Quiz mode's own result: score, chapter table, questions to look at again
+function showReport() {
+  const r = S.report(S);
+  el.rEmoji.textContent = r.emoji;
+  el.rTitle.textContent = r.title;
+  el.rText.textContent = r.text;
+  el.report.innerHTML = '';
+  r.fill(el.report);
+}
+
 function showResult() {
-  const res = S.onFinish(S.score, S.items.length);
   el.body.classList.add('hidden');
   el.result.classList.remove('hidden');
+  el.end.classList.add('hidden');
   el.dots.innerHTML = S.items.map((_, i) => `<span class="dot ${S.marks[i] || ''}"></span>`).join('');
   el.count.textContent = '';
-  el.rStars.innerHTML = [1, 2, 3].map((n) => `<span class="${n <= res.stars ? '' : 'off'}">⭐</span>`).join('');
-  const scoreText = t('resultScore', { s: S.score, n: S.items.length });
   $('r-time').textContent = timeReport();
   $('r-credit').textContent = creditLine();
   S.moreLink = pickMoreLink();
   showMoreLink();
+  el.report.classList.toggle('hidden', !S.report);
+  el.rStars.classList.toggle('hidden', !!S.report);
+  el.rLater.textContent = t(S.report ? 'practiceHome' : 'later');
+  if (S.report) {
+    showReport();
+    el.rMain.textContent = t('practiceAgain');
+    el.rLater.classList.remove('hidden');
+    S.passed = false;
+    play(S.score >= S.items.length / 2 ? 'unlock' : 'click');
+    el.rTitle.setAttribute('tabindex', '-1');
+    el.rTitle.focus({ preventScroll: true });
+    return;
+  }
+  const res = S.onFinish(S.score, S.items.length);
+  el.rStars.innerHTML = [1, 2, 3].map((n) => `<span class="${n <= res.stars ? '' : 'off'}">⭐</span>`).join('');
+  const scoreText = t('resultScore', { s: S.score, n: S.items.length });
   if (res.passed) {
     el.rEmoji.textContent = '🎉';
     el.rTitle.textContent = t(S.passTitle || 'resultPass');
@@ -279,7 +339,12 @@ el.rMain.addEventListener('click', () => {
   else { const { onRetry } = S; closeQuiz(); onRetry?.(); }
 });
 el.rLater.addEventListener('click', () => { play('click'); closeQuiz(); });
-el.close.addEventListener('click', () => { play('click'); closeQuiz(); });
+el.close.addEventListener('click', () => {
+  play('click');
+  if (S?.canEnd && el.result.classList.contains('hidden')) endEarly();
+  else closeQuiz();
+});
+el.end.addEventListener('click', () => { play('click'); endEarly(); });
 
 // keyboard: 1-4 or A-D to answer
 addEventListener('keydown', (e) => {
