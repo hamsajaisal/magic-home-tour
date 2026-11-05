@@ -3,6 +3,7 @@ import { SETTINGS } from '../settings.js';
 import { validateQuestion, languagesOf, LETTERS } from './question-format.js';
 
 export const bank = { all: [], problems: [] };
+const PASSAGE_LENGTH = 160;   // a question this long carries its own passage or poem
 
 export async function loadQuestions() {
   const index = await (await fetch('data/questions/index.json')).json();
@@ -31,12 +32,30 @@ export async function loadQuestions() {
       bank.all.push(q);
     });
   }
+  await markRepeats();
   if (bank.problems.length) console.warn('Question problems (these were skipped):\n' + bank.problems.join('\n'));
   return bank;
 }
 
+// The same question often came from two sources: data/duplicates.json hides the extra copies.
+// Questions on one passage or poem share a "family", so a child doesn't read that passage twice in a round.
+async function markRepeats() {
+  try {
+    const res = await fetch('data/duplicates.json');
+    const { hide = {} } = res.ok ? await res.json() : {};
+    for (const q of bank.all) if (hide[q.id]) q.hidden = true;
+  } catch (e) {
+    console.warn('data/duplicates.json could not be read:', e.message);
+  }
+  for (const q of bank.all) {
+    const text = (q.en || q.ml).question;
+    if (text.length >= PASSAGE_LENGTH) q.family = text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim().slice(0, 60);
+  }
+}
+
 export function available(subject, lang) {
   return bank.all.filter((q) =>
+    !q.hidden &&
     (subject === 'mix' || q.subject === subject) &&
     languagesOf(q).includes(lang) &&
     (SETTINGS.SHOW_UNREVIEWED || q.reviewed) &&
@@ -46,7 +65,7 @@ export function available(subject, lang) {
 // Questions the child got wrong before, hardest first (for the revision cupboard).
 export function wrongQuestions(save, lang) {
   return bank.all
-    .filter((q) => save.wrong[q.id] > 0 && q[lang])
+    .filter((q) => !q.hidden && save.wrong[q.id] > 0 && q[lang])
     .sort((a, b) => save.wrong[b.id] - save.wrong[a.id]);
 }
 
@@ -65,24 +84,37 @@ function shuffle(arr) {
   return arr;
 }
 
-// Build one quiz: questions seen least often come first, with a little randomness.
-export function makeQuiz(subject, lang, count, save) {
-  const pool = available(subject, lang)
-    .map((q) => ({ q, score: (save.seen[q.id] || 0) + Math.random() * 0.9 }))
+// Picks `count` questions: the ones seen least often first, with a little randomness.
+// A passage counts as seen when any of its questions was, and comes once per round if there are enough others.
+export function pickQuestions(pool, count, seen, score = (q, times) => times) {
+  const familySeen = new Map();
+  for (const q of pool) if (q.family) familySeen.set(q.family, (familySeen.get(q.family) || 0) + (seen[q.id] || 0));
+  const ranked = pool
+    .map((q) => ({ q, score: score(q, q.family ? familySeen.get(q.family) : seen[q.id] || 0) + Math.random() * 0.9 }))
     .sort((a, b) => a.score - b.score)
-    .slice(0, count)
     .map((x) => x.q);
+  const families = new Set();
+  const picked = [];
+  const later = [];
+  for (const q of ranked) {
+    if (q.family && families.has(q.family)) { later.push(q); continue; }
+    if (q.family) families.add(q.family);
+    picked.push(q);
+  }
+  return picked.concat(later).slice(0, count);
+}
+
+// Build one quiz.
+export function makeQuiz(subject, lang, count, save) {
+  const pool = pickQuestions(available(subject, lang), count, save.seen);
   return shuffle(pool).map((q) => toQuizItem(q, lang));
 }
 
 // Bonus level: questions from every subject, the hard ones first, then medium, then easy.
 const DIFFICULTY = { hard: 0, medium: 1.2, easy: 3 };
 export function makeHardQuiz(lang, count, save) {
-  const pool = available('mix', lang)
-    .map((q) => ({ q, score: (DIFFICULTY[q.difficulty] ?? 1.5) + (save.seen[q.id] || 0) * 0.8 + Math.random() }))
-    .sort((a, b) => a.score - b.score)
-    .slice(0, count)
-    .map((x) => x.q);
+  const pool = pickQuestions(available('mix', lang), count, save.seen,
+    (q, times) => (DIFFICULTY[q.difficulty] ?? 1.5) + times * 0.8);
   return shuffle(pool).map((q) => toQuizItem(q, lang));
 }
 
@@ -125,6 +157,7 @@ export function creditOf(q, lang) {
 export function sources(lang, ownLabel) {
   const set = new Map();
   for (const q of bank.all) {
+    if (q.hidden) continue;
     const s = creditOf(q, lang) || ownLabel;
     const e = set.get(s) || { count: 0, link: null };
     e.count++;

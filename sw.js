@@ -14,7 +14,7 @@ const FILES = [
   'js/world/decor.js', 'js/world/extras.js', 'js/world/house.js', 'js/world/physics.js',
   'js/world/player.js', 'js/world/props.js', 'js/world/surprises.js', 'js/world/terrace.js',
   'data/rooms.json', 'data/chapters.json', 'data/shop.json', 'data/badges.json', 'data/lang/en.json', 'data/lang/ml.json',
-  'data/voice/voice.json', 'data/questions/index.json',
+  'data/voice/voice.json', 'data/questions/index.json', 'data/duplicates.json',
   'assets/fonts/manjari-malayalam-400.woff2', 'assets/fonts/manjari-malayalam-700.woff2',
   'assets/fonts/anek-malayalam-500.woff2', 'assets/fonts/anek-malayalam-700.woff2',
   'assets/fonts/baloo-chettan-2-latin-500.woff2', 'assets/fonts/baloo-chettan-2-latin-700.woff2',
