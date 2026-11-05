@@ -42,6 +42,14 @@ export const SETTINGS = {
   ATTIC_COINS: 40,            // coins for each later bonus level won
 
   // ---- Daily bonus ----
+  FOREST_QUESTIONS: 5,        // questions at each board on the forest path (Science)
+  FOREST_CORRECT: 3,          // how many must be right to open the next gate
+  FOREST_GATE_COINS: 20,      // coins for each gate
+  TREE_QUESTIONS: 3,          // harder questions for each branch of the big tree
+  TREE_CORRECT: 2,            // how many must be right to climb up
+  TREE_COINS: 100,            // coins for reaching the top of the tree
+  FRUIT_COINS: 2,             // coins for each fruit eaten
+
   DAILY_BONUS: 10,            // coins for playing today; multiplied by the streak (max 7 days)
 
   // ---- Language ----

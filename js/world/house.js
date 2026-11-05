@@ -84,7 +84,8 @@ export function buildWorld(scene, rooms, { low }) {
   box(2.6, 0.02, 16, '#f2d49b', 0, 0, 20);                      // sand path to the gate
   const lat = '#c8693f';                                         // laterite stone colour
   box(40, 0.9, 0.4, lat, 0, 0, -14, { collide: true });
-  box(0.4, 0.9, 42, lat, -20, 0, 7, { collide: true });
+  box(0.4, 0.9, 24.5, lat, -20, 0, -1.75, { collide: true });     // west wall, with a gap for the way to the forest
+  box(0.4, 0.9, 14.5, lat, -20, 0, 20.75, { collide: true });
   box(0.4, 0.9, 42, lat, 20, 0, 7, { collide: true });
   box(18.2, 0.9, 0.4, lat, -10.9, 0, 28, { collide: true });
   box(18.2, 0.9, 0.4, lat, 10.9, 0, 28, { collide: true });
@@ -315,7 +316,7 @@ export function buildWorld(scene, rooms, { low }) {
   const trees = [[-14, 20], [14, 22], [-16, 6], [16, 4], [-15, -8], [16, -12.3], [-8, 24], [9, 25], [-17, -12], [17, 15], [-11, -12], [11, 18]];
   trees.slice(0, low ? 6 : trees.length).forEach(([x, z], i) => coconutTree(x, z, 5 + (i % 3) * 0.8, i));
   for (const [x, z] of [[-12, 10], [12, 11], [-6, -11], [6, -12]].slice(0, low ? 2 : 4)) bananaPlant(x, z);
-  for (const [x, z] of [[-3, 14], [3, 16], [-3, 19], [3, 22], [-7, 13], [7, 14], [-3, 25], [3, 25]].slice(0, low ? 4 : 8)) hibiscus(x, z);
+  for (const [x, z] of [[-3, 14], [3, 16], [-3, 19], [3, 22], [-7, 14.4], [7, 14], [-3, 25], [3, 25]].slice(0, low ? 4 : 8)) hibiscus(x, z);
   well(-12, 16);
   if (!low) clouds();
 

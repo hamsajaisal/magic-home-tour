@@ -24,6 +24,7 @@ function fresh() {
     stickers: [],     // sticker ids collected
     qstats: {},       // questionId -> { n, right, time, last } (time in seconds)
     days: {},         // date -> { n, right, time } questions answered that day
+    forest: { stage: 0, branch: 0, done: false, trips: 0 },   // gates open, branches climbed, finished, trips finished
     terrace: { keys: [], jacketDay: null, rescueDay: null, rescueStep: 0, rescuedDay: null, atticOpen: false },
   };
 }

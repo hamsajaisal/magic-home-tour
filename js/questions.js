@@ -137,8 +137,10 @@ function pickForLevel(pool, count, level, seen) {
 }
 
 // Build one quiz. Each subject has its own level, which rises and falls with the child's rounds.
-export function makeQuiz(subject, lang, count, save) {
-  const pool = pickForLevel(available(subject, lang), count, save.levels[subject] || 1, save.seen);
+// `least` keeps the level at least this high (the forest path gets harder gate by gate).
+export function makeQuiz(subject, lang, count, save, least = 1) {
+  const level = Math.max(least, save.levels[subject] || 1);
+  const pool = pickForLevel(available(subject, lang), count, level, save.seen);
   return easyToHard(pool).map((q) => toQuizItem(q, lang));
 }
 
@@ -153,8 +155,8 @@ export function updateLevel(save, subject, score, total) {
 
 // Bonus level: questions from every subject, the hard ones first, then medium, then easy.
 const DIFFICULTY = { hard: 0, medium: 1.2, easy: 3 };
-export function makeHardQuiz(lang, count, save) {
-  const pool = pickQuestions(available('mix', lang), count, save.seen,
+export function makeHardQuiz(lang, count, save, subject = 'mix') {
+  const pool = pickQuestions(available(subject, lang), count, save.seen,
     (q, times) => (DIFFICULTY[q.difficulty] ?? 1.5) + times * 0.8);
   return easyToHard(pool).map((q) => toQuizItem(q, lang));
 }
