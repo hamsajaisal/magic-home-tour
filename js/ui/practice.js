@@ -2,7 +2,7 @@
 // questions; at the end they see their score, how they did in each chapter and what to look at again.
 // Nothing about the session is saved (only the date the "more mock tests" link was last shown).
 import { t, lang, pick, onLangChange } from '../i18n.js';
-import { available, toQuizItem } from '../questions.js';
+import { available, pickQuestions, toQuizItem } from '../questions.js';
 import { openQuiz } from './quiz.js';
 import { shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
@@ -95,17 +95,15 @@ function fillChapters() {
 
 const readChoice = () => ({ subject: $('pr-subject').value, chapter: $('pr-chapter').value, count: Number($('pr-count').value) });
 
-function shuffle(a) {
-  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
-  return a;
-}
+// Questions answered since the game was opened, so the next try brings new ones. Never saved.
+const shownThisVisit = {};
 
 function start(choice) {
   last = choice;
   const pool = available(choice.subject, lang()).filter((q) => !choice.chapter || chapterOf(q)?.key === choice.chapter);
   if (!pool.length) return;
-  const picked = shuffle(pool.slice());
-  const items = (choice.count ? picked.slice(0, choice.count) : picked).map((q) => toQuizItem(q, lang()));
+  const picked = pickQuestions(pool, choice.count || pool.length, shownThisVisit);
+  const items = picked.map((q) => toQuizItem(q, lang()));
   const chapterName = () => {
     if (!choice.chapter) return t('practiceAllChapters');
     const ch = chaptersFor(choice.subject).find((c) => c.key === choice.chapter);
@@ -115,6 +113,7 @@ function start(choice) {
   openQuiz({
     title: () => `${subjectName(choice.subject)} · ${chapterName()}`,
     items,
+    onAnswer: (item) => { shownThisVisit[item.id] = (shownThisVisit[item.id] || 0) + 1; },
     canEnd: true,
     endless: !choice.count,
     dailyLink: true,
