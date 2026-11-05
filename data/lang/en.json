@@ -230,5 +230,17 @@
   "swingPrompt": "🌳 Ride the swing under the big branch!",
   "swingGo": "Swing",
   "newTripPrompt": "🌳 You finished the forest {n} times! Start a new trip? The gates close again and new questions come.",
-  "newTripGo": "Start the trip"
+  "newTripGo": "Start the trip",
+  "slateOpen": "✏️ Slate – work it out here",
+  "slateTools": "Slate tools",
+  "slateArea": "Slate for writing with your finger",
+  "chalkWhite": "White chalk",
+  "chalkYellow": "Yellow chalk",
+  "chalkPink": "Pink chalk",
+  "slateDuster": "Duster, to rub out",
+  "slateUndo": "Take back the last line",
+  "slateClear": "Wipe the whole slate",
+  "slateLines": "Squares on the slate",
+  "slateBig": "Bigger slate",
+  "slateClose": "Show the question big"
 }
