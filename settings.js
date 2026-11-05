@@ -10,6 +10,11 @@ export const SETTINGS = {
   CORRECT_TO_UNLOCK: 4,       // how many must be right to open the door (e.g. 4 or 7)
 
   // ---- Rewards ----
+  // Each subject has a level. How much of a round is easy / hard at levels 1, 2 and 3 (the rest is medium).
+  LEVEL_MIX: [{ easy: 0.4, hard: 0 }, { easy: 0.2, hard: 0.2 }, { easy: 0, hard: 0.4 }],
+  LEVEL_UP_SCORE: 0.8,        // this share of a round right moves the subject up a level
+  LEVEL_DOWN_SCORE: 0.4,      // this share or less moves it down a level
+
   COINS_PER_CORRECT: 10,      // coins for each answer right on the first try
   COINS_FOR_UNLOCK: 30,       // bonus coins when a door opens
   XP_PER_CORRECT: 10,         // experience points per right answer

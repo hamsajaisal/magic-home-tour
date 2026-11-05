@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
 import { save, persist, resetAll, roomState, today, IS_TEST } from './storage.js';
 import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
-import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
+import { loadQuestions, makeQuiz, updateLevel, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, setSignFont, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
 import { collide } from './world/physics.js';
@@ -213,6 +213,7 @@ function runQuiz(opts) {
       passedNow = score >= needed;
       const stars = score === total ? 3 : passedNow ? 2 : score >= Math.ceil(total / 2) ? 1 : 0;
       if (score === total) bumpStat('perfectQuizzes');
+      if (!opts.makeItems) updateLevel(save, room.subject, score, total);
       if (door && passedNow) {
         const rs = roomState(room.id);
         rs.unlocked = true;

@@ -104,10 +104,51 @@ export function pickQuestions(pool, count, seen, score = (q, times) => times) {
   return picked.concat(later).slice(0, count);
 }
 
-// Build one quiz.
+// Puts a round in order: easy questions first, the hardest last.
+const STEP = { easy: 0, medium: 1, hard: 2 };
+const stepOf = (q) => STEP[q.difficulty] ?? 1;
+export function easyToHard(list) {
+  return shuffle(list.slice()).sort((a, b) => stepOf(a) - stepOf(b));
+}
+
+// How many easy, medium and hard questions a round has at this level.
+function roundMix(level, count) {
+  const share = SETTINGS.LEVEL_MIX[level - 1];
+  const hard = Math.round(count * share.hard);
+  const easy = Math.min(Math.round(count * share.easy), count - hard);
+  return { easy, medium: count - easy - hard, hard };
+}
+
+// Chooses by the level's mix, but only among the questions seen least: once a child has seen all the
+// easy ones, those places go to questions they haven't seen yet, instead of repeating.
+function pickForLevel(pool, count, level, seen) {
+  const mix = roundMix(level, count);
+  const least = Math.min(...pool.map((q) => seen[q.id] || 0));
+  const chosen = [];
+  const families = new Set();
+  const addAll = (list) => list.forEach((q) => { chosen.push(q); if (q.family) families.add(q.family); });
+  const free = (q) => !chosen.includes(q) && !(q.family && families.has(q.family));
+  for (const step of ['easy', 'medium', 'hard']) {
+    addAll(pickQuestions(pool.filter((q) => stepOf(q) === STEP[step] && (seen[q.id] || 0) === least && free(q)), mix[step], seen));
+  }
+  addAll(pickQuestions(pool.filter(free), count - chosen.length, seen));
+  addAll(pickQuestions(pool.filter((q) => !chosen.includes(q)), count - chosen.length, seen));
+  return chosen;
+}
+
+// Build one quiz. Each subject has its own level, which rises and falls with the child's rounds.
 export function makeQuiz(subject, lang, count, save) {
-  const pool = pickQuestions(available(subject, lang), count, save.seen);
-  return shuffle(pool).map((q) => toQuizItem(q, lang));
+  const pool = pickForLevel(available(subject, lang), count, save.levels[subject] || 1, save.seen);
+  return easyToHard(pool).map((q) => toQuizItem(q, lang));
+}
+
+// After a round: a very good score moves that subject up a level, a poor one moves it down.
+export function updateLevel(save, subject, score, total) {
+  const level = save.levels[subject] || 1;
+  const share = score / total;
+  const top = SETTINGS.LEVEL_MIX.length;
+  if (share >= SETTINGS.LEVEL_UP_SCORE) save.levels[subject] = Math.min(top, level + 1);
+  else if (share <= SETTINGS.LEVEL_DOWN_SCORE) save.levels[subject] = Math.max(1, level - 1);
 }
 
 // Bonus level: questions from every subject, the hard ones first, then medium, then easy.
@@ -115,7 +156,7 @@ const DIFFICULTY = { hard: 0, medium: 1.2, easy: 3 };
 export function makeHardQuiz(lang, count, save) {
   const pool = pickQuestions(available('mix', lang), count, save.seen,
     (q, times) => (DIFFICULTY[q.difficulty] ?? 1.5) + times * 0.8);
-  return shuffle(pool).map((q) => toQuizItem(q, lang));
+  return easyToHard(pool).map((q) => toQuizItem(q, lang));
 }
 
 // `order` keeps the same A/B/C/D order when the child switches language mid-question.

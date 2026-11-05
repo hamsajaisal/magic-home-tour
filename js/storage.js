@@ -12,7 +12,8 @@ function fresh() {
     xp: 0,
     rooms: {},        // roomId -> { unlocked, stars, best }
     wrong: {},        // questionId -> times answered wrong (used by the revision room later)
-    seen: {},         // questionId -> times shown
+    seen: {},         // questionId -> times shown (game and quiz mode)
+    levels: {},       // subject -> difficulty level of its rounds, starts at 1
     settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old', readAloud: false },
     streak: { count: 0, last: null },   // days in a row
     surpriseDay: {},  // roomId -> date of today's free surprise

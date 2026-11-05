@@ -2,7 +2,8 @@
 // questions; at the end they see their score, how they did in each chapter and what to look at again.
 // Nothing about the session is saved (only the date the "more mock tests" link was last shown).
 import { t, lang, pick, onLangChange } from '../i18n.js';
-import { available, pickQuestions, toQuizItem } from '../questions.js';
+import { available, pickQuestions, easyToHard, toQuizItem } from '../questions.js';
+import { save, persist } from '../storage.js';
 import { openQuiz } from './quiz.js';
 import { shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
@@ -95,15 +96,28 @@ function fillChapters() {
 
 const readChoice = () => ({ subject: $('pr-subject').value, chapter: $('pr-chapter').value, count: Number($('pr-count').value) });
 
-// Questions answered since the game was opened, so the next try brings new ones. Never saved.
-const shownThisVisit = {};
+const ENDLESS_BLOCK = 10;   // "until I stop" goes easy to hard in blocks of this many
+
+// Easy to hard; a long "until I stop" quiz starts again from easy every few questions.
+function inOrder(picked, endless) {
+  if (!endless) return easyToHard(picked);
+  const out = [];
+  for (let i = 0; i < picked.length; i += ENDLESS_BLOCK) out.push(...easyToHard(picked.slice(i, i + ENDLESS_BLOCK)));
+  return out;
+}
+
+// Only which questions were asked is kept, so the next quiz brings new ones. Scores are not saved.
+function remember(item) {
+  save.seen[item.id] = (save.seen[item.id] || 0) + 1;
+  persist();
+}
 
 function start(choice) {
   last = choice;
   const pool = available(choice.subject, lang()).filter((q) => !choice.chapter || chapterOf(q)?.key === choice.chapter);
   if (!pool.length) return;
-  const picked = pickQuestions(pool, choice.count || pool.length, shownThisVisit);
-  const items = picked.map((q) => toQuizItem(q, lang()));
+  const picked = pickQuestions(pool, choice.count || pool.length, save.seen);
+  const items = inOrder(picked, !choice.count).map((q) => toQuizItem(q, lang()));
   const chapterName = () => {
     if (!choice.chapter) return t('practiceAllChapters');
     const ch = chaptersFor(choice.subject).find((c) => c.key === choice.chapter);
@@ -113,7 +127,7 @@ function start(choice) {
   openQuiz({
     title: () => `${subjectName(choice.subject)} · ${chapterName()}`,
     items,
-    onAnswer: (item) => { shownThisVisit[item.id] = (shownThisVisit[item.id] || 0) + 1; },
+    onAnswer: remember,
     canEnd: true,
     endless: !choice.count,
     dailyLink: true,
