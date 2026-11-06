@@ -281,3 +281,9 @@ body.touch #tip { bottom: auto; top: 104px; }
   background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px);
   background-size: 34px 34px;
 }
+/* the About page opens over the start screen too, and Credits over About */
+#about { z-index: 55; }
+#credits { z-index: 56; }
+#about p { line-height: 1.5; margin: 8px 0; }
+.about-made { font-weight: 800; }
+.about-link { display: block; width: fit-content; margin: 10px auto 14px; text-align: center; text-decoration: none; }

@@ -38,6 +38,7 @@
       <div class="start-btns">
         <button id="play-btn" class="big-btn" data-i18n="play">Let's play!</button>
         <button id="practice-btn" class="soft-btn big-soft" data-i18n="practiceMode">Quiz only mode</button>
+        <button id="about-btn" class="soft-btn small" data-i18n="about">About</button>
       </div>
       <p class="start-stats" id="start-stats"></p>
     </div>
@@ -207,6 +208,7 @@
         <button class="soft-btn small" data-lang="en">English</button>
       </div>
       <div class="btn-row">
+        <button class="soft-btn" id="settings-about" data-i18n="about"></button>
         <button class="soft-btn" id="credits-btn" data-i18n="credits"></button>
         <button class="soft-btn danger" id="reset-btn" data-i18n="resetProgress"></button>
       </div>
@@ -220,6 +222,23 @@
   </div>
 
   <!-- Credits -->
+  <div id="about" class="overlay hidden">
+    <div class="modal-card">
+      <h2 data-i18n="about">About</h2>
+      <p data-i18n="aboutGame"></p>
+      <p class="about-made" data-i18n="aboutMade"></p>
+      <p data-i18n="aboutNotOfficial"></p>
+      <p data-i18n="privacy"></p>
+      <h3 data-i18n="aboutContact">Contact</h3>
+      <p data-i18n="aboutContactNote"></p>
+      <a class="big-btn about-link" id="about-telegram" href="https://t.me/Hamsajaisal" target="_blank" rel="noopener" data-i18n="aboutTelegram">Telegram</a>
+      <div class="btn-row">
+        <button class="soft-btn" id="about-credits" data-i18n="credits"></button>
+        <button class="soft-btn" data-close="about" data-i18n="close"></button>
+      </div>
+    </div>
+  </div>
+
   <div id="credits" class="overlay hidden">
     <div class="modal-card">
       <h2 data-i18n="credits">Credits</h2>
