@@ -255,3 +255,10 @@ body.touch #tip { bottom: auto; top: 104px; }
 .pr-wrong { padding-left: 1.6em; line-height: 1.5; }
 .pr-wrong li { margin-bottom: 8px; }
 .pr-wrong b { color: #1b7f3b; }
+
+/* the About page opens over the start screen too, and Credits over About */
+#about { z-index: 55; }
+#credits { z-index: 56; }
+#about p { line-height: 1.5; margin: 8px 0; }
+.about-made { font-weight: 800; }
+.about-link { display: block; width: fit-content; margin: 10px auto 14px; text-align: center; text-decoration: none; }

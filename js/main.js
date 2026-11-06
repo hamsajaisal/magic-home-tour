@@ -571,7 +571,7 @@ function checkPrompts() {
   if (!prompt && walked > 3 && walked < 4 && !rooms.some((r) => roomState(r.id).unlocked)) setTip(t('goToDoor'));
 }
 
-const PANELS = ['shop', 'album', 'daily', 'settings', 'credits', 'progress'];
+const PANELS = ['shop', 'album', 'daily', 'settings', 'credits', 'progress', 'about'];
 const anyPanelOpen = () => PANELS.some((id) => !$(id).classList.contains('hidden'));
 
 // ---------- HUD and signs ----------
@@ -755,6 +755,16 @@ function setupUI() {
   $('reset-btn').addEventListener('click', () => {
     if (confirm(t('resetConfirm'))) { resetAll(); location.reload(); }
   });
+  const openAbout = () => {
+    play('click');
+    hidePrompt();
+    setControlsEnabled(false);
+    $('settings').classList.add('hidden');
+    $('about').classList.remove('hidden');
+  };
+  $('about-btn').addEventListener('click', openAbout);
+  $('settings-about').addEventListener('click', openAbout);
+  $('about-credits').addEventListener('click', () => { play('click'); $('credits-btn').click(); });
   $('credits-btn').addEventListener('click', () => {
     const list = $('credits-list');
     list.innerHTML = '';
