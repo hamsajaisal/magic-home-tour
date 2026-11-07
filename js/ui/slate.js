@@ -1,6 +1,7 @@
 // A school slate for working out sums during a question. The child writes with a finger or the mouse.
 // It only draws: it never reads or works out anything, and nothing written here is saved.
 import { play } from '../audio.js';
+import { save, persist } from '../storage.js';
 
 const $ = (id) => document.getElementById(id);
 const canvas = $('slate-canvas');
@@ -110,6 +111,8 @@ $('q-text').addEventListener('click', () => { if (isSlateOpen()) closeSlate(); }
 export function isSlateOpen() { return card.classList.contains('slate-on'); }
 
 export function openSlate() {
+  if (!save.stats.slateUsed) { save.stats.slateUsed = 1; persist(); }
+  $('slate-tip').classList.add('hidden');
   $('slate').classList.remove('hidden');
   card.classList.add('slate-on');
   $('slate-btn').setAttribute('aria-expanded', 'true');
@@ -129,4 +132,5 @@ export function newSlate(available) {
   strokes = [];
   redraw();
   $('slate-btn').classList.toggle('hidden', !available);
+  $('slate-tip').classList.toggle('hidden', !available || !!save.stats.slateUsed);   // until the child has tried it once
 }

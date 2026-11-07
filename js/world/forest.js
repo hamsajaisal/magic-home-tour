@@ -304,6 +304,7 @@ export function createForest({ scene, W, low, onFruit }) {
     climbPoint,
     get perch() { return S.perch; },
     get swinging() { return S.swingLeft > 0; },
+    get climbing() { return !!S.move; },
     // true while the child can't walk (up in the tree or on the swing)
     holds() { return S.perch > 0 || !!S.move || S.swingLeft > 0; },
     facing() { return S.facing; },
@@ -372,15 +373,19 @@ export function createForest({ scene, W, low, onFruit }) {
       }
     },
 
-    // On the path the camera stays behind the child, looking along the way ahead, so trees don't hide them.
-    viewYaw(p) {
+    // The direction of the path here, for a camera behind the child: forward along the way,
+    // or back towards the house if the child is walking that way (vx, vz).
+    viewYaw(p, vx = 0, vz = 0) {
       if (S.perch > 0 || S.move) {   // in the tree: from outside, looking in at the child and the trunk
         const a = Math.atan2(p.z - TREE.z, p.x - TREE.x);
         return Math.atan2(Math.cos(a), Math.sin(a));
       }
       if (p.x >= EDGE - 2 || Math.hypot(p.x - TREE.x, p.z - TREE.z) < CLEARING) return null;
-      const ahead = pointAt(Math.min(LENGTH, nearestOnPath(p.x, p.z).along + 3));
-      return Math.atan2(-ahead.ux, -ahead.uz);
+      const along = nearestOnPath(p.x, p.z).along;
+      const here = pointAt(along);
+      const back = vx * here.ux + vz * here.uz < -0.2;
+      const next = pointAt(Math.max(0, Math.min(LENGTH, along + (back ? -3 : 3))));
+      return back ? Math.atan2(next.ux, next.uz) : Math.atan2(-next.ux, -next.uz);
     },
 
     // the height of the child's feet while up in the tree or on the swing, otherwise null

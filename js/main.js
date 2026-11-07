@@ -949,9 +949,19 @@ function setupInstall() {
 
 // ---------- walking ----------
 function updatePlayer(dt) {
-  yaw += takeYaw(dt);
-  const pathYaw = forest.viewYaw(pos);
-  if (pathYaw !== null) yaw += Math.atan2(Math.sin(pathYaw - yaw), Math.cos(pathYaw - yaw)) * Math.min(1, dt * 2.5);
+  const turned = takeYaw(dt);
+  yaw += turned;
+  if (turned) lastTurn = simTime;
+  // On the forest path the camera follows the way, but only while the child walks, and it leaves
+  // the player in charge for a while after they turn it by hand. Turned sideways it comes closer,
+  // so the trees beside the path don't get in between.
+  const pathYaw = forest.viewYaw(pos, vel.x, vel.y);
+  sideways = 0;
+  if (pathYaw !== null) {
+    const off = Math.atan2(Math.sin(pathYaw - yaw), Math.cos(pathYaw - yaw));
+    sideways = Math.abs(Math.sin(off));
+    if (forest.climbing || (Math.hypot(vel.x, vel.y) > 0.5 && simTime - lastTurn > HAND_TURN_SECONDS)) yaw += off * Math.min(1, dt * 2);
+  }
   const mv = playing && !forest.holds() ? getMove() : { x: 0, y: 0 };
   const fx = -Math.sin(yaw), fz = -Math.cos(yaw);       // forward on the ground
   const rx = Math.cos(yaw), rz = -Math.sin(yaw);        // right on the ground
@@ -1000,6 +1010,15 @@ const camGoal = new THREE.Vector3();
 const lookAt = new THREE.Vector3();
 let introAngle = 0;
 let snapCamera = true;
+let closeness = 0;         // 0 = the usual view from behind and above, 1 = close behind the child's shoulder
+let sideways = 0;          // how far the camera is turned away from the forest path
+let lastTurn = -99;        // when the player last turned the camera by hand
+const HAND_TURN_SECONDS = 3;
+const FAR = { dist: 6.5, height: 4.4, distTall: 7.5, heightTall: 5.2 };
+const NEAR = { dist: 3.2, height: 2.3, ahead: 2.2 };   // ahead: looks past the child, so they don't fill the screen
+const WALL_GAP = 0.35;     // the camera stays this far inside the walls of a room
+
+const roomAround = (x, z, y) => (y > 2 ? null : rooms.find((r) => roomState(r.id).unlocked && x > r.x1 && x < r.x2 && z > r.z1 && z < r.z2));
 
 function updateCamera(dt) {
   if (!playing) {
@@ -1010,11 +1029,21 @@ function updateCamera(dt) {
     return;
   }
   const narrow = innerWidth < innerHeight;
-  const dist = narrow ? 7.5 : 6.5, height = narrow ? 5.2 : 4.4;
+  const room = roomAround(pos.x, pos.z, pos.y);
+  closeness += ((room ? 1 : sideways * 0.8) - closeness) * Math.min(1, dt * 4);
+  const dist = THREE.MathUtils.lerp(narrow ? FAR.distTall : FAR.dist, NEAR.dist, closeness);
+  const height = THREE.MathUtils.lerp(narrow ? FAR.heightTall : FAR.height, NEAR.height, closeness);
   // look up at the sky while a kite flies or the stars come out
   const lift = terrace.camLift();
-  lookAt.set(pos.x, pos.y + 1.1 + lift * 5, pos.z);
+  const ahead = room ? NEAR.ahead * closeness : 0;
+  lookAt.set(pos.x - Math.sin(yaw) * ahead, pos.y + 1.1 + lift * 5, pos.z - Math.cos(yaw) * ahead);
   camGoal.set(pos.x + Math.sin(yaw) * dist, pos.y + height - lift * 3, pos.z + Math.cos(yaw) * dist);
+  if (room) {
+    // stay inside the room; with a wall right behind the child, look down from a little higher
+    camGoal.x = Math.max(room.x1 + WALL_GAP, Math.min(room.x2 - WALL_GAP, camGoal.x));
+    camGoal.z = Math.max(room.z1 + WALL_GAP, Math.min(room.z2 - WALL_GAP, camGoal.z));
+    camGoal.y += Math.max(0, 1.4 - Math.hypot(camGoal.x - pos.x, camGoal.z - pos.z)) * 0.7;
+  }
   if (snapCamera) { camera.position.copy(camGoal); snapCamera = false; }
   else camera.position.lerp(camGoal, Math.min(1, dt * 6));
   camera.lookAt(lookAt);
@@ -1095,6 +1124,9 @@ window.__game = {
   save, pos, me, startDoorQuiz, startSurprise, addCoins,
   get terrace() { return terrace; },
   get forest() { return forest; },
+  get yaw() { return yaw; },
+  get closeness() { return closeness; },
+  get camera() { return camera; },
   // jump somewhere (for tests), e.g. __game.goTo(17.2, -0.3) for the kite corner
   goTo(x, z) { pos.x = x; pos.z = z; pos.y = floorHeight(x, z); snapCamera = true; },
   get doors() { return W.doors; },
