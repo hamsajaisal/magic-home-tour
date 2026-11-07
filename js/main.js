@@ -59,6 +59,7 @@ async function boot() {
   ]);
   rooms = roomData.rooms;
   applyLipi(save.settings.lipi);
+  applyJoystickSide(save.settings.joystick);
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
@@ -792,6 +793,16 @@ function applyLipi(choice) {
   document.querySelectorAll('[data-lipi]').forEach((b) => b.classList.toggle('active', b.dataset.lipi === (isNew ? 'new' : 'old')));
 }
 
+// which thumb walks on a phone; the turn buttons and the drag-to-turn side go to the other side
+function applyJoystickSide(side) {
+  document.body.classList.toggle('joy-right', side === 'right');
+  document.querySelectorAll('[data-joy]').forEach((b) => {
+    const on = b.dataset.joy === side;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+}
+
 function changeLang(l) {
   save.lang = l;
   persist();
@@ -879,6 +890,12 @@ function setupUI() {
     applyLipi(save.settings.lipi);
     await document.fonts.ready;
     refreshSigns();
+  }));
+  document.querySelectorAll('[data-joy]').forEach((b) => b.addEventListener('click', () => {
+    play('click');
+    save.settings.joystick = b.dataset.joy;
+    persist();
+    applyJoystickSide(save.settings.joystick);
   }));
   $('set-voice').addEventListener('change', (e) => { save.settings.voice = e.target.checked; persist(); });
   $('set-read').addEventListener('change', (e) => { save.settings.readAloud = e.target.checked; persist(); });
