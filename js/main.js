@@ -877,6 +877,7 @@ function setupUI() {
     $('set-sound').checked = save.settings.sound;
     $('set-voice').checked = save.settings.voice !== false;
     $('set-read').checked = !!save.settings.readAloud;
+    $('set-close').checked = !!save.settings.closeView;
     hidePrompt();
     setControlsEnabled(false);
     $('settings').classList.remove('hidden');
@@ -891,12 +892,7 @@ function setupUI() {
     await document.fonts.ready;
     refreshSigns();
   }));
-  $('view-btn').addEventListener('click', () => {
-    play('click');
-    save.settings.closeView = !save.settings.closeView;
-    persist();
-    refreshViewBtn();
-  });
+  $('set-close').addEventListener('change', (e) => { save.settings.closeView = e.target.checked; persist(); });
   document.querySelectorAll('[data-joy]').forEach((b) => b.addEventListener('click', () => {
     play('click');
     save.settings.joystick = b.dataset.joy;
@@ -1043,22 +1039,6 @@ const WALL_GAP = 0.35;     // the camera stays this far inside the walls of a ro
 
 const roomAround = (x, z, y) => (y > 2 ? null : rooms.find((r) => roomState(r.id).unlocked && x > r.x1 && x < r.x2 && z > r.z1 && z < r.z2));
 
-// inside an opened room the child chooses: the usual view, or close behind the shoulder
-let viewBtnShown = false;
-function refreshViewBtn() {
-  const key = save.settings.closeView ? 'viewFar' : 'viewNear';
-  const b = $('view-btn');
-  b.dataset.i18n = key;
-  b.textContent = t(key);
-  b.setAttribute('aria-pressed', String(!!save.settings.closeView));
-}
-function showViewBtn(on) {
-  if (on === viewBtnShown) return;
-  viewBtnShown = on;
-  if (on) refreshViewBtn();
-  $('view-btn').classList.toggle('hidden', !on);
-}
-
 function updateCamera(dt) {
   if (!playing) {
     // slow turn around the house behind the start screen
@@ -1068,9 +1048,7 @@ function updateCamera(dt) {
     return;
   }
   const narrow = innerWidth < innerHeight;
-  const inRoom = roomAround(pos.x, pos.z, pos.y);
-  showViewBtn(!!inRoom);
-  const room = save.settings.closeView ? inRoom : null;
+  const room = save.settings.closeView ? roomAround(pos.x, pos.z, pos.y) : null;   // the close view is a choice in Settings
   closeness += ((room ? 1 : sideways * 0.8) - closeness) * Math.min(1, dt * 4);
   const dist = THREE.MathUtils.lerp(narrow ? FAR.distTall : FAR.dist, NEAR.dist, closeness);
   const height = THREE.MathUtils.lerp(narrow ? FAR.heightTall : FAR.height, NEAR.height, closeness);

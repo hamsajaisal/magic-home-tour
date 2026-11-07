@@ -181,8 +181,6 @@ body.joy-used.touch.playing #joystick { animation: none; opacity: .7; }
 body.touch #cam-btns.playing { display: flex !important; }
 #cam-btns { position: fixed; right: 12px; bottom: 18px; display: flex; gap: 10px; z-index: 12; }
 /* joystick on the right (Settings): everything swaps sides */
-#view-btn { position: fixed; right: 12px; bottom: 150px; z-index: 12; }
-body.joy-right #view-btn { right: auto; left: 12px; }
 body.joy-right #joy-zone { left: auto; right: 0; }
 body.joy-right #joystick { left: calc(100% - 96px); }
 body.joy-right #cam-btns { right: auto; left: 12px; }
