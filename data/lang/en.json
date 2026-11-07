@@ -109,6 +109,8 @@
   "continue": "Continue ➜",
   "secretToday": "🌟 Today's secret room: {room} — its surprise gives double coins!",
   "secretBonus": "🌟 Secret room bonus: +{c} 🪙",
+  "viewNear": "🔍 See closer",
+  "viewFar": "🔍 See from further back",
   "turnLeft": "Turn camera left",
   "turnRight": "Turn camera right",
   "secs": "{s} sec",

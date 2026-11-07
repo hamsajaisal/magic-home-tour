@@ -198,8 +198,10 @@ export function buildWorld(scene, rooms, { low }) {
     pivot.position.set(alongX ? hinge : s.fixed, PLINTH, alongX ? s.fixed : hinge);
     root.add(pivot);
     const dx = alongX ? DOOR_W / 2 : 0, dz = alongX ? 0 : DOOR_W / 2;
+    const leaves = [];
     const slab = (w, h, d, color) => {
-      const m = new THREE.Mesh(alongX ? new THREE.BoxGeometry(w, h, d) : new THREE.BoxGeometry(d, h, w), mat(color));
+      const m = new THREE.Mesh(alongX ? new THREE.BoxGeometry(w, h, d) : new THREE.BoxGeometry(d, h, w), mat(color).clone());
+      leaves.push(m);
       m.position.set(dx, DOOR_H / 2, dz);
       pivot.add(m);
       return m;
@@ -230,7 +232,7 @@ export function buildWorld(scene, rooms, { low }) {
     root.add(sign);
 
     W.doors.push({
-      room: r, pivot, lid: r._cover.lid, lock: r._cover.lock, collider, badge, sign, openAngle, angle: 0, target: 0,
+      room: r, pivot, leaves, lid: r._cover.lid, lock: r._cover.lock, collider, badge, sign, openAngle, angle: 0, target: 0,
       center, front: [center[0] + out[0] * 0.9, center[1] + out[1] * 0.9],
     });
   }
