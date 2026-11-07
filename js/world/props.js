@@ -49,7 +49,7 @@ const SETS = {
     wallBoard(H, board, 3, 1.5, cx, P + 1.5, r.z1 + H.WALL_T / 2 + 0.02, 0);
     // big number blocks
     const colors = ['#ff8a3d', '#3dd6ff', '#7dff6b', '#ff5d8f', '#b26bff', '#ffd23d'];
-    const blocks = [['1', 0.62, 0.82], ['2', 0.77, 0.82], ['3', 0.7, 0.82, 0.62], ['+', 0.45, 0.88], ['÷', 0.88, 0.93], ['%', 0.62, 0.62]];
+    const blocks = [['1', 0.68, 0.87], ['+', 0.79, 0.87], ['÷', 0.73, 0.87, 0.62]];   // few and in a corner, so the floor stays open
     blocks.forEach(([label, u, v, stackY], i) => {
       const [x, z] = at(r, u, v);
       const tex = H.labelTexture(label, colors[i], '#ffffff', 128, 128);

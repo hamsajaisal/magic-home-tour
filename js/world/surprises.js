@@ -250,8 +250,7 @@ export function createSurprises({ scene, W, rooms, low, setBanner, onEnd, stat }
         if (S.spawn <= 0) {
           S.spawn = low ? 0.32 : 0.2;
           const tr = makeTreat(S.variant, S.objects.length);
-          const x = S.room.x1 + 0.5 + Math.random() * (S.room.x2 - S.room.x1 - 1);
-          const z = S.room.z1 + 0.5 + Math.random() * (S.room.z2 - S.room.z1 - 1);
+          const [x, z] = freeSpot(S.room);      // open floor only, so the child can reach every treat
           tr.position.set(x, PLINTH + 3.6, z);
           tr.userData = { vy: 0, life: 4, spin: (Math.random() - 0.5) * 8 };
           scene.add(tr);
