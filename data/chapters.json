@@ -22,10 +22,10 @@
       { "en": "Indian Subcontinent", "ml": "ഇന്ത്യൻ ഉപഭൂഖണ്ഡം", "match": ["indian subcontinent", "chapter 6"] },
       { "en": "From Food Production to Food Security", "ml": "ഭക്ഷ്യോൽപാദനം മുതൽ ഭക്ഷ്യസുരക്ഷ വരെ", "match": ["from food production to food security", "chapter 7"] },
       { "en": "Power to the People", "ml": "അധികാരം ജനങ്ങൾക്ക്", "match": ["power to the people", "chapter 8"] },
-      { "en": "Maps and Technology to Know the Earth", "ml": "ഭൂമിയെ അറിയാൻ ഭൂപടങ്ങളും ആധുനികസങ്കേതങ്ങളും", "match": ["maps and technology", "chapter 9"] },
+      { "en": "Maps and Technology to Know the Earth", "ml": "ഭൂമിയെ അറിയാൻ ഭൂപടങ്ങളും ആധുനികസങ്കേതങ്ങളും", "match": ["maps and technology to know the earth", "maps and technology", "chapter 9"] },
       { "en": "Budget: The True Record of Development", "ml": "ബജറ്റ്: വികസനത്തിന്റെ നേർരേഖ", "match": ["budget: the true record of development", "chapter 10"] },
       { "en": "Against Discrimination", "ml": "വിവേചനത്തിനെതിരെ", "match": ["against discrimination: south africa", "against discrimination", "chapter 11"] },
-      { "en": "The Foundation Stones of History", "ml": "ചരിത്രത്തിന്റെ ആധാര ശിലകൾ", "match": ["chapter 12"] }
+      { "en": "The Foundation Stones of History", "ml": "ചരിത്രത്തിന്റെ ആധാര ശിലകൾ", "match": ["the foundation stones of history", "chapter 12"] }
     ],
     "maths": [
       { "en": "Parallel Lines", "ml": "സമാന്തരവരകൾ", "match": ["parallel lines", "chapter 1"] },
