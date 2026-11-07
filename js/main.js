@@ -15,6 +15,7 @@ import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.j
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
 import { initPractice, openPractice } from './ui/practice.js';
+import { initNews } from './ui/news.js';
 import {
   loadCatalog, addCoins, bumpStat, checkBadges, giveSticker, dailyCheck, level,
   freeSurpriseReady, useFreeSurprise, claimDaily,
@@ -63,6 +64,7 @@ async function boot() {
   setupUI();
   await initPractice({ rooms, onExit: () => $('start').classList.remove('hidden') });
   setupInstall();
+  await initNews({ beforeOpen: () => { hidePrompt(); setControlsEnabled(false); $('settings').classList.add('hidden'); } });
   refreshAll();
   $('loading').classList.add('hidden');
   $('start').classList.remove('hidden');
@@ -571,7 +573,7 @@ function checkPrompts() {
   if (!prompt && walked > 3 && walked < 4 && !rooms.some((r) => roomState(r.id).unlocked)) setTip(t('goToDoor'));
 }
 
-const PANELS = ['shop', 'album', 'daily', 'settings', 'credits', 'progress', 'about'];
+const PANELS = ['shop', 'album', 'daily', 'settings', 'credits', 'progress', 'about', 'news'];
 const anyPanelOpen = () => PANELS.some((id) => !$(id).classList.contains('hidden'));
 
 // ---------- HUD and signs ----------
