@@ -39,6 +39,7 @@
         <button id="play-btn" class="big-btn" data-i18n="play">Let's play!</button>
         <button id="practice-btn" class="soft-btn big-soft" data-i18n="practiceMode">Quiz only mode</button>
         <button id="about-btn" class="soft-btn small" data-i18n="about">About</button>
+        <button id="news-btn" class="soft-btn small"><span data-i18n="whatsNew">What's new?</span><span id="news-mark" class="hidden"><span class="sr-only" data-i18n="whatsNewFresh"></span></span></button>
       </div>
       <p class="start-stats" id="start-stats"></p>
     </div>
@@ -215,6 +216,7 @@
       </div>
       <div class="btn-row">
         <button class="soft-btn" id="settings-about" data-i18n="about"></button>
+        <button class="soft-btn" id="settings-news" data-i18n="whatsNew"></button>
         <button class="soft-btn" id="credits-btn" data-i18n="credits"></button>
         <button class="soft-btn danger" id="reset-btn" data-i18n="resetProgress"></button>
       </div>
@@ -228,6 +230,14 @@
   </div>
 
   <!-- Credits -->
+  <div id="news" class="overlay hidden">
+    <div class="modal-card">
+      <h2 data-i18n="whatsNew">What's new?</h2>
+      <div id="news-list"></div>
+      <button class="big-btn" data-close="news" data-i18n="close"></button>
+    </div>
+  </div>
+
   <div id="about" class="overlay hidden">
     <div class="modal-card">
       <h2 data-i18n="about">About</h2>
