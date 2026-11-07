@@ -71,6 +71,9 @@
     "TB7-SOC-759": "TB7-SCI-112",
     "TB7-SOC-785": "BV-Social-61-6",
     "USS25-SOC-44": "BV-Science-43-1",
-    "USS25-SOC-55": "TB7-SOC-062"
+    "USS25-SOC-55": "TB7-SOC-062",
+    "TB7-MAT-802": "MATHS-0005",
+    "BV-Mathematics-EM-3-3": "TB7-MAT-808",
+    "BV-Mathematics-EM-1--3": "TB7-MAT-791"
   }
 }
