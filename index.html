@@ -15,7 +15,7 @@
   <script type="importmap">{ "imports": { "three": "./js/lib/three.module.min.js" } }</script>
 </head>
 <body>
-  <canvas id="game"></canvas>
+  <canvas id="game" tabindex="-1" role="application" aria-label="Magic Home Tour"></canvas>
   <canvas id="fx"></canvas>
 
   <!-- Loading screen -->
@@ -83,6 +83,7 @@
   <div id="tip" class="hidden"></div>
   <div id="banner" class="hidden" role="status" aria-live="polite"></div>
   <div id="toasts" role="status" aria-live="polite"></div>
+  <div id="sr-live" class="sr-only" aria-live="polite"></div>
 
   <!-- Door prompt -->
   <div id="prompt" class="hidden">

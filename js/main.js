@@ -17,6 +17,7 @@ import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
 import { initPractice, openPractice } from './ui/practice.js';
 import { initNews } from './ui/news.js';
+import { announce, initDialogs } from './ui/a11y.js';
 import {
   loadCatalog, addCoins, bumpStat, checkBadges, giveSticker, dailyCheck, level,
   freeSurpriseReady, useFreeSurprise, claimDaily,
@@ -638,6 +639,8 @@ function showPrompt(target) {
     $('prompt-go').classList.remove('hidden');
   }
   $('prompt').classList.remove('hidden');
+  const go = $('prompt-go');
+  announce(go.classList.contains('hidden') ? $('prompt-text').textContent : `${$('prompt-text').textContent} ${t('srPromptKey', { go: go.textContent })}`);
 }
 
 function hidePrompt() {
@@ -720,7 +723,10 @@ function refreshHUD() {
   $('quiz-lang').textContent = t('switchTo');
   $('sound-btn').textContent = save.settings.sound ? '🔊' : '🔇';
   $('start-stats').textContent = save.xp ? `🪙 ${save.coins} · ⭐ ${t('level')} ${level()} · 🚪 ${open}/${rooms.length}` : '';
-  document.querySelectorAll('[data-lang]').forEach((b) => b.classList.toggle('active', b.dataset.lang === lang()));
+  document.querySelectorAll('[data-lang]').forEach((b) => {
+    b.classList.toggle('active', b.dataset.lang === lang());
+    b.setAttribute('aria-pressed', String(b.dataset.lang === lang()));
+  });
 }
 
 function refreshSigns() {
@@ -811,8 +817,15 @@ function changeLang(l) {
   setLang(l);
 }
 
+// keyboard focus goes to the game itself, so screen readers hand the keys to the game
+function focusGame() {
+  $('game').setAttribute('aria-label', `${t('srGameArea')} ${controlsTip()}`);
+  $('game').focus({ preventScroll: true });
+}
+
 function startPlaying() {
   playing = true;
+  focusGame();
   setTip(controlsTip());
   setTimeout(() => { if ($('tip').textContent === controlsTip()) setTip(''); }, 12000);
   const daily = dailyCheck();
@@ -822,7 +835,9 @@ function startPlaying() {
   if (rooms.some((r) => roomState(r.id).unlocked)) callFromTerrace(60000);
   if (daily) {
     openDaily(daily, () => {
+      const before = save.coins;
       claimDaily();
+      announce(t('srCoinsGot', { c: save.coins - before }));
       play('unlock');
       confetti(100, ['🪙', '🔥', '⭐']);
       setControlsEnabled(true);
@@ -842,7 +857,14 @@ function setupUI() {
     e.preventDefault();
     const id = TOP[i];
     // language and sound work any time; the panels open only when nothing else is open
-    if (id !== 'lang-btn' && id !== 'sound-btn' && (isQuizOpen() || anyPanelOpen())) return;
+    if (id !== 'lang-btn' && id !== 'sound-btn') {
+      if (isQuizOpen()) return;
+      for (const p of PANELS) {
+        if ($(p).classList.contains('hidden')) continue;
+        ($(p).querySelector(`[data-close="${p}"]`) || $(p).querySelector('.modal-card > .big-btn'))?.click();
+      }
+      if (anyPanelOpen()) return;
+    }
     $(id).click();
   });
   initPanels({ onBuy: buy, onWear: wear, onOpen: () => { hidePrompt(); setTip(''); setControlsEnabled(false); } });
@@ -852,8 +874,8 @@ function setupUI() {
     if (prompt) showPrompt(prompt);
     if (playing && !$('tip').classList.contains('hidden')) setTip(walked < 3 ? controlsTip() : t('goToDoor'));
   });
-  document.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { play('click'); changeLang(b.dataset.lang); }));
-  $('lang-btn').addEventListener('click', () => { play('click'); changeLang(lang() === 'ml' ? 'en' : 'ml'); });
+  document.querySelectorAll('[data-lang]').forEach((b) => b.addEventListener('click', () => { play('click'); changeLang(b.dataset.lang); announce(t('srLangNow')); }));
+  $('lang-btn').addEventListener('click', () => { play('click'); changeLang(lang() === 'ml' ? 'en' : 'ml'); announce(t('srLangNow')); });
   $('quiz-lang').addEventListener('click', () => { play('click'); changeLang(lang() === 'ml' ? 'en' : 'ml'); });
   $('play-btn').addEventListener('click', () => {
     unlockAudio();
@@ -885,6 +907,7 @@ function setupUI() {
   $('progress-btn').addEventListener('click', () => { play('click'); openProgress(); });
   $('sound-btn').addEventListener('click', () => {
     save.settings.sound = !save.settings.sound; persist(); refreshHUD(); unlockAudio(); play('click');
+    announce(t(save.settings.sound ? 'srSoundOn' : 'srSoundOff'));
   });
   $('settings-btn').addEventListener('click', () => {
     play('click');
@@ -954,6 +977,7 @@ function setupUI() {
     setControlsEnabled(!isQuizOpen() && !anyPanelOpen());
   }));
   applyToPage();
+  initDialogs(PANELS, { watch: ['quiz'], whenClosed: () => { if (playing && !isQuizOpen() && !anyPanelOpen()) focusGame(); } });
 }
 
 // ---------- play without internet, and "Add to home screen" ----------
