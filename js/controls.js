@@ -51,7 +51,7 @@ export function initControls({ onAction }) {
   zone.addEventListener('pointerup', endJoy);
   zone.addEventListener('pointercancel', endJoy);
 
-  // drag on the 3D view (right side on phones, anywhere with a mouse) turns the camera
+  // drag on the 3D view (the half without the joystick on phones, anywhere with a mouse) turns the camera
   canvas.addEventListener('pointerdown', (e) => { drag.id = e.pointerId; drag.lastX = e.clientX; try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ } });
   canvas.addEventListener('pointermove', (e) => {
     if (e.pointerId !== drag.id) return;
@@ -71,7 +71,7 @@ export function initControls({ onAction }) {
   hold('cam-right', -1);
 }
 
-// the joystick goes back to its resting place (bottom left) so children always see how to walk
+// the joystick goes back to its resting place (bottom corner) so children always see how to walk
 function resetJoystick() {
   joy.active = false; joy.id = null; joy.x = joy.y = 0;
   joyEl.classList.remove('active');

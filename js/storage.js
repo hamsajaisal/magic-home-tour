@@ -12,8 +12,9 @@ function fresh() {
     xp: 0,
     rooms: {},        // roomId -> { unlocked, stars, best }
     wrong: {},        // questionId -> times answered wrong (used by the revision room later)
-    seen: {},         // questionId -> times shown
-    settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old', readAloud: false },
+    seen: {},         // questionId -> times shown (game and quiz mode)
+    levels: {},       // subject -> difficulty level of its rounds, starts at 1
+    settings: { lowGraphics: null, sound: true, voice: true, lipi: 'old', readAloud: false, joystick: 'left', closeView: false },
     streak: { count: 0, last: null },   // days in a row
     surpriseDay: {},  // roomId -> date of today's free surprise
     owned: [],        // shop items bought
@@ -23,6 +24,7 @@ function fresh() {
     stickers: [],     // sticker ids collected
     qstats: {},       // questionId -> { n, right, time, last } (time in seconds)
     days: {},         // date -> { n, right, time } questions answered that day
+    forest: { stage: 0, branch: 0, done: false, trips: 0 },   // gates open, branches climbed, finished, trips finished
     terrace: { keys: [], jacketDay: null, rescueDay: null, rescueStep: 0, rescuedDay: null, atticOpen: false },
   };
 }

@@ -107,11 +107,27 @@
       <div class="dots" id="quiz-dots"></div>
       <div id="quiz-body">
         <p class="q-text" id="q-text"></p>
+        <button class="hidden" id="slate-btn" aria-expanded="false" data-i18n="slateOpen">✏️ Slate</button>
+        <p class="hidden" id="slate-tip" data-i18n="slateTip"></p>
         <div class="options" id="q-options"></div>
         <p class="small-note hidden" id="q-voice-note" role="status"></p>
         <div class="feedback hidden" id="q-feedback"></div>
         <button class="big-btn hidden" id="q-next"></button>
         <button class="soft-btn hidden" id="quiz-end" data-i18n="practiceEnd">End the quiz</button>
+      </div>
+      <div id="slate" class="hidden">
+        <div class="slate-tools" role="toolbar" aria-label="slate" data-i18n-label="slateTools">
+          <button class="chalk" data-color="#ffffff" style="--chalk:#ffffff" aria-pressed="true" aria-label="white chalk" data-i18n-label="chalkWhite"></button>
+          <button class="chalk" data-color="#ffe066" style="--chalk:#ffe066" aria-pressed="false" aria-label="yellow chalk" data-i18n-label="chalkYellow"></button>
+          <button class="chalk" data-color="#ff9ec4" style="--chalk:#ff9ec4" aria-pressed="false" aria-label="pink chalk" data-i18n-label="chalkPink"></button>
+          <button class="chalk tool" id="slate-duster" aria-pressed="false" aria-label="duster" data-i18n-label="slateDuster">🧽</button>
+          <button class="tool" id="slate-undo" aria-label="undo the last line" data-i18n-label="slateUndo">↩️</button>
+          <button class="tool" id="slate-clear" aria-label="wipe everything" data-i18n-label="slateClear">🗑️</button>
+          <button class="tool" id="slate-lines" aria-pressed="true" aria-label="squares" data-i18n-label="slateLines">▦</button>
+          <button class="tool" id="slate-big" aria-pressed="false" aria-label="bigger slate" data-i18n-label="slateBig">⛶</button>
+          <button class="tool" id="slate-close" aria-label="show the question big" data-i18n-label="slateClose">📖</button>
+        </div>
+        <canvas id="slate-canvas" class="lined" role="img" aria-label="slate for writing" data-i18n-label="slateArea"></canvas>
       </div>
       <div id="quiz-result" class="hidden">
         <div class="result-emoji" id="r-emoji">🎉</div>
@@ -185,9 +201,14 @@
       <label class="row"><input type="checkbox" id="set-sound"> <span data-i18n="sound"></span></label>
       <label class="row"><input type="checkbox" id="set-voice"> <span data-i18n="voiceSetting"></span></label>
       <label class="row"><input type="checkbox" id="set-read"> <span data-i18n="readAloudSetting"></span></label>
+      <label class="row"><input type="checkbox" id="set-close"> <span data-i18n="closeViewSetting"></span></label>
       <div class="row"><span data-i18n="lipi"></span>
         <button class="soft-btn small lipi-btn" data-lipi="old" data-i18n="lipiOld"></button>
         <button class="soft-btn small lipi-btn" data-lipi="new" data-i18n="lipiNew"></button>
+      </div>
+      <div class="row touch-only"><span data-i18n="joySide"></span>
+        <button class="soft-btn small" data-joy="left" data-i18n="joyLeft"></button>
+        <button class="soft-btn small" data-joy="right" data-i18n="joyRight"></button>
       </div>
       <div class="row"><span data-i18n="medium"></span>
         <button class="soft-btn small" data-lang="ml">മലയാളം</button>

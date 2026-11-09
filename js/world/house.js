@@ -84,7 +84,8 @@ export function buildWorld(scene, rooms, { low }) {
   box(2.6, 0.02, 16, '#f2d49b', 0, 0, 20);                      // sand path to the gate
   const lat = '#c8693f';                                         // laterite stone colour
   box(40, 0.9, 0.4, lat, 0, 0, -14, { collide: true });
-  box(0.4, 0.9, 42, lat, -20, 0, 7, { collide: true });
+  box(0.4, 0.9, 24.5, lat, -20, 0, -1.75, { collide: true });     // west wall, with a gap for the way to the forest
+  box(0.4, 0.9, 14.5, lat, -20, 0, 20.75, { collide: true });
   box(0.4, 0.9, 42, lat, 20, 0, 7, { collide: true });
   box(18.2, 0.9, 0.4, lat, -10.9, 0, 28, { collide: true });
   box(18.2, 0.9, 0.4, lat, 10.9, 0, 28, { collide: true });
@@ -197,8 +198,10 @@ export function buildWorld(scene, rooms, { low }) {
     pivot.position.set(alongX ? hinge : s.fixed, PLINTH, alongX ? s.fixed : hinge);
     root.add(pivot);
     const dx = alongX ? DOOR_W / 2 : 0, dz = alongX ? 0 : DOOR_W / 2;
+    const leaves = [];
     const slab = (w, h, d, color) => {
-      const m = new THREE.Mesh(alongX ? new THREE.BoxGeometry(w, h, d) : new THREE.BoxGeometry(d, h, w), mat(color));
+      const m = new THREE.Mesh(alongX ? new THREE.BoxGeometry(w, h, d) : new THREE.BoxGeometry(d, h, w), mat(color).clone());
+      leaves.push(m);
       m.position.set(dx, DOOR_H / 2, dz);
       pivot.add(m);
       return m;
@@ -229,7 +232,7 @@ export function buildWorld(scene, rooms, { low }) {
     root.add(sign);
 
     W.doors.push({
-      room: r, pivot, lid: r._cover.lid, lock: r._cover.lock, collider, badge, sign, openAngle, angle: 0, target: 0,
+      room: r, pivot, leaves, lid: r._cover.lid, lock: r._cover.lock, collider, badge, sign, openAngle, angle: 0, target: 0,
       center, front: [center[0] + out[0] * 0.9, center[1] + out[1] * 0.9],
     });
   }
@@ -315,7 +318,7 @@ export function buildWorld(scene, rooms, { low }) {
   const trees = [[-14, 20], [14, 22], [-16, 6], [16, 4], [-15, -8], [16, -12.3], [-8, 24], [9, 25], [-17, -12], [17, 15], [-11, -12], [11, 18]];
   trees.slice(0, low ? 6 : trees.length).forEach(([x, z], i) => coconutTree(x, z, 5 + (i % 3) * 0.8, i));
   for (const [x, z] of [[-12, 10], [12, 11], [-6, -11], [6, -12]].slice(0, low ? 2 : 4)) bananaPlant(x, z);
-  for (const [x, z] of [[-3, 14], [3, 16], [-3, 19], [3, 22], [-7, 13], [7, 14], [-3, 25], [3, 25]].slice(0, low ? 4 : 8)) hibiscus(x, z);
+  for (const [x, z] of [[-3, 14], [3, 16], [-3, 19], [3, 22], [-7, 14.4], [7, 14], [-3, 25], [3, 25]].slice(0, low ? 4 : 8)) hibiscus(x, z);
   well(-12, 16);
   if (!low) clouds();
 

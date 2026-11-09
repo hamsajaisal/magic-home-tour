@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import { SETTINGS } from '../settings.js';
 import { save, persist, resetAll, roomState, today, IS_TEST } from './storage.js';
 import { loadLanguages, setLang, lang, t, tIn, pick, onLangChange, applyToPage } from './i18n.js';
-import { loadQuestions, makeQuiz, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
+import { loadQuestions, makeQuiz, updateLevel, available, toQuizItem, sources, makeRevisionQuiz, wrongQuestions, makeHardQuiz } from './questions.js';
 import { buildWorld, floorHeight, labelTexture, setSignFont, START } from './world/house.js';
 import { createPlayer, PLAYER_RADIUS } from './world/player.js';
 import { collide } from './world/physics.js';
@@ -11,6 +11,7 @@ import { createSurprises } from './world/surprises.js';
 import { createDecor } from './world/decor.js';
 import { createExtras } from './world/extras.js';
 import { createTerrace, isUp, STARS_PER_ANSWER, RESCUE_STEPS } from './world/terrace.js';
+import { createForest, GATES, BRANCHES } from './world/forest.js';
 import { initControls, getMove, takeYaw, setControlsEnabled } from './controls.js';
 import { openQuiz, isQuizOpen, retranslateQuiz } from './ui/quiz.js';
 import { initPanels, openShop, openAlbum, openDaily, openProgress } from './ui/panels.js';
@@ -27,7 +28,7 @@ import { confetti } from './fx.js';
 
 const $ = (id) => document.getElementById(id);
 let rooms = [];
-let W, player, renderer, scene, camera, sun, hemi, surprises, decor, extras, terrace;
+let W, player, renderer, scene, camera, sun, hemi, surprises, decor, extras, terrace, forest;
 const pos = new THREE.Vector3(START.x, 0, START.z);
 const vel = new THREE.Vector2();
 let facing = Math.PI;      // facing the house
@@ -59,6 +60,7 @@ async function boot() {
   ]);
   rooms = roomData.rooms;
   applyLipi(save.settings.lipi);
+  applyJoystickSide(save.settings.joystick);
   await loadCatalog(rooms, { showToast: toast, changed: refreshHUD });
   setup3D();
   setupUI();
@@ -142,6 +144,8 @@ function setup3D() {
   terrace.setAtticOpen(save.terrace.atticOpen, true);
   terrace.setRescue(rescueStepToday(), true);
   terrace.setTrail(!save.stats.terraceVisited);
+  forest = createForest({ scene, W, low, onFruit: eatFruit });
+  forest.setProgress(save.forest.stage, save.forest.done, true);
 
   for (const d of W.doors) {
     if (roomState(d.room.id).unlocked) openDoor(d, true);
@@ -161,7 +165,7 @@ function openDoor(d, instant = false) {
   d.badge.visible = false;
   d.lock.visible = false;
   d.lid.visible = false;
-  W.fadeables = W.fadeables.filter((m) => m !== d.lid);
+  W.fadeables = W.fadeables.filter((m) => m !== d.lid).concat(d.leaves);   // an open door must not hide the child
   if (instant) d.angle = d.openAngle;
 }
 
@@ -176,7 +180,7 @@ function quizSize(room) {
 function runQuiz(opts) {
   const { room, count, door, onPassed } = opts;
   let { needed } = opts;
-  const items = opts.makeItems ? opts.makeItems() : makeQuiz(room.subject, lang(), count, save);
+  const items = opts.makeItems ? opts.makeItems() : makeQuiz(room.subject, lang(), count, save, opts.leastLevel);
   if (!items.length) { toast(t('noQuestions')); return; }
   needed = Math.min(needed, items.length);
   let rights = 0;   // right on the first try, in this round
@@ -215,6 +219,7 @@ function runQuiz(opts) {
       passedNow = score >= needed;
       const stars = score === total ? 3 : passedNow ? 2 : score >= Math.ceil(total / 2) ? 1 : 0;
       if (score === total) bumpStat('perfectQuizzes');
+      if (!opts.makeItems) updateLevel(save, room.subject, score, total);
       if (door && passedNow) {
         const rs = roomState(room.id);
         rs.unlocked = true;
@@ -455,6 +460,100 @@ function startAttic(first) {
   });
 }
 
+// ---------- the forest beyond the west gate ----------
+const forestRoom = () => ({ id: 'forest', subject: 'science', emoji: '🌳', name: nameOf('forestName') });
+let fruitsEaten = 0;
+let fruitToast = null;
+
+function showBannerFor(text, ms) {
+  setBanner(text);
+  setTimeout(() => { if ($('banner').textContent === text) setBanner(''); }, ms);
+}
+
+// A board on the path: pass it and the next gate opens. The questions get harder gate by gate.
+function startForestBoard() {
+  const F = save.forest;
+  runQuiz({
+    room: forestRoom(), count: SETTINGS.FOREST_QUESTIONS, needed: SETTINGS.FOREST_CORRECT,
+    leastLevel: Math.ceil(((F.stage + 1) * SETTINGS.LEVEL_MIX.length) / GATES),
+    passTitle: 'forestPass', passButton: 'continue',
+    onPassed() {
+      F.stage++;
+      persist();
+      forest.setProgress(F.stage, F.done);
+      refreshSigns();
+      addCoins(SETTINGS.FOREST_GATE_COINS);
+      toast(t('forestOpened', { i: F.stage, all: GATES, c: SETTINGS.FOREST_GATE_COINS }));
+      play('unlock');
+      player.cheer();
+      if (F.stage === GATES) showBannerFor(t('forestAllOpen'), 8000);
+    },
+  });
+}
+
+// The big tree: harder questions for each branch. A round not passed keeps the branches already climbed.
+function startTree() {
+  const F = save.forest;
+  runQuiz({
+    room: forestRoom(), count: SETTINGS.TREE_QUESTIONS, needed: SETTINGS.TREE_CORRECT,
+    makeItems: () => makeHardQuiz(lang(), SETTINGS.TREE_QUESTIONS, save, 'science'),
+    passTitle: 'treePass', passButton: 'continue',
+    afterClose(passed) {
+      if (!passed) { dismissed = null; return; }
+      F.branch++;
+      persist();
+      player.cheer();
+      play('coin');
+      forest.climbTo(F.branch, F.branch >= BRANCHES ? treeWon : null);
+    },
+  });
+}
+
+function treeWon() {
+  const F = save.forest;
+  F.done = true;
+  F.trips++;
+  persist();
+  forest.setProgress(F.stage, true);
+  addCoins(SETTINGS.TREE_COINS);
+  toast(t('treeDone', { c: SETTINGS.TREE_COINS }));
+  confetti(160, ['🏆', '🌳', '🥭', '⭐']);
+  player.cheer();
+  play('chest');
+  bumpStat('forestTrips');
+  setTimeout(() => forest.climbTo(0, () => {
+    fruitsEaten = 0;
+    forest.fruitRain();
+    showBannerFor(t('fruitRain'), 9000);
+  }), 2200);
+}
+
+function eatFruit() {
+  fruitsEaten++;
+  addCoins(SETTINGS.FRUIT_COINS);
+  play('coin');
+  clearTimeout(fruitToast);
+  fruitToast = setTimeout(() => toast(t('fruitEaten', { n: fruitsEaten })), 1200);
+}
+
+function startSwing() {
+  hidePrompt();
+  play('unlock');
+  forest.startSwing(() => { player.cheer(); dismissed = { key: 'fswing', pos: forest.targets().find((x) => x.kind === 'fswing')?.pos || [pos.x, pos.z] }; });
+}
+
+// After finishing, the gates close again for a new trip with new questions.
+function startNewTrip() {
+  const F = save.forest;
+  F.stage = 0;
+  F.branch = 0;
+  F.done = false;
+  persist();
+  forest.setProgress(0, false);
+  refreshSigns();
+  startForestBoard();
+}
+
 function setBanner(text) {
   const b = $('banner');
   b.textContent = text || '';
@@ -505,6 +604,26 @@ function showPrompt(target) {
     $('prompt-text').textContent = t('chestPrompt', { n: SETTINGS.ATTIC_QUESTIONS, k: SETTINGS.ATTIC_CORRECT, c: SETTINGS.ATTIC_COINS });
     $('prompt-go').textContent = t('atticGo');
     $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'fboard') {
+    $('prompt-emoji').textContent = '🪧❓';
+    $('prompt-text').textContent = t('forestPrompt', { i: save.forest.stage + 1, all: GATES, n: SETTINGS.FOREST_QUESTIONS, k: SETTINGS.FOREST_CORRECT });
+    $('prompt-go').textContent = t('forestGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'ftree') {
+    $('prompt-emoji').textContent = '🌳🧗';
+    $('prompt-text').textContent = t('treePrompt', { i: save.forest.branch + 1, all: BRANCHES, n: SETTINGS.TREE_QUESTIONS, k: SETTINGS.TREE_CORRECT });
+    $('prompt-go').textContent = t('treeGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'fswing') {
+    $('prompt-emoji').textContent = '🌳😄';
+    $('prompt-text').textContent = t('swingPrompt');
+    $('prompt-go').textContent = t('swingGo');
+    $('prompt-go').classList.remove('hidden');
+  } else if (target.kind === 'fnew') {
+    $('prompt-emoji').textContent = '🌳🥾';
+    $('prompt-text').textContent = t('newTripPrompt', { n: save.forest.trips });
+    $('prompt-go').textContent = t('newTripGo');
+    $('prompt-go').classList.remove('hidden');
   } else if (target.kind === 'cupboard') {
     const n = wrongQuestions(save, lang()).length;
     $('prompt-emoji').textContent = n ? '📚🔒' : '📚✨';
@@ -538,13 +657,19 @@ function act() {
   else if (prompt.kind === 'pool') { if (jacketToday()) startRescue(); else startJacket(); }
   else if (prompt.kind === 'attic') startAttic(true);
   else if (prompt.kind === 'chest') startAttic(false);
+  else if (prompt.kind === 'fboard') startForestBoard();
+  else if (prompt.kind === 'ftree') startTree();
+  else if (prompt.kind === 'fswing') startSwing();
+  else if (prompt.kind === 'fnew') startNewTrip();
   else openGift(prompt.gift);
 }
 
 function checkPrompts() {
   if (!playing || isQuizOpen() || anyPanelOpen()) return;
-  const targets = [];
-  if (isUp(pos.y)) {
+  const targets = forest.targets();
+  if (forest.holds()) {
+    // up in the tree only the tree's own question can be asked
+  } else if (isUp(pos.y)) {
     if (!terrace.busy()) {
       const spots = ['kite', 'telescope', 'pool', save.terrace.atticOpen ? 'chest' : 'attic'];
       for (const kind of spots) {
@@ -553,7 +678,7 @@ function checkPrompts() {
       }
     }
   } else for (const d of W.doors) if (d.collider.on) targets.push({ kind: 'door', key: `door:${d.room.id}`, door: d, pos: d.front, r: 1.5 });
-  if (!surprises.active()) {
+  if (!surprises.active() && !forest.holds()) {
     for (const g of surprises.gifts) if (g.group.visible) targets.push({ kind: 'gift', key: `gift:${g.room.id}`, gift: g, pos: g.pos, r: 1.3 });
     targets.push({ kind: 'well', key: 'well', pos: extras.well.pos, r: 2.0 });
     targets.push({ kind: 'cupboard', key: 'cupboard', pos: extras.cupboard.pos, r: 1.3 });
@@ -608,6 +733,7 @@ function refreshSigns() {
   }
   extras.refreshSigns({ cupboard: t('cupboardName'), well: t('wellName') }, wrongQuestions(save, lang()).length);
   terrace.refreshSigns({ terrace: t('terraceName'), attic: t('atticName') }, save.terrace.keys.length, save.terrace.atticOpen);
+  forest.refreshSigns({ forest: t('forestName'), toForest: t('forestSign'), board: t('forestBoard') });
   W.titleSign.material.map?.dispose();
   W.titleSign.material.map = labelTexture(`🏡 ${t('title')}`, '#ff8a3d', '#ffffff');
   W.titleSign.material.needsUpdate = true;
@@ -669,6 +795,16 @@ function applyLipi(choice) {
   document.querySelectorAll('[data-lipi]').forEach((b) => b.classList.toggle('active', b.dataset.lipi === (isNew ? 'new' : 'old')));
 }
 
+// which thumb walks on a phone; the turn buttons and the drag-to-turn side go to the other side
+function applyJoystickSide(side) {
+  document.body.classList.toggle('joy-right', side === 'right');
+  document.querySelectorAll('[data-joy]').forEach((b) => {
+    const on = b.dataset.joy === side;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+}
+
 function changeLang(l) {
   save.lang = l;
   persist();
@@ -725,7 +861,12 @@ function setupUI() {
     openPractice();
   });
   $('prompt-go').addEventListener('click', act);
-  $('prompt-no').addEventListener('click', () => { play('click'); dismissed = prompt; hidePrompt(); });
+  $('prompt-no').addEventListener('click', () => {
+    play('click');
+    if (prompt?.kind === 'ftree' && forest.perch > 0) forest.climbTo(0);   // "later" while up in the tree: come down
+    dismissed = prompt;
+    hidePrompt();
+  });
   $('shop-btn').addEventListener('click', () => { play('click'); openShop(); });
   $('album-btn').addEventListener('click', () => { play('click'); openAlbum(); });
   $('progress-btn').addEventListener('click', () => { play('click'); openProgress(); });
@@ -738,6 +879,7 @@ function setupUI() {
     $('set-sound').checked = save.settings.sound;
     $('set-voice').checked = save.settings.voice !== false;
     $('set-read').checked = !!save.settings.readAloud;
+    $('set-close').checked = !!save.settings.closeView;
     hidePrompt();
     setControlsEnabled(false);
     $('settings').classList.remove('hidden');
@@ -751,6 +893,13 @@ function setupUI() {
     applyLipi(save.settings.lipi);
     await document.fonts.ready;
     refreshSigns();
+  }));
+  $('set-close').addEventListener('change', (e) => { save.settings.closeView = e.target.checked; persist(); });
+  document.querySelectorAll('[data-joy]').forEach((b) => b.addEventListener('click', () => {
+    play('click');
+    save.settings.joystick = b.dataset.joy;
+    persist();
+    applyJoystickSide(save.settings.joystick);
   }));
   $('set-voice').addEventListener('change', (e) => { save.settings.voice = e.target.checked; persist(); });
   $('set-read').addEventListener('change', (e) => { save.settings.readAloud = e.target.checked; persist(); });
@@ -821,8 +970,20 @@ function setupInstall() {
 
 // ---------- walking ----------
 function updatePlayer(dt) {
-  yaw += takeYaw(dt);
-  const mv = playing ? getMove() : { x: 0, y: 0 };
+  const turned = takeYaw(dt);
+  yaw += turned;
+  if (turned) lastTurn = simTime;
+  // On the forest path the camera follows the way, but only while the child walks, and it leaves
+  // the player in charge for a while after they turn it by hand. Turned sideways it comes closer,
+  // so the trees beside the path don't get in between.
+  const pathYaw = forest.viewYaw(pos, vel.x, vel.y);
+  sideways = 0;
+  if (pathYaw !== null) {
+    const off = Math.atan2(Math.sin(pathYaw - yaw), Math.cos(pathYaw - yaw));
+    sideways = Math.abs(Math.sin(off));
+    if (forest.climbing || (Math.hypot(vel.x, vel.y) > 0.5 && simTime - lastTurn > HAND_TURN_SECONDS)) yaw += off * Math.min(1, dt * 2);
+  }
+  const mv = playing && !forest.holds() ? getMove() : { x: 0, y: 0 };
   const fx = -Math.sin(yaw), fz = -Math.cos(yaw);       // forward on the ground
   const rx = Math.cos(yaw), rz = -Math.sin(yaw);        // right on the ground
   const tx = (rx * mv.x + fx * mv.y) * SETTINGS.WALK_SPEED;
@@ -834,6 +995,7 @@ function updatePlayer(dt) {
   pos.x += vel.x * dt;
   pos.z += vel.y * dt;
   collide(pos, W.colliders, PLAYER_RADIUS);
+  forest.constrain(pos, dt);
   walked += before.distanceTo(pos);
   const speed = Math.hypot(vel.x, vel.y);
   if (speed > 0.3) {
@@ -842,7 +1004,8 @@ function updatePlayer(dt) {
     diff = Math.atan2(Math.sin(diff), Math.cos(diff));
     facing += diff * Math.min(1, dt * 12);
   }
-  pos.y += (floorHeight(pos.x, pos.z) - pos.y) * Math.min(1, dt * 14);
+  facing = forest.facing() ?? facing;
+  pos.y += ((forest.height() ?? floorHeight(pos.x, pos.z)) - pos.y) * Math.min(1, dt * 14);
   player.root.position.copy(pos);
   player.root.rotation.y = facing;
   player.animate(dt, Math.min(1, speed / SETTINGS.WALK_SPEED));
@@ -868,6 +1031,15 @@ const camGoal = new THREE.Vector3();
 const lookAt = new THREE.Vector3();
 let introAngle = 0;
 let snapCamera = true;
+let closeness = 0;         // 0 = the usual view from behind and above, 1 = close behind the child's shoulder
+let sideways = 0;          // how far the camera is turned away from the forest path
+let lastTurn = -99;        // when the player last turned the camera by hand
+const HAND_TURN_SECONDS = 3;
+const FAR = { dist: 6.5, height: 4.4, distTall: 7.5, heightTall: 5.2 };
+const NEAR = { dist: 3.2, height: 2.3, ahead: 2.2 };   // ahead: looks past the child, so they don't fill the screen
+const WALL_GAP = 0.35;     // the camera stays this far inside the walls of a room
+
+const roomAround = (x, z, y) => (y > 2 ? null : rooms.find((r) => roomState(r.id).unlocked && x > r.x1 && x < r.x2 && z > r.z1 && z < r.z2));
 
 function updateCamera(dt) {
   if (!playing) {
@@ -878,11 +1050,21 @@ function updateCamera(dt) {
     return;
   }
   const narrow = innerWidth < innerHeight;
-  const dist = narrow ? 7.5 : 6.5, height = narrow ? 5.2 : 4.4;
+  const room = save.settings.closeView ? roomAround(pos.x, pos.z, pos.y) : null;   // the close view is a choice in Settings
+  closeness += ((room ? 1 : sideways * 0.8) - closeness) * Math.min(1, dt * 4);
+  const dist = THREE.MathUtils.lerp(narrow ? FAR.distTall : FAR.dist, NEAR.dist, closeness);
+  const height = THREE.MathUtils.lerp(narrow ? FAR.heightTall : FAR.height, NEAR.height, closeness);
   // look up at the sky while a kite flies or the stars come out
   const lift = terrace.camLift();
-  lookAt.set(pos.x, pos.y + 1.1 + lift * 5, pos.z);
+  const ahead = room ? NEAR.ahead * closeness : 0;
+  lookAt.set(pos.x - Math.sin(yaw) * ahead, pos.y + 1.1 + lift * 5, pos.z - Math.cos(yaw) * ahead);
   camGoal.set(pos.x + Math.sin(yaw) * dist, pos.y + height - lift * 3, pos.z + Math.cos(yaw) * dist);
+  if (room) {
+    // stay inside the room; with a wall right behind the child, look down from a little higher
+    camGoal.x = Math.max(room.x1 + WALL_GAP, Math.min(room.x2 - WALL_GAP, camGoal.x));
+    camGoal.z = Math.max(room.z1 + WALL_GAP, Math.min(room.z2 - WALL_GAP, camGoal.z));
+    camGoal.y += Math.max(0, 1.4 - Math.hypot(camGoal.x - pos.x, camGoal.z - pos.z)) * 0.7;
+  }
   if (snapCamera) { camera.position.copy(camGoal); snapCamera = false; }
   else camera.position.lerp(camGoal, Math.min(1, dt * 6));
   camera.lookAt(lookAt);
@@ -947,6 +1129,12 @@ function frame(dt, time, draw = true) {
     persist();
     terrace.setTrail(false);
   }
+  forest.update(dt, time, me);
+  if (pos.x < -22 && !save.stats.forestVisited) {
+    save.stats.forestVisited = 1;
+    persist();
+    showBannerFor(t('forestWelcome'), 10000);
+  }
   decor.update(dt, time, me);
   updateCamera(dt);
   if (draw) renderer.render(scene, camera);
@@ -956,6 +1144,10 @@ function frame(dt, time, draw = true) {
 window.__game = {
   save, pos, me, startDoorQuiz, startSurprise, addCoins,
   get terrace() { return terrace; },
+  get forest() { return forest; },
+  get yaw() { return yaw; },
+  get closeness() { return closeness; },
+  get camera() { return camera; },
   // jump somewhere (for tests), e.g. __game.goTo(17.2, -0.3) for the kite corner
   goTo(x, z) { pos.x = x; pos.z = z; pos.y = floorHeight(x, z); snapCamera = true; },
   get doors() { return W.doors; },

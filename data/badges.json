@@ -1,5 +1,5 @@
 {
-  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, wells, revisions, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers, kites, starsLit, rescues, attic, atticRounds. n = \"all\" means every room. Stickers come from treasure chests.",
+  "_help": "Badges are earned when a counter reaches 'n'. Counters: roomsOpened, wells, revisions, correct, perfectQuizzes, streak, treats, kittens, balloons, chests, bought, pets, level, stickers, kites, starsLit, rescues, attic, atticRounds, forestTrips. n = \"all\" means every room. Stickers come from treasure chests.",
   "badges": [
     {
       "id": "firstDoor",
@@ -219,6 +219,16 @@
       "name": {
         "en": "Opened the secret attic",
         "ml": "രഹസ്യ തട്ടിൻപുറം തുറന്നു"
+      }
+    },
+    {
+      "id": "forest",
+      "emoji": "🌳",
+      "rule": "forestTrips",
+      "n": 1,
+      "name": {
+        "en": "Top of the big tree!",
+        "ml": "വലിയ മരത്തിന്റെ മുകളിൽ!"
       }
     }
   ],

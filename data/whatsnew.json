@@ -1,23 +1,120 @@
 {
   "_help": "The list behind the What's New button, newest first. Add a line at the top each time something big reaches the main site: only what is live there, not what is still on the test site. Lines with the same date show together.",
   "items": [
-    { "date": "2026-11-07", "ml": "സാമൂഹ്യശാസ്ത്രം രണ്ടാം ഭാഗത്തിൽ നിന്ന് 291 പുതിയ ചോദ്യങ്ങൾ.", "en": "291 new Social Science questions from Part 2 of the textbook." },
-    { "date": "2026-11-07", "ml": "ഗണിതം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 288 പുതിയ ചോദ്യങ്ങൾ.", "en": "288 new Maths questions from Part 1 of the textbook." },
-    { "date": "2026-11-06", "ml": "ഈ കളിയെക്കുറിച്ച് അറിയാനും ഞങ്ങളെ ബന്ധപ്പെടാനും പുതിയ പേജ്.", "en": "A new page about the game, with a way to contact us." },
-    { "date": "2026-11-05", "ml": "ചോദ്യങ്ങൾ ആവർത്തിക്കുന്നത് കുറച്ചു.", "en": "Questions repeat much less now." },
-    { "date": "2026-11-04", "ml": "ചോദ്യങ്ങൾ മാത്രം: വീട്ടിൽ നടക്കാതെ വിഷയവും അധ്യായവും തിരഞ്ഞെടുത്ത് പരിശീലിക്കാം.", "en": "Quiz only mode: pick a subject and chapter and practise without walking through the house." },
-    { "date": "2026-11-04", "ml": "സാമൂഹ്യശാസ്ത്രം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 281 പുതിയ ചോദ്യങ്ങൾ.", "en": "281 new Social Science questions from Part 1 of the textbook." },
-    { "date": "2026-11-04", "ml": "അടിസ്ഥാനശാസ്ത്രം രണ്ടാം ഭാഗത്തിൽ നിന്ന് 194 പുതിയ ചോദ്യങ്ങൾ.", "en": "194 new Science questions from Part 2 of the textbook." },
-    { "date": "2026-11-03", "ml": "ടെറസ് തുറന്നു: പട്ടം, ദൂരദർശിനി, നീന്തൽക്കുളത്തിലെ രക്ഷാപ്രവർത്തനം, രഹസ്യ മുറി.", "en": "The terrace is open: kite, telescope, the rescue at the pool and a secret room." },
-    { "date": "2026-11-03", "ml": "ചോദ്യങ്ങൾ ഉറക്കെ വായിച്ചുകേൾക്കാം.", "en": "Questions can now be read aloud." },
-    { "date": "2026-11-03", "ml": "അടിസ്ഥാനശാസ്ത്രം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 232 പുതിയ ചോദ്യങ്ങൾ.", "en": "232 new Science questions from Part 1 of the textbook." },
-    { "date": "2026-11-02", "ml": "Bio-vision മോക്ക് ടെസ്റ്റുകളിൽ നിന്ന് 468 ചോദ്യങ്ങൾ.", "en": "468 questions from the Bio-vision mock tests." },
-    { "date": "2026-11-02", "ml": "KPSTA മാതൃകാപരീക്ഷയിൽ നിന്ന് 90 ചോദ്യങ്ങൾ.", "en": "90 questions from the KPSTA model exam." },
-    { "date": "2026-11-01", "ml": "USS 2025 ചോദ്യപേപ്പറിൽ നിന്ന് 88 ചോദ്യങ്ങൾ, KSTA മാതൃകാപരീക്ഷയിൽ നിന്ന് 87 ചോദ്യങ്ങൾ.", "en": "88 questions from the USS 2025 paper and 87 from the KSTA model exam." },
-    { "date": "2026-11-01", "ml": "\"എന്റെ പുരോഗതി\" പേജ്: ഓരോ വിഷയത്തിലെയും പ്രകടനവും എടുത്ത സമയവും കാണാം.", "en": "My Progress page: see how you did in each subject and the time you took." },
-    { "date": "2026-11-01", "ml": "Settings-ൽ പഴയ ലിപിയോ പുതിയ ലിപിയോ തിരഞ്ഞെടുക്കാം.", "en": "Choose the old or new Malayalam script in Settings." },
-    { "date": "2026-10-31", "ml": "ആറു മുറികളായി: മലയാളം, ഇംഗ്ലീഷ്, സാമൂഹ്യശാസ്ത്രം, പൊതുവിജ്ഞാനം എന്നിവ പുതിയത്. പുനരവലോകന അലമാരയും ആഗ്രഹക്കിണറും വന്നു.", "en": "Now six rooms, with Malayalam, English, Social Science and General Knowledge added, plus the revision cupboard and the wishing well." },
-    { "date": "2026-10-30", "ml": "സമ്മാനപ്പെട്ടികൾ, കട, ബാഡ്ജുകൾ, സ്റ്റിക്കറുകൾ, ദിവസേനയുള്ള സമ്മാനം എന്നിവ വന്നു.", "en": "Gift boxes, the shop, badges, stickers and a daily reward arrived." },
-    { "date": "2026-10-30", "ml": "കളി തുടങ്ങി: വീട്, ഗണിതം, അടിസ്ഥാനശാസ്ത്രം മുറികൾ.", "en": "The game began, with the house and the Maths and Science rooms." }
+    {
+      "date": "2026-11-09",
+      "ml": "വീടിന്റെ പടിഞ്ഞാറേ മതിലിനപ്പുറം പുതിയ കാട്: അഞ്ചു ചോദ്യപ്പലകകളും വാതിലുകളും കടന്ന് വലിയ മരത്തിൽ കയറാം, പഴമഴയും ഊഞ്ഞാലും ഉണ്ട്.",
+      "en": "A new forest beyond the west wall: pass five question boards and gates, climb the big tree, then enjoy fruit rain and a swing."
+    },
+    {
+      "date": "2026-11-09",
+      "ml": "കണക്കിനും സംഖ്യകളുള്ള ശാസ്ത്രചോദ്യങ്ങൾക്കും സ്ലേറ്റ്: വിരൽ കൊണ്ട് എഴുതി കണക്കുകൂട്ടാം.",
+      "en": "A slate for Maths and number questions in Science: work it out by writing with your finger."
+    },
+    {
+      "date": "2026-11-09",
+      "ml": "ചോദ്യങ്ങൾ എളുപ്പമുള്ളതിൽ നിന്ന് കഠിനമായതിലേക്ക് വരും; ഓരോ വിഷയത്തിലും നിങ്ങളുടെ നിലവാരത്തിനനുസരിച്ച് മാറും.",
+      "en": "Questions now go from easy to hard, and each subject adjusts to how you are doing."
+    },
+    {
+      "date": "2026-11-09",
+      "ml": "ചോദ്യങ്ങൾ മാത്രം മോഡ് മുമ്പ് ചോദിച്ച ചോദ്യങ്ങൾ ഓർത്തുവെക്കും, അതിനാൽ ആവർത്തനം കുറയും.",
+      "en": "Quiz only mode remembers questions already asked, so they repeat less."
+    },
+    {
+      "date": "2026-11-09",
+      "ml": "Settings-ൽ പുതിയ ചോയ്സുകൾ: നടക്കാനുള്ള ജോയ്സ്റ്റിക് ഇടത്തോ വലത്തോ, മുറിക്കുള്ളിൽ അടുത്ത കാഴ്ച.",
+      "en": "New choices in Settings: walking joystick on the left or right, and a closer view inside rooms."
+    },
+    {
+      "date": "2026-11-07",
+      "ml": "സാമൂഹ്യശാസ്ത്രം രണ്ടാം ഭാഗത്തിൽ നിന്ന് 291 പുതിയ ചോദ്യങ്ങൾ.",
+      "en": "291 new Social Science questions from Part 2 of the textbook."
+    },
+    {
+      "date": "2026-11-07",
+      "ml": "ഗണിതം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 288 പുതിയ ചോദ്യങ്ങൾ.",
+      "en": "288 new Maths questions from Part 1 of the textbook."
+    },
+    {
+      "date": "2026-11-06",
+      "ml": "ഈ കളിയെക്കുറിച്ച് അറിയാനും ഞങ്ങളെ ബന്ധപ്പെടാനും പുതിയ പേജ്.",
+      "en": "A new page about the game, with a way to contact us."
+    },
+    {
+      "date": "2026-11-05",
+      "ml": "ചോദ്യങ്ങൾ ആവർത്തിക്കുന്നത് കുറച്ചു.",
+      "en": "Questions repeat much less now."
+    },
+    {
+      "date": "2026-11-04",
+      "ml": "ചോദ്യങ്ങൾ മാത്രം: വീട്ടിൽ നടക്കാതെ വിഷയവും അധ്യായവും തിരഞ്ഞെടുത്ത് പരിശീലിക്കാം.",
+      "en": "Quiz only mode: pick a subject and chapter and practise without walking through the house."
+    },
+    {
+      "date": "2026-11-04",
+      "ml": "സാമൂഹ്യശാസ്ത്രം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 281 പുതിയ ചോദ്യങ്ങൾ.",
+      "en": "281 new Social Science questions from Part 1 of the textbook."
+    },
+    {
+      "date": "2026-11-04",
+      "ml": "അടിസ്ഥാനശാസ്ത്രം രണ്ടാം ഭാഗത്തിൽ നിന്ന് 194 പുതിയ ചോദ്യങ്ങൾ.",
+      "en": "194 new Science questions from Part 2 of the textbook."
+    },
+    {
+      "date": "2026-11-03",
+      "ml": "ടെറസ് തുറന്നു: പട്ടം, ദൂരദർശിനി, നീന്തൽക്കുളത്തിലെ രക്ഷാപ്രവർത്തനം, രഹസ്യ മുറി.",
+      "en": "The terrace is open: kite, telescope, the rescue at the pool and a secret room."
+    },
+    {
+      "date": "2026-11-03",
+      "ml": "ചോദ്യങ്ങൾ ഉറക്കെ വായിച്ചുകേൾക്കാം.",
+      "en": "Questions can now be read aloud."
+    },
+    {
+      "date": "2026-11-03",
+      "ml": "അടിസ്ഥാനശാസ്ത്രം ഒന്നാം ഭാഗത്തിൽ നിന്ന് 232 പുതിയ ചോദ്യങ്ങൾ.",
+      "en": "232 new Science questions from Part 1 of the textbook."
+    },
+    {
+      "date": "2026-11-02",
+      "ml": "Bio-vision മോക്ക് ടെസ്റ്റുകളിൽ നിന്ന് 468 ചോദ്യങ്ങൾ.",
+      "en": "468 questions from the Bio-vision mock tests."
+    },
+    {
+      "date": "2026-11-02",
+      "ml": "KPSTA മാതൃകാപരീക്ഷയിൽ നിന്ന് 90 ചോദ്യങ്ങൾ.",
+      "en": "90 questions from the KPSTA model exam."
+    },
+    {
+      "date": "2026-11-01",
+      "ml": "USS 2025 ചോദ്യപേപ്പറിൽ നിന്ന് 88 ചോദ്യങ്ങൾ, KSTA മാതൃകാപരീക്ഷയിൽ നിന്ന് 87 ചോദ്യങ്ങൾ.",
+      "en": "88 questions from the USS 2025 paper and 87 from the KSTA model exam."
+    },
+    {
+      "date": "2026-11-01",
+      "ml": "\"എന്റെ പുരോഗതി\" പേജ്: ഓരോ വിഷയത്തിലെയും പ്രകടനവും എടുത്ത സമയവും കാണാം.",
+      "en": "My Progress page: see how you did in each subject and the time you took."
+    },
+    {
+      "date": "2026-11-01",
+      "ml": "Settings-ൽ പഴയ ലിപിയോ പുതിയ ലിപിയോ തിരഞ്ഞെടുക്കാം.",
+      "en": "Choose the old or new Malayalam script in Settings."
+    },
+    {
+      "date": "2026-10-31",
+      "ml": "ആറു മുറികളായി: മലയാളം, ഇംഗ്ലീഷ്, സാമൂഹ്യശാസ്ത്രം, പൊതുവിജ്ഞാനം എന്നിവ പുതിയത്. പുനരവലോകന അലമാരയും ആഗ്രഹക്കിണറും വന്നു.",
+      "en": "Now six rooms, with Malayalam, English, Social Science and General Knowledge added, plus the revision cupboard and the wishing well."
+    },
+    {
+      "date": "2026-10-30",
+      "ml": "സമ്മാനപ്പെട്ടികൾ, കട, ബാഡ്ജുകൾ, സ്റ്റിക്കറുകൾ, ദിവസേനയുള്ള സമ്മാനം എന്നിവ വന്നു.",
+      "en": "Gift boxes, the shop, badges, stickers and a daily reward arrived."
+    },
+    {
+      "date": "2026-10-30",
+      "ml": "കളി തുടങ്ങി: വീട്, ഗണിതം, അടിസ്ഥാനശാസ്ത്രം മുറികൾ.",
+      "en": "The game began, with the house and the Maths and Science rooms."
+    }
   ]
 }

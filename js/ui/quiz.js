@@ -6,6 +6,7 @@ import { fmtTime, shortText } from '../progress.js';
 import { LETTERS } from '../question-format.js';
 import { save, persist, today } from '../storage.js';
 import { SETTINGS } from '../../settings.js';
+import { newSlate, closeSlate, isSlateOpen } from './slate.js';
 
 const $ = (id) => document.getElementById(id);
 const el = {
@@ -81,6 +82,7 @@ function endEarly() {
 export function closeQuiz() {
   if (!S) return;
   stopReading();
+  closeSlate();
   const { onClose } = S;
   S = null;
   el.panel.classList.add('hidden');
@@ -136,8 +138,15 @@ function showMoreLink() {
   p.append(before, a, after);
 }
 
+// The slate is offered for Maths, and for Science questions with numbers in the answers.
+function wantsSlate(item) {
+  const { subject } = item.raw;
+  return subject === 'maths' || (subject === 'science' && item.options.filter((o) => /\d/.test(o.text)).length >= 2);
+}
+
 function showQuestion() {
   const item = S.items[S.index];
+  newSlate(wantsSlate(item));
   S.tries = 0;
   S.shownAt = performance.now();
   el.count.textContent = countText();
@@ -204,6 +213,7 @@ function pickOption(i) {
     buttons[i].classList.add('right');
     buttons.forEach((b) => { b.disabled = true; });
     if (firstTry) S.score++;
+    closeSlate();
     S.marks[S.index] = firstTry ? 'ok' : 'bad';
     play('correct');
     S.praiseIdx = Math.floor(Math.random() * 100);
@@ -223,10 +233,12 @@ function pickOption(i) {
     S.fb = 'hint';
     renderFeedback();
     speak('tryAgain', 'tryOnce');
+    if (isSlateOpen()) el.feedback.scrollIntoView({ block: 'nearest' });
     return;
   }
   // second miss: show the right answer and why
   const right = item.options.findIndex((o) => o.correct);
+  closeSlate();
   buttons[right].classList.add('right');
   buttons.forEach((b) => { b.disabled = true; });
   S.marks[S.index] = 'bad';
@@ -286,6 +298,7 @@ function showReport() {
 }
 
 function showResult() {
+  closeSlate();
   el.body.classList.add('hidden');
   el.result.classList.remove('hidden');
   el.end.classList.add('hidden');

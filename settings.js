@@ -10,6 +10,11 @@ export const SETTINGS = {
   CORRECT_TO_UNLOCK: 4,       // how many must be right to open the door (e.g. 4 or 7)
 
   // ---- Rewards ----
+  // Each subject has a level. How much of a round is easy / hard at levels 1, 2 and 3 (the rest is medium).
+  LEVEL_MIX: [{ easy: 0.4, hard: 0 }, { easy: 0.2, hard: 0.2 }, { easy: 0, hard: 0.4 }],
+  LEVEL_UP_SCORE: 0.8,        // this share of a round right moves the subject up a level
+  LEVEL_DOWN_SCORE: 0.4,      // this share or less moves it down a level
+
   COINS_PER_CORRECT: 10,      // coins for each answer right on the first try
   COINS_FOR_UNLOCK: 30,       // bonus coins when a door opens
   XP_PER_CORRECT: 10,         // experience points per right answer
@@ -37,6 +42,14 @@ export const SETTINGS = {
   ATTIC_COINS: 40,            // coins for each later bonus level won
 
   // ---- Daily bonus ----
+  FOREST_QUESTIONS: 5,        // questions at each board on the forest path (Science)
+  FOREST_CORRECT: 3,          // how many must be right to open the next gate
+  FOREST_GATE_COINS: 20,      // coins for each gate
+  TREE_QUESTIONS: 3,          // harder questions for each branch of the big tree
+  TREE_CORRECT: 2,            // how many must be right to climb up
+  TREE_COINS: 100,            // coins for reaching the top of the tree
+  FRUIT_COINS: 2,             // coins for each fruit eaten
+
   DAILY_BONUS: 10,            // coins for playing today; multiplied by the streak (max 7 days)
 
   // ---- Language ----
